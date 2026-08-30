@@ -1,0 +1,1119 @@
+Ich muss meine Masterarbeit schreiben und schreibe sie zu dem Thema "Input" also dem html text input wie er im web verwendet wird. ausgangspunkt ist die zentrale rolle, die der Textinout heutzutage mit der KI revolution gekriegt hat und wie sich die navigation durch interfaces verändert hat und uach weiter wird. das soll aber nur das ende der Thesis darstellen. Ich würde gerne das Inpout feld vollständing beleuchten und die verschiedenen Andwendungsfelder analysieren (Formulare, etc.) und einen historischen überblick geben (Command line, google suchfeld, etc.). Wichtig ist vielleicht zu sagen, dass ich interface design studiere. Ich habe in einem Gespräch mit meinem Professor bereits ein paar erste notizen gemacht, die ich dir anhänge. worüber ich zunächst gerne sprechen würde ist wie ich meinen Workflow möglichst effizient mit KI unterstützen kann? Angefangen damit, wie ich am besten quellen finde etc.
+
+Die Masterarbeit muss um die 20 Seiten lang sein also nicht sehr umfangreich.
+8m 8s nachgedacht
+
+Deine Notizen enthalten bereits nicht nur ein Thema, sondern eine ziemlich klare zentrale Spannung:
+
+Das Textfeld verändert sich visuell kaum, während der Raum möglicher Handlungen, den es eröffnet, immer größer und unbestimmter wird.
+
+Vom Formularfeld, in das eine Postleitzahl in einem erwarteten Format eingetragen wird, über Suchfeld und Browser-Omnibox bis zum LLM-Composer, über den recherchiert, geschrieben, programmiert, navigiert, analysiert und gestaltet werden kann. Gleichzeitig verschiebt sich ein Teil der Interface-Arbeit auf den Menschen: Er muss formulieren, Möglichkeiten erahnen, Kontext liefern und einschätzen, was das System überhaupt versteht. Genau dazu passen deine Notizen über Blank Canvas, fehlende Guidance, Promptvorschläge, Kontext, Überforderung und die neue Kulturtechnik des Promptens.
+
+Für eine nur etwa 20 Seiten lange Masterarbeit ist das ein sehr gutes Thema – allerdings solltest du nicht versuchen, jede Form von Texteingabe vollständig historisch abzubilden. Sinnvoller wäre eine bewusst kuratierte Genealogie und vergleichende Interface-Analyse.
+
+1. Zuerst den Gegenstand sauber definieren
+
+Momentan vermischen sich in den Notizen drei Ebenen, die du in der Arbeit bewusst auseinanderhalten solltest:
+
+1. Das technische HTML-Element
+
+Zum Beispiel:
+
+<input type="text">
+<input type="search">
+<textarea>
+später komplexere, mit JavaScript erweiterte Editoren
+
+Die aktuelle HTML-Spezifikation beschreibt <input> als ein typisiertes Datenfeld; über das type-Attribut kann dasselbe Grundelement unter anderem Text, Suche, E-Mail, URL, Datum oder Zahlen repräsentieren. Das ist eine gute technische Grundlage für deine Beobachtung, dass die funktionale Bedeutung dieses ursprünglich kleinen Elements stark gewachsen ist.
+
+2. Das visuelle Interface-Element „Textfeld“
+
+Dazu gehören nicht nur der HTML-Knoten, sondern das gesamte sichtbare und interaktive Gefüge:
+
+Label
+Placeholder
+Rahmen und Schatten
+Cursor beziehungsweise Caret
+Fokuszustand
+Auswahlmarkierung
+Autocomplete
+Validierung
+Fehlermeldung
+Submit-Button
+Zeichenlimit
+Promptvorschläge
+angehängte Dateien und Bilder
+Feedback während und nach der Eingabe
+
+Das wäre dein Kapitel über die Anatomie des Inputs. Hier kannst du genau auf die Details eingehen, die dein Professor erwähnt hat: Browser-Default, Schatten, Cursor, Fokus, historische Herkunft und visuelle Konventionen.
+
+3. Texteingabe als Interaktionsparadigma
+
+Hier wird „Input“ zu einem übergeordneten Interface-Archetyp:
+
+Kommandozeile
+Formular
+Suchfeld
+Browser-Adresszeile beziehungsweise Omnibox
+Social-Media-Composer
+Command Palette
+Chat
+LLM-Prompt
+
+Eine Kommandozeile ist selbstverständlich kein HTML-Input. Trotzdem gehört sie zu derselben Genealogie der sprachlich beziehungsweise symbolisch formulierten Eingabe. Diese Unterscheidung verhindert, dass die Arbeit technisch unscharf wird.
+
+Eine passende Forschungsfrage könnte deshalb lauten:
+
+Wie entwickelte sich das Text-Input vom begrenzten Dateneingabefeld zu einem allgemeinen sprachbasierten Steuerungsraum des Webs – und welche gestalterischen Folgen hat diese Erweiterung für Guidance, Erwartbarkeit und Nutzerkontrolle?
+
+Ein möglicher Titel wäre:
+
+Input. Vom Formularfeld zum sprachbasierten Universalinterface
+Eine Genealogie des Texteingabefelds im Web
+
+Oder etwas sachlicher:
+
+Input. Genealogie eines Interface-Archetyps
+
+2. Eine realistische Struktur für 20 Seiten
+Kapitel	Umfang	Inhalt
+Einleitung und Methode	1,5–2 Seiten	Relevanz, Forschungsfrage, Begriffsklärung, Auswahl der Fälle
+Anatomie des Textfelds	3 Seiten	Element, Label, Caret, Placeholder, Fokus, Rahmen, Zustände, Browser-Default
+Kurze Genealogie	4,5–5 Seiten	Kommandozeile, Webformular, Suche, Omnibox, Composer
+Vergleichende Interface-Analyse	4 Seiten	Vergleich ausgewählter Archetypen anhand fester Kriterien
+Das Textfeld im LLM-Interface	4 Seiten	offene Handlungsmöglichkeiten, Prompting, Kontext, Guidance, Multimodalität
+Fazit	1–1,5 Seiten	vom Dateneingabefeld zum Handlungsraum; zukünftige Interface-Entwicklung
+
+Das Entscheidende ist, die Geschichte nicht als vollständige Chronik zu erzählen, sondern anhand von ungefähr fünf Schlüsselmomenten:
+
+Kommandozeile
+HTML-Formularfeld
+Suchfeld
+Browser-Omnibox oder Social-Media-Composer
+LLM-Composer
+
+Diese fünf Fälle könntest du immer mit demselben Raster analysieren:
+
+Kriterium	Leitfrage
+Erwartete Syntax	Was darf oder soll eingegeben werden?
+Handlungsspielraum	Wie viele verschiedene Aktionen kann die Eingabe auslösen?
+Guidance	Wie wird erklärt, was möglich ist?
+Kontext	Woher weiß das System, wie die Eingabe gemeint ist?
+Fehlerbehandlung	Was gilt als falsche Eingabe?
+Feedback	Wann und wie reagiert das System?
+Ergebnisrelation	Wie vorhersehbar ist das Ergebnis?
+Nutzerkontrolle	Ist die Handlung reversibel und nachvollziehbar?
+Multimodalität	Kann Text mit Bildern, Dateien oder Quellen verbunden werden?
+
+Das könnte zum eigentlichen analytischen Rückgrat deiner Arbeit werden. Es wäre wesentlich stärker als eine bloße chronologische Aufzählung.
+
+3. Der effizienteste KI-Workflow
+
+Ich würde den Prozess nicht als „KI schreibt die Masterarbeit“ aufbauen, sondern der KI fünf klar getrennte Rollen geben:
+
+Research Librarian: Begriffe, Suchstrategien und Quellen finden
+Reader: bereitgestellte Quellen analysieren
+Synthesizer: mehrere gelesene Quellen miteinander vergleichen
+Critic: Argumente, Übertreibungen und Quellenlücken prüfen
+Editor: deine Sprache, Struktur und Übergänge verbessern
+
+Die KI sollte dagegen nicht deine bibliografische Wahrheit verwalten. Dafür brauchst du Zotero.
+
+Minimaler Tool-Stack
+
+Du brauchst wahrscheinlich nicht mehr als diese vier Werkzeuge:
+
+Zotero als verbindliche Quellenbibliothek
+
+Zotero sollte die zentrale Quelle für bibliografische Daten, PDFs, Notizen und Zitate sein. Lege dort beispielsweise folgende Sammlungen an:
+
+00 Inbox
+10 Definition und HTML
+20 Command Line und Vorgeschichte
+30 Formulare
+40 Suche und Omnibox
+50 HCI und Interface-Theorie
+60 LLM und Prompting
+70 Kunst und Fallstudien
+90 Im Text verwendet
+99 Ausgeschlossen
+
+Dazu wenige Workflow-Tags:
+
+core
+primary-source
+to-read
+read
+quote-verified
+figure
+used
+
+Zotero kann PDF-Markierungen direkt in Notizen übernehmen; dabei bleiben Verweise auf die jeweilige PDF-Seite und die spätere Zitierbarkeit erhalten. Über die Word-, LibreOffice- oder Google-Docs-Integration kannst du Zitate und Literaturverzeichnis anschließend automatisch verwalten.
+
+Ein ChatGPT-Projekt nur für die Masterarbeit
+
+In einem Projekt kannst du deine Notizen, PDFs, Gliederungen, formalen Anforderungen und Projektanweisungen zusammenhalten. Projekte unterstützen hochgeladene PDFs, Dokumente, Bilder und Referenztexte als dauerhaften Arbeitskontext.
+
+Innerhalb des Projekts würde ich trotzdem getrennte Chats verwenden:
+
+01 Forschungsfrage und Scope
+02 Quellenrecherche
+03 Quellenanalysen
+04 Argument und Gliederung
+05 Kapitelentwürfe
+06 Quellen- und Faktenprüfung
+07 Sprachliches Lektorat
+
+So vermischt sich eine frühe Brainstorming-Antwort nicht ständig mit späteren, bereits überprüften Erkenntnissen.
+
+Wissenschaftliche Suche und Bibliothekszugang
+
+Für dein Thema brauchst du eine Kombination aus:
+
+Google Scholar oder Semantic Scholar
+ACM Digital Library beziehungsweise CHI-Publikationen
+Hochschulbibliothek
+W3C-, WHATWG- und IETF-Dokumenten
+Büchern und historischen Quellen
+Archiven historischer Interfaces
+
+Semantic Scholar bietet neben der normalen Suche auch Zitationsbeziehungen und Reading Lists.
+
+ResearchRabbit für die Zitationsketten
+
+Sobald du drei bis fünf wirklich relevante Quellen gefunden hast, solltest du nicht endlos neue Keywords ausprobieren. Nimm diese Quellen als Seed Papers und untersuche:
+
+Welche früheren Texte zitieren sie?
+Welche späteren Texte zitieren sie?
+Welche Quellen werden von mehreren deiner Papers gemeinsam verwendet?
+Welche angrenzenden Forschungsfelder tauchen auf?
+
+ResearchRabbit visualisiert solche Zitationsnetzwerke und kann dadurch Texte sichtbar machen, die wegen anderer historischer oder disziplinärer Begriffe in einer Keyword-Suche nicht auftauchen würden.
+
+Elicit und Scite wären sinnvolle Ergänzungen, aber nicht zwingend notwendig. Elicit eignet sich für semantische Paper-Suche und vergleichende Extraktionstabellen; Scite kann zeigen, in welchem Zusammenhang eine Veröffentlichung später zitiert wurde. Für deine Arbeit besteht allerdings ein erheblicher Teil der Quellen aus Spezifikationen, Büchern, historischen Interfaces und Kunstprojekten. Deshalb würde ich Elicit nicht zum Hauptsystem machen.
+
+4. Quellen nicht nach Kapiteln, sondern nach Behauptungen suchen
+
+Der effizienteste Recherchegrundsatz lautet:
+
+Nicht allgemein Material über „Input Fields“ sammeln, sondern für jede wichtige Behauptung den passenden Quellentyp suchen.
+
+Beispiel:
+
+Behauptung	Idealer Quellentyp
+Formulare wurden in HTML 2.0 standardisiert	W3C-/IETF-Spezifikation
+Ein Label wird einem Feld semantisch zugeordnet	HTML-Spezifikation und Accessibility-Dokumentation
+Kommandozeilen erfordern das Erinnern einer Syntax	ursprüngliche HCI-Forschung
+Suchfelder veränderten die Navigation im Web	Suchmaschinenforschung, Interface-Geschichte, historische Artefakte
+offene Texteingaben erzeugen Unsicherheit	Nutzungsstudien und HCI-Papers
+LLMs erweitern das Textfeld zu einem unspezifischen Handlungsraum	aktuelle CHI-/HCI-Forschung und eigene Interface-Analyse
+Promptvorschläge kompensieren fehlende Guidance	Interface-Beispiele plus Forschung zu Prompting und Mental Models
+
+Das verhindert, dass du nach zwei Wochen 80 PDFs besitzt, aber nicht weißt, welches Argument sie eigentlich stützen.
+
+Deine ersten Suchcluster
+
+Statt nur nach history of input field zu suchen, solltest du mehrere Vokabulare verwenden.
+
+Technische Geschichte
+"HTML forms" history
+"HTML input element" history
+"fill-out forms" early web
+"HTML 2.0" forms input
+"web forms" standardization
+browser default form controls
+user agent stylesheet input
+Kommandozeile und Interaktionsgeschichte
+command line interface history HCI
+command language interaction
+direct manipulation versus command language
+textual interfaces human computer interaction
+teletype terminal interaction
+Formulare
+web form design usability
+form completion cognitive load
+single column form usability
+form field labels placeholder
+progressive disclosure forms
+multi-step forms user effort
+Suche und Navigation
+search box interface history
+web search user interface
+search as navigation
+browser omnibox interaction design
+autocomplete search behavior
+query formulation information retrieval
+LLM-Interfaces
+generative AI interface affordance
+large language model user interface guidance
+prompting interaction design
+prompt formulation usability
+natural language interface discoverability
+conversational user interface mental models
+mixed-initiative interaction generative AI
+LLM prompt suggestions user study
+blank canvas generative AI interface
+Kritische und künstlerische Perspektiven
+net art interface browser controls
+interface as artistic material
+search engine net art
+command line website art
+browser default aesthetics net art
+
+Die KI kann dir dabei helfen, Synonyme und historische Begriffe zu generieren. Die anschließend gefundenen Quellen sollten aber immer tatsächlich geöffnet, bibliografisch überprüft und in Zotero gespeichert werden.
+
+5. Deep Research sinnvoll einsetzen
+
+Deep Research eignet sich für klar abgegrenzte, mehrstufige Recherchefragen und kann auf bestimmte Websites, hochgeladene Dateien oder den öffentlichen Webzugriff beschränkt werden. Die Resultate enthalten Quellenangaben, die anschließend überprüft werden können.
+
+Ich würde damit nicht die gesamte Masterarbeit auf einmal recherchieren. Besser sind einzelne Aufgaben wie:
+
+Erstelle eine kommentierte Quellenübersicht zur technischen und gestalterischen Entwicklung von Texteingabefeldern in HTML zwischen 1991 und 2014. Priorisiere W3C-, WHATWG- und IETF-Primärquellen sowie wissenschaftliche Veröffentlichungen. Unterscheide zwischen dem erstmaligen Auftreten einer Funktion, ihrer Implementierung in Browsern und ihrer späteren Standardisierung. Erfinde keine bibliografischen Angaben.
+
+Oder:
+
+Recherchiere wissenschaftliche HCI-Literatur zur Spannung zwischen offenen natürlichsprachlichen Eingaben und sichtbaren, begrenzten Interface-Kontrollen. Priorisiere ACM CHI, DIS, CSCW, IEEE und universitäre Publikationen. Suche auch unter den Begriffen natural-language interface, conversational interface, prompt formulation, discoverability, mixed-initiative interaction, mental model und gulf of execution.
+
+Wichtig ist die Formulierung „unterscheide“, „priorisiere“ und „erfinde keine Angaben“. Ein allgemeiner Prompt wie „Finde alles über Input Fields“ produziert vor allem Menge.
+
+6. Einen festen Ablauf für jede Quelle verwenden
+
+Jedes relevante PDF sollte denselben Prozess durchlaufen.
+
+Schritt 1: Quelle grob prüfen
+
+Bevor du sie liest:
+
+Ist sie wissenschaftlich, technisch, journalistisch oder ein historisches Artefakt?
+Ist sie Primär- oder Sekundärquelle?
+Welche konkrete Behauptung könnte sie stützen?
+Ist nur das Abstract relevant oder tatsächlich der Volltext?
+Wird sie in anderen wichtigen Arbeiten zitiert?
+Schritt 2: PDF in Zotero speichern
+
+Metadaten kontrollieren:
+
+Autor
+Titel
+Jahr
+Publikationsort
+DOI beziehungsweise ISBN
+Seitenzahlen
+Dokumenttyp
+
+Automatisch importierte Metadaten sind häufig nicht vollständig sauber.
+
+Schritt 3: KI-Analyse auf Basis des tatsächlichen PDFs
+
+Ein guter Standardprompt wäre:
+
+Analysiere ausschließlich die angehängte Quelle. Ergänze kein Wissen aus
+anderen Quellen.
+
+Gib mir:
+
+1. die zentrale These der Quelle,
+2. die für meine Arbeit relevanten Begriffe und ihre Definitionen,
+3. die drei bis fünf wichtigsten Argumente,
+4. kurze relevante Originalzitate mit gedruckter Seitenzahl und PDF-Seite,
+5. die Methode beziehungsweise Art der Quelle,
+6. erkennbare Grenzen oder Gegenargumente,
+7. welche Behauptung meiner Masterarbeit sie stützen könnte,
+8. welche meiner bisherigen Annahmen sie möglicherweise relativiert.
+
+Markiere ausdrücklich, was eine Aussage der Quelle und was deine
+Interpretation ist.
+
+Danach öffnest du die angegebenen Seiten selbst und vergleichst jedes Zitat. OpenAI empfiehlt ausdrücklich, ChatGPT als Entwurf beziehungsweise Hilfsmittel zu verwenden und Zitate, Daten und Referenzen zu externen Dokumenten zu überprüfen.
+
+Schritt 4: Eine eigene Source Card schreiben
+
+Für jede Kernquelle reichen ungefähr 100–200 Wörter:
+
+Vollständige Referenz:
+Quellentyp:
+Kapitel:
+Zentrale Aussage:
+Nützliche Begriffe:
+Verifiziertes Zitat mit Seite:
+Was unterstützt die Quelle?
+Was unterstützt sie nicht?
+Eigene Interpretation:
+
+Die Unterscheidung „Was unterstützt sie nicht?“ ist besonders hilfreich. Dadurch verhinderst du, dass eine Quelle später für eine stärkere Behauptung verwendet wird, als sie tatsächlich zulässt.
+
+7. Eine Evidence-Matrix statt unstrukturierter Notizen
+
+Sobald du ungefähr zehn gute Quellen hast, legst du eine einfache Tabelle an:
+
+ID	Quelle	Typ	zentrale Aussage	Zitat/Seite	eigene Verwendung	Kapitel	Status
+S01	HTML-Spezifikation	Primärquelle	frühe Formelemente	Abschnitt …	technische Genealogie	2	geprüft
+S02	HCI-Paper	Forschung	Grenzen kommandoartiger Eingabe	S. …	CLI-Vergleich	3	gelesen
+S03	LLM-Studie	Forschung	Nutzer kennen mögliche Aktionen nicht	S. …	AI-Kapitel	5	offen
+
+Diese Tabelle ist der Punkt, an dem KI besonders nützlich wird: Du kannst die verifizierten Source Cards übergeben und nach Übereinstimmungen, Widersprüchen und fehlenden Perspektiven fragen. Die KI sollte aber nur mit den von dir eingefügten Karten arbeiten.
+
+Ein guter Synthese-Prompt:
+
+Vergleiche ausschließlich diese Source Cards.
+
+Ordne sie nach:
+- gemeinsamen Positionen,
+- widersprüchlichen Positionen,
+- historischen Veränderungen,
+- unterschiedlichen Definitionen,
+- noch unbelegten Behauptungen meiner Gliederung.
+
+Formuliere noch keinen fertigen Fließtext. Erstelle stattdessen eine
+Argumentationsstruktur und verweise bei jedem Punkt auf die Source-ID.
+8. Erst argumentieren, dann schreiben lassen
+
+Lass nicht sofort ganze Kapitel generieren. Erstelle zunächst für jeden Absatz einen kleinen Argumentblock:
+
+Behauptung:
+Beleg:
+Interface-Beispiel:
+Eigene Analyse:
+mögliches Gegenargument:
+Überleitung:
+
+Beispiel:
+
+Behauptung:
+Je offener der Handlungsspielraum eines Textfelds wird, desto weniger
+erklärt seine visuelle Form über die möglichen Ergebnisse.
+
+Beleg:
+HCI-Quelle S07 und LLM-Studie S12.
+
+Interface-Beispiel:
+Vergleich eines Postleitzahlfelds mit einem LLM-Composer.
+
+Eigene Analyse:
+Beide zeigen eine leere rechteckige Eingabefläche, repräsentieren aber
+vollkommen unterschiedliche Möglichkeitsräume.
+
+Gegenargument:
+Placeholder, Promptvorschläge und Tool-Icons können diesen Raum teilweise
+sichtbar machen.
+
+Überleitung:
+Damit wird die Umgebung des Feldes zum eigentlichen Träger der Guidance.
+
+Erst daraus lässt du einen Absatz formulieren:
+
+Formuliere aus diesem Argumentblock einen wissenschaftlichen Absatz.
+Verwende ausschließlich die angegebenen Source-IDs. Erfinde keine
+Literaturangaben. Setze [QUELLE FEHLT], sobald eine Aussage nicht belegt ist.
+Trenne historische Tatsache und meine gestalterische Interpretation.
+
+So bleibt die eigentliche These deine und die KI übernimmt vor allem Strukturierung und sprachliche Verdichtung.
+
+9. Die visuelle Forschung sollte Teil der Methode sein
+
+Da du Interface Design studierst, sollte deine Arbeit nicht ausschließlich wie eine kleine medienwissenschaftliche Literaturarbeit funktionieren. Du kannst eine eigene visuelle Interface-Archäologie entwickeln.
+
+Für jeden der fünf Fälle könntest du eine einheitliche Darstellung anlegen:
+
+Screenshot beziehungsweise Rekonstruktion
+Idle-Zustand
+Fokuszustand
+Zustand während der Eingabe
+Submit-Moment
+Feedback- beziehungsweise Ergebniszustand
+sichtbare und unsichtbare Regeln
+erlaubte Syntax
+erwartete Nutzerkenntnisse
+grafische Signifier
+
+Eine besonders passende praktische Untersuchung wäre eine kleine Website mit kontrollierten Reproduktionen:
+
+01 Browser-Default Input
+02 klassisches Formularfeld
+03 Suchfeld
+04 Omnibox
+05 LLM-Composer
+
+Dann könntest du Varianten systematisch entfernen:
+
+ohne Label
+nur mit Placeholder
+mit Vorschlägen
+mit Buttons
+mit Tool-Auswahl
+mit Beispielen
+mit Verlauf und Kontext
+mit Bildern und Dateien
+
+Damit untersuchst du gestalterisch, welche Umgebung ein zunehmend mächtiges Input-Feld benötigt, um verständlich zu bleiben. Das wäre eine sehr direkte Verbindung zwischen theoretischer Arbeit und Interface-Design-Praxis.
+
+10. Einige Notizen solltest du früh präzisieren
+„Das Input-Feld kam 1995“
+
+Das ist fast richtig, aber nur als Aussage über die Standardisierung. Die archivierte HTML-Spezifikation von 1995 führt Formulare, INPUT, TEXTAREA, SELECT und OPTION als HTML-Level-2-Elemente auf. Ein W3C-Entwurfsdokument von 1996 beschreibt jedoch, dass frühes HTML bereits einen einfachen Keyword-Mechanismus besaß und NCSA Mosaic grundlegende Formfelder hinzufügte. 1995 ist daher eher ein wichtiger Zeitpunkt der Kodifizierung, nicht eindeutig die Erfindung des Texteingabefelds.
+
+„Das Label kommt mit dem Input“
+
+Ein Label ist nicht automatisch Teil des Feldes. Es ist ein separates Element beziehungsweise eine separat hergestellte semantische Zuordnung. Schon das W3C-Dokument von 1996 beschreibt LABEL ausdrücklich als Lösung für die Bindung einer Bezeichnung an ein Eingabefeld.
+
+„Google war das erste freie Eingabefeld“
+
+Das solltest du nicht als Ausgangsthese übernehmen. Freie Texteingaben, Suchmaschinen und Keyword-Abfragen existierten vorher. Interessanter wäre die vorsichtigere Frage:
+
+Wie wurde das zentral platzierte Suchfeld durch Google zu einem kulturell dominanten Bild für den Zugang zum Web?
+
+Dann untersuchst du nicht eine vermutlich falsche technische Erfindungsgeschichte, sondern die gestalterische und kulturelle Bedeutung.
+
+„Keine Affordances“
+
+Das ist als provokante Aussage gut, theoretisch aber zu absolut. Ein Textfeld besitzt Signifier für Texteingabe: Rahmen, Caret, Fokus, Label oder Placeholder. Was im LLM-Interface fehlt, ist eher ein klarer Signifier für den enormen Handlungs- und Ergebnisraum.
+
+Eine präzisere These wäre:
+
+Das LLM-Textfeld kommuniziert deutlich, dass Text eingegeben werden kann, aber nur schwach, was durch diesen Text ausgelöst werden kann.
+
+„Ein Button kann nicht falsch verwendet werden“
+
+Auch das wäre besser relativiert:
+
+Begrenzte Controls schränken mögliche Aktionen und Eingabeformate stärker ein; offene Textfelder verlagern die Bestimmung einer gültigen Handlung stärker auf die Nutzerinnen und Nutzer.
+
+Das ist theoretisch besser verteidigbar.
+
+Nebenbei scheinen einige Namen in den Gesprächsnotizen durch Diktat oder schnelle Mitschrift verändert worden zu sein: Gemeint sind vermutlich Jan Robert Leegte, Rafaël Rozendaal, Constant Dullaart und Manfred Mohr. Ihre Arbeiten wären für eine künstlerische Perspektive auf Browser, Suchmaschinen und Interface-Materialität tatsächlich relevant.
+
+11. Eine sinnvolle Projektanweisung für deinen KI-Workspace
+
+Diese Anweisung könntest du in deinem Masterarbeitsprojekt hinterlegen:
+
+Du unterstützt mich bei einer etwa 20-seitigen Masterarbeit im Bereich
+Interface Design.
+
+Arbeitstitel:
+„Input. Vom Formularfeld zum sprachbasierten Universalinterface“
+
+Unterscheide konsequent zwischen:
+1. dem technischen HTML-Element,
+2. dem sichtbaren Interface-Component,
+3. Texteingabe als übergeordnetem Interaktionsparadigma.
+
+Regeln:
+- Erfinde niemals Quellen, Autorennamen, DOIs, ISBNs oder Seitenzahlen.
+- Verwende eine Quelle nur, wenn sie hochgeladen oder ausdrücklich
+  recherchiert und verlinkt wurde.
+- Trenne Quellenaussage, deine Schlussfolgerung und meine gestalterische
+  Interpretation sichtbar voneinander.
+- Gib bei Zitaten die gedruckte Seite und die PDF-Seite an.
+- Markiere unbelegte Aussagen mit [QUELLE FEHLT].
+- Behandle Command Line, Webformular, Suche, Omnibox und LLM nicht als
+  lineare Ablösung, sondern zunächst als miteinander verbundene,
+  teilweise weiterhin parallel existierende Interface-Typen.
+- Hinterfrage Fortschrittsnarrative und kausale Behauptungen.
+- Formuliere keine fertigen Kapitel, solange Argument, Belege und
+  Gegenargumente nicht feststehen.
+- Antworte auf Deutsch; englische Fachbegriffe dürfen erhalten bleiben.
+Mein Gesamtvorschlag
+
+Für diese kurze Masterarbeit ist ein schlankes System ideal:
+
+Zotero verwaltet die verifizierten Quellen.
+ChatGPT Project verwaltet Kontext, Analyse und Entwürfe.
+Scholar beziehungsweise Hochschulbibliothek findet präzise Literatur.
+ResearchRabbit erschließt die Zitationslandschaft.
+Eine Evidence-Matrix verbindet Quellen mit deinen Behauptungen.
+Fünf visuell analysierte Interface-Fälle bilden die Struktur der Arbeit.
+
+Der sinnvollste nächste Schritt ist jetzt noch nicht die breite Literaturrecherche, sondern aus deinen Notizen eine verbindliche Forschungsfrage, vorläufige Kapitelstruktur, Vergleichsmatrix und Liste von etwa 15 konkreten Suchanfragen zu erstellen. Damit wird jede anschließende KI-Recherche wesentlich zielgerichteter.
+
+ok vielleicht sollte ich das themenfeld erweitern. es geht nicht nur um das html element aber über die texteingabe in interfaces. ich würde die navigation durch die kommandezeile als zentrales thema mitreinnehmen da es auf eine art ein full circle moment ist. früher wurde ausschließlich über texteingabe in die kommandezeile navigiert und auf einmal sind wir wieder dabei angekommen über texteingabe zu navigieren nur dass sich nun natürliche sprache nutzen lässt anstatt vordefinierter befehle
+5m 2s nachgedacht
+
+Ja — und ich glaube, dass du damit nicht einfach das Themenfeld vergrößerst, sondern den eigentlichen Gegenstand deiner Arbeit klarer findest:
+
+Nicht das HTML-Element <input> ist dein Hauptthema, sondern Texteingabe als Form der Mensch-Computer-Interaktion.
+
+Das HTML-Textfeld wäre dann nur eine konkrete technische und visuelle Ausprägung davon. Kommandozeile, Formular, Suchfeld, Omnibox, Command Palette, Chat-Composer und LLM-Prompt wären verschiedene historische und funktionale Formen desselben grundlegenden Prinzips: Ein Mensch formuliert etwas textuell, woraufhin ein System interpretiert und reagiert.
+
+Genau darauf laufen deine bisherigen Notizen ohnehin schon hinaus: Text als zentrales Interface-Element, Navigation durch Sprache, der Blank-Canvas-Charakter, fehlende Guidance, Promptvorschläge als wiederkehrende Buttons und die historische Linie von der Kommandozeile über Suche und Omnibox zum LLM.
+
+Der „Full-Circle“-Gedanke ist stark – aber kein vollständiger Kreis
+
+Deine Beobachtung lässt sich sehr gut als Ausgangsthese formulieren:
+
+Frühe Computer wurden wesentlich über textuelle Kommandos gesteuert. Mit grafischen Benutzeroberflächen wurden mögliche Handlungen zunehmend als sichtbare Objekte, Menüs und Buttons repräsentiert. Mit generativer KI kehrt Texteingabe als zentrale Steuerungsform zurück – nun jedoch nicht mehr primär in Form einer formal definierten Befehlssprache, sondern als natürliche Sprache.
+
+Das ist ein sehr starkes Narrativ. Wissenschaftlich würde ich aber nicht behaupten, dass wir einfach wieder am Ausgangspunkt angekommen sind. Interessanter ist:
+
+Die Oberfläche kehrt zurück, aber der Interaktionsvertrag hat sich verändert.
+
+Oder noch zugespitzter:
+
+Visuell kehrt die Kommandozeile zurück, semantisch entsteht etwas anderes.
+
+Bei der klassischen Kommandozeile muss der Mensch seine Absicht in eine vom System vorgegebene Syntax übersetzen:
+
+find ~/Documents -name "*thesis*" -type f
+
+Bei einem LLM formuliert er seine Absicht ungefähr so:
+
+Finde meine aktuellste Datei zur Masterarbeit und fasse die darin
+enthaltenen Notizen zusammen.
+
+Die Verschiebung wäre also:
+
+Kommandozeile	LLM-Interface
+Nutzer kennt den Befehl	Nutzer beschreibt eine Absicht
+explizite Syntax	natürliche beziehungsweise „weiche“ Syntax
+definiertes Vokabular	offener sprachlicher Ausdruck
+weitgehend deterministische Ausführung	probabilistische Interpretation
+Syntaxfehler sind sichtbar	Missverständnisse können plausibel wirken
+Handlungsraum ist dokumentierbar	Handlungsraum ist teilweise verborgen
+Nutzer bestimmt einzelne Schritte	System kann Schritte selbst planen
+
+Das ist aus meiner Sicht der eigentliche Kern deiner Thesis.
+
+Von der „Navigation“ besser zur „Steuerung“
+
+Den Begriff Navigation würde ich nicht ganz aufgeben, aber vermutlich nicht als übergeordneten Begriff verwenden.
+
+Eine Kommandozeile dient nicht nur dazu, durch Ordner zu navigieren. Man kann damit Dateien erzeugen, Programme starten, Texte bearbeiten, Prozesse verwalten und ganze Abläufe automatisieren. Genauso dient ein LLM nicht nur zur Navigation, sondern auch zum Schreiben, Analysieren, Generieren, Transformieren und zunehmend zum Ausführen von Handlungen.
+
+Deshalb wären stärkere Oberbegriffe:
+
+textbasierte Steuerung
+sprachbasierte Interaktion
+textuelle Mensch-Computer-Interaktion
+Formulierung von Handlungsabsichten
+Text als universelle Kontrolloberfläche
+
+Navigation kann darin ein besonders interessantes Unterthema werden:
+
+In klassischen grafischen Interfaces navigiert der Nutzer selbst durch sichtbare Wege. In sprachbasierten Interfaces kann er stattdessen ein Ziel oder eine Absicht formulieren, während der Weg dorthin vom System bestimmt wird.
+
+Man könnte diese Entwicklung zugespitzt so beschreiben:
+
+Vom Pfad zur Absicht.
+
+Oder:
+
+Interface	Was der Nutzer angibt
+Kommandozeile	Befehl und häufig den konkreten Pfad
+grafisches Interface	sichtbare Abfolge von Auswahlen
+Suchfeld	gesuchtes Ziel oder Informationsbedürfnis
+LLM beziehungsweise Agent	gewünschtes Ergebnis oder übergeordnete Absicht
+
+Gerade der letzte Schritt ist mehr als eine neue Form der Navigation. Es ist eine Delegation von Navigation und Handlung.
+
+Der entscheidende historische Kontrast: Command Language und Direct Manipulation
+
+Ben Shneiderman ist für deine Arbeit tatsächlich ein hervorragender theoretischer Bezugspunkt.
+
+Er beschrieb Direct Manipulation unter anderem anhand von:
+
+sichtbaren Objekten,
+schnellen, schrittweisen und umkehrbaren Handlungen,
+unmittelbarem Feedback,
+der Ersetzung komplexer Kommandosyntax durch direkte Manipulation.
+
+Die grafische Benutzeroberfläche sollte dem Nutzer also nicht mehr abverlangen, eine abstrakte Befehlssprache zu erinnern. Stattdessen sollte sie Handlungen sichtbar und unmittelbar ausführbar machen.
+
+Das LLM-Promptfeld dreht einen Teil dieser Entwicklung wieder um:
+
+Der mögliche Handlungsraum ist nicht vollständig sichtbar.
+Die Nutzer wissen nicht sicher, was das System kann.
+Es gibt keinen eindeutig erfassbaren Befehlssatz.
+Das Ergebnis ist nicht immer vorhersehbar.
+Die Handlung ist nicht unbedingt unmittelbar reversibel.
+Das System kann eine Eingabe formal akzeptieren und trotzdem falsch interpretieren.
+
+Aktuelle HCI-Forschung beschreibt genau dieses Problem als eine Art Gulf of Envisioning: Nutzer müssen zunächst erkennen, ob das System eine Aufgabe überhaupt bewältigen kann, wie die Aufgabe sprachlich formuliert werden sollte und wie anschließend beurteilt werden kann, ob das Ergebnis die eigentliche Absicht erfüllt.
+
+Damit könntest du deine provokante Notiz vom „Verbrechen an der Usability-Lehre“ wissenschaftlich präzisieren:
+
+Promptbasierte Interfaces führen einige der Probleme wieder ein, die Direct Manipulation durch Sichtbarkeit, Begrenzung und unmittelbares Feedback zu lösen versuchte.
+
+Gleichzeitig lösen sie ein anderes Problem: Man muss nicht mehr für jede Handlung einen sichtbaren Button oder einen exakten Befehl kennen. Daraus entsteht die zentrale Spannung:
+
+Je größer und sprachlich zugänglicher der Handlungsraum wird, desto schwieriger wird es, ihn im Interface sichtbar und vorhersehbar zu machen.
+
+Natürliche Sprache ist nicht vollständig neu
+
+Historisch solltest du aufpassen, LLMs als erste natürlichsprachliche Computerinterfaces darzustellen.
+
+Joseph Weizenbaums ELIZA ermöglichte bereits 1966 einen textbasierten Dialog in natürlicher Sprache. ELIZA analysierte Eingaben anhand von Schlüsselwörtern und Transformationsregeln. Terry Winograds SHRDLU konnte Anfang der 1970er Jahre natürlichsprachliche Fragen und Befehle innerhalb einer begrenzten simulierten Blockwelt verarbeiten und Handlungen ausführen.
+
+Die neue Entwicklung liegt daher nicht darin, dass Menschen zum ersten Mal natürliche Sprache verwenden. Für deine Argumentation wäre präziser:
+
+Natürlichsprachliche Interfaces existieren seit Jahrzehnten. Mit LLMs wird natürliche Sprache jedoch erstmals in breitem Umfang als offen wirkende, domänenübergreifende und mit verschiedenen Werkzeugen verbindbare Interface-Schicht eingesetzt.
+
+Das lässt deinen Full-Circle-Gedanken sogar interessanter werden. Es gibt dann nicht nur die Linie:
+
+Kommandozeile → GUI → LLM
+
+Sondern mehrere historische Linien, die im LLM-Interface zusammenlaufen:
+
+Kommandozeile ─────── Text als Befehl ───────────┐
+Suchfeld ──────────── Text als Anfrage ──────────┤
+Formular ──────────── Text als Datenübergabe ────┤
+Messenger/Chat ────── Text als Dialog ───────────┤
+Texteditor ────────── Text als Inhalt ───────────┤
+                                                  ↓
+                                      LLM-Prompt-Interface
+
+Das LLM-Textfeld ist so mächtig und gleichzeitig so unklar, weil es all diese Rollen in einem einzigen Element vereint.
+
+Eine mögliche Taxonomie für deine Arbeit
+
+Anstatt nur eine chronologische Geschichte zu erzählen, könntest du fünf Rollen der Texteingabe unterscheiden:
+
+Rolle des Textes	typisches Interface	Nutzer gibt ein	System tut
+Text als Kommando	Terminal, CLI	formal definierte Anweisung	führt einen Befehl aus
+Text als Daten	Formular	erwarteten Wert	prüft, speichert oder übermittelt
+Text als Anfrage	Suche, Omnibox	Informationsbedürfnis oder Ziel	sucht, rankt oder leitet weiter
+Text als Inhalt	Editor, Social Media, Messenger	zu veröffentlichenden Text	speichert, überträgt oder publiziert
+Text als Absicht	LLM, Agent	Ziel, Aufgabe und Kontext	interpretiert, generiert, plant oder handelt
+
+Der besondere Punkt wäre:
+
+Das LLM-Promptfeld kann Kommando, Datenfeld, Suchfeld, Editor und Dialogfeld gleichzeitig sein.
+
+Dadurch erklärt sich auch die Überforderung durch den Blank Canvas. Bei einem Formularfeld verrät das Label, was erwartet wird. Bei einem Suchfeld ist zumindest grob klar, dass nach Informationen oder Zielen gesucht wird. Das Promptfeld hingegen fragt häufig nur:
+
+„How can I help?“
+
+Es zeigt zwar, dass Text eingegeben werden kann, aber kaum, welche Arten von Handlungen dadurch möglich werden.
+
+„Hard Syntax“ und „Soft Syntax“
+
+Eine sehr produktive eigene Begriffsbildung könnte sein:
+
+Hard Syntax
+
+Die Kommandozeile verwendet eine explizite, formale Syntax:
+
+exakte Befehle
+definierte Parameter
+feste Reihenfolge
+dokumentierte Regeln
+eindeutige Syntaxfehler
+Soft Syntax
+
+Prompting verwendet natürliche Sprache, ist aber trotzdem nicht völlig formlos:
+
+Ziel formulieren
+Kontext angeben
+Rolle definieren
+Einschränkungen benennen
+Beispiele liefern
+Ausgabeformat festlegen
+schrittweise nachbessern
+
+Der Prompt hat keine zwingende Grammatik, aber erfolgreiche Nutzer entwickeln trotzdem Konventionen. Genau darin liegt die von dir bereits notierte neue Kulturtechnik des Promptens.
+
+Eine mögliche These wäre:
+
+Prompting ersetzt die harte Syntax der Kommandozeile nicht durch vollständige Formlosigkeit, sondern durch eine weiche, kontextabhängige und probabilistische Syntax.
+
+Oder zugespitzter:
+
+Das LLM-Interface ist eine Kommandozeile mit weicher Syntax und einem unsichtbaren, veränderlichen Befehlssatz.
+
+Das wäre ein sehr guter Satz für deine Einleitung oder dein Fazit.
+
+Eine passende Forschungsfrage
+
+Ich würde historische Beobachtung und Interface-Design-Problem miteinander verbinden:
+
+Inwiefern stellt die promptbasierte Interaktion mit generativer KI eine Rückkehr textbasierter Computersteuerung dar, und welche gestalterischen Probleme entstehen, wenn formale Kommandos durch natürliche Sprache ersetzt werden?
+
+Dazu könnten drei Unterfragen kommen:
+
+Welche unterschiedlichen Funktionen übernimmt Texteingabe in Kommandozeile, Formular, Suche, Omnibox und LLM-Interface?
+Wie verändern sich Syntax, Handlungsspielraum, Fehlerlogik, Feedback und Nutzerkontrolle?
+Wie können Interfaces einen prinzipiell offenen, sprachlich gesteuerten Handlungsraum sichtbar und verständlich machen?
+
+Die dritte Frage ist wichtig, weil sie deine Arbeit klar im Interface Design verankert. Du beschreibst dann nicht nur eine Technikgeschichte, sondern untersuchst eine aktuelle gestalterische Herausforderung.
+
+Die bessere Form des „Full Circle“
+
+Ich würde in der Arbeit nicht von einer vollständigen Rückkehr sprechen, sondern von einer Rückkehr unter veränderten Bedingungen oder einer spiralförmigen Entwicklung:
+
+Textuelle Steuerung
+        ↓
+formale Kommandos
+        ↓
+grafische Sichtbarmachung von Handlungen
+        ↓
+Text als begrenzte Eingabe innerhalb der GUI
+        ↓
+Text als Suche und universeller Zugang
+        ↓
+Text als natürlichsprachliche Absicht
+
+Die GUI verschwindet dabei nicht. Im Gegenteil: Rund um das offene Promptfeld tauchen wieder grafische Begrenzungen auf:
+
+Vorschlags-Chips
+Tool-Auswahl
+Modus-Umschalter
+Datei- und Bildanhänge
+Slash Commands
+Autocomplete
+Vorlagen
+Bestätigungsdialoge
+Vorschauen
+editierbare Zwischenschritte
+
+Das ist kein zufälliges Detail, sondern möglicherweise deine zentrale Designbeobachtung:
+
+Je universeller das Textfeld wird, desto mehr grafische Hilfselemente benötigt es, um seinen unsichtbaren Handlungsraum wieder verständlich zu machen.
+
+Die Zukunft wäre demnach wahrscheinlich weder „nur GUI“ noch „nur natürliche Sprache“, sondern ein hybrides Interface aus Sprache und direkter Manipulation. Forschung wie DirectGPT untersucht bereits, wie direkte Manipulation ergänzend zu sprachlicher LLM-Interaktion eingesetzt werden kann.
+
+Eine passende Struktur für 20 Seiten
+
+Für deinen begrenzten Umfang würde ich die Arbeit nicht als vollständige Geschichte aller Textfelder anlegen, sondern als selektive Genealogie:
+
+1. Einleitung: Die Rückkehr des Textes – 2 Seiten
+aktueller Bedeutungsgewinn des Promptfelds
+Full-Circle-Beobachtung
+Forschungsfrage
+methodisches Vorgehen
+2. Text als Interface – 2 Seiten
+Abgrenzung von HTML-Element, Texteingabefeld und textbasierter Interaktion
+Kommando, Daten, Anfrage, Inhalt und Absicht
+verwendete Vergleichskriterien
+3. Text als Kommando – 3 Seiten
+Terminal und Kommandozeile
+formale Syntax
+Lernen, Erinnern und Fehlermeldungen
+kurze Einordnung früher natürlichsprachlicher Systeme wie ELIZA und SHRDLU
+4. Text innerhalb grafischer Interfaces – 4 Seiten
+Formular: Text als Daten
+Suchfeld: Text als Anfrage
+Omnibox und Command Palette als Übergangsformen
+Text wird freier, bleibt aber funktional gerahmt
+5. Text als Absicht – 5 Seiten
+LLM-Prompt und Gesprächskontext
+vom Befehl zur Delegation
+Hard Syntax und Soft Syntax
+Blank Canvas und Gulf of Envisioning
+multimodale Eingaben, Dateien, Quellen und Tools
+6. Gestalterische Konsequenzen – 2 bis 3 Seiten
+Discoverability
+Erwartbarkeit
+Feedback
+Kontrollverlust
+hybride Interfaces aus Prompting und Direct Manipulation
+7. Fazit – 1 Seite
+kein vollständiger Kreis
+Rückkehr der textbasierten Steuerung auf einer neuen Abstraktionsebene
+Textfeld als Meta-Interface
+Titel, die zu dieser Rahmung passen
+
+Mein Favorit wäre:
+
+Input. Vom Kommando zur Absicht
+Eine Genealogie der Texteingabe als Interface
+
+Alternativ:
+
+Back to Text
+Die Rückkehr der Texteingabe als zentrale Steuerungsform
+
+Input as Interface
+Von der Command Line zum Natural Language Interface
+
+The Prompt is the Interface
+Texteingabe zwischen Kommando, Navigation und Delegation
+
+Vom Befehl zum Prompt
+Textbasierte Interaktion vor und nach der grafischen Benutzeroberfläche
+
+Die stärkste Arbeitsformel ist aus meiner Sicht:
+
+Vom Kommando zur Absicht, von der sichtbaren Handlung zum unsichtbaren Handlungsraum.
+
+Damit hast du einen klaren historischen Bogen, ein aktuelles Interface-Problem und eine eigene gestalterische Perspektive. Der nächste sinnvolle Schritt ist, daraus ein einseitiges Exposé mit Forschungsfrage, Arbeitsthese, Gegenargument und vier verbindlichen Fallstudien zu formulieren.
+
+ok ich würde jedoch gerne schon auch den historischen Kontext deutlich einbinden. wo fand man das erste mal einen input auf einer website. eine formale analyse wäre auch wichtig und vielleicht macht es sinn, wie du schon beschrieben hast das ganze in interface lehre und historie einzubinden. aber zunächst gilt es quellen zu finden
+3m 2s nachgedacht
+
+Ja, genau. Historischer Kontext und formale Analyse sollten zwei gleichwertige Quellenstränge bilden. Deine Arbeit wäre dann weder nur Technikgeschichte noch nur eine Untersuchung heutiger KI-Interfaces, sondern eine Genealogie der Texteingabe als Interface:
+
+Wo und in welcher Form taucht Texteingabe in interaktiven Computersystemen auf?
+Wie wird sie im Web technisch und visuell zu einem eigenständigen Interface-Element?
+Welche Rollen übernimmt sie: Kommando, Datenfeld, Suchanfrage, Inhalt, Absicht?
+Wie verändert sich ihr Verhältnis zu Sichtbarkeit, Syntax, Feedback und Nutzerkontrolle?
+
+Deine Notizen enthalten diese Ebenen bereits: Command Line, Formulare, Browser, Google, Omnibox, Social Media, LLM-Prompt sowie die formalen Details wie Rahmen, Schatten, Caret, Placeholder und Browser-Default.
+
+Eine wichtige erste historische Erkenntnis
+
+Die Frage „Wo erschien das erste Input-Feld auf einer Website?“ muss in drei verschiedene Fragen zerlegt werden:
+
+1. Hatte die erste Website ein Eingabefeld?
+
+Die erhaltene Version der ersten Website am CERN bestand aus Text und Hyperlinks. Auf der erhaltenen Startseite ist kein Formular- oder Texteingabefeld enthalten. Sie war zunächst ein navigierbares Informationssystem, kein Eingabesystem.
+
+2. Was war der erste Mechanismus für Texteingabe im Web?
+
+Bereits die HTML-Dokumentation von 1992 enthält das Element <ISINDEX>. Es kennzeichnete eine Seite als durchsuchbaren Index. Der Browser sollte daraufhin eine Möglichkeit zur Eingabe von Suchbegriffen bereitstellen und diese als Query an den Server übermitteln. Eine W3C-Dokumentation von November 1992 beschreibt den Mechanismus ausdrücklich; ein Dokument zum Line-Mode-Browser zeigt zudem, dass Keyword-Suchen bereits 1991 unterstützt wurden.
+
+Das ist sehr interessant für dich, weil <ISINDEX> kein frei gestaltbares Feld innerhalb der Seite war. Das Dokument teilte dem Browser lediglich mit: „Diese Ressource ist durchsuchbar.“ Der User Agent stellte die Texteingabe bereit.
+
+Damit könnte <ISINDEX> als eine Art Vorläufer von drei späteren Elementen gelesen werden:
+
+Suchfeld
+Formular-Input
+Browser- beziehungsweise Suchmaschinen-Query
+3. Wann erschien das heutige Prinzip aus <form> und <input>?
+
+Die präziseste vorläufige Chronologie ist:
+
+1990/91   Erste Website: Dokumente und Hyperlinks
+1991/92   Keyword-Suche und ISINDEX
+1993      HTML+ mit FORM und verschiedenen INPUT-Feldern
+1993      NCSA Mosaic 2.0 unterstützt Webformulare
+1995      HTML 2.0 kodifiziert FORM, INPUT, TEXTAREA und SELECT
+
+Dave Raggetts HTML+ Discussion Document vom 8. November 1993 enthält bereits ein eigenes Kapitel zu „Fill-out Forms and Input Fields“ und Beispiele für einzeilige und mehrzeilige Texteingaben, Radio Buttons, Checkboxes und Submit-Buttons. Eine spätere W3C-Rückschau hält entsprechend fest, dass Formulare 1993 in HTML eingeführt wurden.
+
+Die Dokumentation zu NCSA Mosaic 2.0 stammt ebenfalls aus November 1993. Mosaic ist deshalb wichtig, weil hier nicht nur eine Spezifikation vorliegt, sondern eine konkrete Browserimplementierung, in der Formulare tatsächlich benutzbar und sichtbar wurden.
+
+HTML 2.0 wurde erst im November 1995 als RFC 1866 veröffentlicht. Die Spezifikation erklärt selbst, dass sie ungefähr die bereits vor Juni 1994 verbreitete Praxis zusammenführt und formalisiert. Das Input-Feld wurde also nicht 1995 erfunden; 1995 ist der Moment seiner formalen Standardisierung innerhalb von HTML 2.0.
+
+Die Frage nach der allerersten konkreten Website mit einem sichtbaren Texteingabefeld ist damit noch nicht abschließend beantwortet. Historisch sicherer ist zunächst:
+
+Der erste erhaltene Webmechanismus für textuelle Queries war <ISINDEX>. Das heutige Formularprinzip aus <form> und <input> entstand 1993 und wurde 1995 in HTML 2.0 kodifiziert.
+
+Diese Unterscheidung könnte bereits ein kleiner, aber sehr guter Abschnitt deiner Arbeit werden.
+
+Das erste belastbare Quellenkorpus
+
+Für eine 20-seitige Arbeit würde ich zunächst mit ungefähr acht Kernquellen und acht Ergänzungsquellen arbeiten. Mehr Material brauchst du erst, wenn konkrete Lücken auftreten.
+
+A. Technische und historische Primärquellen
+1. CERN: erhaltene erste Website
+
+Quelle: The World Wide Web Project, CERN.
+
+Wofür: Ausgangspunkt der Webgeschichte; Navigation zunächst über Hyperlinks statt Formulareingaben.
+
+Status: Kernquelle und historisches Interface-Artefakt.
+
+2. Tim Berners-Lee: Tags used in HTML, 1992
+
+Wofür: Früher Nachweis von <ISINDEX> als Mechanismus für Keyword-Suche.
+
+Besonders wichtig: Das Dokument zeigt, dass eine textuelle Anfrage schon sehr früh Teil von HTML war, obwohl das moderne <input> noch nicht existierte.
+
+3. Berners-Lee: Address for an Index Search, 1992
+
+Wofür: Technische Funktionsweise der frühen Query: Indexadresse, Fragezeichen, Keywords und Pluszeichen.
+
+Das ist eine sehr gute Primärquelle für die These:
+
+Bereits die frühe Texteingabe im Web verband Text mit Navigation und Informationsabruf.
+
+4. Dave Raggett: HTML+ Discussion Document, 1993
+
+Wofür: Einführung komplexerer Formulare und verschiedener Input-Arten.
+
+Besonders relevant für deine formale Analyse: Die Quelle enthält ein frühes Formularbeispiel mit Textfeldern, Radio Buttons, Checkboxes sowie Submit- und Reset-Buttons. Dadurch lässt sich untersuchen, wie Texteingabe von Anfang an in ein Gefüge anderer Controls eingebettet wurde.
+
+5. NCSA: Introduction to NCSA Mosaic for X 2.0, 1993
+
+Wofür: Konkrete Browserimplementierung von Formularen.
+
+Funktion in der Arbeit: Verbindung zwischen HTML-Spezifikation und tatsächlicher visueller Erscheinung im Browser.
+
+6. Berners-Lee und Connolly: HTML 2.0, RFC 1866, 1995
+
+Wofür: Formale Standardisierung von:
+
+FORM
+INPUT
+TEXTAREA
+SELECT
+Submit-Logik
+Name-Value-Pairs
+GET und POST
+
+Die Spezifikation eignet sich außerdem zur Trennung zwischen dem Input als sichtbarem Control und den übermittelten Daten.
+
+7. WHATWG: aktueller HTML-Standard zu <input>
+
+Wofür: Gegenwärtiger technischer Stand und funktionale Ausdifferenzierung des Elements.
+
+Der Standard definiert <input> heute als typisiertes Datenfeld, dessen type sowohl Datentyp als auch zugehöriges Control bestimmt. So kannst du zeigen, wie stark sich das ursprünglich einfache Element funktional ausdifferenziert hat.
+
+8. WHATWG und W3C: Rendering und appearance
+
+Wofür: Browser-Default, native Controls und formale Gestaltung.
+
+Die WHATWG-Rendering-Spezifikation schreibt keine vollständig identische visuelle Darstellung vor. Form Controls wurden historisch häufig als native Widgets des Betriebssystems gerendert. Die CSS-Eigenschaft appearance entstand, um die native Darstellung teilweise zu unterdrücken oder zu kontrollieren.
+
+Das ist zentral für deine formale Analyse:
+
+Es gibt nicht den einen ursprünglichen Schatten oder Rahmen des HTML-Inputs. Seine Erscheinung entstand im Zusammenspiel aus HTML-Semantik, Browser, Betriebssystem, User-Agent-Styles und später CSS.
+
+B. Kommandozeile, GUI und Interface-Lehre
+9. Ritchie und Thompson: The UNIX Time-Sharing System, 1974
+
+Wofür: Technische Primärquelle zur Unix-Shell und zur textuellen Steuerung eines Betriebssystems.
+
+Das Paper behandelt ausdrücklich das Dateisystem und das User Command Interface. Es verhindert, dass du die Command Line nur als ästhetischen schwarzen Bildschirm behandelst; du kannst sie als Sprache zur Komposition und Ausführung von Operationen analysieren.
+
+Die Kommandozeile sollte dabei nicht als Ursprung aller Computerinteraktion behauptet werden. Vor Unix existierten bereits interaktive Time-Sharing-Systeme wie CTSS. Unix wäre für deinen Umfang aber ein sinnvoller und gut dokumentierter exemplarischer Fall.
+
+10. Ben Shneiderman: Direct Manipulation: A Step Beyond Programming Languages, 1983
+
+Wofür: Der zentrale theoretische Kontrast zwischen Command Language und grafischer direkter Manipulation.
+
+Shneiderman beschreibt Direct Manipulation durch:
+
+sichtbare Gegenstände,
+schnelle und inkrementelle Aktionen,
+Reversibilität,
+direkt sichtbare Ergebnisse,
+Ersetzung komplexer Befehlssyntax durch physische Aktionen und beschriftete Controls.
+
+Diese Quelle ist vermutlich das wichtigste historische Bindeglied deiner Arbeit:
+
+Command Language
+        ↓
+Direct Manipulation
+        ↓
+Natural-Language Prompting
+11. Hutchins, Hollan und Norman: Direct Manipulation Interfaces, 1985
+
+Wofür: Vertiefung und auch Relativierung von Shneidermans Konzept.
+
+Die Autoren untersuchen sowohl Vorteile als auch Grenzen direkter Manipulation und führen unter anderem die Distanz zwischen Nutzerzielen und Systemsprache als kognitives Problem ein. Das lässt sich später sehr gut mit dem Prompt als sprachlicher Vermittlung zwischen Absicht und System verbinden.
+
+12. Donald Norman: Affordance, Conventions, and Design, 1999
+
+Wofür: Präzisierung deiner Begriffe Affordance, Convention und Signifier.
+
+Norman warnt davor, Affordances, wahrgenommene Affordances und erlernte visuelle Konventionen miteinander zu verwechseln. Gerade der Rahmen eines Textfeldes, der I-Beam-Cursor, das Caret oder ein Placeholder sind weniger „Affordances“ im strengen Sinn als wahrnehmbare Signifier und gelernte Konventionen.
+
+Das verbessert deine bisherige Aussage:
+
+Nicht das Promptfeld besitzt keine Affordance. Es besitzt Signifier für Texteingabe, aber kaum Signifier für den Umfang der dadurch möglichen Handlungen.
+
+13. Shneiderman und Maes: Direct Manipulation vs. Interface Agents, 1997
+
+Wofür: Übergang von unmittelbarer Nutzerkontrolle zur Delegation an Systeme und Agents.
+
+Das ist fast unheimlich passend für deine aktuelle Fragestellung: Bereits 1997 wurde diskutiert, ob Nutzer direkte Kontrolle zugunsten von Software-Agenten aufgeben sollten.
+
+C. Prompting und LLM-Interfaces
+14. Zamfirescu-Pereira et al.: Why Johnny Can’t Prompt, 2023
+
+Wofür: Empirische Grundlage für deine Beobachtung, dass freie Texteingaben Menschen nicht automatisch zu kompetenten Systemnutzern machen.
+
+Die Studie untersucht, wie Nichtfachleute LLM-Prompts entwickeln und an dieser Aufgabe scheitern beziehungsweise welche falschen Vorstellungen dabei entstehen.
+
+15. Subramonyam et al.: Bridging the Gulf of Envisioning, 2024
+
+Wofür: Vermutlich deine wichtigste aktuelle Theoriequelle.
+
+Die Autoren unterscheiden drei Probleme promptbasierter Interaktion:
+
+Capability Gap: Kann das System meine Aufgabe überhaupt erledigen?
+Instruction Gap: Wie muss ich die Aufgabe formulieren?
+Intentionality Gap: Entspricht das Resultat tatsächlich meinem Ziel?
+
+Sie beschreiben damit genau den von dir notierten Blank-Canvas- und Guidance-Konflikt.
+
+16. Masson et al.: DirectGPT, 2024
+
+Wofür: Verbindung von LLM-Prompting und Direct Manipulation.
+
+DirectGPT übersetzt direkte Manipulationen in Prompts und ergänzt Chat-Interaktion unter anderem durch manipulierbare Outputs, wiederverwendbare Kommandos und Undo. Die Studie berichtet, dass Teilnehmende damit bei den untersuchten Aufgaben schneller arbeiteten und kürzere Prompts benötigten.
+
+Das stützt eine mögliche Schlussfolgerung deiner Arbeit:
+
+Die Zukunft des Text-Inputs besteht vermutlich nicht in der vollständigen Ablösung grafischer Interfaces, sondern in hybriden Systemen aus sprachlicher Absicht und sichtbaren, direkt manipulierbaren Controls.
+
+Welche Quellen gehören zur formalen Analyse?
+
+Für Rahmen, Schatten, Größe, Caret und Placeholder brauchst du nicht nur Literatur. Du benötigst drei unterschiedliche Belegformen:
+
+Spezifikationen
+
+Sie beantworten:
+
+Was bedeutet das Element?
+Welche Zustände und Attribute besitzt es?
+Was muss oder darf ein Browser tun?
+Historische Interface-Artefakte
+
+Sie beantworten:
+
+Wie sah das Feld in einem konkreten Browser und Betriebssystem aus?
+Wo war es positioniert?
+Welcher Text stand davor oder darin?
+Wie wurde der Submit ausgelöst?
+Welche Zustände waren sichtbar?
+
+Geeignete Artefakte wären zunächst:
+
+CERN Line-Mode Browser
+NCSA Mosaic 2.0
+Netscape Navigator
+frühe Google-Homepage
+Browser-Adresszeile
+frühe Social-Media-Composer
+aktuelle LLM-Composer
+Interface-Theorie
+
+Sie gibt dir ein Raster für die Interpretation:
+
+Signifier
+Mapping
+Constraint
+Feedback
+Visibility
+Discoverability
+Reversibility
+Mental Model
+Gulf of Execution
+Gulf of Evaluation
+Gulf of Envisioning
+
+Ohne diese Trennung würdest du etwa einen grauen 3D-Rahmen vorschnell als allgemeine Eigenschaft „des HTML-Inputs“ behandeln, obwohl er eine konkrete Rendering-Konvention eines Browsers und Betriebssystems ist.
+
+So würde ich die Recherche jetzt organisieren
+
+Lege in Zotero zunächst diese fünf Sammlungen an:
+
+01 Web und HTML
+02 Command Line und Direct Manipulation
+03 Formale Anatomie
+04 Suche, Omnibox und Composer
+05 LLM und Prompting
+
+Für jede Quelle hältst du nur Folgendes fest:
+
+Vollständige Referenz:
+Quellentyp:
+Historischer Zeitraum:
+Welche Behauptung belegt sie?
+Welche Behauptung belegt sie ausdrücklich nicht?
+Relevante Seite oder Passage:
+Mögliches Interface-Artefakt:
+Kapitel:
+
+Die Frage „Welche Behauptung belegt sie ausdrücklich nicht?“ ist hier besonders wichtig. Beispielsweise:
+
+Quelle: RFC 1866
+Belegt: FORM und INPUT wurden 1995 in HTML 2.0 kodifiziert.
+Belegt nicht: Das Input-Feld wurde 1995 erfunden.
+Vorläufige Kernthese der historischen Recherche
+
+Mit dem bisherigen Quellenstand lässt sich bereits eine differenzierte Entwicklung formulieren:
+
+Texteingabe erscheint im frühen Web zunächst als vom Browser bereitgestellte Keyword-Suche, wird 1993 mit HTML-Formularen zu einem innerhalb der Website definierbaren Dateneingabeelement und entwickelt sich später über Suchfeld, Adresszeile und Composer zu einem zunehmend offenen Interface. Im LLM-Prompt wird Texteingabe schließlich nicht mehr nur zur Übermittlung eines Wertes oder einer Query verwendet, sondern zur Formulierung einer Handlungsabsicht.
+
+Damit steht das Grundgerüst. Als Nächstes sollten wir die historische Linie 1991 bis ungefähr 2000 gründlich ausarbeiten und dabei die ersten erhaltenen Interfaces, Spezifikationen und Browserdarstellungen in einer chronologischen Quellenmatrix sammeln.

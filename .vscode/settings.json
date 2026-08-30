@@ -1,0 +1,45 @@
+{
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.recipe.default": "first",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatex",
+      "command": "/Library/TeX/texbin/lualatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-output-directory=%OUTDIR%",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "biber",
+      "command": "/opt/homebrew/bin/biber",
+      "args": [
+        "--input-directory=%OUTDIR%",
+        "--output-directory=%OUTDIR%",
+        "%DOCFILE%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "LuaLaTeX -> Biber -> LuaLaTeX x2",
+      "tools": [
+        "lualatex",
+        "biber",
+        "lualatex",
+        "lualatex"
+      ]
+    },
+    {
+      "name": "LuaLaTeX only",
+      "tools": [
+        "lualatex"
+      ]
+    }
+  ]
+}

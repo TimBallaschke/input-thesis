@@ -1,0 +1,72 @@
+Der Abschnitt ist insgesamt gut und funktional, aber etwas schwächer als „Eingabe als physischer Prozess“, weil er momentan zwischen drei unterschiedlichen Dingen pendelt: Textbearbeitung, Fehlerkorrektur und systemseitige Fehlerbehandlung. Als Prüfer würde ich nicht sagen, dass das konzeptionell falsch ist, aber ich würde fragen, ob du diese drei Ebenen bewusst unter „Korrigieren und Bearbeiten“ zusammenfasst.
+Der Grundgedanke ist überzeugend:
+„Texteingabe endet nicht mit dem Erzeugen von Zeichen, sondern umfasst auch deren fortlaufende Bearbeitung.“
+Das ist ein sehr guter Einstieg, gerade nach dem Abschnitt über die physische Ausführung. Du machst damit deutlich, dass Eingabe kein einmaliger Transfer ist, sondern ein prozessuales Herstellen eines Textzustands.
+Auch dein Schluss
+„Im fertigen Text bleibt dieser Bearbeitungsprozess jedoch weitgehend unsichtbar.“
+passt sehr gut zu dem vorherigen Abschnitt. Dort war bereits der Entstehungsweg des Textes unsichtbar; hier verschwindet zusätzlich seine Bearbeitungsgeschichte. Das ergibt über die Abschnitte hinweg eine erkennbare Argumentationslinie.
+Der Titel lautet „Korrigieren und Bearbeiten“, aber nach dem ersten Absatz wird der Abschnitt fast vollständig zu einem Abschnitt über Fehlerkorrektur.
+Dabei ist dein erster Absatz eigentlich interessanter und umfassender:
+„Cursorposition, Auswahl, Einfügen, Löschen und Ersetzen“
+Diese Operationen dienen eben nicht nur der Korrektur von Fehlern. Ein Nutzer kann einen vollkommen korrekten Text umformulieren, erweitern, umstellen oder präzisieren.
+Das ist gerade bei deiner Arbeit relevant. Wenn jemand einen Prompt schreibt und dann
+„Erkläre mir Quantenphysik“
+zu
+„Erkläre mir Quantenphysik in einfachen Worten und anhand eines Beispiels“
+erweitert, wurde kein Fehler korrigiert. Die Intention wird während der Eingabe weiter artikuliert.
+Ich würde deshalb stärker zwischen zwei Formen unterscheiden:
+Bearbeitung als Konstruktion/Revision des Inhalts versus Korrektur als Beseitigung eines Fehlers oder einer Abweichung.
+Du musst daraus keine eigene Typologie machen. Aber ein oder zwei Sätze dazu würden verhindern, dass „Bearbeiten“ und „Korrigieren“ synonym erscheinen.
+„Bei Touchscreens können beispielsweise ungenaue Berührungen automatisch einer wahrscheinlichen Taste zugeordnet werden.“
+Das stimmt als technischer Vorgang, aber ich würde als Prüfer fragen:
+Ist das eigentlich eine Bearbeitung des Textes?
+Genau genommen passiert die Korrektur hier häufig vor beziehungsweise während der Zeichenerzeugung: Aus dem Berührungspunkt wird direkt das intendierte Zeichen inferiert. Der Nutzer bearbeitet also keinen bereits vorhandenen Text.
+Das ist eigentlich interessant, müsste aber sauberer formuliert werden. Etwa als Übergang:
+Korrektur muss dabei nicht erst nach der Erzeugung eines sichtbaren Zeichens erfolgen. Bei Touchscreens kann das System bereits die Eingabehandlung interpretieren und einen ungenauen Berührungspunkt einer wahrscheinlichen Taste zuordnen.
+Dann wird daraus eine analytische Beobachtung: Korrektur kann auf verschiedenen Ebenen der Eingabe stattfinden.
+Das wäre stärker als nur ein weiteres Beispiel.
+Wenn ich deinen zweiten Absatz lese, sehe ich eigentlich drei verschiedene Ebenen:
+1. Korrektur der physischen Eingabe Touchscreen: Berührungspunkt → wahrscheinliche Taste.
+2. Korrektur des erzeugten Textes Spracheingabe: Transkription → Nutzer korrigiert Zeichen/Wörter.
+3. Korrektur aufgrund von Systemanforderungen Formular: Format ungültig → Eingabe muss angepasst werden.
+Das ist ziemlich gut. Aber momentan steht diese Struktur nur implizit im Material.
+Ein einziger zusammenfassender Satz könnte daraus Analyse machen:
+Korrekturen können damit bereits bei der technischen Interpretation einer Eingabehandlung, bei der anschließenden Bearbeitung des erzeugten Textes oder als Reaktion auf Anforderungen und Rückmeldungen des Systems stattfinden.
+Damit bekommt der Absatz deutlich mehr theoretisches Gewicht.
+„Auch Fehlermeldungen und Formatvorgaben können weitere Änderungen notwendig machen …“
+Das sind nicht ganz dieselben Dinge.
+Eine Formatvorgabe kann präventiv sichtbar sein, beispielsweise TT.MM.JJJJ. Eine Fehlermeldung erscheint typischerweise reaktiv, nachdem etwas als ungültig erkannt wurde.
+Gerade für deine Arbeit ist diese Differenz interessant, weil sie unterschiedliche Formen der Führung des Nutzers beschreibt:
+-  Vorgabe → beeinflusst die Eingabe vorher 
+-  Validierung/Fehlermeldung → beeinflusst sie nachher 
+Ich würde das nicht zwangsläufig hier ausführen, wenn du das an anderer Stelle behandelst. Aber sprachlich würde ich zumindest nicht so tun, als seien beide dasselbe.
+„Undo und Redo ermöglichen es, einzelne Änderungen rückgängig zu machen oder wiederherzustellen.“
+Stimmt. Nur ist der Satz momentan etwas handbuchartig.
+Interessanter ist deine anschließende Aussage über Reversibilität. Das ist die eigentliche theoretische Qualität.
+Ich würde stärker darauf hinauslaufen:
+Texteingabe produziert keinen unveränderlichen Output, sondern einen reversibel manipulierbaren Zwischenzustand.
+Das ist für ein Eingabefeld fundamental. Solange eine Eingabe noch nicht übermittelt wurde, kann sie typischerweise umgeschrieben, erweitert und zurückgenommen werden.
+Damit berührst du außerdem eine für deine Gesamtlogik vermutlich wichtige Grenze:
+vor dem Submit: Text ist bearbeitbares Material. nach dem Submit: Text wird zur Eingabe für eine Systemoperation.
+Das ist konzeptionell sehr stark und ich würde prüfen, ob du diese Schwelle später ohnehin behandelst. Falls ja, musst du sie hier nicht vorwegnehmen; aber sie steckt bereits in diesem Abschnitt.
+„Im fertigen Text bleibt dieser Bearbeitungsprozess jedoch weitgehend unsichtbar. Er zeigt weder gelöschte Zeichen noch die einzelnen Korrekturschritte, die zu seinem sichtbaren Zustand geführt haben.“
+Das funktioniert sehr gut.
+Nur „fertiger Text“ würde ich eventuell vermeiden. Wann ist Text „fertig“? Vor dem Absenden? Nach dem Absenden? In einem Editor kann er jederzeit weiterbearbeitet werden.
+„Im jeweils sichtbaren Textzustand“ oder „Im resultierenden Text“ wäre präziser:
+Im resultierenden Text bleibt dieser Bearbeitungsprozess weitgehend unsichtbar. Sichtbar ist sein aktueller Zustand, nicht die Folge der Einfügungen, Löschungen und Korrekturen, aus denen er hervorgegangen ist.
+Das passt auch sehr schön zu deinem vorherigen:
+„Im sichtbaren Text ist dieser Entstehungsweg nicht mehr erkennbar.“
+Man könnte diese Parallelität sogar bewusst nutzen.
+Über die beiden Abschnitte hinweg entsteht gerade eine interessante Unterscheidung:
+Der sichtbare String ist nicht mit der Interaktion identisch, durch die er entstanden ist.
+Dasselbe mkdir entwurf oder derselbe Prompt kann:
+-  anders physisch erzeugt worden sein, 
+-  unterschiedlich oft korrigiert worden sein, 
+-  aus völlig unterschiedlichen Zwischenfassungen hervorgegangen sein. 
+Das sichtbare Eingabefeld reduziert diese Prozessgeschichte auf den aktuellen Textzustand.
+Das ist meines Erachtens für deine Arbeit eine wesentlich stärkere Beobachtung als die bloße Feststellung, dass Menschen Texte korrigieren. Ich würde versuchen, diese Ebene immer wieder sichtbar zu halten.
+Ich würde sagen: solider und gut belegter Abschnitt, aber analytisch noch etwas unter seinem Potenzial. Es fehlt keine große Theorie und ich würde ihn auch nicht wesentlich verlängern. Ich würde vor allem drei Dinge schärfen:
+1. Bearbeitung nicht auf Fehlerkorrektur reduzieren. 
+2.  Die Beispiele Touch / Sprache / Formular als unterschiedliche Ebenen der Korrektur explizit zusammenführen. 
+3.  Am Ende stärker herausstellen, dass das Feld nur einen aktuellen Textzustand präsentiert und seine Bearbeitungsgeschichte verbirgt. 
+Mit diesen Änderungen wäre der Abschnitt für mich nicht mehr nur eine Beschreibung typischer Editing-Operationen, sondern würde eine klare Aussage darüber treffen, was Texteingabe als interaktiver Prozess auszeichnet. Das ist der Maßstab, den ich bei deiner Thesis anlegen würde.

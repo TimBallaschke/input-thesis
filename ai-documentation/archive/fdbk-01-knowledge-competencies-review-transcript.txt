@@ -1,0 +1,145 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: FDBK-01
+000003 | Title: Externally supplied review feedback on required knowledge and competencies
+000004 | Source SHA-256: 85766946f53ddac548f50df4c1542f0247305690e3f8897f571330d62c9e51b5
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Der Abschnitt ist insgesamt solide und bereits klar auf Masterarbeitsniveau, aber
+000008 | ich würde als Prüfer an einer Stelle ziemlich deutlich einhaken: Dein Begriff von
+000009 | „Wissen“ bzw. „Systemwissen“ wird im Verlauf unscharf. Das ist hier wichtiger als
+000010 | stilistische Detailfragen.
+000011 | Die Argumentation funktioniert grundsätzlich sehr gut: Du gehst von stark
+000012 | formalisierten Befehlssystemen über Suchmaschinen und KI-Systeme hin zu Formularen
+000013 | und zeigst, dass Texteingabe nie einfach nur „Text eingeben“ bedeutet, sondern
+000014 | immer Voraussetzungen auf Seiten des Nutzers erzeugt. Besonders gut finde ich,
+000015 | dass du nicht bei der simplen Dichotomie „CLI kompliziert / natürliche Sprache
+000016 | einfach“ stehenbleibst. Genau darin steckt eine interessante Aussage für deine
+000017 | Arbeit.
+000018 | Auch die Bewegung von mkdir → Suche → Prompting → Formular ist produktiv, weil
+000019 | dieselbe physische Handlung sehr unterschiedliche kognitive Anforderungen bekommt.
+000020 | Du eröffnest mit:
+000021 | „Texteingabe [setzt] Kenntnisse über das jeweilige System voraus.“
+000022 | Und schließt mit:
+000023 | „Die verschiedenen Formen der Texteingabe beseitigen notwendiges Systemwissen
+000024 | damit nicht, sondern verteilen es unterschiedlich.“
+000025 | Das funktioniert für CLI, Suche und Prompting weitgehend. Beim Formular
+000026 | verschiebst du aber unbemerkt die Kategorie.
+000027 | Wenn ich wissen muss, dass ein Feld eine E-Mail-Adresse im Format name@domain.de
+000028 | erwartet, ist das Wissen über das Interface bzw. seine Eingaberegeln.
+000029 | Wenn ich dagegen meine eigene Telefonnummer kennen oder meine Kreditkartendaten
+000030 | aus einer Karte abschreiben muss, ist das kein Systemwissen. Das ist Wissen
+000031 | beziehungsweise Information, die vom System verlangt wird.
+000032 | Genau dein eigener Satz macht das sogar deutlich:
+000033 | „Diese Informationen stammen nicht aus der Bediensyntax des Formulars.“
+000034 | Damit widerspricht dieser Absatz ein Stück weit deiner Ausgangsthese.
+000035 | Ich würde deshalb die übergeordnete These verbreitern. Nicht unbedingt
+000036 | „Texteingabe setzt Systemwissen voraus“, sondern etwa in Richtung:
+000037 | Texteingabe setzt unterschiedliche Formen vorausgehenden Wissens voraus.
+000038 | Dann könntest du sauber differenzieren:
+000039 | - syntaktisches/prozedurales Wissen: Was muss ich eingeben und in welcher Form? →
+000040 | CLI
+000041 | - Wissen bzw. mentale Modelle über das System: Was versteht das System, welche
+000042 | Fähigkeiten hat es? → Suche/LLM
+000043 | - Wissen über das eigene Ziel: Was suche oder möchte ich überhaupt? → Suche/LLM
+000044 | - inhaltliche Informationen: Welche konkreten Daten muss ich bereitstellen? →
+000045 | Formulare
+000046 | Das wäre theoretisch erheblich stärker als alles unter „Systemwissen“ zu
+000047 | subsumieren.
+000048 | Das mkdir-Beispiel funktioniert sehr gut, weil es konkret macht, was ansonsten
+000049 | abstrakt bliebe.
+000050 | Bei
+000051 | „Dabei bezeichnet mkdir die auszuführende Operation, während entwurf als Operand
+000052 | den Namen des anzulegenden Verzeichnisses festlegt.“
+000053 | würde ich allerdings terminologisch aufpassen. mkdir ist zunächst der Befehls-
+000054 | bzw. Utility-Name, nicht eigentlich „die Operation“. Der Befehl veranlasst eine
+000055 | Operation. Gerade weil Operation bei dir eine zentrale theoretische Kategorie ist,
+000056 | würde ich den Begriff hier nicht beiläufig in einer syntaktischen Erklärung
+000057 | verwenden.
+000058 | Also eher:
+000059 | mkdir bezeichnet den aufzurufenden Befehl beziehungsweise das Programm, während
+000060 | entwurf als Operand den Namen des anzulegenden Verzeichnisses festlegt.
+000061 | Das hält deine Begriffe sauber.
+000062 | Dieser Satz ist für mich einer der wichtigsten:
+000063 | „Mit zunehmender Nutzung können solche Eingaben selbstverständlich erscheinen. Die
+000064 | Zuordnung zwischen einem Befehl und der ausgelösten Operation muss jedoch zunächst
+000065 | erlernt werden.“
+000066 | Darin steckt mehr als du momentan daraus machst. Du beschreibst im Grunde die
+000067 | Naturalisierung einer erlernten Konvention: mkdir wirkt für erfahrene Nutzer
+000068 | irgendwann unmittelbar, obwohl zwischen Zeichenfolge und Systemoperation keine
+000069 | selbstverständliche Beziehung besteht.
+000070 | Das passt hervorragend zu deinem größeren Gegenstand, weil du später dasselbe bei
+000071 | natürlicher Sprache umdrehen kannst: Dort wirkt die Beziehung zwischen
+000072 | Formulierung und Operation zunächst natürlicher, obwohl auch sie keineswegs
+000073 | transparent oder voraussetzungslos ist.
+000074 | Das wäre eine stärkere argumentative Brücke als nur: „Beide benötigen Wissen.“
+000075 | Der Übergang ist überzeugend:
+000076 | „Auch Systeme, die über frei formulierte Texteingaben bedient werden, heben diese
+000077 | Anforderungen nicht grundsätzlich auf.“
+000078 | Das ist eine gute These.
+000079 | Danach werden Suche und Prompting allerdings fast zu Varianten desselben Prinzips.
+000080 | Gerade bei generativer KI liegt aber ein interessanter Unterschied: Bei mkdir sind
+000081 | gültige Eingaben formal festgelegt; beim Prompting sind die Anforderungen nicht
+000082 | vollständig spezifiziert und oft erst über die Ausgabe erschließbar.
+000083 | Das ist meines Erachtens theoretisch wichtiger als nur zu sagen, Nutzer müssten
+000084 | wissen, „welchen Kontext es benötigt“.
+000085 | Denn gerade das wissen sie häufig nicht. Sie müssen es explorativ herausfinden.
+000086 | Dein Satz
+000087 | „Häufig zeigt erst die Antwort des Systems, welche Angaben fehlen oder anders
+000088 | formuliert werden müssen.“
+000089 | ist deshalb sehr stark. Ich würde ihn zum eigentlichen Punkt machen:
+000090 | Das erforderliche Wissen wird beim Prompting teilweise erst innerhalb der
+000091 | Interaktion erzeugt.
+000092 | Das bringt dich sehr schön Richtung Interaction: Wissen ist hier keine bloße
+000093 | Voraussetzung der Eingabe, sondern entsteht iterativ aus Eingabe, Ausgabe und
+000094 | erneuter Eingabe.
+000095 | Nicht weil er schlecht geschrieben ist, sondern weil er argumentativ etwas
+000096 | seitlich herausfällt.
+000097 | CLI, Suche und Prompting behandeln jeweils die Frage:
+000098 | Wie muss ich meine Absicht in Text übersetzen, damit das System etwas damit tun
+000099 | kann?
+000100 | Beim Formular behandelst du plötzlich:
+000101 | Woher bekomme ich die Informationen, die ich eingeben soll?
+000102 | Das ist eine andere Dimension.
+000103 | Das kann durchaus sehr interessant sein — wahrscheinlich sogar interessanter, wenn
+000104 | du es explizit machst. Ein Formular unterscheidet sich nämlich gerade dadurch,
+000105 | dass es einen großen Teil des benötigten Systemwissens externalisiert:
+000106 | Vorname: E-Mail: Kartennummer:
+000107 | Der Nutzer muss nicht selbst herausfinden, welche Art von Eingabe das System
+000108 | erwartet. Das Interface zerlegt die Aufgabe bereits in benannte Felder. Seine
+000109 | Arbeit besteht stattdessen stärker darin, die verlangten Inhalte bereitzustellen.
+000110 | Das wäre ein hervorragender Kontrast zum Promptfeld.
+000111 | Dann wäre das Formular nicht einfach das vierte Beispiel für „Wissen wird
+000112 | benötigt“, sondern ein Gegenmodell:
+000113 | Das Formular macht einen Teil der Anforderungen sichtbar und verlagert dadurch die
+000114 | kognitive Arbeit vom Formulieren der Anfrage auf das Bereitstellen der verlangten
+000115 | Information.
+000116 | Das wäre analytisch deutlich ergiebiger.
+000117 | „Die verschiedenen Formen der Texteingabe beseitigen notwendiges Systemwissen
+000118 | damit nicht, sondern verteilen es unterschiedlich.“
+000119 | Der Satz klingt gut, aber nach den vier Absätzen würde ich als Prüfer fragen:
+000120 | „Wie genau verteilen sie es?“
+000121 | Du hast es eigentlich gezeigt, benennst das Ergebnis aber nicht. Gerade hier
+000122 | solltest du die Typologie einmal verdichten.
+000123 | Sinngemäß könnte die Schlussfolgerung stärker lauten:
+000124 | Die unterschiedlichen Formen der Texteingabe reduzieren die vorausgesetzte
+000125 | Wissensarbeit daher nicht einfach, sondern verschieben sie. Während Befehlssysteme
+000126 | vor allem Kenntnisse expliziter Befehle und Syntax verlangen, machen Formulare
+000127 | erwartete Inhalte und Formate weitgehend sichtbar. Such- und Promptfelder
+000128 | verzichten dagegen auf eine explizite Eingabesyntax, verlangen dafür aber stärker,
+000129 | dass Nutzer selbst einschätzen, welche Formulierung, welcher Kontext und welche
+000130 | Präzisierung zur gewünschten Systemreaktion führen.
+000131 | Das ist für mich die eigentliche Erkenntnis dieses Abschnitts. Dann hast du nicht
+000132 | nur vier Beispiele aufgezählt, sondern einen Vergleich durchgeführt.
+000133 | Ich würde den Abschnitt derzeit ungefähr so beurteilen:
+000134 | Inhaltlich überzeugend, gut recherchiert und verständlich; konzeptionell aber noch
+000135 | nicht ganz präzise genug. Vor allem „Systemwissen“ ist momentan eine zu große
+000136 | Sammelkategorie. Wenn du die unterschiedlichen Arten von Wissen bzw. kognitiver
+000137 | Arbeit explizit unterscheidest und am Schluss vergleichend zusammenführst, wird
+000138 | daraus ein ziemlich starker Abschnitt.
+000139 | Der Kern, den ich unbedingt behalten und stärker herausarbeiten würde, ist:
+000140 | Die Vereinfachung der Eingabesyntax beseitigt die Arbeit des Nutzers nicht. Sie
+000141 | verschiebt sie von explizitem Regelwissen hin zu Interpretation, Formulierung,
+000142 | Einschätzung der Systemfähigkeiten und iterativer Korrektur.
+000143 | Das ist eine substanzielle These und für deine Gesamtargumentation deutlich
+000144 | interessanter als die allgemeinere Feststellung, dass Texteingabe „Wissen
+000145 | voraussetzt“.

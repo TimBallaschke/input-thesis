@@ -1,0 +1,17 @@
+TY  - CPAPER
+AU  - Black, John B.
+AU  - Moran, Thomas P.
+TI  - Learning and Remembering Command Names
+T2  - CHI '82
+C3  - Proceedings of the 1982 Conference on Human Factors in Computing Systems
+PY  - 1982
+DA  - 1982/03/15
+SP  - 8
+EP  - 11
+DO  - 10.1145/800049.801745
+PB  - Association for Computing Machinery
+CY  - New York, NY, USA
+UR  - https://doi.org/10.1145/800049.801745
+L1  - https://iiif.library.cmu.edu/file/Newell_box00072_fld05108_doc0001/Newell_box00072_fld05108_doc0001.pdf
+N1  - Presented at the Conference on Human Factors in Computer Systems, Gaithersburg, Maryland, 15–17 March 1982. Complete four-page institutional scan verified through Carnegie Mellon University Libraries. Local PDF SHA-256: ad3e9c1eca1afd999f4b0228e1c10e3f48b0062ef388a11175d846c29dae3c71. AI-assisted complete reading performed; thesis-author passage verification pending. The first connector import on 2026-08-14 used T2 for the proceedings title and T3 for CHI '82; Zotero therefore mapped them to Conference Name and Series. This preserved the information but requires a manual field correction in item IB78T2WL. This file now uses Zotero RIS mappings T2 = conferenceName and C3 = proceedingsTitle for reproducible future import.
+ER  -

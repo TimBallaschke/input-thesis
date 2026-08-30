@@ -1,0 +1,105 @@
+Ja, das ist deutlich stärker. Als bewertende Professur würde ich sagen: Der Abschnitt hat jetzt eine klare Argumentation, bleibt quellenkritisch und macht aus den Beispielen tatsächlich eine Aussage über Texteingabe. Ich würde ihn mit wenigen Präzisierungen so verwenden.
+
+Besonders gut funktionieren drei Dinge:
+
+Erstens ist die zentrale Verschiebung jetzt klar:
+
+„Nutzer müssen die angezeigten Optionen wahrnehmen, prüfen, auswählen oder ignorieren.“
+
+Damit beschreibst du nicht nur das Feature Autocomplete, sondern wie es die Interaktion verändert.
+
+Zweitens ist der Quinn/Zhai-Absatz sauber formuliert. Besonders:
+
+„Weniger motorische Eingaben führten damit nicht automatisch zu einer schnelleren Eingabe.“
+
+Das ist eine angemessene Schlussfolgerung aus dem beschriebenen Experiment. Du behauptest nicht allgemein, dass Autocomplete langsamer sei, sondern leitest einen begrenzten Punkt ab.
+
+Drittens finde ich sehr gut, dass du Subramonyam explizit einschränkst:
+
+„[…] führen solche Vorschläge jedoch als Gestaltungsmuster auf, ohne ihre Wirkung empirisch zu untersuchen.“
+
+Das wirkt wissenschaftlich kontrolliert und verhindert, dass aus einer Designempfehlung versehentlich ein empirischer Befund wird.
+
+Ein paar Stellen würde ich noch ändern
+
+Der Einstieg
+
+„Autocomplete und Vorschläge greifen bereits während der Eingabe voraus […]“
+
+ist verständlich, aber sprachlich etwas eigentümlich. „greifen voraus“ und „während der Eingabe“ erzeugen eine kleine begriffliche Spannung. Ich würde einfacher schreiben:
+
+„Autocomplete und Vorschläge greifen bereits während der Texteingabe in deren Formulierung ein, indem sie mögliche Zeichenfolgen, Wörter oder Formulierungen anbieten.“
+
+Das hat noch einen Vorteil: „in deren Formulierung eingreifen“ trifft deine eigentliche These besser.
+
+Auch:
+
+„Dadurch tritt neben das Tippen eine weitere Handlung.“
+
+würde ich ändern. Denn danach folgen gerade mehrere Handlungen. Außerdem ist es bei Spracheingabe etc. nicht notwendigerweise „Tippen“. Eher:
+
+„Dadurch wird die unmittelbare Zeichenerzeugung um weitere Handlungen ergänzt.“
+
+oder noch natürlicher:
+
+„Zur unmittelbaren Eingabe tritt damit die Auseinandersetzung mit den angezeigten Vorschlägen.“
+
+Beim zweiten Absatz wäre ich bei „Prinzip“ minimal vorsichtiger
+
+„Dieses Prinzip findet sich in unterschiedlichen Formen wieder.“
+
+Das ist okay, aber weil du am Ende gerade darauf hinauswillst, dass die Formen nicht unmittelbar gleichzusetzen sind, würde ich vielleicht schreiben:
+
+„Dieses grundlegende Vorschlagsprinzip findet sich in unterschiedlichen Formen wieder.“
+
+Dann behauptest du nur die gemeinsame Oberflächenlogik: Das System bietet etwas an, bevor der Nutzer es vollständig selbst eingegeben hat.
+
+Die Suchvorschläge sind etwas unpräzise formuliert
+
+„Suchfelder können während des Tippens Präfixe oder semantisch verwandte Begriffe sichtbar machen.“
+
+Bei „Präfixe sichtbar machen“ würde ich stocken. Ein Präfix ist normalerweise gerade das, was der Nutzer schon eingegeben hat und auf dessen Grundlage Vorschläge entstehen.
+
+Vermutlich meinst du eher:
+
+„Suchfelder können auf Grundlage bereits eingegebener Zeichenfolgen mögliche Vervollständigungen oder verwandte Suchbegriffe anzeigen.“
+
+Das wäre terminologisch sauberer, sofern es deiner Hearst-Passage entspricht.
+
+Der van-Esch-Satz hängt etwas lose
+
+„Auch die sprachliche und technische Grundlage der Vorschläge ist nicht einheitlich.“
+
+Die Aussage ist plausibel, aber sehr breit. Danach belegst du konkret nur:
+
+„Wortvorhersagen hängen von verfügbaren Korpora, Sprachmodellen und der unterstützten Sprachvarietät ab.“
+
+Ich würde deshalb nicht von „der Vorschläge“ allgemein sprechen, sondern den Geltungsbereich enger halten:
+
+„Auch Wortvorhersagen sind von ihrer sprachlichen und technischen Grundlage abhängig.“
+
+Das ist quellenmäßig sauberer.
+
+Wichtigste verbleibende Kritik: Der allerletzte Satz ist etwas zu universal
+
+„Sie reduzieren Eingabearbeit nicht einfach, sondern verschieben einen Teil davon vom Erzeugen einzelner Zeichen hin zum Beobachten, Bewerten und Auswählen.“
+
+Inhaltlich ist das sehr gut. Aber „sie“ bezieht sich auf sämtliche unterschiedlichen Vorschlagsformen, während dein empirischer Beleg für diese Verschiebung vor allem aus einer spezifischen Wortvervollständigungsstudie stammt.
+
+Ich würde deshalb nur ein kleines „können“ einbauen:
+
+„Vorschläge reduzieren Eingabearbeit daher nicht zwangsläufig, sondern können einen Teil davon vom Erzeugen einzelner Zeichen hin zum Wahrnehmen, Bewerten und Auswählen verschieben.“
+
+Das ist wissenschaftlich sicherer und gleichzeitig genauso aussagekräftig.
+
+Ein Punkt fehlt mir gegenüber unserer vorherigen Diskussion nicht unbedingt
+
+Wir hatten zuvor die interessante Beobachtung, dass das System dadurch an der Formulierung beteiligt wird. Du hast sie jetzt nicht explizit im Schluss. Das ist völlig okay, wenn du den Abschnitt kompakt halten möchtest.
+
+Ich würde sie aber eventuell ganz leicht im ersten Satz unterbringen:
+
+„Autocomplete und Vorschläge greifen bereits während der Texteingabe in deren Formulierung ein […]“
+
+Dann ist diese starke Idee vorhanden, ohne einen zusätzlichen theoretischen Absatz daraus zu machen.
+
+Insgesamt: Das ist jetzt für mich masterarbeitsfähig und analytisch sauber. Ich würde nicht mehr grundsätzlich daran arbeiten, sondern lediglich die genannten Formulierungen präzisieren. Besonders die Bewegung weniger motorischer Aufwand → zusätzliche Wahrnehmungs- und Auswahlhandlung ist klar und überzeugend.

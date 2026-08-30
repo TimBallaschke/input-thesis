@@ -1,0 +1,151 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: FDBK-03
+000003 | Title: Externally supplied review feedback on autocomplete and suggestions
+000004 | Source SHA-256: 961d38fe50eb498a603ce02c92bc00bea2bae85cbb0a7f9e1e9a64ad15a67142
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Ja, das ist deutlich stärker. Als bewertende Professur würde ich sagen: Der
+000008 | Abschnitt hat jetzt eine klare Argumentation, bleibt quellenkritisch und macht aus
+000009 | den Beispielen tatsächlich eine Aussage über Texteingabe. Ich würde ihn mit
+000010 | wenigen Präzisierungen so verwenden.
+000011 | 
+000012 | Besonders gut funktionieren drei Dinge:
+000013 | 
+000014 | Erstens ist die zentrale Verschiebung jetzt klar:
+000015 | 
+000016 | „Nutzer müssen die angezeigten Optionen wahrnehmen, prüfen, auswählen oder
+000017 | ignorieren.“
+000018 | 
+000019 | Damit beschreibst du nicht nur das Feature Autocomplete, sondern wie es die
+000020 | Interaktion verändert.
+000021 | 
+000022 | Zweitens ist der Quinn/Zhai-Absatz sauber formuliert. Besonders:
+000023 | 
+000024 | „Weniger motorische Eingaben führten damit nicht automatisch zu einer schnelleren
+000025 | Eingabe.“
+000026 | 
+000027 | Das ist eine angemessene Schlussfolgerung aus dem beschriebenen Experiment. Du
+000028 | behauptest nicht allgemein, dass Autocomplete langsamer sei, sondern leitest einen
+000029 | begrenzten Punkt ab.
+000030 | 
+000031 | Drittens finde ich sehr gut, dass du Subramonyam explizit einschränkst:
+000032 | 
+000033 | „[…] führen solche Vorschläge jedoch als Gestaltungsmuster auf, ohne ihre Wirkung
+000034 | empirisch zu untersuchen.“
+000035 | 
+000036 | Das wirkt wissenschaftlich kontrolliert und verhindert, dass aus einer
+000037 | Designempfehlung versehentlich ein empirischer Befund wird.
+000038 | 
+000039 | Ein paar Stellen würde ich noch ändern
+000040 | 
+000041 | Der Einstieg
+000042 | 
+000043 | „Autocomplete und Vorschläge greifen bereits während der Eingabe voraus […]“
+000044 | 
+000045 | ist verständlich, aber sprachlich etwas eigentümlich. „greifen voraus“ und
+000046 | „während der Eingabe“ erzeugen eine kleine begriffliche Spannung. Ich würde
+000047 | einfacher schreiben:
+000048 | 
+000049 | „Autocomplete und Vorschläge greifen bereits während der Texteingabe in deren
+000050 | Formulierung ein, indem sie mögliche Zeichenfolgen, Wörter oder Formulierungen
+000051 | anbieten.“
+000052 | 
+000053 | Das hat noch einen Vorteil: „in deren Formulierung eingreifen“ trifft deine
+000054 | eigentliche These besser.
+000055 | 
+000056 | Auch:
+000057 | 
+000058 | „Dadurch tritt neben das Tippen eine weitere Handlung.“
+000059 | 
+000060 | würde ich ändern. Denn danach folgen gerade mehrere Handlungen. Außerdem ist es
+000061 | bei Spracheingabe etc. nicht notwendigerweise „Tippen“. Eher:
+000062 | 
+000063 | „Dadurch wird die unmittelbare Zeichenerzeugung um weitere Handlungen ergänzt.“
+000064 | 
+000065 | oder noch natürlicher:
+000066 | 
+000067 | „Zur unmittelbaren Eingabe tritt damit die Auseinandersetzung mit den angezeigten
+000068 | Vorschlägen.“
+000069 | 
+000070 | Beim zweiten Absatz wäre ich bei „Prinzip“ minimal vorsichtiger
+000071 | 
+000072 | „Dieses Prinzip findet sich in unterschiedlichen Formen wieder.“
+000073 | 
+000074 | Das ist okay, aber weil du am Ende gerade darauf hinauswillst, dass die Formen
+000075 | nicht unmittelbar gleichzusetzen sind, würde ich vielleicht schreiben:
+000076 | 
+000077 | „Dieses grundlegende Vorschlagsprinzip findet sich in unterschiedlichen Formen
+000078 | wieder.“
+000079 | 
+000080 | Dann behauptest du nur die gemeinsame Oberflächenlogik: Das System bietet etwas
+000081 | an, bevor der Nutzer es vollständig selbst eingegeben hat.
+000082 | 
+000083 | Die Suchvorschläge sind etwas unpräzise formuliert
+000084 | 
+000085 | „Suchfelder können während des Tippens Präfixe oder semantisch verwandte Begriffe
+000086 | sichtbar machen.“
+000087 | 
+000088 | Bei „Präfixe sichtbar machen“ würde ich stocken. Ein Präfix ist normalerweise
+000089 | gerade das, was der Nutzer schon eingegeben hat und auf dessen Grundlage
+000090 | Vorschläge entstehen.
+000091 | 
+000092 | Vermutlich meinst du eher:
+000093 | 
+000094 | „Suchfelder können auf Grundlage bereits eingegebener Zeichenfolgen mögliche
+000095 | Vervollständigungen oder verwandte Suchbegriffe anzeigen.“
+000096 | 
+000097 | Das wäre terminologisch sauberer, sofern es deiner Hearst-Passage entspricht.
+000098 | 
+000099 | Der van-Esch-Satz hängt etwas lose
+000100 | 
+000101 | „Auch die sprachliche und technische Grundlage der Vorschläge ist nicht
+000102 | einheitlich.“
+000103 | 
+000104 | Die Aussage ist plausibel, aber sehr breit. Danach belegst du konkret nur:
+000105 | 
+000106 | „Wortvorhersagen hängen von verfügbaren Korpora, Sprachmodellen und der
+000107 | unterstützten Sprachvarietät ab.“
+000108 | 
+000109 | Ich würde deshalb nicht von „der Vorschläge“ allgemein sprechen, sondern den
+000110 | Geltungsbereich enger halten:
+000111 | 
+000112 | „Auch Wortvorhersagen sind von ihrer sprachlichen und technischen Grundlage
+000113 | abhängig.“
+000114 | 
+000115 | Das ist quellenmäßig sauberer.
+000116 | 
+000117 | Wichtigste verbleibende Kritik: Der allerletzte Satz ist etwas zu universal
+000118 | 
+000119 | „Sie reduzieren Eingabearbeit nicht einfach, sondern verschieben einen Teil davon
+000120 | vom Erzeugen einzelner Zeichen hin zum Beobachten, Bewerten und Auswählen.“
+000121 | 
+000122 | Inhaltlich ist das sehr gut. Aber „sie“ bezieht sich auf sämtliche
+000123 | unterschiedlichen Vorschlagsformen, während dein empirischer Beleg für diese
+000124 | Verschiebung vor allem aus einer spezifischen Wortvervollständigungsstudie stammt.
+000125 | 
+000126 | Ich würde deshalb nur ein kleines „können“ einbauen:
+000127 | 
+000128 | „Vorschläge reduzieren Eingabearbeit daher nicht zwangsläufig, sondern können
+000129 | einen Teil davon vom Erzeugen einzelner Zeichen hin zum Wahrnehmen, Bewerten und
+000130 | Auswählen verschieben.“
+000131 | 
+000132 | Das ist wissenschaftlich sicherer und gleichzeitig genauso aussagekräftig.
+000133 | 
+000134 | Ein Punkt fehlt mir gegenüber unserer vorherigen Diskussion nicht unbedingt
+000135 | 
+000136 | Wir hatten zuvor die interessante Beobachtung, dass das System dadurch an der
+000137 | Formulierung beteiligt wird. Du hast sie jetzt nicht explizit im Schluss. Das ist
+000138 | völlig okay, wenn du den Abschnitt kompakt halten möchtest.
+000139 | 
+000140 | Ich würde sie aber eventuell ganz leicht im ersten Satz unterbringen:
+000141 | 
+000142 | „Autocomplete und Vorschläge greifen bereits während der Texteingabe in deren
+000143 | Formulierung ein […]“
+000144 | 
+000145 | Dann ist diese starke Idee vorhanden, ohne einen zusätzlichen theoretischen Absatz
+000146 | daraus zu machen.
+000147 | 
+000148 | Insgesamt: Das ist jetzt für mich masterarbeitsfähig und analytisch sauber. Ich
+000149 | würde nicht mehr grundsätzlich daran arbeiten, sondern lediglich die genannten
+000150 | Formulierungen präzisieren. Besonders die Bewegung weniger motorischer Aufwand →
+000151 | zusätzliche Wahrnehmungs- und Auswahlhandlung ist klar und überzeugend.

@@ -1,0 +1,57 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{aiCollaborationDocumentation2026}{unpublished}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0a666da73fedb098a08bdd63ac9b2d8f}{%
+           family={Ballaschke},
+           familyi={B\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d13a72b0b10d3422ccd4759cfe13de4}{%
+           family={{OpenAI Codex}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8f1da61762a657ca9cab844720caaca}
+      \strng{fullhash}{e8f1da61762a657ca9cab844720caaca}
+      \strng{fullhashraw}{e8f1da61762a657ca9cab844720caaca}
+      \strng{bibnamehash}{e8f1da61762a657ca9cab844720caaca}
+      \strng{authorbibnamehash}{e8f1da61762a657ca9cab844720caaca}
+      \strng{authornamehash}{e8f1da61762a657ca9cab844720caaca}
+      \strng{authorfullhash}{e8f1da61762a657ca9cab844720caaca}
+      \strng{authorfullhashraw}{e8f1da61762a657ca9cab844720caaca}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Complete prompts and outputs submitted as a separate, page- and line-numbered document}
+      \field{title}{AI Collaboration Documentation for the Master's Thesis “Input”}
+      \field{year}{2026}
+      \field{dateera}{ce}
+      \true{nocite}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

@@ -1,0 +1,140 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: FDBK-02
+000003 | Title: Externally supplied review feedback on correction and editing
+000004 | Source SHA-256: 3c2debe627f3ac022f5fbb319529ab244dabdd57e7467a2f520d0ca5aec09a78
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Der Abschnitt ist insgesamt gut und funktional, aber etwas schwächer als „Eingabe
+000008 | als physischer Prozess“, weil er momentan zwischen drei unterschiedlichen Dingen
+000009 | pendelt: Textbearbeitung, Fehlerkorrektur und systemseitige Fehlerbehandlung. Als
+000010 | Prüfer würde ich nicht sagen, dass das konzeptionell falsch ist, aber ich würde
+000011 | fragen, ob du diese drei Ebenen bewusst unter „Korrigieren und Bearbeiten“
+000012 | zusammenfasst.
+000013 | Der Grundgedanke ist überzeugend:
+000014 | „Texteingabe endet nicht mit dem Erzeugen von Zeichen, sondern umfasst auch deren
+000015 | fortlaufende Bearbeitung.“
+000016 | Das ist ein sehr guter Einstieg, gerade nach dem Abschnitt über die physische
+000017 | Ausführung. Du machst damit deutlich, dass Eingabe kein einmaliger Transfer ist,
+000018 | sondern ein prozessuales Herstellen eines Textzustands.
+000019 | Auch dein Schluss
+000020 | „Im fertigen Text bleibt dieser Bearbeitungsprozess jedoch weitgehend unsichtbar.“
+000021 | passt sehr gut zu dem vorherigen Abschnitt. Dort war bereits der Entstehungsweg
+000022 | des Textes unsichtbar; hier verschwindet zusätzlich seine Bearbeitungsgeschichte.
+000023 | Das ergibt über die Abschnitte hinweg eine erkennbare Argumentationslinie.
+000024 | Der Titel lautet „Korrigieren und Bearbeiten“, aber nach dem ersten Absatz wird
+000025 | der Abschnitt fast vollständig zu einem Abschnitt über Fehlerkorrektur.
+000026 | Dabei ist dein erster Absatz eigentlich interessanter und umfassender:
+000027 | „Cursorposition, Auswahl, Einfügen, Löschen und Ersetzen“
+000028 | Diese Operationen dienen eben nicht nur der Korrektur von Fehlern. Ein Nutzer kann
+000029 | einen vollkommen korrekten Text umformulieren, erweitern, umstellen oder
+000030 | präzisieren.
+000031 | Das ist gerade bei deiner Arbeit relevant. Wenn jemand einen Prompt schreibt und
+000032 | dann
+000033 | „Erkläre mir Quantenphysik“
+000034 | zu
+000035 | „Erkläre mir Quantenphysik in einfachen Worten und anhand eines Beispiels“
+000036 | erweitert, wurde kein Fehler korrigiert. Die Intention wird während der Eingabe
+000037 | weiter artikuliert.
+000038 | Ich würde deshalb stärker zwischen zwei Formen unterscheiden:
+000039 | Bearbeitung als Konstruktion/Revision des Inhalts versus Korrektur als Beseitigung
+000040 | eines Fehlers oder einer Abweichung.
+000041 | Du musst daraus keine eigene Typologie machen. Aber ein oder zwei Sätze dazu
+000042 | würden verhindern, dass „Bearbeiten“ und „Korrigieren“ synonym erscheinen.
+000043 | „Bei Touchscreens können beispielsweise ungenaue Berührungen automatisch einer
+000044 | wahrscheinlichen Taste zugeordnet werden.“
+000045 | Das stimmt als technischer Vorgang, aber ich würde als Prüfer fragen:
+000046 | Ist das eigentlich eine Bearbeitung des Textes?
+000047 | Genau genommen passiert die Korrektur hier häufig vor beziehungsweise während der
+000048 | Zeichenerzeugung: Aus dem Berührungspunkt wird direkt das intendierte Zeichen
+000049 | inferiert. Der Nutzer bearbeitet also keinen bereits vorhandenen Text.
+000050 | Das ist eigentlich interessant, müsste aber sauberer formuliert werden. Etwa als
+000051 | Übergang:
+000052 | Korrektur muss dabei nicht erst nach der Erzeugung eines sichtbaren Zeichens
+000053 | erfolgen. Bei Touchscreens kann das System bereits die Eingabehandlung
+000054 | interpretieren und einen ungenauen Berührungspunkt einer wahrscheinlichen Taste
+000055 | zuordnen.
+000056 | Dann wird daraus eine analytische Beobachtung: Korrektur kann auf verschiedenen
+000057 | Ebenen der Eingabe stattfinden.
+000058 | Das wäre stärker als nur ein weiteres Beispiel.
+000059 | Wenn ich deinen zweiten Absatz lese, sehe ich eigentlich drei verschiedene Ebenen:
+000060 | 1. Korrektur der physischen Eingabe Touchscreen: Berührungspunkt → wahrscheinliche
+000061 | Taste.
+000062 | 2. Korrektur des erzeugten Textes Spracheingabe: Transkription → Nutzer korrigiert
+000063 | Zeichen/Wörter.
+000064 | 3. Korrektur aufgrund von Systemanforderungen Formular: Format ungültig → Eingabe
+000065 | muss angepasst werden.
+000066 | Das ist ziemlich gut. Aber momentan steht diese Struktur nur implizit im Material.
+000067 | Ein einziger zusammenfassender Satz könnte daraus Analyse machen:
+000068 | Korrekturen können damit bereits bei der technischen Interpretation einer
+000069 | Eingabehandlung, bei der anschließenden Bearbeitung des erzeugten Textes oder als
+000070 | Reaktion auf Anforderungen und Rückmeldungen des Systems stattfinden.
+000071 | Damit bekommt der Absatz deutlich mehr theoretisches Gewicht.
+000072 | „Auch Fehlermeldungen und Formatvorgaben können weitere Änderungen notwendig
+000073 | machen …“
+000074 | Das sind nicht ganz dieselben Dinge.
+000075 | Eine Formatvorgabe kann präventiv sichtbar sein, beispielsweise TT.MM.JJJJ. Eine
+000076 | Fehlermeldung erscheint typischerweise reaktiv, nachdem etwas als ungültig erkannt
+000077 | wurde.
+000078 | Gerade für deine Arbeit ist diese Differenz interessant, weil sie unterschiedliche
+000079 | Formen der Führung des Nutzers beschreibt:
+000080 | -  Vorgabe → beeinflusst die Eingabe vorher
+000081 | -  Validierung/Fehlermeldung → beeinflusst sie nachher
+000082 | Ich würde das nicht zwangsläufig hier ausführen, wenn du das an anderer Stelle
+000083 | behandelst. Aber sprachlich würde ich zumindest nicht so tun, als seien beide
+000084 | dasselbe.
+000085 | „Undo und Redo ermöglichen es, einzelne Änderungen rückgängig zu machen oder
+000086 | wiederherzustellen.“
+000087 | Stimmt. Nur ist der Satz momentan etwas handbuchartig.
+000088 | Interessanter ist deine anschließende Aussage über Reversibilität. Das ist die
+000089 | eigentliche theoretische Qualität.
+000090 | Ich würde stärker darauf hinauslaufen:
+000091 | Texteingabe produziert keinen unveränderlichen Output, sondern einen reversibel
+000092 | manipulierbaren Zwischenzustand.
+000093 | Das ist für ein Eingabefeld fundamental. Solange eine Eingabe noch nicht
+000094 | übermittelt wurde, kann sie typischerweise umgeschrieben, erweitert und
+000095 | zurückgenommen werden.
+000096 | Damit berührst du außerdem eine für deine Gesamtlogik vermutlich wichtige Grenze:
+000097 | vor dem Submit: Text ist bearbeitbares Material. nach dem Submit: Text wird zur
+000098 | Eingabe für eine Systemoperation.
+000099 | Das ist konzeptionell sehr stark und ich würde prüfen, ob du diese Schwelle später
+000100 | ohnehin behandelst. Falls ja, musst du sie hier nicht vorwegnehmen; aber sie
+000101 | steckt bereits in diesem Abschnitt.
+000102 | „Im fertigen Text bleibt dieser Bearbeitungsprozess jedoch weitgehend unsichtbar.
+000103 | Er zeigt weder gelöschte Zeichen noch die einzelnen Korrekturschritte, die zu
+000104 | seinem sichtbaren Zustand geführt haben.“
+000105 | Das funktioniert sehr gut.
+000106 | Nur „fertiger Text“ würde ich eventuell vermeiden. Wann ist Text „fertig“? Vor dem
+000107 | Absenden? Nach dem Absenden? In einem Editor kann er jederzeit weiterbearbeitet
+000108 | werden.
+000109 | „Im jeweils sichtbaren Textzustand“ oder „Im resultierenden Text“ wäre präziser:
+000110 | Im resultierenden Text bleibt dieser Bearbeitungsprozess weitgehend unsichtbar.
+000111 | Sichtbar ist sein aktueller Zustand, nicht die Folge der Einfügungen, Löschungen
+000112 | und Korrekturen, aus denen er hervorgegangen ist.
+000113 | Das passt auch sehr schön zu deinem vorherigen:
+000114 | „Im sichtbaren Text ist dieser Entstehungsweg nicht mehr erkennbar.“
+000115 | Man könnte diese Parallelität sogar bewusst nutzen.
+000116 | Über die beiden Abschnitte hinweg entsteht gerade eine interessante
+000117 | Unterscheidung:
+000118 | Der sichtbare String ist nicht mit der Interaktion identisch, durch die er
+000119 | entstanden ist.
+000120 | Dasselbe mkdir entwurf oder derselbe Prompt kann:
+000121 | -  anders physisch erzeugt worden sein,
+000122 | -  unterschiedlich oft korrigiert worden sein,
+000123 | -  aus völlig unterschiedlichen Zwischenfassungen hervorgegangen sein.
+000124 | Das sichtbare Eingabefeld reduziert diese Prozessgeschichte auf den aktuellen
+000125 | Textzustand.
+000126 | Das ist meines Erachtens für deine Arbeit eine wesentlich stärkere Beobachtung als
+000127 | die bloße Feststellung, dass Menschen Texte korrigieren. Ich würde versuchen,
+000128 | diese Ebene immer wieder sichtbar zu halten.
+000129 | Ich würde sagen: solider und gut belegter Abschnitt, aber analytisch noch etwas
+000130 | unter seinem Potenzial. Es fehlt keine große Theorie und ich würde ihn auch nicht
+000131 | wesentlich verlängern. Ich würde vor allem drei Dinge schärfen:
+000132 | 1. Bearbeitung nicht auf Fehlerkorrektur reduzieren.
+000133 | 2.  Die Beispiele Touch / Sprache / Formular als unterschiedliche Ebenen der
+000134 | Korrektur explizit zusammenführen.
+000135 | 3.  Am Ende stärker herausstellen, dass das Feld nur einen aktuellen Textzustand
+000136 | präsentiert und seine Bearbeitungsgeschichte verbirgt.
+000137 | Mit diesen Änderungen wäre der Abschnitt für mich nicht mehr nur eine Beschreibung
+000138 | typischer Editing-Operationen, sondern würde eine klare Aussage darüber treffen,
+000139 | was Texteingabe als interaktiver Prozess auszeichnet. Das ist der Maßstab, den ich
+000140 | bei deiner Thesis anlegen würde.

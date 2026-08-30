@@ -1,0 +1,782 @@
+Chapter!Five:!Beacon!:!!A!Linguistic!Readymade!in!the!age!of!Cognitive!
+Capitalism%
+%
+        5.1%Deletion:%information%as%commodity%
+        5.2%A%linguistic%readymade%
+        5.3%Materialising%processes:%oscillation%between%object%and%sign%%
+        5.4%Peirce’s%semiotics%in%the%digital%age%
+        5.5%The%intraface:%real%time%and%site%specificities%
+%
+        Here,%I%will%examine%the%notion%of%deletion%which,%on%first%inspection,%
+seems%to%mark%the%first%step%towards%the%production%of%debris.%To%generate%
+debris%one%needs%discarded,%deleted%data.%The%chapter%will%examine%a%work%
+by% Thomson% &% Craighead,% titled% Beacon,% which% relays% words% typed% into%
+search% engines% and% which% thus% symbolises% the% first% step% towards% an%
+epistemology%dedicated%to%online%knowledge.%The%chapter%will%contextualise%
+the%notion%of%deletion%by%inscribing%%and%defining%it%within%the%present%state%
+of%cognitive%capitalism.%I%will%stress%how%the%act%of%deletion%is%a%crucial%agent%
+in% the% information% economy.% As% such,% I% hope% to% highlight% the% increasing%
+commodification%of%information%found%online.%The%shift%of%understanding%as%
+to%what%holds%%value%will%impact%on%the%meaning%of%detourned%objects%in%art%
+practice% and% more% precisely,% will% refresh% the% notion% of% readymade.% Indeed,%
+throughout% the% theoretical% writing% of% Joselit,% I% will% argue% that% Beacon'
+provides% a% new% type% of% readymade% where% the% commodity% of% the% physical%
+object%has%been%suplanted%by%the%commodification%of%information.%Through%
+the% aestheticisation% of% information% at% play% in% Beacon% I% will% submit% that%
+Thomson%&%Craighead’s%piece%is%a%receptacle%for%processes%of%materialisation%
+and%deRmaterialisation.%%In%other%words,%I%will%demonstrate%that%Beacon'is%a%
+piece%in%%perpetual%oscillation%between%its%status%as%a%sign%and%its%status%as%a%
+commodity.%Following%up%this%remark%and%Joselit’s%emphasis%on%semiotics,%I%
+will% apply% a% semiotic% reading% to% Beacon% via% the% writing% of% C.S.% Peirce.%%
+Embarking%on%a%semiotic%reading%of%an%instance%of%Internet%Art%will%lead%me%
+to%revisit%the%heritage%of%Peirce%in%today’s%cognitive%capitalism.%The%chapter%
+will% end% by% looking% at% the% concept% of% the% interface% and% argue% that% in% the%
+context% of% Beacon,% the% viewer% is% presented% with% not% a% traditional% interface%
+but%with%one%of%its%derivatives%that%Alexander%Galloway%calls%intraface.%%
+
+
+
+%                                                                                  107%
+%
+
+
+
+
+Fig.%14)%Screenshot%from%Beacon%(2005)%by%Thomson%&%Craighead%accessed%on%
+30/01/15%at%http://www.thomson<craighead.net/docs/beacon.html%%%
+%
+5.1%Deletion:%information%as%commodity%
+%
+In%2005%Thomson%&%Craighead%created%an%entirely%automated%piece%entitled%
+Beacon.% Beacon38'is% a% webRbased% artwork,% which% continuously% relays% live%
+web%searches%as%they%are%being%sent%around%the%world.%The%program%acts%as%
+a% ‘silent% witness’% according% to% the% artists,% presenting% words% that% have% been%
+typed% in% a% search% engine% in% series% and% at% fast% regular% intervals.% The% piece,%
+which%is%realRtime,%displays%words%at%such%a%fast%pace%that%they%seem%to%flash.%
+Even% though% Beacon' and% Weightless% were% produced% by% the% same%
+practitioners% and% are% both% selfRgenerated,% the% implications% of% these% two%
+works% are% quite% different.% If% Thomson% &% Craighead% carefully% calculated% the%
+outcomes%of%Weightless'in%a%closed%and%quasi%archiveRlike%system,%Beacon%is%
+an% open% system,% which% by% visually% relaying% a% continuous% stream% of% words,%
+points%at%an%unpredictable%and%live%navigation%of%the%online%space.%Given%that%
+Beacon% is% in% realRtime,% the% viewer% is% witnessing% a% continuous% recycling% of%
+debris.%By%incorporating%and%deleting%words%at%a%fast%pace,%the%work%renders%
+the% process% of% accumulation% perceivable.% The% piece,% by% constant%
+superimposition,% seems% to% merge% words% with% one% another.% Yet,% unlike% The'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+38%Beacon%was%first%launched%online%in%January%2005%and%then%subsequently%displayed%in%2%
+intallations,%one%which%projected%it%in%a%gallery%and%another%one%as%a%railway%flap%sign%at%the%
+Royal%College%of%Art%see%http://thomsonRcraighead.net/beacon.html%(last%accessed%
+23/07/2015).%%
+
+
+%                                                                                          108%
+Digital' Landfill,% which% displays% unintelligible% sequences% of% URLs,% here% the%
+words% typed% in% the% web% browser% and% détourned% by% the% artists,% remain% in%
+their% original% form.% However,% unlike% The' Digital' Landfill,% as% soon% as% an%
+obsolete% word% is% reRappropriated% in% the% Beacon% machine,% it% appears% for% a%
+second% on% the% screen,% and% disappears,% discarded% by% the% same% program,%
+which%has%lifted%it%from%a%remote%search%engine.%%
+As% such,% Beacon% associates% the% deletion% of% words% inherent% to% the% way%
+browsers%operate%and%showcases%not%only%the%retrievable%aspect%of%data%but%
+also% its% disappearance% or% more% precisely% its% deletion.% Unlike% Data' Diaries,'
+Once' Upon,% the% Digital' Landfill% and% Weightless,% which% all% in% different% ways%
+give% the% viewer% access% to% online% waste% that% is% not% normally% visible,% Beacon%
+acknowledges%the%disappearance%of%words%and%thus%brings%the%attention%of%
+the%viewer%to%the%fleeting%nature%of%online%data.%The%use%of%the%term%beacon%
+in%itself%intensifies%the%criticality%contained%within%the%work,%which%not%only%
+warns% against% a% pure% automated% piece% but% also% highlights% one% of% the%
+Internet’s%main%principles,%which%is%its%facility%to%constantly%delete%itself.%In%
+Internet'Art,%Stallabrass%comments:%
+      data% on% the% Net% is% in% principle% eternal% and% in% practice% usually%
+      ephemeral.% Deletion% is% the% Net’s% métier,% its% content% and% its%
+      processes%being%tied%to%the%moment,%both%technically,%since%many%
+      pages% are% designed% for% particular% browsers% and% plugRins,% but%
+      more% importantly% culturally,% as% the% gale% of% fashion% drives% web%
+      pages%before%it,%and%fickle%viewers%skate%only%over%the%new.%
+      (2003:%44)%
+Stallabrass%is%right%when%he%spells%out%the%‘culture%of%the%now%and%the%new’%
+that% web% browsers,% with% their% constant% deletion% of% the% old,% foster.% Yet,% if% in%
+2003% one% could% argue% that% the% Net% is% ‘in% principle% eternal’% but% in% ‘practice%
+ephemeral’,%I%would%argue%that%now,%10%years%later%in%the%‘postRdigital’%age,%
+the%statement%could%be%reversed.%Indeed,%the%soRcalled%‘ephemeral’%data%that%
+Beacon% relays% isn’t% ephemeral% inasmuch% as% it% feeds% the% Google% page%
+algorithm%that%then%gives%value%to%the%webpages%that%have%been%searched%the%
+most.% % % This% is% precisely% the% ranking% of% webpages% and% subsequently% their%
+commodification,% which% now% qualifies% cognitive% capitalism.% Cognitive%
+capitalism% refers% here% to% the% knowledgeR% economy% created% by% Google’s%
+exploitation%of%Internet%nodes%and%links,%according%to%the%level%of%attention%
+
+
+
+%                                                                                     109%
+they% generate.% % As% explained% by% writer% Matteo% Pasquinelli,% the% heart% of%
+cognitive%capitalism%lies%in%the%PageRank%algorithm,%developed%by%Brin%and%
+Page% in% the% ‘90s,% which% ‘traces% a% semantic% value% across% a% dynamic% and%
+chaotic% hypertext’% (Pasquinelli,% 2009:% 3).% Google% ‘establishes% its% own%
+proprietary% hierarchy% of% value% for% each% node% of% the% Internet% and% becomes%
+then%the%first%systematic%global%rentier%of%the%common%intellect’%(Pasquinelli,%
+2009:% 3).% As% such,% the% digital% debris% displayed% in% Beacon% are% not% so% much%
+deleted%as%retrieved%and%recycled%%by%Google%for%profit.%Although%created%in%
+2005,% Beacon'appears% more% relevant% than% ever% by% not% only% infiltrating% the%
+search% engines,% which% were% aimed% at% rendering% the% Internet% more%
+homogenous% and% regulated% (Stallabrass,% 2003:% 20)% but% also% shedding% light%
+on%the%mechanisms%of%contemporary%cognitive%capitalism.%%
+%
+Importantly%the%novelty%of%cognitive%capitalism%or%common%intellect%is%that%it%
+represents%an%extensive%commodification%of%information,%of%language.%In%this%
+particular% context% I% would% submit% that% semantic% takes% on% a% different%
+significance.% The% significance% is% all% the% more% complex% since,% as% Beacon%
+reveals% it,% the% information% exchanged% online% is% displayed% through% various%
+types% of% visualisation.% Consequently,% I’d% be% inclined% to% read% Beacon% as% an%
+instance% of% work% that% pairs% the% commodification% of% data% with% a% semantic%
+sign.% I% % submit% that% the% conflation% of% the% semiotic% and% the% commodity% are%
+intrinsically%specific%to%the%internet’s%economy%and%that%Beacon’s%interplay%of%
+those% two% elements% strikingly% resonate% with% the% reading% that% Joselit%
+develops%of%the%readymade.%I%have%shown%in%Part%One%that%digital%debris%are%
+just%as%much%generated%as%they%are%found,%and%I’d%like%to%explain%now%that%if%
+Beacon% successfully% questions% the% role% of% search% engines% in% cognitive%
+capitalism,% it% is% because% of% the% specific% oscillation,% inherited% from% some% of%
+Duchamp’s%readymades,%between%data%as%a%commodity%and%as%a%sign.%%
+%
+5.2%A%Linguistic%Readymade%
+%
+Behind%the%apparent%‘selfRconscious%shallowness’%(Stallabrass,%2003:%64)%and%
+light% play% of% their% work,% Thomson% &% Craighead’s% Beacon% nonetheless%
+
+
+%                                                                                  110%
+resembles% Duchamp’s% readymades% where% ‘the% correspondence% between%
+objects% and% their% function% is% disarticulated% completely’% (Joselit,% 2007:% 55).%
+Stallabrass%also%identifies%the%tactic%of%reRappropriating%data%in%Internet'Art,%
+as% a% Duchampian% gesture% in% which% ‘there% is% no% movement% or% signing% and%
+dating%of%the%objects,%just%the%throwing%out%of%a%pointer%to%what%exists’%(2003:%
+27).%Here,%I%would%pose%that%the%interesting%part%of%Stallabrass’%definition%lies%
+in%the%ability%he%confers%on%data,%despite%its%disconnection%from%its%original%
+context,%to%point'at%something.%Joselit%radicalises%the%pointing'at%power%of%a%
+readymade% object% by% explicitly% underlining% its% semiotic% dimension.% In%
+Feedback,% he% touches% on% the% issue% of% Duchamp% and% the% readymade.% Joselit%
+explains:%
+      the% significance% of% the% readymade% has% nothing% to% do% with% the%
+      pictorialism% of% the% objet% trouvé% –% with% ‘making% collage% using%
+      readyRmade%objects,’[…]the%radicality%of%Duchamp’s%invention%lay%
+      not% in% incorporating% massRproduced% things% in% art,% but% rather% in%
+      producing% a% paradoxical% object% locked% in% a% perpetual% oscillation%
+      between%its%status%as%a%thing%and%its%status%as%a%sign%–%or,%stated%
+      differently,% in% heightening% the% epistemic% crisis% between%
+      commodities%and%networks.%
+      (2007:%51)%
+For%the%author,%the%readymade%approach,%which%consists%in%both%a%refusal%of%
+any%pictorialism%and%a%destabilization%of%the%détente%between%an%object%as%a%
+commodity% and% an% object% as% a% sign,% is% part% of% an% essential% double% and%
+unresolved%movement%within%the%readymade.%Here%the%originality%of%Joselit’s%
+argument,%which%strikes%a%chord%with%the%cognitive%capitalism%Beacon%sits%in,%
+is% to% reaffirm% the% importance% of% the% semiotics% in% the% act% of% the% readymade,%
+which% subsequently% becomes% not% simply% the% displacement% of% a% commodity%
+in%order%to%criticise%the%capitalist%field%of%exchange%and%the%art%market,%but%a%
+dynamic% of% linguistic% specification% where% language% is% subjected% to%
+desublimation%(Joselit,%2001:73).%%
+To% demonstrate% his% point% Joselit% refers% to% some% less% known% textual%
+readymades% such% as% The' (1915)% and' Rendez>vous' of' Sunday,% February% 6,%
+1916.%%In%one%of%his%previous%books,%entitled'Infinite'Regress,%Joselit%not%only%
+emphasises% the% linguistic% nature% of% the% readymade% but% argues% that% the%
+desublimation% of% language% consists% of% a% double% movement% within% the%
+readymade,% where% on% the% one% hand% words% are% stripped% of% any% significance%
+
+
+%                                                                                  111%
+and% are% turned% into% objects,% into% pure% materiality% and% on% the% other% hand,%
+objects% themselves% are% reified% into% a% language,% into% a% set% of% semiotic%
+relations.%Thus%the%author%of%Infinite'Regress%approaches%Duchamp’s%work%as%
+not% only% a% ‘critique% of% capitalist% fields% of% exchange’% (Joselit,% 2001:% 72)% but%
+also%as%a%‘dynamic%of%linguistic%specification’%which%‘doubles%back%in%order%to%
+inscribe%itself,%calling%into%question%the%neutrality%or%transparency%of%words’%
+(Joselit,% 2001:% 72).% The% linguistic% account% of% readymade% that% Joselit% builds,%
+and% with% it% the% double% movement% of% turning% into% an% object/turning% into%
+language,% resonates% at% the% same% time% with% the% commodified% and%
+aestheticised%continuum%of%information%that%Beacon%is%playing%with.%Indeed,%
+Beacon,%by%detouring%words%typed%in%search%engines,%precisely%plays%on%the%
+duality% of% information% as% a% commodified% sequence% of% semiotics.% Moreover,%
+the%words%typed%into%Beacon’s%search%engine%are%turned%into%an%absurd%realR
+time%montage%of%words,%which%echoes%some%of%Ed%Rusha’s%aestheticisation%of%
+text.%Thus,%if%the%readymade%object%oscillates%between%its%status%as%a%sign%and%
+as% a% commodity,% in% a% cognitive% economy% it% could% be% said% that% Beacon%
+performs% a% form% of% readymade% in% a% new% context.% In% the% light% of% Joselit’s%
+specific%considerations%on%the%readymade,%the%parallel%with%Duchamp%brings%
+attention% to% the% fact% that% Beacon% doesn’t% merely% represent% the% reR
+appropriation% or% détournement% of% an% object% nor% just% a% symbolic% act% of%
+inscription%of%what%is%art,%but%an%oscillation%between%the%two.%In%line%with%the%
+linguistic% readymade% defended% by% Joselit,% Thomson% &% Craighead’s% practice%
+eludes%a%solely%material%reRappropriation%of%media%but%sets%in%motion%a%back%
+and% forth% process% between% object% and% discourse,% as% in% Duchamp’s% Monte'
+Carlo'Bond%%where%the%piece%is%in%a%constant%undecided%relationship%with%the%
+material% that% carries% it.% % As% such,% Joselit’s% reading% of% Duchamp’s% work% and%
+Thomson% &% Craighead’s% practice% could,% at% first% sight% be% interpreted% as%
+departing% from% Foucault’s% genealogy% and% its% necessary,% fixed,% unilateral%
+anchoring% of% statements% into% materiality,% yet% on% a% close% reading% of% the%
+Archaeology'of'Knowledge,%ones%realises%how%conditions%of%the%statement%are%
+particularly% close% to% the% way% in% which% information% is% disseminated% and%
+manipulated,%as%it%is%depicted%in%Beacon.%%
+%
+
+
+%                                                                                    112%
+This% may% be% why% Thomson% &% Craighead% are% reluctant% to% describe% their%
+approach%as%a%reRappropriation.%As%they%explain:%
+      It’s% not% about% reRappropriating% media;% it’s% more% about% catching%
+      datastreams% and% then% allowing% the% viewer% to% see% them% for% a%
+      moment% in% a% new% configuration.% It’s% not% about% appropriating%
+      objects,%it’s%more%about%taking%two%or%three%dataRfeeds,%and%tying%
+      them%into%a%knot.%%%
+      (Thomson%&%Craighead,%2011)39%
+As%a%result,%if%there’s%something%of%the%readymade%in%Thomson%&%Craighead%it%
+does% not% lie% in% the% simple% appropriation% of% an% object% but% rather% in% a%
+discursive% approach% which% deters% a% continuum% of% information% as% a%
+structuring% agent% in% the% elaboration% of% a% piece.% The% approach% defended% by%
+Thomson%&%Craighead,%reinforces%the%understanding%of%New%Media%‘objects’%
+developed%in%Part%One%as%processes%rather%than%objects.%%!
+%
+5.3%Materialising%processes:%oscillation%between%object%and%sign%%
+%
+The% seeming% difference% with% Duchamp% and% Foucault’s% theorisation% of% the%
+inscription% of% language% into% matter% is% that% Duchamp% incorporates% a% double%
+movement,% a% sort% of% meta% criticality,% a% double% dialogue% that% reinserts% the%
+position%of%the%subject,%a%configuration%that%includes%readymade,%object%and%
+subject% whereas% Foucault% reaches% to% a% completely% material% account% of%
+language.%
+Foucault% differentiates% archaeology% from% genealogy,% as% the% former% for% him%
+describes%the%inscription%of%history%into%bodies,%into%materiality.%As%a%result,%
+genealogy%is%given%a%materialising%potential.%In%his%Archaeology'of'Knowledge%
+Foucault%explains%how%genealogy%functions%by%affirming%that%a%sequence%of%
+‘linguistic% elements% must% have% a% material% existence% to% be% regarded% as% a%
+statement’%%(1972%[1969]:%101).%It%reads:%%
+      The% statement% is% always% given% through% some% material% medium,%
+      even%if%that%medium%is%concealed,%even%if%it%is%doomed%to%vanish%
+      as% soon% as% it% appears.% And% the% statement% not% only% needs% this%
+      materiality;%its%materiality%is%not%given%to%it,%in%addition,%once%all%
+      its% determinations% have% been% fixed:% it% is% partly% made% up% of% this%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+39%In%conversation%with%Thomson%&%Craighead,%2%March%2011%available%at%
+https://www.imperica.com/en/inRconversationRwith/inRconversationRwithRjonRthomsonR
+andRalisonRcraighead%%(last%accessed%25/02/15).%
+
+
+%                                                                                    113%
+     materiality.% Even% if% a% sentence% is% composed% of% the% same% words,%
+     bears% exactly% the% same% meaning,% and% preserves% the% same%
+     syntactical%and%semantic%identity,%it%does%not%constitute%the%same%
+     statement% if% it% is% spoken% by% someone% in% the% course% of% a%
+     conversation,% or% printed% in% a% novel;% if% it% was% written% one% day%
+     centuries%ago,%and%if%it%now%reappears%in%an%oral%formulation.%
+     (1972%[1969]:%101)%
+For%Foucault,%the%inscription%into%materiality%is%constitutive%of%the%statement%
+itself% and% is% not% just% the% applicability% of% a% principle% of% statements.% The%
+statement%is%then%bound%to%a%place,%time%and%substance%in%such%a%way%that%if%
+any%of%these%constituents%is%altered,%the%identity%of%the%statement%is%changed%
+too.% Consequently,% with% Foucault,% the% notion% of% a% statement% as% a% whole% is%
+conferred%with%some%paradoxical%instability.%It%is%unstable%in%as%much%as%the%
+identity%of%a%statement%is%bound%to%be%modified%if%one%of%its%parts%is%modified.%
+Yet% a% statement% is% inscribed% into% some% materiality% and% as% such% could% lead%
+one%to%believe%in%the%perennial%quality%of%a%statement.%Here%Foucault%sheds%
+light% on% the% capacity% of% statements% to% be% manipulated,% used,% transformed,%
+exchanged,% combined,% decomposed% and% recomposed.% As% such,% statements,%
+according%to%the%several%velocities%they%go%through,%enter%‘various%networks’.%
+It% is% striking% how% Foucault’s% terminology% here% seems% adequate% to% describe%
+the%way%in%which%information%circulates%on%the%Internet:%%
+    the% statement,% as% it% emerges% in% its% materiality,% appears% with% a%
+    status,% enters% various% networks% and% various% fields% of% use,% is%
+    subjected% to% transferences% or% modifications,% is% integrated% into%
+    operations% and% strategies% in% which% its% identity% is% maintained% or%
+    effaced.%Thus%the%statement%circulates,%is%used,%disappears%[…].’%%
+    (1972%[1969]:%105)%
+Under% this% light,% Joselit’s% reading% of% the% readymade% and% subsequently,%
+Thomson% &% Craighead’s% work% in' Beacon% appear% rather% Foucauldian% in% its%
+archaeological% sense,% % and% bearing% in% mind% Foucault’s% account% of% what%
+constitutes% a% statement,% one% can% witness% a% certain% flexibility% in% the% way% in%
+which% this% latter% can% be% constructed% and% articulated.% Yet,% I’d% like% to% extend%
+the% argument% further% by% stating% that% the% particular% unstable% inscription% of%
+the% statement% in% the% materialising% and% dematerialising% qualities% of% the% net%
+play% a% large% part% in% redefining% an% alternative% medium% specificity,% or% as%
+Rosalind%Krauss%calls%it%‘technical%support’.%For%Krauss,%the%technical%support%
+in% which% a% work% of% art% of% the% ‘postRmedium’% condition% resides,% necessarily%
+
+
+
+%                                                                                   114%
+stems% not% out% of% % ‘the% physical% substance% (and% practiced% by% a% specialised%
+guild)’%but%of%‘contemporary%commercial%vehicles,%such%as%cars%or%television,%
+which% contemporary% artists% now% exploit’% (Krauss,% 2007:38).% % In% Beacon’s%
+case% the% ‘contemporary% commercial% vehicle’% could% be% seen% as% the% web%
+browser.% Thus% where% Joselit% saw% the% oscillation% between% language% and%
+commodity% as% a% condition% of% the% readymade,% Krauss% % sees% a% condition% that%
+constitutes%serious%art.%In%my%opinion%Beacon%represents%an%instance%of%work%
+that%advocates%the%piece%as%not%being%merely%a%statement,%such%as%‘this%is%art’,%
+but%a%more%unstable%ensemble%of%the%reification%and%destruction%of%language%
+inscribed%into%the%cyclical%electric%networks%of%the%internet.%
+%
+5.4%Peirce’s%semiotics%in%the%digital%age%
+%
+The% electric% signals% generated% by% binary% codes,% and% specific% to% the% ways% in%
+which% digital% information% is% materialised% and% dematerialised,% represent% a%
+crucial% turning% point% in% the% significance% and% more% precisely% in% the%
+indexicality% of% the% words% used% in' Beacon.% The% détournement% of% a% web%
+browser% in% Beacon% leads% to% an% aestheticisation% of% information,% which%
+subsequently%turns%the%words%used%into%animated%images.%As%demonstrated%
+by%media%theorist%Braxton%Soderman,%a%digital%image%does%not%hold%the%same%
+indexicality%as%a%photograph,%where%indexicality%has%to%do%with%resemblance.%
+For% Soderman% the% digital% image% is% indexical% of% the% algorithm% which% has%
+produced%the%digital%image.%There%is%a%shift%from%a%perceivable%indexicality%to%
+a%computational%and%processed%one:%%
+     when% a% program% is% executed,% the% symbolic% instructions% of% the%
+     program% are% compiled% or% interpreted% into% machine% code,% into%
+     ones% and% zeros,% then% into% on/off% voltage% flow,% and% eventually%
+     through%a%digitalRtoRanalogue%converter%that%reads%combinations%
+     of% on/off% switches% (measured% as% on/off% voltage% flow)% and%
+     produces%the%analog%voltage%level%that%will%be%sent%to%the%display;%
+     the% symbolic% is% converted% into% physical% electricity% that% will%
+     eventually%determine%the%composition%of%the%image%on%a%monitor.’%%
+     (Soderman,%2007:%164)%%
+The%oscillation%that%Beacon%identifies%between%the%realm%of%information%and%
+materiality,% associated% with% the% different% indexicality% attached% to% a% digital%
+image,%opens%my%argument%to%the%symbolic.%The%symbol%(and%often%as%seen%
+
+
+%                                                                                 115%
+in%Part%One%the%metaphor)%is%an%intrinsic%dimension%of%computer%language.%
+According% to% Media% Theorist% Florian% Cramer,% the% symbolic% necessarily%
+pierces%through%for%it%is%mediated%by%the%interface,%which%is%according%to%him%
+inherently%symbolic:%%
+     Since% the% user% interface% to% a% computer% is% always% symbolic,% and%
+     involves%syntactic%and%symbolic%mapping%for%operation%it%always%
+     boils%down%to%being%a%formal%language.%To%the%extent%that%they%are%
+     understood% symbolically,% everything% that% can% be% said% about%
+     software%interfaces%falls%under%the%entry%on%language.%%
+     (Cramer,%2008:%150)%%%
+Given% the% different% levels% of% indexicality% it% intertwines,% Beacon% is% a%
+particularly% arresting% case% of% détournement% with% its% reRappropriation% of%
+streams%of%information%and%historical%art%practices%in%an%online%environment.%%%
+%
+To% understand% this% virtual% semiotic% conundrum,% and% unpack% the% mixed%
+semiotic% aspects% of% digital% debris,% one% should% look% at% the% writings% of% the%
+founder% of% Semiotics,% Charles% Sanders% Peirce.% Peirce% is% of% particular%
+relevance% for% me% here% inasmuch% as% in% contrast% to% structural% and% postR
+structural% linguistics,% which% evacuated% the% ‘idea% of% an% autonomous% subject,%
+immediately% present% to% itself% through% its% independent% consciousness’%
+(Krauss,% 2007:% 205),% Peirce% has% placed% the% subject% at% the% centre% of% his%
+semiotic% system.% The% originality% of% Peirce’s% thought% on% signs% is% twofold:%
+firstly,% the% American% logician% emphasised% interpretation% as% part% of% the%
+significance% of% a% sign% and% secondly,% as% a% result,% his% philosophy% placed% the%
+subject%at%the%centre%of%his%semiotic%system.%The%role%of%the%subject,%both%as%
+author%of%the%work%and%viewer,%echoes%the%importance%of%moving%away%from%
+a%purely%materialistic%or%realist%vision%of%Internet%Art.%Moreover,%in%the%age%of%
+cognitive% capitalism,% which% exhausts% the% capacity% of% information% to% be%
+capitalised,%data%is%turned%into%an%object%that%partly%eludes%a%mere%statistical%
+reading.%As%such,%online%semiotics%become%redefined%and%gain%new%meaning.%
+Moreover,%if%you%pair%this%commodification%of%the%semantic%with%the%growing%
+discursive% nature% of% contemporary% art% practices,% the% need% to% focus% on% the%
+study%of%signs%becomes%paramount.%%
+If% the% three% types% of% signs% such% as% the% Icon,% the% Index% and% the% Symbol% are%
+widely% documented% and% commented% upon,% the% core% components% of% a% sign%
+
+
+%                                                                                   116%
+and%its%mutability%are%often%overlooked.%For%Peirce,%the%development%of%his%
+theory% of% signs% evolved% throughout% his% life% and% scholars% in% Semiotics% (Shin%
+and%Hammer,%2011)%agreed%that%his%thinking%on%signs%could%be%divided%into%
+three% major% periods.% Here,% I% will% focus% on% the% second% period,% around% 1903,%
+which%corresponds%to%the%most%coherent%and%refined%version%of%his%theory%of%
+signs.% It% was% around% this% time% that% Peirce% clearly% stated% that% a% sign% was%
+composed% of% three% elements:% a% Representamen,% an% Object,% and% an%
+Interpretant.%The%Representamen%is%what%we%experience%first.%%%
+     A% Representamen,% is% a% First% which% stands% in% such% a% genuine%
+     triadic%relation%to%a%Second,%called%its%Object,%as%to%be%capable%of%
+     determining%a%Third,%called%its%Interpretant.%
+     (Peirce,%1955[1897]:%100)%
+According%to%Peirce’s%phenomenology%we%cannot%experience%the%real%world%
+as%it%is.%The%world%is%in%constant%flux,%in%a%constant%state%of%becoming%and%our%
+knowledge% of% it% is% an% approximation.% In% other% words,% our% minds% are% too%
+limited%and%the%world%is%too%subtle%and%complex%for%us%to%grasp,%therefore%we%
+only% glimpse% a% representation% of% it,% the% Representamen.% Then,% the%
+Representamen% enters% into% a% relationship% with% an% Object% (the% real% that% we%
+cannot%access%right%away),%which%is%the%second%component%of%the%sign.%%The%
+third%component%of%the%sign%is%the%Interpretant.%It%is%the%sign’s%meaning,%what%
+mediates%the%relation%between%a%Representamen%and%an%Object.%It%is%worth%
+noticing% that,% according% to% Peirce,% in% order% for% a% sign% to% be% complete% the%
+three% components% need% to% be% interrelated% and% present,% for% a% sign% cannot%
+function% as% a% sign% if% one% of% its% three% components% is% missing.% This% is% what%
+Peirce% implies% by% using% the% term% genuine,% which% means% that% the% three%
+elements%are%bound%together.%Accordingly,%a%Representamen,%an%Object%and%
+an%Interpretant%are%complementary.%Depending%on%the%way%that%these%three%
+elements% intermingle% with% each% other,% a% different% type% of% sign% is% produced.%
+Indeed,%what%differentiates%an%Icon%from%a%Symbol%or%an%Icon%from%an%Index%
+lies% in% the% specifics% of% the% relationship% that% the% Object% has% with% its%
+Representamen.%%
+An%Icon%is%a%sign%in%which%an%Object%interrelates%with%its%Representamen%by%
+virtue%of%some%resemblance%or%similarity.%For%example%a%map%resembles%the%
+territory% it% represents% or% a% photograph% resembles% the% landscape% it% depicts.%
+
+
+
+%                                                                                  117%
+An%Index%is%a%sign%in%which%an%Object%interrelates%with%its%Representamen%by%
+virtue%of%some%causal%connection.%For%instance,%smoke%indicates%the%fire%that%
+causes% it.% A% Symbol,% according% to% Peirce,% is% a% sign% in% which% an% Object%
+interrelates% with% its% Representamen% by% virtue% of% some% convention.% For%
+instance,%a%word%or%an%algebraic%sign%is%a%symbol%insofar%as%the%connection%it%
+entertains%with%what%it%refers%to%is%the%result%of%a%convention.%I%display%below%
+a% diagram% that% I% drew% following% Peirce’s% article% ‘Logic% as% Semiotic:% The%
+Theory%of%Signs’.%
+
+
+
+
+                                                    The$Peircean$Sign$
+
+                                                                $
+                                                  Emphasis$on$the$relation$SignE
+                                                         Interpretant$
+
+
+
+                                                  Rheme$            Quality$
+                                                  Dicent$           Cause$
+                                                  Argument$         Convention$
+
+                                                        Interpretant(
+                                                              $
+            Object’(                                           3"                                          Representamen’(
+                $                                                                                                 $
+                                                                                                                  $
+                         Mu                                                                    e$S
+                                                                                                   ign
+                          ltip   Configuration$4$                          Configuration$3$            $
+                              lica                                                            f$th
+                               tio                                                          n$o
+                                 n$o
+                                                            SIGN"                        tio
+                                     f$th                                              lica
+                                              $
+                                                     (Situation$bound)$              ltip
+                                          ign                  $
+                                      e$S                                           Mu
+                                                        Configuration$1$
+                 Representamen(                                                               Object(
+                         "                                                                         "
+                         1"                                                                       2"
+            Qualisign$        Quality$                                             Icon$             Quality$
+            Sinsign$          Cause$                    Configuration$2$           Index$            Cause$
+            Legisign$         Convention$                                          Symbol$           Convention$
+            $                                                                      $
+            Emphasis$on$the$relation$SignE                                         Emphasis$on$the$relation$
+                 Representamen$                                                         SignEObject$
+
+
+
+                                                        Interpretant’(
+
+                                                                                                                             %
+Fig.%22)%The'Peircean'Sign%
+
+
+
+%                                                                                                                        118%
+%
+In%light%of%the%Peircean%account%of%signs,%I%would%propose%that%the%fragments%
+of% text% featured% in% the% website% created% by% Thomson% &% Craighead% could% be%
+seen% as% % instances% of% a% semiotic% Symbol% for% two% reasons.% Firstly,% they%
+represent% Peirce’s% Symbol,% for% they% are% comprised% of% texts% and% in%
+consequence%the%connection%to%what%text%refers%to%is%conventional.%Secondly,%
+they% could% be% seen% as% instances% of% a% semiotic% Symbol,% for% they% are% parts% of%
+online% conversation% and% as% such% they% refer% to% a% specific% type% of% social%
+interaction,% which% has% its% own% set% of% conventions.% However,% it% is% worth%
+noticing% that% the% debris% are% the% result% of% a% displacement% from% the% original%
+context% of% a% online% chat% room% and% thus% one% can% wonder% if% their% status% as% a%
+symbol% is% still% intact.% Indeed,% Peirce% specifies% that% a% sign% signification% is%
+entirely% dependent% on% the% situation% in% which% the% subject% encounters% them.%%
+As% such,% signs% are% situationRdependant% and% their% significance% varies%
+according% to% the% situation% in% which% they% are% experienced.% For% instance,% an%
+Object% in% one% situation% can% become% a% Representamen% in% another% situation%
+and% creates% another% sign% in% which% it% is% turned% into% a% Representamen.%%
+Accordingly,% Peirce% concludes% that% signs% can% potentially% multiply% and%
+produce%more%signs%indefinitely.%Indeed,%Icon,%Index%and%Symbol%are%not%only%
+expressions%of%a%certain%type%of%interrelation%between%a%Representamen%and%
+an% Object% but% they% also% translate% a% certain% type% of% interaction% between% the%
+subject%and%his%or%her%overall%experience%of%the%Sign.%It%has%been%explained%
+that%Peirce%places%the%subject’s%interpretation%of%the%Sign%at%the%centre%of%his%
+system,%therefore%Icon,%Index%and%Symbol%arise%when%the%subject%bases%his%or%
+her%interpretation%of%the%Sign%by%looking%at%its%Object.%If%he%or%she%places%his%
+or% her% attention% on% the% Representamen,% he% or% she% no% longer% experiences%
+Icon,% Index% and% Symbol% but% Qualisign,% Sinsign% and% Legisign.% If% he% or% she%
+places% his% or% her% attention% on% the% Interpretant,% he% or% she% no% longer%
+experiences% Qualisign,% Sinsign% and% Legisign% but% Rheme,% Dicent% and%
+Argument.%It%follows%that,%for%Peirce,%depending%on%where%the%subject%places%
+his% focus,% there% are% nine% ways% of% describing% the% relation% between%
+Representamen,% Object% and% Interpretant.% Yet% if% Peirce% uses% nine% different%
+terms% to% identify% those% interrelations,% each% triadic% set% of% relations% follows%
+
+
+%                                                                                   119%
+the% same% logic% as% Icon,% Index% and% Symbol% do.% For% instance,% all% Icons,%
+Quasaligns%and%Rhemes%interrelate%with%their%respective%Representamen%by%
+virtue% of% some% resemblance% or% similarity.% All% Indexes,% Sinsigns% and% Dicents%
+interrelate% with% their% Representamen% by% virtue% of% some% causal% connection.%
+All%Symbols,%Legisigns%and%Arguments%interrelate%with%their%Representamen%
+by%virtue%of%some%convention.%In%the%context%of%Beacon,%it%would%follow%that%
+the%debris%had%one%signification%in%their%original%context,%as%words%typed%in%a%
+search% browser% that% helped% to% navigate% through% the% web,% and% that% once%
+displaced% into% an% online% work% they% are% transformed% and% gain% another%
+signification.% Before% attempting% to% understand% what% they% have% become% in%
+Beacon,% it% might% be% well% to% describe% a% historical% precedent% of% words%
+displaced%into%a%visual%artefact,%more%specifically%American%filmmaker%Hollis%
+Frampton’s% Zorn’s' Lemma' (1971).% The% film,% part% of% a% seven% part% series%
+entitled% Hapax' Legomena,% investigates% the% possible% applications% of% a%
+mathematical% principle% (Lemma)% formulated% by% the% GermanRAmerican%
+mathematician%Max%Zorn,%onto%a%visual%medium.%Zorn’s'Lemma%starts%with%a%
+reading% by% a% female% voice% from% a% late% 18th% century% grammar% textbook%
+entitled% Bay' State' Primer.% During% this% part% the% viewer% only% sees% a% black%
+screen.% The% second% part% of% the% film,% largely% silent,% shows% the% viewer% an%
+evolving%24Rpart%Roman%alphabet%–%where%I/J%and%U/V%each%have%one%letter%–%
+composed% of% street% signs% photographed% in% New% York% City.% The% alphabet% is%
+cycled% through,% and% words% are% in% turn% replaced% by% scenes,% such% as% for%
+instance% a% hand% turning% the% pages% of% a% book% or% a% man% painting% a% wall.% The%
+film's% last% part% shows% a% man,% woman% and% dog% walking% through% snow% as%
+several% voices% read% passages% from% On' Light,' or' the' Ingression' of' Forms,% by%
+Robert%Grosseteste.%In%an%interview%about%his%film%in%1985%with%Peter%Gidal,%
+Frampton%declared:%
+      When%we%can%read%and%when%a%word%is%put%before%us,%we%cannot%
+      not%read%it.%We%are%drawn%to%read%it,%and%when%we%do,%we%are%not%
+      looking%at%what%color%it%is,%or%looking%at%its%typeface,%unless%it’s%so%
+      grotesque% or% deformed% as% to% make% the% word% illegible.% We% are%
+      reading%marks%in%a%fixed%order%on%a%surface.%On%the%other%hand,%in%
+      looking% at% a% photograph,% one% is% looking% at% the% representation% of%
+      an% illusionist% space% within% which% the% shape% of% things% –% their%
+      boundaries,%their%colors,%and%so%forth%–%are%paramount.%%
+      (2008%[1985]:%192)%
+
+
+%                                                                                   120%
+Both%works%strip%words%from%their%semantic%value%and%invite%the%viewer%to%
+look%at%them%as%a%linear%succession%of%visual%artefacts.%%
+Even%if%the%cyclical%method%employed%in%Zorns'Lemma%differs%from%Beacon’s'
+randomness,%the%two%works%seem%to%overlay%the%semiotic%logic%of%the%written%
+word% as% a% Symbol% to% turn% it% into% a% form% of% Index.% Through% their%
+aestheticisation,%the%fragments%of%words%filmed%by%Frampton%and%retrieved%
+by%Thomson%and%Craighead%are%indexes.%As%Frampton%points%out%himself,%the%
+words% become% marks.% Despite% Thomson% &% Craighead’s% taste% for% systems,%
+they% do% not% correspond% to% the% marks% left% by% LeWitt% which% testify% to% the%
+frailty%of%the%systems%he%set%up%for%his%work,%but%they%are%manifestations%of%
+the% artist’s% will.% They% could% be% apprehended% as% indexes% insofar% as,% in% the%
+context% of% Zorn’s'Lemma% they% no% longer% refer% to% the% signage% of% a% shop% or% a%
+theatre,%or%to%a%web%browser%in%the%case%of%Beacon,%but%to%the%displacement%
+that% they’ve% been% through.% Those% words% become% the% traces% of% the%
+manipulation% carried% out% by% Frampton% and% Thomson% &% Craighead.% On% the%
+one% hand% then,% the% debris% displayed% are% the% indexes% of% the% technical%
+processes,%be%they%filmic%or%computational,%developed%in%the%making%of%both%
+Beacon%and%Zorn’s'Lemma;%Frampton’s%film%seems%to%prefigure%the%shift%that%
+Soderman% is% advocating% in% understanding% digital% indexicality% as% being%
+procedural% and% algorithmic% rather% than% purely% representational.% On% the%
+other% hand% the% debris% are% also% indexes% of% the% artistic% gesture,% or% semantic%
+processes% of% practice% developed% by% Thomson% &% Craighead% and% Frampton.%
+Yet,% through% the% example% of% Zorn’s' Lemma% it% becomes% apparent% that% the%
+symbolic% power% of% words% is% layered% with% the% indexicality% of% the% artistic%
+endeavour%they%have%been%through.%The%pointing'at%power%of%data%in%Internet'
+Art%attributed%by%Stallabrass%could%thus%be%interpreted%here%as%a%pointing'at%
+quality%of%the%Peircean%Index.%The%act%of%displacement%is%even%more%present%
+in% that% since% Frampton% filmed% words% in% close% ups,% the% viewer% ignores% the%
+context% from% which% they% were% extracted% and% can% only% speculate% about% the%
+processes%through%which%they’ve%become%objects%enmeshed%in%a%piece%of%art.%
+This%overlay%of%Symbol%and%Index%appears%to%illustrate%the%Peircean%principle%
+according%to%which%a%sign%from%one%situation%(words%indicating%a%shop%or%a%
+theatre)% is% mixed% with% another% sign% in% a% different% context.% % In% other% words,%
+
+
+%                                                                                   121%
+through% this% layering% of% significance,% the% overall% indexicality% of% debris% is%
+accruing.%%
+Besides,% both% Zorns' Lemma% and% Beacon% deal% with% ephemeral% pieces% of%
+information,% from% which% original% contexts% no% longer% exist.% The% addition% of%
+one%symbolic%sign%to%an%indexical,%observed%in%Beacon,%seems%to%complexify%
+the%sign,%as%Peirce%understood%it.%%Indeed,%the%potential%of%a%sign%to%multiply,%
+which%is%one%of%its%inherent%qualities,%seems%to%be%exhausted%in%the%piece.%In%
+the% treatment% of% digital% debris% that% Beacon% undertakes,% meaning% is%
+conversely% multiple% to% how% structurally% simple% the% piece% is.% The% semantic%
+demultiplication%then%clashes%with%the%formal%logic%of%the%piece.%In%contrast%
+to% Zorn’s' Lemma,% which% by% following% its% own% logic% creates% its% own% lexicon%
+and% can% sustain% itself,% Beacon% becomes% intentionally% trapped% in% its% own%
+system.% Therefore% it% could% be% said% that% the% tension% Thomson% &% Craighead%
+instill%allows%them%to%ironically%introduce%a%touch%of%criticality%on%the%nature%
+of%automated%Internet%Art.%
+%
+5.5%The%Intraface:%Real%time%and%site%specificities%
+%
+The% irony% Thomson% &% Craighead% deploy% in% Beacon% has% also% another%
+justification,% to% exacerbate% the% confrontation% of% the% virtual% space,% the%
+interface%and%the%physical%space.%Stallabrass%underlines%the%clash%of%content%
+and%context%that%Weightless%brings%to%light%and%states%that%the%personal%and%
+obscene%are%thrown%‘against%the%banal%milieu%of%the%airport%lounge%and%the%
+online% shop’% (2005:% 70).% This% banal% milieu% is% even% more% prominent% in% the%
+piece,%as%Beacon%also%plays%on%the%boundless%characteristics%of%the%Internet%
+since%the%location%where%the%debris%was%lifted%from%is%hidden.%Interestingly,%
+this%clash%of%milieu%is%also%something%Frampton%had%in%mind%as%he%developed%
+Zorns'Lemma.%He%explained:%
+      I% was% amused% by% that,% and% I% began% to% make% a% collection% of% the%
+      rather% brutal% confrontations,% within% the% urban% environment,%
+      between%these%two%mutually%exclusive%kinds%of%space%which%have%
+      been%violently%thrust%together%by%the%culture.%
+      (Frampton,%2008%[1985]:%192)%
+
+
+
+
+%                                                                                   122%
+It% is% worth% noticing% that% this% clash% of% space% is% happening% through% what%
+Frampton% named% ‘culture’% but% which% in% Beacon% is% the% product% of% the%
+interface.%%
+Interestingly,% Beacon,% which% was% originally% available% online,% was% then%
+installed%at%the%B.F.I.40%in%London%and%as%such%conflated%the%experience%of%the%
+online%space%with%the%physical%space.%The%words%depicted%in%the%piece%could%
+then% be% thought% of% as% instances% of% concrete% poetry.% However,% the% online%
+version%of%Beacon%entertains%a%different%relationship%with%space%and%rather%
+than% tackling% the% gap% between% the% physical% and% online% space,% Beacon% now%
+plays%on%the%boundlessness%of%virtual%space%and%the%false%transparency%of%the%
+interface.%In%both%cases,%either%at%the%B.F.I%or%online,%Beacon'conflates%those%
+different%types%of%space%to%situate%the%viewer%in%a%paradoxical%position.%The%
+strategy% was% already% successfully% employed% in% Frampton’s% Zorns' Lemma.%
+The%filmmaker%explained:%%
+     So%looking%at%a%photograph%of%a%word%situated%in%an%illusionistic%
+     space,% be% it% deep% or% shallow,% involves% the% perceiver,%
+     paradoxically,%in%two%simultaneous%activities,%which%seem%at%odds%
+     with%each%other.%
+     (2008%[1985]:%192)%
+Here,% Frampton% stresses% the% paradoxical% situation% for% the% viewer% that% his%
+film%creates.%The%impossible%ubiquity%of%the%viewer%can%be%seen%as%resonating%
+with% Peirce’s% need% for% a% subject% to% focus% his% attention% on% a% singular% set% of%
+relations%to%interpret%a%sign.%As%shown%previously,%Peirce%stresses%the%need%
+for%a%sign%to%be%interpreted%from%a%singular%point%of%view,%yet%the%conflation%
+of% spaces% that% Beacon% depicts% render% that% single% perspective% impossible.% In%
+this% instance% Zorns' Lemma% and% Beacon% seem% to% destabilise% the% single%
+perspective%advocated%by%Peirce%in%his%definition%of%the%sign.%
+The% difficulty% of% anchoring% Beacon% in% one% spatial% plane% has% to% do% with% the%
+way% in% which% an% interface% theoretically% functions.% According% to% Media%
+theorist%Alexander%Galloway,%interfaces%are%spaces%in%themselves.%As%a%result,%
+the% computer% screen% is% no% longer% a% conduit% like% a% window% or% a% door% for%
+communication% to% get% through.% In% The' Interface' Effect,% Galloway% specifies%
+that% an% interface% is% not% a% point% of% mediation% or% a% connection% between%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+40%See%http://www.fact.co.uk/projects/reRvideoRpositive/thomsonRcraigheadRbeacon.aspx%
+(last%accessed%23/07/2015).%%
+
+
+%                                                                                    123%
+physical% space% and% virtual% space.% He% then% embarks% on% a% hermeneutical%
+investigation% of% the% interface% to% demonstrate% that% there% is% another% layer% to%
+the% interface:% the% intraface.% Galloway% defines% the% intraface% as% a% zone% of%
+indecision% between% two% opposite% directions,% the% edge% and% the% centre.% The%
+intraface%is%a%threshold,%which%belongs%to%the%aesthetic%and%within%which%the%
+edge% and% the% centre% are% ‘subsumed% and% contained% within% the% image’%
+(Galloway,% 2012:% 41).% The% intraface% is% an% autonomous% zone% of% activity% that%
+impacts,% on% the% interaction% with% the% viewer.% Following% up% Galloway’s%
+definition% of% the% intraface% and% the% dynamics% it% deploys% between% its% centre%
+and%its%edges,%what%are%the%implications%for%Beacon?%
+One% of% the% factors,% which% strengthen% the% visibility% of% the% interface,% is% the%
+clash% of% the% different% types% of% spaces% –% physical,% virtual% and% interface% –%
+depicted%in%Beacon.'The'confrontation%of%these%spaces%occupies%the%interface%
+and% turns% it% into% an% intraface.% Accordingly,% the% interface% becomes% intraface%
+and% delivers% an% imperfect% communication.% As% Galloway% states% (2012:% 26),%
+communication%is%absolutely%successful%when%completely%transparent,%when%
+the% means% of% communication% become% unnoticeable.% As% for% the% relation%
+between%edge%and%centre%in% Beacon,'given%its%boundlessness,%the%edges%are%
+peculiar% and% could% be% identified% as% the% place% from% where% the% debris% are%
+retrieved% in% real% time.% The% source% where% the% debris% are% extracted% has% a%
+direct%connection%with%the%search%engine%created%by%Thomson%&%Craighead%
+at%the%centre%of%the%Beacon%website.%As%such,%the%edges%of%the%piece%lie%in%a%
+location%outside%the%frame%of%Beacon,%which%the%centre%of%Beacon%(its%search%
+engine)% points% at.% Accordingly,% Beacon' could% be% thought% of% as% a% form% of%
+intraface%as%defined%by%Galloway,'a%layered%autonomous%zone%that%entertains%
+an% indecisive% relationship% with% the% online% space% which% originated% it% –% here%
+the%place%from%where%the%debris%are%lifted.%In%Beacon%the%dynamics%between%
+centre%and%edge%and%the%frictions%between%the%physical,%the%virtual%and%the%
+interface% are% the% result% of% the% undermining% of% the% web% browser% device%
+carried%out%by%Thomson%&%Craighead.%Moreover,%I’d%be%inclined%to%add%that%
+the%intraface%of%Beacon%could%be%read%as%indexical%in%as%much%as%both%centre%
+and%edges%mutually%point%at%each%other%in%a%causal%connection.%It%could%even%
+be% said% that% the% intraface% is% indexical% by% the% very% quality% of% being% made% of%
+
+
+%                                                                                    124%
+codes.% Indeed,% let’s% refer% back% to% the% television% language% displayed% in%
+Weightless.' As% Galloway% explains,% a% digital% image% is% intrinsically% different%
+from%a%televisual%one,%for%computers%are%not%originally%conceived%to%produce%
+images,%but%text%and%codes.%He%states:%
+     Television% departs% from% the% image% entirely% and% instead% goes% for%
+     the% symbolic% space% of% language% in% which% things% are% arranged% in%
+     pixels% and% grids;% and% the% computer% annihilates% the% imaginary%
+     entirely,%reverting%back%to%that%oldest%of%ageRold%media,%writing.%%
+     (Galloway,%2012:%14)%
+Despite%the%fact%that%drawing%preceded%writing%by%several%thousand%years,%I%
+would%here%develop%further%Galloway’s%point%by%proposing%that%in%the%case%of%
+Beacon% the% intraface% is% indexical,% for% it% refers% to% a% sequencing% of% codes,% a%
+hidden% architecture% of% writings% which% renders% the% image% possible% without%
+being% visibly% part% of% it.% As% for% Weightless,% even% if% the% piece% borrows% from% a%
+television% show% format% and% as% such% could% lead% one% to% think% that% the% work%
+shares% the% symbolic% language% of% television,% as% Galloway% puts% it,% the% piece%
+remains%indexical%by%the%mere%fact%of%being%digital.%In%this%nexus%of%indexical%
+relationships% between% edge/centre,% physical% space/intraface/virtual% space%
+and% intraface/digital% data,% it% could% be% argued% that% in% both% Beacon% and%
+Weightless,%the%debris%manipulated%by%Thomson%&%Craighead%are%not%only%a%
+result%of%the%intraface%but%they%also%define%it.%%
+!
+!
+        %
+        The%aim%of%this%chapter%was%to%uncover%the%ways%in%which%the%debris%
+displayed%in%Beacon%represent%ambiguous%entities%oscillating%between%their%
+status% as% semiotics% elements% and% materialising% and% dematerialising%
+processes.% The% chapter% first% examined% the% way% in% which% the% debris%
+illustrated% the% commodification% of% information% in% cognitive% capitalism% and%
+how% Beacon% paired% this% commodification% with% an% onRgoing% aestheticisation%
+through% the% live% relay% of% online% data.% This% pairing% of% commodity% and%
+aesthetics%has%led%me%to%revisit%some%accounts%of%the%readymade.%Following%
+the% work% of% Joselit% on% Duchamp’s% practice,% I’ve% have% demonstrated% that%
+Beacon%does%share%some%of%the%tactics%deployed%by%Duchamp%in%his%Rendez>
+vous%by%producing%an%object%which%is%locked%in%oscillation%between%its%status%
+
+
+%                                                                                     125%
+as% a% sign% and% its% status% as% a% commodity.% The% % linguistic% interpretation%
+provided% by% Joselit,% helped% me% to% shed% some% light% on% the% primal% linguistic%
+qualities% of% Beacon.% I’ve% also% concluded% that% the% difference% between%
+Duchamp’s%readymade%and%Beacon’s%aestheticisation%of%data%lies%in%the%fact%
+that%Thomson%&%Craighead%use%a%continuum%of%information%and%that%as%such%
+the%artefact%produced%couldn’t%be%‘locked’%in%oscillation%as%Joselit%argues,%but%
+rather% engaged% in% processes% of% materialisation% and% dematerialisation.% In%
+light%of%Joselit’s%semantic%take%on%Duchamp’s%tactics,%the%chapter%attempted%
+to%assess%the%explanatory%role%of%semiotics%in%an%online%environment.%Thanks%
+to% some% of% the% theories% of% C.% S.% Peirce,% it% was% demonstrated% that% his% triadic%
+definition%of%the%sign%helped%to%foreground%the%role%of%the%artist%and%her/his%
+intentions% in% the% reRcycling% of% debris% I% discuss% here.% Nonetheless,% it% as% also%
+been% explained% that% the% digital% debris% displayed% in% Beacon% cannot% only%
+function% as% symbolic% signs% but% also% as% indexes.% The% overlaying% of% the%
+significance% of% the% sign% paired% with% the% spatial% demultiplication% at% play% in%
+what% Alexander% Galloway% calls% intraface,% defeat% the% Peircean% notion% of% a%
+single% point% of% view% and% space% in% the% interpretation% of% semiotics.% The%
+importance% of% this% chapter% was% to% reintroduce% an% alternative% way% to% start%
+thinking% about% % medium% specificity% and% to% demonstrate% that% Internet% Art%
+isn’t% just% a% pure% discursive% practice% in% which% digital% debris% are% a%
+metaphorical% manifestation% but% that% they% are% entangled% into% processes% of%
+materialisation%inherent%to%the%medium.%
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+
+
+
+
+%                                                                                     126%
+

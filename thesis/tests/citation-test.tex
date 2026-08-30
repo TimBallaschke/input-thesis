@@ -1,0 +1,37 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage[a4paper,margin=30mm]{geometry}
+\usepackage{csquotes}
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  sorting=nyt,
+  giveninits=true,
+  uniquename=init
+]{biblatex}
+\addbibresource{../../references/library.bib}
+\usepackage[hidelinks]{hyperref}
+
+\hypersetup{
+  pdftitle={Citation Pipeline Test},
+  pdfauthor={Tim Ballaschke}
+}
+
+\begin{document}
+
+\section*{Citation Pipeline Test}
+
+This document is not thesis prose. It verifies the path from Zotero through
+Better BibLaTeX and Biber to the rendered PDF.
+
+Author--year citation: \textcite{shneidermanDirectManipulationStep1983}.
+
+Parenthetical citation with page range:
+\parencite[57--69]{shneidermanDirectManipulationStep1983}.
+
+\printbibliography[title={Test Bibliography}]
+
+\end{document}

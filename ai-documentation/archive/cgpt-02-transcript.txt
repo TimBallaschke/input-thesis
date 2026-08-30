@@ -1,0 +1,338 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: CGPT-02
+000003 | Title: Earlier conversation about source research
+000004 | Source SHA-256: 8b32e7a8ab386029c27d3c7cb5e32323c9b579178be7e53972a3942ad4dfd3d6
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | wie finde ich am besten quellen zu meinem Thema der Masterarbeit. Google Scholar
+000008 | und was noch?
+000009 | 5m 8s nachgedacht
+000010 | 
+000011 | Da dein Thema nicht nur das HTML-input-Element, sondern Texteingabe als Interface-
+000012 | und Navigationsprinzip umfasst – von der Kommandozeile über Formulare und
+000013 | Suchfelder bis zu KI-Interfaces –, wirst du die Literatur nicht in einer einzigen
+000014 | Disziplin finden. Dein Thema liegt zwischen Human–Computer Interaction,
+000015 | Designgeschichte, Computergeschichte, Medienwissenschaft, Information Retrieval
+000016 | und Human-Centered AI.
+000017 | 
+000018 | Google Scholar ist deshalb ein guter Ausgangspunkt, aber eher dein zentraler
+000019 | Verteiler als deine einzige Quelle.
+000020 | 
+000021 | Die wichtigsten Datenbanken für dein Thema
+000022 | 1. ACM Digital Library – vermutlich die wichtigste
+000023 | 
+000024 | Für alles rund um Interaction Design, Interfaces, Texteingabe, Kommandozeilen,
+000025 | Suchinterfaces, Conversational Interfaces und KI-Interaktion würde ich zuerst hier
+000026 | suchen.
+000027 | 
+000028 | Besonders relevant sind:
+000029 | 
+000030 | CHI – Conference on Human Factors in Computing Systems
+000031 | DIS – Designing Interactive Systems
+000032 | UIST – User Interface Software and Technology
+000033 | TOCHI – ACM Transactions on Computer-Human Interaction
+000034 | 
+000035 | CHI und DIS sind besonders interessant für die gestalterische, kulturelle und
+000036 | nutzerbezogene Ebene. UIST ist technischer und eignet sich beispielsweise für neue
+000037 | Eingabemethoden oder experimentelle Interface-Systeme. TOCHI deckt die technischen
+000038 | und menschlichen Aspekte der Computerinteraktion ab. ACM-Publikationen sind
+000039 | inzwischen grundsätzlich Open Access zugänglich.
+000040 | 
+000041 | Für deine Arbeit wäre die ACM Digital Library wahrscheinlich wichtiger als IEEE
+000042 | Xplore.
+000043 | 
+000044 | 2. Scopus oder Web of Science – für systematischere Suche
+000045 | 
+000046 | Falls deine Hochschule Zugriff bietet, solltest du mindestens eine der beiden
+000047 | Datenbanken benutzen. Sie sind weniger angenehm zum Stöbern als Google Scholar,
+000048 | dafür kannst du wesentlich sauberer nach:
+000049 | 
+000050 | Publikationszeitraum
+000051 | Fachgebiet
+000052 | Dokumenttyp
+000053 | Autor
+000054 | Konferenz
+000055 | Journal
+000056 | Zitationshäufigkeit
+000057 | 
+000058 | filtern.
+000059 | 
+000060 | Das ist besonders hilfreich, wenn du später nachvollziehbar dokumentieren
+000061 | möchtest, wie du nach Literatur gesucht hast. Scopus deckt wissenschaftliche,
+000062 | technische, sozialwissenschaftliche und geisteswissenschaftliche Literatur sowie
+000063 | Konferenzbeiträge und Bücher ab; Web of Science ist besonders nützlich für
+000064 | Zitationsanalysen und das Verfolgen wissenschaftlicher Debatten über längere
+000065 | Zeiträume.
+000066 | 
+000067 | 3. JSTOR und Project MUSE – für Theorie, Medien- und Designgeschichte
+000068 | 
+000069 | Die technische Geschichte der Texteingabe allein reicht für deine Thesis
+000070 | wahrscheinlich nicht. Du brauchst vermutlich auch Texte über:
+000071 | 
+000072 | Interface-Paradigmen
+000073 | Mediengeschichte
+000074 | Mensch-Maschine-Kommunikation
+000075 | Sprache als Interface
+000076 | Designgeschichte
+000077 | kulturelle Bedeutung von Interfaces
+000078 | Macht, Agency und Automatisierung
+000079 | 
+000080 | Dafür sind JSTOR und Project MUSE deutlich geeigneter als reine
+000081 | Informatikdatenbanken. JSTOR enthält wissenschaftliche Zeitschriften, Bücher und
+000082 | historische Primärquellen; Project MUSE konzentriert sich stark auf geistes- und
+000083 | sozialwissenschaftliche Bücher und Journals von Universitätsverlagen.
+000084 | 
+000085 | Zwei konkrete Journals, in denen du regelmäßig suchen solltest, sind:
+000086 | 
+000087 | Design Issues
+000088 | Journal of Design History
+000089 | 
+000090 | Design Issues behandelt Designgeschichte, Designtheorie und Designkritik. Das
+000091 | Journal of Design History betrachtet Designgeschichte aus
+000092 | geisteswissenschaftlicher Perspektive und bezieht unter anderem Grafik-, Produkt-
+000093 | und Mediendesign ein.
+000094 | 
+000095 | Für die Computergeschichte ist außerdem das IEEE Annals of the History of
+000096 | Computing sehr relevant. Es behandelt technische ebenso wie soziale, politische
+000097 | und wirtschaftliche Aspekte der Computergeschichte.
+000098 | 
+000099 | 4. KVK, WorldCat und Google Books – für Bücher
+000100 | 
+000101 | Gerade bei einer historischen und theoretischen Masterarbeit wirst du viele
+000102 | wichtige Quellen eher in Monografien und Sammelbänden als in einzelnen Papers
+000103 | finden.
+000104 | 
+000105 | Dafür eignen sich:
+000106 | 
+000107 | Karlsruher Virtueller Katalog, KVK
+000108 | WorldCat
+000109 | Google Books
+000110 | der Bibliothekskatalog deiner Hochschule
+000111 | 
+000112 | Der KVK durchsucht gleichzeitig zahlreiche Bibliotheks- und Buchhandelskataloge,
+000113 | listet allerdings in erster Linie Bücher und Zeitschriftentitel, nicht einzelne
+000114 | Aufsätze. WorldCat hilft dir anschließend zu sehen, in welchen Bibliotheken ein
+000115 | Titel vorhanden ist. Google Books ist besonders praktisch, um innerhalb von
+000116 | Büchern nach einzelnen Begriffen, Namen und Kapiteln zu suchen.
+000117 | 
+000118 | Gerade für Themen wie Kommandozeile, frühes Interactive Computing, Xerox PARC,
+000119 | Suchmaschinen oder Interfacegeschichte würde ich nicht nur nach Aufsätzen suchen,
+000120 | sondern gezielt nach:
+000121 | 
+000122 | Büchern zur Geschichte des Personal Computers
+000123 | HCI-Lehrbüchern aus unterschiedlichen Jahrzehnten
+000124 | Sammelbänden zur Interface Culture
+000125 | Biografien und Oral Histories von Interface-Pionieren
+000126 | historischen Handbüchern und Bedienungsanleitungen
+000127 | 5. Computer History Museum, Internet Archive und Standards
+000128 | 
+000129 | Für deinen historischen Teil brauchst du neben wissenschaftlicher
+000130 | Sekundärliteratur auch Primärquellen. Das können sein:
+000131 | 
+000132 | historische Software-Handbücher
+000133 | Bedienungsanleitungen
+000134 | Screenshots
+000135 | Produktbroschüren
+000136 | Interface-Demonstrationen
+000137 | Patente
+000138 | Standards
+000139 | archivierte Websites
+000140 | Interviews mit Entwicklerinnen und Entwicklern
+000141 | 
+000142 | Das Computer History Museum besitzt umfangreiche Sammlungen zu Software- und
+000143 | Computergeschichte sowie mehr als tausend Oral-History-Interviews. Das Internet
+000144 | Archive enthält historische Software, Texte, Websites und Handbücher.
+000145 | 
+000146 | Für den Web-Teil deiner Arbeit solltest du außerdem ältere und aktuelle
+000147 | HTML-Spezifikationen als Primärquellen betrachten. Die historische
+000148 | HTML-4-Spezifikation beschreibt beispielsweise das INPUT-Element als einzeilige
+000149 | Texteingabe und TEXTAREA als mehrzeilige Texteingabe; die heutige
+000150 | WHATWG-Spezifikation behandelt das input-Element weiterhin als „text entry
+000151 | widget“.
+000152 | 
+000153 | So könntest du nicht nur schreiben, was andere über das Textfeld gesagt haben,
+000154 | sondern auch untersuchen, wie das Textfeld technisch und begrifflich selbst
+000155 | definiert wurde.
+000156 | 
+000157 | 6. Semantic Scholar, OpenAlex, BASE und CORE – für zusätzliche Treffer und PDFs
+000158 | 
+000159 | Diese Dienste sind besonders nützlich, wenn Google Scholar zu unübersichtlich wird
+000160 | oder du eine frei zugängliche Version eines Papers suchst:
+000161 | 
+000162 | Semantic Scholar für ähnliche Papers, Autoren und Zitationsbeziehungen
+000163 | OpenAlex als offener wissenschaftlicher Katalog
+000164 | BASE für Hochschulschriften und institutionelle Repositorien
+000165 | CORE für Open-Access-Publikationen
+000166 | 
+000167 | Semantic Scholar und OpenAlex eignen sich für Discovery und Zitationsnetze; BASE
+000168 | und CORE helfen besonders häufig dabei, frei verfügbare Manuskripte oder
+000169 | Hochschulschriften zu finden.
+000170 | 
+000171 | Tools zum Weiterhangeln von einer guten Quelle
+000172 | 
+000173 | Sobald du ein wirklich passendes Paper gefunden hast, solltest du nicht wieder von
+000174 | vorne mit Keywords suchen. Nutze das Paper als Seed Source.
+000175 | 
+000176 | Dafür eignen sich:
+000177 | 
+000178 | ResearchRabbit
+000179 | Connected Papers
+000180 | Litmaps
+000181 | Scite
+000182 | 
+000183 | ResearchRabbit, Connected Papers und Litmaps visualisieren verwandte Arbeiten und
+000184 | Zitationsnetzwerke. Scite zeigt zusätzlich, in welchem Zusammenhang ein Paper
+000185 | später zitiert wurde und ob andere Arbeiten seine Aussagen stützen, diskutieren
+000186 | oder infrage stellen.
+000187 | 
+000188 | Wichtig: Diese Tools sollten deine Suche erweitern, aber nicht ersetzen. Ihre
+000189 | Ergebnisse hängen stark davon ab, welches Ausgangspaper du hineingibst.
+000190 | 
+000191 | Suche nicht nur nach „text input“
+000192 | 
+000193 | Der zentrale Begriff deiner Thesis wird in der Forschung wahrscheinlich nicht
+000194 | einheitlich verwendet. Bei text input findest du schnell technische Literatur zu
+000195 | Tastaturen, Touchscreens, Texteingabegeschwindigkeit oder HTML-Formularen. Dein
+000196 | eigentliches Thema ist aber größer: Texteingabe als Interaktions- und
+000197 | Navigationsparadigma.
+000198 | 
+000199 | Deshalb würde ich deine Suche in vier Blöcke aufteilen.
+000200 | 
+000201 | Kommandozeile und historische Interfaces
+000202 | "command line interface" AND history AND interaction
+000203 | 
+000204 | ("command language" OR "text-based interface")
+000205 | AND "human-computer interaction"
+000206 | 
+000207 | ("command-based interaction" OR "language-based interaction")
+000208 | AND interface
+000209 | 
+000210 | "interactive computing" AND terminal AND interface
+000211 | 
+000212 | "direct manipulation" AND "command line"
+000213 | 
+000214 | Der Begriff direct manipulation ist dabei wichtig, weil darüber der Übergang von
+000215 | Befehls- zu grafischen Interfaces diskutiert wird.
+000216 | 
+000217 | Formulare, Textfelder und Suchfelder
+000218 | ("text field" OR "input field" OR "text box")
+000219 | AND "interface design"
+000220 | 
+000221 | ("web forms" OR "form interaction")
+000222 | AND usability
+000223 | 
+000224 | ("search box" OR "query box")
+000225 | AND interface
+000226 | 
+000227 | "query formulation" AND "search interface"
+000228 | 
+000229 | autocomplete AND "search interface"
+000230 | AND user behavior
+000231 | 
+000232 | Für den Google-Teil könnten zusätzlich Begriffe wie information retrieval, query
+000233 | formulation, search interaction und search user interface relevant werden.
+000234 | 
+000235 | Natürliche Sprache und Conversational Interfaces
+000236 | ("natural language interface" OR "natural language interaction")
+000237 | AND navigation
+000238 | 
+000239 | ("conversational user interface" OR "chat interface")
+000240 | AND interaction design
+000241 | 
+000242 | "human-computer dialogue"
+000243 | AND interface
+000244 | 
+000245 | "mixed-initiative interaction"
+000246 | AND artificial intelligence
+000247 | 
+000248 | ("conversational interface" OR chatbot)
+000249 | AND usability
+000250 | 
+000251 | Mixed-initiative interaction dürfte für dich besonders interessant sein: Dabei
+000252 | wird die Steuerung nicht ausschließlich vom Menschen oder vom System übernommen,
+000253 | sondern zwischen beiden ausgehandelt.
+000254 | 
+000255 | LLMs, Prompts und agentische Interfaces
+000256 | ("large language model" OR LLM)
+000257 | AND ("user interface" OR HCI)
+000258 | 
+000259 | ("generative AI interface" OR "LLM interface")
+000260 | AND interaction
+000261 | 
+000262 | (prompting OR "prompt interface")
+000263 | AND "interaction design"
+000264 | 
+000265 | ("AI agent interface" OR "agentic interface")
+000266 | AND user experience
+000267 | 
+000268 | "human-AI interaction"
+000269 | AND natural language
+000270 | AND interface
+000271 | 
+000272 | Bei diesem Abschnitt solltest du auch nach human-centered AI, human-AI
+000273 | interaction, AI-mediated interaction, prompting as interaction und intent-based
+000274 | interaction suchen.
+000275 | 
+000276 | Der Begriff agentic interface ist sehr aktuell, aber wissenschaftlich noch weniger
+000277 | stabil. Deshalb solltest du nicht nur nach diesem Begriff suchen, sondern immer
+000278 | auch nach älteren Konzepten wie intelligent interface, mixed-initiative systems,
+000279 | adaptive interface oder conversational agent.
+000280 | 
+000281 | Der sinnvollste Recherche-Workflow
+000282 | Erstelle vier bis sechs Themencluster.
+000283 | Zum Beispiel: Begriff und Theorie der Texteingabe, Kommandozeile, grafische
+000284 | Formulare, Suchfeld, Conversational Interfaces und LLM-Interfaces.
+000285 | Finde pro Cluster zunächst zwei bis vier Schlüsselquellen.
+000286 | Suche zuerst nach Überblicksartikeln, Buchkapiteln und häufig zitierten
+000287 | Grundlagenwerken.
+000288 | Arbeite anschließend über Zitationsketten.
+000289 | Schaue sowohl in das Literaturverzeichnis einer Quelle als auch unter „Cited by“.
+000290 | So bewegst du dich rückwärts zu den Grundlagen und vorwärts zu neueren Debatten.
+000291 | Speichere alles sofort in Zotero.
+000292 | Lege Sammlungen entsprechend deinen Themenclustern an und verwende Tags wie CLI,
+000293 | search, forms, history, AI, primary source, theory und case study.
+000294 | Führe ein kleines Rechercheprotokoll.
+000295 | Notiere Datenbank, Datum, Suchbegriff, Filter und besonders relevante Treffer. Das
+000296 | muss keine systematische Literaturstudie werden, macht deine Recherche aber
+000297 | nachvollziehbarer und verhindert, dass du dieselben Suchen ständig wiederholst.
+000298 | Wie du die Quellen bewerten solltest
+000299 | 
+000300 | Für deine Thesis würde ich zwischen drei Arten von Quellen unterscheiden:
+000301 | 
+000302 | Wissenschaftliche Sekundärquellen liefern Begriffe, historische Einordnungen und
+000303 | theoretische Argumente. Dazu gehören peer-reviewte Papers, Bücher und Buchkapitel.
+000304 | 
+000305 | Primärquellen sind die Interfaces und Dokumente selbst: Handbücher,
+000306 | HTML-Spezifikationen, historische Screenshots, Software, Produktvideos,
+000307 | Suchmaschinen, Chatinterfaces oder Entwicklerinterviews.
+000308 | 
+000309 | Praxis- und Unternehmensquellen wie Firmenblogs, Produktankündigungen oder
+000310 | UX-Blogs können aktuelle Entwicklungen dokumentieren. Sie sollten aber nicht die
+000311 | einzige Grundlage für größere historische oder theoretische Aussagen sein.
+000312 | 
+000313 | Gerade für deine Arbeit wäre eine Kombination stark: Du könntest beispielsweise
+000314 | ein historisches Terminal-Handbuch oder eine frühe HTML-Spezifikation analysieren
+000315 | und diese Analyse anschließend mit wissenschaftlicher Literatur aus HCI und
+000316 | Designgeschichte einordnen.
+000317 | 
+000318 | Mein konkretes Minimal-Setup für deine Thesis
+000319 | 
+000320 | Für den Anfang brauchst du nicht zwanzig verschiedene Dienste. Ich würde
+000321 | tatsächlich mit diesem Set arbeiten:
+000322 | 
+000323 | Google Scholar für den breiten Einstieg
+000324 | ACM Digital Library für den HCI-Kern
+000325 | JSTOR für Theorie und Geschichte
+000326 | KVK oder WorldCat für Bücher
+000327 | Computer History Museum und Internet Archive für Primärquellen
+000328 | ResearchRabbit für Zitationsketten
+000329 | Zotero für die Organisation
+000330 | 
+000331 | Scopus oder Web of Science würde ich ergänzen, sobald du über deine Hochschule
+000332 | Zugang hast und deine Suche systematischer eingrenzen möchtest. ProQuest
+000333 | Dissertations & Theses kann zudem hilfreich sein, um ähnliche Abschlussarbeiten
+000334 | und vor allem deren Literaturverzeichnisse zu finden.
+000335 | 
+000336 | Der nächste sinnvolle Schritt wäre jetzt eine Startbibliografie aus etwa 20–30
+000337 | Schlüsselquellen, aufgeteilt nach Kommandozeile, grafischen Interfaces, Suchfeld,
+000338 | Webformularen, Conversational Interfaces und LLM-Interaktion.

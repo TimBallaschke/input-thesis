@@ -1,0 +1,182 @@
+Der Abschnitt ist **inhaltlich stark und konzeptionell wichtig**, weil er eine klare Grenze zu „Bearbeiten“ zieht und erstmals explizit die **Zeitlichkeit der Interaktion** in den Vordergrund rückt. Als Prüfer würde ich sagen: Das ist einer der stärkeren Abschnitte, aber ein paar Aussagen sind noch etwas zu groß im Verhältnis zu den Belegen.
+
+Besonders gut funktioniert der Einstieg:
+
+> „Während Bearbeitung den aktuellen Text vor dem Absenden verändert, bezeichnet Iteration hier eine erneute Eingabe nach einer Reaktion des Systems.“
+
+Das ist sehr sauber. Du definierst deinen Begriff funktional und grenzt ihn von der vorherigen Kategorie ab. Genau solche Sätze helfen enorm, weil sie zeigen, dass deine Unterkapitel nicht bloß nebeneinanderstehen.
+
+Auch der Schluss ist stark:
+
+> „Das Texteingabefeld ist damit nicht nur eine Stelle zur einmaligen Eingabe, sondern Teil einer zeitlichen Interaktionsfolge.“
+
+Das ist für deine Gesamtargumentation sehr passend und trägt über die einzelnen Beispiele hinaus.
+
+### Was besonders gut ist
+
+Die Bewegung **Formular → Suche → Dialogsystem → LLM** funktioniert hier besser als in manchen früheren Abschnitten, weil du tatsächlich ein gemeinsames Prinzip verfolgst: Eine Systemreaktion wird zum Ausgangspunkt einer weiteren Eingabe.
+
+Sehr gut ist auch:
+
+> „Die Eingabe wird damit Teil einer Folge aus Formulierung, Systemreaktion, Bewertung und erneuter Eingabe.“
+
+Das ist eigentlich dein Kernsatz. Den würde ich unbedingt behalten.
+
+Ebenso stark ist die Einschränkung bei ELIZA:
+
+> „Diese Struktur sagt jedoch noch nichts darüber aus, wie eine folgende Eingabe formuliert wird.“
+
+Das ist wissenschaftlich sauber, weil du nicht einfach von dialogischer Turn-Struktur auf kognitive oder sprachliche Prozesse schließt.
+
+### Wichtigster Kritikpunkt: Seckler trägt den Iterationsbegriff nur begrenzt
+
+Beim Formular schreibst du:
+
+> „In den von Seckler et al. untersuchten Registrierungsformularen waren nach gebündelten Verbesserungen weniger Versuche bis zur erfolgreichen Übermittlung notwendig.“
+
+Das ist relevant, aber etwas indirekt. Die Studie zeigt offenbar, dass Nutzer mehrere Versuche benötigen können und dass Gestaltung diese Zahl beeinflusst. Sie zeigt aber nicht zwingend einen reichhaltigen iterativen Prozess im selben Sinn wie Suche oder Prompting.
+
+Beim Formular ist die Schleife eher:
+
+**Eingabe → Validierungsreaktion → Korrektur → erneute Übermittlung**
+
+Bei Suche und LLM kann dagegen die Systemreaktion den Nutzer dazu bringen, **Ziel, Begriffe oder Strategie neu zu bestimmen**.
+
+Das sind unterschiedliche Qualitäten von Iteration.
+
+Ich würde das nicht als Problem sehen, sondern explizit machen. Etwa sinngemäß:
+
+> Bei Formularen dient die erneute Eingabe meist dazu, eine bestehende Anforderung zu erfüllen; bei Such- und Dialogsystemen kann die Systemreaktion dagegen auch zu einer inhaltlichen Reformulierung oder Neuausrichtung führen.
+
+Das würde den Abschnitt deutlich stärker machen, weil du nicht alles unter einem abstrakten Zyklus gleichsetzt.
+
+### Suche: sehr überzeugend
+
+Der Suchmaschinen-Teil ist für mich der sauberste Teil des ersten Absatzes.
+
+> „Gefundene Begriffe oder relevante Teilaspekte können anschließend in eine präzisierte oder neu ausgerichtete Query einfließen.“
+
+Hier wird klar, dass die Ausgabe nicht nur Ergebnis ist, sondern **Ressource für die nächste Eingabe**.
+
+Das ist konzeptionell wichtig. Vielleicht könntest du sogar noch etwas stärker formulieren:
+
+> Die Systemausgabe verändert damit potenziell die Wissensgrundlage, auf der die nächste Eingabe formuliert wird.
+
+Das ist aber eher eine mögliche Vertiefung als eine notwendige Ergänzung.
+
+### ELIZA: sinnvoll, aber nicht zu viel Gewicht darauf legen
+
+Der historische Bezug ist gut, weil er verhindert, dass Iteration wie eine Besonderheit von LLMs wirkt.
+
+Aber:
+
+> „Bereits ELIZA organisiert die Interaktion technisch als wiederholte Abfolge von Eingabe, Antwort und erneuter Übergabe an die nutzende Person“
+
+ist eher eine **strukturelle Feststellung** als ein analytischer Befund über Iteration.
+
+Das sagst du danach selbst. Deshalb würde ich ELIZA kurz halten. Seine Funktion sollte nur sein:
+
+**Dialogische Iteration ist nicht neu; neu bzw. relevant ist, wie heutige Systeme Reformulierung beeinflussen.**
+
+Dann weiter zu LLMs.
+
+### Der BotDesigner-Abschnitt ist sehr interessant
+
+Dieser Teil ist stark:
+
+> „In der BotDesigner-Studie überarbeiteten alle zehn Teilnehmenden ihre Prompts überwiegend lokal und anhand einzelner Antworten.“
+
+Und besonders:
+
+> „häufig genügte bereits eine einzelne verbesserte Antwort, um eine Änderung als erfolgreich zu bewerten“
+
+Das ist ein guter Gegenpunkt zu einer zu optimistischen Vorstellung von „Iteration = Verbesserung“.
+
+Hier entsteht eine wichtige Differenz:
+
+**Iteration ist ein Prozessmerkmal, aber kein Qualitätsmerkmal.**
+
+Nur weil Nutzer mehrfach reformulieren, heißt das nicht, dass sie systematisch lernen oder optimale Prompts entwickeln.
+
+Das würde ich explizit machen.
+
+### Hier würde ich bei der Generalisierung vorsichtiger sein
+
+> „Wiederholtes Lesen und Reformulieren führt daher nicht zwangsläufig zu einer systematischen Verbesserung, sondern kann die Aufmerksamkeit auf lokale Änderungen und frühe Ausgaben richten.“
+
+Der erste Teil ist gut:
+
+> „führt nicht zwangsläufig zu einer systematischen Verbesserung“
+
+Der zweite Teil
+
+> „kann die Aufmerksamkeit auf lokale Änderungen und frühe Ausgaben richten“
+
+ist etwas stärker und müsste wirklich exakt von Subramonyam bzw. Zamfirescu-Pereira getragen sein.
+
+Falls die Quellen eher konkrete Verhaltensmuster in einer Studie beziehungsweise Designprobleme beschreiben, würde ich nicht zu stark psychologisieren mit „Aufmerksamkeit richten“.
+
+Etwas sicherer wäre:
+
+> „Wiederholtes Reformulieren führt daher nicht zwangsläufig zu einer systematischen Verbesserung. Es kann sich auf lokale Änderungen an einzelnen Prompts und auf die Bewertung weniger Ausgaben beschränken.“
+
+Das bleibt näher an deinen beschriebenen Befunden.
+
+### „Reformulierung“ kommt noch etwas wenig vor
+
+Der Titel heißt **„Iteration und Reformulierung“**, aber eigentlich behandelst du überwiegend Iteration.
+
+Reformulierung erscheint bei Suche und Prompting, wird aber nicht wirklich definiert.
+
+Ich würde einen kurzen Satz ergänzen, beispielsweise:
+
+> Von Reformulierung kann dabei gesprochen werden, wenn eine folgende Eingabe nicht nur erneut übermittelt, sondern in ihrer Formulierung, ihrem Umfang oder ihrer inhaltlichen Ausrichtung verändert wird.
+
+Dann kannst du sauber unterscheiden:
+
+* Formular: erneuter Versuch, eventuell Korrektur
+* Suche: Query Reformulation
+* LLM: Prompt Reformulation
+
+Das würde den Titel theoretisch besser abdecken.
+
+### Eine kleine begriffliche Sache
+
+> „erneute Übergabe an die nutzende Person“
+
+bei ELIZA klingt etwas technisch-ungewohnt. Eher:
+
+> „erneute Aufforderung zur Eingabe“
+
+oder:
+
+> „Antwort, auf die wiederum eine neue Eingabe folgen kann“
+
+Das liest sich natürlicher.
+
+### Mein stärkster Vorschlag für den Abschnitt
+
+Ich würde die interne Logik ungefähr so schärfen:
+
+**Iteration** = erneute Eingabe nach Systemreaktion.
+**Reformulierung** = qualitative Veränderung dieser nächsten Eingabe.
+
+Dann kannst du zeigen, dass verschiedene Systeme unterschiedliche Schleifen erzeugen:
+
+* Formular: **Korrekturschleife**
+* Suche: **Explorations-/Reformulierungs­schleife**
+* LLM: **dialogische Reformulierung**, aber nicht automatisch systematisch
+
+Das wäre analytisch sehr stark und würde verhindern, dass „Iteration“ einfach nur „mehrmals etwas eingeben“ bedeutet.
+
+### Prüferurteil
+
+Ich würde den Abschnitt als **sehr gut angelegt und klar masterarbeitsfähig** bewerten. Die Hauptarbeit besteht nicht mehr in einer inhaltlichen Reparatur, sondern in begrifflicher Schärfung.
+
+Die drei Dinge, die ich ändern würde:
+
+* **Iteration und Reformulierung explizit unterscheiden.**
+* **Formulariteration nicht vollständig mit Suche/Prompting gleichsetzen.**
+* Die Aussage über „Aufmerksamkeit auf lokale Änderungen“ etwas enger an den empirischen Befund binden.
+
+Der stärkste Gedanke des Abschnitts ist für mich: **Systemausgaben sind nicht nur Resultate einer Eingabe, sondern können zu Bedingungen der nächsten Eingabe werden.** Genau dadurch wird das Texteingabefeld Teil einer zeitlichen Schleife statt bloß einer einmaligen Eingabeschnittstelle.

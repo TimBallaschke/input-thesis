@@ -1,0 +1,145 @@
+Researchplan für die Masterarbeit
+1. Thema in Recherchefelder aufteilen
+
+Suche nicht direkt nach deinem gesamten Thema, sondern arbeite mit einzelnen Clustern:
+
+Kommandozeile und textbasierte Interfaces
+GUI, Direct Manipulation und der Wechsel vom Befehl zum Zeigen
+Webformulare, Textfelder und Suchfelder
+Conversational Interfaces und Natural Language Interfaces
+LLM-, Prompt- und agentische Interfaces
+Formale Gestaltung des Text-Inputs
+Interface-, Medien- und Designgeschichte
+
+Lege diese Cluster direkt als Sammlungen in Zotero an.
+
+2. Die Tools und ihr richtiger Einsatz
+Tool	Wofür?	Richtiger Approach
+Google Scholar	Breiter Einstieg und erste Schlüsselquellen	Pro Cluster mit mehreren Begriffskombinationen suchen. Zuerst nach Überblickspapers, häufig zitierten Grundlagen und aktuellen Reviews suchen. Danach „Cited by“ und „Related articles“ verwenden.
+ACM Digital Library	HCI, Interaction Design, CLI, Conversational Interfaces, Human-AI Interaction	Präziser als bei Google Scholar suchen. Besonders Publikationen aus CHI, DIS, UIST und TOCHI prüfen. Nach Abstract, Introduction und Related Work entscheiden, ob ein Paper relevant ist.
+JSTOR / Project MUSE	Designgeschichte, Medientheorie, Interface-Theorie	Breiter und begrifflicher suchen: etwa nach interface culture, history of interaction, language and interface. Nicht nur aktuelle Texte betrachten, sondern auch ältere theoretische Grundlagen.
+Scopus / Web of Science	Systematische und nachvollziehbare Literaturrecherche	Erst verwenden, wenn deine Begriffe klarer sind. Suchstrings, Filter und Trefferzahlen dokumentieren. Gut zur Kontrolle, ob du zentrale Autoren oder Publikationen übersehen hast.
+KVK / WorldCat / Bibliothekskatalog	Bücher, Monografien und Sammelbände	Nach zentralen Autoren, Buchtiteln und allgemeinen Themen suchen. Bei relevanten Büchern Inhaltsverzeichnis, Register und einzelne Kapitel prüfen – nicht jedes Buch vollständig lesen.
+Google Books	Innerhalb von Büchern suchen	Begriffe, Namen und konkrete historische Beispiele in Büchern auffinden. Danach das Buch über Bibliothek oder Fernleihe beschaffen.
+ResearchRabbit / Connected Papers / Litmaps	Verwandte Literatur und Forschungsnetzwerke	Erst einsetzen, sobald du ein wirklich relevantes Ausgangspaper hast. Nicht mit einem zufälligen Paper starten. Pro Themencluster ein bis drei Schlüsselquellen als Seeds verwenden.
+Semantic Scholar	Schnelle Ergänzung und ähnliche Papers	Nutzen, wenn Google Scholar zu unübersichtlich wird. Besonders auf ähnliche Arbeiten, einflussreiche Zitate und neuere Folgestudien achten.
+Internet Archive / Computer History Museum	Historische Primärquellen	Nach Handbüchern, Interface-Demonstrationen, Software, Screenshots und Oral Histories suchen. Primärquellen immer von wissenschaftlicher Sekundärliteratur einordnen lassen.
+W3C / WHATWG	Geschichte und Definition von Webformularen und input	Verschiedene Versionen der HTML-Spezifikation vergleichen. Dokumentieren, wann Funktionen, Typen und Begriffe eingeführt oder verändert wurden.
+Zotero	Literaturverwaltung und Notizen	Jede relevante Quelle sofort speichern, verschlagworten und einem Cluster zuordnen. Zu jeder gelesenen Quelle eine kurze eigene Zusammenfassung und Seitenzahlen wichtiger Stellen notieren.
+3. Konkreter Workflow
+Phase A: Orientierung
+
+Arbeite zunächst jeden Themencluster kurz durch.
+
+Pro Cluster:
+
+3–5 unterschiedliche Suchstrings ausprobieren
+2–3 Überblicksquellen finden
+zentrale Begriffe und Autoren notieren
+noch nicht alles vollständig lesen
+
+Ziel: Eine erste Landkarte des Forschungsfeldes.
+
+Phase B: Schlüsselquellen identifizieren
+
+Wähle pro Cluster etwa drei besonders relevante Quellen:
+
+eine historische oder theoretische Grundlage
+eine etablierte HCI-Quelle
+eine aktuelle Quelle zu heutigen Entwicklungen
+
+Diese Quellen liest du gründlicher und untersuchst:
+
+Welche Begriffe verwendet die Quelle?
+Auf welche älteren Arbeiten verweist sie?
+Von welchen neueren Arbeiten wird sie zitiert?
+Welche Position oder Definition kannst du für deine Thesis verwenden?
+Phase C: Citation Chaining
+
+Für jede Schlüsselquelle arbeitest du in zwei Richtungen:
+
+Rückwärts:
+Literaturverzeichnis prüfen, um ältere Grundlagen zu finden.
+
+Vorwärts:
+Über „Cited by“, ResearchRabbit oder Connected Papers neuere Arbeiten finden.
+
+Das ist meistens effizienter, als immer neue Keyword-Suchen zu beginnen.
+
+Phase D: Historische Primärquellen sammeln
+
+Parallel zur wissenschaftlichen Literatur sammelst du konkrete Untersuchungsobjekte:
+
+historische Terminal- und Kommandozeileninterfaces
+frühe grafische Textfelder
+erste Webformulare
+Suchfelder und Suchmaschinen
+Chat- und Conversational Interfaces
+aktuelle LLM- und Agent-Interfaces
+technische Spezifikationen und Handbücher
+
+Zu jedem Objekt notierst du:
+
+Jahr
+System oder Produkt
+Entwickler beziehungsweise Unternehmen
+Funktion der Texteingabe
+visuelle Gestaltung
+Art der Nutzersteuerung
+verwendete Quelle
+Phase E: Literatur organisieren
+
+Empfohlene Zotero-Struktur:
+
+01 Interface- und Designgeschichte
+02 Command Line
+03 GUI und Direct Manipulation
+04 Web Forms und Search
+05 Conversational Interfaces
+06 LLM und Agentic Interfaces
+07 Formale Analyse
+08 Primärquellen
+09 Methoden
+
+Sinnvolle Tags:
+
+history
+theory
+primary-source
+case-study
+CLI
+GUI
+search
+web-form
+conversation
+LLM
+navigation
+visual-analysis
+
+Zu jeder wichtigen Quelle eine Notiz nach demselben Schema:
+
+Kernaussage:
+Relevanz für meine Arbeit:
+Wichtige Begriffe:
+Wichtige Seiten:
+Zitierbare Stelle:
+Verknüpfung mit anderen Quellen:
+4. Rechercheprotokoll führen
+
+Erstelle eine einfache Tabelle mit:
+
+Datum	Datenbank	Themencluster	Suchstring	Filter	relevante Treffer
+
+Das verhindert doppelte Arbeit und macht deine Vorgehensweise später methodisch nachvollziehbar.
+
+5. Empfohlene Reihenfolge
+Google Scholar für die erste Orientierung
+ACM Digital Library für den wissenschaftlichen HCI-Kern
+JSTOR und Bibliothekskataloge für Theorie und Geschichte
+ResearchRabbit oder Connected Papers für Zitationsketten
+Internet Archive, Computer History Museum und Standards für Primärquellen
+Scopus oder Web of Science für die abschließende Kontrolle
+Zotero während des gesamten Prozesses
+Grundregel
+
+Nicht möglichst viele Quellen sammeln, sondern zunächst wenige gute Schlüsselquellen finden und von diesen aus das Forschungsfeld erschließen. Für den ersten Durchgang reichen etwa 15–20 Kernquellen, gleichmäßig auf deine Themencluster verteilt.

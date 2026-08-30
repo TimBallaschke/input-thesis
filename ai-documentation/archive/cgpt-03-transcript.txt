@@ -1,0 +1,186 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: CGPT-03
+000003 | Title: AI-assisted research plan
+000004 | Source SHA-256: 46b0f07648e760a9fcb37b45ef816164d005e3e149dbe2d91583b269543dc36c
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Researchplan für die Masterarbeit
+000008 | 1. Thema in Recherchefelder aufteilen
+000009 | 
+000010 | Suche nicht direkt nach deinem gesamten Thema, sondern arbeite mit einzelnen
+000011 | Clustern:
+000012 | 
+000013 | Kommandozeile und textbasierte Interfaces
+000014 | GUI, Direct Manipulation und der Wechsel vom Befehl zum Zeigen
+000015 | Webformulare, Textfelder und Suchfelder
+000016 | Conversational Interfaces und Natural Language Interfaces
+000017 | LLM-, Prompt- und agentische Interfaces
+000018 | Formale Gestaltung des Text-Inputs
+000019 | Interface-, Medien- und Designgeschichte
+000020 | 
+000021 | Lege diese Cluster direkt als Sammlungen in Zotero an.
+000022 | 
+000023 | 2. Die Tools und ihr richtiger Einsatz
+000024 | Tool    Wofür?  Richtiger Approach
+000025 | Google Scholar  Breiter Einstieg und erste Schlüsselquellen     Pro Cluster mit
+000026 | mehreren Begriffskombinationen suchen. Zuerst nach Überblickspapers, häufig
+000027 | zitierten Grundlagen und aktuellen Reviews suchen. Danach „Cited by“ und „Related
+000028 | articles“ verwenden.
+000029 | ACM Digital Library     HCI, Interaction Design, CLI, Conversational Interfaces,
+000030 | Human-AI Interaction   Präziser als bei Google Scholar suchen. Besonders
+000031 | Publikationen aus CHI, DIS, UIST und TOCHI prüfen. Nach Abstract, Introduction und
+000032 | Related Work entscheiden, ob ein Paper relevant ist.
+000033 | JSTOR / Project MUSE    Designgeschichte, Medientheorie, Interface-Theorie
+000034 | Breiter und begrifflicher suchen: etwa nach interface culture, history of
+000035 | interaction, language and interface. Nicht nur aktuelle Texte betrachten, sondern
+000036 | auch ältere theoretische Grundlagen.
+000037 | Scopus / Web of Science Systematische und nachvollziehbare Literaturrecherche
+000038 | Erst verwenden, wenn deine Begriffe klarer sind. Suchstrings, Filter und
+000039 | Trefferzahlen dokumentieren. Gut zur Kontrolle, ob du zentrale Autoren oder
+000040 | Publikationen übersehen hast.
+000041 | KVK / WorldCat / Bibliothekskatalog     Bücher, Monografien und Sammelbände
+000042 | Nach zentralen Autoren, Buchtiteln und allgemeinen Themen suchen. Bei relevanten
+000043 | Büchern Inhaltsverzeichnis, Register und einzelne Kapitel prüfen – nicht jedes
+000044 | Buch vollständig lesen.
+000045 | Google Books    Innerhalb von Büchern suchen    Begriffe, Namen und konkrete
+000046 | historische Beispiele in Büchern auffinden. Danach das Buch über Bibliothek oder
+000047 | Fernleihe beschaffen.
+000048 | ResearchRabbit / Connected Papers / Litmaps     Verwandte Literatur und
+000049 | Forschungsnetzwerke     Erst einsetzen, sobald du ein wirklich relevantes
+000050 | Ausgangspaper hast. Nicht mit einem zufälligen Paper starten. Pro Themencluster
+000051 | ein bis drei Schlüsselquellen als Seeds verwenden.
+000052 | Semantic Scholar        Schnelle Ergänzung und ähnliche Papers  Nutzen, wenn
+000053 | Google Scholar zu unübersichtlich wird. Besonders auf ähnliche Arbeiten,
+000054 | einflussreiche Zitate und neuere Folgestudien achten.
+000055 | Internet Archive / Computer History Museum      Historische Primärquellen
+000056 | Nach Handbüchern, Interface-Demonstrationen, Software, Screenshots und Oral
+000057 | Histories suchen. Primärquellen immer von wissenschaftlicher Sekundärliteratur
+000058 | einordnen lassen.
+000059 | W3C / WHATWG    Geschichte und Definition von Webformularen und input
+000060 | Verschiedene Versionen der HTML-Spezifikation vergleichen. Dokumentieren, wann
+000061 | Funktionen, Typen und Begriffe eingeführt oder verändert wurden.
+000062 | Zotero  Literaturverwaltung und Notizen Jede relevante Quelle sofort speichern,
+000063 | verschlagworten und einem Cluster zuordnen. Zu jeder gelesenen Quelle eine kurze
+000064 | eigene Zusammenfassung und Seitenzahlen wichtiger Stellen notieren.
+000065 | 3. Konkreter Workflow
+000066 | Phase A: Orientierung
+000067 | 
+000068 | Arbeite zunächst jeden Themencluster kurz durch.
+000069 | 
+000070 | Pro Cluster:
+000071 | 
+000072 | 3–5 unterschiedliche Suchstrings ausprobieren
+000073 | 2–3 Überblicksquellen finden
+000074 | zentrale Begriffe und Autoren notieren
+000075 | noch nicht alles vollständig lesen
+000076 | 
+000077 | Ziel: Eine erste Landkarte des Forschungsfeldes.
+000078 | 
+000079 | Phase B: Schlüsselquellen identifizieren
+000080 | 
+000081 | Wähle pro Cluster etwa drei besonders relevante Quellen:
+000082 | 
+000083 | eine historische oder theoretische Grundlage
+000084 | eine etablierte HCI-Quelle
+000085 | eine aktuelle Quelle zu heutigen Entwicklungen
+000086 | 
+000087 | Diese Quellen liest du gründlicher und untersuchst:
+000088 | 
+000089 | Welche Begriffe verwendet die Quelle?
+000090 | Auf welche älteren Arbeiten verweist sie?
+000091 | Von welchen neueren Arbeiten wird sie zitiert?
+000092 | Welche Position oder Definition kannst du für deine Thesis verwenden?
+000093 | Phase C: Citation Chaining
+000094 | 
+000095 | Für jede Schlüsselquelle arbeitest du in zwei Richtungen:
+000096 | 
+000097 | Rückwärts:
+000098 | Literaturverzeichnis prüfen, um ältere Grundlagen zu finden.
+000099 | 
+000100 | Vorwärts:
+000101 | Über „Cited by“, ResearchRabbit oder Connected Papers neuere Arbeiten finden.
+000102 | 
+000103 | Das ist meistens effizienter, als immer neue Keyword-Suchen zu beginnen.
+000104 | 
+000105 | Phase D: Historische Primärquellen sammeln
+000106 | 
+000107 | Parallel zur wissenschaftlichen Literatur sammelst du konkrete
+000108 | Untersuchungsobjekte:
+000109 | 
+000110 | historische Terminal- und Kommandozeileninterfaces
+000111 | frühe grafische Textfelder
+000112 | erste Webformulare
+000113 | Suchfelder und Suchmaschinen
+000114 | Chat- und Conversational Interfaces
+000115 | aktuelle LLM- und Agent-Interfaces
+000116 | technische Spezifikationen und Handbücher
+000117 | 
+000118 | Zu jedem Objekt notierst du:
+000119 | 
+000120 | Jahr
+000121 | System oder Produkt
+000122 | Entwickler beziehungsweise Unternehmen
+000123 | Funktion der Texteingabe
+000124 | visuelle Gestaltung
+000125 | Art der Nutzersteuerung
+000126 | verwendete Quelle
+000127 | Phase E: Literatur organisieren
+000128 | 
+000129 | Empfohlene Zotero-Struktur:
+000130 | 
+000131 | 01 Interface- und Designgeschichte
+000132 | 02 Command Line
+000133 | 03 GUI und Direct Manipulation
+000134 | 04 Web Forms und Search
+000135 | 05 Conversational Interfaces
+000136 | 06 LLM und Agentic Interfaces
+000137 | 07 Formale Analyse
+000138 | 08 Primärquellen
+000139 | 09 Methoden
+000140 | 
+000141 | Sinnvolle Tags:
+000142 | 
+000143 | history
+000144 | theory
+000145 | primary-source
+000146 | case-study
+000147 | CLI
+000148 | GUI
+000149 | search
+000150 | web-form
+000151 | conversation
+000152 | LLM
+000153 | navigation
+000154 | visual-analysis
+000155 | 
+000156 | Zu jeder wichtigen Quelle eine Notiz nach demselben Schema:
+000157 | 
+000158 | Kernaussage:
+000159 | Relevanz für meine Arbeit:
+000160 | Wichtige Begriffe:
+000161 | Wichtige Seiten:
+000162 | Zitierbare Stelle:
+000163 | Verknüpfung mit anderen Quellen:
+000164 | 4. Rechercheprotokoll führen
+000165 | 
+000166 | Erstelle eine einfache Tabelle mit:
+000167 | 
+000168 | Datum   Datenbank       Themencluster   Suchstring      Filter  relevante Treffer
+000169 | 
+000170 | Das verhindert doppelte Arbeit und macht deine Vorgehensweise später methodisch
+000171 | nachvollziehbar.
+000172 | 
+000173 | 5. Empfohlene Reihenfolge
+000174 | Google Scholar für die erste Orientierung
+000175 | ACM Digital Library für den wissenschaftlichen HCI-Kern
+000176 | JSTOR und Bibliothekskataloge für Theorie und Geschichte
+000177 | ResearchRabbit oder Connected Papers für Zitationsketten
+000178 | Internet Archive, Computer History Museum und Standards für Primärquellen
+000179 | Scopus oder Web of Science für die abschließende Kontrolle
+000180 | Zotero während des gesamten Prozesses
+000181 | Grundregel
+000182 | 
+000183 | Nicht möglichst viele Quellen sammeln, sondern zunächst wenige gute
+000184 | Schlüsselquellen finden und von diesen aus das Forschungsfeld erschließen. Für den
+000185 | ersten Durchgang reichen etwa 15–20 Kernquellen, gleichmäßig auf deine
+000186 | Themencluster verteilt.

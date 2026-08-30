@@ -1,0 +1,15 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Editorial note}{1}{section*.1}%
+\contentsline {section}{\numberline {1}Earlier conversation about the thesis topic}{2}{section.1}%
+\contentsline {section}{\numberline {2}Earlier conversation about source research}{23}{section.2}%
+\contentsline {section}{\numberline {3}AI-assisted research plan}{28}{section.3}%
+\contentsline {section}{\numberline {4}Externally supplied review feedback}{31}{section.4}%
+\contentsline {section}{\numberline {5}Externally supplied review feedback}{34}{section.5}%
+\contentsline {section}{\numberline {6}Externally supplied review feedback}{37}{section.6}%
+\contentsline {section}{\numberline {7}Externally supplied review feedback}{40}{section.7}%
+\contentsline {section}{\numberline {8}Codex production task}{44}{section.8}%
+\contentsline {section}{\numberline {9}Codex production task}{204}{section.9}%
+\contentsline {section}{\numberline {10}Technical metadata}{263}{section.10}%
+\contentsline {subsection}{\numberline {10.1}CDX-01 session snapshot}{263}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}CDX-02 session snapshot}{264}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Process metrics}{264}{subsection.10.3}%

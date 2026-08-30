@@ -1,0 +1,75 @@
+\documentclass[12pt,a4paper]{article}
+
+% Language and typography
+\usepackage[english]{babel}
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{setspace}
+\onehalfspacing
+
+% Provisional page geometry until the final HFBK requirements are confirmed
+\usepackage[a4paper,margin=30mm]{geometry}
+
+% Figures and tables
+\usepackage{graphicx}
+\usepackage{booktabs}
+
+% Quotations and bibliography
+\usepackage{csquotes}
+\usepackage[
+  backend=biber,
+  style=authoryear,
+  sorting=nyt,
+  giveninits=true,
+  uniquename=init
+]{biblatex}
+\addbibresource{../references/library.bib}
+\addbibresource{../references/manual.bib}
+
+% HFBK-compliant reference to the separate AI collaboration documentation.
+% Usage: \aidocref{CDX-01}{42}{1200--1226}
+\newcommand{\aidocref}[3]{%
+  \footnote{See \citetitle{aiCollaborationDocumentation2026}, archive #1,
+  p. #2, lines #3.}%
+}
+
+% Links and PDF metadata
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\hypersetup{
+  pdftitle={Input},
+  pdfauthor={Tim Ballaschke}
+}
+
+\begin{document}
+
+\hypersetup{pageanchor=false}
+\begin{titlepage}
+  \centering
+  \vspace*{0.18\textheight}
+  {\Large Master's Thesis\par}
+  \vspace{1.5cm}
+  {\Huge\bfseries Input\par}
+  \vspace{2cm}
+  {\large Tim Ballaschke\par}
+  \vfill
+  {\large Hochschule für bildende Künste Hamburg\par}
+  \vspace{0.5cm}
+  {\small Working document -- title-page details to be confirmed\par}
+  \vspace{1cm}
+  {\large \today\par}
+\end{titlepage}
+
+\hypersetup{pageanchor=true}
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+
+\input{chapters/01-introduction}
+
+\clearpage
+\nocite{aiCollaborationDocumentation2026}
+\printbibliography[heading=bibintoc,title={References}]
+
+\end{document}

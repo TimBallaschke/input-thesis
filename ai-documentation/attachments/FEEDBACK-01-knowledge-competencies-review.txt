@@ -1,0 +1,69 @@
+Der Abschnitt ist insgesamt solide und bereits klar auf Masterarbeitsniveau, aber ich würde als Prüfer an einer Stelle ziemlich deutlich einhaken: Dein Begriff von „Wissen“ bzw. „Systemwissen“ wird im Verlauf unscharf. Das ist hier wichtiger als stilistische Detailfragen.
+Die Argumentation funktioniert grundsätzlich sehr gut: Du gehst von stark formalisierten Befehlssystemen über Suchmaschinen und KI-Systeme hin zu Formularen und zeigst, dass Texteingabe nie einfach nur „Text eingeben“ bedeutet, sondern immer Voraussetzungen auf Seiten des Nutzers erzeugt. Besonders gut finde ich, dass du nicht bei der simplen Dichotomie „CLI kompliziert / natürliche Sprache einfach“ stehenbleibst. Genau darin steckt eine interessante Aussage für deine Arbeit.
+Auch die Bewegung von mkdir → Suche → Prompting → Formular ist produktiv, weil dieselbe physische Handlung sehr unterschiedliche kognitive Anforderungen bekommt.
+Du eröffnest mit:
+„Texteingabe [setzt] Kenntnisse über das jeweilige System voraus.“
+Und schließt mit:
+„Die verschiedenen Formen der Texteingabe beseitigen notwendiges Systemwissen damit nicht, sondern verteilen es unterschiedlich.“
+Das funktioniert für CLI, Suche und Prompting weitgehend. Beim Formular verschiebst du aber unbemerkt die Kategorie.
+Wenn ich wissen muss, dass ein Feld eine E-Mail-Adresse im Format name@domain.de erwartet, ist das Wissen über das Interface bzw. seine Eingaberegeln.
+Wenn ich dagegen meine eigene Telefonnummer kennen oder meine Kreditkartendaten aus einer Karte abschreiben muss, ist das kein Systemwissen. Das ist Wissen beziehungsweise Information, die vom System verlangt wird.
+Genau dein eigener Satz macht das sogar deutlich:
+„Diese Informationen stammen nicht aus der Bediensyntax des Formulars.“
+Damit widerspricht dieser Absatz ein Stück weit deiner Ausgangsthese.
+Ich würde deshalb die übergeordnete These verbreitern. Nicht unbedingt „Texteingabe setzt Systemwissen voraus“, sondern etwa in Richtung:
+Texteingabe setzt unterschiedliche Formen vorausgehenden Wissens voraus.
+Dann könntest du sauber differenzieren:
+- syntaktisches/prozedurales Wissen: Was muss ich eingeben und in welcher Form? → CLI 
+- Wissen bzw. mentale Modelle über das System: Was versteht das System, welche Fähigkeiten hat es? → Suche/LLM 
+- Wissen über das eigene Ziel: Was suche oder möchte ich überhaupt? → Suche/LLM 
+- inhaltliche Informationen: Welche konkreten Daten muss ich bereitstellen? → Formulare 
+Das wäre theoretisch erheblich stärker als alles unter „Systemwissen“ zu subsumieren.
+Das mkdir-Beispiel funktioniert sehr gut, weil es konkret macht, was ansonsten abstrakt bliebe.
+Bei
+„Dabei bezeichnet mkdir die auszuführende Operation, während entwurf als Operand den Namen des anzulegenden Verzeichnisses festlegt.“
+würde ich allerdings terminologisch aufpassen. mkdir ist zunächst der Befehls- bzw. Utility-Name, nicht eigentlich „die Operation“. Der Befehl veranlasst eine Operation. Gerade weil Operation bei dir eine zentrale theoretische Kategorie ist, würde ich den Begriff hier nicht beiläufig in einer syntaktischen Erklärung verwenden.
+Also eher:
+mkdir bezeichnet den aufzurufenden Befehl beziehungsweise das Programm, während entwurf als Operand den Namen des anzulegenden Verzeichnisses festlegt.
+Das hält deine Begriffe sauber.
+Dieser Satz ist für mich einer der wichtigsten:
+„Mit zunehmender Nutzung können solche Eingaben selbstverständlich erscheinen. Die Zuordnung zwischen einem Befehl und der ausgelösten Operation muss jedoch zunächst erlernt werden.“
+Darin steckt mehr als du momentan daraus machst. Du beschreibst im Grunde die Naturalisierung einer erlernten Konvention: mkdir wirkt für erfahrene Nutzer irgendwann unmittelbar, obwohl zwischen Zeichenfolge und Systemoperation keine selbstverständliche Beziehung besteht.
+Das passt hervorragend zu deinem größeren Gegenstand, weil du später dasselbe bei natürlicher Sprache umdrehen kannst: Dort wirkt die Beziehung zwischen Formulierung und Operation zunächst natürlicher, obwohl auch sie keineswegs transparent oder voraussetzungslos ist.
+Das wäre eine stärkere argumentative Brücke als nur: „Beide benötigen Wissen.“
+Der Übergang ist überzeugend:
+„Auch Systeme, die über frei formulierte Texteingaben bedient werden, heben diese Anforderungen nicht grundsätzlich auf.“
+Das ist eine gute These.
+Danach werden Suche und Prompting allerdings fast zu Varianten desselben Prinzips. Gerade bei generativer KI liegt aber ein interessanter Unterschied: Bei mkdir sind gültige Eingaben formal festgelegt; beim Prompting sind die Anforderungen nicht vollständig spezifiziert und oft erst über die Ausgabe erschließbar.
+Das ist meines Erachtens theoretisch wichtiger als nur zu sagen, Nutzer müssten wissen, „welchen Kontext es benötigt“.
+Denn gerade das wissen sie häufig nicht. Sie müssen es explorativ herausfinden.
+Dein Satz
+„Häufig zeigt erst die Antwort des Systems, welche Angaben fehlen oder anders formuliert werden müssen.“
+ist deshalb sehr stark. Ich würde ihn zum eigentlichen Punkt machen:
+Das erforderliche Wissen wird beim Prompting teilweise erst innerhalb der Interaktion erzeugt.
+Das bringt dich sehr schön Richtung Interaction: Wissen ist hier keine bloße Voraussetzung der Eingabe, sondern entsteht iterativ aus Eingabe, Ausgabe und erneuter Eingabe.
+Nicht weil er schlecht geschrieben ist, sondern weil er argumentativ etwas seitlich herausfällt.
+CLI, Suche und Prompting behandeln jeweils die Frage:
+Wie muss ich meine Absicht in Text übersetzen, damit das System etwas damit tun kann?
+Beim Formular behandelst du plötzlich:
+Woher bekomme ich die Informationen, die ich eingeben soll?
+Das ist eine andere Dimension.
+Das kann durchaus sehr interessant sein — wahrscheinlich sogar interessanter, wenn du es explizit machst. Ein Formular unterscheidet sich nämlich gerade dadurch, dass es einen großen Teil des benötigten Systemwissens externalisiert:
+Vorname: E-Mail: Kartennummer:
+Der Nutzer muss nicht selbst herausfinden, welche Art von Eingabe das System erwartet. Das Interface zerlegt die Aufgabe bereits in benannte Felder. Seine Arbeit besteht stattdessen stärker darin, die verlangten Inhalte bereitzustellen.
+Das wäre ein hervorragender Kontrast zum Promptfeld.
+Dann wäre das Formular nicht einfach das vierte Beispiel für „Wissen wird benötigt“, sondern ein Gegenmodell:
+Das Formular macht einen Teil der Anforderungen sichtbar und verlagert dadurch die kognitive Arbeit vom Formulieren der Anfrage auf das Bereitstellen der verlangten Information.
+Das wäre analytisch deutlich ergiebiger.
+„Die verschiedenen Formen der Texteingabe beseitigen notwendiges Systemwissen damit nicht, sondern verteilen es unterschiedlich.“
+Der Satz klingt gut, aber nach den vier Absätzen würde ich als Prüfer fragen:
+„Wie genau verteilen sie es?“
+Du hast es eigentlich gezeigt, benennst das Ergebnis aber nicht. Gerade hier solltest du die Typologie einmal verdichten.
+Sinngemäß könnte die Schlussfolgerung stärker lauten:
+Die unterschiedlichen Formen der Texteingabe reduzieren die vorausgesetzte Wissensarbeit daher nicht einfach, sondern verschieben sie. Während Befehlssysteme vor allem Kenntnisse expliziter Befehle und Syntax verlangen, machen Formulare erwartete Inhalte und Formate weitgehend sichtbar. Such- und Promptfelder verzichten dagegen auf eine explizite Eingabesyntax, verlangen dafür aber stärker, dass Nutzer selbst einschätzen, welche Formulierung, welcher Kontext und welche Präzisierung zur gewünschten Systemreaktion führen.
+Das ist für mich die eigentliche Erkenntnis dieses Abschnitts. Dann hast du nicht nur vier Beispiele aufgezählt, sondern einen Vergleich durchgeführt.
+Ich würde den Abschnitt derzeit ungefähr so beurteilen:
+Inhaltlich überzeugend, gut recherchiert und verständlich; konzeptionell aber noch nicht ganz präzise genug. Vor allem „Systemwissen“ ist momentan eine zu große Sammelkategorie. Wenn du die unterschiedlichen Arten von Wissen bzw. kognitiver Arbeit explizit unterscheidest und am Schluss vergleichend zusammenführst, wird daraus ein ziemlich starker Abschnitt.
+Der Kern, den ich unbedingt behalten und stärker herausarbeiten würde, ist:
+Die Vereinfachung der Eingabesyntax beseitigt die Arbeit des Nutzers nicht. Sie verschiebt sie von explizitem Regelwissen hin zu Interpretation, Formulierung, Einschätzung der Systemfähigkeiten und iterativer Korrektur.
+Das ist eine substanzielle These und für deine Gesamtargumentation deutlich interessanter als die allgemeinere Feststellung, dass Texteingabe „Wissen voraussetzt“.

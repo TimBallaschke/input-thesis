@@ -1,0 +1,104 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage{fontspec}
+\setmainfont{Latin Modern Sans}
+\setmonofont{Menlo}
+\usepackage[a4paper,margin=18mm,includeheadfoot]{geometry}
+\usepackage{microtype}
+\usepackage{fancyhdr}
+\usepackage{fancyvrb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{AI Collaboration Documentation}
+\fancyhead[R]{Input}
+\fancyfoot[C]{\thepage}
+
+\hypersetup{
+  pdftitle={AI Collaboration Documentation for Input},
+  pdfauthor={Tim Ballaschke and OpenAI Codex}
+}
+
+\newcommand{\archivefile}[3]{%
+  \clearpage
+  \section{#1}
+  \textbf{Archive ID: #2}
+
+  The line numbers printed in the left column are the stable reference numbers for
+  citations in the thesis.
+
+  \VerbatimInput[fontsize=\footnotesize]{#3}%
+}
+
+\begin{document}
+
+\begin{titlepage}
+  \centering
+  \vspace*{0.2\textheight}
+  {\Large Master's Thesis\par}
+  \vspace{1cm}
+  {\Huge\bfseries Input\par}
+  \vspace{1.5cm}
+  {\LARGE AI Collaboration Documentation\par}
+  \vspace{1cm}
+  {\large Tim Ballaschke\par}
+  \vfill
+  {\large Hochschule für bildende Künste Hamburg\par}
+  \vspace{0.5cm}
+  {\small Working version -- 30 August 2026\par}
+\end{titlepage}
+
+\section*{Editorial note}
+\addcontentsline{toc}{section}{Editorial note}
+
+This document records the visible communication used in the production of the
+Master's thesis \emph{Input}. It contains user prompts, visible assistant responses and
+visible progress updates. Hidden system instructions, internal reasoning and tool
+telemetry are excluded because they are not part of the human-AI communication.
+
+CGPT-01 to CGPT-03 are earlier ChatGPT materials supplied by the student. FDBK-01
+to FDBK-04 are externally supplied review feedback whose authorship was not
+independently verified. CDX-01 and CDX-02 are the Codex tasks used to organize
+research and production. Exact machine-readable message records, preserved
+attachments and SHA-256 manifests are retained with the project. Generated
+archive files are regenerated rather than manually edited.
+
+Every archive has its own line-number sequence. Thesis citations must therefore name
+the archive ID as well as the page and line range. The companion usage register records
+where and how an AI contribution was used.
+
+\tableofcontents
+
+\archivefile{Earlier conversation about the thesis topic}{CGPT-01}{archive/cgpt-01-transcript.txt}
+\archivefile{Earlier conversation about source research}{CGPT-02}{archive/cgpt-02-transcript.txt}
+\archivefile{AI-assisted research plan}{CGPT-03}{archive/cgpt-03-transcript.txt}
+\archivefile{Externally supplied review feedback}{FDBK-01}{archive/fdbk-01-knowledge-competencies-review-transcript.txt}
+\archivefile{Externally supplied review feedback}{FDBK-02}{archive/fdbk-02-correction-editing-review-transcript.txt}
+\archivefile{Externally supplied review feedback}{FDBK-03}{archive/fdbk-03-autocomplete-suggestions-review-transcript.txt}
+\archivefile{Externally supplied review feedback}{FDBK-04}{archive/fdbk-04-iteration-reformulation-review-transcript.txt}
+\archivefile{Codex production task}{CDX-01}{archive/cdx-01-codex-019f9e19-b3e1-77e0-9847-753a93adf3bd-transcript.txt}
+\archivefile{Codex production task}{CDX-02}{archive/cdx-02-codex-01a051ce-6cff-72e2-916a-0d1a8fd2dddd-transcript.txt}
+
+\clearpage
+\section{Technical metadata}
+
+The following quantitative metadata supplements the visible communication.
+It does not expose hidden reasoning content or raw tool telemetry. Token values
+are platform-accounting figures and must be interpreted according to the notes
+printed with each record.
+
+\subsection{CDX-01 session snapshot}
+\VerbatimInput[fontsize=\footnotesize]{archive/cdx-01-codex-019f9e19-b3e1-77e0-9847-753a93adf3bd-metrics.txt}
+
+\subsection{CDX-02 session snapshot}
+\VerbatimInput[fontsize=\footnotesize]{archive/cdx-02-codex-01a051ce-6cff-72e2-916a-0d1a8fd2dddd-metrics.txt}
+
+\subsection{Process metrics}
+\VerbatimInput[fontsize=\scriptsize]{PROCESS_METRICS.md}
+
+\end{document}

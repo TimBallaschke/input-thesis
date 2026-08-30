@@ -1,0 +1,1449 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: CGPT-01
+000003 | Title: Earlier conversation about the thesis topic
+000004 | Source SHA-256: e68091231d3c4af42ffb95ea7e675d6f6439b7818021582b9000b25b315ebf4e
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Ich muss meine Masterarbeit schreiben und schreibe sie zu dem Thema "Input" also
+000008 | dem html text input wie er im web verwendet wird. ausgangspunkt ist die zentrale
+000009 | rolle, die der Textinout heutzutage mit der KI revolution gekriegt hat und wie
+000010 | sich die navigation durch interfaces verändert hat und uach weiter wird. das soll
+000011 | aber nur das ende der Thesis darstellen. Ich würde gerne das Inpout feld
+000012 | vollständing beleuchten und die verschiedenen Andwendungsfelder analysieren
+000013 | (Formulare, etc.) und einen historischen überblick geben (Command line, google
+000014 | suchfeld, etc.). Wichtig ist vielleicht zu sagen, dass ich interface design
+000015 | studiere. Ich habe in einem Gespräch mit meinem Professor bereits ein paar erste
+000016 | notizen gemacht, die ich dir anhänge. worüber ich zunächst gerne sprechen würde
+000017 | ist wie ich meinen Workflow möglichst effizient mit KI unterstützen kann?
+000018 | Angefangen damit, wie ich am besten quellen finde etc.
+000019 | 
+000020 | Die Masterarbeit muss um die 20 Seiten lang sein also nicht sehr umfangreich.
+000021 | 8m 8s nachgedacht
+000022 | 
+000023 | Deine Notizen enthalten bereits nicht nur ein Thema, sondern eine ziemlich klare
+000024 | zentrale Spannung:
+000025 | 
+000026 | Das Textfeld verändert sich visuell kaum, während der Raum möglicher Handlungen,
+000027 | den es eröffnet, immer größer und unbestimmter wird.
+000028 | 
+000029 | Vom Formularfeld, in das eine Postleitzahl in einem erwarteten Format eingetragen
+000030 | wird, über Suchfeld und Browser-Omnibox bis zum LLM-Composer, über den
+000031 | recherchiert, geschrieben, programmiert, navigiert, analysiert und gestaltet
+000032 | werden kann. Gleichzeitig verschiebt sich ein Teil der Interface-Arbeit auf den
+000033 | Menschen: Er muss formulieren, Möglichkeiten erahnen, Kontext liefern und
+000034 | einschätzen, was das System überhaupt versteht. Genau dazu passen deine Notizen
+000035 | über Blank Canvas, fehlende Guidance, Promptvorschläge, Kontext, Überforderung und
+000036 | die neue Kulturtechnik des Promptens.
+000037 | 
+000038 | Für eine nur etwa 20 Seiten lange Masterarbeit ist das ein sehr gutes Thema –
+000039 | allerdings solltest du nicht versuchen, jede Form von Texteingabe vollständig
+000040 | historisch abzubilden. Sinnvoller wäre eine bewusst kuratierte Genealogie und
+000041 | vergleichende Interface-Analyse.
+000042 | 
+000043 | 1. Zuerst den Gegenstand sauber definieren
+000044 | 
+000045 | Momentan vermischen sich in den Notizen drei Ebenen, die du in der Arbeit bewusst
+000046 | auseinanderhalten solltest:
+000047 | 
+000048 | 1. Das technische HTML-Element
+000049 | 
+000050 | Zum Beispiel:
+000051 | 
+000052 | <input type="text">
+000053 | <input type="search">
+000054 | <textarea>
+000055 | später komplexere, mit JavaScript erweiterte Editoren
+000056 | 
+000057 | Die aktuelle HTML-Spezifikation beschreibt <input> als ein typisiertes Datenfeld;
+000058 | über das type-Attribut kann dasselbe Grundelement unter anderem Text, Suche,
+000059 | E-Mail, URL, Datum oder Zahlen repräsentieren. Das ist eine gute technische
+000060 | Grundlage für deine Beobachtung, dass die funktionale Bedeutung dieses
+000061 | ursprünglich kleinen Elements stark gewachsen ist.
+000062 | 
+000063 | 2. Das visuelle Interface-Element „Textfeld“
+000064 | 
+000065 | Dazu gehören nicht nur der HTML-Knoten, sondern das gesamte sichtbare und
+000066 | interaktive Gefüge:
+000067 | 
+000068 | Label
+000069 | Placeholder
+000070 | Rahmen und Schatten
+000071 | Cursor beziehungsweise Caret
+000072 | Fokuszustand
+000073 | Auswahlmarkierung
+000074 | Autocomplete
+000075 | Validierung
+000076 | Fehlermeldung
+000077 | Submit-Button
+000078 | Zeichenlimit
+000079 | Promptvorschläge
+000080 | angehängte Dateien und Bilder
+000081 | Feedback während und nach der Eingabe
+000082 | 
+000083 | Das wäre dein Kapitel über die Anatomie des Inputs. Hier kannst du genau auf die
+000084 | Details eingehen, die dein Professor erwähnt hat: Browser-Default, Schatten,
+000085 | Cursor, Fokus, historische Herkunft und visuelle Konventionen.
+000086 | 
+000087 | 3. Texteingabe als Interaktionsparadigma
+000088 | 
+000089 | Hier wird „Input“ zu einem übergeordneten Interface-Archetyp:
+000090 | 
+000091 | Kommandozeile
+000092 | Formular
+000093 | Suchfeld
+000094 | Browser-Adresszeile beziehungsweise Omnibox
+000095 | Social-Media-Composer
+000096 | Command Palette
+000097 | Chat
+000098 | LLM-Prompt
+000099 | 
+000100 | Eine Kommandozeile ist selbstverständlich kein HTML-Input. Trotzdem gehört sie zu
+000101 | derselben Genealogie der sprachlich beziehungsweise symbolisch formulierten
+000102 | Eingabe. Diese Unterscheidung verhindert, dass die Arbeit technisch unscharf wird.
+000103 | 
+000104 | Eine passende Forschungsfrage könnte deshalb lauten:
+000105 | 
+000106 | Wie entwickelte sich das Text-Input vom begrenzten Dateneingabefeld zu einem
+000107 | allgemeinen sprachbasierten Steuerungsraum des Webs – und welche gestalterischen
+000108 | Folgen hat diese Erweiterung für Guidance, Erwartbarkeit und Nutzerkontrolle?
+000109 | 
+000110 | Ein möglicher Titel wäre:
+000111 | 
+000112 | Input. Vom Formularfeld zum sprachbasierten Universalinterface
+000113 | Eine Genealogie des Texteingabefelds im Web
+000114 | 
+000115 | Oder etwas sachlicher:
+000116 | 
+000117 | Input. Genealogie eines Interface-Archetyps
+000118 | 
+000119 | 2. Eine realistische Struktur für 20 Seiten
+000120 | Kapitel Umfang  Inhalt
+000121 | Einleitung und Methode  1,5–2 Seiten    Relevanz, Forschungsfrage,
+000122 | Begriffsklärung, Auswahl der Fälle
+000123 | Anatomie des Textfelds  3 Seiten        Element, Label, Caret, Placeholder, Fokus,
+000124 | Rahmen, Zustände, Browser-Default
+000125 | Kurze Genealogie        4,5–5 Seiten    Kommandozeile, Webformular, Suche,
+000126 | Omnibox, Composer
+000127 | Vergleichende Interface-Analyse 4 Seiten        Vergleich ausgewählter Archetypen
+000128 | anhand fester Kriterien
+000129 | Das Textfeld im LLM-Interface   4 Seiten        offene Handlungsmöglichkeiten,
+000130 | Prompting, Kontext, Guidance, Multimodalität
+000131 | Fazit   1–1,5 Seiten    vom Dateneingabefeld zum Handlungsraum; zukünftige
+000132 | Interface-Entwicklung
+000133 | 
+000134 | Das Entscheidende ist, die Geschichte nicht als vollständige Chronik zu erzählen,
+000135 | sondern anhand von ungefähr fünf Schlüsselmomenten:
+000136 | 
+000137 | Kommandozeile
+000138 | HTML-Formularfeld
+000139 | Suchfeld
+000140 | Browser-Omnibox oder Social-Media-Composer
+000141 | LLM-Composer
+000142 | 
+000143 | Diese fünf Fälle könntest du immer mit demselben Raster analysieren:
+000144 | 
+000145 | Kriterium       Leitfrage
+000146 | Erwartete Syntax        Was darf oder soll eingegeben werden?
+000147 | Handlungsspielraum      Wie viele verschiedene Aktionen kann die Eingabe auslösen?
+000148 | Guidance        Wie wird erklärt, was möglich ist?
+000149 | Kontext Woher weiß das System, wie die Eingabe gemeint ist?
+000150 | Fehlerbehandlung        Was gilt als falsche Eingabe?
+000151 | Feedback        Wann und wie reagiert das System?
+000152 | Ergebnisrelation        Wie vorhersehbar ist das Ergebnis?
+000153 | Nutzerkontrolle Ist die Handlung reversibel und nachvollziehbar?
+000154 | Multimodalität  Kann Text mit Bildern, Dateien oder Quellen verbunden werden?
+000155 | 
+000156 | Das könnte zum eigentlichen analytischen Rückgrat deiner Arbeit werden. Es wäre
+000157 | wesentlich stärker als eine bloße chronologische Aufzählung.
+000158 | 
+000159 | 3. Der effizienteste KI-Workflow
+000160 | 
+000161 | Ich würde den Prozess nicht als „KI schreibt die Masterarbeit“ aufbauen, sondern
+000162 | der KI fünf klar getrennte Rollen geben:
+000163 | 
+000164 | Research Librarian: Begriffe, Suchstrategien und Quellen finden
+000165 | Reader: bereitgestellte Quellen analysieren
+000166 | Synthesizer: mehrere gelesene Quellen miteinander vergleichen
+000167 | Critic: Argumente, Übertreibungen und Quellenlücken prüfen
+000168 | Editor: deine Sprache, Struktur und Übergänge verbessern
+000169 | 
+000170 | Die KI sollte dagegen nicht deine bibliografische Wahrheit verwalten. Dafür
+000171 | brauchst du Zotero.
+000172 | 
+000173 | Minimaler Tool-Stack
+000174 | 
+000175 | Du brauchst wahrscheinlich nicht mehr als diese vier Werkzeuge:
+000176 | 
+000177 | Zotero als verbindliche Quellenbibliothek
+000178 | 
+000179 | Zotero sollte die zentrale Quelle für bibliografische Daten, PDFs, Notizen und
+000180 | Zitate sein. Lege dort beispielsweise folgende Sammlungen an:
+000181 | 
+000182 | 00 Inbox
+000183 | 10 Definition und HTML
+000184 | 20 Command Line und Vorgeschichte
+000185 | 30 Formulare
+000186 | 40 Suche und Omnibox
+000187 | 50 HCI und Interface-Theorie
+000188 | 60 LLM und Prompting
+000189 | 70 Kunst und Fallstudien
+000190 | 90 Im Text verwendet
+000191 | 99 Ausgeschlossen
+000192 | 
+000193 | Dazu wenige Workflow-Tags:
+000194 | 
+000195 | core
+000196 | primary-source
+000197 | to-read
+000198 | read
+000199 | quote-verified
+000200 | figure
+000201 | used
+000202 | 
+000203 | Zotero kann PDF-Markierungen direkt in Notizen übernehmen; dabei bleiben Verweise
+000204 | auf die jeweilige PDF-Seite und die spätere Zitierbarkeit erhalten. Über die
+000205 | Word-, LibreOffice- oder Google-Docs-Integration kannst du Zitate und
+000206 | Literaturverzeichnis anschließend automatisch verwalten.
+000207 | 
+000208 | Ein ChatGPT-Projekt nur für die Masterarbeit
+000209 | 
+000210 | In einem Projekt kannst du deine Notizen, PDFs, Gliederungen, formalen
+000211 | Anforderungen und Projektanweisungen zusammenhalten. Projekte unterstützen
+000212 | hochgeladene PDFs, Dokumente, Bilder und Referenztexte als dauerhaften
+000213 | Arbeitskontext.
+000214 | 
+000215 | Innerhalb des Projekts würde ich trotzdem getrennte Chats verwenden:
+000216 | 
+000217 | 01 Forschungsfrage und Scope
+000218 | 02 Quellenrecherche
+000219 | 03 Quellenanalysen
+000220 | 04 Argument und Gliederung
+000221 | 05 Kapitelentwürfe
+000222 | 06 Quellen- und Faktenprüfung
+000223 | 07 Sprachliches Lektorat
+000224 | 
+000225 | So vermischt sich eine frühe Brainstorming-Antwort nicht ständig mit späteren,
+000226 | bereits überprüften Erkenntnissen.
+000227 | 
+000228 | Wissenschaftliche Suche und Bibliothekszugang
+000229 | 
+000230 | Für dein Thema brauchst du eine Kombination aus:
+000231 | 
+000232 | Google Scholar oder Semantic Scholar
+000233 | ACM Digital Library beziehungsweise CHI-Publikationen
+000234 | Hochschulbibliothek
+000235 | W3C-, WHATWG- und IETF-Dokumenten
+000236 | Büchern und historischen Quellen
+000237 | Archiven historischer Interfaces
+000238 | 
+000239 | Semantic Scholar bietet neben der normalen Suche auch Zitationsbeziehungen und
+000240 | Reading Lists.
+000241 | 
+000242 | ResearchRabbit für die Zitationsketten
+000243 | 
+000244 | Sobald du drei bis fünf wirklich relevante Quellen gefunden hast, solltest du
+000245 | nicht endlos neue Keywords ausprobieren. Nimm diese Quellen als Seed Papers und
+000246 | untersuche:
+000247 | 
+000248 | Welche früheren Texte zitieren sie?
+000249 | Welche späteren Texte zitieren sie?
+000250 | Welche Quellen werden von mehreren deiner Papers gemeinsam verwendet?
+000251 | Welche angrenzenden Forschungsfelder tauchen auf?
+000252 | 
+000253 | ResearchRabbit visualisiert solche Zitationsnetzwerke und kann dadurch Texte
+000254 | sichtbar machen, die wegen anderer historischer oder disziplinärer Begriffe in
+000255 | einer Keyword-Suche nicht auftauchen würden.
+000256 | 
+000257 | Elicit und Scite wären sinnvolle Ergänzungen, aber nicht zwingend notwendig.
+000258 | Elicit eignet sich für semantische Paper-Suche und vergleichende
+000259 | Extraktionstabellen; Scite kann zeigen, in welchem Zusammenhang eine
+000260 | Veröffentlichung später zitiert wurde. Für deine Arbeit besteht allerdings ein
+000261 | erheblicher Teil der Quellen aus Spezifikationen, Büchern, historischen Interfaces
+000262 | und Kunstprojekten. Deshalb würde ich Elicit nicht zum Hauptsystem machen.
+000263 | 
+000264 | 4. Quellen nicht nach Kapiteln, sondern nach Behauptungen suchen
+000265 | 
+000266 | Der effizienteste Recherchegrundsatz lautet:
+000267 | 
+000268 | Nicht allgemein Material über „Input Fields“ sammeln, sondern für jede wichtige
+000269 | Behauptung den passenden Quellentyp suchen.
+000270 | 
+000271 | Beispiel:
+000272 | 
+000273 | Behauptung      Idealer Quellentyp
+000274 | Formulare wurden in HTML 2.0 standardisiert     W3C-/IETF-Spezifikation
+000275 | Ein Label wird einem Feld semantisch zugeordnet HTML-Spezifikation und
+000276 | Accessibility-Dokumentation
+000277 | Kommandozeilen erfordern das Erinnern einer Syntax      ursprüngliche
+000278 | HCI-Forschung
+000279 | Suchfelder veränderten die Navigation im Web    Suchmaschinenforschung,
+000280 | Interface-Geschichte, historische Artefakte
+000281 | offene Texteingaben erzeugen Unsicherheit       Nutzungsstudien und HCI-Papers
+000282 | LLMs erweitern das Textfeld zu einem unspezifischen Handlungsraum       aktuelle
+000283 | CHI-/HCI-Forschung und eigene Interface-Analyse
+000284 | Promptvorschläge kompensieren fehlende Guidance Interface-Beispiele plus Forschung
+000285 | zu Prompting und Mental Models
+000286 | 
+000287 | Das verhindert, dass du nach zwei Wochen 80 PDFs besitzt, aber nicht weißt,
+000288 | welches Argument sie eigentlich stützen.
+000289 | 
+000290 | Deine ersten Suchcluster
+000291 | 
+000292 | Statt nur nach history of input field zu suchen, solltest du mehrere Vokabulare
+000293 | verwenden.
+000294 | 
+000295 | Technische Geschichte
+000296 | "HTML forms" history
+000297 | "HTML input element" history
+000298 | "fill-out forms" early web
+000299 | "HTML 2.0" forms input
+000300 | "web forms" standardization
+000301 | browser default form controls
+000302 | user agent stylesheet input
+000303 | Kommandozeile und Interaktionsgeschichte
+000304 | command line interface history HCI
+000305 | command language interaction
+000306 | direct manipulation versus command language
+000307 | textual interfaces human computer interaction
+000308 | teletype terminal interaction
+000309 | Formulare
+000310 | web form design usability
+000311 | form completion cognitive load
+000312 | single column form usability
+000313 | form field labels placeholder
+000314 | progressive disclosure forms
+000315 | multi-step forms user effort
+000316 | Suche und Navigation
+000317 | search box interface history
+000318 | web search user interface
+000319 | search as navigation
+000320 | browser omnibox interaction design
+000321 | autocomplete search behavior
+000322 | query formulation information retrieval
+000323 | LLM-Interfaces
+000324 | generative AI interface affordance
+000325 | large language model user interface guidance
+000326 | prompting interaction design
+000327 | prompt formulation usability
+000328 | natural language interface discoverability
+000329 | conversational user interface mental models
+000330 | mixed-initiative interaction generative AI
+000331 | LLM prompt suggestions user study
+000332 | blank canvas generative AI interface
+000333 | Kritische und künstlerische Perspektiven
+000334 | net art interface browser controls
+000335 | interface as artistic material
+000336 | search engine net art
+000337 | command line website art
+000338 | browser default aesthetics net art
+000339 | 
+000340 | Die KI kann dir dabei helfen, Synonyme und historische Begriffe zu generieren. Die
+000341 | anschließend gefundenen Quellen sollten aber immer tatsächlich geöffnet,
+000342 | bibliografisch überprüft und in Zotero gespeichert werden.
+000343 | 
+000344 | 5. Deep Research sinnvoll einsetzen
+000345 | 
+000346 | Deep Research eignet sich für klar abgegrenzte, mehrstufige Recherchefragen und
+000347 | kann auf bestimmte Websites, hochgeladene Dateien oder den öffentlichen Webzugriff
+000348 | beschränkt werden. Die Resultate enthalten Quellenangaben, die anschließend
+000349 | überprüft werden können.
+000350 | 
+000351 | Ich würde damit nicht die gesamte Masterarbeit auf einmal recherchieren. Besser
+000352 | sind einzelne Aufgaben wie:
+000353 | 
+000354 | Erstelle eine kommentierte Quellenübersicht zur technischen und gestalterischen
+000355 | Entwicklung von Texteingabefeldern in HTML zwischen 1991 und 2014. Priorisiere
+000356 | W3C-, WHATWG- und IETF-Primärquellen sowie wissenschaftliche Veröffentlichungen.
+000357 | Unterscheide zwischen dem erstmaligen Auftreten einer Funktion, ihrer
+000358 | Implementierung in Browsern und ihrer späteren Standardisierung. Erfinde keine
+000359 | bibliografischen Angaben.
+000360 | 
+000361 | Oder:
+000362 | 
+000363 | Recherchiere wissenschaftliche HCI-Literatur zur Spannung zwischen offenen
+000364 | natürlichsprachlichen Eingaben und sichtbaren, begrenzten Interface-Kontrollen.
+000365 | Priorisiere ACM CHI, DIS, CSCW, IEEE und universitäre Publikationen. Suche auch
+000366 | unter den Begriffen natural-language interface, conversational interface, prompt
+000367 | formulation, discoverability, mixed-initiative interaction, mental model und gulf
+000368 | of execution.
+000369 | 
+000370 | Wichtig ist die Formulierung „unterscheide“, „priorisiere“ und „erfinde keine
+000371 | Angaben“. Ein allgemeiner Prompt wie „Finde alles über Input Fields“ produziert
+000372 | vor allem Menge.
+000373 | 
+000374 | 6. Einen festen Ablauf für jede Quelle verwenden
+000375 | 
+000376 | Jedes relevante PDF sollte denselben Prozess durchlaufen.
+000377 | 
+000378 | Schritt 1: Quelle grob prüfen
+000379 | 
+000380 | Bevor du sie liest:
+000381 | 
+000382 | Ist sie wissenschaftlich, technisch, journalistisch oder ein historisches
+000383 | Artefakt?
+000384 | Ist sie Primär- oder Sekundärquelle?
+000385 | Welche konkrete Behauptung könnte sie stützen?
+000386 | Ist nur das Abstract relevant oder tatsächlich der Volltext?
+000387 | Wird sie in anderen wichtigen Arbeiten zitiert?
+000388 | Schritt 2: PDF in Zotero speichern
+000389 | 
+000390 | Metadaten kontrollieren:
+000391 | 
+000392 | Autor
+000393 | Titel
+000394 | Jahr
+000395 | Publikationsort
+000396 | DOI beziehungsweise ISBN
+000397 | Seitenzahlen
+000398 | Dokumenttyp
+000399 | 
+000400 | Automatisch importierte Metadaten sind häufig nicht vollständig sauber.
+000401 | 
+000402 | Schritt 3: KI-Analyse auf Basis des tatsächlichen PDFs
+000403 | 
+000404 | Ein guter Standardprompt wäre:
+000405 | 
+000406 | Analysiere ausschließlich die angehängte Quelle. Ergänze kein Wissen aus
+000407 | anderen Quellen.
+000408 | 
+000409 | Gib mir:
+000410 | 
+000411 | 1. die zentrale These der Quelle,
+000412 | 2. die für meine Arbeit relevanten Begriffe und ihre Definitionen,
+000413 | 3. die drei bis fünf wichtigsten Argumente,
+000414 | 4. kurze relevante Originalzitate mit gedruckter Seitenzahl und PDF-Seite,
+000415 | 5. die Methode beziehungsweise Art der Quelle,
+000416 | 6. erkennbare Grenzen oder Gegenargumente,
+000417 | 7. welche Behauptung meiner Masterarbeit sie stützen könnte,
+000418 | 8. welche meiner bisherigen Annahmen sie möglicherweise relativiert.
+000419 | 
+000420 | Markiere ausdrücklich, was eine Aussage der Quelle und was deine
+000421 | Interpretation ist.
+000422 | 
+000423 | Danach öffnest du die angegebenen Seiten selbst und vergleichst jedes Zitat.
+000424 | OpenAI empfiehlt ausdrücklich, ChatGPT als Entwurf beziehungsweise Hilfsmittel zu
+000425 | verwenden und Zitate, Daten und Referenzen zu externen Dokumenten zu überprüfen.
+000426 | 
+000427 | Schritt 4: Eine eigene Source Card schreiben
+000428 | 
+000429 | Für jede Kernquelle reichen ungefähr 100–200 Wörter:
+000430 | 
+000431 | Vollständige Referenz:
+000432 | Quellentyp:
+000433 | Kapitel:
+000434 | Zentrale Aussage:
+000435 | Nützliche Begriffe:
+000436 | Verifiziertes Zitat mit Seite:
+000437 | Was unterstützt die Quelle?
+000438 | Was unterstützt sie nicht?
+000439 | Eigene Interpretation:
+000440 | 
+000441 | Die Unterscheidung „Was unterstützt sie nicht?“ ist besonders hilfreich. Dadurch
+000442 | verhinderst du, dass eine Quelle später für eine stärkere Behauptung verwendet
+000443 | wird, als sie tatsächlich zulässt.
+000444 | 
+000445 | 7. Eine Evidence-Matrix statt unstrukturierter Notizen
+000446 | 
+000447 | Sobald du ungefähr zehn gute Quellen hast, legst du eine einfache Tabelle an:
+000448 | 
+000449 | ID      Quelle  Typ     zentrale Aussage        Zitat/Seite     eigene Verwendung
+000450 | Kapitel Status
+000451 | S01     HTML-Spezifikation      Primärquelle    frühe Formelemente      Abschnitt
+000452 | …     technische Genealogie   2       geprüft
+000453 | S02     HCI-Paper       Forschung       Grenzen kommandoartiger Eingabe S. …
+000454 | CLI-Vergleich   3       gelesen
+000455 | S03     LLM-Studie      Forschung       Nutzer kennen mögliche Aktionen nicht   S.
+000456 | …    AI-Kapitel      5       offen
+000457 | 
+000458 | Diese Tabelle ist der Punkt, an dem KI besonders nützlich wird: Du kannst die
+000459 | verifizierten Source Cards übergeben und nach Übereinstimmungen, Widersprüchen und
+000460 | fehlenden Perspektiven fragen. Die KI sollte aber nur mit den von dir eingefügten
+000461 | Karten arbeiten.
+000462 | 
+000463 | Ein guter Synthese-Prompt:
+000464 | 
+000465 | Vergleiche ausschließlich diese Source Cards.
+000466 | 
+000467 | Ordne sie nach:
+000468 | - gemeinsamen Positionen,
+000469 | - widersprüchlichen Positionen,
+000470 | - historischen Veränderungen,
+000471 | - unterschiedlichen Definitionen,
+000472 | - noch unbelegten Behauptungen meiner Gliederung.
+000473 | 
+000474 | Formuliere noch keinen fertigen Fließtext. Erstelle stattdessen eine
+000475 | Argumentationsstruktur und verweise bei jedem Punkt auf die Source-ID.
+000476 | 8. Erst argumentieren, dann schreiben lassen
+000477 | 
+000478 | Lass nicht sofort ganze Kapitel generieren. Erstelle zunächst für jeden Absatz
+000479 | einen kleinen Argumentblock:
+000480 | 
+000481 | Behauptung:
+000482 | Beleg:
+000483 | Interface-Beispiel:
+000484 | Eigene Analyse:
+000485 | mögliches Gegenargument:
+000486 | Überleitung:
+000487 | 
+000488 | Beispiel:
+000489 | 
+000490 | Behauptung:
+000491 | Je offener der Handlungsspielraum eines Textfelds wird, desto weniger
+000492 | erklärt seine visuelle Form über die möglichen Ergebnisse.
+000493 | 
+000494 | Beleg:
+000495 | HCI-Quelle S07 und LLM-Studie S12.
+000496 | 
+000497 | Interface-Beispiel:
+000498 | Vergleich eines Postleitzahlfelds mit einem LLM-Composer.
+000499 | 
+000500 | Eigene Analyse:
+000501 | Beide zeigen eine leere rechteckige Eingabefläche, repräsentieren aber
+000502 | vollkommen unterschiedliche Möglichkeitsräume.
+000503 | 
+000504 | Gegenargument:
+000505 | Placeholder, Promptvorschläge und Tool-Icons können diesen Raum teilweise
+000506 | sichtbar machen.
+000507 | 
+000508 | Überleitung:
+000509 | Damit wird die Umgebung des Feldes zum eigentlichen Träger der Guidance.
+000510 | 
+000511 | Erst daraus lässt du einen Absatz formulieren:
+000512 | 
+000513 | Formuliere aus diesem Argumentblock einen wissenschaftlichen Absatz.
+000514 | Verwende ausschließlich die angegebenen Source-IDs. Erfinde keine
+000515 | Literaturangaben. Setze [QUELLE FEHLT], sobald eine Aussage nicht belegt ist.
+000516 | Trenne historische Tatsache und meine gestalterische Interpretation.
+000517 | 
+000518 | So bleibt die eigentliche These deine und die KI übernimmt vor allem
+000519 | Strukturierung und sprachliche Verdichtung.
+000520 | 
+000521 | 9. Die visuelle Forschung sollte Teil der Methode sein
+000522 | 
+000523 | Da du Interface Design studierst, sollte deine Arbeit nicht ausschließlich wie
+000524 | eine kleine medienwissenschaftliche Literaturarbeit funktionieren. Du kannst eine
+000525 | eigene visuelle Interface-Archäologie entwickeln.
+000526 | 
+000527 | Für jeden der fünf Fälle könntest du eine einheitliche Darstellung anlegen:
+000528 | 
+000529 | Screenshot beziehungsweise Rekonstruktion
+000530 | Idle-Zustand
+000531 | Fokuszustand
+000532 | Zustand während der Eingabe
+000533 | Submit-Moment
+000534 | Feedback- beziehungsweise Ergebniszustand
+000535 | sichtbare und unsichtbare Regeln
+000536 | erlaubte Syntax
+000537 | erwartete Nutzerkenntnisse
+000538 | grafische Signifier
+000539 | 
+000540 | Eine besonders passende praktische Untersuchung wäre eine kleine Website mit
+000541 | kontrollierten Reproduktionen:
+000542 | 
+000543 | 01 Browser-Default Input
+000544 | 02 klassisches Formularfeld
+000545 | 03 Suchfeld
+000546 | 04 Omnibox
+000547 | 05 LLM-Composer
+000548 | 
+000549 | Dann könntest du Varianten systematisch entfernen:
+000550 | 
+000551 | ohne Label
+000552 | nur mit Placeholder
+000553 | mit Vorschlägen
+000554 | mit Buttons
+000555 | mit Tool-Auswahl
+000556 | mit Beispielen
+000557 | mit Verlauf und Kontext
+000558 | mit Bildern und Dateien
+000559 | 
+000560 | Damit untersuchst du gestalterisch, welche Umgebung ein zunehmend mächtiges
+000561 | Input-Feld benötigt, um verständlich zu bleiben. Das wäre eine sehr direkte
+000562 | Verbindung zwischen theoretischer Arbeit und Interface-Design-Praxis.
+000563 | 
+000564 | 10. Einige Notizen solltest du früh präzisieren
+000565 | „Das Input-Feld kam 1995“
+000566 | 
+000567 | Das ist fast richtig, aber nur als Aussage über die Standardisierung. Die
+000568 | archivierte HTML-Spezifikation von 1995 führt Formulare, INPUT, TEXTAREA, SELECT
+000569 | und OPTION als HTML-Level-2-Elemente auf. Ein W3C-Entwurfsdokument von 1996
+000570 | beschreibt jedoch, dass frühes HTML bereits einen einfachen Keyword-Mechanismus
+000571 | besaß und NCSA Mosaic grundlegende Formfelder hinzufügte. 1995 ist daher eher ein
+000572 | wichtiger Zeitpunkt der Kodifizierung, nicht eindeutig die Erfindung des
+000573 | Texteingabefelds.
+000574 | 
+000575 | „Das Label kommt mit dem Input“
+000576 | 
+000577 | Ein Label ist nicht automatisch Teil des Feldes. Es ist ein separates Element
+000578 | beziehungsweise eine separat hergestellte semantische Zuordnung. Schon das
+000579 | W3C-Dokument von 1996 beschreibt LABEL ausdrücklich als Lösung für die Bindung
+000580 | einer Bezeichnung an ein Eingabefeld.
+000581 | 
+000582 | „Google war das erste freie Eingabefeld“
+000583 | 
+000584 | Das solltest du nicht als Ausgangsthese übernehmen. Freie Texteingaben,
+000585 | Suchmaschinen und Keyword-Abfragen existierten vorher. Interessanter wäre die
+000586 | vorsichtigere Frage:
+000587 | 
+000588 | Wie wurde das zentral platzierte Suchfeld durch Google zu einem kulturell
+000589 | dominanten Bild für den Zugang zum Web?
+000590 | 
+000591 | Dann untersuchst du nicht eine vermutlich falsche technische Erfindungsgeschichte,
+000592 | sondern die gestalterische und kulturelle Bedeutung.
+000593 | 
+000594 | „Keine Affordances“
+000595 | 
+000596 | Das ist als provokante Aussage gut, theoretisch aber zu absolut. Ein Textfeld
+000597 | besitzt Signifier für Texteingabe: Rahmen, Caret, Fokus, Label oder Placeholder.
+000598 | Was im LLM-Interface fehlt, ist eher ein klarer Signifier für den enormen
+000599 | Handlungs- und Ergebnisraum.
+000600 | 
+000601 | Eine präzisere These wäre:
+000602 | 
+000603 | Das LLM-Textfeld kommuniziert deutlich, dass Text eingegeben werden kann, aber nur
+000604 | schwach, was durch diesen Text ausgelöst werden kann.
+000605 | 
+000606 | „Ein Button kann nicht falsch verwendet werden“
+000607 | 
+000608 | Auch das wäre besser relativiert:
+000609 | 
+000610 | Begrenzte Controls schränken mögliche Aktionen und Eingabeformate stärker ein;
+000611 | offene Textfelder verlagern die Bestimmung einer gültigen Handlung stärker auf die
+000612 | Nutzerinnen und Nutzer.
+000613 | 
+000614 | Das ist theoretisch besser verteidigbar.
+000615 | 
+000616 | Nebenbei scheinen einige Namen in den Gesprächsnotizen durch Diktat oder schnelle
+000617 | Mitschrift verändert worden zu sein: Gemeint sind vermutlich Jan Robert Leegte,
+000618 | Rafaël Rozendaal, Constant Dullaart und Manfred Mohr. Ihre Arbeiten wären für eine
+000619 | künstlerische Perspektive auf Browser, Suchmaschinen und Interface-Materialität
+000620 | tatsächlich relevant.
+000621 | 
+000622 | 11. Eine sinnvolle Projektanweisung für deinen KI-Workspace
+000623 | 
+000624 | Diese Anweisung könntest du in deinem Masterarbeitsprojekt hinterlegen:
+000625 | 
+000626 | Du unterstützt mich bei einer etwa 20-seitigen Masterarbeit im Bereich
+000627 | Interface Design.
+000628 | 
+000629 | Arbeitstitel:
+000630 | „Input. Vom Formularfeld zum sprachbasierten Universalinterface“
+000631 | 
+000632 | Unterscheide konsequent zwischen:
+000633 | 1. dem technischen HTML-Element,
+000634 | 2. dem sichtbaren Interface-Component,
+000635 | 3. Texteingabe als übergeordnetem Interaktionsparadigma.
+000636 | 
+000637 | Regeln:
+000638 | - Erfinde niemals Quellen, Autorennamen, DOIs, ISBNs oder Seitenzahlen.
+000639 | - Verwende eine Quelle nur, wenn sie hochgeladen oder ausdrücklich
+000640 |   recherchiert und verlinkt wurde.
+000641 | - Trenne Quellenaussage, deine Schlussfolgerung und meine gestalterische
+000642 |   Interpretation sichtbar voneinander.
+000643 | - Gib bei Zitaten die gedruckte Seite und die PDF-Seite an.
+000644 | - Markiere unbelegte Aussagen mit [QUELLE FEHLT].
+000645 | - Behandle Command Line, Webformular, Suche, Omnibox und LLM nicht als
+000646 |   lineare Ablösung, sondern zunächst als miteinander verbundene,
+000647 |   teilweise weiterhin parallel existierende Interface-Typen.
+000648 | - Hinterfrage Fortschrittsnarrative und kausale Behauptungen.
+000649 | - Formuliere keine fertigen Kapitel, solange Argument, Belege und
+000650 |   Gegenargumente nicht feststehen.
+000651 | - Antworte auf Deutsch; englische Fachbegriffe dürfen erhalten bleiben.
+000652 | Mein Gesamtvorschlag
+000653 | 
+000654 | Für diese kurze Masterarbeit ist ein schlankes System ideal:
+000655 | 
+000656 | Zotero verwaltet die verifizierten Quellen.
+000657 | ChatGPT Project verwaltet Kontext, Analyse und Entwürfe.
+000658 | Scholar beziehungsweise Hochschulbibliothek findet präzise Literatur.
+000659 | ResearchRabbit erschließt die Zitationslandschaft.
+000660 | Eine Evidence-Matrix verbindet Quellen mit deinen Behauptungen.
+000661 | Fünf visuell analysierte Interface-Fälle bilden die Struktur der Arbeit.
+000662 | 
+000663 | Der sinnvollste nächste Schritt ist jetzt noch nicht die breite
+000664 | Literaturrecherche, sondern aus deinen Notizen eine verbindliche Forschungsfrage,
+000665 | vorläufige Kapitelstruktur, Vergleichsmatrix und Liste von etwa 15 konkreten
+000666 | Suchanfragen zu erstellen. Damit wird jede anschließende KI-Recherche wesentlich
+000667 | zielgerichteter.
+000668 | 
+000669 | ok vielleicht sollte ich das themenfeld erweitern. es geht nicht nur um das html
+000670 | element aber über die texteingabe in interfaces. ich würde die navigation durch
+000671 | die kommandezeile als zentrales thema mitreinnehmen da es auf eine art ein full
+000672 | circle moment ist. früher wurde ausschließlich über texteingabe in die
+000673 | kommandezeile navigiert und auf einmal sind wir wieder dabei angekommen über
+000674 | texteingabe zu navigieren nur dass sich nun natürliche sprache nutzen lässt
+000675 | anstatt vordefinierter befehle
+000676 | 5m 2s nachgedacht
+000677 | 
+000678 | Ja — und ich glaube, dass du damit nicht einfach das Themenfeld vergrößerst,
+000679 | sondern den eigentlichen Gegenstand deiner Arbeit klarer findest:
+000680 | 
+000681 | Nicht das HTML-Element <input> ist dein Hauptthema, sondern Texteingabe als Form
+000682 | der Mensch-Computer-Interaktion.
+000683 | 
+000684 | Das HTML-Textfeld wäre dann nur eine konkrete technische und visuelle Ausprägung
+000685 | davon. Kommandozeile, Formular, Suchfeld, Omnibox, Command Palette, Chat-Composer
+000686 | und LLM-Prompt wären verschiedene historische und funktionale Formen desselben
+000687 | grundlegenden Prinzips: Ein Mensch formuliert etwas textuell, woraufhin ein System
+000688 | interpretiert und reagiert.
+000689 | 
+000690 | Genau darauf laufen deine bisherigen Notizen ohnehin schon hinaus: Text als
+000691 | zentrales Interface-Element, Navigation durch Sprache, der Blank-Canvas-Charakter,
+000692 | fehlende Guidance, Promptvorschläge als wiederkehrende Buttons und die historische
+000693 | Linie von der Kommandozeile über Suche und Omnibox zum LLM.
+000694 | 
+000695 | Der „Full-Circle“-Gedanke ist stark – aber kein vollständiger Kreis
+000696 | 
+000697 | Deine Beobachtung lässt sich sehr gut als Ausgangsthese formulieren:
+000698 | 
+000699 | Frühe Computer wurden wesentlich über textuelle Kommandos gesteuert. Mit
+000700 | grafischen Benutzeroberflächen wurden mögliche Handlungen zunehmend als sichtbare
+000701 | Objekte, Menüs und Buttons repräsentiert. Mit generativer KI kehrt Texteingabe als
+000702 | zentrale Steuerungsform zurück – nun jedoch nicht mehr primär in Form einer formal
+000703 | definierten Befehlssprache, sondern als natürliche Sprache.
+000704 | 
+000705 | Das ist ein sehr starkes Narrativ. Wissenschaftlich würde ich aber nicht
+000706 | behaupten, dass wir einfach wieder am Ausgangspunkt angekommen sind. Interessanter
+000707 | ist:
+000708 | 
+000709 | Die Oberfläche kehrt zurück, aber der Interaktionsvertrag hat sich verändert.
+000710 | 
+000711 | Oder noch zugespitzter:
+000712 | 
+000713 | Visuell kehrt die Kommandozeile zurück, semantisch entsteht etwas anderes.
+000714 | 
+000715 | Bei der klassischen Kommandozeile muss der Mensch seine Absicht in eine vom System
+000716 | vorgegebene Syntax übersetzen:
+000717 | 
+000718 | find ~/Documents -name "*thesis*" -type f
+000719 | 
+000720 | Bei einem LLM formuliert er seine Absicht ungefähr so:
+000721 | 
+000722 | Finde meine aktuellste Datei zur Masterarbeit und fasse die darin
+000723 | enthaltenen Notizen zusammen.
+000724 | 
+000725 | Die Verschiebung wäre also:
+000726 | 
+000727 | Kommandozeile   LLM-Interface
+000728 | Nutzer kennt den Befehl Nutzer beschreibt eine Absicht
+000729 | explizite Syntax        natürliche beziehungsweise „weiche“ Syntax
+000730 | definiertes Vokabular   offener sprachlicher Ausdruck
+000731 | weitgehend deterministische Ausführung  probabilistische Interpretation
+000732 | Syntaxfehler sind sichtbar      Missverständnisse können plausibel wirken
+000733 | Handlungsraum ist dokumentierbar        Handlungsraum ist teilweise verborgen
+000734 | Nutzer bestimmt einzelne Schritte       System kann Schritte selbst planen
+000735 | 
+000736 | Das ist aus meiner Sicht der eigentliche Kern deiner Thesis.
+000737 | 
+000738 | Von der „Navigation“ besser zur „Steuerung“
+000739 | 
+000740 | Den Begriff Navigation würde ich nicht ganz aufgeben, aber vermutlich nicht als
+000741 | übergeordneten Begriff verwenden.
+000742 | 
+000743 | Eine Kommandozeile dient nicht nur dazu, durch Ordner zu navigieren. Man kann
+000744 | damit Dateien erzeugen, Programme starten, Texte bearbeiten, Prozesse verwalten
+000745 | und ganze Abläufe automatisieren. Genauso dient ein LLM nicht nur zur Navigation,
+000746 | sondern auch zum Schreiben, Analysieren, Generieren, Transformieren und zunehmend
+000747 | zum Ausführen von Handlungen.
+000748 | 
+000749 | Deshalb wären stärkere Oberbegriffe:
+000750 | 
+000751 | textbasierte Steuerung
+000752 | sprachbasierte Interaktion
+000753 | textuelle Mensch-Computer-Interaktion
+000754 | Formulierung von Handlungsabsichten
+000755 | Text als universelle Kontrolloberfläche
+000756 | 
+000757 | Navigation kann darin ein besonders interessantes Unterthema werden:
+000758 | 
+000759 | In klassischen grafischen Interfaces navigiert der Nutzer selbst durch sichtbare
+000760 | Wege. In sprachbasierten Interfaces kann er stattdessen ein Ziel oder eine Absicht
+000761 | formulieren, während der Weg dorthin vom System bestimmt wird.
+000762 | 
+000763 | Man könnte diese Entwicklung zugespitzt so beschreiben:
+000764 | 
+000765 | Vom Pfad zur Absicht.
+000766 | 
+000767 | Oder:
+000768 | 
+000769 | Interface       Was der Nutzer angibt
+000770 | Kommandozeile   Befehl und häufig den konkreten Pfad
+000771 | grafisches Interface    sichtbare Abfolge von Auswahlen
+000772 | Suchfeld        gesuchtes Ziel oder Informationsbedürfnis
+000773 | LLM beziehungsweise Agent       gewünschtes Ergebnis oder übergeordnete Absicht
+000774 | 
+000775 | Gerade der letzte Schritt ist mehr als eine neue Form der Navigation. Es ist eine
+000776 | Delegation von Navigation und Handlung.
+000777 | 
+000778 | Der entscheidende historische Kontrast: Command Language und Direct Manipulation
+000779 | 
+000780 | Ben Shneiderman ist für deine Arbeit tatsächlich ein hervorragender theoretischer
+000781 | Bezugspunkt.
+000782 | 
+000783 | Er beschrieb Direct Manipulation unter anderem anhand von:
+000784 | 
+000785 | sichtbaren Objekten,
+000786 | schnellen, schrittweisen und umkehrbaren Handlungen,
+000787 | unmittelbarem Feedback,
+000788 | der Ersetzung komplexer Kommandosyntax durch direkte Manipulation.
+000789 | 
+000790 | Die grafische Benutzeroberfläche sollte dem Nutzer also nicht mehr abverlangen,
+000791 | eine abstrakte Befehlssprache zu erinnern. Stattdessen sollte sie Handlungen
+000792 | sichtbar und unmittelbar ausführbar machen.
+000793 | 
+000794 | Das LLM-Promptfeld dreht einen Teil dieser Entwicklung wieder um:
+000795 | 
+000796 | Der mögliche Handlungsraum ist nicht vollständig sichtbar.
+000797 | Die Nutzer wissen nicht sicher, was das System kann.
+000798 | Es gibt keinen eindeutig erfassbaren Befehlssatz.
+000799 | Das Ergebnis ist nicht immer vorhersehbar.
+000800 | Die Handlung ist nicht unbedingt unmittelbar reversibel.
+000801 | Das System kann eine Eingabe formal akzeptieren und trotzdem falsch
+000802 | interpretieren.
+000803 | 
+000804 | Aktuelle HCI-Forschung beschreibt genau dieses Problem als eine Art Gulf of
+000805 | Envisioning: Nutzer müssen zunächst erkennen, ob das System eine Aufgabe überhaupt
+000806 | bewältigen kann, wie die Aufgabe sprachlich formuliert werden sollte und wie
+000807 | anschließend beurteilt werden kann, ob das Ergebnis die eigentliche Absicht
+000808 | erfüllt.
+000809 | 
+000810 | Damit könntest du deine provokante Notiz vom „Verbrechen an der Usability-Lehre“
+000811 | wissenschaftlich präzisieren:
+000812 | 
+000813 | Promptbasierte Interfaces führen einige der Probleme wieder ein, die Direct
+000814 | Manipulation durch Sichtbarkeit, Begrenzung und unmittelbares Feedback zu lösen
+000815 | versuchte.
+000816 | 
+000817 | Gleichzeitig lösen sie ein anderes Problem: Man muss nicht mehr für jede Handlung
+000818 | einen sichtbaren Button oder einen exakten Befehl kennen. Daraus entsteht die
+000819 | zentrale Spannung:
+000820 | 
+000821 | Je größer und sprachlich zugänglicher der Handlungsraum wird, desto schwieriger
+000822 | wird es, ihn im Interface sichtbar und vorhersehbar zu machen.
+000823 | 
+000824 | Natürliche Sprache ist nicht vollständig neu
+000825 | 
+000826 | Historisch solltest du aufpassen, LLMs als erste natürlichsprachliche
+000827 | Computerinterfaces darzustellen.
+000828 | 
+000829 | Joseph Weizenbaums ELIZA ermöglichte bereits 1966 einen textbasierten Dialog in
+000830 | natürlicher Sprache. ELIZA analysierte Eingaben anhand von Schlüsselwörtern und
+000831 | Transformationsregeln. Terry Winograds SHRDLU konnte Anfang der 1970er Jahre
+000832 | natürlichsprachliche Fragen und Befehle innerhalb einer begrenzten simulierten
+000833 | Blockwelt verarbeiten und Handlungen ausführen.
+000834 | 
+000835 | Die neue Entwicklung liegt daher nicht darin, dass Menschen zum ersten Mal
+000836 | natürliche Sprache verwenden. Für deine Argumentation wäre präziser:
+000837 | 
+000838 | Natürlichsprachliche Interfaces existieren seit Jahrzehnten. Mit LLMs wird
+000839 | natürliche Sprache jedoch erstmals in breitem Umfang als offen wirkende,
+000840 | domänenübergreifende und mit verschiedenen Werkzeugen verbindbare
+000841 | Interface-Schicht eingesetzt.
+000842 | 
+000843 | Das lässt deinen Full-Circle-Gedanken sogar interessanter werden. Es gibt dann
+000844 | nicht nur die Linie:
+000845 | 
+000846 | Kommandozeile → GUI → LLM
+000847 | 
+000848 | Sondern mehrere historische Linien, die im LLM-Interface zusammenlaufen:
+000849 | 
+000850 | Kommandozeile ─────── Text als Befehl ───────────┐
+000851 | Suchfeld ──────────── Text als Anfrage ──────────┤
+000852 | Formular ──────────── Text als Datenübergabe ────┤
+000853 | Messenger/Chat ────── Text als Dialog ───────────┤
+000854 | Texteditor ────────── Text als Inhalt ───────────┤
+000855 |                                                   ↓
+000856 |                                       LLM-Prompt-Interface
+000857 | 
+000858 | Das LLM-Textfeld ist so mächtig und gleichzeitig so unklar, weil es all diese
+000859 | Rollen in einem einzigen Element vereint.
+000860 | 
+000861 | Eine mögliche Taxonomie für deine Arbeit
+000862 | 
+000863 | Anstatt nur eine chronologische Geschichte zu erzählen, könntest du fünf Rollen
+000864 | der Texteingabe unterscheiden:
+000865 | 
+000866 | Rolle des Textes        typisches Interface     Nutzer gibt ein System tut
+000867 | Text als Kommando       Terminal, CLI   formal definierte Anweisung     führt
+000868 | einen Befehl aus
+000869 | Text als Daten  Formular        erwarteten Wert prüft, speichert oder übermittelt
+000870 | Text als Anfrage        Suche, Omnibox  Informationsbedürfnis oder Ziel sucht,
+000871 | rankt oder leitet weiter
+000872 | Text als Inhalt Editor, Social Media, Messenger zu veröffentlichenden Text
+000873 | speichert, überträgt oder publiziert
+000874 | Text als Absicht        LLM, Agent      Ziel, Aufgabe und Kontext
+000875 | interpretiert, generiert, plant oder handelt
+000876 | 
+000877 | Der besondere Punkt wäre:
+000878 | 
+000879 | Das LLM-Promptfeld kann Kommando, Datenfeld, Suchfeld, Editor und Dialogfeld
+000880 | gleichzeitig sein.
+000881 | 
+000882 | Dadurch erklärt sich auch die Überforderung durch den Blank Canvas. Bei einem
+000883 | Formularfeld verrät das Label, was erwartet wird. Bei einem Suchfeld ist zumindest
+000884 | grob klar, dass nach Informationen oder Zielen gesucht wird. Das Promptfeld
+000885 | hingegen fragt häufig nur:
+000886 | 
+000887 | „How can I help?“
+000888 | 
+000889 | Es zeigt zwar, dass Text eingegeben werden kann, aber kaum, welche Arten von
+000890 | Handlungen dadurch möglich werden.
+000891 | 
+000892 | „Hard Syntax“ und „Soft Syntax“
+000893 | 
+000894 | Eine sehr produktive eigene Begriffsbildung könnte sein:
+000895 | 
+000896 | Hard Syntax
+000897 | 
+000898 | Die Kommandozeile verwendet eine explizite, formale Syntax:
+000899 | 
+000900 | exakte Befehle
+000901 | definierte Parameter
+000902 | feste Reihenfolge
+000903 | dokumentierte Regeln
+000904 | eindeutige Syntaxfehler
+000905 | Soft Syntax
+000906 | 
+000907 | Prompting verwendet natürliche Sprache, ist aber trotzdem nicht völlig formlos:
+000908 | 
+000909 | Ziel formulieren
+000910 | Kontext angeben
+000911 | Rolle definieren
+000912 | Einschränkungen benennen
+000913 | Beispiele liefern
+000914 | Ausgabeformat festlegen
+000915 | schrittweise nachbessern
+000916 | 
+000917 | Der Prompt hat keine zwingende Grammatik, aber erfolgreiche Nutzer entwickeln
+000918 | trotzdem Konventionen. Genau darin liegt die von dir bereits notierte neue
+000919 | Kulturtechnik des Promptens.
+000920 | 
+000921 | Eine mögliche These wäre:
+000922 | 
+000923 | Prompting ersetzt die harte Syntax der Kommandozeile nicht durch vollständige
+000924 | Formlosigkeit, sondern durch eine weiche, kontextabhängige und probabilistische
+000925 | Syntax.
+000926 | 
+000927 | Oder zugespitzter:
+000928 | 
+000929 | Das LLM-Interface ist eine Kommandozeile mit weicher Syntax und einem
+000930 | unsichtbaren, veränderlichen Befehlssatz.
+000931 | 
+000932 | Das wäre ein sehr guter Satz für deine Einleitung oder dein Fazit.
+000933 | 
+000934 | Eine passende Forschungsfrage
+000935 | 
+000936 | Ich würde historische Beobachtung und Interface-Design-Problem miteinander
+000937 | verbinden:
+000938 | 
+000939 | Inwiefern stellt die promptbasierte Interaktion mit generativer KI eine Rückkehr
+000940 | textbasierter Computersteuerung dar, und welche gestalterischen Probleme
+000941 | entstehen, wenn formale Kommandos durch natürliche Sprache ersetzt werden?
+000942 | 
+000943 | Dazu könnten drei Unterfragen kommen:
+000944 | 
+000945 | Welche unterschiedlichen Funktionen übernimmt Texteingabe in Kommandozeile,
+000946 | Formular, Suche, Omnibox und LLM-Interface?
+000947 | Wie verändern sich Syntax, Handlungsspielraum, Fehlerlogik, Feedback und
+000948 | Nutzerkontrolle?
+000949 | Wie können Interfaces einen prinzipiell offenen, sprachlich gesteuerten
+000950 | Handlungsraum sichtbar und verständlich machen?
+000951 | 
+000952 | Die dritte Frage ist wichtig, weil sie deine Arbeit klar im Interface Design
+000953 | verankert. Du beschreibst dann nicht nur eine Technikgeschichte, sondern
+000954 | untersuchst eine aktuelle gestalterische Herausforderung.
+000955 | 
+000956 | Die bessere Form des „Full Circle“
+000957 | 
+000958 | Ich würde in der Arbeit nicht von einer vollständigen Rückkehr sprechen, sondern
+000959 | von einer Rückkehr unter veränderten Bedingungen oder einer spiralförmigen
+000960 | Entwicklung:
+000961 | 
+000962 | Textuelle Steuerung
+000963 |         ↓
+000964 | formale Kommandos
+000965 |         ↓
+000966 | grafische Sichtbarmachung von Handlungen
+000967 |         ↓
+000968 | Text als begrenzte Eingabe innerhalb der GUI
+000969 |         ↓
+000970 | Text als Suche und universeller Zugang
+000971 |         ↓
+000972 | Text als natürlichsprachliche Absicht
+000973 | 
+000974 | Die GUI verschwindet dabei nicht. Im Gegenteil: Rund um das offene Promptfeld
+000975 | tauchen wieder grafische Begrenzungen auf:
+000976 | 
+000977 | Vorschlags-Chips
+000978 | Tool-Auswahl
+000979 | Modus-Umschalter
+000980 | Datei- und Bildanhänge
+000981 | Slash Commands
+000982 | Autocomplete
+000983 | Vorlagen
+000984 | Bestätigungsdialoge
+000985 | Vorschauen
+000986 | editierbare Zwischenschritte
+000987 | 
+000988 | Das ist kein zufälliges Detail, sondern möglicherweise deine zentrale
+000989 | Designbeobachtung:
+000990 | 
+000991 | Je universeller das Textfeld wird, desto mehr grafische Hilfselemente benötigt es,
+000992 | um seinen unsichtbaren Handlungsraum wieder verständlich zu machen.
+000993 | 
+000994 | Die Zukunft wäre demnach wahrscheinlich weder „nur GUI“ noch „nur natürliche
+000995 | Sprache“, sondern ein hybrides Interface aus Sprache und direkter Manipulation.
+000996 | Forschung wie DirectGPT untersucht bereits, wie direkte Manipulation ergänzend zu
+000997 | sprachlicher LLM-Interaktion eingesetzt werden kann.
+000998 | 
+000999 | Eine passende Struktur für 20 Seiten
+001000 | 
+001001 | Für deinen begrenzten Umfang würde ich die Arbeit nicht als vollständige
+001002 | Geschichte aller Textfelder anlegen, sondern als selektive Genealogie:
+001003 | 
+001004 | 1. Einleitung: Die Rückkehr des Textes – 2 Seiten
+001005 | aktueller Bedeutungsgewinn des Promptfelds
+001006 | Full-Circle-Beobachtung
+001007 | Forschungsfrage
+001008 | methodisches Vorgehen
+001009 | 2. Text als Interface – 2 Seiten
+001010 | Abgrenzung von HTML-Element, Texteingabefeld und textbasierter Interaktion
+001011 | Kommando, Daten, Anfrage, Inhalt und Absicht
+001012 | verwendete Vergleichskriterien
+001013 | 3. Text als Kommando – 3 Seiten
+001014 | Terminal und Kommandozeile
+001015 | formale Syntax
+001016 | Lernen, Erinnern und Fehlermeldungen
+001017 | kurze Einordnung früher natürlichsprachlicher Systeme wie ELIZA und SHRDLU
+001018 | 4. Text innerhalb grafischer Interfaces – 4 Seiten
+001019 | Formular: Text als Daten
+001020 | Suchfeld: Text als Anfrage
+001021 | Omnibox und Command Palette als Übergangsformen
+001022 | Text wird freier, bleibt aber funktional gerahmt
+001023 | 5. Text als Absicht – 5 Seiten
+001024 | LLM-Prompt und Gesprächskontext
+001025 | vom Befehl zur Delegation
+001026 | Hard Syntax und Soft Syntax
+001027 | Blank Canvas und Gulf of Envisioning
+001028 | multimodale Eingaben, Dateien, Quellen und Tools
+001029 | 6. Gestalterische Konsequenzen – 2 bis 3 Seiten
+001030 | Discoverability
+001031 | Erwartbarkeit
+001032 | Feedback
+001033 | Kontrollverlust
+001034 | hybride Interfaces aus Prompting und Direct Manipulation
+001035 | 7. Fazit – 1 Seite
+001036 | kein vollständiger Kreis
+001037 | Rückkehr der textbasierten Steuerung auf einer neuen Abstraktionsebene
+001038 | Textfeld als Meta-Interface
+001039 | Titel, die zu dieser Rahmung passen
+001040 | 
+001041 | Mein Favorit wäre:
+001042 | 
+001043 | Input. Vom Kommando zur Absicht
+001044 | Eine Genealogie der Texteingabe als Interface
+001045 | 
+001046 | Alternativ:
+001047 | 
+001048 | Back to Text
+001049 | Die Rückkehr der Texteingabe als zentrale Steuerungsform
+001050 | 
+001051 | Input as Interface
+001052 | Von der Command Line zum Natural Language Interface
+001053 | 
+001054 | The Prompt is the Interface
+001055 | Texteingabe zwischen Kommando, Navigation und Delegation
+001056 | 
+001057 | Vom Befehl zum Prompt
+001058 | Textbasierte Interaktion vor und nach der grafischen Benutzeroberfläche
+001059 | 
+001060 | Die stärkste Arbeitsformel ist aus meiner Sicht:
+001061 | 
+001062 | Vom Kommando zur Absicht, von der sichtbaren Handlung zum unsichtbaren
+001063 | Handlungsraum.
+001064 | 
+001065 | Damit hast du einen klaren historischen Bogen, ein aktuelles Interface-Problem und
+001066 | eine eigene gestalterische Perspektive. Der nächste sinnvolle Schritt ist, daraus
+001067 | ein einseitiges Exposé mit Forschungsfrage, Arbeitsthese, Gegenargument und vier
+001068 | verbindlichen Fallstudien zu formulieren.
+001069 | 
+001070 | ok ich würde jedoch gerne schon auch den historischen Kontext deutlich einbinden.
+001071 | wo fand man das erste mal einen input auf einer website. eine formale analyse wäre
+001072 | auch wichtig und vielleicht macht es sinn, wie du schon beschrieben hast das ganze
+001073 | in interface lehre und historie einzubinden. aber zunächst gilt es quellen zu
+001074 | finden
+001075 | 3m 2s nachgedacht
+001076 | 
+001077 | Ja, genau. Historischer Kontext und formale Analyse sollten zwei gleichwertige
+001078 | Quellenstränge bilden. Deine Arbeit wäre dann weder nur Technikgeschichte noch nur
+001079 | eine Untersuchung heutiger KI-Interfaces, sondern eine Genealogie der Texteingabe
+001080 | als Interface:
+001081 | 
+001082 | Wo und in welcher Form taucht Texteingabe in interaktiven Computersystemen auf?
+001083 | Wie wird sie im Web technisch und visuell zu einem eigenständigen
+001084 | Interface-Element?
+001085 | Welche Rollen übernimmt sie: Kommando, Datenfeld, Suchanfrage, Inhalt, Absicht?
+001086 | Wie verändert sich ihr Verhältnis zu Sichtbarkeit, Syntax, Feedback und
+001087 | Nutzerkontrolle?
+001088 | 
+001089 | Deine Notizen enthalten diese Ebenen bereits: Command Line, Formulare, Browser,
+001090 | Google, Omnibox, Social Media, LLM-Prompt sowie die formalen Details wie Rahmen,
+001091 | Schatten, Caret, Placeholder und Browser-Default.
+001092 | 
+001093 | Eine wichtige erste historische Erkenntnis
+001094 | 
+001095 | Die Frage „Wo erschien das erste Input-Feld auf einer Website?“ muss in drei
+001096 | verschiedene Fragen zerlegt werden:
+001097 | 
+001098 | 1. Hatte die erste Website ein Eingabefeld?
+001099 | 
+001100 | Die erhaltene Version der ersten Website am CERN bestand aus Text und Hyperlinks.
+001101 | Auf der erhaltenen Startseite ist kein Formular- oder Texteingabefeld enthalten.
+001102 | Sie war zunächst ein navigierbares Informationssystem, kein Eingabesystem.
+001103 | 
+001104 | 2. Was war der erste Mechanismus für Texteingabe im Web?
+001105 | 
+001106 | Bereits die HTML-Dokumentation von 1992 enthält das Element <ISINDEX>. Es
+001107 | kennzeichnete eine Seite als durchsuchbaren Index. Der Browser sollte daraufhin
+001108 | eine Möglichkeit zur Eingabe von Suchbegriffen bereitstellen und diese als Query
+001109 | an den Server übermitteln. Eine W3C-Dokumentation von November 1992 beschreibt den
+001110 | Mechanismus ausdrücklich; ein Dokument zum Line-Mode-Browser zeigt zudem, dass
+001111 | Keyword-Suchen bereits 1991 unterstützt wurden.
+001112 | 
+001113 | Das ist sehr interessant für dich, weil <ISINDEX> kein frei gestaltbares Feld
+001114 | innerhalb der Seite war. Das Dokument teilte dem Browser lediglich mit: „Diese
+001115 | Ressource ist durchsuchbar.“ Der User Agent stellte die Texteingabe bereit.
+001116 | 
+001117 | Damit könnte <ISINDEX> als eine Art Vorläufer von drei späteren Elementen gelesen
+001118 | werden:
+001119 | 
+001120 | Suchfeld
+001121 | Formular-Input
+001122 | Browser- beziehungsweise Suchmaschinen-Query
+001123 | 3. Wann erschien das heutige Prinzip aus <form> und <input>?
+001124 | 
+001125 | Die präziseste vorläufige Chronologie ist:
+001126 | 
+001127 | 1990/91   Erste Website: Dokumente und Hyperlinks
+001128 | 1991/92   Keyword-Suche und ISINDEX
+001129 | 1993      HTML+ mit FORM und verschiedenen INPUT-Feldern
+001130 | 1993      NCSA Mosaic 2.0 unterstützt Webformulare
+001131 | 1995      HTML 2.0 kodifiziert FORM, INPUT, TEXTAREA und SELECT
+001132 | 
+001133 | Dave Raggetts HTML+ Discussion Document vom 8. November 1993 enthält bereits ein
+001134 | eigenes Kapitel zu „Fill-out Forms and Input Fields“ und Beispiele für einzeilige
+001135 | und mehrzeilige Texteingaben, Radio Buttons, Checkboxes und Submit-Buttons. Eine
+001136 | spätere W3C-Rückschau hält entsprechend fest, dass Formulare 1993 in HTML
+001137 | eingeführt wurden.
+001138 | 
+001139 | Die Dokumentation zu NCSA Mosaic 2.0 stammt ebenfalls aus November 1993. Mosaic
+001140 | ist deshalb wichtig, weil hier nicht nur eine Spezifikation vorliegt, sondern eine
+001141 | konkrete Browserimplementierung, in der Formulare tatsächlich benutzbar und
+001142 | sichtbar wurden.
+001143 | 
+001144 | HTML 2.0 wurde erst im November 1995 als RFC 1866 veröffentlicht. Die
+001145 | Spezifikation erklärt selbst, dass sie ungefähr die bereits vor Juni 1994
+001146 | verbreitete Praxis zusammenführt und formalisiert. Das Input-Feld wurde also nicht
+001147 | 1995 erfunden; 1995 ist der Moment seiner formalen Standardisierung innerhalb von
+001148 | HTML 2.0.
+001149 | 
+001150 | Die Frage nach der allerersten konkreten Website mit einem sichtbaren
+001151 | Texteingabefeld ist damit noch nicht abschließend beantwortet. Historisch sicherer
+001152 | ist zunächst:
+001153 | 
+001154 | Der erste erhaltene Webmechanismus für textuelle Queries war <ISINDEX>. Das
+001155 | heutige Formularprinzip aus <form> und <input> entstand 1993 und wurde 1995 in
+001156 | HTML 2.0 kodifiziert.
+001157 | 
+001158 | Diese Unterscheidung könnte bereits ein kleiner, aber sehr guter Abschnitt deiner
+001159 | Arbeit werden.
+001160 | 
+001161 | Das erste belastbare Quellenkorpus
+001162 | 
+001163 | Für eine 20-seitige Arbeit würde ich zunächst mit ungefähr acht Kernquellen und
+001164 | acht Ergänzungsquellen arbeiten. Mehr Material brauchst du erst, wenn konkrete
+001165 | Lücken auftreten.
+001166 | 
+001167 | A. Technische und historische Primärquellen
+001168 | 1. CERN: erhaltene erste Website
+001169 | 
+001170 | Quelle: The World Wide Web Project, CERN.
+001171 | 
+001172 | Wofür: Ausgangspunkt der Webgeschichte; Navigation zunächst über Hyperlinks statt
+001173 | Formulareingaben.
+001174 | 
+001175 | Status: Kernquelle und historisches Interface-Artefakt.
+001176 | 
+001177 | 2. Tim Berners-Lee: Tags used in HTML, 1992
+001178 | 
+001179 | Wofür: Früher Nachweis von <ISINDEX> als Mechanismus für Keyword-Suche.
+001180 | 
+001181 | Besonders wichtig: Das Dokument zeigt, dass eine textuelle Anfrage schon sehr früh
+001182 | Teil von HTML war, obwohl das moderne <input> noch nicht existierte.
+001183 | 
+001184 | 3. Berners-Lee: Address for an Index Search, 1992
+001185 | 
+001186 | Wofür: Technische Funktionsweise der frühen Query: Indexadresse, Fragezeichen,
+001187 | Keywords und Pluszeichen.
+001188 | 
+001189 | Das ist eine sehr gute Primärquelle für die These:
+001190 | 
+001191 | Bereits die frühe Texteingabe im Web verband Text mit Navigation und
+001192 | Informationsabruf.
+001193 | 
+001194 | 4. Dave Raggett: HTML+ Discussion Document, 1993
+001195 | 
+001196 | Wofür: Einführung komplexerer Formulare und verschiedener Input-Arten.
+001197 | 
+001198 | Besonders relevant für deine formale Analyse: Die Quelle enthält ein frühes
+001199 | Formularbeispiel mit Textfeldern, Radio Buttons, Checkboxes sowie Submit- und
+001200 | Reset-Buttons. Dadurch lässt sich untersuchen, wie Texteingabe von Anfang an in
+001201 | ein Gefüge anderer Controls eingebettet wurde.
+001202 | 
+001203 | 5. NCSA: Introduction to NCSA Mosaic for X 2.0, 1993
+001204 | 
+001205 | Wofür: Konkrete Browserimplementierung von Formularen.
+001206 | 
+001207 | Funktion in der Arbeit: Verbindung zwischen HTML-Spezifikation und tatsächlicher
+001208 | visueller Erscheinung im Browser.
+001209 | 
+001210 | 6. Berners-Lee und Connolly: HTML 2.0, RFC 1866, 1995
+001211 | 
+001212 | Wofür: Formale Standardisierung von:
+001213 | 
+001214 | FORM
+001215 | INPUT
+001216 | TEXTAREA
+001217 | SELECT
+001218 | Submit-Logik
+001219 | Name-Value-Pairs
+001220 | GET und POST
+001221 | 
+001222 | Die Spezifikation eignet sich außerdem zur Trennung zwischen dem Input als
+001223 | sichtbarem Control und den übermittelten Daten.
+001224 | 
+001225 | 7. WHATWG: aktueller HTML-Standard zu <input>
+001226 | 
+001227 | Wofür: Gegenwärtiger technischer Stand und funktionale Ausdifferenzierung des
+001228 | Elements.
+001229 | 
+001230 | Der Standard definiert <input> heute als typisiertes Datenfeld, dessen type sowohl
+001231 | Datentyp als auch zugehöriges Control bestimmt. So kannst du zeigen, wie stark
+001232 | sich das ursprünglich einfache Element funktional ausdifferenziert hat.
+001233 | 
+001234 | 8. WHATWG und W3C: Rendering und appearance
+001235 | 
+001236 | Wofür: Browser-Default, native Controls und formale Gestaltung.
+001237 | 
+001238 | Die WHATWG-Rendering-Spezifikation schreibt keine vollständig identische visuelle
+001239 | Darstellung vor. Form Controls wurden historisch häufig als native Widgets des
+001240 | Betriebssystems gerendert. Die CSS-Eigenschaft appearance entstand, um die native
+001241 | Darstellung teilweise zu unterdrücken oder zu kontrollieren.
+001242 | 
+001243 | Das ist zentral für deine formale Analyse:
+001244 | 
+001245 | Es gibt nicht den einen ursprünglichen Schatten oder Rahmen des HTML-Inputs. Seine
+001246 | Erscheinung entstand im Zusammenspiel aus HTML-Semantik, Browser, Betriebssystem,
+001247 | User-Agent-Styles und später CSS.
+001248 | 
+001249 | B. Kommandozeile, GUI und Interface-Lehre
+001250 | 9. Ritchie und Thompson: The UNIX Time-Sharing System, 1974
+001251 | 
+001252 | Wofür: Technische Primärquelle zur Unix-Shell und zur textuellen Steuerung eines
+001253 | Betriebssystems.
+001254 | 
+001255 | Das Paper behandelt ausdrücklich das Dateisystem und das User Command Interface.
+001256 | Es verhindert, dass du die Command Line nur als ästhetischen schwarzen Bildschirm
+001257 | behandelst; du kannst sie als Sprache zur Komposition und Ausführung von
+001258 | Operationen analysieren.
+001259 | 
+001260 | Die Kommandozeile sollte dabei nicht als Ursprung aller Computerinteraktion
+001261 | behauptet werden. Vor Unix existierten bereits interaktive Time-Sharing-Systeme
+001262 | wie CTSS. Unix wäre für deinen Umfang aber ein sinnvoller und gut dokumentierter
+001263 | exemplarischer Fall.
+001264 | 
+001265 | 10. Ben Shneiderman: Direct Manipulation: A Step Beyond Programming Languages,
+001266 | 1983
+001267 | 
+001268 | Wofür: Der zentrale theoretische Kontrast zwischen Command Language und grafischer
+001269 | direkter Manipulation.
+001270 | 
+001271 | Shneiderman beschreibt Direct Manipulation durch:
+001272 | 
+001273 | sichtbare Gegenstände,
+001274 | schnelle und inkrementelle Aktionen,
+001275 | Reversibilität,
+001276 | direkt sichtbare Ergebnisse,
+001277 | Ersetzung komplexer Befehlssyntax durch physische Aktionen und beschriftete
+001278 | Controls.
+001279 | 
+001280 | Diese Quelle ist vermutlich das wichtigste historische Bindeglied deiner Arbeit:
+001281 | 
+001282 | Command Language
+001283 |         ↓
+001284 | Direct Manipulation
+001285 |         ↓
+001286 | Natural-Language Prompting
+001287 | 11. Hutchins, Hollan und Norman: Direct Manipulation Interfaces, 1985
+001288 | 
+001289 | Wofür: Vertiefung und auch Relativierung von Shneidermans Konzept.
+001290 | 
+001291 | Die Autoren untersuchen sowohl Vorteile als auch Grenzen direkter Manipulation und
+001292 | führen unter anderem die Distanz zwischen Nutzerzielen und Systemsprache als
+001293 | kognitives Problem ein. Das lässt sich später sehr gut mit dem Prompt als
+001294 | sprachlicher Vermittlung zwischen Absicht und System verbinden.
+001295 | 
+001296 | 12. Donald Norman: Affordance, Conventions, and Design, 1999
+001297 | 
+001298 | Wofür: Präzisierung deiner Begriffe Affordance, Convention und Signifier.
+001299 | 
+001300 | Norman warnt davor, Affordances, wahrgenommene Affordances und erlernte visuelle
+001301 | Konventionen miteinander zu verwechseln. Gerade der Rahmen eines Textfeldes, der
+001302 | I-Beam-Cursor, das Caret oder ein Placeholder sind weniger „Affordances“ im
+001303 | strengen Sinn als wahrnehmbare Signifier und gelernte Konventionen.
+001304 | 
+001305 | Das verbessert deine bisherige Aussage:
+001306 | 
+001307 | Nicht das Promptfeld besitzt keine Affordance. Es besitzt Signifier für
+001308 | Texteingabe, aber kaum Signifier für den Umfang der dadurch möglichen Handlungen.
+001309 | 
+001310 | 13. Shneiderman und Maes: Direct Manipulation vs. Interface Agents, 1997
+001311 | 
+001312 | Wofür: Übergang von unmittelbarer Nutzerkontrolle zur Delegation an Systeme und
+001313 | Agents.
+001314 | 
+001315 | Das ist fast unheimlich passend für deine aktuelle Fragestellung: Bereits 1997
+001316 | wurde diskutiert, ob Nutzer direkte Kontrolle zugunsten von Software-Agenten
+001317 | aufgeben sollten.
+001318 | 
+001319 | C. Prompting und LLM-Interfaces
+001320 | 14. Zamfirescu-Pereira et al.: Why Johnny Can’t Prompt, 2023
+001321 | 
+001322 | Wofür: Empirische Grundlage für deine Beobachtung, dass freie Texteingaben
+001323 | Menschen nicht automatisch zu kompetenten Systemnutzern machen.
+001324 | 
+001325 | Die Studie untersucht, wie Nichtfachleute LLM-Prompts entwickeln und an dieser
+001326 | Aufgabe scheitern beziehungsweise welche falschen Vorstellungen dabei entstehen.
+001327 | 
+001328 | 15. Subramonyam et al.: Bridging the Gulf of Envisioning, 2024
+001329 | 
+001330 | Wofür: Vermutlich deine wichtigste aktuelle Theoriequelle.
+001331 | 
+001332 | Die Autoren unterscheiden drei Probleme promptbasierter Interaktion:
+001333 | 
+001334 | Capability Gap: Kann das System meine Aufgabe überhaupt erledigen?
+001335 | Instruction Gap: Wie muss ich die Aufgabe formulieren?
+001336 | Intentionality Gap: Entspricht das Resultat tatsächlich meinem Ziel?
+001337 | 
+001338 | Sie beschreiben damit genau den von dir notierten Blank-Canvas- und
+001339 | Guidance-Konflikt.
+001340 | 
+001341 | 16. Masson et al.: DirectGPT, 2024
+001342 | 
+001343 | Wofür: Verbindung von LLM-Prompting und Direct Manipulation.
+001344 | 
+001345 | DirectGPT übersetzt direkte Manipulationen in Prompts und ergänzt Chat-Interaktion
+001346 | unter anderem durch manipulierbare Outputs, wiederverwendbare Kommandos und Undo.
+001347 | Die Studie berichtet, dass Teilnehmende damit bei den untersuchten Aufgaben
+001348 | schneller arbeiteten und kürzere Prompts benötigten.
+001349 | 
+001350 | Das stützt eine mögliche Schlussfolgerung deiner Arbeit:
+001351 | 
+001352 | Die Zukunft des Text-Inputs besteht vermutlich nicht in der vollständigen Ablösung
+001353 | grafischer Interfaces, sondern in hybriden Systemen aus sprachlicher Absicht und
+001354 | sichtbaren, direkt manipulierbaren Controls.
+001355 | 
+001356 | Welche Quellen gehören zur formalen Analyse?
+001357 | 
+001358 | Für Rahmen, Schatten, Größe, Caret und Placeholder brauchst du nicht nur
+001359 | Literatur. Du benötigst drei unterschiedliche Belegformen:
+001360 | 
+001361 | Spezifikationen
+001362 | 
+001363 | Sie beantworten:
+001364 | 
+001365 | Was bedeutet das Element?
+001366 | Welche Zustände und Attribute besitzt es?
+001367 | Was muss oder darf ein Browser tun?
+001368 | Historische Interface-Artefakte
+001369 | 
+001370 | Sie beantworten:
+001371 | 
+001372 | Wie sah das Feld in einem konkreten Browser und Betriebssystem aus?
+001373 | Wo war es positioniert?
+001374 | Welcher Text stand davor oder darin?
+001375 | Wie wurde der Submit ausgelöst?
+001376 | Welche Zustände waren sichtbar?
+001377 | 
+001378 | Geeignete Artefakte wären zunächst:
+001379 | 
+001380 | CERN Line-Mode Browser
+001381 | NCSA Mosaic 2.0
+001382 | Netscape Navigator
+001383 | frühe Google-Homepage
+001384 | Browser-Adresszeile
+001385 | frühe Social-Media-Composer
+001386 | aktuelle LLM-Composer
+001387 | Interface-Theorie
+001388 | 
+001389 | Sie gibt dir ein Raster für die Interpretation:
+001390 | 
+001391 | Signifier
+001392 | Mapping
+001393 | Constraint
+001394 | Feedback
+001395 | Visibility
+001396 | Discoverability
+001397 | Reversibility
+001398 | Mental Model
+001399 | Gulf of Execution
+001400 | Gulf of Evaluation
+001401 | Gulf of Envisioning
+001402 | 
+001403 | Ohne diese Trennung würdest du etwa einen grauen 3D-Rahmen vorschnell als
+001404 | allgemeine Eigenschaft „des HTML-Inputs“ behandeln, obwohl er eine konkrete
+001405 | Rendering-Konvention eines Browsers und Betriebssystems ist.
+001406 | 
+001407 | So würde ich die Recherche jetzt organisieren
+001408 | 
+001409 | Lege in Zotero zunächst diese fünf Sammlungen an:
+001410 | 
+001411 | 01 Web und HTML
+001412 | 02 Command Line und Direct Manipulation
+001413 | 03 Formale Anatomie
+001414 | 04 Suche, Omnibox und Composer
+001415 | 05 LLM und Prompting
+001416 | 
+001417 | Für jede Quelle hältst du nur Folgendes fest:
+001418 | 
+001419 | Vollständige Referenz:
+001420 | Quellentyp:
+001421 | Historischer Zeitraum:
+001422 | Welche Behauptung belegt sie?
+001423 | Welche Behauptung belegt sie ausdrücklich nicht?
+001424 | Relevante Seite oder Passage:
+001425 | Mögliches Interface-Artefakt:
+001426 | Kapitel:
+001427 | 
+001428 | Die Frage „Welche Behauptung belegt sie ausdrücklich nicht?“ ist hier besonders
+001429 | wichtig. Beispielsweise:
+001430 | 
+001431 | Quelle: RFC 1866
+001432 | Belegt: FORM und INPUT wurden 1995 in HTML 2.0 kodifiziert.
+001433 | Belegt nicht: Das Input-Feld wurde 1995 erfunden.
+001434 | Vorläufige Kernthese der historischen Recherche
+001435 | 
+001436 | Mit dem bisherigen Quellenstand lässt sich bereits eine differenzierte Entwicklung
+001437 | formulieren:
+001438 | 
+001439 | Texteingabe erscheint im frühen Web zunächst als vom Browser bereitgestellte
+001440 | Keyword-Suche, wird 1993 mit HTML-Formularen zu einem innerhalb der Website
+001441 | definierbaren Dateneingabeelement und entwickelt sich später über Suchfeld,
+001442 | Adresszeile und Composer zu einem zunehmend offenen Interface. Im LLM-Prompt wird
+001443 | Texteingabe schließlich nicht mehr nur zur Übermittlung eines Wertes oder einer
+001444 | Query verwendet, sondern zur Formulierung einer Handlungsabsicht.
+001445 | 
+001446 | Damit steht das Grundgerüst. Als Nächstes sollten wir die historische Linie 1991
+001447 | bis ungefähr 2000 gründlich ausarbeiten und dabei die ersten erhaltenen
+001448 | Interfaces, Spezifikationen und Browserdarstellungen in einer chronologischen
+001449 | Quellenmatrix sammeln.
