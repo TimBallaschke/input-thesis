@@ -7,8 +7,8 @@ Metrics schema: 1
 SESSION AND RUNTIME
 Session start UTC: 2026-08-30T08:35:47.564Z
 Session start local: 2026-08-30T10:35:47.564+02:00
-Exported through UTC: 2026-08-30T18:06:49.173Z
-Session elapsed: 09:31:02
+Exported through UTC: 2026-08-30T18:21:38.461Z
+Session elapsed: 09:45:51
 Originator: Codex Desktop
 Codex version: 0.149.0-alpha.4
 Model provider: openai
@@ -18,30 +18,30 @@ Timezone: Europe/Berlin
 
 VISIBLE COMMUNICATION
 Start UTC: 2026-08-30T08:35:48.850Z
-End UTC: 2026-08-30T18:06:42.758Z
+End UTC: 2026-08-30T18:21:17.573Z
 Start local: 2026-08-30T10:35:48.850+02:00
-End local: 2026-08-30T20:06:42.758+02:00
-Elapsed span: 09:30:54
-Messages: 341
-User messages: 76
-Assistant messages: 265
-User visible words: 3,036
-Assistant visible words: 21,278
+End local: 2026-08-30T20:21:17.573+02:00
+Elapsed span: 09:45:29
+Messages: 348
+User messages: 77
+Assistant messages: 271
+User visible words: 3,059
+Assistant visible words: 21,493
 
 CUMULATIVE TOKEN ACCOUNTING SNAPSHOT
-Snapshot UTC: 2026-08-30T18:06:36.887Z
-Input tokens: 146,941,638
-  Cached input subset: 142,317,952
-  Non-cached input, calculated: 4,623,686
-Output tokens: 655,269
-  Reasoning output subset: 177,392
-  Non-reasoning output, calculated: 477,877
-Total tokens: 147,596,907
+Snapshot UTC: 2026-08-30T18:21:24.936Z
+Input tokens: 152,830,437
+  Cached input subset: 147,872,512
+  Non-cached input, calculated: 4,957,925
+Output tokens: 679,540
+  Reasoning output subset: 185,149
+  Non-reasoning output, calculated: 494,391
+Total tokens: 153,509,977
 Model context window: 258,400
 
 TOP-LEVEL TOOL CALL RECORDS
-Total: 1,019
-  exec: 1,019
+Total: 1,078
+  exec: 1,078
 
 INTERPRETATION NOTES
 - Token figures are platform-accounting values, not visible word counts.

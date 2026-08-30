@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {7}Externally supplied review feedback}{40}{section.7}%
 \contentsline {section}{\numberline {8}Codex production task}{44}{section.8}%
 \contentsline {section}{\numberline {9}Codex production task}{204}{section.9}%
-\contentsline {section}{\numberline {10}Technical metadata}{263}{section.10}%
-\contentsline {subsection}{\numberline {10.1}CDX-01 session snapshot}{263}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}CDX-02 session snapshot}{264}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Process metrics}{264}{subsection.10.3}%
+\contentsline {section}{\numberline {10}Technical metadata}{264}{section.10}%
+\contentsline {subsection}{\numberline {10.1}CDX-01 session snapshot}{264}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}CDX-02 session snapshot}{265}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Process metrics}{265}{subsection.10.3}%

@@ -1969,6 +1969,44 @@ archive synchronization and PDF production/QA follow this measurement
 boundary.
 
 
+## P-0135 — Create a continuous Pages reading copy
+
+- Start UTC: `2026-08-30T18:11:20.018Z`
+- End UTC: `2026-08-30T18:17:35.376Z`
+- Start local: `2026-08-30T20:11:20.018+02:00`
+- End local: `2026-08-30T20:17:35.376+02:00`
+- Elapsed wall-clock span: `00:06:15.358`
+- Boundary: the author's request for one continuous Pages document through
+  creation, dual-format render inspection and the start of project-record
+  maintenance
+- Baseline token snapshot UTC: `2026-08-30T18:09:02.821Z`
+- End token snapshot UTC: `2026-08-30T18:17:37.163Z`
+- Input-token delta: `2,457,914`
+- Cached-input subset: `2,346,368`
+- Non-cached input, calculated: `111,546`
+- Output-token delta: `12,972`
+- Reasoning-output subset: `5,651`
+- Non-reasoning output, calculated: `7,321`
+- Total-token delta: `2,470,886`
+- Top-level tool-call records: `35 exec`
+- Visible messages in span: `1 user`, `4 assistant`
+- Calculation script: `scripts/extract_process_metrics.py`
+
+The span covers extraction of the five author-confirmed Interaction passages,
+creation of a neutral A4 reading document, native Pages conversion and complete
+visual inspection of both the intermediate DOCX render and the PDF exported by
+Pages. The first layout pass exposed an inconsistent running-header treatment;
+the header was removed and both formats were regenerated and checked again.
+The final file contains the existing 1,403 words of working prose and their
+visible citations on five pages while omitting internal source and boundary
+notes. No prose, source record, claim status, translation or thesis LaTeX file
+was changed. The Pages artifact is a derivative reading copy, so no `AI-###` or
+`TXT-###` entry was assigned. Token counts include repeated context, tool
+instructions and local project material; they do not measure visible words,
+monetary cost, energy use or emissions. Final archive synchronization and PDF
+production/QA follow this measurement boundary.
+
+
 ## Coverage note
 
 Quantitative process instrumentation was introduced after `P-0022`. `P-0022`

@@ -264,6 +264,16 @@ the final temporal-interaction statement are project synthesis, not a common
 empirically tested model. The passage remains outside the thesis LaTeX files
 and is not yet adopted submission prose. Its Draft Mode is closed.
 
+A continuous reading copy of all five author-confirmed Interaction passages is
+available as the native Pages document
+[`output/documents/Interaction_Arbeitsabschnitte.pages`](output/documents/Interaction_Arbeitsabschnitte.pages).
+It contains the 1,403 words of working prose and their visible source
+references on five A4 pages. Internal source and boundary notes are omitted so
+that the passages can be read consecutively. The source of truth remains the
+stepwise Markdown draft; the Pages file is a reading copy and does not place
+the passages in the thesis LaTeX files. Both the intermediate DOCX render and
+the PDF exported by Pages were inspected page by page.
+
 ## Authorial writing style
 
 Writing-style decision (30 August 2026): German thesis prose should use a

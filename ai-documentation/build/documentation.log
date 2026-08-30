@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.26)  30 AUG 2026 20:07
+This is LuaHBTeX, Version 1.24.0 (TeX Live 2026)  (format=lualatex 2026.7.26)  30 AUG 2026 20:22
  restricted system commands enabled.
 **documentation.tex
 (./documentation.tex
@@ -624,11 +624,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 [227] [228] [229] [230] [231] [232] [233] [234] [235] [236] [237] [238]
 [239] [240] [241] [242] [243] [244] [245] [246] [247] [248] [249] [250]
 [251] [252] [253] [254] [255] [256] [257] [258] [259] [260] [261] [262]
-[263
+[263] [264
 
-] [264] [265] [266] [267] [268] [269] [270] [271] [272] [273] [274]
+] [265] [266] [267] [268] [269] [270] [271] [272] [273] [274]
 [275] [276] [277] [278] [279] [280] [281] [282] [283] [284] [285] [286]
-[287] [288] (./build/documentation.aux)
+[287] [288] [289] (./build/documentation.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -636,7 +636,7 @@ L3 programming layer <2026-01-19>
 )
 
 Here is how much of LuaTeX's memory you used:
- 15008 strings out of 476076
+ 15009 strings out of 476076
  125240,794899 words of node,token memory allocated
  518 words of node memory still in use:
    4 hlist, 1 vlist, 1 rule, 1 local_par, 5 glue, 3 kern, 1 penalty, 1 margin_ke
@@ -652,10 +652,10 @@ mf-dist/fonts/opentype/public/lm/lmsans9-regular.otf></usr/local/texlive/2026bas
 ic/texmf-dist/fonts/opentype/public/lm/lmsans12-regular.otf></usr/local/texlive/
 2026basic/texmf-dist/fonts/opentype/public/lm/lmsans10-bold.otf></usr/local/texl
 ive/2026basic/texmf-dist/fonts/opentype/public/lm/lmsans17-regular.otf>
-Output written on documentation.pdf (289 pages, 1037308 bytes).
+Output written on documentation.pdf (290 pages, 1041109 bytes).
 
-PDF statistics: 1338 PDF objects out of 1440 (max. 8388607)
- 1015 compressed objects within 11 object streams
- 304 named destinations out of 1000 (max. 1048576)
+PDF statistics: 1342 PDF objects out of 1440 (max. 8388607)
+ 1018 compressed objects within 11 object streams
+ 305 named destinations out of 1000 (max. 1048576)
  113 words of extra memory for PDF output out of 10000 (max. 100000000)
 
