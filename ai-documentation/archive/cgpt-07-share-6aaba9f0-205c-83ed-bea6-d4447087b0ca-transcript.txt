@@ -1,0 +1,453 @@
+000001 | AI COLLABORATION DOCUMENTATION - SHARED CHAT SNAPSHOT
+000002 | Archive ID: CGPT-07
+000003 | Title: Masterthesis Weiterformulieren
+000004 | Source: https://chatgpt.com/share/6aaba9f0-205c-83ed-bea6-d4447087b0ca
+000005 | Retrieved UTC: 2026-09-17T08:58:35.902592+00:00
+000006 | Messages SHA-256: d99d096858e2e01fa5a5522791c9243b86a8db00c0b5131a9ec84bdb334f3973
+000007 | Scope: public shared text; attachments and linked artifacts may be missing.
+000008 | Exact message text is preserved in JSONL. Display adds wrapping and labels
+000009 | for citation controls, writing blocks and unsupported symbols.
+000010 | Message timestamps are provider metadata. Share timestamps are separate.
+000011 | Hidden reasoning, system instructions and tool payloads are excluded.
+000012 | 
+000013 | MESSAGE 0001 | 2026-09-15T15:29:18.704000+00:00 | USER | PROMPT
+000014 | Das ist der bisherige Inhalt meiner Masterthesis und ich würde gerne anhand von
+000015 | Notizen mit dir die nächsten Abschnitte rausformulieren.
+000016 | [ATTACHMENT: markdown(10).md eingefügt; content unavailable]
+000017 | 
+000018 | MESSAGE 0002 | 2026-09-15T15:29:20.404773+00:00 | ASSISTANT | FINAL
+000019 | Ja. Ich habe den bisherigen Stand jetzt als Grundlage vorliegen. Die Arbeit führt
+000020 | im **Interaction**-Teil über körperliche Eingabe, erforderliche Kenntnisse,
+000021 | Korrigieren/Bearbeiten, Autocomplete bis zu Iteration und Reformulierung; im
+000022 | **Operation**-Teil hast du bereits „Technische Rolle und Kontext der Eingabe“
+000023 | sowie „Verarbeitung und ihre Maßstäbe“ ausgearbeitet. Der nächste angelegte
+000024 | Abschnitt ist **„Übertragung, Speicherung und Weiterverwendung“**. [filecite:
+000025 | turn0file0: L107-L149] [filecite: turn0file0: L151-L225]
+000026 | 
+000027 | Ich würde beim Weiterarbeiten deinen bisherigen Ton beibehalten: **analytisch,
+000028 | nüchtern und präzise**, aber möglichst nicht unnötig dicht. Besonders würde ich
+000029 | darauf achten, dass wir nicht bloß technische Selbstverständlichkeiten aufzählen,
+000030 | sondern immer herausarbeiten, **warum der jeweilige Punkt für die Argumentation
+000031 | über Texteingabe relevant ist**. Außerdem können wir weiterhin sauber zwischen
+000032 | belegbaren technischen Vorgängen, deiner daraus folgenden Analyse und stärker
+000033 | normativen Aussagen unterscheiden.
+000034 | 
+000035 | Schick mir einfach die **Notizen für den nächsten Abschnitt**. Dann gehen wir
+000036 | wieder Stück für Stück vor – und ich sage dir auch, wenn mir etwas redundant, zu
+000037 | trivial oder bereits an anderer Stelle ausreichend behandelt erscheint.
+000038 | 
+000039 | MESSAGE 0003 | 2026-09-15T15:30:19.164000+00:00 | USER | PROMPT
+000040 | ## Operation 3: Übertragung, Speicherung und Weiterverwendung
+000041 | 
+000042 | **Leitfrage:** Wohin reicht die Verwendung einer Eingabe über das unmittelbare
+000043 | Anliegen hinaus, und wer entscheidet darüber?
+000044 | 
+000045 | **Kernaussage:** Eine Eingabe kann zugleich der gewünschten Aufgabe und weiteren,
+000046 | von anderen Akteuren bestimmten Zwecken dienen. Dabei können sowohl mitgeteilte
+000047 | Angaben als auch daraus abgeleitete Informationen verwendet werden.
+000048 | 
+000049 | ### 1. Ausgangspunkt: Das Anliegen begrenzt nicht automatisch die Datenverwendung
+000050 | 
+000051 | - An Operation 2 anschließen: Bisher ging es um die Verarbeitung einer Eingabe und
+000052 | die Maßstäbe des Ergebnisses. Nun stehen die weiteren Wege und Verwendungszwecke
+000053 | der Daten im Mittelpunkt.
+000054 | - Ein Ergebnis für Nutzer\:innen und eine zusätzliche Verwendung ihrer Angaben
+000055 | schließen sich nicht gegenseitig aus.
+000056 | - Übertragung, Speicherung, Verknüpfung und Weiterverwendung analytisch
+000057 | unterscheiden:
+000058 |   - Daten werden übermittelt.
+000059 |   - Daten werden aufbewahrt.
+000060 |   - Daten werden anderen Angaben oder einem Konto zugeordnet.
+000061 |   - Daten werden für eine weitere Aufgabe eingesetzt.
+000062 | - Aus einem nachgewiesenen Vorgang nicht automatisch alle anderen ableiten.
+000063 | - Nicht behaupten, jede Texteingabe werde dauerhaft gespeichert oder zur
+000064 | Profilbildung verwendet. Den tatsächlich belegten Datenwegen folgen.
+000065 | 
+000066 | **Beleganschluss:** Analytische Rahmung; konkrete Beispiele bei von Ahn et al.
+000067 | 2008, S. 1466, sowie FTC 2023, *Complaint*, Rn. 48–54, S. 10–12.
+000068 | 
+000069 | ### 2. Kurzer historischer Einstieg: Eine Eingabe, mehrere Zwecke
+000070 | 
+000071 | - Beim ursprünglichen reCAPTCHA von 2008 verbindet sich eine Sicherheitsprüfung
+000072 | mit einem Beitrag zur Digitalisierung gedruckter Texte.
+000073 | - Ein bekanntes Wort dient als Kontrolle; die Antwort auf ein unbekanntes Wort
+000074 | wird nach bestandener Kontrolle als Transkriptionshypothese behandelt.
+000075 | - Mehrere Antworten werden zusammengeführt, bevor eine Schreibweise übernommen
+000076 | wird.
+000077 | - Die Eingabe dient damit nicht nur dem Zugang, sondern zugleich einer weiteren
+000078 | Aufgabe, deren Verknüpfung die Entwickler eingerichtet haben.
+000079 | - Diese Mehrfachverwendung ist nicht bereits ein Beweis für Missbrauch. Nutzen,
+000080 | Einwilligung und Verteilung der Arbeit bleiben unterschiedliche Fragen.
+000081 | 
+000082 | **Kritische Frage:** Für welche zusätzliche Aufgabe arbeite ich mit meiner
+000083 | Eingabe, und wer hat diese Verbindung hergestellt?
+000084 | 
+000085 | **Beleg:** von Ahn et al. 2008, S. 1465–1466. Auf das historische textbasierte
+000086 | System begrenzen; keine Aussage über heutiges reCAPTCHA oder die Wahrnehmung
+000087 | seiner Nutzer\:innen.
+000088 | 
+000089 | ### 3. Hauptfall BetterHelp: Angaben für Beratung werden zu Werbedaten
+000090 | 
+000091 | - Den Aufnahmezweck knapp benennen: Angaben werden erhoben, um passende
+000092 | Therapeut\:innen zu vermitteln; dabei wurden Vertraulichkeitszusagen gemacht.
+000093 | - Laut FTC wurden bestimmte Aufnahmeangaben und Kennungen dennoch für Werbung
+000094 | verwendet beziehungsweise an Werbeplattformen weitergegeben.
+000095 | - Die Verknüpfung hervorheben: E-Mail-Adressen ermöglichten einen Abgleich mit
+000096 | anderen Konten. Bereits der Zusammenhang mit dem Beratungsdienst konnte sensible
+000097 | Informationen vermitteln.
+000098 | - Den konkreten Fall herausarbeiten: Eine Angabe zu früherer Therapie wurde als
+000099 | Ereignis „AddToWishlist“ codiert; laut FTC wurde Facebook seine Bedeutung
+000100 | mitgeteilt.
+000101 | - Eine im Beratungskontext erhobene Angabe wird dadurch für erneute Ansprache,
+000102 | ähnliche Werbezielgruppen oder Anzeigenoptimierung nutzbar.
+000103 | 
+000104 | **Kritische Frage:** Wann wird aus meiner Angabe zur eigenen Unterstützung eine
+000105 | Information, mit der ein Unternehmen mich oder andere als Kund\:innen anspricht?
+000106 | 
+000107 | **Belege:** FTC 2023, *Complaint*, Rn. 11–13 und 23–27, S. 3 und 5; Rn. 46–54, S.
+000108 | 10–12, besonders Rn. 53b und 54.
+000109 | 
+000110 | **Beleggrenze:** Als FTC-Vorwürfe kennzeichnen. Gemeint sind bestimmte
+000111 | Aufnahmeangaben einschließlich Auswahlantworten und Kennungen, nicht die
+000112 | nachgewiesene Weitergabe vollständiger Therapiegespräche. Die abschließende
+000113 | Vereinbarung enthält keine allgemeine Anerkennung der Vorwürfe (*Decision and
+000114 | Order*, S. 1–2).
+000115 | 
+000116 | ### 4. Ergänzung Staab: Nicht jede verwertbare Information wird ausdrücklich
+000117 | abgefragt
+000118 | 
+000119 | - Von mitgeteilten und verknüpften Angaben zur Ableitung persönlicher Merkmale
+000120 | wechseln.
+000121 | - Staab et al. zeigen, dass damalige LLMs aus ausgewählten Reddit-Textsammlungen
+000122 | Merkmale wie Wohnort, Alter oder Beruf erschließen konnten.
+000123 | - Nicht nur ausdrücklich genannte Daten, sondern auch sprachliche und inhaltliche
+000124 | Hinweise können solche Rückschlüsse ermöglichen.
+000125 | - Im getesteten Anonymisierungsverfahren verhinderte das Entfernen direkter
+000126 | Angaben nicht sämtliche Rückschlüsse aus dem verbleibenden Text.
+000127 | - Abgeleitete Merkmale nicht als vollständige oder sicher wahre Nutzerprofile
+000128 | behandeln. Zuordnungen bleiben fehlbar und von Daten sowie Verfahren abhängig.
+000129 | - Die Verschiebung zuspitzen: Text kann nicht nur als Äußerung eines Anliegens,
+000130 | sondern auch als Material für Aussagen über die schreibende Person dienen.
+000131 | 
+000132 | **Kritische Frage:** Welche Informationen über mich werden aus meinem Text
+000133 | abgeleitet, obwohl ich sie nicht ausdrücklich als Angaben über mich eingegeben
+000134 | habe?
+000135 | 
+000136 | **Beleg:** Staab et al. 2024, S. 4–9; Bewertungsverfahren S. 19, arXiv v2.
+000137 | 
+000138 | **Beleggrenze:** Keine Untersuchung gewöhnlicher Nutzung heutiger Chatprodukte.
+000139 | BetterHelp und Staab bilden keine gemeinsam untersuchte technische Kette; ein
+000140 | entsprechender LLM-Einsatz bei BetterHelp ist hier nicht belegt.
+000141 | 
+000142 | ### 5. Zuspitzung: Wer verfügt über Zwecke und wirtschaftlichen Nutzen?
+000143 | 
+000144 | - Am BetterHelp-Fall die Akteure unterscheiden: Hilfesuchende, Beratungsanbieter
+000145 | und Werbeplattformen verfolgen nicht notwendig dieselben Zwecke.
+000146 | - Untersuchen, wer Angaben erhebt, ihre Empfänger bestimmt und zusätzliche
+000147 | Verwendungen veranlasst.
+000148 | - Fragen, wem diese Verwendung nützt und ob dieser Nutzen mit dem Anliegen der
+000149 | eingebenden Person zusammenfällt.
+000150 | - Die Machtfrage liegt in der ungleichen Verfügung über die Datenverwendung, nicht
+000151 | schon in der bloßen Existenz technischer Verarbeitung.
+000152 | - Anbietermacht zugleich nicht als unbegrenzt darstellen: Die finale FTC-Order
+000153 | untersagt bestimmte Weitergaben für Werbezwecke. Ihre Existenz belegt Regulierung,
+000154 | nicht bereits die Erfüllung sämtlicher Auflagen.
+000155 | 
+000156 | **Belegbasis:** FTC, *Complaint*, Rn. 5, 46 und 57; *Decision and Order*,
+000157 | Definitionen J/K und Provision I, S. 5–6. Die übergreifende Machtfrage ist deine
+000158 | argumentative Zusammenführung.
+000159 | 
+000160 | ### 6. Schluss und Übergang zu Operation 4
+000161 | 
+000162 | - Mehrfachverwendung, personenbezogene Ableitung und kommerzielle Nutzung
+000163 | unterscheiden; nicht jeder Fall umfasst alle drei Vorgänge.
+000164 | - Als Schlusspunkt festhalten: **Der unmittelbare Zweck einer Eingabe erschöpft
+000165 | nicht notwendig ihre operative Verwendung.**
+000166 | - Anschließend zur Frage wechseln, was Nutzer\:innen davon erkennen, überprüfen
+000167 | oder beeinflussen können.
+000168 | 
+000169 | **Übergangsfrage:** Wenn meine Eingabe weiteren Zwecken dient: Woran kann ich das
+000170 | erkennen, und welche Möglichkeiten habe ich, darauf einzuwirken?
+000171 | 
+000172 | Die ausführliche Analyse von Sichtbarkeit, Kontrolle und Löschung bleibt Operation
+000173 | 4 vorbehalten. Für diese Stichpunkte reicht die vorhandene Quellenlage;
+000174 | zuverlässige psychologische Manipulation oder vollständige Persönlichkeitsprofile
+000175 | werden damit nicht behauptet.
+000176 | 
+000177 | Lass uns Schritt für Schirtt vorgehen. Bitte fange mit dem ersten Abschnitt an.
+000178 | 
+000179 | MESSAGE 0004 | 2026-09-15T15:30:20.718701+00:00 | ASSISTANT | FINAL
+000180 | Ich würde den Einstieg relativ knapp halten, weil er vor allem die begriffliche
+000181 | Grundlage für die folgenden Beispiele schaffen soll:
+000182 | 
+000183 | [Text block]
+000184 | Mit der Verarbeitung einer Eingabe ist ihre Verwendung nicht notwendig
+000185 | abgeschlossen. Eine Angabe kann zunächst dazu dienen, das unmittelbare Anliegen
+000186 | der NutzerInnen zu erfüllen, und zugleich in weitere Datenverarbeitungen eingehen.
+000187 | Entscheidend ist deshalb nicht nur, wie eine Eingabe verarbeitet wird, sondern
+000188 | auch, wohin ihre Daten gelangen und für welche weiteren Zwecke sie verwendet
+000189 | werden.
+000190 | 
+000191 | Dabei lassen sich verschiedene Vorgänge unterscheiden. Daten können übertragen,
+000192 | gespeichert, mit anderen Angaben oder einem Konto verknüpft und anschließend für
+000193 | weitere Aufgaben verwendet werden. Diese Schritte müssen jedoch nicht gemeinsam
+000194 | auftreten. Dass eine Eingabe beispielsweise an einen Server übertragen wird,
+000195 | bedeutet noch nicht, dass sie dauerhaft gespeichert oder für einen anderen Zweck
+000196 | weiterverwendet wird.
+000197 | 
+000198 | Der unmittelbare Zweck einer Eingabe legt ihre weitere Verwendung damit nicht
+000199 | automatisch fest. Welche zusätzlichen Verwendungen stattfinden, hängt von der
+000200 | jeweiligen technischen und organisatorischen Gestaltung des Systems ab. Im
+000201 | Folgenden geht es deshalb darum, welchen weiteren Aufgaben eine Eingabe dienen
+000202 | kann und wer diese Verknüpfung bestimmt.
+000203 | [End text block]
+000204 | Ich finde hier besonders den mittleren Absatz wichtig: Er verhindert, dass der
+000205 | Abschnitt später so klingt, als würdest du von **Übertragung automatisch auf
+000206 | Speicherung, Profilbildung oder kommerzielle Nutzung** schließen. Gleichzeitig
+000207 | bleibt der Einstieg kurz genug, damit reCAPTCHA anschließend direkt als erster
+000208 | konkreter Fall übernehmen kann.
+000209 | 
+000210 | MESSAGE 0005 | 2026-09-15T15:31:56.023000+00:00 | USER | PROMPT
+000211 | Okay und weiter.
+000212 | 
+000213 | MESSAGE 0006 | 2026-09-15T15:31:59.519924+00:00 | ASSISTANT | FINAL
+000214 | Dann würde ich mit dem **historischen reCAPTCHA-Beispiel** weitermachen. Das
+000215 | eignet sich gut, weil daran die Mehrfachverwendung einer Eingabe sehr klar wird,
+000216 | ohne direkt mit einem problematischen Datenschutzfall einzusteigen.
+000217 | 
+000218 | [Text block]
+000219 | Ein frühes Beispiel dafür ist das ursprüngliche textbasierte reCAPTCHA. Das 2008
+000220 | vorgestellte System verband eine Sicherheitsprüfung mit der Digitalisierung
+000221 | gedruckter Texte. NutzerInnen erhielten dabei zwei Wörter: Bei einem war die
+000222 | korrekte Schreibweise bereits bekannt und konnte zur Überprüfung der Eingabe
+000223 | dienen. Das zweite stammte aus einem Digitalisierungsprozess und konnte von der
+000224 | automatischen Texterkennung nicht zuverlässig erkannt werden. Wurde das bekannte
+000225 | Wort korrekt eingegeben, wurde die Antwort auf das unbekannte Wort als mögliche
+000226 | Transkription berücksichtigt. Erst nachdem mehrere NutzerInnen übereinstimmende
+000227 | Antworten gegeben hatten, konnte eine Schreibweise übernommen werden (vgl. von Ahn
+000228 | et al. 2008, S. 1465–1466).
+000229 | 
+000230 | Dieselbe Eingabe erfüllte damit zwei unterschiedliche Aufgaben. Sie diente
+000231 | unmittelbar dazu, eine Sicherheitsprüfung zu bestehen, und zugleich als Beitrag
+000232 | zur Transkription eines gedruckten Textes. Diese Verbindung entstand nicht aus dem
+000233 | Anliegen der NutzerInnen selbst, sondern wurde durch die Gestaltung des Systems
+000234 | hergestellt.
+000235 | 
+000236 | Eine solche Mehrfachverwendung ist nicht bereits problematisch. Sie zeigt
+000237 | zunächst, dass der unmittelbare Zweck einer Eingabe nicht mit sämtlichen Aufgaben
+000238 | identisch sein muss, für die sie technisch eingesetzt wird. Davon getrennt zu
+000239 | betrachten sind Fragen danach, ob diese zusätzliche Verwendung erkennbar oder
+000240 | gewollt ist und wem die dabei geleistete Arbeit zugutekommt.
+000241 | [End text block]
+000242 | Den letzten Absatz finde ich hier wichtig, weil du damit **nicht vorschnell
+000243 | reCAPTCHA als Ausbeutung oder Missbrauch framest**. Es dient zunächst als sauberes
+000244 | strukturelles Beispiel: Eine Handlung kann gleichzeitig für einen zweiten, von den
+000245 | EntwicklerInnen eingerichteten Zweck nutzbar gemacht werden. Der BetterHelp-Fall
+000246 | kann danach zeigen, warum diese Trennung unter anderen Bedingungen deutlich
+000247 | problematischer wird.
+000248 | 
+000249 | MESSAGE 0007 | 2026-09-15T15:33:24.851000+00:00 | USER | PROMPT
+000250 | Hey, aber das Thema mit dem Digitalisierungsprozess von alten Büchern, das muss
+000251 | man vielleicht nochmal hervorheben.
+000252 | 
+000253 | MESSAGE 0008 | 2026-09-15T15:33:27.816671+00:00 | ASSISTANT | FINAL
+000254 | Ja, genau — das ist eigentlich das Anschauliche an dem Beispiel und sollte nicht
+000255 | hinter „Digitalisierung gedruckter Texte“ verschwinden. Ich würde es konkreter
+000256 | machen:
+000257 | 
+000258 | [Text block]
+000259 | Ein frühes Beispiel dafür ist das ursprüngliche textbasierte reCAPTCHA. Das 2008
+000260 | vorgestellte System verband eine Sicherheitsprüfung mit der Digitalisierung
+000261 | älterer Bücher und anderer gedruckter Texte. Bei deren Digitalisierung konnten
+000262 | automatische Texterkennungssysteme einzelne Wörter nicht zuverlässig entziffern.
+000263 | reCAPTCHA machte diese schwer erkennbaren Wörter deshalb zum Bestandteil seiner
+000264 | Sicherheitsabfragen und ließ NutzerInnen an ihrer Transkription mitarbeiten.
+000265 | 
+000266 | Dafür wurden jeweils zwei Wörter angezeigt. Bei einem war die korrekte
+000267 | Schreibweise bereits bekannt und konnte zur Überprüfung der Eingabe dienen. Das
+000268 | zweite stammte aus einem digitalisierten Text und war von der automatischen
+000269 | Texterkennung nicht zuverlässig erkannt worden. Wurde das bekannte Wort korrekt
+000270 | eingegeben, wurde die Antwort auf das unbekannte Wort als mögliche Transkription
+000271 | berücksichtigt. Erst nachdem mehrere NutzerInnen übereinstimmende Antworten
+000272 | gegeben hatten, konnte eine Schreibweise übernommen werden (vgl. von Ahn et al.
+000273 | 2008, S. 1465–1466).
+000274 | 
+000275 | Dieselbe Eingabe erfüllte damit zwei Aufgaben: NutzerInnen wiesen sich gegenüber
+000276 | einer Website als menschlich aus und trugen zugleich zur Digitalisierung
+000277 | gedruckter Bestände bei. Diese zweite Aufgabe entstand nicht aus ihrem
+000278 | unmittelbaren Anliegen, sondern aus der Verbindung, die die EntwicklerInnen des
+000279 | Systems hergestellt hatten.
+000280 | 
+000281 | Eine solche Mehrfachverwendung ist nicht bereits problematisch. Sie zeigt
+000282 | zunächst, dass der unmittelbare Zweck einer Eingabe nicht mit sämtlichen Aufgaben
+000283 | identisch sein muss, für die sie technisch eingesetzt wird. Davon getrennt zu
+000284 | betrachten sind Fragen danach, ob diese zusätzliche Verwendung erkennbar oder
+000285 | gewollt ist und wem sie zugutekommt.
+000286 | [End text block]
+000287 | So wird auch klarer, **warum gerade Texteingabe hier interessant ist**: Ein Wort,
+000288 | das für die NutzerInnen wie Teil einer CAPTCHA-Prüfung aussieht, wird gleichzeitig
+000289 | zu einer kleinen Transkriptionsleistung.
+000290 | 
+000291 | MESSAGE 0009 | 2026-09-15T15:34:25.053000+00:00 | USER | PROMPT
+000292 | ok weiter
+000293 | 
+000294 | MESSAGE 0010 | 2026-09-15T15:34:26.468560+00:00 | ASSISTANT | FINAL
+000295 | Dann würde ich jetzt zum **BetterHelp-Fall** wechseln. Der Ton kann hier etwas
+000296 | schärfer werden, aber weiterhin sauber zwischen dem unmittelbaren Beratungszweck
+000297 | und den von der FTC vorgeworfenen zusätzlichen Verwendungen unterscheiden.
+000298 | 
+000299 | [Text block]
+000300 | Deutlicher wird die Frage nach zusätzlicher Verwendung im Fall des
+000301 | Online-Beratungsdienstes BetterHelp. NutzerInnen machten dort Angaben, um mit
+000302 | passenden TherapeutInnen oder BeraterInnen vermittelt zu werden. Nach Darstellung
+000303 | der US-amerikanischen Federal Trade Commission wurden dabei zugleich Zusagen über
+000304 | den vertraulichen Umgang mit diesen Informationen gemacht.
+000305 | 
+000306 | Laut FTC wurden bestimmte Angaben aus diesem Aufnahmeprozess sowie Kennungen
+000307 | dennoch für Werbezwecke verwendet oder an Werbeplattformen weitergegeben. Dazu
+000308 | gehörten unter anderem E-Mail-Adressen, über die NutzerInnen mit bereits
+000309 | bestehenden Konten auf anderen Plattformen abgeglichen werden konnten. Bereits die
+000310 | Information, dass eine Person einen Beratungsdienst nutzt, kann dabei eine
+000311 | sensible Aussage über sie enthalten.
+000312 | 
+000313 | Besonders deutlich wird die Verschiebung des Verwendungszwecks an einer Angabe
+000314 | dazu, ob eine Person bereits zuvor eine Therapie in Anspruch genommen hatte. Nach
+000315 | Angaben der FTC wurde diese Information in einem Fall als Ereignis mit der
+000316 | Bezeichnung „AddToWishlist“ an Facebook übermittelt und dessen Bedeutung
+000317 | erläutert. Eine Angabe, die im Zusammenhang mit der Suche nach Unterstützung
+000318 | gemacht wurde, konnte dadurch zugleich für Werbezwecke nutzbar werden, etwa für
+000319 | erneute Ansprache, die Bildung ähnlicher Zielgruppen oder die Optimierung von
+000320 | Anzeigen (vgl. FTC 2023, *Complaint*, Rn. 11–13, 23–27, 46–54).
+000321 | 
+000322 | Der Fall zeigt damit nicht nur, dass Daten weitergegeben werden können, sondern
+000323 | vor allem, dass sich ihre Funktion verändern kann. Eine Angabe, die zunächst der
+000324 | Vermittlung von Beratung dient, kann in einem anderen technischen und
+000325 | wirtschaftlichen Zusammenhang zu einem Signal für Werbung werden. Welche weitere
+000326 | Bedeutung sie erhält, wird dabei nicht allein von der eingebenden Person bestimmt,
+000327 | sondern auch von den Akteuren, die diese Daten verknüpfen und für andere Zwecke
+000328 | einsetzen.
+000329 | [End text block]
+000330 | Ich würde hier bewusst **nicht von „Therapiedaten wurden an Facebook verkauft“ o.
+000331 | Ä. sprechen**. Präziser ist deine Linie: Bestimmte Intake-Angaben und Kennungen
+000332 | wurden laut FTC für Werbezwecke weitergegeben bzw. verwendet. Das macht den Fall
+000333 | gerade stärker, weil du nichts größer formulierst, als die Quelle belegt.
+000334 | 
+000335 | MESSAGE 0011 | 2026-09-15T15:35:29.060000+00:00 | USER | PROMPT
+000336 | ok weiter
+000337 | 
+000338 | MESSAGE 0012 | 2026-09-15T15:35:30.937425+00:00 | ASSISTANT | FINAL
+000339 | Dann würde ich jetzt von **mitgeteilten und verknüpften Angaben** zu
+000340 | **abgeleiteten Informationen** wechseln. Das erweitert den Abschnitt sinnvoll:
+000341 | Nicht nur ausdrücklich eingegebene Daten können weiterverwendet werden.
+000342 | 
+000343 | [Text block]
+000344 | Eine weitere Form der Datenverwendung betrifft Informationen, die NutzerInnen
+000345 | nicht ausdrücklich als persönliche Angaben eingeben. Auch aus dem Inhalt und der
+000346 | Sprache eines Textes können Rückschlüsse auf die schreibende Person gezogen
+000347 | werden.
+000348 | 
+000349 | Staab et al. untersuchten dies anhand ausgewählter Reddit-Texte. Dabei konnten
+000350 | Sprachmodelle aus den Beiträgen unter anderem Merkmale wie Wohnort, Alter oder
+000351 | Beruf ableiten. Solche Informationen mussten nicht ausdrücklich genannt worden
+000352 | sein. Auch sprachliche Formulierungen, erwähnte Orte, Tätigkeiten oder andere
+000353 | inhaltliche Hinweise konnten zu einer Einschätzung beitragen (vgl. Staab et al.
+000354 | 2024, S. 4–9).
+000355 | 
+000356 | Auch das Entfernen direkter personenbezogener Angaben verhinderte solche
+000357 | Rückschlüsse im untersuchten Verfahren nicht vollständig. Ein Text kann damit
+000358 | Informationen über eine Person enthalten, die über das hinausgehen, was sie
+000359 | ausdrücklich über sich mitteilt.
+000360 | 
+000361 | Diese Ableitungen sind jedoch keine sicheren oder vollständigen Nutzerprofile. Sie
+000362 | beruhen auf den verfügbaren Hinweisen und den verwendeten Verfahren und können
+000363 | entsprechend falsch sein. Entscheidend ist hier deshalb weniger, ob eine solche
+000364 | Zuordnung in jedem Einzelfall zutrifft, sondern dass ein eingegebener Text nicht
+000365 | nur als Äußerung eines Anliegens verarbeitet werden kann. Er kann zugleich zum
+000366 | Ausgangsmaterial für Aussagen über die Person werden, die ihn verfasst hat.
+000367 | [End text block]
+000368 | Ich würde den Abschnitt bewusst **nicht direkt mit BetterHelp technisch
+000369 | verknüpfen**. BetterHelp zeigt eine nachgewiesene zusätzliche Verwendung konkreter
+000370 | Angaben; Staab zeigt dagegen grundsätzlich, dass aus Texten auch **neue
+000371 | personenbezogene Informationen abgeleitet** werden können. Gerade diese Trennung
+000372 | macht die Argumentation sauber.
+000373 | 
+000374 | MESSAGE 0013 | 2026-09-15T15:36:51.622000+00:00 | USER | PROMPT
+000375 | ok weiter
+000376 | 
+000377 | MESSAGE 0014 | 2026-09-15T15:36:53.048618+00:00 | ASSISTANT | FINAL
+000378 | Als Nächstes würde ich die bisherige Argumentation zuspitzen und die **Akteure und
+000379 | ihre unterschiedlichen Interessen** in den Vordergrund rücken.
+000380 | 
+000381 | [Text block]
+000382 | An der weiteren Verwendung von Eingaben sind unterschiedliche Akteure beteiligt,
+000383 | deren Interessen nicht notwendig übereinstimmen. Im BetterHelp-Fall suchten
+000384 | NutzerInnen Unterstützung, während der Anbieter zugleich darüber entschied, welche
+000385 | Angaben erhoben, wie sie verknüpft und an welche weiteren Dienste sie übermittelt
+000386 | wurden. Wer eine Eingabe macht, bestimmt damit nicht automatisch über sämtliche
+000387 | späteren Verwendungszusammenhänge dieser Daten.
+000388 | 
+000389 | Gerade bei werblicher Nutzung kann daraus ein zusätzlicher wirtschaftlicher Wert
+000390 | entstehen. Angaben können nicht nur dabei helfen, eine unmittelbare Dienstleistung
+000391 | bereitzustellen, sondern auch dazu dienen, bestehende NutzerInnen erneut
+000392 | anzusprechen, ähnliche Zielgruppen zu bestimmen oder Werbemaßnahmen zu optimieren.
+000393 | Der Nutzen einer solchen Weiterverwendung fällt damit nicht zwangsläufig mit dem
+000394 | Anliegen zusammen, für das die Angaben ursprünglich gemacht wurden.
+000395 | 
+000396 | Die entscheidende Asymmetrie liegt deshalb nicht schon darin, dass Daten technisch
+000397 | verarbeitet werden. Sie entsteht dort, wo verschiedene Akteure in
+000398 | unterschiedlichem Maß darüber verfügen können, welche Daten erhoben, miteinander
+000399 | verbunden, weitergegeben und für zusätzliche Zwecke eingesetzt werden. NutzerInnen
+000400 | liefern dabei einen Teil des Ausgangsmaterials, ohne über dessen weitere
+000401 | Verwendung im gleichen Maß entscheiden zu können.
+000402 | 
+000403 | Diese Verfügung ist jedoch nicht unbegrenzt. Im BetterHelp-Verfahren untersagte
+000404 | die abschließende Anordnung der FTC unter anderem bestimmte Weitergaben
+000405 | personenbezogener Informationen für Werbezwecke (vgl. FTC 2023, *Complaint*, Rn.
+000406 | 5, 46, 57; *Decision and Order*, S. 5–6). Der Fall zeigt damit zugleich, dass die
+000407 | Verwendung von Daten nicht allein durch technische Möglichkeiten und
+000408 | Unternehmensinteressen bestimmt wird, sondern auch rechtlichen und regulatorischen
+000409 | Grenzen unterliegt.
+000410 | [End text block]
+000411 | Der wichtige Punkt ist hier für mich: **Macht nicht mit „Datenverarbeitung“
+000412 | gleichsetzen**. Sonst wäre praktisch jede technische Operation schon Macht.
+000413 | Interessanter ist die ungleiche Verfügung darüber, **welche Zwecke festgelegt
+000414 | werden, wer Daten verknüpfen darf und wem daraus zusätzlicher Nutzen entsteht**.
+000415 | 
+000416 | MESSAGE 0015 | 2026-09-15T15:37:53.615000+00:00 | USER | PROMPT
+000417 | weiter
+000418 | 
+000419 | MESSAGE 0016 | 2026-09-15T15:37:55.778321+00:00 | ASSISTANT | FINAL
+000420 | Dann würde ich den Abschnitt jetzt mit einer kurzen Zusammenführung abschließen
+000421 | und direkt zu **Operation 4** überleiten.
+000422 | 
+000423 | [Text block]
+000424 | Die bisherigen Beispiele zeigen unterschiedliche Formen der Weiterverwendung. Eine
+000425 | Eingabe kann mehreren Aufgaben zugleich dienen, ausdrücklich mitgeteilte Angaben
+000426 | können in andere Verwendungszusammenhänge überführt werden, und aus Texten können
+000427 | zusätzliche Informationen über die schreibende Person abgeleitet werden. Diese
+000428 | Vorgänge sind voneinander zu unterscheiden und treten nicht zwangsläufig gemeinsam
+000429 | auf.
+000430 | 
+000431 | Gemeinsam ist ihnen jedoch, dass sich die operative Verwendung einer Eingabe nicht
+000432 | notwendig in ihrem unmittelbaren Zweck erschöpft. Was NutzerInnen eingeben, kann
+000433 | über die Aufgabe hinaus wirksam werden, für die es ursprünglich formuliert wurde.
+000434 | Welche zusätzlichen Zwecke entstehen, hängt dabei von den technischen und
+000435 | organisatorischen Entscheidungen der beteiligten Akteure ab.
+000436 | 
+000437 | Damit stellt sich eine weitere Frage: Wenn Eingaben auf diese Weise übertragen,
+000438 | gespeichert, verknüpft oder weiterverwendet werden können, woran können
+000439 | NutzerInnen dies erkennen und welche Möglichkeiten haben sie, darauf einzuwirken?
+000440 | [End text block]
+000441 | Ich würde es genau an dieser Stelle beenden. **Sichtbarkeit, Zustimmung, Kontrolle
+000442 | oder Löschung** würde ich hier noch nicht weiter ausführen, weil das sonst
+000443 | Operation 4 vorwegnimmt.
+000444 | 
+000445 | ---
+000446 | 
+000447 | If you want, I can:
+000448 | 
+000449 | - Bitte fahre mit dem Abschnitt zu BetterHelp und den Werbedaten weiter
+000450 | - Fahre mit der Darstellung der abgeleiteten Informationen nach Nutzerangaben fort
+000451 | - Bitte aktualisiere den historischen reCAPTCHA-Abschnitt mit der Hervorhebung der
+000452 | Digitalisierungsleistung
+000453 | 

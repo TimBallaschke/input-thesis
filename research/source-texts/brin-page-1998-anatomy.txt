@@ -1,0 +1,539 @@
+                                         Computer     Networks     and ISDN        Systems        30 ( 1998)       107- 117
+
+
+
+
+            The anatomy of a large-scalehypertextual Web searchengine ’
+                                                 Sergey Brin *, Lawrence Page *Z
+                              Computer     Science   Department.      Stanford      Univer.sity        Stanford.     CA 94305,   USA
+
+
+
+
+Abstract
+
+    In this paper, we present Google, a prototype of a large-scale search engine which makes heavy use of the structure
+present in hypertext. Google is designed to crawl and index the Web efficiently and produce much more satisfying search
+results than existing systems.The prototype with a full text and hyperlink databaseof at least 24 million pages is available
+at http:llgoogle.stanford.edu/
+    To engineer a search engine is a challenging task. Search engines index tens to hundreds of millions of Web pages
+involving a comparable number of distinct terms. They answer tens of millions of queries every day. Despite the importance
+of large-scale search engines on the Web, very little academic research has been done on them. Furthermore, due to rapid
+advance in technology and Web proliferation, creating a Web search engine today is very different from three years
+ago. This paper provides an in-depth description of our large-scale Web search engine - the first such detailed public
+description we know of to date.
+    Apart from the problems of scaling traditional search techniques to data of this magnitude, there are new technical
+challenges involved with using the additional information present in hypertext to produce better search results. This paper
+addressesthis question of how to build a practical large-scale system which can exploit the additional information present
+in hypertext. Also we look at the problem of how to effectively deal with uncontrolled hypertext collections where anyone
+can publish anything they want. 0 1998 Published by Elsevier Science B.V. All rights reserved.
+
+Keywords:     World Wide Web; Search engines; Information retrieval; PageRank: Google
+
+
+
+1. Introduction                                                                       likely to surf the Web using its link graph, often start-
+                                                                                      ing with high quality human maintained indices such
+   The Web creates new challenges for information                                     as Yahoo! 3 or with search engines. Human main-
+retrieval. The amount of information on the Web is                                    tained lists cover popular topics effectively but are
+growing rapidly, as well as the number of new users                                   subjective, expensive to build and maintain, slow to
+inexperienced in the art of Web research. People are                                  improve, and cannot cover all esoteric topics. Auto-
+                                                                                      mated search engines that rely on keyword matching
+                                                                                      usually return too many low quality matches. To make
+’ Corresponding       author.
+                                                                                      matters worse, some advertisers attempt to gain peo-
+ ’ There are two versions of this paper - a longer full version
+and a shorter printed version. The full version is available on the                   ple’s attention by taking measures meant to mislead
+Web and the conference        CD-ROM.
+’ E-mail:    (sergey, page] @cs.stanford.edu                                          ’ http://www.yahoo.com
+
+
+0169-7552/9X/$19.00     0 1998 Published      by Elsevier   Science    B.V.      All rights       reserved.
+PII SOl69-7552(98)001          IO-X
+108                                   S. Brin,   L. Puge/Computer   Networks   and ISDN    Systems     30 (1998)     107-117
+
+
+automated search engines. We have built a large-scale                                 These tasks are becoming increasingly difficult as
+search engine which addresses many of the problems                                the Web grows. However, hardware performance and
+of existing systems. It makes especially heavy use of                             cost have improved dramatically to partially offset
+the additional structure present in hypertext to provide                          the difficulty. There are, however, several notable
+much higher quality search results. We chose our sys-                             exceptions to this progress such as disk seek time and
+tem name, Google, because it is a common spelling                                 operating system robustness. In designing Google,
+of googol, or 10100 and fits well with our goal of                                we have considered both the rate of growth of the
+building very large-scale search engines.                                         Web and technological changes. Google is designed
+                                                                                  to scale well to extremely large data sets. It makes
+1.1. Web search engines - scaling up: 1994-2000                                   efficient use of storage space to store the index. Its
+                                                                                  data structures are optimized for fast and efficient
+    Search engine technology has had to scale dra-                                access (see Section 4.2). Further, we expect that
+matically to keep up with the growth of the Web. In                               the cost to index and store text or HTML will
+ 1994, one of the first Web search engines, the World                             eventually decline relative to the amount that will
+Wide Web Worm (WWWW) [6] had an index of                                          be available (see Appendix B in the full version).
+ 110,000 Web pages and Web accessible documents.                                  This will result in favorable scaling properties for
+As of November. 1997, the top search engines claim                                centralized systems like Google.
+to index from 2 million (WebCrawler) to 100 million
+Web documents (from Search Engine Watch4). It                                     1.3. Design goals
+is foreseeable that by the year 2000, a comprehen-
+sive index of the Web will contain over a billion                                 I .3.1. Improved search quality
+documents. At the same time, the number of queries                                    Our main goal is to improve the quality of Web
+search engines handle has grown incredibly too. In                                search engines. In 1994, some people believed that
+March and April 1994, the World Wide Web Worm                                     a complete search index would make it possible to
+received an average of about 1500 queries per day.                                find anything easily. According to Best of the Web
+In November 1997, Altavista claimed it handled                                    1994 - Navigators5, “The best navigation service
+roughly 20 million queries per day. With the increas-                             should make it easy to find almost anything on the
+ing number of users on the Web, and automated                                     Web (once all the data is entered).” However, the
+systems which query search engines, it is likely that                             Web of 1997 is quite different. Anyone who has
+top search engines will handle hundreds of millions                               used a search engine recently, can readily testify
+of queries per day by the year 2000. The goal of our                              that the completeness of the index is not the only
+system is to address many of the problems, both in                                factor in the quality of search results. “Junk results”
+quality and scalability, introduced by scaling search                             often wash out any results that a user is interested
+engine technology to such extraordinary numbers.                                  in. In fact, as of November 1997. only one of the
+                                                                                  top four commercial search engines finds itself (re-
+1.2. Google: scaling with the Web                                                 turns its own search page in response to its name
+                                                                                  in the top ten results). One of the main causes of
+   Creating a search engine which scales even to to-                              this problem is that the number of documents in
+day’s Web presents many challenges. Fast crawling                                 the indices has been increasing by many orders of
+technology is needed to gather the Web documents                                  magnitude, but the user’s ability to look at docu-
+and keep them up to date. Storage space must be                                   ments has not. People are still only willing to look
+used efficiently to store indices and, optionally, the                            at the first few tens of results. Because of this, as
+documents themselves. The indexing system must                                    the collection size grows, we need tools that have
+process hundreds of gigabytes of data efficiently.                                very high precision (number of relevant documents
+Queries must be handled quickly, at a rate of hun-                                returned, say in the top tens of results). Indeed, we
+dreds to thousands per second.                                                    want our notion of “relevant” to only include the
+
+’ http://www.searchenginewatch.com/                                               5 http://botw.org/l99Wawardslnavigators.html
+                         S. Brftz. L. Pup/Cotttp~rrer   NetM.orks   and ISDN   Sufettu   30 (IYYK)   107-I   17              109
+
+
+very best documents since there may be tens of                         generated by Google, and many others are underway.
+thousands of slightly relevant documents. This very                    Another goal we have is to set up a Spacelab-like
+high precision is important even at the expense of                     environment where researchers or even students can
+recall (the total number of relevant documents the                     propose and do interesting experiments on our large-
+system is able to return). There is quite a bit of                     scale Web data.
+recent optimism that the use of more hypertextual
+information can help improve search and other ap-
+plications [4.9,12,3]. In particular, link structure 171               2. System features
+and link text provide a lot of information for making
+relevance judgments and quality filtering. Google                          The Google search engine has two important fea-
+makes use of both link structure and anchor text (see                  tures that help it produce high precision results. First,
+Sections 2.1 and 2.2).                                                 it makes use of the link structure of the Web to cal-
+                                                                       culate a quality ranking for each Web page. This
+1.32. Academic search engine research                                  ranking is called PageRank and is described in de-
+     Aside from tremendous growth, the Web has also                    tail in [7]. Second, Google utilizes links to improve
+become increasingly commercial over time. In 1993,                     search results.
+ 1.5% of Web servers were on .com domains. This
+number grew to over 60% in 1997. At the same time,                     2.1. PageRank: bringing order to the Weh
+search engines have migrated from the academic
+domain to the commercial. Up until now most search                          The citation (link) graph of the Web is an impor-
+engine development has gone on at companies with                       tant resource that has largely gone unused in existing
+little publication of technical details. This causes                   Web search engines. We have created maps contain-
+search engine technology to remain largely a black                     ing as many as 518 million of these hyperlinks, a
+art and to be advertising oriented (see Appendix A                     significant sample of the total. These maps allow
+in the full version). With Google, we have a strong                    rapid calculation of a Web page’s “PageRank”, an
+goal to push more development and understanding                        objective measure of its citation importance that cor-
+into the academic realm.                                               responds well with people’s subjective idea of impor-
+     Another important design goal was to build sys-                   tance. Because of this correspondence, PageRank is
+tems that reasonable numbers of people can actually                    an excellent way to prioritize the results of Web key-
+use. Usage was important to us because we think                        word searches. For most popular subjects, a simple
+some of the most interesting research will involve                     text matching search that is restricted to Web page
+leveraging the vast amount of usage data that is                       titles performs admirably when PageRank prioritizes
+available from modern Web systems. For example,                        the results (demo available at google.stanford.edu).
+there are many tens of millions of searches per-                       For the type of full text searches in the main Google
+formed every day. However, it is very difficult to get                 system, PageRank also helps a great deal.
+this data. mainly because it is considered commer-
+cially valuable.                                                       2.1.1. Description of PageRank calculation
+     Our final design goal was to build an architecture                   Academic citation literature has been applied to
+that can support novel research activities on large-                   the Web, largely by counting citations or backlinks
+scale Web data. To support novel research uses,                        to a given page. This gives some approximation of a
+Google stores all of the actual documents it crawls                    page’s importance or quality. PageRank extends this
+in compressed form. One of our main goals in de-                       idea by not counting links from all pages equally,
+signing Google was to set up an environment where                      and by normalizing by the number of links on a
+other researchers can come in quickly, process large                   page. PageRank is defined as follows:
+chunks of the Web, and produce interesting results                         We assume page A has pages TI...Tn bt*hich point
+that would have been very difficult to produce other-                     to ir (i.e., are citations). The parameter d is N
+wise. In the short time the system has been up, there                     damping j&or which can he .set hetK*ern 0 and 1.
+have already been several papers using databases                          We usually Set d to 0.85. There are tnore details
+    about d in the ne-vt section. Also C(A) is defined   2.2. Anchor- test
+    as the number of links going out of page A. The
+    PageRank of u page A is given as,follows:                The text of links is treated in a special way in
+    PR(A) = (I -d)                                       our search engine. Most search engines associate the
+                                                         text of a link with the page that the link is on. In
+                           PR(TI)   PR( Tn)              addition, we associate it with the page the link points
+                    +d(p            +...+-
+                   C(Tl)            C( Tn) >             to. This has several advantages. First, anchors often
+   Note that the PageRanks form a probability dis-       provide more accurate descriptions of Web pages
+   tribution over Web pages, so the sum of all Web       than the pages themselves. Second, anchors may
+   pages’ PageRanks will be one.                         exist for documents which cannot be indexed by a
+   PageRank or PR(A) can be calculated using a           text-based search engine, such as images, programs.
+simple iterative algorithm, and corresponds to the       and databases. This makes it possible to return Web
+principal eigenvector of the normalized link matrix      pages which have not actually been crawled. Note
+of the Web. Also. a PageRank for 26 million Web          that pages that have not been crawled can cause
+pages can be computed in a few hours on a medium         problems. since they are never checked for validity
+size workstation. There are many other details which     before being returned to the user. In this case, the
+are beyond the scope of this paper.                      search engine can even return a page that never
+                                                         actually existed, but had hyperlinks pointing to it.
+2.12. ltituitit!e jitst~fificatioi~                      However, it is possible to sort the results, so that this
+    PageRank can be thought of as a model of user        particular problem rarely happens.
+behavior. We assume there is a “random surfer” who           This idea of propagating anchor text to the page
+is given a Web page at random and keeps clicking on      it refers to was implemented in the World Wide Web
+links. never hitting “back” but eventually gets bored    Worm [ 61 especially because it helps search non-text
+and starts on another random page. The probability       information, and expands the search coverage with
+that the random surfer visits a page is its PageRank.    fewer downloaded documents. We use anchor prop-
+And, the d damping factor is the probability at each     agation mostly because anchor text can help provide
+page the “random surfer” will get bored and request      better quality results. Using anchor text efficiently is
+another random page. One important variation is to       technically difficult because of the large amounts of
+only add the damping factor d to a single page, or a     data which must be processed. In our current crawl
+group of pages. This allows for personalization and      of 24 million pages. we had over 259 million anchors
+can make it nearly impossible to deliberately mislead    which we indexed.
+the system in order to get a higher ranking. We have
+several other extensions to PageRank, again see [7].
+    Another intuitive justification is that a page can   3. Related work
+have a high PageRank if there are many pages that
+point to it. or if there are some pages that point to       Search research on the Web has a short and con-
+it and have a high PageRank. Intuitively, pages that     cise history. The World Wide Web Worm (WWWW)
+are well cited from many places around the Web           [6] was one of the first Web search engines. It was
+are worth looking at. Also, pages that have perhaps      subsequently followed by several academic search
+only one citation from something like the Yahoo! h       engines, many of which are now public companies.
+homepage are also generally worth looking at. If a       Compared to the growth of the Web and the im-
+page was not high quality, or was a broken link,         portance of search engines there are precious few
+it is quite likely that Yahoo’s homepage would not       documents about recent search engines [S]. Accord-
+link to it. PageRank handles both these cases and        ing to Michael Mauldin (chief scientist, Lycos Inc.)
+everything in between by recursively propagating         1.51, “the various services (including Lycos) closely
+weights through the link structure of the Web.           guard the details of these databases”. However, there
+                                                         has been a fair amount of work on specific fea-
+h http:llwww.yahoo.comi                                  tures of search engines. Especially well represented
+is work which can get results by post-processing
+the results of existing commercial search engines, or
+produce small scale “individualized’ search engines.
+Finally, there has been a lot of research on informa-
+tion retrieval systems. especially on well controlled
+collections [ 111.
+    However. work on information         retrieval has
+mostly been on fairly small. well controlled col-
+lections such as the Text Retrieval Conference [lo].
+Things that work well on TREC often do not produce
+good results on the Web. For example, the standard
+vector space model tries to return the document that
+most closely approximates the query, given that both
+query and document are vectors defined by their
+word occurrence. On the Web, this strategy often
+returns very short documents that are the query plus
+a few words. For example. we have seen a major
+search engine return a page containing only “Bill
+Clinton Sucks” and picture from a “Bill Clinton”
+query. Given examples like these, we believe that
+                                                                    Fig   I High   level Goo$le   architecture
+the standard information retrieval work needs to be
+extended to deal effectively with the Web.
+    The Web is a vast collection of completely uncon-    fetched are then sent to the storeserver. The store-
+trolled heterogeneous documents. Documents vary          server then compresses and stores the Web pages into
+significantly in language, format, and style. There      a repository. Every Web page has an associated 1D
+can be many orders of magnitude of difference in         number called a docID which is assigned whenever
+two documents’ size, quality, popularity, and trust-     a new URL is parsed out of a Web page. The in-
+worthiness. All of these are significant challenges to   dexing function is performed by the indexer and the
+effective searching on the Web. They are somewhat        sorter. The indexer performs a number of functions.
+mediated by the availability of auxiliary data such as   It reads the repository, uncompresses the documents.
+hyperlinks and formatting and Google tries to take       and parses them. Each document is converted into a
+advantage of both of these.                              set of word occurrences called hits. The hits record
+                                                         the word, position in document, an approximation of
+                                                         font size, and capitalization. The indexer distributes
+4. System anatomy                                        these hits into a set of “barrels”, creating a partially
+                                                         sorted forward index. The indexer performs another
+                                                         important function. It parses out all the links in every
+                                                         Web page and stores important information about
+   In this section, we will give a high level overview   them in an anchors tile. This file contains enough in-
+of how the whole system works as pictured in Fig. 1.     formation to determine where each link points from
+Further sections will discuss the applications and       and to. and the text of the link.
+data structures not mentioned in this section. Most          The URLresolver reads the anchors tile and con-
+of Google is implemented in C or C++ for efficiency      verts relative URLs into absolute URLs and in turn
+and can run in either Solaris or Linux.                  into doclDs. It puts the anchor text into the forward
+   In Google, the Web crawling (downloading of           index, associated with the docfD that the anchor
+Web pages) is done by several distributed crawlers.      points to. It also generates a database of links which
+There is a URLserver that sends lists of URLs to         are pairs of docIDs. The links database is used to
+be fetched to the crawlers. The Web pages that are       compute PageRanks for all the documents.
+   The sorter takes the barrels, which are sorted by      lists account for most of the space used in both the
+docID (this is a simplification, see Section 4.2.5 in     forward and the inverted indices. Because of this, it
+the full version), and resorts them by wordID to          is important to represent them as efficiently as possi-
+generate the inverted index. This is done in place        ble. We considered several alternatives for encoding
+so that little temporary space is needed for this op-     position, font, and capitalization - simple encoding
+eration. The sorter also produces a list of wordIDs       (a triple of integers), a compact encoding (a hand
+and offsets into the inverted index. A program called     optimized allocation of bits), and Huffman coding.
+DumpLexicon takes this list together with the lex-        In the end we chose a hand optimized compact en-
+icon produced by the indexer and generates a new          coding since it required far less space than the simple
+lexicon to be used by the searcher. The searcher is       encoding and far less bit manipulation than Huffman
+run by a Web server and uses the lexicon built by         coding.ding. Our compact coding uses two bytes for
+DumpLexicon together with the inverted index and          every hit. The details of this coding are in the full
+the PageRanks to answer queries.                          version of this paper. The length of a hit list is stored
+                                                          before the hits themselves. To save space, the length
+                                                          of the hit list is combined with the wordID in the
+                                                          forward index and the docID in the inverted index.
+    Google’s data structures are optimized so that a          The forward index is actually already partially
+large document collection can be crawled, indexed.        sorted. It is stored in a number of barrels (we used
+and searched with little cost. Although, CPUs and         64). Each barrel holds a range of wordIDs. If a docu-
+bulk input output rates have improved dramatically        ment contains words that fall into a particular barrel,
+over the years, a disk seek still requires about 10 ms    the docID is recorded into the barrel, followed by a
+to complete. Google is designed to avoid disk seeks       list of wordIDs with hitlists which correspond to those
+whenever possible, and this has had a considerable        words. This scheme requires slightly more storage be-
+influence on the design of the data structures. The       cause of duplicated docIDs but the difference is very
+full version of this paper contains a detailed discus-    small for a reasonable number of buckets and saves
+sion of all the major data structures. We only give a     considerable time and coding complexity in the tinal
+brief overview here.                                      indexing phase done by the sorter. The inverted index
+    Almost all of the data for Google is stored in        consists of the same barrels as the forward index. ex-
+Bigfiles which are virtual tiles we developed that can    cept that they have been processed by the sorter. For
+span multiple tile systems and support compression.       every valid wordID, the lexicon contains a pointer
+The raw HTML repository uses roughly half of the          into the barrel that wordID falls into. It points to a
+necessary storage. It consists of the concatenation of    list of docIDs together with their corresponding hit
+the compressed HTML of every page, preceded by            lists. This list is called a doclist and represents all the
+a small header. The document index keeps informa-         occurrences of that word in all documents.
+tion about each document. It is a fixed width ISAM            An important issue is in what order the doclDs
+(Index sequential access mode) index, ordered by          should appear in the doclist. One simple solution
+doclD. The information stored in each entry includes      is to store them sorted by docID. This allows for
+the current document status, a pointer into the repos-    quick merging of different doclists for multiple word
+itory, a document checksum, and various statistics.       queries. Another option is to store them sorted by
+Variable width information such as URL and title          a ranking of the occurrence of the word in each
+is kept in a separate file. There is also an auxiliary    document. This makes answering one word queries
+index to convert URLs into docIDs. The lexicon            trivial and makes it likely that the answers to multiple
+has several different forms for different operations.     word queries are near the start. However, merging is
+They all are memory-based hash tables with varying        much more difticult. Also. this makes development
+values attached to each word.                             much more difficult in that a change to the ranking
+    A hit list corresponds to a list of occurrences of    function requires a rebuild of the index. We chose
+a particular word in a particular document includ-        a compromise between these options, keeping two
+ing position, font, and capitalization information. Hit   sets of inverted barrels - one set for hit lists which
+                         S. Brin.   L. Pugr/Computrr   Netwurks   and ISDN   Systems   30 (1998)   107- I17                113
+
+
+include title or anchor hits and another set for all                 search engines seemed to have made great progress
+hit lists. This way. we check the first set of barrels               in terms of efficiency. Therefore, we have focused
+tirst and if there are not enough matches within those               more on quality of search in our research, although
+barrels we check the larger ones.                                    we believe our solutions are scalable to commercial
+                                                                     volumes with a bit more effort.
+4.3. Crmvling the Web                                                    Google maintains much more information about
+                                                                     Web documents than typical search engines. Ev-
+    Running a Web crawler is a challenging task.                     ery hitlist includes position, font, and capitalization
+There are tricky performance and reliability issues                  information. Additionally, we factor in hits from
+and even more importantly, there are social issues.                  anchor text and the PageRank of the document.
+Crawling is the most fragile application since it                    Combining all of this information into a rank is dif-
+involves interacting with hundreds of thousands of                   ficult. We designed our ranking function so that no
+Web servers and various name servers which are all                   one factor can have too much influence. For every
+beyond the control of the system.                                    matching document we compute counts of hits 01
+    In order to scale to hundreds of millions of Web                 different types at different proximity levels. These
+pages, Google has a fast distributed crawling sys-                   counts are then run through a series of lookup tables
+tem. A single URLserver serves lists of URLs to a                    and eventually are transformed into a rank. This pro-
+number of crawlers (we typically ran about 3). Both                  cess involves many tunable parameters. We have not
+the URLserver and the crawlers are implemented in                    spent much time tuning the system; instead we have
+Python. Each crawler keeps roughly 300 connections                   developed a feedback system which will help us tune
+open at once. This is necessary to retrieve Web pages                these parameters in the future.
+at a fast enough pace. At peak speeds, the system
+can crawl over 100 Web pages per second using four
+crawlers. A major performance stress is DNS lookup                   5. Results and performance
+so each crawler maintains a DNS cache. Each of the
+hundreds of connections can be in a number of differ-                     The most important measure of a search engine
+ent states: looking up DNS, connecting to host, send-                is the quality of its search results. While a complete
+ing request. and receiving response. These factors                   user evaluation is beyond the scope of this paper,
+make the crawler a complex component of the system.                  our own experience with Google has shown it to
+It uses asynchronous IO to manage events, and a num-                 produce better results than the major commercial
+ber of queues to move page fetches from state to state.              search engines for most searches. As an example
+    The more than half million servers that we crawl                 which illustrates the use of PageRank, anchor text,
+are run by tens of thousands of Webmasters. As                       and proximity, Fig. 2 shows Google’s results for a
+a result crawling the Web involves interacting with                  search on “bill Clinton”. These results demonstrates
+a fair number of people. Almost daily we receive                     some of Google’s features. The results are clus-
+emails like “Wow. you looked at a lot of pages                       tered by server. This helps considerably when sifting
+from my Web site. How did you like it?’ Other                        through result sets. A number of results are from
+interactions involve copyright issues and obscure                    the whitehouse.gov domain which is what one may
+bugs which may only arise on one page out of                         reasonably expect from such a search. Currently,
+ten million. Since large complex systems such as                     most major commercial search engines do not return
+crawlers will invariably cause problems, there needs                 any results from whitehouse.gov, much less the right
+to be significant resources devoted to reading the                   ones. Notice that there is no title for the first result.
+email and solving these problems as they come up.                    Instead, Google relied on anchor text to determine
+                                                                     this was a good answer to the query. Similarly, the
+4.4. Searching                                                       fifth result is an email address which, of course. is
+                                                                     not crawlable. It is also a result of anchor text.
+   The goal of searching is to provide quality search                     All of the results are reasonably high quality
+results efficiently. Many of the large commercial                    pages and. at last check, none were broken links.
+                          Query: bill clinton
+                          httn:/iwww.whitehouse.gov:’
+                          100.00% -          (no date) (OK)
+                          http:llwww.whitehouse.govl
+                               Office of the President
+                                99.67%~         (Dee 23 1996) (2K)
+
+                          http:/iwww.whitehouse.govWH/EOP/OPlhtmllOP_Home.htm~
+                               Welcome To The White House
+                                99.98% -        (Nov 09 1997) (5K)
+                                http:llwww.whitehouse.govAVHAVelcome.html
+                               Send Electronic Mail to the President
+                                99.86% s        (Jul 14 1997) (5K)
+
+
+
+                          mailto:nresident(~whitehouse.aov
+                          99.98% -
+                              mailto:President&whitehouse.aov
+                                99.27% -
+                          The “Unofficial” Bill Clinton
+                          94.06’/-          (Nov 11 1997) (14K)
+                          http:ilzpub.comlunlun-bc.html
+                                Bill Clinton Meets The Shrinks
+                                 86.27% si        (Jun 29 1997) (63K)
+                                 http://zpub.com/unlun-bc9.html
+                          PresidentBill Clinton - The Dark Side
+                          97.27% -           (Nov 10 1997) (15K)
+                          http:lAvww.realchange.orgiclinton.htm
+                          $3 Bill Clinton
+                          94.73% P           (no date) (4K)
+                          http:/iwww.gatewy.net/-tjohnsonIc/clintonl.html
+                                                                                               -
+                                          Fig. 2. Samplr   rrults   from   Googlr.
+
+
+
+This is largely because they all have high PageRank.                   Aside from search quality, Google is designed to
+The PageRanks are the percentages in red along                      scale cost effectively to the size of the Web as it
+with bar graphs. Finally. there are no results about                grows. One aspect of this is to use storage efficiently.
+a Bill other than Clinton or about a Clinton other                  Table 1 has a breakdown of some statistics and
+than Bill. This is because we place heavy importance                storage requirements of Google.
+on the proximity of word occurrences. Of course a                      It is important for a search engine to crawi and in-
+true test of the quality of a search engine would                   dex efficiently. This way information can be kept up
+involve an extensive user study or results analysis                 to date and major changes to the system can be tested
+which we do not have room for here. Instead. we                     relatively quickly. In total it took roughly 9 days to
+invite the reader to try Google for themselves at                   download the 26 million pages (including errors).
+http://google.stanford.edu.                                         However. once the system was running smoothly.
+Table I                                                                                              intend to speed up Google considerably in the fu-
+Statistics                                                                                           ture. Table 2 has some sample query times from the
+Storage      htiltistics                                                                             current version of Google.
+Total     srze of fetched       pages                             117.8 GB
+Compreabed    repoaitoq                                          5.33 GB
+Short inverted index                                             4.1 cl3                             6. Conclusions
+Full inverted  index                                             37.’ GB
+Lexicon                                                          203 MB                                 Google is designed to be a scalable search en-
+Temporary         anchor    data
+                                                                                                     gine. The primary goal is to provide high quality
+ (not in total 1                                                 6.6 GB
+Document    index incl.
+                                                                                                     search results over a rapidly growing World Wide
+variahlc width data                                              Y.7 GB                              Web. Google employs a number of techniques to
+Links database                                                   3.‘) GB                             improve search quality including page rank. all-
+Total     without  repository                                    55.2 GB                             char text. and proximity information. Furthermore,
+Tmal      w.nh rcpoaitorp                                         108.7 GB                           Google is a complete architecture for gathering Web
+                                                                                                     pages, indexing them, and performing search queries
+Web     page statihticx                                                                              over them.
+Number       of Web pages          fetched                       3-1 million
+Number       of tirls seen                                       76.5   million
+Number       of E-mail      addresses                            I .7 million
+Number       of 404‘s                                            I .6 million                             A large-scale Web search engine is a complex sys-
+                                                                                                      tem and much remains to be done. Our immediate
+                                                                                                      goals are to improve search efficiency and to scale to
+it ran much faster, downloading the last 11 million                                                  approximately 100 million Web pages. Some simple
+pages in just 63 hours, averaging just over 4 million                                                 improvements to efficiency include query caching,
+pages per day or 48.5 pages per second. The indexer                                                  smart disk allocation, and subindices. Another area
+runs at roughly 54 pages per second. The sorters can                                                 which requires much research is updates. We must
+be run completely in parallel; using four machines,                                                  have smart algorithms to decide what old Web pages
+the whole process of sorting takes about 24 hours.                                                   should be recrawled and what new ones should be
+    Improving the performance of search was not the                                                  crawled. Work toward this goal has been done in
+major focus of our research up to this point. The                                                     [2]. One promising area of research is using proxy
+current version of Google answers most queries in                                                    caches to build search databases. since they are
+between 1 and 10 seconds. This time is mostly dom-                                                   demand driven. We are planning to add simple fea-
+inated by disk IO over NFS (since our disks are                                                      tures supported by commercial search engines like
+spread over a number of machines). Furthermore,                                                      boolean operators. negation. and stemming. How-
+Google does not have many of the common op-                                                          ever. other features are just starting to be explored
+timizations used to speed up information retrieval                                                   such as relevance feedback and clustering (Google
+systems. such as query caching, subindices on com-                                                   currently supports a simple hostname based cluster-
+mon terms. and other common optimizations. We                                                        ing). We also plan to support user context (like the
+
+
+
+
+Quer!                                   Initial    query                                                 Same query           repented   (IO mostly     cached      t
+
+                                        CPU       time     (5)                  Total   time   (s)       CPU     time   (\I                  Total    time   (5 1
+
+                                        0.09                                    3.13                     0.06                                0.06
+                                         I .77                                  3.X-I                     I.66                               1.80
+                                        0.15                                    1.86                     0.20                                0.24
+                                        1.31                                    9.63                      I.16                               I.16
+user’s location), and result summarization. We are               memory access, memory capacity, disk seeks. disk
+also working to extend the use of link structure and             throughput, disk capacity, and network IO. Google
+link text. Simple experiments indicate PageRank can              has evolved to overcome a number of these bot-
+be personalized by increasing the weight of a user’s             tlenecks during various operations. Google’s major
+home page or bookmarks. As for link text, we are                 data structures make efficient use of available stor-
+experimenting with using text surrounding links in               age space. Furthermore, the crawling, indexing. and
+addition to the link text itself. A Web search engine            sorting operations are efficient enough to be able to
+is a very rich environment for research ideas. We                build an index of a substantial portion of the Web -
+have far too many to list here so we do not expect               24 million pages, in less than one week. We expect
+this Future Work section to become much shorter in               to be able to build an index of 100 million pages in
+the near future.                                                 less than a month.
+
+6.2. High quality search                                         6.4. A wsearch tool
+
+   The biggest problem facing users of Web search                    In addition to being a high quality search engine.
+engines today is the quality of the results they get             Google is a research tool. The data Google has
+back. While the results are often amusing and ex-                collected has already resulted in many other papers
+pand users’ horizons, they are often frustrating and             submitted to conferences and many more on the way.
+consume precious time. For example, the top re-                  Recent research such as [ 11 has shown a number of
+sult for a search for “Bill Clinton” on one of the               limitations to queries about the Web that may be
+most popular commercial search engines was the                   answered without having the Web available locally.
+Bill Clinton            Joke of the Day: April     14, 1997 ‘.   This means that Google (or a similar system) is not
+Google is designed to provide higher quality search              only a valuable research tool but a necessary one
+so as the Web continues to grow rapidly, informa-                for a wide range of applications. We hope Google
+tion can be found easily. In order to accomplish this            will be a resource for searchers and researchers all
+Google makes heavy use of hypertextual information               around the world and will spark the next generation
+consisting of link structure and link (anchor) text.             of search engine technology.
+Google also uses proximity and font information.
+While evaluation of a search engine is difficult, we
+have subjectively found that Google returns higher               Acknowledgments
+quality search results than current commercial search
+engines. The analysis of link structure via PageRank                 Scott Hassan and Alan Steremberg have been crit-
+allows Google to evaluate the quality of Web pages.              ical to the development of Google. Their talented
+The use of link text as a description of what the link           contributions are irreplaceable, and the authors owe
+points to helps the search engine return relevant (and           them much gratitude. We would also like to thank
+to some degree high quality) results. Finally, the use           Hector Garcia-Molina, Rajeev Motwani, Jeff Ull-
+of proximity information helps increase relevance a              man, and Terry Winograd and the whole WebBase
+great deal for many queries.                                     group for their support and insightful discussions.
+                                                                 Finally we would like to recognize the generous
+6.3. Scalable urchitecturr                                       support of our equipment donors IBM, Intel, and
+                                                                 Sun and our funders. The research described here
+   Aside from the quality of search, Google is de-               was conducted as part of the Stanford Integrated
+signed to scale. It must be efficient in both space              Digital Library Project, supported by the National
+and time, and constant factors are very important                Science Foundation under Cooperative Agreement
+when dealing with the entire Web. In implement-                  IRI-94 11306. Funding for this cooperative agree-
+ing Google, we have seen bottlenecks in CPU,                     ment is also provided by DARPA and NASA, and by
+                                                                 Interval Research, and the industrial partners of the
+7 http://www.io.com/-cjburke/clinton/9704l4.html                 Stanford Digital Libraries Project.
+References                                                                                                    burg. Maryland.      November                   20-Z.      1996, Department      of
+                                                                                                              Commerce.    National Institute                  of Standards    and Technology.
+        S. Abitehoul and V. Vianu, Queries       and computation     on the                                    1996: full text at http:l/trec.nist.gov/
+        Web. in: Prm~eeding.c   of’ rhr Inirrnurinnal     ConJ>re~ce     m                             [ I I ] LH Witten.   A. Moffat. and T.C.                    Bell.     Mmcrgin(:           Gj,#~m,.s:
+        Du~dxzse   T/rror?: Delphi.              Greece, 1997.                                                ComprcxGg      cd    Inde.~itrsy Documents   cmd ftnu,y~s.                                  Van
+        .1. Cho, H. Garcia-Molina                 and L. Page. Efficient   crawling                           Nostrand  Reinhold,    New York. NY, 1994.
+        through      URL ordering.             in: Proc. of’ the 7th Intermitiontrl                    [I21   R. Weiss.   B. Velcz.     M.A.   Sheldon,  C. Manpremprc.                                         P
+        World       Wide Web Confereru                  (WWW       981.       Brisbane.        Aus-           Szilagyi.      A. Duda. and D. K. Gifford,   HyPursuit:     a hicr-
+        tralia. April        l5- IS, 1998: also Conr\~ct.                    NrfMvrks         ISDN            archical      network  search engine that exploits   content-linh
+        .(;\.SICIII,S. 30( l-7):   161-172 (this volume).                                                     hypertext       clustering.     in: Proc.        oj rhr        7th .4C’M          Clmfi~rrnc~,
+        J. Kleinberg.    Authoritative sources    in a hyperlinked      cn-                                   on H\pertc.a.          New    York.     1996.
+        vironment,    in: Proc. ACM-SIAM       Synposium    on Di.scrrtr
+        .4/,yorifhm.         1998.                                                                                                             Sergey         Brin         recetved       his      B.S.       de-
+        M. Marchiori.   The quest for correct    information  on the                                                                           gree      in    mathematics               and      computer
+        Web: hyper search engines,    in: Prvc. of rhc 6rh Intema-                                                                             science from the University                        of Mary-
+        rimol  WWW    C’onftirrncr (WWW     971. Santa Clara. USA,                                                                             land at College  Park in                         3993. Cur-
+        PIpril    7-l   I, 1997.                                                                                                               rently.        he     is    a Ph.D.        candidate            in
+        Mauldin.       M.L.. Lycos design choices         in an Internet                     search                                            computer  science at Stanford  Univcr-
+        service.     IEEE Expert Interview.      http://www.computer.org/p                                                                     sity where he received     his MS.     in
+        ubs/cxpcrt/l997/trends/xl008/mauldin.htm                                                                                               1995. He is a recipient  of a National
+        0-A. McBryan,  GENVL    and WWWW:       tools for taming the                                                                           Science Foundation                 Graduate           Fellow-
+        Web. in: Pm,. 01 the 1st I~~trrnufional   Cmferrncr    on the                                                                          ship. His research                 interests          include
+        World Wide Wrh. CERN. Geneva, Switzerland,         May 25-27.                                                                          search   engines.  information        extrac-
+        1991.      http://www.cs.colorado.edu/home/mcbryan/mypapers                                                                            tion from unstructured       sources.      and
+        /www93.ps                                                                                      data mining        of large    text collections         and scientilic            data.
+        L. Page.        S.    Brin,     R.    Motwani        and       T.    Winograd.          The
+        PageRank       citation   ranking:      bringing      order    to the                  Web,                                            Lawrence              Page      was      born  in East
+        Manuscript      in Progress.    http://google.stanford.edu/-backru                                                                     Lansing,            Michigan.          and received    a
+        h/pageranksub.ps                                                                                                                       B.S.E.         in Computer             Engineering              at
+        B. Pinkerton.         Finding        what   people     want:        experiences         with                                           the University               of Michigan            Ann Ar-
+        the W&Crawler.        in: Proc. of thr 2nd /tzfu~zationd                              WWW                                              bor in 1995.               He is currently           a Ph.D.
+        C;@>rerrce     Chicago,    USA, October   17-20, 1994,                            http://inf                                           candidate         in Computer   Science   at
+      o.webcrawler.com/bplWWW94.html                                                                                                           Stanford        University. Some of his re-
+  191 E. Spertus.     Parasite: mining structural                      information on the                                                      search interests include the link struc-
+      Web, in: Proc. of‘ the 6th lnterncrtiond                           WWW Conf&xcr                                                          ture of the Web. human computer          in-
+        ( WWW Y7J. Santa Clam. USA, April 7-l I. 1997.                                                                                         teraction,  search engines,  scalability
+1 IO]    D.K. Harman    and E.M. Voorhees    (Eds.).   Proceedings       of                                                                    of information  access                  interfaces.        and
+        fhr F~ff/l Trrt REtrieid Conjtirrnce    (TREC-5).      Gaithers-                                                                       personal data mining.
+

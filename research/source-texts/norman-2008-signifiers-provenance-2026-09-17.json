@@ -1,0 +1,27 @@
+{
+  "source_id": "norman-2008-signifiers",
+  "retrieved_at_utc": "2026-09-17T09:42:54Z",
+  "retrieval_time_note": "Timestamp immediately after both downloads and checksum verification.",
+  "doi": "10.1145/1409040.1409044",
+  "files": [
+    {
+      "path": "norman-2008-signifiers-author-2026-09-17.html",
+      "url": "https://jnd.org/signifiers-not-affordances/",
+      "sha256": "6f727c9df30258d47dfd9237f94ff4dbb9df70eeb4414f48778c2dcddce08346",
+      "role": "Complete unpaginated author article, with site navigation and author permission notice retained."
+    },
+    {
+      "path": "norman-2008-signifiers-crossref-2026-09-17.json",
+      "url": "https://api.crossref.org/works/10.1145/1409040.1409044",
+      "sha256": "203df703ef79dbc45072ce161887899220f2f0c1c065607d42363ac0c256ebb0",
+      "role": "Bibliographic metadata only; does not verify article content or exact printed claim locations."
+    }
+  ],
+  "read_scope": "Entire author article, including references and permission notice. No paginated publisher PDF read.",
+  "zotero_imported": false,
+  "limitations": [
+    "Conceptual essay, not an empirical study of text input or current interfaces.",
+    "Printed pages 18-19 verified as publication metadata only.",
+    "Current product surfaces and user effects require separate evidence."
+  ]
+}

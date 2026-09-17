@@ -1,0 +1,1424 @@
+{
+  "pdf_file": "output/pdf/AI_Collaboration_Documentation_working.pdf",
+  "pdf_sha256": "1e5133bb413b858f6a71a944694c528f76d58e3e36e691f58e6ab1fdcef4d521",
+  "pdf_pages": 756,
+  "entries": [
+    {
+      "archive_id": "CGPT-05",
+      "title": "Masterarbeit kritisch bewerten",
+      "pdf_first_page": 504,
+      "pdf_last_page": 520,
+      "printed_first_page": 503,
+      "printed_last_page": 519,
+      "verified_numbered_lines": 1185,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 504,
+          "printed_page": 503,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 505,
+          "printed_page": 504,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 506,
+          "printed_page": 505,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 507,
+          "printed_page": 506,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 508,
+          "printed_page": 507,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 509,
+          "printed_page": 508,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 510,
+          "printed_page": 509,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 511,
+          "printed_page": 510,
+          "first_line": 491,
+          "last_line": 561
+        },
+        {
+          "pdf_page": 512,
+          "printed_page": 511,
+          "first_line": 562,
+          "last_line": 632
+        },
+        {
+          "pdf_page": 513,
+          "printed_page": 512,
+          "first_line": 633,
+          "last_line": 703
+        },
+        {
+          "pdf_page": 514,
+          "printed_page": 513,
+          "first_line": 704,
+          "last_line": 774
+        },
+        {
+          "pdf_page": 515,
+          "printed_page": 514,
+          "first_line": 775,
+          "last_line": 845
+        },
+        {
+          "pdf_page": 516,
+          "printed_page": 515,
+          "first_line": 846,
+          "last_line": 916
+        },
+        {
+          "pdf_page": 517,
+          "printed_page": 516,
+          "first_line": 917,
+          "last_line": 987
+        },
+        {
+          "pdf_page": 518,
+          "printed_page": 517,
+          "first_line": 988,
+          "last_line": 1058
+        },
+        {
+          "pdf_page": 519,
+          "printed_page": 518,
+          "first_line": 1059,
+          "last_line": 1129
+        },
+        {
+          "pdf_page": 520,
+          "printed_page": 519,
+          "first_line": 1130,
+          "last_line": 1185
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-06",
+      "title": "Abschnitt formulieren",
+      "pdf_first_page": 521,
+      "pdf_last_page": 533,
+      "printed_first_page": 520,
+      "printed_last_page": 532,
+      "verified_numbered_lines": 856,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 521,
+          "printed_page": 520,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 522,
+          "printed_page": 521,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 523,
+          "printed_page": 522,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 524,
+          "printed_page": 523,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 525,
+          "printed_page": 524,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 526,
+          "printed_page": 525,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 527,
+          "printed_page": 526,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 528,
+          "printed_page": 527,
+          "first_line": 491,
+          "last_line": 561
+        },
+        {
+          "pdf_page": 529,
+          "printed_page": 528,
+          "first_line": 562,
+          "last_line": 632
+        },
+        {
+          "pdf_page": 530,
+          "printed_page": 529,
+          "first_line": 633,
+          "last_line": 703
+        },
+        {
+          "pdf_page": 531,
+          "printed_page": 530,
+          "first_line": 704,
+          "last_line": 774
+        },
+        {
+          "pdf_page": 532,
+          "printed_page": 531,
+          "first_line": 775,
+          "last_line": 845
+        },
+        {
+          "pdf_page": 533,
+          "printed_page": 532,
+          "first_line": 846,
+          "last_line": 856
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-07",
+      "title": "Masterthesis Weiterformulieren",
+      "pdf_first_page": 534,
+      "pdf_last_page": 540,
+      "printed_first_page": 533,
+      "printed_last_page": 539,
+      "verified_numbered_lines": 453,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 534,
+          "printed_page": 533,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 535,
+          "printed_page": 534,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 536,
+          "printed_page": 535,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 537,
+          "printed_page": 536,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 538,
+          "printed_page": 537,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 539,
+          "printed_page": 538,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 540,
+          "printed_page": 539,
+          "first_line": 420,
+          "last_line": 453
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-08",
+      "title": "Masterarbeit Abschnitt überarbeiten",
+      "pdf_first_page": 541,
+      "pdf_last_page": 560,
+      "printed_first_page": 540,
+      "printed_last_page": 559,
+      "verified_numbered_lines": 1382,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 541,
+          "printed_page": 540,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 542,
+          "printed_page": 541,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 543,
+          "printed_page": 542,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 544,
+          "printed_page": 543,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 545,
+          "printed_page": 544,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 546,
+          "printed_page": 545,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 547,
+          "printed_page": 546,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 548,
+          "printed_page": 547,
+          "first_line": 491,
+          "last_line": 561
+        },
+        {
+          "pdf_page": 549,
+          "printed_page": 548,
+          "first_line": 562,
+          "last_line": 632
+        },
+        {
+          "pdf_page": 550,
+          "printed_page": 549,
+          "first_line": 633,
+          "last_line": 703
+        },
+        {
+          "pdf_page": 551,
+          "printed_page": 550,
+          "first_line": 704,
+          "last_line": 774
+        },
+        {
+          "pdf_page": 552,
+          "printed_page": 551,
+          "first_line": 775,
+          "last_line": 845
+        },
+        {
+          "pdf_page": 553,
+          "printed_page": 552,
+          "first_line": 846,
+          "last_line": 916
+        },
+        {
+          "pdf_page": 554,
+          "printed_page": 553,
+          "first_line": 917,
+          "last_line": 987
+        },
+        {
+          "pdf_page": 555,
+          "printed_page": 554,
+          "first_line": 988,
+          "last_line": 1058
+        },
+        {
+          "pdf_page": 556,
+          "printed_page": 555,
+          "first_line": 1059,
+          "last_line": 1129
+        },
+        {
+          "pdf_page": 557,
+          "printed_page": 556,
+          "first_line": 1130,
+          "last_line": 1200
+        },
+        {
+          "pdf_page": 558,
+          "printed_page": 557,
+          "first_line": 1201,
+          "last_line": 1271
+        },
+        {
+          "pdf_page": 559,
+          "printed_page": 558,
+          "first_line": 1272,
+          "last_line": 1342
+        },
+        {
+          "pdf_page": 560,
+          "printed_page": 559,
+          "first_line": 1343,
+          "last_line": 1382
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-09",
+      "title": "Technische Zuordnung formulieren",
+      "pdf_first_page": 561,
+      "pdf_last_page": 574,
+      "printed_first_page": 560,
+      "printed_last_page": 573,
+      "verified_numbered_lines": 946,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 561,
+          "printed_page": 560,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 562,
+          "printed_page": 561,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 563,
+          "printed_page": 562,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 564,
+          "printed_page": 563,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 565,
+          "printed_page": 564,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 566,
+          "printed_page": 565,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 567,
+          "printed_page": 566,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 568,
+          "printed_page": 567,
+          "first_line": 491,
+          "last_line": 561
+        },
+        {
+          "pdf_page": 569,
+          "printed_page": 568,
+          "first_line": 562,
+          "last_line": 632
+        },
+        {
+          "pdf_page": 570,
+          "printed_page": 569,
+          "first_line": 633,
+          "last_line": 703
+        },
+        {
+          "pdf_page": 571,
+          "printed_page": 570,
+          "first_line": 704,
+          "last_line": 774
+        },
+        {
+          "pdf_page": 572,
+          "printed_page": 571,
+          "first_line": 775,
+          "last_line": 845
+        },
+        {
+          "pdf_page": 573,
+          "printed_page": 572,
+          "first_line": 846,
+          "last_line": 916
+        },
+        {
+          "pdf_page": 574,
+          "printed_page": 573,
+          "first_line": 917,
+          "last_line": 946
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-10",
+      "title": "Operation Abschnitt schreiben",
+      "pdf_first_page": 575,
+      "pdf_last_page": 607,
+      "printed_first_page": 574,
+      "printed_last_page": 606,
+      "verified_numbered_lines": 2318,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 575,
+          "printed_page": 574,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 576,
+          "printed_page": 575,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 577,
+          "printed_page": 576,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 578,
+          "printed_page": 577,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 579,
+          "printed_page": 578,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 580,
+          "printed_page": 579,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 581,
+          "printed_page": 580,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 582,
+          "printed_page": 581,
+          "first_line": 491,
+          "last_line": 561
+        },
+        {
+          "pdf_page": 583,
+          "printed_page": 582,
+          "first_line": 562,
+          "last_line": 632
+        },
+        {
+          "pdf_page": 584,
+          "printed_page": 583,
+          "first_line": 633,
+          "last_line": 703
+        },
+        {
+          "pdf_page": 585,
+          "printed_page": 584,
+          "first_line": 704,
+          "last_line": 774
+        },
+        {
+          "pdf_page": 586,
+          "printed_page": 585,
+          "first_line": 775,
+          "last_line": 845
+        },
+        {
+          "pdf_page": 587,
+          "printed_page": 586,
+          "first_line": 846,
+          "last_line": 916
+        },
+        {
+          "pdf_page": 588,
+          "printed_page": 587,
+          "first_line": 917,
+          "last_line": 987
+        },
+        {
+          "pdf_page": 589,
+          "printed_page": 588,
+          "first_line": 988,
+          "last_line": 1058
+        },
+        {
+          "pdf_page": 590,
+          "printed_page": 589,
+          "first_line": 1059,
+          "last_line": 1129
+        },
+        {
+          "pdf_page": 591,
+          "printed_page": 590,
+          "first_line": 1130,
+          "last_line": 1200
+        },
+        {
+          "pdf_page": 592,
+          "printed_page": 591,
+          "first_line": 1201,
+          "last_line": 1271
+        },
+        {
+          "pdf_page": 593,
+          "printed_page": 592,
+          "first_line": 1272,
+          "last_line": 1342
+        },
+        {
+          "pdf_page": 594,
+          "printed_page": 593,
+          "first_line": 1343,
+          "last_line": 1413
+        },
+        {
+          "pdf_page": 595,
+          "printed_page": 594,
+          "first_line": 1414,
+          "last_line": 1484
+        },
+        {
+          "pdf_page": 596,
+          "printed_page": 595,
+          "first_line": 1485,
+          "last_line": 1555
+        },
+        {
+          "pdf_page": 597,
+          "printed_page": 596,
+          "first_line": 1556,
+          "last_line": 1626
+        },
+        {
+          "pdf_page": 598,
+          "printed_page": 597,
+          "first_line": 1627,
+          "last_line": 1697
+        },
+        {
+          "pdf_page": 599,
+          "printed_page": 598,
+          "first_line": 1698,
+          "last_line": 1768
+        },
+        {
+          "pdf_page": 600,
+          "printed_page": 599,
+          "first_line": 1769,
+          "last_line": 1839
+        },
+        {
+          "pdf_page": 601,
+          "printed_page": 600,
+          "first_line": 1840,
+          "last_line": 1910
+        },
+        {
+          "pdf_page": 602,
+          "printed_page": 601,
+          "first_line": 1911,
+          "last_line": 1981
+        },
+        {
+          "pdf_page": 603,
+          "printed_page": 602,
+          "first_line": 1982,
+          "last_line": 2052
+        },
+        {
+          "pdf_page": 604,
+          "printed_page": 603,
+          "first_line": 2053,
+          "last_line": 2123
+        },
+        {
+          "pdf_page": 605,
+          "printed_page": 604,
+          "first_line": 2124,
+          "last_line": 2194
+        },
+        {
+          "pdf_page": 606,
+          "printed_page": 605,
+          "first_line": 2195,
+          "last_line": 2265
+        },
+        {
+          "pdf_page": 607,
+          "printed_page": 606,
+          "first_line": 2266,
+          "last_line": 2318
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-11",
+      "title": "Masterarbeit Überarbeiten",
+      "pdf_first_page": 608,
+      "pdf_last_page": 625,
+      "printed_first_page": 607,
+      "printed_last_page": 624,
+      "verified_numbered_lines": 1260,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 608,
+          "printed_page": 607,
+          "first_line": 1,
+          "last_line": 63
+        },
+        {
+          "pdf_page": 609,
+          "printed_page": 608,
+          "first_line": 64,
+          "last_line": 134
+        },
+        {
+          "pdf_page": 610,
+          "printed_page": 609,
+          "first_line": 135,
+          "last_line": 205
+        },
+        {
+          "pdf_page": 611,
+          "printed_page": 610,
+          "first_line": 206,
+          "last_line": 276
+        },
+        {
+          "pdf_page": 612,
+          "printed_page": 611,
+          "first_line": 277,
+          "last_line": 347
+        },
+        {
+          "pdf_page": 613,
+          "printed_page": 612,
+          "first_line": 348,
+          "last_line": 418
+        },
+        {
+          "pdf_page": 614,
+          "printed_page": 613,
+          "first_line": 419,
+          "last_line": 489
+        },
+        {
+          "pdf_page": 615,
+          "printed_page": 614,
+          "first_line": 490,
+          "last_line": 560
+        },
+        {
+          "pdf_page": 616,
+          "printed_page": 615,
+          "first_line": 561,
+          "last_line": 631
+        },
+        {
+          "pdf_page": 617,
+          "printed_page": 616,
+          "first_line": 632,
+          "last_line": 702
+        },
+        {
+          "pdf_page": 618,
+          "printed_page": 617,
+          "first_line": 703,
+          "last_line": 773
+        },
+        {
+          "pdf_page": 619,
+          "printed_page": 618,
+          "first_line": 774,
+          "last_line": 844
+        },
+        {
+          "pdf_page": 620,
+          "printed_page": 619,
+          "first_line": 845,
+          "last_line": 915
+        },
+        {
+          "pdf_page": 621,
+          "printed_page": 620,
+          "first_line": 916,
+          "last_line": 986
+        },
+        {
+          "pdf_page": 622,
+          "printed_page": 621,
+          "first_line": 987,
+          "last_line": 1057
+        },
+        {
+          "pdf_page": 623,
+          "printed_page": 622,
+          "first_line": 1058,
+          "last_line": 1128
+        },
+        {
+          "pdf_page": 624,
+          "printed_page": 623,
+          "first_line": 1129,
+          "last_line": 1199
+        },
+        {
+          "pdf_page": 625,
+          "printed_page": 624,
+          "first_line": 1200,
+          "last_line": 1260
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-12",
+      "title": "Feedback zur Masterarbeit",
+      "pdf_first_page": 626,
+      "pdf_last_page": 645,
+      "printed_first_page": 625,
+      "printed_last_page": 644,
+      "verified_numbered_lines": 1391,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 626,
+          "printed_page": 625,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 627,
+          "printed_page": 626,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 628,
+          "printed_page": 627,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 629,
+          "printed_page": 628,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 630,
+          "printed_page": 629,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 631,
+          "printed_page": 630,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 632,
+          "printed_page": 631,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 633,
+          "printed_page": 632,
+          "first_line": 491,
+          "last_line": 561
+        },
+        {
+          "pdf_page": 634,
+          "printed_page": 633,
+          "first_line": 562,
+          "last_line": 632
+        },
+        {
+          "pdf_page": 635,
+          "printed_page": 634,
+          "first_line": 633,
+          "last_line": 703
+        },
+        {
+          "pdf_page": 636,
+          "printed_page": 635,
+          "first_line": 704,
+          "last_line": 774
+        },
+        {
+          "pdf_page": 637,
+          "printed_page": 636,
+          "first_line": 775,
+          "last_line": 845
+        },
+        {
+          "pdf_page": 638,
+          "printed_page": 637,
+          "first_line": 846,
+          "last_line": 916
+        },
+        {
+          "pdf_page": 639,
+          "printed_page": 638,
+          "first_line": 917,
+          "last_line": 987
+        },
+        {
+          "pdf_page": 640,
+          "printed_page": 639,
+          "first_line": 988,
+          "last_line": 1058
+        },
+        {
+          "pdf_page": 641,
+          "printed_page": 640,
+          "first_line": 1059,
+          "last_line": 1129
+        },
+        {
+          "pdf_page": 642,
+          "printed_page": 641,
+          "first_line": 1130,
+          "last_line": 1200
+        },
+        {
+          "pdf_page": 643,
+          "printed_page": 642,
+          "first_line": 1201,
+          "last_line": 1271
+        },
+        {
+          "pdf_page": 644,
+          "printed_page": 643,
+          "first_line": 1272,
+          "last_line": 1342
+        },
+        {
+          "pdf_page": 645,
+          "printed_page": 644,
+          "first_line": 1343,
+          "last_line": 1391
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-13",
+      "title": "Steyerl Kritik an Eingabeprozessen",
+      "pdf_first_page": 646,
+      "pdf_last_page": 711,
+      "printed_first_page": 645,
+      "printed_last_page": 710,
+      "verified_numbered_lines": 4619,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 646,
+          "printed_page": 645,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 647,
+          "printed_page": 646,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 648,
+          "printed_page": 647,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 649,
+          "printed_page": 648,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 650,
+          "printed_page": 649,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 651,
+          "printed_page": 650,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 652,
+          "printed_page": 651,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 653,
+          "printed_page": 652,
+          "first_line": 491,
+          "last_line": 561
+        },
+        {
+          "pdf_page": 654,
+          "printed_page": 653,
+          "first_line": 562,
+          "last_line": 632
+        },
+        {
+          "pdf_page": 655,
+          "printed_page": 654,
+          "first_line": 633,
+          "last_line": 703
+        },
+        {
+          "pdf_page": 656,
+          "printed_page": 655,
+          "first_line": 704,
+          "last_line": 774
+        },
+        {
+          "pdf_page": 657,
+          "printed_page": 656,
+          "first_line": 775,
+          "last_line": 845
+        },
+        {
+          "pdf_page": 658,
+          "printed_page": 657,
+          "first_line": 846,
+          "last_line": 916
+        },
+        {
+          "pdf_page": 659,
+          "printed_page": 658,
+          "first_line": 917,
+          "last_line": 987
+        },
+        {
+          "pdf_page": 660,
+          "printed_page": 659,
+          "first_line": 988,
+          "last_line": 1058
+        },
+        {
+          "pdf_page": 661,
+          "printed_page": 660,
+          "first_line": 1059,
+          "last_line": 1129
+        },
+        {
+          "pdf_page": 662,
+          "printed_page": 661,
+          "first_line": 1130,
+          "last_line": 1200
+        },
+        {
+          "pdf_page": 663,
+          "printed_page": 662,
+          "first_line": 1201,
+          "last_line": 1271
+        },
+        {
+          "pdf_page": 664,
+          "printed_page": 663,
+          "first_line": 1272,
+          "last_line": 1342
+        },
+        {
+          "pdf_page": 665,
+          "printed_page": 664,
+          "first_line": 1343,
+          "last_line": 1413
+        },
+        {
+          "pdf_page": 666,
+          "printed_page": 665,
+          "first_line": 1414,
+          "last_line": 1484
+        },
+        {
+          "pdf_page": 667,
+          "printed_page": 666,
+          "first_line": 1485,
+          "last_line": 1555
+        },
+        {
+          "pdf_page": 668,
+          "printed_page": 667,
+          "first_line": 1556,
+          "last_line": 1626
+        },
+        {
+          "pdf_page": 669,
+          "printed_page": 668,
+          "first_line": 1627,
+          "last_line": 1697
+        },
+        {
+          "pdf_page": 670,
+          "printed_page": 669,
+          "first_line": 1698,
+          "last_line": 1768
+        },
+        {
+          "pdf_page": 671,
+          "printed_page": 670,
+          "first_line": 1769,
+          "last_line": 1839
+        },
+        {
+          "pdf_page": 672,
+          "printed_page": 671,
+          "first_line": 1840,
+          "last_line": 1910
+        },
+        {
+          "pdf_page": 673,
+          "printed_page": 672,
+          "first_line": 1911,
+          "last_line": 1981
+        },
+        {
+          "pdf_page": 674,
+          "printed_page": 673,
+          "first_line": 1982,
+          "last_line": 2052
+        },
+        {
+          "pdf_page": 675,
+          "printed_page": 674,
+          "first_line": 2053,
+          "last_line": 2123
+        },
+        {
+          "pdf_page": 676,
+          "printed_page": 675,
+          "first_line": 2124,
+          "last_line": 2194
+        },
+        {
+          "pdf_page": 677,
+          "printed_page": 676,
+          "first_line": 2195,
+          "last_line": 2265
+        },
+        {
+          "pdf_page": 678,
+          "printed_page": 677,
+          "first_line": 2266,
+          "last_line": 2336
+        },
+        {
+          "pdf_page": 679,
+          "printed_page": 678,
+          "first_line": 2337,
+          "last_line": 2407
+        },
+        {
+          "pdf_page": 680,
+          "printed_page": 679,
+          "first_line": 2408,
+          "last_line": 2478
+        },
+        {
+          "pdf_page": 681,
+          "printed_page": 680,
+          "first_line": 2479,
+          "last_line": 2549
+        },
+        {
+          "pdf_page": 682,
+          "printed_page": 681,
+          "first_line": 2550,
+          "last_line": 2620
+        },
+        {
+          "pdf_page": 683,
+          "printed_page": 682,
+          "first_line": 2621,
+          "last_line": 2691
+        },
+        {
+          "pdf_page": 684,
+          "printed_page": 683,
+          "first_line": 2692,
+          "last_line": 2762
+        },
+        {
+          "pdf_page": 685,
+          "printed_page": 684,
+          "first_line": 2763,
+          "last_line": 2833
+        },
+        {
+          "pdf_page": 686,
+          "printed_page": 685,
+          "first_line": 2834,
+          "last_line": 2904
+        },
+        {
+          "pdf_page": 687,
+          "printed_page": 686,
+          "first_line": 2905,
+          "last_line": 2975
+        },
+        {
+          "pdf_page": 688,
+          "printed_page": 687,
+          "first_line": 2976,
+          "last_line": 3046
+        },
+        {
+          "pdf_page": 689,
+          "printed_page": 688,
+          "first_line": 3047,
+          "last_line": 3117
+        },
+        {
+          "pdf_page": 690,
+          "printed_page": 689,
+          "first_line": 3118,
+          "last_line": 3188
+        },
+        {
+          "pdf_page": 691,
+          "printed_page": 690,
+          "first_line": 3189,
+          "last_line": 3259
+        },
+        {
+          "pdf_page": 692,
+          "printed_page": 691,
+          "first_line": 3260,
+          "last_line": 3330
+        },
+        {
+          "pdf_page": 693,
+          "printed_page": 692,
+          "first_line": 3331,
+          "last_line": 3401
+        },
+        {
+          "pdf_page": 694,
+          "printed_page": 693,
+          "first_line": 3402,
+          "last_line": 3472
+        },
+        {
+          "pdf_page": 695,
+          "printed_page": 694,
+          "first_line": 3473,
+          "last_line": 3543
+        },
+        {
+          "pdf_page": 696,
+          "printed_page": 695,
+          "first_line": 3544,
+          "last_line": 3614
+        },
+        {
+          "pdf_page": 697,
+          "printed_page": 696,
+          "first_line": 3615,
+          "last_line": 3685
+        },
+        {
+          "pdf_page": 698,
+          "printed_page": 697,
+          "first_line": 3686,
+          "last_line": 3756
+        },
+        {
+          "pdf_page": 699,
+          "printed_page": 698,
+          "first_line": 3757,
+          "last_line": 3827
+        },
+        {
+          "pdf_page": 700,
+          "printed_page": 699,
+          "first_line": 3828,
+          "last_line": 3898
+        },
+        {
+          "pdf_page": 701,
+          "printed_page": 700,
+          "first_line": 3899,
+          "last_line": 3969
+        },
+        {
+          "pdf_page": 702,
+          "printed_page": 701,
+          "first_line": 3970,
+          "last_line": 4040
+        },
+        {
+          "pdf_page": 703,
+          "printed_page": 702,
+          "first_line": 4041,
+          "last_line": 4111
+        },
+        {
+          "pdf_page": 704,
+          "printed_page": 703,
+          "first_line": 4112,
+          "last_line": 4182
+        },
+        {
+          "pdf_page": 705,
+          "printed_page": 704,
+          "first_line": 4183,
+          "last_line": 4253
+        },
+        {
+          "pdf_page": 706,
+          "printed_page": 705,
+          "first_line": 4254,
+          "last_line": 4324
+        },
+        {
+          "pdf_page": 707,
+          "printed_page": 706,
+          "first_line": 4325,
+          "last_line": 4395
+        },
+        {
+          "pdf_page": 708,
+          "printed_page": 707,
+          "first_line": 4396,
+          "last_line": 4466
+        },
+        {
+          "pdf_page": 709,
+          "printed_page": 708,
+          "first_line": 4467,
+          "last_line": 4537
+        },
+        {
+          "pdf_page": 710,
+          "printed_page": 709,
+          "first_line": 4538,
+          "last_line": 4608
+        },
+        {
+          "pdf_page": 711,
+          "printed_page": 710,
+          "first_line": 4609,
+          "last_line": 4619
+        }
+      ]
+    },
+    {
+      "archive_id": "CGPT-14",
+      "title": "Formulierungen Thesis",
+      "pdf_first_page": 712,
+      "pdf_last_page": 719,
+      "printed_first_page": 711,
+      "printed_last_page": 718,
+      "verified_numbered_lines": 502,
+      "all_lines_match_after_whitespace_unicode_normalization": true,
+      "page_line_ranges": [
+        {
+          "pdf_page": 712,
+          "printed_page": 711,
+          "first_line": 1,
+          "last_line": 64
+        },
+        {
+          "pdf_page": 713,
+          "printed_page": 712,
+          "first_line": 65,
+          "last_line": 135
+        },
+        {
+          "pdf_page": 714,
+          "printed_page": 713,
+          "first_line": 136,
+          "last_line": 206
+        },
+        {
+          "pdf_page": 715,
+          "printed_page": 714,
+          "first_line": 207,
+          "last_line": 277
+        },
+        {
+          "pdf_page": 716,
+          "printed_page": 715,
+          "first_line": 278,
+          "last_line": 348
+        },
+        {
+          "pdf_page": 717,
+          "printed_page": 716,
+          "first_line": 349,
+          "last_line": 419
+        },
+        {
+          "pdf_page": 718,
+          "printed_page": 717,
+          "first_line": 420,
+          "last_line": 490
+        },
+        {
+          "pdf_page": 719,
+          "printed_page": 718,
+          "first_line": 491,
+          "last_line": 502
+        }
+      ]
+    }
+  ],
+  "note": "Physical PDF pages are one-based. Printed page numbers exclude the title page. Recompute after rebuilding."
+}

@@ -1,0 +1,95 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: DRAFT-04
+000003 | Title: Operation 2 supplied for critical revision
+000004 | Source SHA-256: 0877cd76004183473e45a98430b29b7bfec46caf1de5e8038ab4830a9753e367
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Verarbeitung und ihre Maßstäbe
+000008 | 
+000009 | Technische Verarbeitung beginnt nicht notwendig erst mit dem Absenden einer
+000010 | Eingabe. Bereits die Veränderung eines Feldwerts kann Ereignisse auslösen, auf die
+000011 | eine Anwendung unmittelbar reagiert. Bearbeitung, Übermittlung und die Ausführung
+000012 | der beabsichtigten Handlung sind daher als unterschiedliche Vorgänge zu betrachten
+000013 | (vgl. WHATWG 2026).
+000014 | Besonders deutlich wird diese Trennung bei vorbereitenden Operationen. In der
+000015 | Chrome-Suchleiste können beispielsweise Ergebnisse zu einer vorgeschlagenen
+000016 | Suchanfrage bereits vorgeladen werden, bevor NutzerInnen diese Anfrage tatsächlich
+000017 | bestätigen. Die Anwendung bereitet damit einen möglichen nächsten Schritt vor,
+000018 | ohne dass dieser bereits ausgeführt wurde (vgl. Chromium, Omnibox Prefetch and
+000019 | Prerender for Default Search Engines).
+000020 | Eine ausdrückliche Bestätigung markiert somit nicht zwangsläufig den Beginn
+000021 | technischer Verarbeitung. Welche Vorgänge bereits während der Eingabe stattfinden
+000022 | und welche erst nach ihrer Bestätigung folgen, hängt von der jeweiligen
+000023 | Implementierung ab.
+000024 | Bei Formularen kann Verarbeitung zunächst bedeuten, einen eingegebenen Wert gegen
+000025 | festgelegte Anforderungen zu prüfen. Die HTML-Constraint-Validation unterscheidet
+000026 | dafür verschiedene ungültige Zustände und kann verhindern, dass ein Formular
+000027 | übermittelt wird, solange bestimmte Anforderungen nicht erfüllt sind (vgl. WHATWG
+000028 | 2026, Abschn. 4.10.21).
+000029 | Geprüft wird dabei jedoch nur, ob eine Eingabe den vorgesehenen technischen
+000030 | Bedingungen entspricht. Eine formal akzeptierte Angabe ist deshalb nicht
+000031 | automatisch sachlich richtig. Schon an dieser Unterscheidung zeigt sich, dass
+000032 | Verarbeitung immer auch davon abhängt, welche Eigenschaften einer Eingabe
+000033 | überhaupt geprüft werden.
+000034 | Bei Suchsystemen umfasst Verarbeitung nicht nur die Ermittlung möglicher Treffer,
+000035 | sondern auch deren Rangordnung. Auf Grundlage des bereits aufgebauten Index werden
+000036 | Inhalte ausgewählt und anhand verschiedener Merkmale bewertet. Im historischen
+000037 | Google-Modell flossen dabei unter anderem Verlinkungen, Ankertexte und
+000038 | Eigenschaften der gefundenen Begriffe in die Berechnung ein (vgl. Brin/Page 1998,
+000039 | S. 109–113).
+000040 | Die Ausgabe einer Suche besteht damit nicht einfach aus allen passenden Inhalten,
+000041 | sondern aus einer geordneten Auswahl basierend auf unterschiedlichen Merkmalen.
+000042 | 
+000043 | Bei generativen Sprachmodellen besteht Verarbeitung darin, schrittweise eine
+000044 | Fortsetzung zu erzeugen. Ausgehend von den vorangehenden Tokens werden
+000045 | Wahrscheinlichkeiten für mögliche nächste Tokens berechnet und die Ausgabe auf
+000046 | dieser Grundlage fortgesetzt (vgl. Radford et al. 2019, S. 2, 4, 6).
+000047 | Dabei sind Tokens nicht mit einzelnen Wörtern gleichzusetzen, und die Generierung
+000048 | bedeutet nicht notwendig, jeweils die wahrscheinlichste Fortsetzung auszuwählen.
+000049 | Das Modell erzeugt seine Ausgabe vielmehr innerhalb eines Verfahrens, das mögliche
+000050 | Fortsetzungen gewichtet und daraus schrittweise Text bildet.
+000051 | Welche Eingabe ein Formular akzeptiert, hängt von zuvor festgelegten Anforderungen
+000052 | ab. Diese können teilweise durch technische Standards vorgegeben sein, teilweise
+000053 | aber auch durch die konkrete Gestaltung des Formulars bestimmt werden. Formal
+000054 | gültig ist eine Eingabe damit nur im Verhältnis zu diesen Regeln – nicht
+000055 | automatisch sachlich richtig.
+000056 | Die Frage nach Gültigkeit ist deshalb immer auch eine Frage danach, wer festlegt,
+000057 | welche Angaben innerhalb eines Systems überhaupt als zulässig gelten.
+000058 | Die Rangordnung von Suchergebnissen setzt voraus, dass bestimmte Merkmale als
+000059 | Hinweise auf Relevanz oder Qualität behandelt werden. Welche Merkmale dafür
+000060 | herangezogen werden und wie sie gewichtet werden, ist Teil der Gestaltung des
+000061 | Suchsystems.
+000062 | Relevanz erscheint damit nicht einfach als vorhandene Eigenschaft eines Inhalts,
+000063 | sondern wird technisch über ausgewählte Kriterien angenähert. Nach Angaben von
+000064 | Google werden Änderungen an solchen Verfahren unter anderem durch menschliche
+000065 | Bewertungen und Experimente geprüft. Diese Bewertungen ordnen jedoch nicht
+000066 | unmittelbar jede einzelne Suchanfrage, sondern dienen der Beurteilung und
+000067 | Weiterentwicklung der zugrunde liegenden Systeme.
+000068 | Welche Inhalte sichtbar werden, hängt deshalb auch davon ab, welche Vorstellung
+000069 | von Relevanz in diesen Verfahren wirksam gemacht wird.
+000070 | Wahrscheinlichkeit allein bestimmt noch nicht, was als gute Antwort gilt. Ein
+000071 | Sprachmodell kann mögliche Fortsetzungen statistisch gewichten, ohne damit deren
+000072 | sachliche Richtigkeit oder Nützlichkeit zu beurteilen.
+000073 | Beim Verhaltenstraining können deshalb zusätzliche Maßstäbe hinzukommen. Im
+000074 | InstructGPT-Verfahren wurden unter anderem Demonstrationen und menschliche
+000075 | Vergleiche verschiedener Modellantworten verwendet, um erwünschtes
+000076 | Antwortverhalten zu trainieren (vgl. Ouyang et al. 2022, S. 2, 4–10). Welche
+000077 | Antworten dabei bevorzugt werden, hängt auch von den ausgewählten Bewertenden und
+000078 | den vorgegebenen Bewertungskriterien ab.
+000079 | Diese Bewertungen finden nicht bei jeder späteren Eingabe erneut statt. Sie wirken
+000080 | vielmehr über das zuvor trainierte Modellverhalten fort. Was als hilfreiche oder
+000081 | gute Antwort erscheint, beruht damit nicht allein auf der aktuellen Formulierung
+000082 | der NutzerInnen, sondern auch auf Maßstäben, die bereits während der Entwicklung
+000083 | des Modells wirksam wurden.
+000084 | Menschliche Präferenz ist jedoch nicht mit sachlicher Verlässlichkeit
+000085 | gleichzusetzen. Unter Sycophancy wird eine problematische Anpassung an Positionen
+000086 | oder Erwartungen von NutzerInnen verstanden, bei der Zustimmung gegenüber einer
+000087 | korrekteren oder kritischeren Antwort begünstigt werden kann.
+000088 | Sharma et al. zeigen, dass die Übereinstimmung mit Nutzerüberzeugungen menschliche
+000089 | Präferenzbewertungen mit vorhersagen kann. Zugleich wird auch Wahrhaftigkeit
+000090 | bevorzugt; daraus folgt daher nicht, dass Zustimmung grundsätzlich wichtiger wäre
+000091 | als Richtigkeit (vgl. Sharma et al. 2024, S. 5–9).
+000092 | Der Fall macht vielmehr sichtbar, dass verschiedene Vorstellungen einer „guten“
+000093 | Antwort miteinander in Konflikt geraten können. Eine Antwort kann überzeugend,
+000094 | bestätigend oder positiv bewertet sein, ohne deshalb gleichermaßen sachlich
+000095 | verlässlich zu sein.

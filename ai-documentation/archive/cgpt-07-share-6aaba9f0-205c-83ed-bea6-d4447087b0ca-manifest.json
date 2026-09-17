@@ -1,0 +1,157 @@
+{
+  "archive_id": "CGPT-07",
+  "excluded_counts": {
+    "empty_node": 1,
+    "non_conversation_role": 25,
+    "non_text_content:model_editable_context": 2,
+    "non_text_content:reasoning_recap": 8,
+    "non_text_content:thoughts": 1
+  },
+  "extraction": "Public share HTML route data; selected linear conversation; visible user/assistant text only",
+  "limits": [
+    "Share is a snapshot, not a guarantee of the complete original chat or all branches.",
+    "Attached files/images and linked sandbox artifacts are not archived unless separately supplied.",
+    "Share creation timestamps are not original conversation timestamps.",
+    "Model labels and timestamps are provider metadata, not independently verified.",
+    "No token/cost/time-of-work figures are inferred; no source validation or manuscript adoption implied.",
+    "Hidden reasoning, system/developer context, model memory and tool payloads excluded."
+  ],
+  "message_count": 16,
+  "message_line_ranges": [
+    {
+      "end_line": 16,
+      "message_id": "76b3554b-9dab-4c77-9bb3-96eaad92631d",
+      "sequence": 1,
+      "start_line": 13
+    },
+    {
+      "end_line": 37,
+      "message_id": "c02851f2-cece-4578-ad95-5d8bfb4d26df",
+      "sequence": 2,
+      "start_line": 18
+    },
+    {
+      "end_line": 177,
+      "message_id": "26ed594e-2aa1-4f9f-b46a-910ae61310e4",
+      "sequence": 3,
+      "start_line": 39
+    },
+    {
+      "end_line": 208,
+      "message_id": "c7484f1e-615f-4997-aec1-33d92fc8fa2d",
+      "sequence": 4,
+      "start_line": 179
+    },
+    {
+      "end_line": 211,
+      "message_id": "56b60729-3e43-4952-9b1f-2e145e9140e8",
+      "sequence": 5,
+      "start_line": 210
+    },
+    {
+      "end_line": 247,
+      "message_id": "d95daf97-280f-4afd-9946-fecd37d63121",
+      "sequence": 6,
+      "start_line": 213
+    },
+    {
+      "end_line": 251,
+      "message_id": "c370ce36-97da-44e2-bd9b-002b9ab9a058",
+      "sequence": 7,
+      "start_line": 249
+    },
+    {
+      "end_line": 289,
+      "message_id": "466458aa-240c-499c-b557-be27b3ad9baa",
+      "sequence": 8,
+      "start_line": 253
+    },
+    {
+      "end_line": 292,
+      "message_id": "6f9fc690-ef70-4f6c-8d91-14191b3ac105",
+      "sequence": 9,
+      "start_line": 291
+    },
+    {
+      "end_line": 333,
+      "message_id": "d032be36-69c4-4768-9ccd-8fe9f1d67cb4",
+      "sequence": 10,
+      "start_line": 294
+    },
+    {
+      "end_line": 336,
+      "message_id": "289fdc1f-b715-463c-ad69-6bcb44e2991b",
+      "sequence": 11,
+      "start_line": 335
+    },
+    {
+      "end_line": 372,
+      "message_id": "3a535149-2642-489b-8377-978fabda8f68",
+      "sequence": 12,
+      "start_line": 338
+    },
+    {
+      "end_line": 375,
+      "message_id": "6d240eac-75d8-4f0e-93df-b66a5775cd04",
+      "sequence": 13,
+      "start_line": 374
+    },
+    {
+      "end_line": 414,
+      "message_id": "5b3c568a-5ad2-403b-a836-0d5355282cf5",
+      "sequence": 14,
+      "start_line": 377
+    },
+    {
+      "end_line": 417,
+      "message_id": "92a33ba6-398d-4e5e-9a78-2fd4589002b4",
+      "sequence": 15,
+      "start_line": 416
+    },
+    {
+      "end_line": 452,
+      "message_id": "112d73cc-04cb-40e3-b038-5e5f69b6a86e",
+      "sequence": 16,
+      "start_line": 419
+    }
+  ],
+  "messages_end_utc": "2026-09-15T15:37:55.778321+00:00",
+  "messages_file": "cgpt-07-share-6aaba9f0-205c-83ed-bea6-d4447087b0ca-messages.jsonl",
+  "messages_sha256": "d99d096858e2e01fa5a5522791c9243b86a8db00c0b5131a9ec84bdb334f3973",
+  "messages_start_utc": "2026-09-15T15:29:18.704000+00:00",
+  "missing_material": [
+    {
+      "attachments": [
+        {
+          "id": "file_000000002fcc8246a10bd6ea680f1b40",
+          "mime_type": "text/plain",
+          "name": "markdown(10).md eingefügt",
+          "size": 39336
+        }
+      ],
+      "kind": "attachment_content_unavailable",
+      "message_id": "76b3554b-9dab-4c77-9bb3-96eaad92631d",
+      "nontext_types": []
+    }
+  ],
+  "phases": {
+    "final": 8,
+    "prompt": 8
+  },
+  "raw_http_response_retained": false,
+  "retrieved_at_utc": "2026-09-17T08:58:35.902592+00:00",
+  "retrieved_url": "https://chatgpt.com/share/6aaba9f0-205c-83ed-bea6-d4447087b0ca",
+  "roles": {
+    "assistant": 8,
+    "user": 8
+  },
+  "share_created_at_utc": "2026-09-17T08:50:56.138955+00:00",
+  "share_updated_at_utc": "2026-09-17T08:50:58.363590+00:00",
+  "share_url": "https://chatgpt.com/share/6aaba9f0-205c-83ed-bea6-d4447087b0ca",
+  "source_http_response_sha256": "3f977806b9f608000fd6bacb6ea65c3aad73b4b3ec7307ac6d3c676fa796a518",
+  "source_node_count": 53,
+  "title": "Masterthesis Weiterformulieren",
+  "transcript_file": "cgpt-07-share-6aaba9f0-205c-83ed-bea6-d4447087b0ca-transcript.txt",
+  "transcript_lines": 453,
+  "transcript_sha256": "ec722237d30215fea9a55f1ea70678c1ffbd21079a42f8f3cd091ea9656174ce"
+}

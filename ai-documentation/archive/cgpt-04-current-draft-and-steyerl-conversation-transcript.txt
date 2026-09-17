@@ -1,0 +1,418 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: CGPT-04
+000003 | Title: Earlier AI conversation on the current Interaction draft and a Steyerl-informed reading
+000004 | Source SHA-256: 30e8cab891a31e8b288090334996f2240830f1eddc79d0b3178b36f38727127f
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Interaction
+000008 | 
+000009 | Eingabe als physischer Prozess
+000010 | 
+000011 | Texteingabe setzt zunächst eine körperliche Handlung voraus. Bevor Text als
+000012 | Inhalt, Anfrage oder Befehl verarbeitet werden kann, muss er zunächst erzeugt und
+000013 | vom System erfasst werden. Diese körperliche Ausführung fordert motorische
+000014 | Bewegung, sowie visuelle Aufmerksamkeit und ist von der rein sprachlichen
+000015 | Formulierungsarbeit zu trennen. Wie diese Eingabeprozess aussieht, hängt
+000016 | wesentlich davon ab, auf welchem Weg Text eingegeben wird. (Belege: Feit et al.
+000017 | 2016, S. 4264–4271; MacKenzie/Soukoreff 2002, S. 154–160 und 163–165.)
+000018 | 
+000019 | Das Tippen auf einer physischen Tastatur besteht aus einer Koordination von
+000020 | Finger-, Hand und Blickbewegungen, bei welcher der User seine Aufmerksamkeit
+000021 | zwischen Bildschirm und Tastatur verteilt. Dabei kommen unterschiedliche, teils
+000022 | individuell erlernte Schreibtechniken zum Einsatz, welche sich in Geschwindigkeit
+000023 | stark unterscheiden können. (Beleg: Feit et al. 2016, S. 4262–4271.)
+000024 | 
+000025 | Auf einem Touchscreen verändert sich der körperliche Bewegungsablauf. Wie Zeichen
+000026 | eingegeben werden, hängt unter anderem von der Griffhaltung, dem Geräteformat
+000027 | sowie von Reichweite und Koordination der Daumen ab. Bei einer Bildschirmtastatur
+000028 | muss das System zudem die Position jeder Berührung interpretieren und der
+000029 | vermutlich beabsichtigten Taste zuordnen.
+000030 | 
+000031 | Spracheingabe verlagert den Prozess von den Händen auf das Sprechen. Der
+000032 | Eingabeprozess umfasst jedoch weiterhin mehrere Schritte. NutzerInnen beginnen die
+000033 | Aufnahme, sprechen, signalisieren das Ende der Eingabe und warten auf die
+000034 | technische Verarbeitung. Anschließend muss die erzeugte Transkription kontrolliert
+000035 | und gegebenenfalls korrigiert werden. Zwischen dem Sprechen und dem sichtbaren
+000036 | Text liegt damit ein technischer Erkennungsprozess. In der Untersuchung von Ruan
+000037 | et al. wurde ein großer Teil der Korrekturenweiterhin an der Tastatur ausgeführt
+000038 | (vgl. Ruan et al. 2017, Art. 159:13–159:17).
+000039 | 
+000040 | Ob Tastatur, Touchscreen oder Sprache: In allen drei Fällen entsteht Text aus
+000041 | einem Zusammenspiel von körperlicher Handlung, technischer Interpretation und
+000042 | möglicher Korrektur. Im fertigen Text ist dieser Entstehungsprozess nicht mehr
+000043 | sichtbar. Er zeigt nur das Ergebnis, nicht die Bewegungen, Fehlversuche und
+000044 | Korrekturen, die ihm vorausgingen.
+000045 | 
+000046 | Erforderliche Kenntnisse und Kompetenzen
+000047 | 
+000048 | Neben der körperlichen Ausführung setzt Texteingabe Wissen über das jeweilige
+000049 | System voraus. Je nach Eingabeform müssen NutzerInnen Befehle und syntaktische
+000050 | Regeln kennen, ihre Absichten in eine geeignete Formulierung übersetzen, die
+000051 | Fähigkeiten des Systems einschätzen oder vorgegebene Informationen bereitstellen.
+000052 | Auch wenn ein Texteingabefeld unterschiedliche Eingaben zulässt, ist nicht jede
+000053 | eingäbe für das System gültig oder führt zu den gewünschten Reaktionen. Welche
+000054 | Kenntnisse erforderlich sind, hängt vom jeweiligen Anwendungsfall ab.
+000055 | 
+000056 | Besonders deutlich zeigt sich dies bei Befehlssystemen. Ihre Eingaben folgen einer
+000057 | festgelegten Syntax und setzen sich aus vordefinierten Bestandteilen zusammen,
+000058 | deren Bedeutung und zulässige Anordnung bekannt sein müssen. Im Befehl „mkdir
+000059 | entwurf“ bezeichnet mkdir den Befehlsnamen, während „entwurf“ als Operand den
+000060 | Namen des anzulegenden Verzeichnisses angibt (vgl. IEEE/The Open Group 2024,
+000061 | Abschnitte NAME, SYNOPSIS und OPERANDS). Solche Kommandos müssen aus dem
+000062 | verfügbaren Befehlssatz erinnert und voneinander unterschieden werden. Eine gute
+000063 | Unterscheidbarkeit der Befehlsnamen kann das Erlernen und Abrufen erleichtern
+000064 | (vgl. Black/Moran 1982, S. 8–10). Das Übersetzen der eigenen Absicht in die
+000065 | syntaktischen Anforderungen des Systems setzt dennoch erlerntes Wissen über dessen
+000066 | Konventionen voraus (vgl. Shneiderman 1983, S. 64–66).
+000067 | 
+000068 | Im Gegensatz dazu verlangen Interfaces, welche auf natürlicher Sprache basieren
+000069 | keine festgelegte Befehlssyntax. Nichts desto trotz besteht für Nutzer die Aufgabe
+000070 | ihre Absichten so auszudrücken, dass das System daraus eine bearbeitbare Anfrage
+000071 | ableiten kann. Mehrdeutige Formulierungen können die interpretation einer Eingabe
+000072 | erschweren während gleichzeitig die Offenheit natürlicher Sprache bei der
+000073 | NutzerInn Erwartungen erzeugen kann, welche über die tatsächlichen Fähigkeiten des
+000074 | Systems hinausgehen. Die Verwendung natürlicher Sprache bedeutet daher nicht
+000075 | automatisch, dass eine Eingabe leichter zu formulieren ist.
+000076 | 
+000077 | (Beleg: Shneiderman 1980, S. 139–141.)
+000078 | 
+000079 | Bei einer Suchmaschine bedeutet dies einen Informationsbedarf zunächst in eine
+000080 | geeigneten Suchbegriffe oder eine Frage zu übersetzen. Hierbei müssen NutzerInnen
+000081 | entscheiden, welche Wörter das gesuchte Problem ausreichend beschreiben. Erst die
+000082 | Ergebnisse zeigen, ob diese Formulierung das gesuchte Problem tatsächlich trifft
+000083 | oder weiter präzisiert werden muss (vgl. Hearst 2009, S. 1–3).
+000084 | 
+000085 | Beim Prompting eines KI-Systems sind die Anforderungen an eine geeignete Eingabe
+000086 | häufig noch weniger eindeutig vorgegeben. NutzerInnen müssen abschätzen, welche
+000087 | Aufgabe ein KI-System bearbeiten kann, welchen Kontext es dafür benötigt und in
+000088 | welcher Form das Ergebnis ausgegeben werden soll. Ein Teil dieses Wissens entsteht
+000089 | erst im Verlauf der Interaktion selbst: Eine Antwort wird geprüft, woraufhin die
+000090 | nächste Eingabe ergänzt, eingeschränkt oder anders formuliert wird (vgl.
+000091 | Subramonyam et al. 2024, S. 2–8; Zamfirescu-Pereira et al. 2023, S. 10–13). In
+000092 | einer qualitativen Studie mit zehn TeilnehmerInnen zeigte sich, dass einzelne
+000093 | erfolgreiche Antworten zu vorschnellen Annahmen über das Systemverhalten führen
+000094 | können (vgl. Zamfirescu-Pereira et al. 2023, S. 7–12). (vgl. Zamfirescu-Pereira et
+000095 | al. 2023, S. 7–12). (Belege: Subramonyam et al. 2024, S. 2–8; Zamfirescu-Pereira
+000096 | et al. 2023, S. 9–13.)
+000097 | 
+000098 | Bei Formularen erfüllt Texteingabe eine andere Funktion: Sie dient weniger der
+000099 | Formulierung einer Anweisung oder offenen Anfrage als der strukturierten
+000100 | Übermittlung abgefragter Informationen an das System. Im Vergleich zu den zuvor
+000101 | beschriebenen Eingabeformen ist hier häufig deutlicher gekennzeichnet, welche
+000102 | Informationen das System erwartet und in welchem Format sie einzugeben sind (vgl.
+000103 | Cui et al. 2025, S. 9, 12–14; Seckler et al. 2014, S. 1276–1282). Registrierungs-,
+000104 | Kontakt- oder Zahlungsformulare fordern beispielsweise Namen, E-Mail-Adressen,
+000105 | Telefonnummern oder Zahlungsdaten in unterschiedlichen Kombinationen an (vgl. Cui
+000106 | et al. 2025, S. 9, 12–14). Der Aufwand verlagert sich damit von der Bestimmung der
+000107 | erwarteten Eingabe auf das Abrufen und Bereitstellen der verlangten Informationen
+000108 | im vorgegebenen Format. Nicht alle Formularfelder verlangen jedoch lediglich die
+000109 | Übermittlung bereits vorhandener Informationen. Bei der Vergabe eines Passworts
+000110 | müssen Nutzer*innen eine neue Zeichenfolge erzeugen und dabei bestimmte
+000111 | Sicherheitsanforderungen berücksichtigen. Adams und Sasse stellten in einer
+000112 | Befragung und anschließenden Interviews fest, dass viele Teilnehmende nur
+000113 | begrenztes Wissen über sichere Passwortgestaltung besaßen. Explizite Regeln und
+000114 | Rückmeldungen können die erwarteten Anforderungen zwar sichtbar machen, ihre
+000115 | Umsetzung setzt jedoch weiterhin entsprechendes Wissen voraus (vgl. Adams/Sasse
+000116 | 1999, S. 40–46).
+000117 | 
+000118 | Die verschiedenen Formen der Texteingabe beseitigen die vorausgesetzte
+000119 | Wissensarbeit also nicht. Sie verteilen sie lediglich unterschiedlich.
+000120 | Befehlssysteme verlangen Kenntnisse expliziter Kommandos und syntaktischer Regeln.
+000121 | Such- und Promptfelder lassen die Formulierung offener und verlangen dafür
+000122 | Einschätzungen über geeignete Begriffe, notwendigen Kontext und die Fähigkeiten
+000123 | des Systems. Formulare machen einen Teil dieser Anforderungen sichtbar, setzen
+000124 | dafür aber voraus, dass vorgegebene Informationen verfügbar sind und korrekt
+000125 | eingegeben werden können.
+000126 | 
+000127 | was würde hyto styrl dazu sagen?
+000128 | 
+000129 | Wenn man deinen Abschnitt durch Hito Steyerls Denken liest – ohne ihr natürlich
+000130 | konkrete Aussagen in den Mund legen zu wollen –, würde sie vermutlich weniger
+000131 | bestreiten, was du beschreibst, sondern fragen: Warum beschreibst du diese
+000132 | Prozesse so neutral? Wer oder was verschwindet durch diese Beschreibung?
+000133 | 
+000134 | Dein Text argumentiert momentan stark aus einer klassischen HCI-Perspektive: Ein
+000135 | Mensch hat eine Intention → führt eine Handlung aus → das System interpretiert sie
+000136 | → eventuell entsteht ein Fehler → der Mensch korrigiert. Steyerl interessiert sich
+000137 | dagegen gerade für die politischen, materiellen und infrastrukturellen Bedingungen
+000138 | solcher technischen Vermittlung. In Proxy Politics: Signal and Noise beschreibt
+000139 | sie beispielsweise technische Wahrnehmung nicht als neutrale Abbildung eines
+000140 | bereits vorhandenen Signals: Algorithmen entscheiden überhaupt erst, was als
+000141 | Signal und was als Rauschen erscheint.
+000142 | 
+000143 | Deshalb würde sie an mehreren Stellen nachhaken:
+000144 | 
+000145 | „Technische Interpretation“ ist bei dir noch eine Black Box.
+000146 | Bei Touchscreens schreibst du etwa:
+000147 | 
+000148 | „…muss das System zudem die Position jeder Berührung interpretieren und der
+000149 | vermutlich beabsichtigten Taste zuordnen.“
+000150 | 
+000151 | Das Wort „vermutlich“ ist eigentlich hochinteressant. Das System empfängt nicht
+000152 | einfach eine eindeutige Handlung, sondern produziert aus Messwerten eine plausible
+000153 | Intention. Dasselbe gilt noch viel stärker bei Sprache und KI. Die Eingabe
+000154 | existiert damit für das System nicht einfach – sie wird klassifiziert,
+000155 | normalisiert und rekonstruiert.
+000156 | 
+000157 | Eine Steyerl-artige Zuspitzung wäre deshalb:
+000158 | 
+000159 | Zwischen körperlicher Handlung und digitaler Eingabe liegt kein neutraler
+000160 | Übertragungskanal, sondern ein technischer Interpretationsprozess, der
+000161 | entscheidet, welche Handlung als welche Eingabe lesbar wird.
+000162 | 
+000163 | Das würde deinen Abschnitt deutlich interessanter machen.
+000164 | 
+000165 | Sie würde wahrscheinlich das Wort „NutzerIn“ problematisieren.
+000166 | In deinem Text ist „der Nutzer“ relativ souverän: Er hat eine Absicht, formuliert
+000167 | sie und versucht, das System dazu zu bringen, diese zu verstehen.
+000168 | 
+000169 | Aber insbesondere bei KI-Systemen entsteht die Position des Nutzers teilweise erst
+000170 | im Verhältnis zum System. Der Mensch lernt beispielsweise:
+000171 | 
+000172 | welche Fragen „funktionieren“,
+000173 | wie detailliert ein Prompt sein sollte,
+000174 | welches Vokabular das Modell versteht,
+000175 | welche Dinge es verweigert,
+000176 | welche Antwortformate zuverlässig erzeugt werden.
+000177 | 
+000178 | Man passt also nicht nur die Eingabe an das System an. Das System trainiert
+000179 | gewissermaßen auch den Nutzer darin, wie er mit ihm sprechen soll.
+000180 | 
+000181 | Genau hier könntest du deine Zamfirescu-Pereira-Passage theoretisch stärker
+000182 | machen. Momentan lautet die Aussage ungefähr: Nutzer müssen lernen, richtig zu
+000183 | prompten. Spannender wäre:
+000184 | 
+000185 | Die Interaktion produziert dabei sukzessive ein praktisches Modell des Systems, an
+000186 | dem NutzerInnen wiederum ihre zukünftigen Eingaben ausrichten.
+000187 | 
+000188 | Damit ist die Beziehung weniger „Mensch benutzt Werkzeug“ und stärker gegenseitige
+000189 | Anpassung.
+000190 | 
+000191 | Steyerl würde fragen: Wer bestimmt überhaupt, was als gültige Eingabe gilt?
+000192 | Dein Satz
+000193 | 
+000194 | „Auch wenn ein Texteingabefeld unterschiedliche Eingaben zulässt, ist nicht jede
+000195 | Eingabe für das System gültig oder führt zu den gewünschten Reaktionen.“
+000196 | 
+000197 | ist eigentlich ein möglicher theoretischer Kern deiner ganzen Arbeit.
+000198 | 
+000199 | Denn dann stellt sich sofort die Frage:
+000200 | 
+000201 | Wer legt diesen Raum möglicher Eingaben fest?
+000202 | 
+000203 | Bei mkdir ist er relativ explizit: eine Syntax definiert gültige Operationen. Beim
+000204 | Formular ebenfalls: Feldtypen und Validierungsregeln begrenzen die Eingabe.
+000205 | 
+000206 | Beim LLM erscheint der Raum dagegen nahezu unbegrenzt. Trotzdem existieren
+000207 | Grenzen: Trainingsdaten, Systemprompts, Moderationssysteme, Kontextfenster,
+000208 | Modellarchitektur, Produktentscheidungen usw. Die Oberfläche kommuniziert also
+000209 | Offenheit, während die Operation weiterhin hochgradig technisch bestimmt ist.
+000210 | 
+000211 | Das passt extrem gut zu deiner Struktur Surface → Interaction → Operation.
+000212 | 
+000213 | Sie würde vermutlich deine Schlussbeobachtung radikalisieren.
+000214 | Dein letzter Satz des ersten Abschnitts ist schon sehr nah an einer solchen
+000215 | Perspektive:
+000216 | 
+000217 | „Im fertigen Text ist dieser Entstehungsprozess nicht mehr sichtbar. Er zeigt nur
+000218 | das Ergebnis, nicht die Bewegungen, Fehlversuche und Korrekturen, die ihm
+000219 | vorausgingen.“
+000220 | 
+000221 | Ich glaube, hier würde Steyerl einhaken. Denn Unsichtbarkeit ist in ihrem Denken
+000222 | nicht einfach ein visueller Nebeneffekt. Screens, Bilder und technische Systeme
+000223 | können gleichzeitig etwas zeigen und seine Produktionsbedingungen verdecken. In
+000224 | Duty-Free Art beschreibt sie den Screen entsprechend als etwas, das Sichtbarkeit
+000225 | sowohl erzeugen als auch reduzieren, offenlegen wie verbergen kann.
+000226 | 
+000227 | Auf deine Arbeit übertragen:
+000228 | 
+000229 | Das Eingabefeld zeigt das Resultat der Eingabe und lässt gleichzeitig die Arbeit
+000230 | verschwinden, durch die dieses Resultat entstanden ist.
+000231 | 
+000232 | Und das betrifft nicht nur Fingerbewegungen. Es verschwinden auch:
+000233 | 
+000234 | Such- und Formulierungsarbeit,
+000235 | Korrekturen,
+000236 | verworfene Prompts,
+000237 | gelerntes Systemwissen,
+000238 | automatische Korrektur,
+000239 | Klassifikation durch das Interface.
+000240 | 
+000241 | Das finde ich für deine Thesis sehr stark.
+000242 | 
+000243 | Der größere Steyerl-Einwand wäre deshalb wahrscheinlich: Du beschreibst bisher
+000244 | sehr genau die Arbeit, die eine Eingabe erfordert, behandelst aber das technische
+000245 | System noch etwas zu sehr als neutrale Gegenstelle.
+000246 | 
+000247 | Und genau da liegt meines Erachtens der interessanteste nächste Schritt deiner
+000248 | Arbeit. Nicht unbedingt die gesamte Interaction-Sektion politisieren – vieles
+000249 | davon darf ruhig sachlich-HCI-theoretisch bleiben. Aber du könntest langsam einen
+000250 | Gedanken etablieren:
+000251 | 
+000252 | Texteingabe ist keine unmittelbare Übertragung einer menschlichen Intention an ein
+000253 | Computersystem. Zwischen Intention und Operation liegt eine Folge von
+000254 | Übersetzungen, Interpretationen und Anpassungen, in denen sowohl NutzerInnen als
+000255 | auch System bestimmen, welche Eingabe schließlich wirksam wird.
+000256 | 
+000257 | Dann bekommt auch deine Dreiteilung noch einmal mehr theoretische Kraft:
+000258 | 
+000259 | Surface → Das Feld erscheint einfach und offen.
+000260 | Interaction → Die Eingabe erfordert körperliche, sprachliche und erlernte Arbeit
+000261 | und wird technisch interpretiert.
+000262 | Operation → Erst dort zeigt sich, dass die scheinbar offene Eingabe in einen
+000263 | unsichtbaren technischen Möglichkeitsraum übersetzt wird.
+000264 | 
+000265 | Das wäre wahrscheinlich die Stelle, an der deine Arbeit von einer guten Typologie
+000266 | von Texteingabe zu einer eigentlichen medientheoretischen Argumentation kippt.
+000267 | Steyerls Arbeiten sind gerade deshalb anschlussfähig, weil sie immer wieder darauf
+000268 | insistieren, nicht nur das sichtbare Ergebnis, sondern dessen technische und
+000269 | ökonomische Bedingungen zu betrachten. The Wretched of the Screen wird
+000270 | entsprechend als Untersuchung der politischen und technologischen Bedingungen von
+000271 | Bildern und Screens beschrieben.
+000272 | 
+000273 | Ich würde dabei aber nicht unbedingt Hito Steyerl direkt in diesen
+000274 | Interaction-Abschnitt hineinholen. Inhaltlich könnte ihr Denken eher die Brücke
+000275 | von Interaction → Operation liefern: von „Welche Arbeit muss ich leisten, um etwas
+000276 | einzugeben?“ zu „Was geschieht mit meiner Eingabe eigentlich, nachdem sie die
+000277 | Oberfläche verlassen hat?“ Das wäre für deine bestehende Struktur ziemlich
+000278 | elegant.
+000279 | 
+000280 | Und ich bin aber auch immer noch so ein bisschen unschlüssig. Also ich finde das
+000281 | sehr gut erstmal. Das ist, glaube ich, ein guter Twist. Meine vier
+000282 | Beobachtungsgegenstände: Command Line, Suchfeld, Promptfeld, Formular. Also ob das
+000283 | nicht vielleicht, man sich da nicht spezialisiert, vielleicht einfach nur Suchfeld
+000284 | und Promptfeld. Oder ob eben diese Bandbreite gerade interessant ist. Aber dann
+000285 | müsste man entweder die Ambition haben, irgendwie die komplette Bandbreite an
+000286 | Texteingabe abzudecken, die so auf eine Systemoperation abzielen. Vielleicht ist
+000287 | es damit auch so. Oder man konzentriert sich ein wenig so auf Suche und
+000288 | Promptfeld.
+000289 | 
+000290 | Ich glaube, dein eigentliches Problem ist weniger die Anzahl der
+000291 | Beobachtungsgegenstände als welchen Anspruch du mit ihnen erhebst.
+000292 | 
+000293 | Wenn du sagst: „Ich untersuche Texteingabe in Computersystemen“, wirken vier
+000294 | Beispiele schnell so, als müssten sie stellvertretend eine riesige Bandbreite
+000295 | vollständig abdecken. Wenn du dagegen sagst: „Ich untersuche vier kontrastierende
+000296 | Formen der Texteingabe, um unterschiedliche Beziehungen zwischen Oberfläche,
+000297 | Interaktion und Operation sichtbar zu machen“, wird die Auswahl sehr plausibel.
+000298 | 
+000299 | Und dann finde ich die vier Fälle sogar stärker als nur Suchfeld + Promptfeld.
+000300 | 
+000301 | Der Grund ist, dass sie eine ziemlich schöne Spannweite bilden:
+000302 | 
+000303 |         stark vorgegeben        offen formuliert
+000304 | Operation relativ eindeutig     Command Line    Suchfeld
+000305 | Operation/Ergebnis variabler    Formular*       Promptfeld
+000306 | 
+000307 | Nicht exakt so mathematisch natürlich – aber jeder Fall verkörpert eine andere
+000308 | Art, wie die Oberfläche den möglichen Input und die dahinterliegende Operation
+000309 | kommuniziert.
+000310 | 
+000311 | Command Line: maximale Explizitheit der Operation, aber hohe Voraussetzung an
+000312 | Systemwissen.
+000313 | Formular: starke Führung durch die Oberfläche; der Raum der möglichen Eingaben
+000314 | wird sichtbar begrenzt.
+000315 | Suchfeld: formal extrem offen und minimal, aber die erwartete Handlung – „suchen“
+000316 | – ist relativ klar.
+000317 | Promptfeld: formal ähnlich offen wie das Suchfeld, aber nun ist sogar die Menge
+000318 | möglicher Operationen unscharf.
+000319 | 
+000320 | Gerade deshalb würde ich Command Line und Formular nicht vorschnell streichen. Sie
+000321 | sind theoretisch weniger deine Hauptgegenstände als Kontrastfolien, durch die
+000322 | überhaupt sichtbar wird, was am Promptfeld merkwürdig ist.
+000323 | 
+000324 | Das Promptfeld wird durch die anderen drei interessanter
+000325 | 
+000326 | Wenn du nur Suchfeld und Promptfeld vergleichst, bekommst du wahrscheinlich eine
+000327 | sehr klare Erzählung:
+000328 | 
+000329 | Search → Prompt
+000330 | von Informationsretrieval → generativer/agentischer Interaktion
+000331 | von Query → Instruction
+000332 | von relativ bestimmter → zunehmend offener Operation.
+000333 | 
+000334 | Das wäre absolut eine mögliche Thesis. Sie wäre fokussierter und vermutlich
+000335 | leichter stringent zu schreiben.
+000336 | 
+000337 | Aber du verlierst dabei etwas, das ich inzwischen für einen ziemlich starken
+000338 | Gedanken deiner Arbeit halte:
+000339 | 
+000340 | Das Texteingabefeld bleibt formal erstaunlich ähnlich, obwohl sich die
+000341 | Anforderungen an die Eingabe und die dahinter möglichen Operationen radikal
+000342 | unterscheiden.
+000343 | 
+000344 | Dafür brauchst du eigentlich die Spannweite.
+000345 | 
+000346 | mkdir entwurf
+000347 | 
+000348 | E-Mail-Adresse: [________]
+000349 | 
+000350 | [ Google durchsuchen … ]
+000351 | 
+000352 | [ Ask anything … ]
+000353 | 
+000354 | Alle vier sind im weitesten Sinne: Text wird eingegeben und löst eine rechnerische
+000355 | Operation aus.
+000356 | 
+000357 | Aber das Verhältnis zwischen dem, was die Oberfläche zeigt, dem, was der Mensch
+000358 | wissen und tun muss, und dem, was das System anschließend tun kann, ist komplett
+000359 | unterschiedlich.
+000360 | 
+000361 | Das ist fast schon deine Arbeit.
+000362 | 
+000363 | Ich würde daher nicht behaupten, dass du „die komplette Bandbreite“ abdeckst
+000364 | 
+000365 | Das wäre unnötig angreifbar. Es gibt schließlich noch Code-Editoren, Chat,
+000366 | URL-Bar, Datenbankabfragen, Terminal-Prompts, Texteingaben in Games,
+000367 | Autocomplete-Systeme usw.
+000368 | 
+000369 | Stattdessen könntest du sie explizit als vier ausgewählte Typen oder vier
+000370 | kontrastierende Fälle definieren.
+000371 | 
+000372 | Zum Beispiel ungefähr:
+000373 | 
+000374 | Die Arbeit erhebt nicht den Anspruch, sämtliche Formen digitaler Texteingabe
+000375 | systematisch zu erfassen. Stattdessen werden vier exemplarische Eingabesituationen
+000376 | betrachtet – Command Line, Formular, Suchfeld und Promptfeld –, die
+000377 | unterschiedliche Verhältnisse zwischen sichtbarer Oberfläche, erforderlicher
+000378 | Interaktionsarbeit und ausgelöster Systemoperation repräsentieren.
+000379 | 
+000380 | Dann bist du dieses Vollständigkeitsproblem praktisch los.
+000381 | 
+000382 | Und du kannst innerhalb der Kapitel auch unterschiedlich gewichten. Du musst nicht
+000383 | jedem Gegenstand 25 % geben.
+000384 | 
+000385 | Ich könnte mir ungefähr vorstellen:
+000386 | 
+000387 | Surface
+000388 | Alle vier relativ gleichwertig vergleichen. Hier ist der Kontrast besonders
+000389 | visuell stark.
+000390 | 
+000391 | Interaction
+000392 | Command Line und Formular kompakter als Pole behandeln; Search und Prompt
+000393 | ausführlicher.
+000394 | 
+000395 | Operation
+000396 | Noch stärker Richtung Search → Prompt gehen, weil hier der Wandel der
+000397 | Operationsmöglichkeiten besonders relevant wird.
+000398 | 
+000399 | Dadurch beginnt die Arbeit breit und vergleichend und zoomt zunehmend auf das
+000400 | Promptfeld ein.
+000401 | 
+000402 | Das würde ich sogar spannender finden als eine von Anfang an ausschließlich auf
+000403 | Search/Prompt beschränkte Arbeit.
+000404 | 
+000405 | Denn dann könnte die Gesamtbewegung ungefähr sein:
+000406 | 
+000407 | Vier ähnliche Oberflächen → vier sehr unterschiedliche Interaktionen → zunehmend
+000408 | offene Operationen → Promptfeld als Extremfall.
+000409 | 
+000410 | Und hier kommt auch der gerade besprochene Steyerl-Twist sehr gut rein: Je offener
+000411 | und einfacher die Oberfläche erscheint, desto mehr der tatsächlichen
+000412 | Übersetzungs-, Interpretations- und Entscheidungsprozesse wandert hinter die
+000413 | Oberfläche.
+000414 | 
+000415 | Das wäre für mich derzeit die stärkste Variante: nicht vier gleichberechtigte
+000416 | historische Fallstudien, sondern vier bewusst gewählte Vergleichsobjekte, mit
+000417 | Search und insbesondere Prompt als Schwerpunkt. Damit behältst du die Bandbreite,
+000418 | ohne den Anspruch einer vollständigen Taxonomie aufmachen zu müssen.

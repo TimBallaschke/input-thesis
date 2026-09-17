@@ -1,0 +1,147 @@
+{
+  "archive_id": "CGPT-14",
+  "excluded_counts": {
+    "empty_node": 1,
+    "non_conversation_role": 84,
+    "non_text_content:model_editable_context": 5,
+    "non_text_content:reasoning_recap": 6,
+    "non_text_content:thoughts": 6,
+    "tool_routed": 12
+  },
+  "extraction": "Public share HTML route data; selected linear conversation; visible user/assistant text only",
+  "limits": [
+    "Share is a snapshot, not a guarantee of the complete original chat or all branches.",
+    "Attached files/images and linked sandbox artifacts are not archived unless separately supplied.",
+    "Share creation timestamps are not original conversation timestamps.",
+    "Model labels and timestamps are provider metadata, not independently verified.",
+    "No token/cost/time-of-work figures are inferred; no source validation or manuscript adoption implied.",
+    "Hidden reasoning, system/developer context, model memory and tool payloads excluded."
+  ],
+  "message_count": 13,
+  "message_line_ranges": [
+    {
+      "end_line": 23,
+      "message_id": "9f5b31da-8731-440d-a7ef-f6c7850ce822",
+      "sequence": 1,
+      "start_line": 13
+    },
+    {
+      "end_line": 29,
+      "message_id": "b9278d22-43fc-49dc-aef9-daf9da66d2f0",
+      "sequence": 2,
+      "start_line": 25
+    },
+    {
+      "end_line": 141,
+      "message_id": "09c7ddc1-2c09-45e0-ab68-401059c16ded",
+      "sequence": 3,
+      "start_line": 31
+    },
+    {
+      "end_line": 150,
+      "message_id": "b1a177e4-a3a2-45d2-9cf6-780baeb3f555",
+      "sequence": 4,
+      "start_line": 143
+    },
+    {
+      "end_line": 179,
+      "message_id": "f8754e7a-2ac8-43b4-80b2-ce962c03d0ca",
+      "sequence": 5,
+      "start_line": 152
+    },
+    {
+      "end_line": 230,
+      "message_id": "59af13ee-33e3-456a-8c36-ea9fbe3297ea",
+      "sequence": 6,
+      "start_line": 181
+    },
+    {
+      "end_line": 257,
+      "message_id": "76e6cfd9-61b3-4c3c-9f60-b520d4d32d89",
+      "sequence": 7,
+      "start_line": 232
+    },
+    {
+      "end_line": 308,
+      "message_id": "60d3de0d-d386-4d7d-8782-47d92fb942b1",
+      "sequence": 8,
+      "start_line": 259
+    },
+    {
+      "end_line": 337,
+      "message_id": "d7d1e0e9-7138-4e40-bcc4-1d643be63a1d",
+      "sequence": 9,
+      "start_line": 310
+    },
+    {
+      "end_line": 387,
+      "message_id": "bf3f88f6-db4e-410a-be0d-3568e5772a9c",
+      "sequence": 10,
+      "start_line": 339
+    },
+    {
+      "end_line": 412,
+      "message_id": "87140292-1665-4623-8bbf-56ac2a7837f9",
+      "sequence": 11,
+      "start_line": 389
+    },
+    {
+      "end_line": 468,
+      "message_id": "c84a3a5e-d7c1-48cd-aad5-f1e40c959220",
+      "sequence": 12,
+      "start_line": 414
+    },
+    {
+      "end_line": 501,
+      "message_id": "d92b7396-eb3e-4ab5-9bc1-c9a2cbc0e3bb",
+      "sequence": 13,
+      "start_line": 470
+    }
+  ],
+  "messages_end_utc": "2026-08-30T17:46:31.082152+00:00",
+  "messages_file": "cgpt-14-share-6aabaa4a-8af4-83eb-a267-9b3b38d924d9-messages.jsonl",
+  "messages_sha256": "e39a8fc2754e046d8b1c47a24f6643397bb0488c733c5fc867a2370fa165eca6",
+  "messages_start_utc": "2026-08-30T14:16:20.843000+00:00",
+  "missing_material": [
+    {
+      "attachments": [
+        {
+          "id": "file_00000000851c81f49cbf9c2ee4f473cd",
+          "mime_type": "application/vnd.apple.pages",
+          "name": "Struktur_Masterarbeit_Input.pages",
+          "size": 748875
+        },
+        {
+          "id": "file_00000000de9481f488c7307087320615",
+          "mime_type": "text/markdown",
+          "name": "QUELLENUEBERSICHT_INTERACTION_PHYSICAL_INPUT_COMPACT_01.md",
+          "size": 2858
+        }
+      ],
+      "kind": "attachment_content_unavailable",
+      "message_id": "9f5b31da-8731-440d-a7ef-f6c7850ce822",
+      "nontext_types": []
+    }
+  ],
+  "phases": {
+    "commentary": 1,
+    "final": 6,
+    "prompt": 6
+  },
+  "raw_http_response_retained": false,
+  "retrieved_at_utc": "2026-09-17T08:58:38.153900+00:00",
+  "retrieved_url": "https://chatgpt.com/share/6aabaa4a-8af4-83eb-a267-9b3b38d924d9",
+  "roles": {
+    "assistant": 7,
+    "user": 6
+  },
+  "share_created_at_utc": "2026-09-17T08:52:26.569386+00:00",
+  "share_updated_at_utc": "2026-09-17T08:52:29.099974+00:00",
+  "share_url": "https://chatgpt.com/share/6aabaa4a-8af4-83eb-a267-9b3b38d924d9",
+  "source_http_response_sha256": "5404032fd3fa2851993016ebdd0c78369f1de0bf4ea82167ac8e2c6e114af7e6",
+  "source_node_count": 127,
+  "title": "Formulierungen Thesis",
+  "transcript_file": "cgpt-14-share-6aabaa4a-8af4-83eb-a267-9b3b38d924d9-transcript.txt",
+  "transcript_lines": 502,
+  "transcript_sha256": "a96d3c1ae3aefa2fbd10e1bb7e3045fdc1b12713269518354afdd4839318fd46"
+}

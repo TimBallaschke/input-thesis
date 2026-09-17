@@ -1,0 +1,103 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: DRAFT-07
+000003 | Title: Physical input section with supplied correction annotations 02-05
+000004 | Source SHA-256: 4e1e995d58041fcc990785e227e96413b2c4bccf0d429b5caa5d1980f48bd8f6
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | Display: Unicode line/paragraph separators rendered as line breaks
+000007 | 
+000008 | Eingabe als physischer Prozess
+000009 | Texteingabe setzt zunächst eine körperliche Handlung voraus. Bevor Text als
+000010 | Inhalt, Anfrage oder Befehl verarbeitet werden kann, muss er zunächst erzeugt und
+000011 | vom System erfasst werden. Diese körperliche Ausführung erfordert motorische
+000012 | Bewegung sowie visuelle Aufmerksamkeit und ist von der sprachlichen
+000013 | Formulierungsarbeit zu unterscheiden. Derselbe sichtbare Text kann aus sehr
+000014 | unterschiedlichen Eingabeprozessen hervorgehen (vgl. Feit et al. 2016, S.
+000015 | 4264–4271; MacKenzie/Soukoreff 2002, S. 154–160, 163–165). Dabei wird eine
+000016 | körperliche Handlung nicht unmittelbar zu Text. Zwischen einer physischen Eingabe
+000017 | und dem sichtbaren Ergebnis liegen technische Zuordnungs- oder Erkennungsprozesse.
+000018 | Texteingabe entsteht somit im Zusammenspiel zwischen körperlicher Handlung und
+000019 | technischer Verarbeitung. Welche Arbeit dabei vom Nutzer und welche vom System
+000020 | übernommen wird, unterscheidet sich je nach Eingabeverfahren.
+000021 | Anmerkung 02  ·  Wichtig  ·  Straffen und präzisieren
+000022 | Den Auftakt auf seine eigentliche Aussage reduzieren. Der Absatz erklärt mehrfach,
+000023 | dass körperliche Handlung und technische Verarbeitung zusammenwirken. Drei Sätze
+000024 | reichen. Die pauschale Voraussetzung visueller Aufmerksamkeit ist zudem zu eng für
+000025 | einen Abschnitt, der verschiedene Zugangsweisen behandeln soll. Formuliere
+000026 | verfahrensbezogen, ohne Sehen zur allgemeinen Bedingung von Texteingabe zu machen.
+000027 | Mögliche Fassung: Texteingabe verbindet körperliche Handlung mit technischer
+000028 | Zuordnung oder Erkennung. Welche motorischen und wahrnehmungsbezogenen
+000029 | Anforderungen dabei entstehen, hängt vom Eingabeverfahren ab. Derselbe sichtbare
+000030 | Text kann deshalb aus unterschiedlichen Prozessen hervorgehen, in denen Mensch und
+000031 | System jeweils andere Aufgaben übernehmen.
+000032 | Die vorhandenen Belege den jeweils gestützten Aussagen zuordnen; der Vorschlag
+000033 | ersetzt den gesamten Absatz.
+000034 | Das Tippen auf einer physischen Tastatur koordiniert Finger-, Hand- und
+000035 | Blickbewegungen. Dabei kommen unterschiedliche, teils individuell erlernte
+000036 | Schreibtechniken zum Einsatz. Ein Tastendruck wird vom System registriert und
+000037 | einem Zeichen oder einer Funktion zugeordnet (vgl. Feit et al. 2016, S.
+000038 | 4262–4271). Auf einem Touchscreen verändert sich dieser Bewegungsablauf:
+000039 | Griffhaltung, Geräteformat beeinflussen die Eingabe, während das System die
+000040 | Position einer Berührung einer vermutlich beabsichtigten Taste zuordnen muss.
+000041 | Spracheingabe verlagert die körperliche Ausführung auf das Sprechen. Das
+000042 | akustische Signal wird technisch erkannt und in eine wahrscheinliche Zeichenfolge
+000043 | übersetzt, die anschließend kontrolliert und gegebenenfalls korrigiert werden muss
+000044 | (vgl. Ruan et al. 2017, Art. 159:13–159:17).
+000045 | Wie diese Handlungen ausgeführt werden, wird zugleich durch die Gestaltung des
+000046 | jeweiligen Eingabesystems geprägt. Bei einer Tastatur legt etwa das verwendete
+000047 | Testen-Layout fest, an welcher Position einzelne Zeichen erreichbar sind.
+000048 | Verbreitete Anordnungen wie QWERTY entstanden im Kontext früher Schreibmaschinen
+000049 | und wurden anschließend durch technische Entwicklung und Standardisierung
+000050 | langfristig etabliert. Ihre heutige Nutzung beruht auf erlernten motorischen
+000051 | Routinen (vgl. Galbraith/Kay 2025, PDF-S. 5–8, 16–19; Feit et al. 2016, S.
+000052 | 4268–4271). Auch auf Touchscreens strukturieren Größe, Position und Anordnung der
+000053 | Tasten mögliche Bewegungen vor. Bei der Spracheingabe kann wiederum die
+000054 | Rückmeldung des Systems dazu führen, dass NutzerInnen ihre Eingabe wiederholen,
+000055 | verändern oder korrigieren. Eingabearbeit entsteht damit im Wechselspiel zwischen
+000056 | menschlicher Anpassung, technischer Verarbeitung und Rückmeldung. Eingabesysteme
+000057 | legen bestimmte Nutzungsweisen nahe und setzen dabei bestimmte Fähigkeiten,
+000058 | Routinen und Verhaltensweisen ihrer NutzerInnen voraus (vgl. Akrich 1992, S.
+000059 | 207–211, 216–222).
+000060 | Anmerkung 03  ·  Endredaktion  ·  Sprache
+000061 | Zwei lokale Fehler und eine Wiederholung beheben. Im vorigen Absatz fehlt in
+000062 | »Griffhaltung, Geräteformat« ein »und«. Hier muss »Testen-Layout« zu
+000063 | »Tastenlayout« werden. Im ersten Absatz »vom Nutzer« außerdem an die sonstige
+000064 | Personenbezeichnung angleichen. Inhaltlich wiederholt »Eingabearbeit entsteht
+000065 | damit im Wechselspiel …« den Auftakt; diesen Satz kannst du streichen. Die
+000066 | anschließende Aussage über vorausgesetzte Fähigkeiten und Routinen mit Akrich
+000067 | beibehalten: Sie macht aus der technischen Beschreibung eine gestaltungsbezogene
+000068 | Analyse.
+000069 | Diese Voraussetzungen sind nicht für alle NutzerInnen gleich. Welche Zeichen
+000070 | unmittelbar verfügbar sind und welche zusätzliche Schritte erfordern, hängt unter
+000071 | anderem von Sprache, Schriftsystem und verwendetem Layout ab. Auch technische
+000072 | Spracherkennungssysteme funktionieren nicht für alle Sprechweisen gleich
+000073 | zuverlässig. Koenecke et al. untersuchten fünf kommerzielle
+000074 | Spracherkennungssysteme und fanden in ihrem US-amerikanischen Datensatz eine
+000075 | durchschnittliche Wortfehlerrate von 0,35 für Black speakers gegenüber 0,19 für
+000076 | White speakers (vgl. Koenecke et al. 2020, S. 7684–7688). Die untersuchten Systeme
+000077 | erkannten die Äußerungen der beiden Gruppen damit unterschiedlich zuverlässig.
+000078 | Dies wirft die Frage auf, welche Körper, Sprachen und Sprechweisen von einem
+000079 | System vorausgesetzt werden und für wen zusätzliche Anpassungs- oder
+000080 | Kontrollarbeit entsteht.
+000081 | Anmerkung 04  ·  Wichtig  ·  Belegreichweite
+000082 | Gemessene Fehler und abgeleitete Mehrarbeit trennen. Das Beispiel sollte bleiben.
+000083 | Der referierte Befund betrifft Wortfehlerraten in den untersuchten Systemen und im
+000084 | genannten Datensatz. Daraus folgt nicht bereits eine gemessene Dauer zusätzlicher
+000085 | Kontrollarbeit. Deine Schlussfrage ist deshalb angemessen vorsichtig. Wenn du sie
+000086 | zuspitzen möchtest, kennzeichne die Mehrarbeit ausdrücklich als mögliche Folge.
+000087 | Die Begriffe Black speakers und White speakers einmal als Kategorien der Studie
+000088 | einführen; den Befund nicht auf sämtliche Sprachen oder heutigen Systeme
+000089 | ausdehnen.
+000090 | Im fertigen Text bleiben diese Vorgänge weitgehend unsichtbar. Aus einer
+000091 | Zeichenfolge lässt sich nicht ablesen, durch welches Eingabeverfahren sie
+000092 | entstanden ist, welche Bewegungen und erlernten Routinen dafür notwendig waren
+000093 | oder welche technischen Zuordnungen und Korrekturen stattgefunden haben. Die
+000094 | einheitliche Form des Textes verdeckt damit die unterschiedlichen Prozesse seiner
+000095 | Entstehung.
+000096 | Anmerkung 05  ·  Beibehalten  ·  Erkenntnis
+000097 | Dieser Schluss trägt den ersten Abschnitt. Hier wird die Relevanz der
+000098 | vorausgehenden Beschreibung deutlich: Am fertigen Text sind die Bedingungen seiner
+000099 | Herstellung nicht ablesbar. Das ist eine tragfähige Teilerkenntnis. Den letzten
+000100 | Satz könntest du nüchterner formulieren: »Die einheitliche Form des Textes lässt
+000101 | seine unterschiedlichen Entstehungsbedingungen nicht erkennen.« Später bei
+000102 | »Korrigieren und Bearbeiten« diese allgemeine Aussage nicht erneut vollständig
+000103 | entwickeln, sondern dort auf den Anteil von Mensch und System zuspitzen.

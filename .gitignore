@@ -1,3 +1,9 @@
 .DS_Store
 .codex_tmp/
 tmp/
+
+# Independently versioned website repository.
+/website/
+
+# Temporary output from individual documentation build passes.
+/ai-documentation/build/*-pass[12].log

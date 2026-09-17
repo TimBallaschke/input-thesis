@@ -26,3 +26,18 @@ Texteingabe setzt je nach Interface unterschiedliche Formen von Wissen und kogni
 ## Entscheidung
 
 Die vorhandenen Quellen und die gezielt ergänzte POSIX-Spezifikation reichen für den autorbestätigten kurzen Vergleich aus. Offen bleibt ein kontrollierter Direktvergleich von Command, Suche, Prompt und Formular bei derselben Aufgabe; keine Eingabeform darf pauschal als leichter bezeichnet werden. Die Hinweise auf Gedächtnis, Unterlagen und andere Systeme sind als Projektsynthese aus der Bereitstellung verlangter Formulardaten markiert, nicht als direkt beobachteter Befund.
+
+## Kritische Ergänzung vom 14. September 2026
+
+Die obige Entscheidung bezieht sich auf den bisherigen beschreibenden Arbeitsabschnitt. Für die nun gewünschte kritische Erweiterung wurden genau zwei neue Quellen ausgewertet und einschließlich PDF nach Zotero importiert. Der bestätigte Rumpftext bleibt unverändert.
+
+**Vorgeschlagene zusätzliche Leitfrage:** Wie entstehen die verlangten Kenntnisse, und welche Unterschiede bestehen darin, sie wirksam einzusetzen?
+
+| Anschluss an die Mini-Gliederung | Quelle und Fundstelle | Benötigte Aussage | Grenze |
+| --- | --- | --- | --- |
+| Nach Befehl und Syntax | [Ritchie 1984](source-notes/ritchie-1984-evolution-unix.md), PDF-S. 7-9, RI84-P2-P4 | Konkrete Unix-Konventionen können als historisch entstandene Entscheidungen untersucht werden. | Beteiligtenbericht; organisatorische Erklärung ausdrücklich Vermutung; keine empirische Sprachbarriere. |
+| Nach Suchanfrage und Formulierung | [Hargittai 2002](source-notes/hargittai-2002-second-level-digital-divide.md), PDF-S. 3-5, 7-10 und 16-17, H02-P1-P3, P5 | Technischen Zugang von beobachteter erfolgreicher Informationssuche unterscheiden. | 54 Personen, Erhebung 2001; keine heutige algorithmische Kompetenz oder isolierte Suchfeldwirkung. |
+
+**Eigene offene Fragen für Interaction:** Wessen Gewohnheiten muss ich lernen? Welche Kenntnisse setzt das Feld voraus, und welche Unterstützung gibt es dafür? Die technische Ausführung beziehungsweise das Ranking kann Operation untersuchen; diese Anschlussfragen sind keine vorweggenommenen Beweise eines Ausschlussmechanismus.
+
+**Quellen reichen für diese begrenzte Erweiterung aus.** Nicht geschlossen sind die sprachpolitische Frage nach englischen Befehlen, heutige Verteilungen algorithmischer Kompetenz und ein kontrollierter Vergleich aller vier Eingabesituationen. Diese Themen nicht als beantwortet darstellen und nicht automatisch zum Anlass für weitere Literatur machen.

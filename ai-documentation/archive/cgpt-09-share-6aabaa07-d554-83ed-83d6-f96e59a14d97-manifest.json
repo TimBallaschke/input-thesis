@@ -1,0 +1,216 @@
+{
+  "archive_id": "CGPT-09",
+  "excluded_counts": {
+    "empty_node": 1,
+    "non_conversation_role": 34,
+    "non_text_content:model_editable_context": 5,
+    "non_text_content:reasoning_recap": 13
+  },
+  "extraction": "Public share HTML route data; selected linear conversation; visible user/assistant text only",
+  "limits": [
+    "Share is a snapshot, not a guarantee of the complete original chat or all branches.",
+    "Attached files/images and linked sandbox artifacts are not archived unless separately supplied.",
+    "Share creation timestamps are not original conversation timestamps.",
+    "Model labels and timestamps are provider metadata, not independently verified.",
+    "No token/cost/time-of-work figures are inferred; no source validation or manuscript adoption implied.",
+    "Hidden reasoning, system/developer context, model memory and tool payloads excluded."
+  ],
+  "message_count": 26,
+  "message_line_ranges": [
+    {
+      "end_line": 113,
+      "message_id": "b7069c10-507e-4bda-a9fc-eb748089984b",
+      "sequence": 1,
+      "start_line": 13
+    },
+    {
+      "end_line": 158,
+      "message_id": "2d71a729-91bc-41e6-b2c5-5db28e9316da",
+      "sequence": 2,
+      "start_line": 115
+    },
+    {
+      "end_line": 161,
+      "message_id": "8d688e04-47d3-4447-8f5c-a8b08ac47cd8",
+      "sequence": 3,
+      "start_line": 160
+    },
+    {
+      "end_line": 203,
+      "message_id": "747701ce-90f8-4fe8-bcde-0c78943aaff7",
+      "sequence": 4,
+      "start_line": 163
+    },
+    {
+      "end_line": 206,
+      "message_id": "551ed414-3de3-44b0-96d6-0f929e0c77fe",
+      "sequence": 5,
+      "start_line": 205
+    },
+    {
+      "end_line": 246,
+      "message_id": "6040c0e4-e03c-42d3-9840-f2b9bfd7dd35",
+      "sequence": 6,
+      "start_line": 208
+    },
+    {
+      "end_line": 249,
+      "message_id": "ec56d351-520f-43cc-b184-2d9a19ec5ca4",
+      "sequence": 7,
+      "start_line": 248
+    },
+    {
+      "end_line": 279,
+      "message_id": "6ae3e030-de75-45c8-a8fd-a78460a701e5",
+      "sequence": 8,
+      "start_line": 251
+    },
+    {
+      "end_line": 437,
+      "message_id": "a5caac13-ab80-4d31-a06e-d011ddb079b5",
+      "sequence": 9,
+      "start_line": 281
+    },
+    {
+      "end_line": 470,
+      "message_id": "bf5edf5a-07a9-4b36-b877-661c13c3deae",
+      "sequence": 10,
+      "start_line": 439
+    },
+    {
+      "end_line": 475,
+      "message_id": "a9dbd467-3b1e-411b-8cd8-2f7c938269da",
+      "sequence": 11,
+      "start_line": 472
+    },
+    {
+      "end_line": 501,
+      "message_id": "8cda29ea-6948-447a-9391-b6a833002fa5",
+      "sequence": 12,
+      "start_line": 477
+    },
+    {
+      "end_line": 505,
+      "message_id": "ae28d232-a53c-463f-86c2-f1f13ce471e3",
+      "sequence": 13,
+      "start_line": 503
+    },
+    {
+      "end_line": 527,
+      "message_id": "2e84391d-dd0a-4a78-a3c8-1bde79023381",
+      "sequence": 14,
+      "start_line": 507
+    },
+    {
+      "end_line": 530,
+      "message_id": "ea3e2c11-9ac9-48f2-846f-ed8582f079a4",
+      "sequence": 15,
+      "start_line": 529
+    },
+    {
+      "end_line": 567,
+      "message_id": "bef8a6fb-c215-4208-bd08-3275baa6fee8",
+      "sequence": 16,
+      "start_line": 532
+    },
+    {
+      "end_line": 596,
+      "message_id": "10140520-b79f-44df-9455-7915f609638e",
+      "sequence": 17,
+      "start_line": 569
+    },
+    {
+      "end_line": 633,
+      "message_id": "566b447f-3aa7-4856-a887-1dd17f6a6bea",
+      "sequence": 18,
+      "start_line": 598
+    },
+    {
+      "end_line": 637,
+      "message_id": "c334dc39-e757-4663-bf14-0557e3315217",
+      "sequence": 19,
+      "start_line": 635
+    },
+    {
+      "end_line": 658,
+      "message_id": "af541a8f-42e6-4679-9618-023a21743e01",
+      "sequence": 20,
+      "start_line": 639
+    },
+    {
+      "end_line": 664,
+      "message_id": "7f49ec6d-d4d0-437b-b46a-85836d44708c",
+      "sequence": 21,
+      "start_line": 660
+    },
+    {
+      "end_line": 704,
+      "message_id": "ae92a7cb-deb8-40ca-8f9a-6d73d0047fad",
+      "sequence": 22,
+      "start_line": 666
+    },
+    {
+      "end_line": 707,
+      "message_id": "f9d1f4e3-fc04-4d53-a1e4-a3ce2f8fe8ee",
+      "sequence": 23,
+      "start_line": 706
+    },
+    {
+      "end_line": 736,
+      "message_id": "de86819f-1db1-4440-bd41-c411a237ab8a",
+      "sequence": 24,
+      "start_line": 709
+    },
+    {
+      "end_line": 906,
+      "message_id": "5e4075d1-5f35-4a5a-88c3-fb15a4e09528",
+      "sequence": 25,
+      "start_line": 738
+    },
+    {
+      "end_line": 945,
+      "message_id": "c5151945-9f49-48e5-9db8-c82a61455b84",
+      "sequence": 26,
+      "start_line": 908
+    }
+  ],
+  "messages_end_utc": "2026-09-15T14:11:36.369645+00:00",
+  "messages_file": "cgpt-09-share-6aabaa07-d554-83ed-83d6-f96e59a14d97-messages.jsonl",
+  "messages_sha256": "ce548eef1acb416846bd43c98c4727a5a5504112048d073ec21e246b1eeecac6",
+  "messages_start_utc": "2026-09-15T13:29:20.599000+00:00",
+  "missing_material": [
+    {
+      "attachments": [
+        {
+          "id": "file_000000005efc8210998914a30deaea0a",
+          "mime_type": "text/plain",
+          "name": "markdown(8).md eingefügt",
+          "size": 20851
+        }
+      ],
+      "kind": "attachment_content_unavailable",
+      "message_id": "b7069c10-507e-4bda-a9fc-eb748089984b",
+      "nontext_types": []
+    }
+  ],
+  "phases": {
+    "final": 13,
+    "prompt": 13
+  },
+  "raw_http_response_retained": false,
+  "retrieved_at_utc": "2026-09-17T08:58:36.574258+00:00",
+  "retrieved_url": "https://chatgpt.com/share/6aabaa07-d554-83ed-83d6-f96e59a14d97",
+  "roles": {
+    "assistant": 13,
+    "user": 13
+  },
+  "share_created_at_utc": "2026-09-17T08:51:19.848822+00:00",
+  "share_updated_at_utc": "2026-09-17T08:51:22.282472+00:00",
+  "share_url": "https://chatgpt.com/share/6aabaa07-d554-83ed-83d6-f96e59a14d97",
+  "source_http_response_sha256": "780e9fd79505666596612c4fcd874cab23da1c875cc15fca311364a4a5c2e04c",
+  "source_node_count": 79,
+  "title": "Technische Zuordnung formulieren",
+  "transcript_file": "cgpt-09-share-6aabaa07-d554-83ed-83d6-f96e59a14d97-transcript.txt",
+  "transcript_lines": 946,
+  "transcript_sha256": "95e5e87096e66e862d1622a88efe761b131d8ea8b762cfd9d9c617b2b540bdd3"
+}

@@ -1,0 +1,751 @@
+                          Predictive Text Encourages Predictable Writing
+                Kenneth C. Arnold                                                Krysta Chauncey                               Krzysztof Z. Gajos
+                  Calvin University                                          Charles River Analytics                          Harvard University
+               Grand Rapids, Michigan                                       Cambridge, Massachusetts                        Cambridge, Massachusetts
+               kcarnold@alum.mit.edu                                          kchauncey@cra.com                              kgajos@g.harvard.edu
+
+ABSTRACT
+Intelligent text entry systems, including the now-ubiquitous pre-
+dictive keyboard, can make text entry more efficient, but little is
+known about how these systems affect the content that people
+write. To study how predictive text systems affect content, we com-
+pared image captions written with different kinds of predictive
+text suggestions. Our key findings were that captions written with
+suggestions were shorter and that they included fewer words that
+that the system did not predict. Suggestions also boosted text entry
+speed, but with diminishing benefit for faster typists. These find-
+ings imply that text entry systems should be evaluated not just by
+speed and accuracy but also by their effect on the content written.
+
+CCS CONCEPTS
+   • Human-centered computing → Text input; Empirical stud-
+ies in HCI; • Computing methodologies → Natural language
+generation.
+KEYWORDS
+    predictive text, content effects of intelligent systems
+ACM Reference Format:
+Kenneth C. Arnold, Krysta Chauncey, and Krzysztof Z. Gajos. 2020. Predic-
+tive Text Encourages Predictable Writing. In 25th International Conference on
+Intelligent User Interfaces (IUI ’20), March 17–20, 2020, Cagliari, Italy. ACM,
+New York, NY, USA, 11 pages. https://doi.org/10.1145/3377325.3377523                            Figure 1: When writing with suggestions, people tended
+                                                                                                to choose shorter and more predictable wordings (such as
+1     INTRODUCTION                                                                              ‘man’, in the screenshot above, instead of ‘hitter’ or ‘base-
+                                                                                                ball player’), than writing without such suggestions. (Image
+Predictive text suggestions are ubiquitous on touchscreen key-
+                                                                                                credit: https://flic.kr/p/6Yxc61)
+boards and are growing in popularity on desktop environments
+as well. For example, suggestions are enabled by default on both
+Android and iOS smartphones, and the widely used Gmail service
+                                                                                                   Most prior text entry studies have not been able to study the ef-
+offers phrase suggestions on both desktop and mobile [12]. The
+                                                                                                fects of suggestions on content because they either prescribed what
+impacts of system design choices on typing speed, accuracy, and
+                                                                                                text to enter (such as [8, 37]) or had no measures that were sensitive
+suggestion usage have been studied extensively [4, 8, 37]. However,
+                                                                                                to changes in content. The few prior studies that did investigate the
+relatively little is known about how text suggestions affect what
+                                                                                                content effects of phrase suggestions did not have a no-suggestions
+people write. Yet suggestions are offered up to several times per
+                                                                                                baseline [3, 4], so the effects of single-word suggestions on content
+second in the middle of an open-ended process of planning the
+                                                                                                are still unknown.
+structure and content of writing, so these suggestions have the
+                                                                                                   Predictive systems are designed to offer suggestions that reduce
+potential to shape writing content.
+                                                                                                writers’ typing effort by offering shortcuts to enter one of a small
+                                                                                                number of words that the system predicts are most likely to be typed
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed           next. As such, the suggestions are, by construction, the words that
+for profit or commercial advantage and that copies bear this notice and the full citation       are the most predictable in their context. Thus, writers who follow
+on the first page. Copyrights for components of this work owned by others than the              these suggestions may create writing that is more predictable than
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission   they would create without such suggestions.
+and/or a fee. Request permissions from permissions@acm.org.                                        To study what effects predictive text suggestions might have on
+IUI ’20, March 17–20, 2020, Cagliari, Italy                                                     content, we conducted a within-subjects study (N=109 participants,
+                                                                                                109 × 12 = 1308 texts) where writers wrote captions for images
+© 2020 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 978-1-4503-7118-6/20/03. . . $15.00
+https://doi.org/10.1145/3377325.3377523                                                         while we varied characteristics of the predictive suggestions that
+IUI ’20, March 17–20, 2020, Cagliari, Italy                                                 Kenneth C. Arnold, Krysta Chauncey, and Krzysztof Z. Gajos
+
+
+a keyboard offered. Our study compared always-available predic-           trained on a wide range of data [45, 46], though some implemen-
+tive suggestions against two alternatives. To measure the overall         tations customize the predictions using the author’s past writing
+effect of suggestions on writing content, we compared to a base-          or suggestions from conversation partners [18]. Recent systems
+line where suggestions were never shown. (We were able to make            have explored alternative interfaces, such as showing contextual
+this comparison because we used measures of content that were             phrase previews [3, 4] offering complete-sentence replies [27], and
+insensitive to differences in process.) And to study the content ef-      offering a single highly likely phrase continuation, like Google’s
+fects of an intervention previously studied only for efficiency [37],     Smart Compose [12].
+we also compared always-available suggestions to a condition in              Almost all evaluations of text input have relied on transcription
+which suggestions were hidden when the predictive system had              studies: participants were given phrases to enter as quickly and
+low confidence.                                                           accurately as possible [36]. In 2014, Kristensson and Veranen ad-
+   Our key findings were that captions written with suggestions           vocated composition tasks in text entry studies [30], but only a
+were shorter and that they included fewer words that the system           few studies published since then ([3, 4, 10, 45]) have heeded their
+did not predict. Thus, predictive text led to more predictable writing.   advice. One of these studies presented a methodology to collect
+We also found that suggestions increased typing speed, but with           typing data in the wild, but the design consideration of participant
+diminishing returns for faster typists.                                   privacy prevented collection of rich data about writing content [10].
+                                                                          Nevertheless, the study did find that people used suggestions ex-
+                                                                          tensively and that there were substantial differences in suggestion
+2     BACKGROUND
+                                                                          use between writers.
+Our work builds on prior research on communication, text entry,              The most detailed studies of the effects of text entry on writ-
+language modeling, and human factors in automation.                       ing content have been by Arnold et al. [3, 4], who studied phrase
+                                                                          suggestions on touchscreen keyboards. They found that phrase sug-
+2.1      Communication                                                    gestions influence writing content much more strongly than single
+Writing integrates processes at many different levels of cogni-           words [4], and that those influences can extend to the sentiment
+tion [16, 24, 42]. Technology has been developed to aid in some of        of writing in a review setting [3]. However, neither of their studies
+the higher-level processes of writing, such as collaboration [2, 41],     compared with a baseline of no suggestions; their findings leave
+ideation [14], information gathering [5], and feedback [26].              open the possibility that single-word suggestions have no more
+   Communication (written or spoken) is more than description             influence on content than no suggestions at all.
+of the current state of the world; it is goal-directed. Speech Act
+theory accounts for speakers’ (and writers’) communicative choices
+                                                                          2.3    Human Factors in Automation
+in terms of the effect that the communication has on the hearer
+(or reader). In particular, Rational Speech Act (RSA) theory posits       The decision of if and when to proactively offer assistance is one
+that the choice of words depends on both the effect those words are       of the key choices in the design of mixed-initiative user inter-
+expected to have on the listener and the cost of producing those          faces [25]. Predictive text systems are no exception: some systems
+words [22, 35].                                                           offer suggestions almost constantly (e.g., the “suggestion bar” in
+   Writing process theory suggests that considerations of word            most touchscreen keyboards), while other systems, such as Smart
+choice are not made a priori but rather during the course of text         Compose [12], offer suggestions only in situations where they are
+production [42]. Thus, these considerations may be influenced by          highly confident that the suggestion will be accepted. One study
+events that happen during text production, such as a predictive text      found that this confidence thresholding intervention made text
+system offering a suggestion.                                             entry faster when compared with always-visible suggestions [37],
+                                                                          but the effect of this intervention on content is unknown.
+                                                                             The diagnostic automation literature has found that confidence
+2.2      Text Entry                                                       thresholding can influence human attitudes and behaviors. Diag-
+The low-level process of text entry has been the subject of exten-        nostic automation systems such as alarms can use a confidence
+sive study and innovation. Predictive language modeling in text           threshold to trade off misses and false alarms, as described by sig-
+input interfaces were first developed to assist those with motor          nal detection theory. Varying the threshold can result in different
+impairments and poor typists [15], but have seen much wider adop-         human responses to the system; frequently studied dimensions
+tion today. They reduce motor effort and errors, but their overall        include reliance, compliance [33], and trust [11]. These different
+effect on speed depends on system design choices [37] and indi-           responses can, in turn, affect how well people perform at detection
+vidual characteristics [29]. Many different interactions have been        tasks when using these systems [48].
+evaluated for using predictive models in typing, such as spatial nav-        Although these studies typically focused on binary decisions
+igation [47], or dynamic adjustment of input parameters such as           in repetitive contexts, they may have implications for open-ended
+effective key sizes [6] or gaze dwell times [34]. Modern touchscreen      tasks like text composition. For example, the confidence threshold
+keyboards use a flexible interface typically called the suggestion        may affect the degree to which people attend to predictive text
+bar, which can be used to show completions, corrections (possibly         suggestions, rely on them, or comply with them. If the system
+automatically accepted) [8], alternative interpretations of ambigu-       shows suggestions rarely but those suggestions are often useful
+ous stroke gestures [40], and even emoji and other functionality.         (corresponding to a low false alarm rate), the writer may perceive
+The predictions are usually generated by a language model that is         system as being more useful, and thus pay more attention to it.
+Predictive Text Encourages Predictable Writing                                                                  IUI ’20, March 17–20, 2020, Cagliari, Italy
+
+
+   Perceptual considerations may also be relevant to how confi-             4     STUDY
+dence thresholding affects writers. When the confidence level of            To evaluate the effect of predictive text on writing content, we con-
+the predictive system transitions from below-threshold to above-            ducted a within-subjects experiment in which participants wrote
+threshold, a suggestion will appear suddenly. Since the appearance          captions for images while we varied the visibility of predictive
+of new content captures attention [32, 39, 49], the writer may pay          suggestions that the keyboard offered.
+more attention to the new suggestion than if suggestions had been
+always available. If the new suggestion is irrelevant, it may interfere     4.1     Task
+with the writer’s working memory [13]; if it is relevant, it risks
+out-competing the word that the writer would have generated [38].           An open-ended writing task allowed us to measure the effect of
+                                                                            suggestions on content. We chose image captioning as our task
+3    RESEARCH QUESTIONS                                                     because it was short, controlled, and repeatable: many different
+                                                                            images can be captioned in a short time, so a within-subjects design
+Our main research question is: how do predictive suggestions affect         was feasible. The range of possible captions for a single image was
+what is written? Since we expect that the primary mechanism of              wide enough to observe differences in content but narrow enough
+this effect might be that people accept suggestions that are offered,       that the variance in content characteristics between writers was
+our more specific question is:                                              not too large.
+    RQ1: To what degree do people choose the words that the                    In each trial, participants were instructed to write a “specific
+      system suggests?                                                      and accurate” caption for a given image, by typing on a simplified
+   We also wondered how suggestions might affect the length of              touchscreen keyboard. Figure 1 shows an example of the task.
+text entered. Since suggestions reduce the physical effort (number
+of taps) required to enter texts, we wondered if writers would              4.2     Design
+choose longer texts when suggestions were available. So our second          We manipulated a single factor, the Visibility of suggestions pre-
+research question is:                                                       sented by the touchscreen keyboard, with three levels:
+    RQ2: How do suggestions affect text length?                                   Always The keyboard showed three predicted words above
+   Predictive systems using confidence thresholding have been                       the keyboard, using the familiar “suggestion bar” interface.
+widely deployed [12] and have been studied for speed effects [37],                Never No suggestions were shown (the suggestion bar was
+but their effects on content are unknown. Since applying a thresh-                  hidden)
+old reduces the frequency at which at which the system presents                   OnlyConfident Like Always, except the keyboard only
+suggestions, its suggestions may have overall less effect on the                    showed suggestions when the confidence of the predictive
+content written than when suggestions are always available. But                     model exceeded a threshold.
+subjective and perceptual factors (discussed in Section 2.3) may               Each participant wrote twelve captions, four with each level of
+cause a relatively larger effect when the suggestions do appear.            Visibility (Never, Always, and OnlyConfident). The order of
+Since even the direction of any content effects is unclear, we ask:         conditions was counterbalanced across participants, but the images
+    RQ3: How does the effect of suggestions on writing content              were presented in a fixed order, resulting in a counterbalanced
+      differ if only high-confidence suggestions are shown?                 assignment of images to Visibility conditions.
+   Finally, the literature is currently divided on the impact of intelli-
+gent text entry technology on speed. Some studies found speed and           4.3     Measures
+error rate benefits [1], especially for systems that permit ambiguous       4.3.1 Word Predictability. Imagine typing a given sentence while
+input gestures such as swipes [40] and imprecise tapping [45, 46].          a predictive text system offers suggestions. Sometimes a word to
+But other studies failed to find speed benefits for predictive sugges-      be entered will appear as one of the three suggestions before even
+tions [4, 37]. The authors of those studies conjectured that the time       its first letter is entered; we refer to such words as predictable. We
+required to attend to suggestions more than made up for the speed           refer to all other words as unpredictable (even if it is later suggested
+benefit of avoiding extra taps. However, the temporal costs of these        after more letters are entered). The (un)predictability of a word is a
+two activities may have substantial individual differences [29], so         property of the text, not the manner in what that text was entered:
+there may be some people for whom predictive suggestions are in-            we count a word as predictable even if the suggestions were disabled
+deed helpful (such as people with motor impairments) that may not           at the point that it was actually entered. This contrast is crucial to
+be observed in small studies. Also, the speed impact of predictive          be able to compare the content written between different types of
+suggestions depends on their accuracy, as pointed out by authors            suggestion systems.
+as early as [29]; recent advances in language modeling technology               Texts differ in predictability: on one extreme are texts that use
+have substantially improved predictive accuracy. Finally, transcrip-        only suggested words, on the other would be texts that are gener-
+tion studies require the additional task load of attending to the text      ated by avoiding initially-suggested words. This observation moti-
+to transcribe, so study design may have a large impact on text entry        vates our primary measure.
+performance [36]. Few studies have measured the speed of text                   Our primary measure is the number of predictable words. Since
+entry outside of transcription tasks (exceptions include [4, 45]). So       the length of text written could differ between conditions, we also
+our final question is:                                                      measure the total length of captions in words and the number of
+    RQ4: How does suggestion visibility affect text entry speed?            words that were not predictable words (predictable + unpredictable
+IUI ’20, March 17–20, 2020, Cagliari, Italy                                                    Kenneth C. Arnold, Krysta Chauncey, and Krzysztof Z. Gajos
+
+
+= total length). To simplify analysis, we stripped all punctuation        analyzing trial-level data.) We report the bootsrapped estimates of
+except for mid-word. (Almost all captions written were a single           the means and pairwise contrasts for the Visibility fixed effect.1
+sentence, so punctuation was not needed to separate sentences.)
+These measures allow us to answer RQ1–RQ3.                                4.5     Procedure
+   We also measured the uncorrected error rate as the number of           4.5.1 Images. We used 12 images selected from the Microsoft
+low-level errors (typos, misspelling, etc.) that were present in the      COCO (Common Objects in Context) dataset [31]. Most images
+caption that the writer submitted. (Since our primary interest was        showed people doing outdoor activities (surfing, flying kites, etc.),
+how system design affected content, we ignored errors that the            or familiar scenes such as a train station or a bus on a street. Our
+writer corrected before submission.) Since most captions had zero         selection process was motivated by potential use in a different (un-
+or one typos, we simplified our analysis to consider only whether         published) experiment. We found the twelve pairs of images in the
+or not a submitted caption included a typo.                               validation set of 2014 COCO release where the two images had the
+   To label typos, one of the authors inspected all writing, blind to     most similar captions. We defined similarity as the tf-idf similarity
+condition, with the help of the Microsoft Word contextual spelling        of unigrams in the concatenation of all five of the captions that
+checker, and corrected typos and spelling mistakes including mis-         crowd workers had originally entered for each image. We randomly
+matched articles (‘a’ vs ‘an’). Grammatical and factual errors, which     picked one image from each pair to be a prompt for caption writing.
+occurred rarely, were left uncorrected. Any caption that was cor-
+rected in this way was labeled as having a typo.                          4.5.2 Predictive Keyboard. We implemented a custom touchscreen
+   Since typos would artificially reduce the number of predictable        keyboard modeled on commercial keyboards but where we could
+words, leading to inflated estimates of content effects, we computed      manipulate the content and visibility of the suggestions. Compared
+that measure on typo-corrected text also.                                 with commercial keyboards, our keyboard was simplified in several
+                                                                          ways; the instructions explicitly pointed out the first three:
+4.3.2 Process Measures. To answer RQ4, we used logged data to                  • the keyboard had a single layer (lowercase only, minimal
+compute typing speed. We compute speed by dividing the final text                symbols, and no numbers)
+length in characters (including spaces) by the interval between the            • no ability to edit past text except for backspacing and retyp-
+first and last input action on the typing screen.                                ing (and delete key did not automatically repeat), so editing
+   We used the participant’s mean typing speed in the Never condi-               was more cumbersome than people may have been used to
+tion as a baseline to control for individual differences (which could          • no auto-correct (the instructions encouraged participants to
+stem from prior touchscreen typing experience, effort invested,                  manually correct typos)
+device characteristics, and many other factors). Our main measure              • no automatic insertion of suggestions or corrections; ignor-
+was the ratio of the participant’s typing speed to this baseline speed.          ing the suggestion bar produced the same results as if it were
+                                                                                 not present
+4.3.3 Subjective Measures. We collected both block-level and over-             • no key target resizing; the mapping from screen location to
+all subjective measures. Surveys after each keyboard block collected             key was fixed
+task load data using all six NASA TLX items on a 7-point scale [23].
+                                                                             The UI showed word predictions in the familiar “suggestion bar”
+We analyze the sum of these measures, but also individually ex-
+                                                                          interface used in contemporary mobile phone keyboards [4, 8, 37].
+amine the “physical” and “mental” load items, as has been done in
+                                                                          When the writer entered a partial word, the suggestions offered
+prior work [37].
+                                                                          completions of that word, otherwise the suggestions showed likely
+    The final survey asked participants to pick which of the three
+                                                                          next words. The writer could choose to tap a suggestion, tap a key,
+keyboard designs they experienced were “most helpful” for three
+                                                                          or tap the backspace key (which deleted a single letter at a time).
+goals: accuracy, specificity, and speed. Keyboard designs were indi-
+                                                                          The system updated the suggestions after each user action.
+cated by number, and participants could see all of their captions for
+                                                                             Figure 1 shows the task as it appeared on a participant’s device,
+reference. We analyzed the total number of times that participants
+                                                                          including the image, caption written so far, and suggestions offered
+picked each keyboard design.
+                                                                          by the system. The screen layout ensured that the participant’s
+                                                                          complete writing was always fully visible and visually close to the
+4.4      Analysis                                                         keyboard and suggestions (if applicable); participants may have
+We applied statistical estimation methods for our primary out-            had to scroll to see the complete image.
+comes [17]. Except where indicated, we estimated means and con-              The keyboard showed the top 3 most likely predictions from the
+fidence intervals by non-parametric bootstrapping. Since we ex-           language model as suggestions, subject to the constraint that if the
+pected substantial individual differences, we bootstrapped grouped        cursor was in the middle of a word, all predictions must have the
+by participant: Each of the 10,000 bootstrap iterations resampled         characters typed so far as a prefix.
+participants with replacement; we used the complete data for each            Our keyboard generated predictions using an LSTM language
+participant chosen.                                                       model using OpenNMT [28], trained on image captions. For this
+   Since we expected substantial variance across both participants        study we did not give the system access to visual features from the
+and images for all measures, we used lme4 [7] to estimate linear          image being captioned (i.e., the system offered the same predictions
+mixed-effects models at each bootstrap iteration with both partici-       1 The overall analysis approach was planned and clearly indicated content effects
+pant and image as random effects. (The random effects structure           of predictive suggestions, but the analyses reported here reflect refinements and
+mitigates the pseudoreplication that would otherwise occur from           simplifications performed after seeing the initial results.
+Predictive Text Encourages Predictable Writing                                                                                       IUI ’20, March 17–20, 2020, Cagliari, Italy
+
+
+regardless of image). Models ran on a cloud VM, providing predic-                        were a single sentence (as were most captions that participants
+tions to the client with a typical latency of under 300ms from tap                       wrote).
+to prediction visibility.                                                                    Each participant wrote captions for twelve images. The body of
+   The language model was a single-layer LSTM, with hidden state                         the experiment consisted of three blocks, one for each condition
+dimension of 2048.2 The model was trained on the COCO training                           (which we referred to as “keyboard design”). Each block began
+set captions using the Adam optimizer with the “Noam” learning                           with a page prominently displaying the number of the keyboard
+rate schedule [44], with a base learning rate of 2, 8000 warm-up                         design they were about to use (e.g., “Keyboard Design 3”). Next,
+steps, β 2 = 0.998, and parameters initialized using the Xavier uni-                     participants completed a “practice round” with that keyboard, in
+form scheme [21]. The batch size was 128. If the norm of the gradient                    which they were given a sentence to transcribe (a caption written
+for any batch exceeded 2, it was re-normalized to have a norm of                         for an image, not shown, that was not one of the images to caption).
+2. After 10 epochs, the model achieved a perplexity of 16.32 and a                       If they did not use suggestions, they were encouraged to complete
+top-1 accuracy of 46.00%.                                                                the transcription task again, in case they had been too fixated on
+   We constructed the OnlyConfident system by modifying the                              the text to transcribe that they failed to notice the suggestions.
+Always system to hide all three suggestions when the predicted                           Then they typed captions for 4 images, followed by a survey about
+likelihood of the words was less than a threshold. We chose the                          their experience with that keyboard. We chose to keep the same
+thresholding method and value by generating predictions at 1000                          keyboard design within each block of trials so that participants
+randomly chosen beginning-of-word locations in the COCO val-                             could become accustomed to the behavior of each keyboard. The
+idation set and logging whether the word that followed was one                           experiment closed with a survey asking for comparisons between
+of the three predicted. We considered thresholding based on the                          their experiences with each of the three keyboard designs, as well
+maximum, mean, or minimum likelihood of each of the three predic-                        as demographics (all questions optional).
+tions, and chose to use the maximum because it obtained the highest                          The experiment enforced that participants typed at least one
+AUC. We then chose the threshold value that would have resulted                          word before a caption could be marked as completed, but otherwise
+in suggestions being displayed 50% of the time. At this threshold                        no restrictions were enforced on the length or time taken for writing
+value, the false positive rate was 25.7%. When the maximum confi-                        captions. Notably, we did not require participants to use suggestions
+dence dropped below the threshold, the keyboard showed a blank                           while writing their captions.
+suggestion bar.                                                                              We excluded two participants who visibly violated our instruc-
+                                                                                         tions to write captions that were specific and accurate. Both wrote
+4.5.3 Participants. The study was carried out remotely as a mo-                          captions that averaged less than 5 words, such as “there is teniss”
+bile web application that participants accessed using their own                          and “people flying kites.” Other than those written by these partici-
+touchscreen devices.3 We recruited 111 participants (61 male, ages                       pants, all captions seemed generally appropriate and grammatical.
+19–61) from Amazon Mechanical Turk. Participants received $5 for                             All participants used a suggestion at least once when typing
+completing the study. Since the experiment required a low-latency                        captions, and no participant accepted every suggestion, so we did
+connection to our US-based server, we limited participants to those                      not need to exclude participants based on those criteria.
+in the US and Canada. We required participants to have a 99%
+approval rating on at least 1000 HITs. The study was conducted
+                                                                                         5     RESULTS
+in English; all participants reported “native” or “fluent” English
+proficiency.                                                                             We collected a total of 1308 captions (109 participants after exclu-
+   The landing page described the study as using various mobile                          sion; each wrote captions for 12 images).
+phone keyboards to type descriptions of images, with an expected
+time of about 30 minutes. After a statement of informed consent,                         5.1      Content Effects
+participants read a description of the task, which promised a $0.50                         Predictability. Figure 2 shows the estimated means and pairwise
+bonus for the most specific and accurate captions. They then read                        comparisons between suggestion Visibility conditions for the main
+a brief overview of the flow of the experiment, which emphasized                         content measures. The strongest contrast that emerged was that
+that they would be using 3 different keyboard designs and they                           an average of about one additional unpredictable word was used
+should attempt to remember their experiences with each.                                  when suggestions were Never visible compared to the Always
+   Before any of the writing tasks, participants completed a task                        (CI: [0.68, 1.60]) or OnlyConfident (CI: [0.46, 1.27]) conditions.4
+tutorial with the overall instruction to write the most specific and                     The data also indicate (albeit less clearly) that captions written in
+accurate caption they could for each image. The tutorial included                        Always had around 0.78 (CI: [0.32, 1.24]) more predictable words
+examples of captions that differed in specificity and accuracy. Some                     than OnlyConfident.
+pilot participants seemed to think that we simply meant for them                            Figure 2 also shows two measures derived from the above mea-
+to write long captions, so we revised the instructions to encourage                      sures, length and fraction predictable, which convey no new sta-
+writers to be concise. Examples were provided, based on different                        tistical information but may be useful for interpretation. Captions
+images than those used in the experiment. We did not prevent                             written with Never-visible suggestions were longer (14.6 words)
+writers from writing multiple sentences, but all examples provided                       than those written in the other two conditions (Always: 13.9 words,
+                                                                                         OnlyConfident: 13.4 words), with a clear difference of about 1.26
+2 For historical reasons, we actually used a “sequence-to-sequence” model but with the
+input set to a constant token; this does not affect our results.                         4 A pairwise difference that is statistically significant at the α = 0.05 level (in a
+3 The study procedure was approved by our institutional review board.                    null-hypothesis test setting) will have a 95% CI that does not contain 0.
+IUI ’20, March 17–20, 2020, Cagliari, Italy                                                                                                                                        Kenneth C. Arnold, Krysta Chauncey, and Krzysztof Z. Gajos
+
+
+                                                  Number of Predictable Words                                                                                                                                       Number of Predictable Words
+                                                                                                                      7.93                                                                                 −0.78
+              Never                                                                                    7.54               ●        8.34          OnlyConfident − Always                 −1.24               ●                   −0.32
+                                                                                                            7.53                                                                                                                                    0.39
+       OnlyConfident                                                                               7.17         ●         7.90                    Never − OnlyConfident                                                           0.03                ●            0.75
+                                                                                                                               8.31                                                                                     −0.38
+             Always                                                                                             7.85             ●        8.79          Never − Always                                  −0.77               ●           0.02
+
+                       0.0            2.5                           5.0                                     7.5                                                            −2                        −1                                 0                                    1                                2
+
+                                                 Number of Unpredictable Words                                                                                                                                  Number of Unpredictable Words
+                                                                                           6.69                                                                                                                                                0.28
+              Never                                                                6.14        ●          7.29                                   OnlyConfident − Always                                                     −0.14               ●                 0.69
+                                                                                 5.83                                                                                                                                                                                 0.86
+       OnlyConfident                                                 5.37          ●      6.34                                                    Never − OnlyConfident                                                                         0.46                    ●                1.27
+                                                                            5.55                                                                                                                                                                                                 1.14
+             Always                                              5.03        ●          6.12                                                            Never − Always                                                                                     0.68                    ●                 1.60
+
+                       0.0            2.5                           5.0                                     7.5                                                            −2                        −1                                 0                                    1                                2
+
+                                                     Total Number of Words                                                                                                                                             Total Number of Words
+                                                                                                                              14.62                                                                                  −0.50
+              Never                                                                                       13.77                ●        15.54    OnlyConfident − Always                   −1.10                        ●                    0.10
+                                                                                                            13.36                                                                                                                                                                      1.26
+       OnlyConfident                                                                           12.65            ●         14.13                   Never − OnlyConfident                                                                                   0.66                          ●                   1.86
+                                                                                                                    13.86                                                                                                                                        0.75
+             Always                                                                                13.08             ●             14.74                Never − Always                                                                  0.17                      ●                           1.34
+
+                       0                     5                               10                                                    15                                      −2                        −1                                 0                                    1                                2
+
+                                                  Fraction of Predictable Words                                                                                                                                     Fraction of Predictable Words
+                                                                                                     0.55                                                                                                  −0.04
+              Never                                                                        0.54       ●     0.57                                 OnlyConfident − Always                 −0.06                   ●                −0.01
+                                                                                                          0.57                                                                                                         −0.02
+       OnlyConfident                                                                               0.56     ●       0.59                          Never − OnlyConfident                              −0.04                 ●            −0.00
+                                                                                                                     0.61                                                                       −0.06
+             Always                                                                                    0.59           ●        0.63                     Never − Always          −0.08            ●                  −0.03
+
+                       0.0             0.2                           0.4                                            0.6                                                   −0.10                   −0.05                             0.00                                    0.05                            0.10
+                                                      Estimated Means                                                                                                                                      Estimated Pairwise Difference
+
+
+
+Figure 2: Estimated means (left) and pairwise differences between Visibility levels (right) of predictability measures for
+captions written. Error bars show 95% confidence intervals computed by non-parametric bootstrap by participant. Note that
+the visualization contains redundancy, e.g., the bottom two plots can be computed from the top two.
+
+
+(CI: [0.66, 1.86]) more words with Never than with OnlyConfi-                                                                                     were visible, but since our participants included few such typists,
+dent suggestions. The difference between Never and Always was                                                                                     we lack evidence to determine whether suggestions would slow
+in the same direction but did not seem to be as strong (.76, CI: [0.18,                                                                           down fast typists in general. The figure also shows that we did not
+1.36]), and there did not seem to be a substantial difference in cap-                                                                             observe a significant difference between the two levels of sugges-
+tion length between OnlyConfident and Always. The fraction of                                                                                     tion Visibility (Always and OnlyConfident) in terms of speed.
+predictable words was about 6% (CI: [3%, 8%]) higher for Always-                                                                                  To quantify this observation, we fit a separate model including a
+visible than Never-visible suggestions and about 4% (CI: [1%, 6%])                                                                                term for Visibility; the confidence intervals for both Visibility
+for OnlyConfident than Never.                                                                                                                     ([-0.08, 0.08]) and its interaction with baseline speed ([-0.05, 0.03]
+                                                                                                                                                  were nearly symmetric around 0.
+   Typos. Suggestions seemed to reduce the number of typos that
+participants left uncorrected in their captions. Of the 124 captions
+that had typos, 73 (59%) were written with Never suggestion visi-                                                                                 5.3         Subjective Experience
+bility, 27 (22%) with OnlyConfident, and 24 (19%) with Always.                                                                                    Ranking results from the closing survey suggest that participants
+Comparing the two conditions with suggestions visible (Always                                                                                     strongly preferred visible suggestions over Never and generally pre-
+and OnlyConfident) jointly against the Never condition, Fisher’s                                                                                  ferred Always over OnlyConfident visibility. Participants picked
+Exact Test found that the odds ratio for a caption having a typo was                                                                              the Always condition as most helpful 206 times, OnlyConfident
+0.31 (CI: [.21, .45]) in favor of fewer typos for suggestion conditions.                                                                          condition 101 times, and Never condition 20 times. A χ 2 goodness-
+                                                                                                                                                  of-fit test finds that this result would be highly unexpected under
+5.2      Process Effects                                                                                                                          the null hypothesis that all three Visibility conditions are equally
+We found that baseline typing rate was a strong predictor of the                                                                                  helpful (χ22 = 159.6, p < .0001).
+ratio between typing speed with suggestions (either Always or On-                                                                                    When suggestions were hidden (Visibility=Never), participants
+lyConfident) and baseline typing speed5 . We used a linear mixed                                                                                  reported higher task load overall as well as for both the physical and
+model to predict the block-wise mean ratio of speed to baseline                                                                                   mental effort items individually. Figure 4 shows that the pairwise
+speed: speed ratio to baseline = a × baseline speed +b +ϵparticipant ,                                                                            difference was approximately 1 point on a 7-point scale for both
+where ϵ represents the participant-level random effect. The 95% con-                                                                              the physical and mental items, for a difference of about 5.5 points
+fidence interval for b was [1.35, 1.66], indicating that suggestions                                                                              overall.
+increased typing speed overall. But the 95% confidence interval for
+a was [-0.29, -0.14], indicating that as baseline speed increased, the                                                                            6       SUPPLEMENTAL ANALYSES
+benefit of suggestions decreased. As Figure 3 shows, some of the                                                                                  Since we observed that captions written with suggestions were
+fastest typists in our experiment wrote slower when suggestions                                                                                   shorter than those written without suggestions, we conducted sup-
+5 Since Never forms the baseline, analyses in this paragraph consider only Always
+                                                                                                                                                  plemental analysis to explore potential explanations for this result.
+and OnlyConfident. Analyses in this paragraph use 1000 iterations of parametric                                                                      Since the analyses in this section were conceptualized after see-
+bootstrapping.                                                                                                                                    ing the data, they should be treated as exploratory.
+Predictive Text Encourages Predictable Writing                                                                                                                                                                                                                         IUI ’20, March 17–20, 2020, Cagliari, Italy
+
+
+                                                                                                                                                                                                                                                                           Number of adjectives
+                                                             2.5                                                                                                                                                                                                                                          0.20
+
+
+
+
+Block−level mean ratio of speed in trial to baseline speed
+                                                                                                                                                                                                                          OnlyConfident − Always                             0.04                          ●                 0.37
+
+                                                                                                                                                                                                                                                                                          0.10
+                                                                                                                                                                                                                           Never − OnlyConfident                   −0.07                   ●                      0.27
+
+                                                                                                                                                                                                                                                                                                                      0.30
+                                                                                                                                                                                                                                 Never − Always                                            0.15                        ●            0.45
+                                                             2.0
+
+
+                                                                                                                                                                                                                                                                      Number of color words used
+                                                                                                                                                                                                                                                                                          0.10
+                                                                                                                                                                                 Suggestion Visibility                    OnlyConfident − Always                       −0.01                ●                  0.22
+                                                             1.5                                                                                                                                                                                                                   0.04
+                                                                                                                                                                                              OnlyConfident                                                        −0.07                              0.15
+                                                                                                                                                                                                                           Never − OnlyConfident                                    ●
+
+                                                                                                                                                                                              Always                                                                                             0.14
+                                                                                                                                                                                                                                 Never − Always                              0.03                 ●              0.26
+
+
+                                                             1.0
+                                                                                                                                                                                                                                                                             Number of nouns
+                                                                                                                                                                                                                                                           −0.27
+                                                                                                                                                                                                                          OnlyConfident − Always−0.48       ●              −0.06
+
+                                                                                                                                                                                                                                                                                                                               0.43
+                                                                                                                                                                                                                           Never − OnlyConfident                                                      0.21                      ●            0.65
+                                                             0.5                                                                                                                                                                                                                                  0.16
+                                                                                                                                                                                                                                 Never − Always                      −0.04                            ●                      0.38
+
+
+                                                                           1                         2                             3                         4                                                                                     −0.50   −0.25             0.00                              0.25                   0.50
+                                                                   Baseline Speed (chars/sec in trials with suggestions Never visible)                                                                                                                             Estimated Pairwise Difference
+
+
+
+Figure 3: Predictive suggestions had a positive effect on                                                                                                                                                             Figure 5: Exploratory analysis suggested that the Always-
+typing speed overall, but with less benefit for faster typ-                                                                                                                                                           visible suggestions may lead to the use of fewer adjectives,
+ists. Scatterplot points show block-level average speed ra-                                                                                                                                                           especially color adjectives, and that OnlyConfident visi-
+tios, solid lines show loess curves for each Visibility con-                                                                                                                                                          bility resulted in fewer nouns.
+dition, and shaded areas show approximate confidence in-
+tervals for each curve.
+                                                                                                                                                                                                                      6.2        Why were captions shorter with
+                                                                                                                                                                                                                                 suggestions?
+                                                                                                                                   TLX mental load item
+                                                                                                                                                                                                                      We conjecture that the suggestions offered may nudge the writer
+                                                             OnlyConfident − Always    −0.2
+                                                                                                             0.07
+                                                                                                              ●             0.33
+                                                                                                                                                                                                                      to skip a word. For example, suppose someone is typing typing “a
+                                                              Never − OnlyConfident                                                                 0.79
+                                                                                                                                                                                1.08
+                                                                                                                                                                                ●                        1.4
+                                                                                                                                                                                                                      tennis player is swinging his racket on a green tennis court”. As
+                                                                     Never − Always                                                                  0.81
+                                                                                                                                                                                       1.15
+                                                                                                                                                                                       ●                        1.5
+                                                                                                                                                                                                                      they are about to type “green,” the system instead suggests “tennis,”
+                                                                                                     0.0                               0.5                               1.0                                   1.5
+                                                                                                                                                                                                                      encouraging the writer to skip “green.” To describe this scenario we
+                                                                                                                                   TLX physical load item
+                                                                                                                                                                                                                      will say that “green” was skip-nudged: one of the words suggested
+                                                             OnlyConfident − Always −0.064
+                                                                                                     0.12
+                                                                                                         ●          0.3
+                                                                                                                                                                                                                      at the beginning of a word matched the following word.
+                                                              Never − OnlyConfident                                                          0.65
+                                                                                                                                                                         0.95
+                                                                                                                                                                         ●                              1.3
+                                                                                                                                                                                                                          We analyzed the 436 texts written in the Never condition, thus
+                                                                     Never − Always                                                                 0.78
+                                                                                                                                                                                    1.07
+                                                                                                                                                                                       ●                        1.4
+                                                                                                                                                                                                                      not affected by suggestions, to identify potential skip-nudges. Of
+                                                                                               0.0                                 0.5                                       1.0
+                                                                                                                                                                                                                      these texts, 299 (69%) had at least one skip-nudge. There were
+                                                                                                                           Total task load (sum of TLX items)                                                         a total of 488 skip-nudges, 202 (41%) of which were predictable
+                                                             OnlyConfident − Always           0.3
+                                                                                                             1.08
+                                                                                                             ●       1.9
+                                                                                                                                                                                                                      (i.e., the skip-nudged word was also one of the predictions). (If we
+                                                                                                                                                                  4.70
+                                                              Never − OnlyConfident                                                          3.5                  ●                               5.9
+                                                                                                                                                                                                                      consider only those suggestions that would be still presented in
+                                                                     Never − Always                                                                         4.5
+                                                                                                                                                                                           5.79
+                                                                                                                                                                                           ●                    7.1
+                                                                                                                                                                                                                      OnlyConfident, there are only 228 skip-nudges, of which 120
+                                                                                          0                           2                             4                                             6
+                                                                                                                                                                                                                      (53%) are predictable.) The top 10 predictable skip-nudged words
+                                                                                                                          Estimated increase in TLX load                                                              were: a, wedding, tennis, is, to, tree, at, train, of, baseball; the top
+                                                                                                                                                                                                                      10 unpredictable skip-nudged words were: red, white, desktop, is,
+Figure 4: Bootstrap estimates of pairwise differences in task                                                                                                                                                         sits, sitting, computer, on, small, bathroom.
+load (overall, physical, and mental)
+                                                                                                                                                                                                                      7      DISCUSSION
+                                                                                                                                                                                                                      Captions that people wrote when presented with predictive sug-
+                                                                                                                                                                                                                      gestions differed from what they wrote without suggestions. The
+6.1                                                                  What types of words were predictable?                                                                                                            differences that were most clearly supported by our data are:
+Table 1 gives examples of captions at different levels of predictabil-                                                                                                                                                    (1) captions written with suggestions visible were shorter and
+ity. Inspection of examples like those shown suggested that the                                                                                                                                                               used fewer words that were unpredictable, both by a mag-
+difference in the fraction of predictable words might express itself                                                                                                                                                          nitude of about 1 word, than when suggestions were not
+in terms of a difference in use of words of different parts of speech.                                                                                                                                                        visible (RQ1, RQ2),
+Of particular interest seemed to be nouns and adjectives. Also, since                                                                                                                                                     (2) captions written with low-confidence suggestions hidden
+we noticed that descriptions of color were sometimes missing in                                                                                                                                                               had fewer predictable words than those written with sugges-
+high-predictability image captions, we looked at the number of                                                                                                                                                                tions were always shown (RQ3), and
+color adjectives used. Figure 5 shows that suggestions may have                                                                                                                                                           (3) predictive suggestions had a positive effect on typing speed
+resulted in fewer adjectives.                                                                                                                                                                                                 overall, but with decreasing benefit for faster typists (RQ4).
+IUI ’20, March 17–20, 2020, Cagliari, Italy                                                             Kenneth C. Arnold, Krysta Chauncey, and Krzysztof Z. Gajos
+
+
+       image             P     U      %       corrected text
+                        11     11    50       people are on sand with five kites in the air as a man in a red shirt and two children hold kites
+                         7      3    70       a family of three on the beach flying kites together
+
+                         7      9    44       an old brown train pulling away from a small train station by a baby blue building
+                         5      3    62       a train pulling into a quaint train station
+
+                        11     12    48
+                                 a man in a black shirt with the number eight and grey pants swinging a baseball bat with many
+                                 players in the background
+                  11 5 69 a baseball player with the number eight jersey has just hit the ball with the bat
+Table 1: Examples of captions with varying percentages of predictable words (%). P = number of predictable words, U = number
+of unpredictable words. (The captions for each image were sorted by percentage predictable and an example was taken at the
+first quartile and third quartile for each image.) Image credits: https://flic.kr/p/GyXLw, https://flic.kr/p/fkybX6, https://flic.kr/
+p/6Yxc61
+
+
+
+   Supplemental analysis enables us to conjecture a two-part expla-                  7.1    Limitations
+nation for these observations. However, further study is needed to                   Several limitations of our study lead us to urge caution against
+determine whether these explanations are accurate and sufficient.                    overgeneralizing its results: we do not claim that commercially
+   First, suggestions may have sometimes encouraged people to                        deployed predictive systems have the kind and degree of content
+skip a word that they would have entered. Since our analysis found                   effects that we found in our study. However, we conjecture that
+that both predictable and unpredictable words could be skip-nudged                   they do already influence content and that this influence will grow
+at similar rates, this encouragement would lead to reduced numbers                   as prediction generation and interaction technology improves. We
+of both unpredictable and predictable words, resulting in shorter                    urge follow-up study of deployed systems to evaluate these content
+captions overall.                                                                    effects.
+   Second, perhaps people would have entered an unpredictable
+word but the appearance of a prediction caused them to substitute                        Experimenter Demand Effects. Even though the instructions and
+a predictable word instead (see, e.g., the caption of Figure 1). This                recruitment never mentioned predictions (or synonyms such as
+substitution would increase the number of predictable words and                      suggestions or recommendations), the design of this experiment
+reduce the number of unpredictable words by the same amount, so                      was vulnerable to experimenter demand effects in other ways. For
+length would be unaffected.                                                          example, the opening survey asked about participants’ ordinary
+   Together, skipping and substitution imply that the number of                      use of the suggestion bar, the consent form indicated the purpose of
+unpredictable words would be reduced, which could account for                        the research, and the suggestions constituted the main and salient
+the first observed difference.                                                       difference between experiment blocks, which indicates to partici-
+   Confidence thresholding reduced the number of times that pre-                     pants that their use is interesting to the researcher [50]. Moreover,
+dictable words were suggested, thus reducing the likelihood of sub-                  if the participant did not use any suggestions whatsoever, even
+stitution. This account could explain the difference in predictable                  completely unambiguous completions of a word, during a practice
+word count between the two conditions where suggestions were                         transcription task in which relevant suggestions were available,
+shown.                                                                               the system encouraged them to repeat the practice round and use
+   Our speed findings agree with the AAC literature (surveyed                        the suggestions; this intervention may have created a carry-over
+in [43]) that predictions often improve communication rate but                       demand effect in the captioning tasks. This happened for 48 partici-
+with substantial individual differences [29].                                        pants, many of whom reported that they use the suggestion bar on
+   Writers overall preferred conditions where suggestions were                       their own phones “often” or “almost always”. So we suspect that par-
+always available (as indicated by lower task load and explicit pref-                 ticipants did not use suggestions during practice rounds for more
+erence rankings). However, the finding that captions entered using                   mundane reasons specific to the transcription task, such as having
+suggestions tended to be shorter suggests that minimizing physical                   to switch attention between the text to transcribe, the text writ-
+effort does not fully account for the differences in word choice that                ten so far, a potentially unfamiliar keyboard, and the suggestions
+we observed. If participants were simply minimizing their physical                   offered.
+effort, the captions entered with Never-visible suggestions would                        Our findings are about the effects of suggestion use, not the
+have been shortest, since that condition requires participants to                    degree to which they are used, so the presence of demand effects
+type each character. Other participants typed shorter captions for                   does not challenge the validity of our conclusions.
+the same images in conditions where suggestions were available,
+which indicates that an easier-to-enter utterance was available
+                                                                                        Generalization to other writing tasks. While the task we used was
+and acceptable. This finding underscores that the content of the
+                                                                                     more representative of real-world writing tasks than transcription
+suggestions influences text content.
+                                                                                     tasks used in most writing studies, captioning is still not a common
+                                                                                     task. We would expect our findings to generalize to other tasks
+Predictive Text Encourages Predictable Writing                                                                       IUI ’20, March 17–20, 2020, Cagliari, Italy
+
+
+where the main goal is describing concrete things (e.g., video de-        8.1     Implications for Deployed Systems
+scription, reviewing of products and services, or describing real         The content that people write using predictive systems will become
+estate). But our findings may not generalize to other types of tasks,     part of the corpora used to train language models used by future
+such as those involving conceptual exposition or persuasion, or           predictive systems. Even a small bias in word choice could have a
+even to writing descriptions longer than a sentence. Our findings         feedback effect.
+may also be influenced by the specific prompt we provided, which             Assistance through error avoidance [6, 34], correction [8, 45],
+asked participants to write captions that were “specific,” “accurate,”    and disambiguation [40] may better preserve writer autonomy than
+and “concise.” Finally, participants wrote as part of a paid task on      word or phrase suggestion. These systems do still make certain texts
+MTurk; predictive text could have different effects on writing by         easier to enter than others (e.g., it becomes more difficult to enter
+other groups of people or for different objectives.                       creative misspellings or made-up words), but the system’s biases are
+                                                                          less salient, so we expect that they would impact writing content
+   Generalization to other predictive text systems. The predictive
+                                                                          less.
+keyboard that we used in our experiments differed from commonly
+                                                                             Platforms providing predictive text functionality, such as Smart
+deployed predictive keyboards in two ways that may affect the
+                                                                          Compose [12], should be accountable for the effects that their sys-
+generalizability of our findings. First, the keyboard did not offer
+                                                                          tems have on writing content.
+automatic corrections of mistyped words. The lack of corrections
+may have caused writers to increase their propensity to consider
+suggestions because entering a word without using completion sug-         8.2     Future Work
+gestions incurs the greater cost of potentially having to backspace       Future work could further characterize how predictive typing af-
+and correct a typo. (On the other hand, writers may have also             fects writing content, such as by using even more sensitive mea-
+needed to pay more attention to the text that they have just en-          sures to study other tasks (such as those involving persuasion),
+tered, rather than looking at suggestions, which would decrease           languages, and suggestion interaction designs. Future work should
+their propensity to consider suggestions.) Second, our interface          also explore individual differences in how suggestions affect people:
+did not allow participants to edit past words without backspacing         both situational affect [20] and stable traits [19] have been shown
+over every character in between, so writers may have typed more           to modulate how people use predictive systems.
+carefully.                                                                   Future work could also explore ways in which suggestions may
+   The suggestion generation system may also affect generalizabli-        be designed to have desirable effects on content. For example, pre-
+tiy, since its suggestions were very strongly adapted to the domain       dictive scaffolding could be used to help second-language writers
+of image captioning. As such, our findings could be viewed as a           write more fluently and naturally. Could suggestions be designed to
+peek into the future: as predictive text systems gain access to more      help writers come up with ideas or express those ideas creatively?
+contextual data (e.g., Google’s Smart Compose [12] uses context           Initial studies have yielded mixed results [14], but the challenge is
+from the writer and current email thread), they will likely be able       promising.
+to make predictions that are even more strongly adapted to the task
+(and also to the writer) than ours were.                                  ONLINE APPENDIX
+                                                                          Data and analysis code is available at https://osf.io/w7zpa/.
+   Experience with System. Participants wrote only four captions
+(plus one practice) with each system. Writers may behave differently
+after more exposure to a predictive system; if that exposure leads        ACKNOWLEDGMENTS
+them to trust the system more, the effects of the system on the           This work was supported in part by a grant from Draper. We are
+content of their writing may be larger than what our short study          grateful to Sebastian Gehrmann for help with the OpenNMT soft-
+observed.                                                                 ware system, and to Alex Cabral, Bernd Huber, Zaria Smalls, and
+                                                                          others for feedback on the manuscript.
+8    CONCLUSION
+Predictive text systems help many people write more efficiently, but      REFERENCES
+                                                                           [1] Ohoud Alharbi, Ahmed Sabbir Arif, Wolfgang Stuerzlinger, Mark D. Dunlop,
+by their nature these systems only make certain content efficient to           and Andreas Komninos. 2019. WiseType: A Tablet Keyboard with Color-Coded
+enter. Our study found that writers are sensitive to these differences:        Visualization and Various Editing Options for Error Correction. In Proceedings of
+when presented with predictive text suggestions, people wrote                  Graphics Interface 2019 (GI 2019). Canadian Information Processing Society, 10.
+                                                                               https://doi.org/10.20380/GI2019.04
+shorter and more predictable language. In short, predictive text           [2] Ofra Amir, Barbara J. Grosz, Krzysztof Z. Gajos, and Limor Gultchin. 2019. Per-
+suggestions—even when presented as single words—are taken as                   sonalized change awareness: Reducing information overload in loosely-coupled
+suggestions of what to write.                                                  teamwork. Artificial Intelligence 275 (2019), 204–233. https://doi.org/10.1016/j.
+                                                                               artint.2019.05.005
+   Our findings underscore the general call that evaluations of            [3] Kenneth C. Arnold, Krysta Chauncey, and Krzysztof Z. Gajos. 2018. Sentiment
+intelligent interactive systems be based on authentic tasks [9], and           Bias in Predictive Text Recommendations Results in Biased Writing. In Graphics
+                                                                               Interface 2018. Toronto, Ontario, Canada, 8–11. http://graphicsinterface.org/wp-
+specifically the call of Kristensson and Veranen in 2014 that text             content/uploads/gi2018-7.pdf
+entry studies should include composition tasks [30]. We further            [4] Kenneth C. Arnold, Krzysztof Z. Gajos, and Adam T. Kalai. 2016. On Suggesting
+request that text entry studies study content effects of their systems         Phrases vs. Predicting Words for Mobile Text Composition. In Proceedings of
+                                                                               the 29th Annual Symposium on User Interface Software and Technology (UIST
+and have sufficient statistical power to notice effects of comparable          ’16). Association for Computing Machinery, New York, NY, USA, 603âĂŞ608.
+sizes to those we reported here.                                               https://doi.org/10.1145/2984511.2984584
+IUI ’20, March 17–20, 2020, Cagliari, Italy                                                                        Kenneth C. Arnold, Krysta Chauncey, and Krzysztof Z. Gajos
+
+
+ [5] Tamara Babaian, Barbara J Grosz, and Stuart M Shieber. 2002. A writer’s col-                - CHI ’99 (1999), 159–166. https://doi.org/10.1145/302979.303030
+     laborative assistant. In Proceedings of the 7th international conference on In-        [26] Julie S. Hui, Darren Gergle, and Elizabeth M. Gerber. 2018. IntroAssist. Proceedings
+     telligent user interfaces - IUI ’02. ACM Press, New York, New York, USA, 7.                 of the 2018 CHI Conference on Human Factors in Computing Systems - CHI ’18
+     https://doi.org/10.1145/502716.502722                                                       (2018), 1–13. https://doi.org/10.1145/3173574.3173596
+ [6] Tyler Baldwin and Joyce Chai. 2012. Towards online adaptation and per-                 [27] Anjuli Kannan, Karol Kurach, Sujith Ravi, Tobias Kaufmann, Andrew Tomkins,
+     sonalization of key-target resizing for mobile devices. (2012), 11. https:                  Balint Miklos, Greg Corrado, Laszlo Lukacs, Marina Ganea, Peter Young, and
+     //doi.org/10.1145/2166966.2166969                                                           Vivek Ramavajjala. 2016. Smart Reply: Automated Response Suggestion for Email.
+ [7] Douglas Bates, Martin Mächler, Ben Bolker, and Steve Walker. 2015. Fitting                  In KDD. https://doi.org/10.475/123 arXiv:1606.04870
+     Linear Mixed-Effects Models Using lme4. Journal of Statistical Software 67, 1          [28] Guillaume Klein, Yoon Kim, Yuntian Deng, Josep Crego, Jean Senellart, and
+     (2015). https://doi.org/10.18637/jss.v067.i01                                               Alexander M. Rush. 2017. OpenNMT: Open-source Toolkit for Neural Machine
+ [8] Xiaojun Bi, Tom Ouyang, and Shumin Zhai. 2014. Both complete and correct?                   Translation. (2017). https://doi.org/10.18653/v1/P17-4012 arXiv:1709.03815
+     Multi-Objective Optimization of Touchscreen Keyboard. In Proceedings of the            [29] Heidi Horstmann Koester and Simon P. Levine. 1994. Modeling the Speed of
+     32nd annual ACM conference on Human factors in computing systems - CHI ’14.                 Text Entry with a Word Prediction Interface. IEEE Transactions on Rehabilitation
+     ACM Press, New York, New York, USA, 2297–2306. https://doi.org/10.1145/                     Engineering 2, 3 (1994), 177–187. https://doi.org/10.1109/86.331567
+     2556288.2557414                                                                        [30] Per Ola Kristensson and Keith Vertanen. 2014. The Inviscid Text Entry Rate and
+ [9] Zana Buçinca, Phoebe Lin, Krzysztof Z. Gajos, and Elena L. Glassman. 2020. Proxy            its Application as a Grand Goal for Mobile Text Entry. Proceedings of the 16th
+     Tasks and Subjective Measures Can Be Misleading in Evaluating Explainable AI                international conference on Human-computer interaction with mobile devices &
+     Systems. In Proceedings of the 25th International Conference on Intelligent User            services - MobileHCI ’14 (2014), 335–338. https://doi.org/10.1145/2628363.2628405
+     Interfaces (IUI ’20). ACM, New York, NY, USA.                                          [31] Tsung Yi Lin, Michael Maire, Serge Belongie, James Hays, Pietro Perona, Deva
+[10] Daniel Buschek, Benjamin Bisinger, and Florian Alt. 2018. ResearchIME: A                    Ramanan, Piotr Dollár, and C. Lawrence Zitnick. 2014. Microsoft COCO: Com-
+     Mobile Keyboard Application for Studying Free Typing Behaviour in the Wild. In              mon objects in context. Lecture Notes in Computer Science (including subseries
+     Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems                Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics) 8693
+     (CHI ’18). Association for Computing Machinery, New York, NY, USA, Article                  LNCS, PART 5 (2014), 740–755. https://doi.org/10.1007/978-3-319-10602-1_48
+     Paper 255, 14 pages. https://doi.org/10.1145/3173574.3173829                                arXiv:1405.0312
+[11] Eric T. Chancey, James P. Bliss, Yusuke Yamani, and Holly A.H. Handley. 2017.          [32] Peter A. McCormick. 1997. Orienting attention without awareness. Journal of
+     Trust and the Compliance-Reliance Paradigm: The Effects of Risk, Error Bias,                experimental psychology. Human perception and performance 23, 1 (1997), 168–180.
+     and Reliability on Trust and Dependence. Human Factors 59, 3 (2017), 333–345.               https://doi.org/10.1037/0096-1523.23.1.168
+     https://doi.org/10.1177/0018720816682648                                               [33] Joachim Meyer. 2004. Conceptual issues in the study of dynamic hazard warnings.
+[12] Mia Xu Chen, Benjamin N. Lee, Gagan Bansal, Yuan Cao, Shuyuan Zhang, Justin                 Human Factors 46, 2 (2004), 196–204. https://doi.org/10.1518/hfes.46.2.196.37335
+     Lu, Jackie Tsay, Yinan Wang, Andrew M. Dai, Zhifeng Chen, and et al. 2019.             [34] Martez E. Mott, Shane Williams, Jacob O. Wobbrock, and Meredith Ringel Morris.
+     Gmail Smart Compose: Real-Time Assisted Writing. In Proceedings of the 25th                 2017. Improving Dwell-Based Gaze Typing with Dynamic, Cascading Dwell
+     ACM SIGKDD International Conference on Knowledge Discovery & Data Mining                    Times. Proceedings of the 2017 CHI Conference on Human Factors in Computing
+     (KDD ’19). Association for Computing Machinery, New York, NY, USA, 2287–2295.               Systems - CHI ’17 (2017), 2558–2570. https://doi.org/10.1145/3025453.3025517
+     https://doi.org/10.1145/3292500.3330723                                                [35] Naho Orita, Eliana Vornov, Naomi Feldman, and Hal Daumé III. 2015. Why
+[13] N. Ann Chenoweth and John R. Hayes. 2003. The Inner Voice in Writing.                       discourse affects speakers’ choice of referring expressions. In Proceedings of the
+     Written Communication 20, 1 (jan 2003), 99–118. https://doi.org/10.1177/                    53rd Annual Meeting of the Association for Computational Linguistics and the
+     0741088303253572                                                                            7th International Joint Conference on Natural Language Processing (Volume 1:
+[14] Elizabeth Clark, Anne Spencer Ross, Chenhao Tan, Yangfeng Ji, and Noah A.                   Long Papers). Association for Computational Linguistics, Stroudsburg, PA, USA,
+     Smith. 2018. Creative Writing with a Machine in the Loop: Case Studies on                   1639–1649. https://doi.org/10.3115/v1/P15-1158
+     Slogans and Stories. In 23rd International Conference on Intelligent User Interfaces   [36] Ondrej Polacek, Adam J. Sporka, and Brandon Butler. 2013. Improving the
+     (IUI ’18). Association for Computing Machinery, New York, NY, USA, 329–340.                 methodology of text entry experiments. 4th IEEE International Conference on
+     https://doi.org/10.1145/3172944.3172983                                                     Cognitive Infocommunications, CogInfoCom 2013 - Proceedings (2013), 155–160.
+[15] John J Darragh, Ian H Witten, and Mark L James. 1990. The Reactive Keyboard:                https://doi.org/10.1109/CogInfoCom.2013.6719232
+     A Predictive Typing Aid. Computer 23, 11 (1990), 41–49.                                [37] Philip Quinn and Shumin Zhai. 2016. A Cost-Benefit Study of Text Entry Sug-
+[16] Paul Deane, Nora Odendahl, Thomas Quinlan, Mary Fowles, Cyndi Welsh, and                    gestion Interaction. Proceedings of the 2016 CHI Conference on Human Factors in
+     Jennifer Bivens-tatum. 2008. Cognitive Models of Writing : Writing Proficiency as           Computing Systems (2016), 83–88. https://doi.org/10.1145/2858036.2858305
+     a Complex Integrated Skill. Language October (2008), 128. https://doi.org/ETSRR-       [38] Jeroen G W Raaijmakers and Emoke Jakab. 2013. Rethinking inhibition theory: On
+     08-55                                                                                       the problematic status of the inhibition theory for forgetting. Journal of Memory
+[17] Pierre Dragicevic. 2016. Fair Statistical Communication in HCI. In Modern                   and Language 68, 2 (2013), 98–122. https://doi.org/10.1016/j.jml.2012.10.002
+     Statistical Methods for HCI. Springer, 291 – 330. https://doi.org/10.1007/978-3-       [39] Robert Rauschenberger. 2003. Attentional capture by auto- and allo-cues. Psy-
+     319-26633-6_13                                                                              chonomic Bulletin & Review 10, 4 (2003), 814–842.
+[18] A. Fiannaca, A. Paradiso, M. Shah, and M.R. Morris. 2017. AACrobat: Using              [40] Shyam Reyal, Shumin Zhai, and Per Ola Kristensson. 2015. Performance and
+     mobile devices to lower communication barriers and provide autonomy with                    User Experience of Touchscreen and Gesture Keyboards in a Lab Setting and in
+     Gaze-based AAC. Proceedings of the ACM Conference on Computer Supported                     the Wild. Proceedings of the 33rd Annual ACM Conference on Human Factors in
+     Cooperative Work, CSCW (2017). https://doi.org/10.1145/2998181.2998215                      Computing Systems - CHI ’15 (2015), 679–688. https://doi.org/10.1145/2702123.
+[19] Sara Garver, Caroline Harriott, Krysta Chauncey, and Meredith Cunha. 2017.                  2702597
+     Co-adaptive Relationships with Creative Tasks. Proceedings of the Companion of         [41] Jaime Teevan, Harmanpreet Kaur, Alex C. Williams, Shamsi T. Iqbal, Anne Loomis
+     the 2017 ACM/IEEE International Conference on Human-Robot Interaction - HRI                 Thompson, and Walter S. Lasecki. 2018. Creating Better Action Plans for Writ-
+     ’17 (2017), 123–124. https://doi.org/10.1145/3029798.3038357                                ing Tasks via Vocabulary-Based Planning. Proceedings of the ACM on Human-
+[20] Surjya Ghosh, Kaustubh Hiware, Niloy Ganguly, Bivas Mitra, and Pradipta De.                 Computer Interaction 2, CSCW (2018), 1–22. https://doi.org/10.1145/3274355
+     2019. Does emotion influence the use of auto-suggest during smartphone typing?.        [42] Mark Torrance and David Galbraith. 2006. The processing demands of writing.
+     In Proceedings of the 24th International Conference on Intelligent User Interfaces          Handbook of Writing Research (2006), 67–82.
+     - IUI ’19. ACM Press, New York, New York, USA, 144–149. https://doi.org/10.            [43] Keith Trnka, John McCaw, Debra Yarrington, Kathleen F. McCoy, and Christo-
+     1145/3301275.3302329                                                                        pher Pennington. 2009. User Interaction with Word Prediction: The Effects of
+[21] Xavier Glorot and Yoshua Bengio. 2010. Understanding the difficulty of training             Prediction Quality. ACM Trans. Access. Comput. 1, 3, Article Article 17 (Feb. 2009),
+     deep feedforward neural networks. Pmlr 9 (2010), 249–256. https://doi.org/10.1.             34 pages. https://doi.org/10.1145/1497302.1497307
+     1.207.2059 arXiv:arXiv:1011.1669v3                                                     [44] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+[22] Noah D Goodman and Michael C Frank. 2016. Pragmatic Language Interpretation                 Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. Attention is all
+     as Probabilistic Inference. Trends in Cognitive Sciences 20, 11 (nov 2016), 818–829.        you need. In Advances in neural information processing systems. 5998–6008.
+     https://doi.org/10.1016/j.tics.2016.08.005                                             [45] Keith Vertanen, Crystal Fletcher, Dylan Gaines, Jacob Gould, and Per Ola
+[23] Sandra G Hart. 2006. Nasa-Task Load Index (NASA-TLX); 20 Years Later. Pro-                  Kristensson. 2018. The Impact of Word, Multiple Word, and Sentence Input
+     ceedings of the Human Factors and Ergonomics Society Annual Meeting 50, 9 (oct              on Virtual Keyboard Decoding Performance. In Proceedings of the 2018 CHI
+     2006), 904–908. https://doi.org/10.1177/154193120605000909                                  Conference on Human Factors in Computing Systems (CHI ’18). Association
+[24] John R Hayes and N Ann Chenoweth. 2006. Is Working Memory Involved in the                   for Computing Machinery, New York, NY, USA, Article Paper 626, 12 pages.
+     Transcribing and Editing of Texts? Written Communication 23, 2 (2006), 135–149.             https://doi.org/10.1145/3173574.3174200
+     https://doi.org/10.1177/0741088306286283                                               [46] Keith Vertanen, Haythem Memmi, Justin Emge, Shyam Reyal, and Per Ola Kris-
+[25] Eric Horvitz. 1999. Principles of mixed-initiative user interfaces. Proceedings of          tensson. 2015. VelociTap: Investigating Fast Mobile Text Entry using Sentence-
+     the SIGCHI conference on Human factors in computing systems the CHI is the limit            Based Decoding of Touchscreen Keyboard Input. In Proceedings of the 33rd Annual
+Predictive Text Encourages Predictable Writing                                                                                   IUI ’20, March 17–20, 2020, Cagliari, Italy
+
+
+     ACM Conference on Human Factors in Computing Systems - CHI ’15. 659–668.               (2006), 210–214. https://doi.org/10.1177/154193120605000301
+     https://doi.org/10.1145/2702123.2702135                                           [49] Steven Yantis and John Jonides. 1984. Abrupt visual onsets and selective atten-
+[47] David J Ward, Alan F Blackwell, and David J C MacKay. 2000. Dasher - A Data            tion: Evidence from visual search. Journal of Experimental Psychology: Human
+     Entry Interface Using Continuous Gestures and Language Models. Proceedings             Perception and Performance 10, 5 (1984), 601–621. https://doi.org/10.1037/0096-
+     of the 13th annual ACM symposium on User interface software and technology 2           1523.10.5.601
+     (2000), 129–137. https://doi.org/10.1145/354401.354427                            [50] Daniel John Zizzo. 2010. Experimenter demand effects in economic experiments.
+[48] Christopher D. Wickens, Stephen R. Dixon, and Nicholas Johnson. 2006. Imperfect        Experimental Economics 13, 1 (2010), 75–98. https://doi.org/10.1007/s10683-009-
+     diagnostic automation: An experimental examination of priorities and threshold         9230-z
+     setting. Proceedings of the Human Factors and Ergonomics Society October 2006
+

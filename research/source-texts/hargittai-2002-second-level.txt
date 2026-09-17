@@ -1,0 +1,972 @@
+First Monday, Volume 7 Number 4 - 1 April 2002
+
+
+
+
+Much of the existing literature on the digital divide - the differences between the
+"haves" and "have nots" regarding access to the Internet - limits its scope to a binary
+classification of technology use by only considering whether someone does or does not
+use the Internet. To remedy this shortcoming, in this paper I look at the differences in
+people's online skills. In order to measure online ability, I assigned search tasks to a
+random sample of Internet users from a suburban county in the United States. My
+findings suggest that people search for content in a myriad of ways and there is
+considerable difference in whether individuals are able to find various types of content
+on the Web and a large variance in how long it takes to complete online tasks. Age is
+negatively associated with one's level of Internet skill, experience with the technology is
+positively related to online skill, and differences in gender do little to explain the
+variance in the ability of different people to find content online.
+
+Contents
+Introduction: Inequalities in Internet Use
+Refining the Current Approach to the Digital Divide
+Methods and Data
+Differences in Ability to Find Content Online
+Conclusion
+
+
+
+
+Introduction: Inequalities in Internet Use
+Much of the literature documenting the Internet's spread has focused on the differences
+among those who have access to the Internet and those who do not, or the differences
+among those who use it and those who do not. Since the National Telecommunications
+& Information Administration published its first report "Falling Through the Net: A
+Survey of the Have Nots in Rural and Urban America" in 1995, many analyses have
+been written on the inequalities of access to and use of the medium. Existing studies of
+differential Internet access and use document inequalities among various segments of
+the population (Bucy, 2000) with particular attention to education (NTIA, 2000), race
+(Hoffman and Novak, 1999), gender (Bimber, 2000), age (Loges and Jung, 2001),
+income (Benton Foundation, 1998) and rural residence (Strover, 1999).
+
+These studies have been essential in understanding inequalities in access to the
+Internet, or what has come to be known as the "digital divide". Here, I argue that as
+the medium spreads to a majority of the population (NTIA, 2002) it is increasingly
+important to look at not only who uses the Internet, but also to distinguish varying
+levels of online skills among individuals. Skill, in this context, is defined as the ability to
+efficiently and effectively find information on the Web. By exploring the differences in
+how people use the Web for information retrieval, we can discern if there is a "second-
+level digital divide" in the making as the Web spreads to the majority of the American
+population. To explore this question, I report findings from a project that explores
+people's ability to locate content online. Documenting differences in Web use skills
+allows us to distinguish how different kinds of people are able to take advantage of this
+medium in varying ways.
+
+
+
+
+Refining the Current Approach to the Digital Divide
+While most reports identify differences among various segments of the population, over
+time studies emphasize the increasing diffusion of the medium among the population at
+large (Howard, Rainie, and Jones, 2001; Katz and Rice, 2002; NTIA 2000, 2002; Pew
+Internet and American Life Project, 2000). As more people start using the Web for
+communication and information retrieval, it becomes less useful to merely look at binary
+classifications of who is online when discussing questions of inequality in relation to the
+Internet (DiMaggio and Hargittai, 2001). Rather, we need to start looking at differences
+in how those who are online use the medium, that is, differences in people's online
+skills. It is important to expand the research agenda to allow analyses of the differences
+among Internet users.
+
+Some scholars have offered a refined understanding of the digital divide by suggesting
+that there are different levels at which divides exist. Kling (1998) identified differences
+in technical access (the physical availability of the technology) and in social access (the
+professional knowledge and technical skills necessary to benefit from information
+technologies). Norris (2001) pointed to divides at three levels: the global divide which
+encompasses differences among industrialized and lesser developed nations; the social
+divide which points to inequalities among the population within one nation; and, a
+democratic divide which refers to the differences among those who do and do not use
+digital technologies to engage and participate in public life. DiMaggio and Hargittai
+(2001) suggested five dimensions along which divides may exist:
+
+          1. technical means (software, hardware, connectivity quality);
+          2. autonomy of use (location of access, freedom to use the medium for one's
+             preferred activities);
+          3. use patterns (types of uses of the Internet);
+          4. social support networks (availability of others one can turn to for
+             assistance with use, size of networks to encourage use); and,
+          5. skill (one's ability to use the medium effectively).
+
+The goal of this study is to empirically investigate such refined understandings of a
+second-level digital divide by exploring differences in Internet users' online skills.
+
+Information about people's online skills tells us to what extent they are able to use the
+medium in ways of most interest to them and in ways that are most useful to their
+particular needs. The ability to find different types of information online allows people
+to use the medium to their maximum benefit. If users often give up in frustration and
+confusion then merely having access does not mean that a digital divide has been
+solved because a divide remains in their capacity to effectively use the Internet (Wilson,
+2000).
+
+How can we talk about the Internet's effect on political participation if a user does not
+possess the skills to find political information? Similarly, how can the Internet prove to
+be a useful link between the government and citizens if people are unable to find
+official documents online? By measuring users' Internet skills, we can bridge the gap in
+the literature between mere structural measures of access and descriptions of what
+people do online in order to better describe the differences in online skills among
+individuals.
+
+
+
+
+Methods and Data
+Sampling
+
+The data presented in this paper are based on in-person observations and interviews
+with a random sample of 54 Internet users from the suburban towns and boroughs of a
+New Jersey county conducted during the summer and fall of 2001. Respondents were
+recruited through random sampling. Potential respondents were first sent a letter via
+postal mail explaining the project and requesting participation. They were also sent a
+brochure that presented more details about the study. People were also pointed to the
+study's Web site (www.webuse.org) for more information and were given the option of
+calling/writing the researcher to schedule an appointment. A few days after the letters
+had been sent, the households were contacted by telephone.
+
+The eligible adult (i.e. Internet user adult over 18) with the next nearest birthday was
+selected in order to randomly sample from within households. If this randomly selected
+person from the household was not willing to participate then the household was coded
+as a refusal even if another member of the household would have been willing to take
+part in the study. Such strict measures of random selection assure that the participants
+of the study represent a truly random sample of the area's Internet user population.
+People who were identified as Web users were invited to participate in the study. Web
+users are defined as people who go online at least once every month for more than
+using e-mail. This is a low threshold for including people in the study; it is used to
+maximize variance in experience.
+
+Respondents were offered $40 for their participation, which they received after the
+study session. Respondents were asked to come to the research site on the university
+campus and were offered assistance with transportation if they could not provide their
+own (one respondent took advantage of this option and was reimbursed for bus fare).
+The study's response rate was 64 percent, considerably high given the time cost
+involved in participation.
+
+Studying how people find information online
+
+Researchers in the library and information science community have conducted analyses
+on how people locate content online, but their projects limit their scope to people in
+particular academic communities (e.g. graduate students in information science
+programs (Wang, Hawk and Tenopir, 2000) or, at best, college students in general
+(Cothey, 2002)) making their findings impossible to generalize to the broader Internet
+user population (see Jansen and Pooch, 2001 for a review of the literature on Web
+searches). Moreover, these studies focus on the technicalities of searches - such as the
+number of search terms used in a search query - without exploring demographic
+variables that contribute to differences in how people find material online.
+
+Information about subjects' usual Internet use and history as well as data on their
+demographic background were collected via surveys. People's ability to locate content
+on the Web was measured by giving respondents tasks to perform online. I analyzed
+the results of the following five tasks. Individuals were asked to find:
+
+          1. Information about local cultural events in the area such as art shows,
+             musical performances, theatre shows or movies;
+          2. Music they could listen to online;
+          3. A Web site comparing different presidential candidates' views on abortion;
+          4. Tax forms; and,
+          5. Art by kids.
+
+These tasks were chosen to explore people's ability to find information on the Web in
+different topical domains. They explore whether users can find locally relevant content,
+can take advantage of the multimedia nature of the Web, can use the Web for political
+purposes, for government information, and for a random task such as finding children's
+art online. The last task proved to be useful in that it was new to all users and thus was
+able to control for people's previous experiences with any given task.
+
+Respondents were given the choice of using a PC or a Mac so they could use the
+platform with which they are most familiar. The three most popular browsing software
+applications were all available on both machines; Internet Explorer, Netscape
+Communicator, and America Online to allow respondents to replicate their usual online
+experiences. The computers connected to the Internet on a high-speed university
+network line. Additionally, a program called Don't Panic (Panicware, 2001) was used to
+erase the browser and URL history on each browser program so that each respondent
+started out with a clean slate and was not influenced by previous users' actions. The
+search sessions were recorded with the Hypercam screen capture program (or
+SnapZPro on the Mac) that generated audio-visual files of the entire search sessions.
+The whole screen was captured with every action - e.g. click of the mouse, scrolling -
+and every verbal comment the respondent made during the search. These files were
+then analyzed to measure whether people successfully completed a task and how much
+time (in seconds) they spent on each task. This is the outcome of interest in this study:
+Skill is operationalized as success and time to completion of a task.
+
+The researcher sat behind to the left of the respondent and refrained from influencing
+the respondents' strategies (e.g. never suggested any particular online actions, did not
+answer questions about spelling or whether a certain click would be useful).
+Respondents were encouraged to look for the information until they found it. No one
+was cut off from pursuing a search. In some cases when respondents looked frustrated
+or agitated they were given the option of moving on. However, when a subject simply
+stated that he or she was unable to perform a certain task, that person was encouraged
+to try several times nonetheless. When the subject suggested multiple times that they
+would not be able to complete a search, they were read the next task (Hargittai (in
+press) describes the study methodology in more detail).
+
+The sample
+
+Respondents range in age from 18-81 (see Table 1 for details). Half of the sample is
+male. Fifty-five percent of the respondents work full time and an additional 15 percent
+work part-time. Their occupations range from real-estate agents, environmental policy
+analysts, blue-collar workers to office assistants, teachers, service employees and
+medical professionals in addition to students, unemployed and retired persons. See the
+Appendix for a complete list of participants' demographic characteristics including their
+occupations.
+
+
+
+                Table 1: Descriptive Statistics for Independent Variables
+     a
+         Education and Family income have no means as those variables were collected categorically.
+
+
+                                        Standard
+                            Mean                          Median          Minimum          Maximum
+                                        Deviation
+
+          Age               43.06          16.37             41.5              18               81
+
+                                                                           Less than
+   Educationa                N/A            N/A            College                             Ph.D.
+                                                                          high school
+
+                                                          $80,000-         $17,500-
+Family Incomea               N/A            N/A                                            >$250,000
+                                                          $89,000          $19,000
+
+Number of years
+since first use of           6.24          3.54               6                0                16
+  the Internet
+
+Number of hours
+ browsing the                8.55          10.76              5           8 minutes             70
+  Web weekly
+
+
+
+
+Eighty-nine percent of the respondents are White, there are four African Americans and
+one Asian American respondent, one person chose the "other" category for race; there
+is one Hispanic participant. Eleven percent live without another adult in the household,
+45 percent live with a spouse, the rest live with roommates or others (parents in most
+cases). Eighty-two percent of the respondents have children. Of these 28 people, 53.5
+percent (15 people) have children currently living with them.
+
+On average, participants in this study are more educated than the general Internet user
+population as 26 percent have less than a college degree (among whom six are still
+enrolled in school), a third hold a college degree and the remaining 40 percent have a
+graduate degree. This suggests that findings from the study will be conservative with
+respect to effects of different educational levels on people's ability to use the Internet
+effectively.
+The family income of respondents is greater than the national average although it is
+important to note that this county is one of the highest income counties in the country
+and thus despite the high median income, the sample is not out of the ordinary for the
+local population. The average median per capita income in this county in 2000 was
+almost $40,000 (based on U.S. Census data). Here, I look at family income, which is
+likely to be considerably higher on average. See Table 1 for descriptive statistics of the
+family income distribution. Respondents differ in their political leaning with 20 percent
+self-identified as conservative, 30 percent claiming to be middle of the road and half
+identifying as liberal.
+
+Regarding Web use frequency and history, the group is diverse. Respondents were
+asked how much time they spend on the Web each week excluding e-mail use, that is,
+time spent specifically for browsing information online. Web use ranges from just a few
+minutes to over 30 hours weekly (see Table 1 for details). About half of the
+respondents use the Web more than they use e-mail, 18.5 percent use the two types of
+online services the same amount and the rest do more e-mailing than Web browsing in
+a typical week.
+
+The group is similarly diverse in its overall experience with the medium. Users were
+asked to note when they first started using the Internet. One person went online the
+year of the study with an additional 18.5 percent only having used it for two years or
+less. However, many - 39 percent - of the subjects had been users for 5-7 years. There
+are also several long-term users among the respondents with 18.5 percent having used
+the Internet for more than ten years (see Table 1 for details).
+
+
+
+
+Differences in Ability to Find Content Online
+I measure people's online skills in two ways. First, the binary success/failure rate shows
+what portion of the respondents was able to complete a certain task. Second, the time
+to completion of each task is measured in seconds to show the gradual differences in
+how long people take to find information on the Web. The exact time spent on each
+task is recorded for every respondent so information is available both on when
+respondents successfully completed a task and when they decided to give up on a task.
+
+There is some variance in the success rate for performing tasks and a large variance in
+the amount of time used to complete tasks. Half of respondents (27 individuals) were
+able to successfully complete all tasks and an additional 31.5 percent (17 people)
+succeeded in locating four of the five types of information sought (see Table 2 for
+details). However, the remaining ten people were only able to successfully complete 1-3
+tasks. This is a considerable proportion given that people were encouraged to pursue
+tasks without any time constraint. Table 3 describes in detail what proportion of
+respondents was successful for each task with additional information on the amount of
+time people took to successfully complete each task.
+
+
+
+               Table 2: Number of Successfully Completed Tasks
+                                        (N=54)
+
+
+                                                      Number of Respondents
+     Number of Tasks Completed Successfully
+                                                        (% in parentheses)
+
+                           1                                     1 (2)
+
+                           2                                    3 (5.5)
+
+                           3                                    6 (11)
+
+                           4                                  17 (31.5)
+
+                           5                                   27 (50)
+
+
+ Table 3: Success Rate and Average Time to Successful Completion by Task
+
+
+            Success                                          Maximum
+                        Mean      Standard       Minimum                       N
+ Task        Rate                                              Time
+                       (mins)     Deviation        Time                    (success)
+             (%)                                              (min)
+
+ Music       94.44       1.55        1.67           5s           7.83          51
+
+  Tax
+             94.44       2.48        2.04          27s           8.75          51
+ forms
+
+ Local
+             87.04       2.18        2.03          24s           9.78          47
+events
+
+ Kids'
+             85.19       2.09        1.67          11s           8.05          46
+  art
+
+Political
+             61.11       3.79        3.10          27s          13.53          33
+  info
+Note the low rate of successful completion (61 percent) for the task that required
+respondents to find a Web site that compares different presidential candidates' views on
+abortion. To control for previous experience with such a task, respondents were also
+asked if they had looked at political campaign information online before. Among those
+who had not, 54.2 percent completed the task successfully in contrast to the 66.7
+percent among those who had experience with looking for this type of content online.
+Although there is some difference among those who had previous experience with this
+task and those who did not, there are significant proportions of people in both
+categories who lacked the skill to successfully complete this task.
+
+This finding has important implications when considering the potential effects of the
+Internet on political participation and its ability to inform citizens on political issues. A
+large percentage of users were unable to find a political comparison Web site even in a
+situation where they are not constrained by time and are not being distracted by other
+obligations and activities. This suggests that people have a very hard time finding
+political information that may be helpful to further their understandings of candidates'
+views in a political campaign. Although there are numerous resources on the Web that
+showcase this type of information, the mere presence of such content will be of little
+use to advancing political participation if people are not capable of finding their way to
+such sites.
+
+Overall, people spent anywhere from two and a half minutes to 33 minutes on the five
+tasks regardless of whether they were able to successfully complete them or not. Figure
+1 shows the cumulative distribution function of the total time spent on all tasks. The y
+axis denotes the proportion of people still working on a task and the x axis shows the
+amount of total time spent on searching. The circles on the graph signify the amount of
+time the respondent took to search for the five types of content on the Web.
+                   Figure 1: Total Time Spent on All Five Tasks
+
+
+
+There is a gradual increase in the amount of time people spent on all the tasks. Half of
+respondents were done in 12 minutes or less (so on average these people spent 2.4 or
+less minutes on each task), but the rest took longer, spending as much as 33 minutes
+on the tasks. Four respondents spent less than a total of five minutes on all tasks
+whereas four respondents spent more than 30 minutes on the five tasks.
+
+The large variance is not simply due to people searching endlessly without successful
+completion resulting in lengthy search sessions. Figure 2 shows the distribution of time
+spent on the five tasks for those 27 respondents who successfully completed all five
+tasks. Their times-to-completion range from 2.5 minutes to 30.3 minutes suggesting
+that the quickest respondent successful with all tasks was as much as twelve times
+quicker than the slowest fully successful respondent.
+  Figure 2: Total Time Spent on All Tasks for Those Successful with All Five
+                                    Tasks
+
+
+
+How can we explain these differences in people's ability to find content online? Here, I
+look at the relationship between online skills and age, gender, education, and
+experience with the technology. I consider both the mean number of successfully
+completed tasks by subgroups and the average amount of time (in minutes) spent on
+all five tasks. I report time spent on all five tasks regardless of successful completion.
+The results are robust when only considering the total time of those who were
+successful with all five tasks.
+
+Age
+
+There are clear generational differences in people's ability to use the Web. Table 4
+shows the average number of successfully completed tasks by age broken down by
+decades. The 18 and 19 year olds were all successful with all five tasks whereas the
+people in their 70s and 80s averaged 3.33 successful tasks with people in their 60s also
+able to finish less than four tasks on average. The same table also presents information
+about the average time people spent on the five tasks broken down by age in decades.
+Again we see clear generational differences. People in their teens and people in their
+20s are quicker than people in their 30s and 40s who are quicker than older
+respondents, although curiously, people in their 60s were relatively quick at finishing
+tasks.
+
+
+
+Table 4: Average Number of Successfully Completed Tasks and Time Spent on
+                              Tasks by Age
+
+
+                                            Average
+              Mean         Standard                       Standard
+Age by                                      Time on                        Number of
+             Number        Deviation                      Deviation
+Decade                                       Tasks                        Observations
+             of Tasks      of Tasks                        of Time
+                                             (min)
+
+  10s            5            0.00             6.7            3.96               3
+
+  20s          4.67           0.49             8.2            3.97               12
+
+  30s          4.17           1.33            15.7            6.11               6
+
+  40s          4.21           0.58            14.0            6.94               14
+
+  50s          4.13           1.13            19.1            8.44               8
+
+  60s          3.75           1.49            13.5            6.49               8
+
+ 70s+          3.33           1.15            24.4            7.50               3
+
+
+
+
+Gender
+
+On average, women completed 4.19 tasks compared to men's 4.26 average success
+rate. The average total time spent on the five tasks for women was 14.6 minutes
+whereas for men it was 12.9 minutes. Neither of these differences is statistically
+significant, suggesting that there is no influence of gender on whether people are able
+to efficiently navigate the content of the Web and how long they take to do so.
+
+Education
+
+Education has consistently been a predictor of access to the Internet (NTIA 1995, 1998,
+1999, 2000) and is likely to affect the level of Web use skill as well. Universities were
+the first ones to embrace the technology and thus those who attended college in the
+past decade would have had exposure to the medium during their schooling. Moreover,
+people with higher levels of education are likely to have had more exposure to
+computer technology in general, familiarity with which is an important first step in
+gaining access to the Internet. Moreover, higher educated individuals are more likely to
+possess the expertise and confidence with technology needed to download and install
+additional software, a necessary prerequisite for the browsing of many Web sites.
+
+Here, respondents' level of education is broken down into three categories: less than a
+college degree, college degree and graduate degree. Table 5A shows the relationship of
+educational level to online skills. Those with the highest level of education do best in
+terms of the number of tasks completed while those with the lowest level of education
+are the quickest in completing tasks.
+
+
+
+Table 5A: Average Number of Successfully Completed Tasks and Time Spent
+                        on Tasks by Education
+
+
+                                            Average
+                Mean        Standard                      Standard
+                                            Time on                       Number of
+Education      Number       Deviation                     Deviation
+                                             Tasks                       Observations
+               of Tasks     of Tasks                       of Time
+                                             (min)
+
+No college
+                 4.43           .94           10.4           5.13              14
+ degree
+
+  College
+                 3.78           1.21          18.4           8.44              18
+  degree
+
+ Graduate
+                 4.45           .67           12.0           6.42              22
+  degree
+
+
+
+
+However, because those currently in school are likely to have quite a bit of exposure to
+the technology, and because they would show up in an educational category that does
+not yet represent the degree they are currently seeking, in Table 5B, I present the
+relationship between education and online skill excluding those respondents who are
+currently in school (six college students and one graduate student were thus excluded
+from this table). Here, we see that those with a graduate degree do best both with
+successful completion of tasks and amount of time spent on tasks.
+In the last column of this table, I have included the average age of those in the three
+educational subcategories because we have seen earlier that age is significantly related
+to level of Web skill. Consistent with that finding, we find that the relationship of
+education to skill noted in this table may be driven by the considerable differences in
+the average age of those who have no college degree (40) and those who do (48 for
+the college graduates and 47 for those with an advanced degree). The higher level of
+skill in the lowest educational category may thus be driven by the considerably lower
+average age of those respondents. Since the average age is similar for the latter two
+categories they are more comparable (as this controls for differences in age). We can
+see that those with a graduate degree are considerably better at finding information
+online than those who do not have an advanced degree when controlling for age.
+
+
+
+Table 5B: Average Number of Successfully Completed Tasks by Education and
+          Time Spent on Tasks Excluding Those Currently in School
+
+
+                                                                            Mean Age
+                        Standar     Averag     Standar
+             Mean                                                               in
+                           d        e Time        d         Number of
+Educati      Numb                                                           Education
+                        Deviati       on       Deviati      Observatio
+  on         er of                                                              al
+                         on of      Tasks       on of          ns
+             Tasks                                                          Subcatego
+                         Tasks       (min)      Time
+                                                                               ry
+
+   No
+ college      4.125       1.13        12.9        3.89            8              40
+ degree
+
+ College
+              3.78        1.21        18.4        8.44           18              48
+ degree
+
+Graduate
+              4.42         .68        12.3        6.45           21              47
+ degree
+
+
+
+
+Prior experience with the technology
+
+The amount of prior experience with the Internet is likely to affect online actions
+(Howard, Rainie, and Jones, 2001). People who spend more time online - whether at
+home or any other location - will likely acquire more knowledge about the Web and
+thus will have better online skills. Moreover, people who have been Internet users for
+longer are expected to be better at finding information online as they have more
+experiences to draw on. Additionally, early adopters tend to be more innovative, with a
+greater willingness to explore a new medium and familiarize themselves with it
+(Howard, Rainie, and Jones, 2001; Rogers, 1995).
+
+The data suggest that the amount of time people spend online does affect their
+efficiency in finding information on the Web but is of most concern for those who use it
+minimally. According to Table 6, those who browse the Web less than an hour each
+week are able to find less information and take considerably longer on tasks than those
+who spend either 1-7 hours online per week or those who spend even more time
+surfing the Web weekly.
+
+
+
+Table 6: Average Number of Successfully Completed Tasks and Time Spent on
+                     Tasks by Time on Web Weekly
+
+
+                                            Average
+                Mean        Standard                      Standard
+                                            Time on                       Number of
+Education      Number       Deviation                     Deviation
+                                             Tasks                       Observations
+               of Tasks     of Tasks                       of Time
+                                             (min)
+
+ Less than
+                 3.20           1.78          18.9           8.37               5
+ one hour
+
+1-<7 hours       4.22           .93           13.7           7.90              27
+
+7 or more
+                 4.45           .67           12.7           6.80              22
+  hours
+
+
+
+
+Table 7 sheds light on the importance of being a veteran versus a newcomer online.
+Those who only recently started using the Internet - in the past three years - exhibit
+considerably lower online skills than those who have been online for longer. However,
+note again the age distribution among the subcategories. Late adopters are significantly
+older and so it may be a combination of age and time that is driving the differences in
+Web use skills.
+
+
+
+Table 7: Average Number of Successfully Completed Tasks and Time Spent on
+             Tasks by Number of Years Since First Internet Use
+Numbe
+  r of
+ Years                 Standar       Averag     Standar
+            Mean                                                               Mean Age
+ Since                    d          e Time        d          Number of
+            Numb                                                                   in
+ First                 Deviatio        on       Deviatio      Observatio
+            er of                                                              Subcatego
+Use of                   n of        Tasks        n of           ns
+            Tasks                                                                 ry
+  the                   Tasks         (min)      Time
+Intern
+   et
+
+  0-2
+             3.18         1.25        19.6         6.01            11               52
+ years
+
+  3-6
+             4.47          .61        14.3         7.67            19               41
+ years
+
+  7 or
+ more        4.50          .78        10.6         6.56            24               40
+ years
+
+
+
+
+Conclusion
+In general, young people (late teens and twenties) have a much easier time getting
+around online than their older counterparts (whether people in their 30s or 70s). Some
+of this is clearly based on comfort with the technology they are using and not
+necessarily based on elaborate techniques they have mastered specifically with respect
+to the Web. As the amount of time people have been Internet users also matters in
+how well individuals are able to navigate the content of the Web, it is possible that
+those who are currently less skilled will learn over time and improve their ability to find
+content online. However, people may be discouraged by the difficulties of finding
+information on the Web and thus may end up spending less time with the medium.
+Given that time spent on the Web is also associated with level of Web skill, lower level
+skills may persist over time.
+
+It is clear from the findings that there is great deal of variance in abilities to locate
+content online. Merely offering people a network-connected machine will not ensure
+that they can use the medium to meet their needs because they may not be able to
+maximally take advantage of all that the Web has to offer. Policy decisions that aim to
+reduce inequalities in access to and use of information technologies must take into
+consideration the necessary investment in training and support as well. Like education
+in general, it is not enough to give people a book, we also have to teach them how to
+read in order to make it useful. Similarly, it is not enough to wire all communities and
+declare that everyone now has equal access to the Internet. People may have technical
+access, but they may still continue to lack effective access in that they may not know
+how to extract information for their needs from the Web. Although providing Internet
+access may help alleviate some problems of the digital divide, information presented in
+this paper demonstrates that a second-level digital divide exists relative to specific
+abilities to effectively use the medium.
+
+
+
+
+About the Author
+Eszter Hargittai earned her BA in Sociology at Smith College and is currently a PhD
+candidate in Sociology at Princeton University. She has published on the comparative
+history of the radio's and Internet's early years, inequalities in the global diffusion of the
+Internet, how portal sites channel users toward some content and away from other
+online material, analysis of international telephone networks, and on conceptualizing
+the "digital divide". Her current project is an empirical look at how people find
+information online and how the organization and presentation of content on the Web
+influences people's online actions. She has recently launched an e-mail distribution list -
+"Eszter's List" - with pointers to interesting material on the Web. For more information,
+see http://www.eszter.com.
+E-mail: eszter@eszter.com
+
+
+
+
+Acknowledgments
+I would like to thank Paul DiMaggio for his insightful comments throughout this project,
+Stan Katz for his ongoing support, and Erica Field for helpful discussions. I am also
+grateful to Edward Freeland, James Chu, Carolyn Mordas, Jeremy Davis-Turak, and
+Inna Barmash for their assistance with various components of the project. Generous
+support from the Markle Foundation is kindly acknowledged. The project has also been
+supported in part by NSF grant #SES9819907, a grant from the Russell Sage
+Foundation, and through a grant from the Pew Charitable Trusts to the Center for Arts
+and Cultural Policy Studies, Princeton University. I am also grateful to the Fellowship of
+Woodrow Wilson Scholars at Princeton University.
+References
+Benton Foundation, 1998. "Losing Ground Bit by Bit: Low-Income Communities in the
+Information Age," at http://www.benton.org/Library/Low-Income/, accessed 25 March
+2002.
+
+B. Bimber, 2000. "The Gender Gap on the Internet," Social Science Quarterly, volume
+81, number 3, pp. 868-876.
+
+E.P. Bucy, 2000. "Social Access to the Internet," Harvard International Journal of
+Press/Politics, volume 5, number 1, pp. 50-61.
+
+V. Cothey, 2002. "A Longitudinal Study of World Wide Web Users' Information-
+Searching Behavior," Journal of the American Society for Information Science and
+Technology, volume 53, number 2, pp. 67-78.
+
+P. DiMaggio and E. Hargittai, 2001. "From the 'digital divide' to 'digital inequality':
+Studying Internet use as penetration increases," Princeton University Center for Arts
+and Cultural Policy Studies, Working Paper Series number 15.
+
+E. Hargittai, in press. "Beyond logs and surveys: In-depth measures of people's Web
+use skills," Journal of the American Society for Information Science and Technology
+Perspectives.
+
+D.L. Hoffman and T.P. Novak, 1999. "The Evolution of the Digital Divide: Examining the
+Relationship of Race to Internet Access and Usage Over Time," at
+http://ecommerce.vanderbilt.edu/research/papers/pdf/manuscripts/EvolutionDigitalDivid
+e-pdf.pdf/, accessed 25 March 2002.
+
+P.E.N. Howard, L. Rainie, and S. Jones, 2001. "Days and Nights on the Internet: The
+Impact of a Diffusing Technology," American Behavioral Scientist, volume 45, number 3
+(November), pp. 383-404.
+
+B.J. Jansen and U. Pooch, 2001. "A Review of Web Searching Studies and a Framework
+for Future Research," Journal of the American Society for Information Science and
+Technology, volume 52, number 3, pp. 235-246.
+
+J.E. Katz and R.E. Rice, 2002. Social Consequences of Internet Use: Access,
+Involvement and Interaction. Cambridge, Mass.: MIT Press.
+
+R. Kling, 1998. "Technological and Social Access on Computing, Information and
+Communication Technologies," White Paper for Presidential Advisory Committee on
+High-Performance Computing and Communications, Information Technology, and the
+Next Generation Internet, at http://www.slis.indiana.edu/kling/pubs/NGI.htm, accessed
+26 March 2002.
+
+W.E. Loges and J.-Y. Jung, 2001. "Exploring the Digital Divide: Internet Connectedness
+and Age," Communication Research, volume 28, number 4 (August), pp. 536-562.
+
+National Telecommunications and Information Administration, 1995. "Falling Through
+the Net: A Survey of the "Have Nots" in Rural and Urban America," at
+http://www.ntia.doc.gov/ntiahome/fallingthru.html, accessed 25 March 2002.
+
+National Telecommunications and Information Administration, 1998. "Falling Through
+the Net II: New Data on the Digital Divide," at
+http://www.ntia.doc.gov/ntiahome/net2/falling.html, accessed 25 March 2002.
+
+National Telecommunications and Information Administration, 1999. "Falling through
+the net: Defining the digital divide," at
+http://www.ntia.doc.gov/ntiahome/fttn99/contents.html, accessed 25 March 2002.
+
+National Telecommunications and Information Administration, 2000. "Falling Through
+the Net: Toward Digital Inclusion," at
+http://www.ntia.doc.gov/ntiahome/fttn00/contents00.html, accessed 25 March 2002.
+National Telecommunications and Information Administration, 2002. "A Nation Online:
+How Americans Are Expanding Their Use of the Internet," at
+http://www.ntia.doc.gov/ntiahome/dn/html/anationonline2.htm, accessed 25 March
+2002.
+
+P. Norris, 2001. Digital Divide: Civic Engagement, Information Poverty and the Internet
+in Democratic Societies. New York: Cambridge University Press.
+
+Panicware, Inc., 2001. "Don't Panic! 4.0," at http://www.panicware.com/, accessed 25
+March 2002.
+
+Pew Internet and American Life Project, 2000. "Tracking Online Life: How Women Use
+the Internet to Cultivate Relationships with Family and Friends," at
+http://www.pewinternet.org/reports/pdfs/Report1.pdf, accessed 25 March 2002.
+
+E. Rogers, 1995. Diffusion of Innovations. New York: Free Press.
+
+S. Strover, 1999. "Rural Internet Connectivity," at
+http://www.rupri.org/pubs/archive/reports/1999/P99-13/, accessed 25 March 2002.
+
+P. Wang, W.B. Hawk and C. Tenopir, 2000. "Users' Interactions with World Wide Web
+Resources: An Exploratory Study Using a Holistic Approach," Information Processing
+and Management, volume 36, number 2, pp. 229-251.
+E.J. Wilson, 2000. "Closing the Digital Divide: An Initial Review," at
+http://www.internetpolicy.org/briefing/ErnestWilson0700.html, accessed 25 March
+2002.
+
+
+
+                        Appendix: Demographics of Respondents
+Education: <HS = less than high school; HS/GED = high school or equivalency exam; SC = some college;
+ASD = associates degree; BA = bachelor's degree (either arts or sciences); MA = Master's (either arts or
+                    sciences); PRO = professional degree; PhD = doctoral degree
+                             a
+                               African American;bAsian American;c Hispanic
+
+
+                                                                                        Number of
+                                                                     Time on            Years Since
+       Occupation                Age     Sex      Education         Web/week            First Use of
+                                                                    (in hours)              the
+                                                                                         Internet
+
+          Student                 18       F        HS/GED                 3                   7
+
+         At homea                 18       F        HS/GED                10                   5
+
+      Library office
+                                  19       F           SC                 10                   4
+    assistant/Student
+
+  Accounting manager
+                                  20       F           SC                  2                  11
+   assistant/Student
+
+      Sales data
+                                  20       F           SC                 4.5                  7
+    manager/Student
+
+ Bank customer service
+                                  21       F           SC                  5                   4
+ representative/Student
+
+   Computer lab tech
+                                  22       M           SC                 70                   7
+    support/Student
+
+ Financial markets data
+                                  24       M           BA                 30                   5
+       managerc
+
+ Financial services sales
+                                  24       M           BA                 21                   6
+     representative
+   Financial analyst       25   M    BA       1     11
+
+      Golf course
+                           26   M   HS/GED   7.5    2
+    groundskeeper
+
+    Hydrogeologist         26   F    BA       5     7
+
+Non-profit administrator   26   F    MA       6     7
+
+   Graduate student
+                           27   M    PhD     10     11
+     (humanities)a
+
+     Civil engineer        29   M    BA      17.5   6
+
+   U.S. military pilot     33   M    MA       7     6
+
+ Non-profit computer
+                           34   M    MA      25     7
+    programmerb
+
+ Local government GIS
+                           36   F    MA      15     6
+     administrator
+
+ Assembly worker (air
+                           39   M    <HS     0.13   1
+    conditioners)a
+
+  Small company MIS
+                           39   M   HS/GED    7     6
+        director
+
+        At home            39   F    BA      .17    1
+
+  Self-employed real-
+                           40   F    ASD     1.5    2
+      estate agent
+
+   Medical equipment
+                           40   M    BA      10     11
+ repair and installation
+
+        At home            40   M    MA       4     9
+
+Professor (mathematics)    40   M    PhD      8     9
+
+   Circulating nurse       41   F    ASD      9     8
+ Legal researcher for
+                          41   M   PRO    5     8
+         State
+
+     Unemployed           42   F   MA    21     8
+
+    Security officer      42   M   PRO    4     3
+
+ Personal/professional
+    concierge (self-      43   F   BA    8.5    2
+      employed)
+
+     Retail data
+                          44   F   BA    0.25   2
+    administratora
+
+    Self-employed
+                          44   F   MA     7     5
+      consultant
+
+    Environmental
+                          45   M   MA     3     5
+      consultant
+
+    School teacher        47   F   MA     3     10
+
+Social work supervisor    48   F   MA     1     6
+
+   Sales accountant       50   M   BA     5     5
+
+Professor (humanities)    50   F   PhD   0.5    13
+
+Utility company budget
+                          50   M   BA     5     7
+         analystc
+
+Retail customer service   52   F   MA     4     4
+
+Management consultant
+                          52   M   MA    10     16
+ (comp info systems)
+
+ Technician manager       55   M   ASD   3.5    12
+
+Business development      56   M   BA    3.5    4
+
+        Retired           57   F   MA     5     11
+  Development officer         60      M         PhD              7.5               8
+
+  Personal assistant to
+                              62      F         ASD              18                7
+      psychologist
+
+         Retired              62      M         MA               14                3
+
+         Retired              63      F         BA                3                2
+
+    Crisis counselor          64      F         BA               0.5               2
+
+   Real estate broker         66      M         BA               15                2
+
+Pharmaceutical products
+                              68      F         BA                1                2
+ customer support rep.
+
+ Retired (was: scientific
+                              69      M         PhD              10                6
+  equipment marketer)
+
+            -                 72      F         BA               10                13
+
+ Software programmer          72      M         BA               3.5               5
+
+    Store sales staff
+(formerly company tech        81      M         BA                1                0
+         staff)
+
+
+
+Editorial history
+Paper received 21 March 2002; accepted 25 March 2002.
+
+
+
+
+Copyright ©2002, First Monday
+
+Second-Level Digital Divide: Differences in People's Online Skills by Eszter Hargittai
+First Monday, volume 7, number 4 (April 2002),
+URL: http://firstmonday.org/issues/issue7_4/hargittai/index.html
+

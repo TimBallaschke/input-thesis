@@ -59,3 +59,20 @@ writing workflow.
 ## Finalization
 
 Before submission, perform one final archive synchronization, build the PDF, verify every `AI-###` entry, and confirm that each page-and-line citation matches the final documentation PDF.
+
+## Public shared-chat import, 17 September 2026
+
+Ten user-supplied share links are archived as CGPT-05 through CGPT-14. See
+[`SHARED_CHAT_IMPORT_2026-09-17.md`](SHARED_CHAT_IMPORT_2026-09-17.md) for the
+title/URL inventory, chapter associations, overlap cross-references and missing
+uploads. Exact extracted message text is retained in `*-share-*-messages.jsonl`;
+separate manifests record hashes, timestamps, message ranges and exclusions.
+The line-numbered display can be regenerated without another network request
+using `scripts/import_shared_chats.py --render-only`.
+
+Unlike the earlier supplied text attachments, these records are public page
+snapshots with filtered visible communication. Raw page configuration, hidden
+reasoning and tool payloads are not retained. Upload metadata is not the file
+itself. Import does not establish manuscript adoption or verify source claims.
+The explicit import request resumes documentation work previously deferred
+during section corrections; the current Codex communication is also synchronized.

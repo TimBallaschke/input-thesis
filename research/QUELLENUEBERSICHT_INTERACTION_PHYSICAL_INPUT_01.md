@@ -16,10 +16,13 @@ Die leitende Frage lautet: **Welche körperlichen, wahrnehmungsbezogenen und tec
 | Quelle | Funktion im späteren Abschnitt | Besonders relevante Abschnitte | Zentrale Claims | Wichtigste Grenze |
 | --- | --- | --- | --- | --- |
 | [Feit, Weir und Oulasvirta 2016](source-notes/feit-weir-oulasvirta-2016-how-we-type.md) | Kernbeleg für physische Tastatur, motorische Routinen und Blicksteuerung | S. 4264–4266 Methode; S. 4266–4271 Ergebnisse und Diskussion | FEIT16-P1–P8, P10 | kontrollierte Transkription auf finnischer QWERTY-Tastatur |
+| [Galbraith und Kay 2025](source-notes/galbraith-kay-2025-qwerty-ip-complementarity.md) | historischer Stützbeleg für QWERTY, Standardisierung und wirtschaftliche Strategie | PDF-S. 4–19 Methode, Typenhebel, Korrespondenz und Patent; 19–23 heutige Fortdauer | GK25-P1–P8 | deutliche Gegenposition zur Lock-in-Erzählung; keine heutige Nutzungsstudie |
 | [Oulasvirta et al. 2013](source-notes/oulasvirta-et-al-2013-two-thumb-text-entry.md) | Kontrast für Touchscreen, Griff, Daumenkoordination und Training | S. 2767–2769 Motorik; S. 2770–2773 Layout, Training und Korrektur | OUL13-P2–P8 | optimiertes KALQ-Tabletkeyboard, kleine rechtshändige Stichproben, intensives Training |
 | [Ruan et al. 2017](source-notes/ruan-et-al-2017-speech-keyboard-text-entry.md) | Kernbeleg für Diktat als eigene Handlungs- und Korrekturkette | Art. 159:4–159:10 Aufbau und Messung; 159:12–159:20 Ergebnisse und Grenzen | RUAN17-P1–P12, besonders P3–P7 und P11–P12 | kurze Transkription unter ruhigen Idealbedingungen mit Systemstand 2017 |
+| [Koenecke et al. 2020](source-notes/koenecke-et-al-2020-racial-disparities-asr.md) | Kernbeleg für ungleich verteilte ASR-Fehlerraten | S. 7684–7688 Datensatz, WER, Dialektdichte, Modelltests und Grenzen | KOE20-P1–P8 | keine Interface- oder Korrekturstudie; historische Systeme und regional getrennte Korpora |
 | [MacKenzie und Soukoreff 2002](source-notes/mackenzie-soukoreff-2002-mobile-text-entry.md) | Methodischer Rahmen für Vergleich, Aufmerksamkeit, Lernen, Geschwindigkeit und Fehler | S. 154–160 Evaluationsmethodik; S. 164–165 Prozess gegenüber Endtext | MS02-P3–P6, P8–P9 | historischer Review; keine aktuellen Leistungswerte |
 | [van Esch et al. 2019](source-notes/van-esch-et-al-2019-gboard-internationalization.md) | Stützquelle für sprach- und schriftsystemspezifische Eingabearbeit | S. 5–8 Workarounds; S. 13–18 Layouts und Sprachfunktionen | VE19-P2, P4, P6–P7 | aggregierter Herstellerbericht ohne vollständige Studienmethodik |
+| [Akrich 1992](source-notes/akrich-1992-de-scription-technical-objects.md) | theoretische Linse für Skript, Delegation, Nutzererziehung und Blackboxing | S. 205–211 und 216–222 | AKR92-P1–P9 | Techniktransfer- und Infrastrukturbeispiele, kein Texteingabeinterface |
 
 ## 1. Physische Tastatur – Feit, Weir und Oulasvirta 2016
 
@@ -164,6 +167,12 @@ Die Quelle verhindert, eine einzige QWERTY-Routine als allgemeine Texteingabe da
 
 ## Anschlussmaterial, noch nicht Teil des engen Kerns
 
+### Kritische Ergänzungen für die revidierte Perspektive
+
+- **Galbraith und Kay 2025:** Die Surface QWERTY lässt sich als konservierte Kopplung aus früher Mechanik, Umlern- und Standardisierungsarbeit sowie wirtschaftlicher Strategie behandeln. Der Aufsatz erlaubt gerade keine zeitlose Aussage, dieses Layout sei für alle Anwendungen oder Körper optimal (GK25-P2–P8).
+- **Koenecke et al. 2020:** Im untersuchten US-Korpus lagen die mittleren Wortfehlerraten in allen fünf auditierten Systemen für Black speakers höher; aggregiert 0,35 gegenüber 0,19. Die Quelle belegt ungleiche Erkennungsleistung, nicht tatsächlich geleistete Korrekturarbeit oder heutige Produktwerte (KOE20-P1–P8).
+- **Akrich 1992:** „Skript“, projektierte und reale Nutzer:innen, technische Delegation und Blackboxing liefern das Vokabular, um Surface, Interaction und Operation als Rückkopplung zu lesen. Jede konkrete Anwendung auf Textfelder bleibt eine zu kennzeichnende Projektsynthese (AKR92-P1–P9).
+
 ### Quinn und Zhai 2016 – Vorschläge und motorische Einsparung
 
 - Auswertung: [Quellennotiz](source-notes/quinn-zhai-2016-text-entry-suggestions.md)
@@ -184,19 +193,24 @@ Die Quelle verhindert, eine einzige QWERTY-Routine als allgemeine Texteingabe da
 2. **Physische Tastatur:** Beherrschung zeigt sich in motorischer Konsistenz, Vorbereitung und Blicksteuerung, nicht in einer einzigen richtigen Fingertechnik.
 3. **Touchscreen:** Die körperliche Arbeit verändert sich durch Griff, Reichweite, Daumenkoordination, Touchinterpretation und Training.
 4. **Diktat:** Fingerarbeit wird nicht einfach beseitigt, sondern in Sprechen, Warten, Prüfen und häufig multimodale Korrektur umverteilt.
-5. **Übergang:** Der fertige Text verdeckt seinen Entstehungsweg; für Interaction und Operation sind Prozessdaten entscheidend.
+5. **Ungleichverteilung:** Technische Erkennung kann verschiedene Sprechweisen mit unterschiedlichen Fehlerraten behandeln.
+6. **Historisch-theoretischer Übergang:** Die sichtbare Ordnung trägt frühere Entwurfsentscheidungen weiter; Stabilisierung kann ihre Herstellung und Alternativen verdecken.
+7. **Übergang:** Der fertige Text verdeckt seinen Entstehungsweg; für Interaction und Operation sind Prozessdaten entscheidend.
 
-Für einen sehr kurzen Abschnitt genügen Feit, Oulasvirta, Ruan und MacKenzie/Soukoreff. Van Esch kann einen einzigen einschränkenden Kontextsatz tragen. Quinn/Zhai und W3C sollten erst beim Übergang zu Vorschlägen beziehungsweise Operation eingesetzt werden.
+Für einen sehr kurzen empirischen Abschnitt genügen Feit, Oulasvirta, Ruan und MacKenzie/Soukoreff. Die revidierte Fassung kann je einen knappen historischen Satz aus Galbraith/Kay, einen Ungleichheitsbefund aus Koenecke et al. und Akrich als ausdrücklich markierte theoretische Linse ergänzen. Van Esch kann einen einschränkenden Kontextsatz tragen. Quinn/Zhai und W3C sollten erst beim Übergang zu Vorschlägen beziehungsweise Operation eingesetzt werden.
 
 ## Derzeitige Evidenzentscheidung
 
-Der vorhandene Quellenbestand ist für einen **engen, nicht aktualitätsbezogenen Abschnitt** ausreichend. Eine neue Suche wird erst notwendig, wenn der spätere Text mindestens eine der folgenden weitergehenden Aussagen enthalten soll:
+Der ergänzte Quellenbestand ist für einen **engen, nicht aktualitätsbezogenen und kritisch gerahmten Abschnitt** ausreichend. Die neue Dreiergruppe schließt die unmittelbar benannten Lücken zu QWERTY-Geschichte, technischer Einschreibung und einer begrenzten Form sprachlicher Ungleichheit. Eine weitere Suche wird notwendig, wenn der spätere Text mindestens eine der folgenden weitergehenden Aussagen enthalten soll:
 
 - heutige freie Diktier- oder Promptkomposition;
 - Diktat unter Bewegung, Lärm oder sozialem beziehungsweise privatem Kontext;
 - gewöhnliche Smartphone-QWERTY-Nutzung anstelle des trainierten KALQ-Falls;
 - allgemeine Leistungsrangfolge von physischer Tastatur, Touchscreen und Sprache;
 - gegenwärtige technische Funktionsweise von Diktier- oder LLM-Interfaces.
+- Barrierefreiheit, Körpernormen oder Händigkeit;
+- Unicode als technische und politische Zeichenordnung;
+- eine ausgewogene Vertiefung der QWERTY-/Pfadabhängigkeitsdebatte.
 
 ## Auswahlregel für die 30-Seiten-Grenze
 

@@ -1,0 +1,217 @@
+Interaction
+
+Eingabe als physischer Prozess
+
+Texteingabe setzt zunächst eine körperliche Handlung voraus. Bevor Text als Inhalt, Anfrage oder Befehl verarbeitet werden kann, muss er zunächst erzeugt und vom System erfasst werden. Diese körperliche Ausführung fordert motorische Bewegung, sowie visuelle Aufmerksamkeit und ist von der rein sprachlichen Formulierungsarbeit zu trennen. Wie diese Eingabeprozess aussieht, hängt wesentlich davon ab, auf welchem Weg Text eingegeben wird. (Belege: Feit et al. 2016, S. 4264–4271; MacKenzie/Soukoreff 2002, S. 154–160 und 163–165.)
+
+Das Tippen auf einer physischen Tastatur besteht aus einer Koordination von Finger-, Hand und Blickbewegungen, bei welcher der User seine Aufmerksamkeit zwischen Bildschirm und Tastatur verteilt. Dabei kommen unterschiedliche, teils individuell erlernte Schreibtechniken zum Einsatz, welche sich in Geschwindigkeit stark unterscheiden können. (Beleg: Feit et al. 2016, S. 4262–4271.)
+
+Auf einem Touchscreen verändert sich der körperliche Bewegungsablauf. Wie Zeichen eingegeben werden, hängt unter anderem von der Griffhaltung, dem Geräteformat sowie von Reichweite und Koordination der Daumen ab. Bei einer Bildschirmtastatur muss das System zudem die Position jeder Berührung interpretieren und der vermutlich beabsichtigten Taste zuordnen.
+
+Spracheingabe verlagert den Prozess von den Händen auf das Sprechen. Der Eingabeprozess umfasst jedoch weiterhin mehrere Schritte. NutzerInnen beginnen die Aufnahme, sprechen, signalisieren das Ende der Eingabe und warten auf die technische Verarbeitung. Anschließend muss die erzeugte Transkription kontrolliert und gegebenenfalls korrigiert werden. Zwischen dem Sprechen und dem sichtbaren Text liegt damit ein technischer Erkennungsprozess. In der Untersuchung von Ruan et al. wurde ein großer Teil der Korrekturenweiterhin an der Tastatur ausgeführt (vgl. Ruan et al. 2017, Art. 159:13–159:17).
+
+Ob Tastatur, Touchscreen oder Sprache: In allen drei Fällen entsteht Text aus einem Zusammenspiel von körperlicher Handlung, technischer Interpretation und möglicher Korrektur. Im fertigen Text ist dieser Entstehungsprozess nicht mehr sichtbar. Er zeigt nur das Ergebnis, nicht die Bewegungen, Fehlversuche und Korrekturen, die ihm vorausgingen.
+
+Erforderliche Kenntnisse und Kompetenzen
+
+Neben der körperlichen Ausführung setzt Texteingabe Wissen über das jeweilige System voraus. Je nach Eingabeform müssen NutzerInnen Befehle und syntaktische Regeln kennen, ihre Absichten in eine geeignete Formulierung übersetzen, die Fähigkeiten des Systems einschätzen oder vorgegebene Informationen bereitstellen. Auch wenn ein Texteingabefeld unterschiedliche Eingaben zulässt, ist nicht jede eingäbe für das System gültig oder führt zu den gewünschten Reaktionen. Welche Kenntnisse erforderlich sind, hängt vom jeweiligen Anwendungsfall ab.
+
+Besonders deutlich zeigt sich dies bei Befehlssystemen. Ihre Eingaben folgen einer festgelegten Syntax und setzen sich aus vordefinierten Bestandteilen zusammen, deren Bedeutung und zulässige Anordnung bekannt sein müssen. Im Befehl „mkdir entwurf“ bezeichnet mkdir den Befehlsnamen, während „entwurf“ als Operand den Namen des anzulegenden Verzeichnisses angibt (vgl. IEEE/The Open Group 2024, Abschnitte NAME, SYNOPSIS und OPERANDS). Solche Kommandos müssen aus dem verfügbaren Befehlssatz erinnert und voneinander unterschieden werden. Eine gute Unterscheidbarkeit der Befehlsnamen kann das Erlernen und Abrufen erleichtern (vgl. Black/Moran 1982, S. 8–10). Das Übersetzen der eigenen Absicht in die syntaktischen Anforderungen des Systems setzt dennoch erlerntes Wissen über dessen Konventionen voraus (vgl. Shneiderman 1983, S. 64–66).
+
+Im Gegensatz dazu verlangen Interfaces, welche auf natürlicher Sprache basieren keine festgelegte Befehlssyntax. Nichts desto trotz besteht für Nutzer die Aufgabe ihre Absichten so auszudrücken, dass das System daraus eine bearbeitbare Anfrage ableiten kann. Mehrdeutige Formulierungen können die interpretation einer Eingabe erschweren während gleichzeitig die Offenheit natürlicher Sprache bei der NutzerInn Erwartungen erzeugen kann, welche über die tatsächlichen Fähigkeiten des Systems hinausgehen. Die Verwendung natürlicher Sprache bedeutet daher nicht automatisch, dass eine Eingabe leichter zu formulieren ist. 
+
+(Beleg: Shneiderman 1980, S. 139–141.)
+
+Bei einer Suchmaschine bedeutet dies einen Informationsbedarf zunächst in eine geeigneten Suchbegriffe oder eine Frage zu übersetzen. Hierbei müssen NutzerInnen entscheiden, welche Wörter das gesuchte Problem ausreichend beschreiben. Erst die Ergebnisse zeigen, ob diese Formulierung das gesuchte Problem tatsächlich trifft oder weiter präzisiert werden muss (vgl. Hearst 2009, S. 1–3).
+
+Beim Prompting eines KI-Systems sind die Anforderungen an eine geeignete Eingabe häufig noch weniger eindeutig vorgegeben. NutzerInnen müssen abschätzen, welche Aufgabe ein KI-System bearbeiten kann, welchen Kontext es dafür benötigt und in welcher Form das Ergebnis ausgegeben werden soll. Ein Teil dieses Wissens entsteht erst im Verlauf der Interaktion selbst: Eine Antwort wird geprüft, woraufhin die nächste Eingabe ergänzt, eingeschränkt oder anders formuliert wird (vgl. Subramonyam et al. 2024, S. 2–8; Zamfirescu-Pereira et al. 2023, S. 10–13). In einer qualitativen Studie mit zehn TeilnehmerInnen zeigte sich, dass einzelne erfolgreiche Antworten zu vorschnellen Annahmen über das Systemverhalten führen können (vgl. Zamfirescu-Pereira et al. 2023, S. 7–12). (vgl. Zamfirescu-Pereira et al. 2023, S. 7–12). (Belege: Subramonyam et al. 2024, S. 2–8; Zamfirescu-Pereira et al. 2023, S. 9–13.)
+
+Bei Formularen erfüllt Texteingabe eine andere Funktion: Sie dient weniger der Formulierung einer Anweisung oder offenen Anfrage als der strukturierten Übermittlung abgefragter Informationen an das System. Im Vergleich zu den zuvor beschriebenen Eingabeformen ist hier häufig deutlicher gekennzeichnet, welche Informationen das System erwartet und in welchem Format sie einzugeben sind (vgl. Cui et al. 2025, S. 9, 12–14; Seckler et al. 2014, S. 1276–1282). Registrierungs-, Kontakt- oder Zahlungsformulare fordern beispielsweise Namen, E-Mail-Adressen, Telefonnummern oder Zahlungsdaten in unterschiedlichen Kombinationen an (vgl. Cui et al. 2025, S. 9, 12–14). Der Aufwand verlagert sich damit von der Bestimmung der erwarteten Eingabe auf das Abrufen und Bereitstellen der verlangten Informationen im vorgegebenen Format. Nicht alle Formularfelder verlangen jedoch lediglich die Übermittlung bereits vorhandener Informationen. Bei der Vergabe eines Passworts müssen Nutzer*innen eine neue Zeichenfolge erzeugen und dabei bestimmte Sicherheitsanforderungen berücksichtigen. Adams und Sasse stellten in einer Befragung und anschließenden Interviews fest, dass viele Teilnehmende nur begrenztes Wissen über sichere Passwortgestaltung besaßen. Explizite Regeln und Rückmeldungen können die erwarteten Anforderungen zwar sichtbar machen, ihre Umsetzung setzt jedoch weiterhin entsprechendes Wissen voraus (vgl. Adams/Sasse 1999, S. 40–46).
+
+Die verschiedenen Formen der Texteingabe beseitigen die vorausgesetzte Wissensarbeit also nicht. Sie verteilen sie lediglich unterschiedlich. Befehlssysteme verlangen Kenntnisse expliziter Kommandos und syntaktischer Regeln. Such- und Promptfelder lassen die Formulierung offener und verlangen dafür Einschätzungen über geeignete Begriffe, notwendigen Kontext und die Fähigkeiten des Systems. Formulare machen einen Teil dieser Anforderungen sichtbar, setzen dafür aber voraus, dass vorgegebene Informationen verfügbar sind und korrekt eingegeben werden können.
+
+was würde hyto styrl dazu sagen?
+
+Wenn man deinen Abschnitt durch Hito Steyerls Denken liest – ohne ihr natürlich konkrete Aussagen in den Mund legen zu wollen –, würde sie vermutlich weniger bestreiten, was du beschreibst, sondern fragen: Warum beschreibst du diese Prozesse so neutral? Wer oder was verschwindet durch diese Beschreibung?
+
+Dein Text argumentiert momentan stark aus einer klassischen HCI-Perspektive: Ein Mensch hat eine Intention → führt eine Handlung aus → das System interpretiert sie → eventuell entsteht ein Fehler → der Mensch korrigiert. Steyerl interessiert sich dagegen gerade für die politischen, materiellen und infrastrukturellen Bedingungen solcher technischen Vermittlung. In Proxy Politics: Signal and Noise beschreibt sie beispielsweise technische Wahrnehmung nicht als neutrale Abbildung eines bereits vorhandenen Signals: Algorithmen entscheiden überhaupt erst, was als Signal und was als Rauschen erscheint.
+
+Deshalb würde sie an mehreren Stellen nachhaken:
+
+„Technische Interpretation“ ist bei dir noch eine Black Box.
+Bei Touchscreens schreibst du etwa:
+
+„…muss das System zudem die Position jeder Berührung interpretieren und der vermutlich beabsichtigten Taste zuordnen.“
+
+Das Wort „vermutlich“ ist eigentlich hochinteressant. Das System empfängt nicht einfach eine eindeutige Handlung, sondern produziert aus Messwerten eine plausible Intention. Dasselbe gilt noch viel stärker bei Sprache und KI. Die Eingabe existiert damit für das System nicht einfach – sie wird klassifiziert, normalisiert und rekonstruiert.
+
+Eine Steyerl-artige Zuspitzung wäre deshalb:
+
+Zwischen körperlicher Handlung und digitaler Eingabe liegt kein neutraler Übertragungskanal, sondern ein technischer Interpretationsprozess, der entscheidet, welche Handlung als welche Eingabe lesbar wird.
+
+Das würde deinen Abschnitt deutlich interessanter machen.
+
+Sie würde wahrscheinlich das Wort „NutzerIn“ problematisieren.
+In deinem Text ist „der Nutzer“ relativ souverän: Er hat eine Absicht, formuliert sie und versucht, das System dazu zu bringen, diese zu verstehen.
+
+Aber insbesondere bei KI-Systemen entsteht die Position des Nutzers teilweise erst im Verhältnis zum System. Der Mensch lernt beispielsweise:
+
+welche Fragen „funktionieren“,
+wie detailliert ein Prompt sein sollte,
+welches Vokabular das Modell versteht,
+welche Dinge es verweigert,
+welche Antwortformate zuverlässig erzeugt werden.
+
+Man passt also nicht nur die Eingabe an das System an. Das System trainiert gewissermaßen auch den Nutzer darin, wie er mit ihm sprechen soll.
+
+Genau hier könntest du deine Zamfirescu-Pereira-Passage theoretisch stärker machen. Momentan lautet die Aussage ungefähr: Nutzer müssen lernen, richtig zu prompten. Spannender wäre:
+
+Die Interaktion produziert dabei sukzessive ein praktisches Modell des Systems, an dem NutzerInnen wiederum ihre zukünftigen Eingaben ausrichten.
+
+Damit ist die Beziehung weniger „Mensch benutzt Werkzeug“ und stärker gegenseitige Anpassung.
+
+Steyerl würde fragen: Wer bestimmt überhaupt, was als gültige Eingabe gilt?
+Dein Satz
+
+„Auch wenn ein Texteingabefeld unterschiedliche Eingaben zulässt, ist nicht jede Eingabe für das System gültig oder führt zu den gewünschten Reaktionen.“
+
+ist eigentlich ein möglicher theoretischer Kern deiner ganzen Arbeit.
+
+Denn dann stellt sich sofort die Frage:
+
+Wer legt diesen Raum möglicher Eingaben fest?
+
+Bei mkdir ist er relativ explizit: eine Syntax definiert gültige Operationen. Beim Formular ebenfalls: Feldtypen und Validierungsregeln begrenzen die Eingabe.
+
+Beim LLM erscheint der Raum dagegen nahezu unbegrenzt. Trotzdem existieren Grenzen: Trainingsdaten, Systemprompts, Moderationssysteme, Kontextfenster, Modellarchitektur, Produktentscheidungen usw. Die Oberfläche kommuniziert also Offenheit, während die Operation weiterhin hochgradig technisch bestimmt ist.
+
+Das passt extrem gut zu deiner Struktur Surface → Interaction → Operation.
+
+Sie würde vermutlich deine Schlussbeobachtung radikalisieren.
+Dein letzter Satz des ersten Abschnitts ist schon sehr nah an einer solchen Perspektive:
+
+„Im fertigen Text ist dieser Entstehungsprozess nicht mehr sichtbar. Er zeigt nur das Ergebnis, nicht die Bewegungen, Fehlversuche und Korrekturen, die ihm vorausgingen.“
+
+Ich glaube, hier würde Steyerl einhaken. Denn Unsichtbarkeit ist in ihrem Denken nicht einfach ein visueller Nebeneffekt. Screens, Bilder und technische Systeme können gleichzeitig etwas zeigen und seine Produktionsbedingungen verdecken. In Duty-Free Art beschreibt sie den Screen entsprechend als etwas, das Sichtbarkeit sowohl erzeugen als auch reduzieren, offenlegen wie verbergen kann.
+
+Auf deine Arbeit übertragen:
+
+Das Eingabefeld zeigt das Resultat der Eingabe und lässt gleichzeitig die Arbeit verschwinden, durch die dieses Resultat entstanden ist.
+
+Und das betrifft nicht nur Fingerbewegungen. Es verschwinden auch:
+
+Such- und Formulierungsarbeit,
+Korrekturen,
+verworfene Prompts,
+gelerntes Systemwissen,
+automatische Korrektur,
+Klassifikation durch das Interface.
+
+Das finde ich für deine Thesis sehr stark.
+
+Der größere Steyerl-Einwand wäre deshalb wahrscheinlich: Du beschreibst bisher sehr genau die Arbeit, die eine Eingabe erfordert, behandelst aber das technische System noch etwas zu sehr als neutrale Gegenstelle.
+
+Und genau da liegt meines Erachtens der interessanteste nächste Schritt deiner Arbeit. Nicht unbedingt die gesamte Interaction-Sektion politisieren – vieles davon darf ruhig sachlich-HCI-theoretisch bleiben. Aber du könntest langsam einen Gedanken etablieren:
+
+Texteingabe ist keine unmittelbare Übertragung einer menschlichen Intention an ein Computersystem. Zwischen Intention und Operation liegt eine Folge von Übersetzungen, Interpretationen und Anpassungen, in denen sowohl NutzerInnen als auch System bestimmen, welche Eingabe schließlich wirksam wird.
+
+Dann bekommt auch deine Dreiteilung noch einmal mehr theoretische Kraft:
+
+Surface → Das Feld erscheint einfach und offen.
+Interaction → Die Eingabe erfordert körperliche, sprachliche und erlernte Arbeit und wird technisch interpretiert.
+Operation → Erst dort zeigt sich, dass die scheinbar offene Eingabe in einen unsichtbaren technischen Möglichkeitsraum übersetzt wird.
+
+Das wäre wahrscheinlich die Stelle, an der deine Arbeit von einer guten Typologie von Texteingabe zu einer eigentlichen medientheoretischen Argumentation kippt. Steyerls Arbeiten sind gerade deshalb anschlussfähig, weil sie immer wieder darauf insistieren, nicht nur das sichtbare Ergebnis, sondern dessen technische und ökonomische Bedingungen zu betrachten. The Wretched of the Screen wird entsprechend als Untersuchung der politischen und technologischen Bedingungen von Bildern und Screens beschrieben.
+
+Ich würde dabei aber nicht unbedingt Hito Steyerl direkt in diesen Interaction-Abschnitt hineinholen. Inhaltlich könnte ihr Denken eher die Brücke von Interaction → Operation liefern: von „Welche Arbeit muss ich leisten, um etwas einzugeben?“ zu „Was geschieht mit meiner Eingabe eigentlich, nachdem sie die Oberfläche verlassen hat?“ Das wäre für deine bestehende Struktur ziemlich elegant.
+
+Und ich bin aber auch immer noch so ein bisschen unschlüssig. Also ich finde das sehr gut erstmal. Das ist, glaube ich, ein guter Twist. Meine vier Beobachtungsgegenstände: Command Line, Suchfeld, Promptfeld, Formular. Also ob das nicht vielleicht, man sich da nicht spezialisiert, vielleicht einfach nur Suchfeld und Promptfeld. Oder ob eben diese Bandbreite gerade interessant ist. Aber dann müsste man entweder die Ambition haben, irgendwie die komplette Bandbreite an Texteingabe abzudecken, die so auf eine Systemoperation abzielen. Vielleicht ist es damit auch so. Oder man konzentriert sich ein wenig so auf Suche und Promptfeld.
+
+Ich glaube, dein eigentliches Problem ist weniger die Anzahl der Beobachtungsgegenstände als welchen Anspruch du mit ihnen erhebst.
+
+Wenn du sagst: „Ich untersuche Texteingabe in Computersystemen“, wirken vier Beispiele schnell so, als müssten sie stellvertretend eine riesige Bandbreite vollständig abdecken. Wenn du dagegen sagst: „Ich untersuche vier kontrastierende Formen der Texteingabe, um unterschiedliche Beziehungen zwischen Oberfläche, Interaktion und Operation sichtbar zu machen“, wird die Auswahl sehr plausibel.
+
+Und dann finde ich die vier Fälle sogar stärker als nur Suchfeld + Promptfeld.
+
+Der Grund ist, dass sie eine ziemlich schöne Spannweite bilden:
+
+	stark vorgegeben	offen formuliert
+Operation relativ eindeutig	Command Line	Suchfeld
+Operation/Ergebnis variabler	Formular*	Promptfeld
+
+Nicht exakt so mathematisch natürlich – aber jeder Fall verkörpert eine andere Art, wie die Oberfläche den möglichen Input und die dahinterliegende Operation kommuniziert.
+
+Command Line: maximale Explizitheit der Operation, aber hohe Voraussetzung an Systemwissen.
+Formular: starke Führung durch die Oberfläche; der Raum der möglichen Eingaben wird sichtbar begrenzt.
+Suchfeld: formal extrem offen und minimal, aber die erwartete Handlung – „suchen“ – ist relativ klar.
+Promptfeld: formal ähnlich offen wie das Suchfeld, aber nun ist sogar die Menge möglicher Operationen unscharf.
+
+Gerade deshalb würde ich Command Line und Formular nicht vorschnell streichen. Sie sind theoretisch weniger deine Hauptgegenstände als Kontrastfolien, durch die überhaupt sichtbar wird, was am Promptfeld merkwürdig ist.
+
+Das Promptfeld wird durch die anderen drei interessanter
+
+Wenn du nur Suchfeld und Promptfeld vergleichst, bekommst du wahrscheinlich eine sehr klare Erzählung:
+
+Search → Prompt
+von Informationsretrieval → generativer/agentischer Interaktion
+von Query → Instruction
+von relativ bestimmter → zunehmend offener Operation.
+
+Das wäre absolut eine mögliche Thesis. Sie wäre fokussierter und vermutlich leichter stringent zu schreiben.
+
+Aber du verlierst dabei etwas, das ich inzwischen für einen ziemlich starken Gedanken deiner Arbeit halte:
+
+Das Texteingabefeld bleibt formal erstaunlich ähnlich, obwohl sich die Anforderungen an die Eingabe und die dahinter möglichen Operationen radikal unterscheiden.
+
+Dafür brauchst du eigentlich die Spannweite.
+
+mkdir entwurf
+
+E-Mail-Adresse: [________]
+
+[ Google durchsuchen … ]
+
+[ Ask anything … ]
+
+Alle vier sind im weitesten Sinne: Text wird eingegeben und löst eine rechnerische Operation aus.
+
+Aber das Verhältnis zwischen dem, was die Oberfläche zeigt, dem, was der Mensch wissen und tun muss, und dem, was das System anschließend tun kann, ist komplett unterschiedlich.
+
+Das ist fast schon deine Arbeit.
+
+Ich würde daher nicht behaupten, dass du „die komplette Bandbreite“ abdeckst
+
+Das wäre unnötig angreifbar. Es gibt schließlich noch Code-Editoren, Chat, URL-Bar, Datenbankabfragen, Terminal-Prompts, Texteingaben in Games, Autocomplete-Systeme usw.
+
+Stattdessen könntest du sie explizit als vier ausgewählte Typen oder vier kontrastierende Fälle definieren.
+
+Zum Beispiel ungefähr:
+
+Die Arbeit erhebt nicht den Anspruch, sämtliche Formen digitaler Texteingabe systematisch zu erfassen. Stattdessen werden vier exemplarische Eingabesituationen betrachtet – Command Line, Formular, Suchfeld und Promptfeld –, die unterschiedliche Verhältnisse zwischen sichtbarer Oberfläche, erforderlicher Interaktionsarbeit und ausgelöster Systemoperation repräsentieren.
+
+Dann bist du dieses Vollständigkeitsproblem praktisch los.
+
+Und du kannst innerhalb der Kapitel auch unterschiedlich gewichten. Du musst nicht jedem Gegenstand 25 % geben.
+
+Ich könnte mir ungefähr vorstellen:
+
+Surface
+Alle vier relativ gleichwertig vergleichen. Hier ist der Kontrast besonders visuell stark.
+
+Interaction
+Command Line und Formular kompakter als Pole behandeln; Search und Prompt ausführlicher.
+
+Operation
+Noch stärker Richtung Search → Prompt gehen, weil hier der Wandel der Operationsmöglichkeiten besonders relevant wird.
+
+Dadurch beginnt die Arbeit breit und vergleichend und zoomt zunehmend auf das Promptfeld ein.
+
+Das würde ich sogar spannender finden als eine von Anfang an ausschließlich auf Search/Prompt beschränkte Arbeit.
+
+Denn dann könnte die Gesamtbewegung ungefähr sein:
+
+Vier ähnliche Oberflächen → vier sehr unterschiedliche Interaktionen → zunehmend offene Operationen → Promptfeld als Extremfall.
+
+Und hier kommt auch der gerade besprochene Steyerl-Twist sehr gut rein: Je offener und einfacher die Oberfläche erscheint, desto mehr der tatsächlichen Übersetzungs-, Interpretations- und Entscheidungsprozesse wandert hinter die Oberfläche.
+
+Das wäre für mich derzeit die stärkste Variante: nicht vier gleichberechtigte historische Fallstudien, sondern vier bewusst gewählte Vergleichsobjekte, mit Search und insbesondere Prompt als Schwerpunkt. Damit behältst du die Bandbreite, ohne den Anspruch einer vollständigen Taxonomie aufmachen zu müssen.

@@ -1,0 +1,790 @@
+Strangers on a Plane: Context-Dependent
+Willingness to Divulge Sensitive Information
+
+LESLIE K. JOHN
+ALESSANDRO ACQUISTI
+GEORGE LOEWENSTEIN
+
+                                                                     New marketing paradigms that exploit the capabilities for data collection, aggre-
+                                                                     gation, and dissemination introduced by the Internet provide benefits to consumers
+                                                                     but also pose real or perceived privacy hazards. In four experiments, we seek to
+                                                                     understand consumer decisions to reveal or withhold information and the relation-
+                                                                     ship between such decisions and objective hazards posed by information reve-
+                                                                     lation. Our central thesis, and a central finding of all four experiments, is that
+                                                                     disclosure of private information is responsive to environmental cues that bear little
+                                                                     connection, or are even inversely related, to objective hazards. We address un-
+                                                                     derlying processes and rule out alternative explanations by eliciting subjective
+                                                                     judgments of the sensitivity of inquiries (experiment 3) and by showing that the
+                                                                     effect of cues diminishes if privacy concern is activated at the outset of the ex-
+                                                                     periment (experiment 4). This research highlights consumer vulnerabilities in nav-
+                                                                     igating increasingly complex privacy issues introduced by new information tech-
+                                                                     nologies.
+
+
+
+
+T     he Internet, according to a New York Magazine article,
+      has made privacy “an artifact—quaint and naı̈ve.” “We
+are all,” as the author expressed it, “eternally onstage”
+                                                                                      readily available and searchable. Many online retailers re-
+                                                                                      cord customers’ click streams and have developed sophis-
+                                                                                      ticated techniques to make educated guesses about the cus-
+(Nussbaum 2007). Public records that were previously dif-                             tomers’ characteristics. Moreover, beyond these data, which
+ficult to access, such as home tax information, are now                               are collected covertly and without explicit consent, many
+                                                                                      people voluntarily post vast amounts of information on the
+    Leslie K. John is a doctoral candidate in behavioral decision theory,             Web, on tweets, on social network pages, and even on per-
+208 Porter Hall, Department of Social and Decision Sciences, Carnegie                 sonal blogs. Yet, people also report being deeply concerned
+Mellon University, Pittsburgh, PA 15213 (lkjohn@andrew.cmu.edu). Ales-                about their privacy and are uncomfortable with firms know-
+sandro Acquisti is an associate professor of information technology and               ing intimate details of their lives (Hoffman and Novak 1997;
+public policy, Heinz College, Hamburg Hall, Carnegie Mellon University,               Taylor 2003), often with good reason (Odlyzko 2003). Pe-
+Pittsburgh, PA 15213 (acquisti@andrew.cmu.edu). George Loewenstein is                 riodic explosions of concern about privacy, for example, in
+Herbert A. Simon Professor of Economics and Psychology, 208 Porter                    response to news stories about identity theft and highly pub-
+Hall, Department of Social and Decision Sciences, Carnegie Mellon Uni-
+                                                                                      licized changes in social network sites’ privacy policies,
+versity, Pittsburgh, PA 15213 (gl20@andrew.cmu.edu). Address corre-
+spondence to Leslie John. This article is based in part on the first author’s
+                                                                                      show that public concern about privacy is latent, if not al-
+doctoral dissertation, which was supported by a fellowship from the Social            ways activated.
+Sciences and Humanities Research Council of Canada. The authors would                    How can we make sense of the contradictory attitudes
+like to thank Kinshuk Jerath, Howard Seltman, John Tierney, Joachim                   that individuals display toward privacy—from the seemingly
+Vosgerau, and Roberto Weber for invaluable help with this project. The                reckless willingness of some to post personal and even in-
+authors are especially grateful to the editor, the area editor, and the re-           criminating information on social networks to the deep con-
+viewers for their guidance and constructive comments.                                 cern people express over the range of information being
+John Deighton served as editor and Gal Zauberman served as associate                  collected about them and the way it is used (Westin 1991)?
+editor for this article.                                                              In this article we argue, and present experimental evidence
+                                                                                      to support, that moment-to-moment concerns about privacy
+Electronically published August 31, 2010
+                                                                                      are responsive to contextual cues that often bear little con-
+                                                                                000
+
+                                                                                       䉷 2010 by JOURNAL OF CONSUMER RESEARCH, Inc. ● Vol. 37 ● February 2011
+                                                                                                All rights reserved. 0093-5301/2011/3705-0010$10.00. DOI: 10.1086/656423
+000                                                                                  JOURNAL OF CONSUMER RESEARCH
+
+nection to the objective dangers and benefits of divulging        and stable preferences, the field of behavioral decision the-
+information.                                                      ory has documented that preferences are often influenced
+   In four experiments, we show that specific configurations      by factors that are difficult to justify on a normative basis,
+of contextual cues can give rise to different levels of dis-      for example, by elicitation method (Tversky, Slovic, and
+closure across situations characterized by equivalent disclo-     Kahneman 1990) and by the framing of alternatives (Dhar
+sure dangers (and benefits; experiment 1) and that cues that      and Simonson 1992; Tversky and Kahneman 1974). These
+are objectively associated with greater disclosure danger         effects tend to be especially pronounced when people are
+can, if they suppress privacy concerns, have the perverse         uncertain about their own values (Fox and Tversky 1995;
+effect of increasing disclosure (experiments 2–4). Beyond         Griffin, Liu, and Khan 2005; Hsee et al. 1999, 2003), which
+documenting these effects, two of the studies provide ex-         is often the case for privacy (Acquisti 2004). If the material
+plicit support for this cue-based account of privacy concerns,    value of privacy is already extremely difficult to estimate,
+described in greater detail in the next subsection of the         the psychological value is likely to be even less well defined.
+article, and rule out alternative explanations. Experiment 3         The privacy literature provides strong hints that this is
+shows that cues affect not only divulgence of information         the case. For example, a closer look at scales designed to
+but judgments of the sensitivity of inquiries. Experiment 4       measure individual differences in privacy concerns (mean-
+shows that when privacy concerns are evoked at the outset         ing apprehension over the security of one’s personal infor-
+of the experiment, the impact of cues on divulgence is elim-      mation; Altman 1975; Culnan and Armstrong 1999; Mar-
+inated. These findings provide support for the idea that cues     gulis 2003; Smith et al. 1996; Stone et al. 1983) suggests
+affect divulgence by rousing, or downplaying, privacy con-        that such differences may not be so stable. Although many
+cerns.                                                            of these scales have impressive psychometric properties
+                                                                  (Smith, Milberg, and Burke 1996), the few studies that have
+        CONCEPTUAL BACKGROUND                                     assessed predictive validity have found that such scales, at
+A considerable body of academic research on privacy is            best, only weakly predict actual disclosure (Lubin and Har-
+premised on the assumption of rational choice. This work          rison 1964; Marshall 1974). Drawing both on the charac-
+has been characterized by the assumption that (1) people          teristics of privacy concern and on these specific findings
+make sensible and consistent trade-offs between privacy and       in the privacy literature, we propose:
+other concerns (Derlega et al. 1993; Posner 1981; Rosenfeld          Proposition 1. Privacy is a domain in which preference
+2000; Stigler 1980) and (2) there are reliable differences        uncertainty is pronounced.
+between individuals in concern for privacy (Laudon 1996;             Beyond the idea that privacy concern is subject to pref-
+Westin 1991). For example, it has been argued that disclo-        erence uncertainty, we further posit that people are likely
+sure decisions are made by balancing “the usefulness of           to seek to resolve such uncertainty by relying on contextual
+privacy with the utility of openness” (Petronio 2000, 37)         cues. This intuition is based on research showing that when
+and that people engage in “disclosure management,” such           individuals are uncertain of their preferences, their decisions
+that they disclose information only when they expect a “net       can be influenced, often powerfully, by contextual cues (Si-
+benefit” (White 2004, 48).                                        monson and Tversky 1992). However, the contextual cues
+   Even research that has not explicitly adopted a rational       guiding decision making often provide a misleading indi-
+choice perspective has often done so implicitly. For ex-          cation of the prevailing costs and benefits, which can cause
+ample, several researchers have attempted to measure the          people to behave in counterproductive ways. For example,
+monetary value that people place on privacy (Danezis,             cues that signal decreases in objective dangers of disclosure
+Lewis, and Anderson 2005; Hann et al. 2007). In a conjoint        can lead people to be less forthcoming with information:
+analysis, Hann and colleagues (2002) analyzed the trade-          individuals given assurances of confidentiality are less will-
+offs people made between privacy dangers and disclosure           ing to complete a questionnaire than those receiving no
+benefits and concluded that “among U.S. subjects, protection      assurance (Frey 1986; Singer, Hippler, and Schwarz 1992).
+against errors, improper access, and secondary use of per-        Drawing again both on general findings in the decision-
+sonal information is worth $30.49–$44.62” (14).                   making literature and on specific findings relating to privacy,
+   Marketers and other social scientists (Jourard and Lasa-       we propose, additionally:
+kow 1958; Milberg et al. 1995; Westin 1991) have also                Proposition 2. Momentary privacy concern can be
+constructed individual difference measures of concern for         driven by cues that rouse or downplay privacy concern,
+privacy, an endeavor premised on the assumption that there        thereby affecting individuals’ willingness to disclose.
+are stable individual differences to be measured. Some re-           These propositions, in turn, lead to the main predictions
+searchers have recommended that marketers segment con-            tested in the four experiments:
+sumers into privacy types and use this classification to tailor
+their services and products to consumers in distinct segments          H1: Situations that differentially activate privacy con-
+(Hann et al. 2007; Milberg et al. 1995). Westin, for example,              cern will lead to different levels of disclosure,
+categorizes individuals into three privacy types: fundamen-                even if they are equivalent with respect to the
+talists, pragmatists, and unconcerned (1991).                              objective costs and benefits of disclosure (exper-
+   Challenging the assumptions of both perfect rationality                 iment 1).
+STRANGERS ON A PLANE                                                                                                         000
+
+     H2: Contextual cues that lower privacy concern but           proach is conservative because, to detect an effect of the
+         signal higher objective disclosure dangers will in-      manipulation, the impact of cues has to rise above the noise
+         crease disclosure (experiments 2–4).                     (error variance) produced by differences in true rates of
+                                                                  engaging in the behavior across conditions.
+By “disclosure danger,” we mean the potential for divul-             To make the admissions more relevant to marketers, we
+gence to result in negative outcomes (examples include re-        asked participants to provide identifying information in the
+ceiving spam e-mails as a result of divulging one’s e-mail        form of e-mail addresses (at the beginning of the survey in
+address and having one’s identity stolen as a result of di-       experiment 1 and at the end in experiments 2–4). To en-
+vulging one’s social security number).                            courage people to provide e-mail addresses and motivate
+   The notion that the cues that affect privacy concern do        truthful admissions, all participants could request to “receive
+not necessarily coincide with the objective dangers of dis-       personalized results, including where [they] fall relative to
+closure in a given situation raises two important questions:      others on the traits and attitudes the survey measures.” They
+the first is what the impact of a particular cue will be on       were also told (at the outset of the survey) that they would
+disclosure, and the second is whether the cue moves a person      be able to access the survey’s moment-to-moment aggregate
+closer or further from the ideal level of disclosure. The four    results. Demographic questions appeared on the same page
+experiments in this article provide answers to the first ques-    on which participants were asked to supply their e-mail
+tion; in the discussion section, we discuss implications of       addresses.
+our findings for the second question.
+   An important feature of our conceptual framework is that
+these cues—which are hypothesized to affect privacy con-                             EXPERIMENT 1
+cern—should only affect the divulgence of privacy-relevant
+information, which we operationalize by the sensitivity of        Experiment 1 was a 2 # 2 mixed design. Between subjects,
+the information that participants are asked to divulge. In-       we manipulated the method of inquiry: participants were
+formation on one’s food preferences, for example, is in-          asked either directly or indirectly whether they had engaged
+herently less sensitive, and hence less privacy relevant, than    in each of 16 behaviors. We predicted that AARs would be
+information on one’s sexual preferences. It is worth noting       lower in the direct-inquiry condition, which we hypothe-
+that the sensitivity of divulged information is one deter-        sized would rouse privacy concerns relative to the indirect-
+minant of disclosure danger (others include the way divulged      inquiry condition. Within subjects, we varied the intrusive-
+information is transmitted or stored). To test this implication   ness of the questions (seven tame and nine intrusive).
+of the framework—that sensitive inquiries should be par-             Although the inquiry conditions were equivalent with re-
+ticularly responsive to our manipulations—we test the im-         spect to the dangers and benefits of disclosure (in the sense
+pact of cues on the divulgence of both innocuous and sen-         that both inquiry methods solicited the same informa-
+sitive (i.e., privacy-relevant) information. We predict that      tion—whether the respondent had engaged in the behav-
+                                                                  ior—from Web sites that were comparable except for the
+     H3: Cues that affect privacy concern will have a greater     subtle difference in inquiry), the indirect-inquiry condition
+         effect on willingness to divulge sensitive rather        was designed to make admissions seem secondary—almost
+         than benign information (experiments 1 and 3).           an afterthought—which we predicted would increase self-
+                                                                  revelation by keeping privacy concern latent (hypothesis 1).
+                                                                  However, this hypothesis is restricted to the intrusive ques-
+                      OVERVIEW                                    tions—the tame questions are arguably not particularly pri-
+In four experiments, participants indicated whether they had      vacy relevant, and therefore they should not be affected by
+engaged in a series of sensitive, and in some cases illegal,      a manipulation designed to affect privacy concern (hypoth-
+behaviors. Between subjects, we manipulated a factor de-          esis 3).
+signed to affect privacy concern. Consent forms were not
+used, out of concern that they might contaminate our ma-          Method
+nipulations by universally cueing privacy concerns.
+   The primary dependent measure was the proportion of               Participants. Eight hundred and ninety New York Times
+questions answered affirmatively (i.e., affirmative admission     Web site visitors participated (Mage p 41 years, SD p 14.3;
+rate; AAR). People who, because of privacy concerns, chose        59.3% male; 81.3% Caucasian, 7.8% Asian, 3.4% Hispanic,
+not to provide information on the item might either fail to       1.8% African American, 5.6% other ethnicities). Five per-
+answer the question or respond negatively (deny that they         cent of participants were excluded from the sample because
+had engaged in the behavior). It is, however, unlikely that       they did not finish the survey (NS differences in completion
+they would admit to having engaged in the behavior. Ad-           rate between conditions).
+missions rates thus reflect the complement of the sum of
+people who (1) did not engage in the behavior (which can             Procedure. A link to the survey titled “Test Your Ethics”
+be assumed to be, on average, equal across conditions),           was posted on TierneyLab—a New York Times science col-
+(2) reported that they did not, although they did, and            umnist’s official blog. The ethics cover story served to dis-
+(3) failed to answer the questions. This data analysis ap-        tract participants from the survey’s actual focus on privacy.
+000                                                                                             JOURNAL OF CONSUMER RESEARCH
+
+                                                                   TABLE 1
+
+           EXPERIMENT 1: AFFIRMATIVE ADMISSION RATES TO THE INTRUSIVE ITEMS, BY QUESTION AND CONDITION
+                                        (LISTED IN ORDER OF PRESENTATION)
+
+                                                                                                             Affirmative admission rate (%)
+Item                                                                                                           Direct            Indirect
+2. Letting a friend drive after thinking he or she had had too much to drink                                    44.0               50.0
+4. Neglecting to tell a partner about a sexually transmitted disease from which one is currently suffering       3.5                5.5
+5. Lying about one’s income or that of one’s family to someone**                                                28.9               41.3
+7. Having sex with the current husband, wife, or partner of a friend                                            15.5               11.4
+8. Cheating on one’s tax return**                                                                               12.9               21.7
+10. Having a fantasy of doing something terrible (e.g., torturing) to someone                                   49.4               55.5
+12. Viewing pornography when unsure whether the subjects are underage*                                          11.1               16.4
+13. Knowing about or witnessing a serious crime and failing to report it or stop it*                             4.7                8.3
+15. Making a false insurance claim**                                                                             2.6                6.2
+  *Chi-square test significant at p ! .05 (two sided).
+  **Chi-square test significant at p ≤ .01 (two sided).
+
+
+Upon clicking the link, participants were randomly assigned                intrusiveness level presented in a row), which was the same
+to one of two inquiry conditions.                                          for all participants.
+   Participants were told that they would be asked to rate
+the ethicality of a series of different behaviors and that “be-
+cause people’s judgments of ethicality are influenced by                   Results
+whether or not they have personally engaged in the behavior,                 E-mail Addresses. Most participants (88.0%) gave an
+we will also be asking you whether or not you have done                    e-mail address (NS differences between conditions).
+the behaviors.”
+   Participants were presented with 16 pairs of questions; in                 Ethicality Ratings. Ethicality ratings were negatively
+each pair, they were presented with a behavior and rated its               correlated with affirmative admissions (Spearman r ranged
+ethicality on a scale labeled Not at all unethical/Somewhat                from ⫺.17 to ⫺.52, depending on the item; all p ! .0005).
+unethical/Quite unethical/Extremely unethical/It depends/Noth-
+ing to do with ethics. Participants also indicated whether                    Affirmative Admission Rates. A 2 # 2 mixed ANOVA
+they had engaged in the behavior, although the way they                    revealed a significant interaction between question intru-
+did this varied between subjects.                                          siveness and inquiry method (F(1, 843) p 28.24, p ! .0005).
+                                                                           In support of hypotheses 1 and 3, follow-up simple effect
+   Inquiry Method Manipulation. In the direct-inquiry                      testing revealed that for the intrusive items, AARs were
+condition, participants were asked, point-blank, “Have you                 significantly higher in the indirect-inquiry condition relative
+done this behavior?” and responded on a response scale                     to point-blank (Mind p 0.24, Mpb p 0.19; t(843) p ⫺4.19,
+labeled Yes/No. In the indirect-inquiry condition, admis-                  p ! .0005). Specifically, indirect-inquiry participants were
+sions were tightly coupled with ethicality ratings. Partici-               on average 1.48 times more likely to admit to having en-
+pants were first presented with the behavior; below it, the                gaged in the intrusive behaviors than were those in the point-
+ethicality rating scale appeared twice. First, it was preceded             blank condition (table 1; fig. 1). The AARs to the tame
+by the question, “If you have EVER done this behavior, how                 items were not statistically different between conditions
+unethical do you think it was?” The second version of the                  (t(843) p 1.93, NS), which is also consistent with hypoth-
+scale was labeled “If you have NEVER done this behavior,                   esis 3.
+how unethical do you think it would be, if you were to do
+it?” It was only possible to answer using one of the two
+rating scales (fig. A1).                                                   Experiment 1: Discussion
+   Pretest. Within subjects, we varied the intrusiveness of                   Individuals were more likely to admit to having engaged
+the behaviors, as determined by a separate sample of New                   in sensitive behaviors and, hence, were more willing to di-
+York Times Web site visitors who rated the intrusiveness of                vulge private information, when asked indirectly. Experi-
+the behaviors on a 4-point scale (Not at all intrusive/Mildly              ment 1 provides preliminary evidence that situations with
+intrusive/Intrusive/Very intrusive). On the basis of these rat-            objectively equivalent dangers and benefits of disclosure can
+ings, we chose a subset of items—those judged to be rel-                   elicit different degrees of disclosure. Moreover, the inter-
+atively tame (e.g., “Littering in a public place”) and those               action between inquiry method and intrusiveness—the fact
+judged to be relatively intrusive (e.g., “Cheating on one’s                that only the privacy-relevant items were affected by the
+tax return”). In the main study, the items were presented in               inquiry manipulation—is consistent with the notion that the
+a pseudorandom order of intrusiveness (i.e., we made sure                  different forms of inquiry lead to differences in privacy
+that there were never more than two questions of the same                  concern, a symptom of which was differences in disclosure.
+STRANGERS ON A PLANE                                                                                                            000
+
+                                                              FIGURE 1
+
+          EXPERIMENT 1: MEAN AFFIRMATIVE ADMISSION RATES (AARS) ACROSS EXPERIMENTAL CONDITIONS AND
+                                       TAME VERSUS INTRUSIVE QUESTIONS
+
+
+
+
+  NOTE.—AARs have been normed, question by question, on the overall average AAR for the question. The value of one on the Y-axis
+represents the overall average AAR within question type.
+
+
+
+
+                 EXPERIMENTS 2–4                                    individuals asked only to rate the Web sites’ security) per-
+                                                                    ceive the unprofessional site to have higher disclosure dan-
+In experiments 2–4, we test hypothesis 2 by introducing a           ger.
+contextual cue that downplays privacy concern, leading to
+increased disclosure (experiments 2–4) and lowered judg-
+ments of the sensitivity of inquiries (experiment 3), even
+                                                                    Experiment 2
+though it is indicative of elevated disclosure danger. Spe-            Experiment 2 was a three-condition between-subjects de-
+cifically, we vary the look and feel of the Web pages on            sign in which we manipulated the survey’s interface (pro-
+which participants are asked to disclose sensitive informa-         fessional vs. baseline vs. unprofessional).
+tion. This hypothesis builds on previous research showing
+that the look of a Web site can influence consumers’ product
+preferences and purchase decisions (Mandel and Johnson              Method
+2002).                                                                 Participants. Two hundred students (which excludes
+   We compare disclosure as a function of whether the Web           the 1.5% of people who started but failed to complete the
+site looks professional versus unprofessional. Prior research       study) participated (Mage p 21 years, SD p 3.1; 58.6%
+has established a link between the look of a Web site and           male; 37.3% Asian, 37.3% Caucasian, 3.5% African Amer-
+its security; professional Web sites (i.e., sites from reputable    ican, 8.5% Indian, 13.5% other ethnicities).
+companies and institutions) are more likely than unprofes-
+sional ones to have P3P (a privacy preserving technology;              Procedure. Laptops were placed on tables in buildings
+Cranor 2002; Cranor et al. 2008; Grimm and Rossnagel                on the Carnegie Mellon University campus; students were
+2000; Turner and Dasgupta 2003). Further research suggests          asked to complete a brief “Web survey about student be-
+that a Web site’s look is indicative of its reputability—for        haviors,” as they walked by. The first screen explained that
+example, whereas professional Web sites use color and fonts         the survey was about college students and that the experi-
+sparingly and rarely misspell words, unprofessional Web             menters were “interested in the types of behaviors that col-
+sites are opposite on these characteristics (Ivory and Hearst       lege students engage in.” Participants were also informed,
+2002a, 2002b; Ivory, Sinha, and Hearst 2001). Therefore,            on both this first screen of the survey and the sign advertising
+unprofessional-looking Web sites are less likely to offer pri-      the experiment, that the survey was being conducted by
+vacy protection relative to professional-looking ones, mak-         researchers at Carnegie Mellon.
+ing them, if anything, higher in disclosure danger. Yet, as            Participants were asked, using a Yes/No response scale,
+we will show, the characteristics that signal that a site is        whether they had engaged in each of 15 intrusive behaviors
+unprofessional can also suppress privacy concern and fa-            (table 2). To directly link between-condition differences in
+cilitate disclosure. This occurs even though observers (i.e.,       disclosure to different levels of privacy concern, the survey
+000                                                                                            JOURNAL OF CONSUMER RESEARCH
+
+                                                                  TABLE 2
+
+      EXPERIMENT 2: AFFIRMATIVE ADMISSION RATES BY QUESTION AND CONDITION (LISTED IN ORDER OF PRESENTATION)
+
+                                                                                                         Affirmative admission rate (%)
+Item                                                                                                Professional   Baseline   Unprofessional
+1. Have you ever made up a serious excuse, such as grave illness or death in the family, to get
+  out of doing something?                                                                              26.2           39.1         35.2
+2. Have you ever looked at pornographic material?                                                      67.7           76.6         81.7
+3. Have you ever used sex toys?*                                                                        6.2           12.5         21.1
+4. Have you ever smoked marijuana (i.e., pot, weed)?                                                   26.2           26.6         35.2
+5. Have you ever “cheated” while in a relationship?                                                    18.5           21.9         31.0
+6. Have you ever driven when you were pretty sure you were over the legal blood alcohol level?         16.9           17.2         29.6
+7. Have you ever taken nude pictures of yourself or a partner?*                                        16.9           15.6         23.9
+8. Have you ever encouraged someone to drink when you were trying to seduce them?                       9.2           10.9         22.5
+9. Have you ever tried to peek at someone else’s (e.g., a classmate’s, boyfriend’s, girlfriend’s)
+  e-mail account without them knowing?**                                                               29.2           26.6         45.1
+10. Have you ever fantasized about having violent nonconsensual sex?                                   18.5           18.8         22.5
+11. Have you ever tried cocaine?                                                                        3.1            1.6          7.0
+12. Have you ever had sexual thoughts about a member of your same sex?**                               16.9           14.1         31.0
+13. Have you ever sold marijuana (i.e., pot, weed) to someone?                                          4.6            4.7          8.5
+14. Have you ever watched someone while they undressed, without their knowledge?*                       4.7           12.1         19.7
+15. Have you ever had anal sex?                                                                         6.3           10.3         14.1
+  *Professional versus unprofessional p ! .05 (two sided).
+  **Professional versus unprofessional p ! .05 (two sided), and baseline versus unprofessional p ! .05 (two sided).
+
+
+
+concluded with a 4-item privacy scale. Thus, whereas in                   ens such concerns, we also included a baseline condition
+experiment 1, the effect of the manipulation on privacy con-              that was designed to be as neutral as possible—it was called
+cern was demonstrated in an indirect way (i.e., through its               “Survey of Student Behaviors” in black font against a white
+impact on intrusive, but not tame, questions), in experiment              background (fig. A2).
+2, we demonstrate this sensitivity directly, through a self-
+report measure. Responding on a 5-point scale with end-                      Pretest. To verify that perceived disclosure danger dif-
+points “strongly disagree” and “strongly agree,” participants             fered between the interfaces, 30 students were shown a
+rated the extent to which, as they completed the survey, they             screen shot of both the unprofessional and the professional
+were concerned about “incriminating myself,” “whether my                  Web sites and asked to rate how secure they perceived each
+answers would truly be private,” “who might have access                   to be, using a 5-item scale (a p .88; adapted from Salisbury
+to my answers,” and “whether the survey was truly anon-                   et al. 2001). The items were “I would feel secure sending
+ymous.” This was the first time in the study that privacy-                sensitive information over this website,” “This website is a
+related words (e.g., “anonymous,” “private”) appeared.                    secure means through which to send information,” “I would
+   On the next page, using the same response scale as for                 have concerns about giving out sensitive information on this
+the privacy questions, participants indicated the extent to               website” (reverse scored), and “Overall, this website is a
+which they had been “tempted to say ‘No’ to behaviors in                  safe place to transmit sensitive information.” The items were
+which I have actually engaged” and “to say ‘Yes’ to be-                   answered on a 7-point response scale with endpoints labeled
+haviors in which I have actually never engaged.” Each par-                “strongly disagree” and “strongly agree.” The order in which
+ticipant was given a candy bar after completing the survey.               participants rated the interfaces was counterbalanced be-
+                                                                          tween subjects.
+   Survey Interface Manipulation. Participants were ran-                     Participants in the pretest rated the unprofessional site as
+domly assigned to one of three conditions, differing only in              significantly less secure than the professional one (Munpro p
+interface and title (fig. A2). In designing the interfaces, we            7.5, Mpro p 20.9; F(1, 28) p 116.27, p ! .0005). There was
+used elements identified in the human-computer interaction                no main effect of the order of presentation of the interfaces
+literature as indicative of unprofessional versus professional            (F(1, 28) p 2.40, NS), nor was there an interaction between
+sites (Ivory and Hearst 2002a, 2002b; Ivory, Sinha, and                   order and interface (F(1, 28) p 1.32, NS).
+Hearst 2001). The unprofessional version (intended to down-
+play privacy concerns) was titled “How BAD Are U???” in                   Results and Discussion
+red font and included a cartoon devil logo. The professional
+version was titled “Carnegie Mellon University Executive                    E-mail Addresses. At the end of the survey, 32% of
+Council Survey on Ethical Behaviors” in black font and                    participants gave their e-mail addresses. Participants in the
+displayed the university’s official crest. Finally, to make the           baseline condition were less likely to give their e-mail ad-
+case that the unprofessional condition downplays privacy                  dresses than those in the other conditions (professional p
+concerns, rather than that the professional condition height-             38.5%, baseline p 18.8%, unprofessional p 38.0%; x2(2)
+STRANGERS ON A PLANE                                                                                                       000
+
+p 7.60, p ! .05), and surprisingly, the mean AARs were           less likely to deny involvement in behaviors in which they
+higher among participants who gave their e-mail (Meml p          had actually engaged. The unprofessional interface did not
+0.29, Mno eml p 0.19; t(198) p 3.90, p ! .0005). This may        seem to cause participants to admit to behaviors in which
+reflect individual differences (whether momentary or en-         they had not engaged; rather, it appeared to facilitate ad-
+during) between respondents; those who were less con-            missions to behaviors in which they had engaged.
+cerned about privacy may have divulged more and been                However, an alternative and more mundane explanation
+more willing to provide e-mail addresses. Because of the         of experiment 2 is that the unprofessional condition caused
+between-condition difference in propensity to supply an e-       participants to perceive the behaviors to be more socially
+mail address, we controlled for this variable in the analyses    desirable, making them more willing to respond affirma-
+we report below.                                                 tively. Contrary to this interpretation, we argue that, as a
+                                                                 symptom of suppressed privacy concern, the unprofessional
+   Affirmative Admission Rates. We coded questions left          interface caused participants to perceive the questions to be
+blank as missing (i.e., neither admissions nor denials). The     less intrusive relative to the professional condition. In ex-
+results do not change substantively (if anything, they are       periment 3, we test these two competing accounts.
+more supportive of our hypothesis) when the data are an-
+alyzed with blank responses coded as denials.                    Experiment 3
+   AARs were significantly different between conditions
+(Munpro p 0.28, Mbase p 0.21, Mpro p 0.17; F(2, 196) p              In experiment 3, in addition to asking participants to di-
+6.82, p p .001). Follow-up pair-wise comparisons revealed        vulge sensitive information, we measured participants’ per-
+the AARs to be significantly higher in the unprofessional        ceptions of (a) the intrusiveness of the questions and (b) the
+condition relative to the baseline (F(1, 132) p 4.89, p !        social desirability of the behaviors. We predicted that the
+.05) and professional (F(1, 133) p 13.34, p ! .0005) con-        survey interface manipulation would only affect judgments
+ditions. Participants in the unprofessional condition were on    of question intrusiveness.
+average 1.74 and 1.98 times more likely to admit to having          Similar to experiment 1, we included items varying in
+engaged in the behaviors relative to the baseline and pro-       intrusiveness to test hypothesis 3. We also conducted a pre-
+fessional conditions, respectively (table 2). Disclosure rates   test to ensure that the social desirability of the tame versus
+were similar in the professional and baseline conditions         intrusive questions was roughly equivalent. (A potential con-
+(F(1, 126) p 1.10, NS), suggesting that the effect is driven     found would have existed if the intrusive questions were
+by facilitation of disclosure in the unprofessional condition.   also more socially desirable than the tame ones.) For ex-
+                                                                 ample, the questions “Do you know who your state senators
+   Privacy Concern. The privacy scale was reliable (a p          are?” and “Have you ever used sex toys?” were both judged
+.93) and revealed significant differences between conditions     to refer to socially desirable behaviors, yet the former is
+(Munpro p 1.8, Mbase p 2.3, Mpro p 2.3; F(2, 196) p 6.20,        tame, whereas the latter is intrusive. Likewise, the questions
+p ! .005). Follow-up pair-wise comparisons indicated that        “Have you ever eaten so much so as to feel sick afterward?”
+participants in the unprofessional condition were signifi-       and “Have you ever watched someone while they undressed,
+cantly less concerned about their privacy relative to those      without their knowledge?” were both judged to refer to so-
+in the baseline (F(1, 132) p 11.79, p p .001) and profes-        cially undesirable behaviors, yet the former is tame, whereas
+sional (F(1, 133) p 9.20, p ! .005) conditions (baseline vs.     the latter is intrusive.
+professional F(1, 126) p 0.55, NS).                                 Participants were presented with 12 questions. Between
+                                                                 subjects, we manipulated the survey interface (unprofes-
+   Truthfulness of Responses. There were significant dif-        sional vs. professional); within subjects, we varied the in-
+ferences between conditions in the degree to which respon-       trusiveness of the questions (tame vs. intrusive). For each
+dents were tempted to deny the truth (Munpro p 2.0, Mbase p      question, participants indicated whether they had engaged
+2.6, Mpro p 2.5; F(2, 196) p 3.37, p ! .05). Follow-up pair-     in the behavior, rated the question’s intrusiveness, and rated
+wise comparisons revealed that participants in the unpro-        the social desirability of the behavior. We counterbalanced
+fessional condition were significantly less likely to indicate   the order in which these three pieces of information were
+that they had said no to behaviors in which they had actually    elicited. The experiment was therefore a 2 # 2 # 6 con-
+engaged, relative to both the baseline (F(2, 132) p 6.51, p      dition mixed design, with survey interface and order ma-
+p .01) and the professional conditions (F(2, 133) p 3.92,        nipulated between subjects and question intrusiveness varied
+p p .05). There were no significant differences in the self-     within subjects. There were three dependent measures:
+reported propensity to say yes to behaviors in which they        AARs, intrusiveness ratings, and social desirability ratings.
+had not engaged (F(2, 196) p 0.35, NS).                             We hypothesized, first, that AARs would be higher in the
+   The results of experiment 2 are consistent with the theory    unprofessional condition relative to the professional con-
+that privacy concerns can be either roused or, in this case,     dition (hypothesis 2); however, as in experiment 1, this hy-
+downplayed by contextual cues (e.g., the Web interface),         pothesis is restricted to the intrusive questions (hypothesis
+thereby affecting disclosure. The unprofessional-looking         3). We also hypothesized that participants would judge the
+Web site both suppressed privacy concern and facilitated         questions to be less intrusive in the unprofessional condition
+disclosure. Participants in the unprofessional condition were    relative to the professional condition; by contrast, there
+000                                                                                     JOURNAL OF CONSUMER RESEARCH
+
+                                                             TABLE 3
+
+       EXPERIMENT 3: AFFIRMATIVE ADMISSION RATES TO THE INTRUSIVE QUESTIONS, BY QUESTION AND CONDITION
+                                      (LISTED IN ORDER OF PRESENTATION)
+
+                                                                                                  Affirmative admission rate (%)
+Item                                                                                        Professional               Unprofessional
+2. Have you ever watched someone while they undressed, without their knowledge?                  9.2                        17.9
+4. Have you had more than five sexual partners?                                                 18.4                        16.7
+6. Have you ever failed to pay back a loan?                                                     10.5                        19.0
+8. Have you ever used sex toys?                                                                 17.1                        21.4
+10. Have you ever fantasized about having violent nonconsensual sex?**                          14.5                        31.0
+12. Have you ever illegally downloaded music or software from the Internet?                     85.5                        91.7
+  **Chi-square test significant at p ≤ .01 (two sided).
+
+
+should be no difference between these conditions with re-            nally, the aggregate results collected to that point in time
+spect to the social desirability ratings.                            appeared on the last page of the survey.
+                                                                        Pretest. We conducted a pretest to choose questions that
+Method                                                               varied in intrusiveness and to ensure that the chosen tame
+   Participants. One hundred and eighty students (which              versus intrusive questions did not differ with respect to so-
+excludes the 1.6% of people who started but failed to com-           cial desirability. Forty-four pilot participants were presented
+plete the survey) participated for course credit (Mage p 20          with 60 questions describing various behaviors. They were
+years, SD p 1.2; 54.5% female; 29.7% Asian, 54.5% Cau-               asked to rate (a) the intrusiveness of each question and
+casian, 3.4% African American, 6.9% Indian, 3.4% other               (b) how socially desirable it is to engage in the behavior
+ethnicities; NS differences between conditions). Twenty par-         described in each question. The participants in the pilot study
+ticipants (10.9%) were excluded from the sample because              were from the same participant pool as those who would
+they had taken the survey before (see procedure below).              participate in the actual study but were prevented from par-
+Excluded participants were no different from those included          ticipating in the actual study. On the basis of these ratings,
+in the sample with respect to any of the dependent measures.         we chose 12 questions to be used in the actual study—six
+The proportion of participants who were excluded was not             tame and six intrusive. The intrusive questions that we chose
+significantly different between conditions.                          for the main study were judged in this pretest to be signif-
+                                                                     icantly more intrusive than the tame questions (Mintr p 13.3,
+   Procedure. Participants signed up to participate in a             Mtame p 5.0; t(43) p 15.35, p ! .0005); there were no
+“survey of behaviors” and were subsequently e-mailed the             differences with respect to social desirability.
+link to the survey. The e-mails were sent through an au-
+tomated system that blinded us from knowing the partici-
+pants’ names or e-mail addresses and that made the partic-           Results and Discussion
+ipants aware of this fact. The initial page of the survey, on          E-mail Addresses. At the end of the survey, 47% of
+which random assignment occurred, was the same as in                 participants gave an e-mail address (NS differences between
+experiment 2.                                                        conditions).
+   Participants were presented with the same 12 behaviors
+three times. One of the times, they indicated whether they              Affirmative Admission Rates. We coded questions left
+had engaged in the behavior (Yes/No response scale); an-             blank as missing (i.e., neither admissions nor denials). The
+other time, they rated the intrusiveness of the behavior (“rate      results do not change substantively when the data are an-
+how intrusive (if at all) you would find it, to be asked the         alyzed with blank responses coded as denials.
+following questions”; response options: Not at all intrusive/           A 2 (interface) # 2 (intrusiveness) # 6 (order) mixed
+Mildly intrusive/Intrusive/Very intrusive); another time,            ANOVA revealed a significant two-way interaction between
+they rated its social desirability (“we would like to know           interface and question intrusiveness (F(1, 147) p 4.13, p !
+how ‘cool’ (or not) you think it is to do each of the following      .05). Follow-up pairwise comparisons revealed that the
+behaviors”; response options: Not at all cool/Somewhat               AARs were significantly higher in the unprofessional con-
+cool/Cool/Very cool). The 12 behaviors were presented in             dition for the intrusive questions (Munpro p .33, Mpro p .26;
+a pseudorandom order with respect to intrusiveness and so-           t(158) p 2.55, p p .01). Participants in the unprofessional
+cial desirability, which was held constant across the three          condition were 1.52 times more likely to admit to having
+tasks (i.e., admissions, intrusiveness ratings, social desira-       engaged in the intrusive behaviors, relative to those in the
+bility ratings).                                                     professional condition (table 3; fig. 2). There was no dif-
+   Because recruitment took place at the same institution,           ference between conditions for the tame questions (t(157)
+but at a later date, as in experiment 2, a question also asked       p 0.97, NS). There was also a main effect of intrusiveness;
+participants whether they had taken the survey before. Fi-           the AARs were lower for the intrusive items than for the
+STRANGERS ON A PLANE                                                                                                        000
+
+                                                             FIGURE 2
+
+          EXPERIMENT 3: MEAN AFFIRMATIVE ADMISSION RATES (AARS) ACROSS EXPERIMENTAL CONDITIONS AND
+                                       TAME VERSUS INTRUSIVE QUESTIONS
+
+
+
+
+  NOTE.—AARs have been normed, question by question, on the overall average AAR for the question. The value of one on the Y-axis
+represents the overall average AAR within question type.
+
+
+
+
+tame items (Mtame p .64, Mintr p .29; F(1, 147) p 259.16,          Experiment 4
+p ! .0005).
+                                                                      In experiment 4, we test whether the effect of the survey
+                                                                   interface on disclosure disappears when privacy concern is
+   Intrusiveness Ratings. A 2 (interface) # 2 (intrusive-          roused at the outset of the experiment. Experiment 4 was a
+ness) # 6 (order) mixed ANOVA revealed a significant               2 # 2 between-subjects design in which we orthogonally
+main effect of interface (F(1, 144) p 4.75, p ! .05). Spe-         manipulated (a) whether participants were cued to think of
+cifically, the average question intrusiveness rating (on a 4-      privacy from the outset (privacy vs. control) and (b) the
+point scale) was lower in the unprofessional condition rel-        interface of the subsequent survey (unprofessional vs. pro-
+ative to the professional condition (Munpro p 2.1, Mpro p          fessional). To reduce complexity in the experimental design,
+2.2). There was also a main effect of intrusiveness; the in-       only intrusive questions were used. We hypothesized an
+trusive items were rated as more intrusive than the tame           interaction: in the absence of privacy cueing, we expected
+items (Mintr p 2.8, Mtame p 1.5; F(1, 144) p 428.61, p !           a replication of experiments 2 and 3 such that participants
+.0005).                                                            in the unprofessional condition would disclose more than
+                                                                   those in the professional condition. However, when privacy
+                                                                   concern is roused from the outset of the study, we expected
+   Social Desirability Ratings. A 2 (interface) # 2 (in-           the difference between the unprofessional and professional
+trusiveness) # 6 (order) mixed ANOVA of the social de-             conditions to disappear. We expected that heightening pri-
+sirability ratings revealed no significant differences. There-     vacy concern from the outset of the study would buffer
+fore, the social desirability explanation of our findings was      participants against the unprofessional interface’s tendency
+not supported, as there was no effect of survey interface on       to lower privacy concern and elicit divulgence.
+participants’ perceptions of the social desirability of the be-
+haviors.
+   Experiment 3 shows that, relative to a professional-look-       Method
+ing interface, an unprofessional-looking interface leads peo-         The method and questions were the same as experiment
+ple to divulge more private information, even when this            2, except for the removal of the baseline condition from the
+information is socially undesirable. The unprofessional in-        interface manipulation, the addition of the privacy cueing
+terface also caused participants to judge the questions to be      manipulation, and a few other minor changes, all of which
+less intrusive. A competing interpretation of experiment           are described below.
+2—that the unprofessional interface increases disclosure be-
+cause it leads people to perceive the behaviors to be socially       Participants. There were 769 participants (Mage p 30
+desirable—was not supported.                                       years, SD p 11.5; 59.9% female; 16.2% Asian, 65.1% Cau-
+000                                                                                   JOURNAL OF CONSUMER RESEARCH
+
+                                                           FIGURE 3
+
+            EXPERIMENT 4: MEAN AFFIRMATIVE ADMISSION RATES (AARS) ACROSS EXPERIMENTAL CONDITIONS
+
+
+
+
+  NOTE.—AARs have been normed, question by question, on the overall average AAR for the question. The value of one on the Y-axis
+represents the overall average AAR.
+
+
+
+
+casian, 6.9% African American, 1.9% Indian, 3.9% other             (privacy condition) or “Find the endangered fish” (control
+ethnicities; all NS between conditions), excluding the 1.2%        condition). First, the relevant terms were defined. In the
+of people who started but failed to complete the survey.           privacy condition, participants were given the definition of
+Sixteen percent of participants were excluded from the sam-        phishing (an e-mail that attempts “to acquire sensitive in-
+ple because they had taken the survey before (assessed in          formation such as usernames, passwords and credit card
+the same way as in experiment 3). Although excluded par-           details by masquerading as a trustworthy entity”; http://
+ticipants were significantly younger than those who were           en.wikipedia.org/wiki/Phishing); in the control condition,
+included (Mex p 26.9 vs. Min p 30.7; t(758) p 3.52, p !            participants were given the definition of an endangered spe-
+.0005), they were the same with respect to all other depen-        cies (http://en.wikipedia.org/wiki/Endangered). Participants
+dent measures. The proportion of excluded participants was         were asked on the subsequent page to define either the term
+not significantly different between conditions.                    “phishing” (privacy condition) or “endangered species” (con-
+                                                                   trol condition).
+   Procedure. Participants were offered a candy bar in                On each of six subsequent pages, participants were pre-
+exchange for participating and completed the surveys on a          sented with photos and asked to categorize them. In the
+laptop provided by the experimenter. Recruitment took place        privacy condition, participants were presented with screen
+on one of two adjacent university campuses and differed            shots of e-mail messages and indicated whether each con-
+slightly between campuses: potential participants were re-         stituted phishing or “just spam.” In the control condition,
+cruited as they walked by either tables set up in different        they were shown pictures of fish and indicated whether they
+buildings on the Carnegie Mellon University campus or a            thought the species was endangered. The answers were dis-
+mobile lab (http://www.cbdr.cmu.edu/datatruck/) parked on          played at the end of the survey.
+a city street on the University of Pittsburgh campus. Within
+each location, participants were randomly assigned to one
+of the four conditions. To control for possible differences
+                                                                   Results and Discussion
+between the various locations, we included location as a             E-mail Addresses. At the end of the survey, 44% of
+covariate in our analyses. Participants were asked to com-         participants gave their e-mail addresses (NS differences be-
+plete two surveys; they were told that the first survey was        tween conditions).
+a “photo identification task” (which served as the privacy
+cue manipulation, described below) and that the second was           Affirmative Admission Rates. As predicted, there was
+a “survey of behaviors” (which was the same as experiment          a significant interaction between the two manipulations
+2).                                                                (F(1, 632) p 3.91, p ! .05) and no main effects (fig. 3).
+                                                                   Simple effect testing revealed that in the absence of privacy
+  Privacy Cue Manipulation. In the first survey, partic-           cueing (fishing condition), participants in the unprofessional
+ipants were asked to either “Phind the phishing e-mails”           condition admitted to having engaged in significantly more
+STRANGERS ON A PLANE                                                                                                       000
+
+behaviors, relative to those in the professional condition       concern. Specifically, experiment 1 suggests that indirect
+(Munpro p 0.33, Mpro p 0.29; F(1, 324) p 6.43, p ! .05)—in       attempts at obtaining sensitive information may be partic-
+other words, a replication of experiments 2 and 3. Relative      ularly fruitful. For better or for worse, numerous technol-
+to the professional condition, participants in the unprofes-     ogies already capitalize on the inadvertent disclosures people
+sional condition were on average 1.17 times more likely to       make through Internet searches; Google Flu Trends, for ex-
+admit to having engaged in the behaviors. By contrast, when      ample, has been used to predict the spread of influenza.
+privacy concerns were cued from the outset of the experi-           Experiments 2–4 imply that individuals are prone to dis-
+ment (phishing condition), there was no difference in AARs       closing in contexts that downplay privacy concern—ironi-
+between unprofessional and professional conditions.              cally, even when such contexts are likely higher in both
+                                                                 objective and perceived disclosure danger. These experi-
+Discussion of Experiments 2–4                                    ments suggest that consumers will be especially forthcoming
+                                                                 with information when sensitive questions are asked infor-
+   These three experiments show that people seem naturally       mally. Combined with research showing that assurances of
+more comfortable disclosing personal information on un-          anonymity and confidentiality can backfire (Singer et al.
+professional sites—which are arguably more likely to misuse      1992), these results suggest, perhaps ironically, that mar-
+it. This occurs even though participants in a pilot study        keters may be particularly successful in obtaining private
+judged the unprofessional site to be higher in disclosure        information when they make the fewest promises to protect
+danger. Experiment 3 shows that participants in the unpro-       consumers’ privacy—enabling marketers to retain great flex-
+fessional condition, whose privacy concern has been sup-         ibility in how they may use the disclosed information.
+pressed, perceive the questions to be less intrusive than do
+those in the professional condition. Experiment 4 replicates     Limitations
+and extends these findings by showing that the effect of the
+survey interface on disclosure is eliminated when privacy           We attempt to draw general conclusions about how in-
+concerns are evoked from the outset of the study.                dividual concern for privacy, and in turn self-disclosure,
+                                                                 responds to contextual cues in nonnormative ways. Yet,
+                                                                 much as general conclusions about other topics (e.g., curi-
+             GENERAL DISCUSSION                                  osity) are often drawn from research focusing on a subset
+These experiments suggest that privacy concern and, in turn,     of domains, the present research is limited to one domain
+willingness to divulge are influenced by contextual cues that    of disclosure: the revelation of sensitive, and potentially
+are incommensurate with, or even negatively related to, the      incriminating, personal facts. Although we suspect that our
+objective dangers of disclosure. This can lead to differences    results apply to a wide range of other disclosure domains,
+in disclosure between situations with the same objective         we do not test this assumption. Future research could there-
+disclosure dangers and benefits (experiment 1) and even to       fore test the effect of contextual cues on other types of
+increased disclosure in situations indicative of greater dis-    disclosure behavior—for example, on people’s propensity
+closure danger (experiments 2–4). Suppressing privacy con-       to divulge other people’s personal information.
+cern caused individuals to perceive questions to be relatively      Second, whereas much of the privacy literature to date
+nonintrusive (experiment 3); activating privacy concern at       has focused on individual differences, we failed to take ac-
+the outset of experiment 4 buffered individuals against con-     count of such differences but focused exclusively on situ-
+textual cues that otherwise downplayed privacy concern           ational factors that we posited to drive momentary changes
+when it was actually warranted.                                  in privacy concern. Our research is therefore silent on how
+                                                                 contextual factors might interact with individual differences
+Implications                                                     to affect self-disclosure. For example, people may differ in
+                                                                 both the extent to which they are generally concerned about
+   Our results stand in contrast to the considerable body of     their privacy and their general desire to divulge, which could
+privacy research that is premised on the assumption of ra-       affect the impact of contextual cues on self-disclosure: a
+tional choice and that has informed marketing recommen-          cue signaling that public divulgence is likely might increase
+dations on how to obtain personal information from con-          disclosure among individuals high in the desire to divulge
+sumers. For example, some have argued that consumers will        but inhibit it by individuals who are high in privacy concern.
+be more likely to comply with a firm’s requests for personal     Understanding how individual differences interact with con-
+information if the firm displays its privacy policy (Benassi     textual factors to affect self-disclosure might help marketers
+1999; Culnan and Armstrong 1999). Although this recom-           better predict consumers’ responses to requests for personal
+mendation is intuitively sensible—privacy policies contain       information and allow for more targeted, and ultimately
+information relevant for making rational disclosure deci-        more successful, attempts at obtaining consumers’ infor-
+sions—our research suggests that providing such informa-         mation.
+tion may backfire, by rousing privacy concern and therefore         Third, we cannot validate the truthfulness of our respon-
+suppressing divulgence. Our results therefore imply that         dents’ disclosures; it is therefore possible that our manip-
+such recommendations could be improved by considering            ulations simply affected people’s propensity to lie. In ex-
+the effect of nonnormative contextual factors on privacy         periments 2–4, for example, the unprofessional Web site
+000                                                                                    JOURNAL OF CONSUMER RESEARCH
+
+may have made individuals more likely to say yes to be-            about one’s privacy, such a cue would be detrimental by
+haviors in which they had not actually engaged. Note, how-         causing individuals to overdisclose even more than they
+ever, that if this were the case, one would have expected          normally would. This situation would present a tension be-
+participants in the unprofessional condition to have judged        tween consumers’ best interests and marketers’ motives to
+the behaviors to be relatively socially desirable; they did        obtain information from them. However, if the tendency is
+not (experiment 3). In addition, a self-report measure found       to be overly concerned about one’s privacy, such a cue
+no differences in the extent to which participants were            would be beneficial, by bringing people’s disclosure closer
+“tempted to say ‘Yes’ to behaviors in which I have actually        to ideal levels. It may seem paradoxical that a cue that makes
+never engaged” (experiment 2). But regardless of the truth-        a person feel more safe but be less safe should increase
+fulness of participants’ admissions, we think the results have     disclosure, but if an individual is prone to underdisclose in
+provocative implications—the mere claim that one has com-          the first place, such a cue would be mutually beneficial to
+mitted a crime, for example, can have serious consequences,        both consumers and marketers. By the same token, a cue
+irrespective of its validity. Nonetheless, validating the truth-   that makes a person feel less safe but be more safe should
+fulness of admissions is an important topic for future re-         decrease disclosure, but, if the tendency is to be undercon-
+search because it could help to devise techniques to promote       cerned in the first place, such a cue would be beneficial.
+divulgence. For example, if it is determined that indirect            This framework can account for a wide range of factors
+inquiry facilitates truthful admissions, it could be used at       that affect self-disclosure in seemingly nonnormative ways.
+blood donation clinics to ask potential donors important but       For example, the finding that assurances of confidentiality
+sensitive information about their blood (e.g., HIV status).        can decrease people’s willingness to respond to surveys on
+Beyond making an important practical contribution, such a          sensitive subjects (Singer et al. 1992) fits with this per-
+finding would also contribute to the literature on eliciting       spective. Assurances serve as cues that rouse privacy con-
+truthful responses to sensitive questions (Lamb and Stern          cern; however, because they promise confidentiality, they
+1978; Lensvelt-Mulders et al. 2005; Tourangeau and Yan             also lower the objective dangers of disclosure. In this case,
+2007).                                                             a mutually beneficial way for marketers to obtain infor-
+                                                                   mation from people may be to protect the confidentiality of
+Open Questions                                                     consumers’ data but to not inform the consumers of this
+                                                                   protection.
+   The present research enables us to make inferences about
+when individuals are and are not concerned about privacy;          Concluding Comment
+further research is needed to identify conditions that promote
+good disclosure decisions. For example, although experi-              What about the strangers on a plane? We suspect that the
+ment 4 shows that the unprofessional-looking survey’s abil-        phenomenon of opening up to a complete stranger on a plane
+ity to facilitate disclosure is eliminated when participants       is sufficiently ubiquitous that most readers of this article will
+have been cued to think of privacy, it would be wrong to           have instantly understood the allusion. Can our results shed
+conclude that cueing people to think about privacy concerns        light on this well-known, if anecdotal, phenomenon? Per-
+will necessarily make them disclose and withhold infor-            haps a stranger on the plane is at the “sweet spot,” when it
+mation when it is in their best interest to do so.                 comes to the absence of cues that trigger concern about
+   Whether a cue affecting privacy concern leads to more           privacy. First, the individual is a stranger whom one is un-
+self-interested disclosure decisions depends on the relation-      likely to encounter again. Second, the setting is divorced
+ship between privacy concern and objective disclosure dan-         from normal daily life, as if it is happening in a parallel
+ger before and after the introduction of the cue. For example,     world. Finally, at least for the many of us with a fear of
+consider a cue (such as that introduced in experiments 2–4)        flying, part of the explanation may lie in the unconscious
+that downplays privacy concern despite increased disclosure        belief that the stranger will take our secrets to the grave,
+danger. If the underlying tendency is to be underconcerned         when the plane, inevitably, crashes.
+                                                          APPENDIX
+                                                           FIGURE A1
+
+                                EXPERIMENT 1: QUESTION LAYOUT IN INDIRECT-INQUIRY CONDITION
+
+
+
+
+NOTE.—Color version available as an online enhancement.
+                                                          FIGURE A2
+
+             EXPERIMENT 2: SURVEY INTERFACE MANIPULATION (IN ORDER: UNPROFESSIONAL, BASELINE, PROFESSIONAL)
+
+
+
+
+NOTE.—Color version available as an online enhancement.
+STRANGERS ON A PLANE                                                                                                               000
+
+                     REFERENCES                                     ——— (2002b), “Statistical Profiles of Highly Rated Web Sites,”
+                                                                         in Proceedings of the Conference on Human Factors in Com-
+                                                                         puting Systems, ed. Loren Terveen, New York, Association
+Acquisti, Alessandro (2004), “Privacy in Electronic Commerce and         for Computing Machinery Press.
+     the Economics of Immediate Gratification,” in Proceedings      Ivory, Melody Y., Rashmi R. Sinha, and Marti A. Hearst (2001),
+     of the ACM Conference on Electronic Commerce (EC ’04),              “Empirically Validated Web Page Design Metrics,” in Pro-
+     New York: Association for Computing Machinery, 21–29.               ceedings of the Conference on Human Factors in Computing
+Altman, Irwin (1975), The Environment and Social Behavior: Pri-          Systems, ed. Michel Beaudoin-Lafon and Robert J. K. Jacob,
+     vacy, Personal Space, Territory, and Crowding, Monterey,            New York: Association for Computing Machinery Press,
+     CA: Brooks/Cole.                                                    53–60.
+Benassi, Paola (1999), “Truste: An Online Privacy Seal Program,”    Jourard, Sidney N. and Paul Lasakow (1958), “Some Factors in
+     Communications of the ACM, 42 (2), 56–59.                           Self-Disclosure,” Journal of Abnormal and Social Psychol-
+Cranor, Lorrie (2002), Web Privacy with P3P, Sebastopol, CA:             ogy, 56, 91–98.
+     O’Reilly.                                                      Lamb, Charles and Donald E. Stern (1978), “An Empirical Vali-
+Cranor, Lorrie, Serge Egelman, Steve Sheng, Aleecia D. Mc-               dation of the Randomized Response Technique,” Journal of
+     Donald, and Abdur Chowdhury (2008), “P3P Deployment on              Marketing Research, 15 (4), 616–21.
+     Websites,” Electronic Commerce Research and Applications,      Laudon, Kenneth C. (1996), “Markets and Privacy,” Communi-
+     7 (3), 274–93.                                                      cations of the ACM, 39 (9), 92–104.
+Culnan, Mary and Pamela K. Armstrong (1999), “Information Pri-      Lensvelt-Mulders, Gerty J., Joop H. Hox, Peter G. M. van der
+     vacy Concerns, Procedural Fairness, and Impersonal Trust:           Heijden, and Cora J. M. Maas (2005), “Meta-analysis of Ran-
+     An Empirical Investigation,” Organization Science, 10 (1),          domized Response Research: 35 Years of Validation,” Socio-
+     104–15.                                                             logical Methods and Research, 33 (3), 319–48.
+Danezis, George, Stephen Lewis, and Ross Anderson (2005), “How
+                                                                    Lubin, Bernard and Roger L. Harrison (1964), “Predicting Small
+     Much Is Location Privacy Worth?” paper presented at the
+                                                                         Group Behavior with the Self-Disclosure Inventory,” Psy-
+     Fourth Workshop on the Economics of Information Security,
+                                                                         chological Reports, 15, 77–78.
+     Harvard University, June 3–5.
+                                                                    Mandel, Naomi and Eric Johnson (2002), “When Web Pages In-
+Derlega, Valerian J., Sandra Metts, Sandra Petronio, and Stephen
+                                                                         fluence Choice: Effects of Visual Primes on Experts and Nov-
+     T. Margulis (1993), Self-Disclosure, London: Sage.
+                                                                         ices,” Journal of Consumer Research, 29, 235–45.
+Dhar, Ravi and Itamar Simonson (1992), “The Effect of Focus of
+                                                                    Margulis, Stephen (2003), “On the Status and Contribution of
+     Comparison on Consumer Preferences,” Journal of Marketing
+     Research, 29, 430–40.                                               Westin’s and Altman’s Theories of Privacy,” Journal of Social
+Fox, Craig R. and Amos Tversky (1995), “Ambiguity Aversion               Issues, 59 (2), 411–29.
+     and Comparative Ignorance,” Quarterly Journal of Econom-       Marshall, Nancy J. (1974), “Dimensions of Privacy Preferences,”
+     ics, 110 (3), 585–603.                                              Multivariate Behavioral Research, 9 (3), 255–71.
+Frey, James H. (1986), “An Experiment with a Confidentiality        Milberg, Sandra J., Sandra J. Burke, H. Jeff Smith, and Ernest A.
+     Reminder in a Telephone Survey,” Public Opinion Quarterly,          Kallman (1995), “Values, Personal Information, Privacy, and
+     50, 267–69.                                                         Regulatory Approaches,” Communications of the ACM, 38
+Griffin, Dale, Wendy Liu, and Uzma Khan (2005), “A New Look              (12), 74.
+     at Constructed Choice Processes,” Marketing Letters, 16 (3),   Nussbaum, Emily (2007), “Kids, the Internet, and the End of Pri-
+     321–33.                                                             vacy: The Greatest Generation Gap since Rock and Roll,”
+Grimm, Ruediger and Alexander Rossnagel (2000), “Can P3P Help            New York Magazine.
+     to Protect Privacy Worldwide?” in International Multimedia     Odlyzko, Andrew (2003), “Privacy, Economics, and Price Dis-
+     Conference, ACM Workshops on Multimedia, Los Angeles:               crimination on the Internet,” in International Conference on
+     Association for Computing Machinery, 157–60.                        Electronic Commerce, Vol. 50, Pittsburgh: Association for
+Hann, Il-Horn, Kai-Lung Hui, Tom S. Lee, and Ivan P. L. Png              Computing Machinery, 355–66.
+     (2002), “The Value of Online Privacy: Evidence from the        Petronio, Sandra (2000), “The Boundaries of Privacy: Praxis of
+     USA and Singapore,” paper presented at the International            Everyday Life,” in Balancing the Secrets of Private Disclo-
+     Conference on Information Systems, Barcelona, December              sures, ed. Sandra Petronio, Mahwah, NJ: Erlbaum, 37.
+     15–18.                                                         Posner, Richard A. (1981), “The Economics of Privacy,” American
+——— (2007), “Overcoming Information Privacy Concerns: An                 Economic Review, 71 (2), 405–9.
+     Information Processing Theory Approach,” Journal of Man-       Rosenfeld, Lawrence B. (2000), “Introduction to Secrets of Private
+     agement Information Systems, 24 (2), 13–42.                         Disclosures,” in Balancing the Secrets of Private Disclosures,
+Hoffman, Donna L. and Thomas P. Novak (1997), “A New Mar-                ed. Sandra Petronio, Mahwah, NJ: Erlbaum, 1.
+     keting Paradigm for Electronic Commerce,” Information So-      Salisbury, W. David, Rodney A. Pearson, Allison W. Pearson, and
+     ciety, 13 (1), 43–54.                                               David W. Miller (2001), “Perceived Security and World Wide
+Hsee, Chris, George Loewentein, Sally Blount, and Max Bazerman           Web Purchase Intention,” Industrial Management and Data
+     (1999), “Preference Reversals between Joint and Separate            Systems, 101 (4), 165–76.
+     Evaluations: A Review and Theoretical Analysis,” Psycho-       Simonson, Itamar and Amos Tversky (1992), “Choice in Context:
+     logical Bulletin, 125 (5), 576–90.                                  Tradeoff Contrast and Extremeness Aversion,” Journal of
+Hsee, Christopher K., Fang Yu, Jiao Zhang, and Yan Zhang (2003),         Marketing Research, 29 (3), 281–95.
+     “Medium Maximization,” Journal of Consumer Research, 30        Singer, Eleanor, Hans-Juergen Hippler, and Norbert Schwarz
+     (1), 1–13.                                                          (1992), “Confidentiality Assurances in Surveys: Reassurance
+Ivory, Melody Y. and Marti A. Hearst (2002a), “Improving Web             or Threat?” International Journal of Public Opinion Research,
+     Site Design,” IEEE Internet Computing, 6 (2), 56–63.                4, 256–68.
+000                                                                                       JOURNAL OF CONSUMER RESEARCH
+
+Smith, H. Jeff, Sandra J. Milberg, and Sandra J. Burke (1996),        Turner, Eric C. and Subhasish Dasgupta (2003), “Privacy on the
+     “Information Privacy: Measuring Individuals’ Concerns about          Web: An Examination of User Concerns, Technology, and
+     Organizational Practices,” MIS Quarterly, 20 (2), 167–96.            Implications for Business Organizations and Individuals,” In-
+Stigler, George J. (1980), “An Introduction to Privacy in Econom-         formation Systems Management, 20 (1), 8–18.
+     ics and Politics,” Journal of Legal Studies, 9, 623–44.          Tversky, Amos and Daniel Kahneman (1974), “The Framing of
+Stone, Eugene F., Hal G. Gueutal, Donald G. Gardner, and Stephen          Decisions and the Psychology of Choice,” Science, 211
+     McClure (1983), “A Field Experiment Comparing Informa-               (4481), 453–58.
+     tion-Privacy Values, Beliefs, and Attitudes across Several
+                                                                      Tversky, Amos, Paul Slovic, and Daniel Kahneman (1990), “The
+     Types of Organizations,” Journal of Applied Psychology, 68
+                                                                          Causes of Preference Reversal,” American Economic Review,
+     (3), 459–68.
+Taylor, Humphrey (2003), “Most People Are ‘Privacy Pragmatists’           80 (1), 204–17.
+     Who, while Concerned about Privacy, Will Sometimes Trade         Westin, Alan F. (1991), Harris-Equifax Consumer Privacy Survey
+     It Off for Other Benefits,” in The Harris Poll, Rochester, NY:       1991, Atlanta: Equifax.
+     Harris Interactive, 1–6.                                         White, Tiffany Barnett (2004), “Consumer Disclosure and Disclo-
+Tourangeau, Roger and Ting Yan (2007), “Sensitive Questions in            sure Avoidance: A Motivational Framework,” Journal of
+     Surveys,” Psychological Bulletin, 133 (5), 859–83.                   Consumer Psychology, 14 (1–2), 41–51.
+

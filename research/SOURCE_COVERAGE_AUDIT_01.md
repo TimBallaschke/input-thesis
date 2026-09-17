@@ -1,22 +1,102 @@
 # Quellen- und Lückenaudit 01 nach der neuen Grundstruktur
 
+## Neuester Surface-Nachtrag: Vertrauen und Verhaltenslenkung
+
+17. September 2026: Tim hat Chen, John und Luguri/Strahilevitz ausdrücklich
+aufgenommen. Drei begrenzte Source Notes, drei gesicherte PDFs und drei
+verifizierte Zotero-Importe ergänzen den Bestand. Siehe
+[Quellenübersicht](QUELLENUEBERSICHT_SURFACE_VERTRAUEN_LENKUNG_01.md).
+Damit lokal 49 Source Notes und 42 Forschungs-PDFs; der automatische
+Bibliografieexport enthält 60 Einträge. Die drei neuen Zotero-Datensätze und
+Anhänge sind einzeln geprüft, nicht die gesamte Bibliothek neu ausgewertet.
+Die gelesenen Teile und jeweiligen Aussagegrenzen sind dort einzeln dokumentiert;
+keine Vollauswertung aller drei Gesamtwerke behauptet. Die Auswahl für konkrete
+Thesisabsätze bleibt offen. Frühere Import- und Bestandsangaben sind historische
+Stände. Die Fallwahl ist inzwischen bestätigt; aktuelle Aufnahmen bleiben offen.
+
+## Surface-Nachtrag vom 17. September 2026
+
+Für Surface gilt nun die bestätigte [Arbeitsgliederung](GLIEDERUNG_SURFACE_01.md).
+Die [aktuelle Quellenübersicht](QUELLENUEBERSICHT_SURFACE_01.md) ordnet den
+Bestand dieser Struktur zu. [Norman 2008](source-notes/norman-2008-signifiers-not-affordances.md)
+ergänzt als **Stützquelle** die Unterscheidung von Handlungsmöglichkeit und
+wahrnehmbarem Hinweis. Vollständige Autor-HTML-Fassung gelesen und gesichert;
+Metadaten geprüft, paginierte Verlagsfassung nicht gelesen. Damit 46 lokale
+Source Notes; kein zusätzliches Forschungs-PDF, Zotero-Import oder aktiver
+Bibliografieeintrag. Noch offen: konkrete aktuelle Oberflächenaufnahmen und
+Fallfreigabe. Wahrnehmungs-/Verhaltenswirkungen sind eine bedingte Beleglücke,
+kein Anlass für eine pauschale zusätzliche Literaturrecherche. Frühere
+Bestandszahlen und allgemeine Lückenlisten unten sind historische Stände.
+
 ## Status
 
-- Datum: 30. August 2026
-- Strukturgrundlage: `presentation/Struktur_Masterarbeit_Input.pages`
-- Lokaler Bestand: 42 im Projekt triagierte Literaturdatensätze – 40 in Zotero und zwei als geprüfter Importdatensatz vorgemerkt –, 23 lokale PDFs sowie zusätzliche technische Volltexte und Snapshots; beim Schreiben kam ein eng begrenzter offizieller POSIX-Standardabschnitt hinzu
+- Datum: 30. August 2026; fortgeschrieben am 15. September 2026
+- Strukturgrundlage: `presentation/Struktur_Masterarbeit_Input.pages`; für Operation gilt inzwischen die bestätigte `GLIEDERUNG_OPERATION_01.md`.
+- Lokaler Bestand: 65 triagierte Quellen, 45 Source Notes und 39 Forschungs-PDFs. Zuletzt 57 in Zotero verifiziert; diese Sitzung hat Zotero nicht neu inventarisiert oder geändert. Acht Quellen sind lokal außerhalb Zotero geführt: zwei ältere vorbereitete, drei aus der Interessen-Runde sowie Staab und zwei FTC-Dokumente dieser Runde. Für Alphabets Form 10-K fehlt weiterhin der lokale Originalsnapshot.
 - Zweck: Priorisierung der vollständigen Neulektüre des vorhandenen Bestands und vorläufige Feststellung späterer Evidenzlücken
 - Grenze: Dieses Audit ersetzt keine Einzelquellenauswertung. Es übernimmt keine Aussagen aus den gelöschten Source Notes oder Matrizen; allein die neuen Einzelnotizen legen fest, welche Aussagen in welchem Umfang später verwendbar sind.
-- Arbeitsentscheidung: Die Lückenliste löst vorerst keine neue Literaturrecherche aus. Zusätzliche Quellen werden erst beim Schreiben für konkrete, tatsächlich benötigte Aussagen gesucht.
+- Arbeitsentscheidung: Zusätzliche Quellen werden nur für konkrete, beim Schreiben bestätigte Lücken gesucht. Am 3. September wurden drei solche Lücken gezielt bearbeitet.
 - Scope-Entscheidung: Social Media, zwischenmenschliche Messenger-Kommunikation als eigener Gegenstand sowie alle Kunstwerke, Werkdokumentationen und kunsttheoretischen Quellen sind ausgeschlossen. Messengerquellen bleiben nur dann relevant, wenn sie eine klar übertragbare Interfacekonvention für Mensch-System-Dialoge belegen, insbesondere Typing-/Drei-Punkte-Indikatoren. KI-/LLM-Chat, ELIZA und andere dialogische Systeme bleiben Teil des Korpus.
-- Synthesestatus: 26 freigegebene aktive Einzelnotizen und eine offen gebliebene, abstractbegrenzte Vorprüfung sind in der [Quellen-zu-Struktur-Synthese 01](SOURCE_TO_STRUCTURE_SYNTHESIS_01.md) der bestehenden Autorstruktur zugeordnet. Die Synthese ist weder eine neue Gliederung noch Thesisprosa.
+- Synthesestatus: 29 freigegebene aktive Einzelnotizen und eine offen gebliebene, abstractbegrenzte Vorprüfung sind in der [Quellen-zu-Struktur-Synthese 01](SOURCE_TO_STRUCTURE_SYNTHESIS_01.md) der bestehenden Autorstruktur zugeordnet. Die Synthese ist weder eine neue Gliederung noch Thesisprosa.
 
 ## Neue Einzelauswertungen
+
+**Profil-/Weiterverwendungsergänzung P-0160 / AI-055:** Die
+[Kurzübersicht für Operation 3](QUELLENUEBERSICHT_OPERATION_PROFILE_WEITERVERWENDUNG_01.md)
+verbindet zwei getrennte Belegaufgaben, ohne eine gemeinsame technische Kette
+zu behaupten. Staab: Haupttext S. 1-10 und Methodentexte S. 17/19,
+**Stützquelle** für begrenzte Textinferenz. FTC: vollständige finale Complaint
+und bezeichnete Order-Abschnitte, **Fallquelle** für Vorwürfe zusätzlicher
+Werbeverwendung und die nachfolgenden Anordnungen. Drei PDFs gesichert;
+keine vollständigen Profile, aktuelle Plattformpraxis oder psychologische
+Manipulationswirkung belegt. Die Reddit-Datenquelle wird als Methodengrenze
+benannt, nicht als neuer Social-Media-Gegenstand. 45 Notizen, davon 44 mit
+begrenzt nutzbaren Aussagen und Carrolls offene Vorprüfung. Kein Import.
+Ältere Bestandsangaben unten sind historische Stände.
+
+**Kritische Ergänzung P-0157 / AI-052:** Die [Redaktionsstruktur](REDAKTION_OPERATION_2_INTERESSEN_MACHT_01.md)
+verbindet die konkrete kommerzielle Lücke mit zwei begrenzten Auswertungen:
+
+| Neue Auswertung | Geprüfter Umfang | Entscheidung |
+| --- | --- | --- |
+| [Gillespie 2014](source-notes/gillespie-2014-relevance-algorithms.md) | Satzfahne: S. 167-169, 175-179, 183-187; S. 170-171 ergänzend | Stützquelle: institutionelle Kriterien und ungleiche Einflussmöglichkeiten; keine heutige Produktprüfung |
+| [Google / Alphabet](source-notes/google-alphabet-2026-search-advertising.md) | Google-Artikel; Form 10-K 2025 gezielt S. 5, 29-30, 33-34 | Zwei Fallquellen: Anzeigenzuordnung und deklarierte Monetarisierung; kein Neutralitätsaudit, 10-K lokal nicht archiviert |
+
+Jetzt 43 Notizen, davon 42 mit begrenzt nutzbaren Aussagen und Carrolls offene
+Vorprüfung. Keine neue Aussage über gezielt manipulative LLM-Kundenbindung.
+Die folgenden Bestandsangaben sind historische Recherche-/Importstände.
+
+**Verwaltungsnachtrag vom 15. September 2026:** Die acht Quellen der [Operation-Runde](QUELLENRUNDE_OPERATION_01.md) sind jetzt in Zotero, mit drei PDFs und fünf bytegeprüften Roh-HTML-Dateien. Aktuell 57 Zotero-Einträge; unverändert 41 Notizen und 35 lokale Forschungs-PDFs. P-0150 / AI-045. Die folgenden Angaben „kein Import“ beziehen sich auf den damaligen Rechercheabschluss; die Beleggrenzen bleiben bestehen.
+
+**Jüngste Ergänzung vom 15. September 2026:** [GEO und Sycophancy](QUELLENUEBERSICHT_OPERATION_GEO_SYCOPHANCY_01.md) ergänzt drei geprüfte Arbeiten und Zotero-Einträge. Jetzt 41 Notizen: 40 claimtragend plus Carrolls offene Vorprüfung. Aggarwal trägt Aussagen zur gemessenen Quellenpräsenz, Sharma zu Präferenzbewertung und teilweise gefälligem Antwortverhalten, Cheng zu kurzfristigen Urteilen und Wiederverwendungsabsichten. Keine der Arbeiten trägt pauschal absichtliche Manipulation zur langfristigen Bindung. Kapitelstruktur und Manuskripte unverändert; P-0149 / AI-044.
+
+| Neue Auswertung | Geprüfter Umfang | Entscheidung |
+| --- | --- | --- |
+| [Aggarwal et al. 2024](source-notes/aggarwal-et-al-2024-geo.md) | Haupttext PDF-S. 1–9, Anhänge A–C S. 11–12; gezielte Promptdefinitionen des Begleitcodes | Kernquelle: umkämpfte Quellenpräsenz; keine allgemeine SEO-/Traffic-Wirkung |
+| [Sharma et al. 2024](source-notes/sharma-et-al-2024-sycophancy.md) | Haupttext S. 1–9, Autorenrollen S. 10, A.1–A.3 und D.3 | Kernquelle: Präferenzmaßstäbe, Sycophancy und Gegenbefunde |
+| [Cheng et al. 2026](source-notes/cheng-et-al-2026-sycophantic-ai.md) | publizierter Haupttext S. 1–8, Abschlussangaben S. 9; kein separates Supplement | Stützquelle: kurzfristige Wirkungen in Konfliktberatung, keine gemessene langfristige Abhängigkeit |
+
+**Aktuelle Ergänzung vom 15. September 2026:** Die autorisierte [Quellenrunde Operation 01](QUELLENRUNDE_OPERATION_01.md) ergänzt drei Forschungsarbeiten und fünf datierte Dokumentationsseiten in fünf neuen Source Notes. Damit liegen 38 Notizen vor: 37 mit begrenzt freigegebenen Aussagen und Carrolls offene Vorprüfung. Suche/Ranking und LLM-Kontext/Instruction-Tuning sind für eine begrenzte Ausarbeitung belegt; Datenzwecke werden an einem vorgeschlagenen API-Fall unterschieden. Vollständige heutige Produktpipelines, proprietäre Gewichtungen und Consumer-ChatGPT-Datenregeln bleiben offen. Ältere pauschale Lückenangaben weiter unten sind historische Auditstände und für diese drei Bereiche durch diese Runde präzisiert. Keine Manuskriptänderung und kein Zotero-Import.
+
+| Neue Auswertung | Geprüfter Umfang | Entscheidung |
+| --- | --- | --- |
+| [Brin/Page 1998](source-notes/brin-page-1998-anatomy.md) | vollständiger elfseitiger Kurzartikel; nicht längere HTML-Fassung | Kernquelle: historische Architektur und Rankingmaßstäbe |
+| [Radford et al. 2019](source-notes/radford-et-al-2019-gpt2.md) | Haupttext PDF-S. 1–10; nicht übrige Beispieltabellen | Stützquelle: GPT-2-Repräsentation, Kontext und Generierung |
+| [Ouyang et al. 2022](source-notes/ouyang-et-al-2022-instruction-following.md) | gesamter Hauptartikel, 15 Seiten; kein separates Supplement | Kernquelle: InstructGPT-Training und ausgewählte menschliche Kriterien |
+| [Google, Snapshot 2026](source-notes/google-2026-search-processing-ranking-evaluation.md) | drei Artikel zu Suchverarbeitung, Ranking und Evaluation | Fallquelle: aktuelle Anbieterselbstauskunft, kein unabhängiger Audit |
+| [OpenAI-API, Snapshot 2026](source-notes/openai-2026-api-context-data-controls.md) | gezielte Abschnitte zweier Guides zu Rollen, Kontext, Datenzwecken und Retention | Fallquelle: API, nicht ChatGPT-Weboberfläche; Ausnahmen und Konfiguration beachten |
+
+Weitere Ergänzung vom 14. September 2026: Arnold, Chauncey und Gajos (2020) wurde als eine gezielte Quelle zu Formulierungseffekten von Wortvorschlägen vollständig geprüft und anschließend einschließlich bytegeprüftem PDF nach Zotero importiert (`XV46SD3K`, `03 GUI and Direct Manipulation`). Damit liegen 33 Source Notes vor: 32 claimfähige Auswertungen und Carrolls offene Vorprüfung. Die [Autocomplete-Übersicht](QUELLENUEBERSICHT_INTERACTION_AUTOCOMPLETE_SUGGESTIONS_01.md) enthält den begrenzten kritischen Anschluss; die Übernahme in Thesisprosa bleibt offen.
+
+Ergänzung vom 14. September 2026: Ritchie (1984) und Hargittai (2002) wurden vollständig gelesen, einzeln ausgewertet und einschließlich PDF nach Zotero importiert. Damit liegen 32 Source Notes vor: 31 claimfähige Auswertungen und Carrolls offene Vorprüfung. Die zwei neuen Quellen sind in der [Kenntnisse-/Kompetenzen-Übersicht](QUELLENUEBERSICHT_INTERACTION_KNOWLEDGE_COMPETENCE_01.md) verankert; die ältere kapitelübergreifende Synthese bleibt ein Stand mit 29 freigegebenen Quellen.
 
 Am 30. August 2026 wurden 27 neue Einzelnotizen erstellt. 26 Quellen wurden vollständig, im vollständig verfügbaren Auszug oder in den relevanten Standardabschnitten neu gelesen und für klar begrenzte Aussagen freigegeben. Carroll (1982) bleibt als transparente Vorprüfung: Verlag und Metadaten wurden geprüft, der Volltext ist jedoch nicht offen zugänglich; deshalb ist nur eine Abstractaussage dokumentiert und die Quelle nicht für weitergehende Thesisclaims freigegeben. Erst die verlinkten Einzelnotizen, nicht dieses Audit, dokumentieren Aussagen und Grenzen.
 
 | Quelle | Geprüfter Umfang | Neue Einzelnotiz | Entscheidung |
 | --- | --- | --- | --- |
+| Arnold, Chauncey und Gajos 2020, *Predictive Text Encourages Predictable Writing* | vollständige Autorenfassung, 11 PDF-Seiten; Abbildungen 1-5 und Tabelle 1 geprüft | [`source-notes/arnold-et-al-2020-predictive-text.md`](source-notes/arnold-et-al-2020-predictive-text.md) | Kernquelle: kürzere und modellnähere Bildbeschreibungen; keine allgemeine Manipulations- oder Meinungsänderungsbehauptung |
+| Ritchie 1984, *The Evolution of the UNIX Time-sharing System* | vollständige Autorenfassung, 11 PDF-Seiten; separat paginiert | [`source-notes/ritchie-1984-evolution-unix.md`](source-notes/ritchie-1984-evolution-unix.md) | Stützquelle: historische Unix-Konventionen; Beteiligtenbericht, keine Sprachbarrierenstudie |
+| Hargittai 2002, *Second-Level Digital Divide* | vollständiges Autoren-PDF, 23 Seiten, einschließlich Tabellen und Anhang | [`source-notes/hargittai-2002-second-level-digital-divide.md`](source-notes/hargittai-2002-second-level-digital-divide.md) | Kernquelle: Unterschiede beobachteter Suchleistung; 54 Personen, 2001; keine aktuelle algorithmische Kompetenz |
 | Weizenbaum 1966, *ELIZA* | vollständiger Artikel, S. 36–45 | [`source-notes/weizenbaum-1966-eliza.md`](source-notes/weizenbaum-1966-eliza.md) | Kernquelle: dialogische Surface und regelbasierte Operation |
 | Shneiderman 1980, *Natural vs. Precise Concise Languages* | vollständiger Artikel, S. 139–141 | [`source-notes/shneiderman-1980-natural-vs-precise.md`](source-notes/shneiderman-1980-natural-vs-precise.md) | Kernquelle: natürliche gegenüber präzisen Eingabeformen und Vergleichsmethodik |
 | Black & Moran 1982, *Learning and Remembering Command Names* | vollständiger Artikel, S. 8–11 | [`source-notes/black-moran-1982-command-names.md`](source-notes/black-moran-1982-command-names.md) | Kernquelle: Lernen und Trennschärfe von Befehlsnamen |
@@ -44,12 +124,15 @@ Am 30. August 2026 wurden 27 neue Einzelnotizen erstellt. 26 Quellen wurden voll
 | Quinn und Zhai 2016, *A Cost-Benefit Study of Text Entry Suggestion Interaction* | vollständiger Artikel, S. 83–88 | [`source-notes/quinn-zhai-2016-text-entry-suggestions.md`](source-notes/quinn-zhai-2016-text-entry-suggestions.md) | Kernquelle: direkter Zeit-, Tap- und Aufwandsvergleich mobiler Wortvervollständigung |
 | Shneiderman 1983, *Direct Manipulation* | vollständiger Artikel, S. 57–69 | [`source-notes/shneiderman-1983-direct-manipulation.md`](source-notes/shneiderman-1983-direct-manipulation.md) | Kernquelle: sichtbare Objekte, inkrementelle reversible Aktionen und historischer Kontrast zu Commandsyntax |
 | W3C 2026, *Input Events Level 2* | vollständiger Working Draft vom 1. Mai 2026 | [`source-notes/w3c-2026-input-events-level-2.md`](source-notes/w3c-2026-input-events-level-2.md) | Kernquelle: normative Bearbeitungsabsichten und Ereignisfolgen; Working Draft ohne Supportgarantie |
+| Galbraith und Kay 2025, *Hidden in Plain Sight* | vollständiges akzeptiertes Manuskript, PDF-S. 1–28; veröffentlichte Fassung S. 2209–2231 | [`source-notes/galbraith-kay-2025-qwerty-ip-complementarity.md`](source-notes/galbraith-kay-2025-qwerty-ip-complementarity.md) | Stützquelle: QWERTY als historisch konkrete Kopplung von Layout, Mechanik, Standardisierung und wirtschaftlicher Strategie; kein universeller Optimalitätsbeleg |
+| Akrich 1992, *The De-Scription of Technical Objects* | vollständiges Kapitel, S. 205–224 | [`source-notes/akrich-1992-de-scription-technical-objects.md`](source-notes/akrich-1992-de-scription-technical-objects.md) | Theoretische Stützquelle: Skript, projektierte Nutzer:innen, Delegation und Blackboxing; kein direkter Texteingabefall |
+| Koenecke et al. 2020, *Racial Disparities in Automated Speech Recognition* | vollständiger Artikel, S. 7684–7689 | [`source-notes/koenecke-et-al-2020-racial-disparities-asr.md`](source-notes/koenecke-et-al-2020-racial-disparities-asr.md) | Kernquelle mit enger Grenze: ungleich verteilte WERs in fünf damaligen kommerziellen Systemen; keine Interface- oder Korrekturstudie |
 
 ## Strukturbezogene Synthese
 
-Die [Quellen-zu-Struktur-Synthese 01](SOURCE_TO_STRUCTURE_SYNTHESIS_01.md) führt die 26 freigegebenen Neuauswertungen innerhalb der bereits von Tim festgelegten Kapitelbewegung zusammen und markiert Carroll zusätzlich als noch nicht claimfähige Vorprüfung. Sie behält Einleitung und historischen Rahmen sowie Surface, Interaction und Operation mit ihren vorhandenen Unterfragen bei. Zeitliche und animierte Zustände werden als Querschnitt zwischen sichtbarer Darstellung, Interpretation und dokumentierter Operation behandelt, nicht als Messenger- oder Social-Media-Kapitel.
+Die [Quellen-zu-Struktur-Synthese 01](SOURCE_TO_STRUCTURE_SYNTHESIS_01.md) führt die 29 freigegebenen Neuauswertungen innerhalb der bereits von Tim festgelegten Kapitelbewegung zusammen und markiert Carroll zusätzlich als noch nicht claimfähige Vorprüfung. Sie behält Einleitung und historischen Rahmen sowie Surface, Interaction und Operation mit ihren vorhandenen Unterfragen bei. Zeitliche und animierte Zustände werden als Querschnitt zwischen sichtbarer Darstellung, Interpretation und dokumentierter Operation behandelt, nicht als Messenger- oder Social-Media-Kapitel.
 
-Die Synthese dokumentiert sechzehn vorläufige quellenübergreifende Aussagen mit Claim-IDs, Gegenbegrenzungen und Evidenzstatus. Besonders tragfähig sind die Differenzen zwischen sichtbarer Einfachheit und tatsächlicher Eingabearbeit, Eingabemodalität und neu verteilter Kontroll- beziehungsweise Korrekturarbeit, fertigem Text und Bearbeitungsverlauf sowie sichtbarem Systemstatus und dokumentierter Operation. Die Lücken werden weiterhin erst beim Schreiben eines konkreten Abschnitts aktiviert.
+Die Synthese dokumentiert siebzehn vorläufige quellenübergreifende Aussagen mit Claim-IDs, Gegenbegrenzungen und Evidenzstatus. Besonders tragfähig sind die Differenzen zwischen sichtbarer Einfachheit und tatsächlicher Eingabearbeit, Eingabemodalität und neu verteilter Kontroll- beziehungsweise Korrekturarbeit, fertigem Text und Bearbeitungsverlauf sowie sichtbarem Systemstatus und dokumentierter Operation. Die Lücken werden weiterhin erst beim Schreiben eines konkreten Abschnitts aktiviert.
 
 ### Ergebnis der zweiten Bestandscharge
 
@@ -105,6 +188,12 @@ Die Synthese dokumentiert sechzehn vorläufige quellenübergreifende Aussagen mi
 - **Interaction:** Feit et al. zeigen bei 30 Personen vielfältige motorische Strategien, Blickkontrolle und Leistungsprädiktoren auf einer physischen Tastatur. Ruan et al. vergleichen bei 48 Personen Touchscreen-Tastatur und Diktat; unter Idealbedingungen ist Sprache knapp dreimal schneller, verlangt aber Beenden, Prüfen und meist tastaturbasierte Korrektur. Beide Studien verwenden Transkription statt freie Komposition.
 - **Operation:** Feit et al. verbinden den finalen Text mit Keypress-, Bewegungs- und Blickprozessdaten. Ruan et al. unterscheiden serverbasierte Ersttranskription, Tastatur- und Sprachkorrektur sowie finalen String. Die konkrete Deep-Speech-2-Inferenz und heutige Spracherkennung bleiben außerhalb der Auswertung.
 
+### Ergebnis der zwölften, kritisch gerahmten Ergänzungscharge
+
+- **Surface:** Galbraith und Kay rekonstruieren QWERTY als sichtbare Ordnung, die aus der Kopplung mit dem frühen Typenhebelkorb, Standardisierungs- und Lernarbeit sowie wirtschaftlicher Strategie hervorging. Akrich liefert den theoretischen Begriff des eingeschriebenen „Skripts“. Beide Quellen belegen keine allgemeine Gegenwartsoberfläche.
+- **Interaction:** Densmores historischer Brief dokumentiert Umlernen und das Interesse an gleichartigen Tastaturen. Akrich trennt projektierte von realen Nutzer:innen und macht Abweichung, Ausschluss und Umgehung analytisch sichtbar. Koenecke et al. beobachten keine Korrekturarbeit; eine Verbindung höherer WER mit zusätzlicher Prüf- oder Korrekturarbeit bleibt Projektsynthese.
+- **Operation:** Koenecke et al. messen für fünf damalige kommerzielle Systeme aggregierte WERs von 0,35 für Black und 0,19 für White speakers und stützen eine vorsichtige Erklärung über akustische Modellierung. Akrich beschreibt Delegation und Blackboxing theoretisch. Aktuelle Systeme, andere Sprachen und die konkrete Rückgabe in ein Diktierinterface bleiben offen.
+
 ### Durch die bisherigen Chargen bestätigte Lücken
 
 - **Command Line:** Black und Moran erklären Benennung und Lernen, aber weder Syntax noch Parsing und Ausführung. Eine Shell-Primärquelle bleibt notwendig.
@@ -116,7 +205,7 @@ Die Synthese dokumentiert sechzehn vorläufige quellenübergreifende Aussagen mi
 - **Dialogische Operation:** ELIZA dokumentiert regelbasierte Transformation. Für den Übergang zu heutigen LLM-Promptfeldern fehlen weiterhin technische Primärquellen zu In-Context-Verarbeitung und Instruction Following.
 - **Klassifikationsinfrastruktur:** Bowker und Star erklären Kategorien, Aufzeichnungsformate, Workarounds und nachgelagerte Infrastrukturen theoretisch. Direkte Evidenz zu einem konkreten Eingabefeld muss weiterhin aus Interfaceforschung, Standards und technischer Dokumentation kommen; die empirischen mittleren Kapitel und exakte Einzelpaginierungen des Buches fehlen lokal.
 - **Vorschläge:** Quinn und Zhai schließen die direkte Kosten-Nutzen-Prüfung für kontrollierte mobile Wortvervollständigung. Freie Textproduktion, Fehlerkorrektur, inhaltliche Beeinflussung und generative beziehungsweise LLM-basierte Vorschläge bleiben außerhalb ihrer Evidenz.
-- **Physische Eingabe und Diktat:** Die konkrete Lücke für den geplanten Interaction-Einstieg ist für physische Tastatur, Touchscreen und kontrolliertes Diktat hinreichend geschlossen. Offen bleiben freie Text- beziehungsweise Promptkomposition, heutige Systeme und In-the-wild-Bedingungen wie Lärm, Bewegung, Satzzeichen, Privatsphäre und soziale Angemessenheit.
+- **Physische Eingabe und Diktat:** Die konkrete Lücke für den geplanten Interaction-Einstieg ist für physische Tastatur, Touchscreen, kontrolliertes Diktat, eine begrenzte historische QWERTY-Kontextualisierung und einen US-amerikanischen ASR-Ungleichheitsbefund hinreichend geschlossen. Offen bleiben freie Text- beziehungsweise Promptkomposition, heutige Systeme, tatsächliche Korrekturarbeit und In-the-wild-Bedingungen wie Lärm, Bewegung, Satzzeichen, Privatsphäre und soziale Angemessenheit.
 - **Dateinamen und Command-Paradigmen:** Carrolls bibliografische Identität und Abstract sind geprüft; Versuchsanlage, Ergebnisse und genaue Argumentation bleiben bis zu einem legal zugänglichen Volltext offen.
 - **Temporale Systemzustände:** Iftikhar et al. und RFC 3994 schließen die begrenzte Messenger-Kontrastprüfung ab. Die Studie testet die Drei-Punkte-Animation nicht separat; der RFC definiert einen Composition-Status, aber keine Darstellung. Direkte Evidenz zu Generating-, Streaming-, Warte-, Stopp- und Fehlerzuständen in konkreten KI-/LLM-Interfaces sowie deren technische Kopplung bleibt offen.
 
@@ -158,12 +247,33 @@ Der autorbestätigte Arbeitsabschnitt **Interaction -> Autocomplete und Vorschl�
 
 Der autorbestätigte Arbeitsabschnitt **Interaction -> Iteration und Reformulierung** nutzt ebenfalls ausschließlich den vorhandenen Bestand. Direkt beobachtet sind die begrenzte Formular-Submissionfolge bei Seckler et al. und die lokale Promptiteration im BotDesigner-Prototyp. Hearst liefert eine historische Suchsynthese, Weizenbaum eine technische Turn-Struktur und Subramonyam et al. eine theoretische Einordnung. Die Definitionen, der Vergleich der Schleifen und die zeitliche Schlussfolgerung sind Projektsynthese. Aktuelle freie Suchsessions und vergleichbare heutige LLM-Chatverläufe bleiben offen.
 
-## Triage aller 42 vorhandenen Literaturdatensätze
+## Triage der 56 Literaturdatensätze
+
+Die folgenden acht Datensätze ergänzen die historische 48er-Tabelle. Sie sind
+lokal vorbereitet, nicht nach Zotero importiert. Dokumentationsseiten werden
+einzeln bibliografiert, aber je Anbieter in einer gemeinsamen Notiz ausgewertet.
+
+| Neuer Datensatz | Funktion | Status / Grenze |
+| --- | --- | --- |
+| Brin/Page 1998, Anatomy | Index und Ranking | Kernquelle; historischer Prototyp |
+| Radford et al. 2019, Language Models | Tokenrepräsentation, Kontext, Generierung | Stützquelle; GPT-2-Haupttext |
+| Ouyang et al. 2022, Instructions | menschliche Bewertungen im Training | Kernquelle; InstructGPT, kein heutiger Produkt-Audit |
+| Google, In-depth guide to how Search works | Crawling, Indexierung, Ergebnisbereitstellung | Fallquelle; Anbieterbeschreibung, Stand 2025 / Abruf 2026 |
+| Google, Ranking systems guide | kombinierte Rankingsysteme | Fallquelle; keine vollständigen Gewichte |
+| Google, Rigorous testing | Qualitätsprüfung und Experimente | Fallquelle; kein verifiziertes Publikationsdatum; Abruf 2026 |
+| OpenAI, Text generation | API-Rollen und Kontext | Fallquelle; ausgewählte Guide-Abschnitte, Abruf 2026 |
+| OpenAI, Data controls | getrennte Datenzwecke und Retention | Fallquelle; API, kein Consumer-ChatGPT; Abruf 2026 |
+
+### Historische 48 Datensätze
 
 Die Entscheidung beschreibt den aktuellen Auswertungs- und Evidenzstatus, nicht die endgültige Aufnahme in die Thesis.
 
 | Quelle | Primärer Strukturbezug | Lokale Evidenzlage | Vorläufige Entscheidung und Grenze |
 | --- | --- | --- | --- |
+| Arnold, Chauncey und Gajos, *Predictive Text Encourages Predictable Writing* | Interaction / Formulierungseffekte von Wortvorschlägen | vollständiges lokales Autoren-PDF; [Auswertung abgeschlossen](source-notes/arnold-et-al-2020-predictive-text.md); Zotero `XV46SD3K` mit geprüftem PDF | **Kernquelle**; 109 Personen, kurze englische Bildbeschreibungen, LSTM-Prototyp; keine aktuelle Such- oder Promptstudie |
+| Ritchie, *The Evolution of the UNIX Time-sharing System* | Interaction / historischer Kontext von Befehlswissen | vollständiges lokales PDF; [Auswertung abgeschlossen](source-notes/ritchie-1984-evolution-unix.md) | **Stützquelle**; organisatorische Erklärung als Beteiligtenvermutung markieren; kein Beleg für englischbedingten Ausschluss |
+| Hargittai, *Second-Level Digital Divide* | Interaction / Unterschiede in Suchkompetenz | vollständiges lokales PDF; [Auswertung abgeschlossen](source-notes/hargittai-2002-second-level-digital-divide.md) | **Kernquelle** mit enger historischer Grenze; beobachteter Erfolg und Zeit, nicht heutige Rankingkenntnis |
+| Akrich, *The De-Scription of Technical Objects* | Querschnitt Surface/Interaction/Operation: Skript und Delegation | vollständiges lokales Scan-PDF; [Neuauswertung abgeschlossen](source-notes/akrich-1992-de-scription-technical-objects.md) | **Theoretische Stützquelle**; kein Texteingabefall, jede Interfaceübertragung als Projektsynthese markieren |
 | Adams & Sasse, *Users Are Not the Enemy* | Interaction: Passwortwissen und Erinnerungsarbeit | vollständiges lokales PDF; [Neuauswertung abgeschlossen](source-notes/adams-sasse-1999-users-not-enemy.md) | **Stützquelle**; historische Organisationsstichprobe, unklare Nenner einzelner Prozentangaben und keine konkrete Feldanalyse |
 | Bak Herrie & Zacher Sørensen, *Stay with Me* | Surface/Interaction von Chatfeldern und Anwesenheitszeichen | vollständiges lokales PDF | **Reserve mit enger Grenze**; nur auswerten, falls ein konkreter Typing-/Systemstatus darin direkt belegt wird; soziale Anwesenheit und Messengerbeziehung sind ausgeschlossen |
 | FACT, *BEACON (2005-2008)* | Werkdokumentation | bibliografischer Webdatensatz | **Ausschließen**; Kunstwerke und Werkdokumentationen liegen außerhalb des festgelegten Scopes |
@@ -178,11 +288,13 @@ Die Entscheidung beschreibt den aktuellen Auswertungs- und Evidenzstatus, nicht 
 | Dekker & Giannachi, *The Qualities and Significance of Documentation* | Methodik der Werkdokumentation | vollständiges lokales PDF | **Ausschließen**; Werkdokumentation und Kunstmethodik liegen außerhalb des festgelegten Scopes |
 | Good, *An Ease of Use Evaluation of an Integrated Document Processing System* | Interaction: Texteingabe und Bearbeitung | vollständiger autorisierter HTML-Volltext; [Neuauswertung abgeschlossen](source-notes/good-1982-etude-ease-of-use.md) | **Kernquelle**; früher Timesharing-Prototyp und enge Büroaufgabe, mehrere Usabilitydimensionen getrennt halten |
 | Feit, Weir & Oulasvirta, *How We Type* | Interaction: physische Tastatur, Motorik und Blick | vollständiges lokales PDF; [Neuauswertung abgeschlossen](source-notes/feit-weir-oulasvirta-2016-how-we-type.md) | **Kernquelle** für Alltagstippstrategien unter kontrollierter Transkription; offizielles WPM-Erratum, Stichprobe und Hardware begrenzen |
+| Galbraith & Kay, *Hidden in Plain Sight* | historischer Rahmen/Interaction: QWERTY, Lernen und Standardisierung | vollständiges lokales akzeptiertes Manuskript; [Neuauswertung abgeschlossen](source-notes/galbraith-kay-2025-qwerty-ip-complementarity.md) | **Stützquelle**; Gegenposition zur Lock-in-Erzählung, keine universelle Layoutoptimalität ableiten |
 | Hearst, *Search User Interfaces* | Surface/Interaction von Suche und Reformulierung | lokaler 42-seitiger Preview-Auszug; [Neuauswertung des verfügbaren Umfangs abgeschlossen](source-notes/hearst-2009-search-user-interfaces-preview.md) | **Kernquelle mit Zugriffsbeschränkung**; nur Vorwort und Buch-S. 1–22, empirische Details als Sekundärberichte und keine technische Retrievalquelle |
 | Hershman Leeson, *Agent Ruby* | dialogisches Kunstwerk | Werkdatensatz | **Ausschließen**; der dialogische Charakter hebt die Scope-Entscheidung gegen Kunstwerke nicht auf |
 | Iftikhar et al., *Evaluating Typing Indicators* | Surface/Interaction/Operation: sichtbare Aktivität vor einer Antwort | vollständiges lokales PDF; [Neuauswertung abgeschlossen](source-notes/iftikhar-ma-huang-2023-typing-indicators.md) | **Stützquelle mit enger Scope-Grenze**; Drei-Punkte-Animation nicht separat getestet, widersprüchliche Einzelstatistiken begrenzen und nicht als LLM-Backendbeleg verwenden |
 | Jean, *Digital Debris of Internet Art* | Kunst-, Such- und BEACON-Kontext | vollständige lokale Dissertation | **Ausschließen**; Internet-Art-Forschung liegt außerhalb des festgelegten Scopes |
 | Kulkarni, *Inter-Subjectivity in Instant Messaging Interactions* | Interaction in Messenger-Konversationen | kein lokaler Volltext | **Ausschließen**; zwischenmenschliche Messengerinteraktion ist kein Thesisgegenstand |
+| Koenecke et al., *Racial Disparities in Automated Speech Recognition* | Operation/Interaction: ungleiche Erkennungsleistung | vollständiges lokales PDF und offizieller XML-Volltext; [Neuauswertung abgeschlossen](source-notes/koenecke-et-al-2020-racial-disparities-asr.md) | **Kernquelle mit enger Grenze**; historische US-Systeme, regionale Konfundierung, keine Diktieroberfläche oder Korrekturbeobachtung |
 | SFMOMA, *The Agent Ruby Files* | historische Werkdokumentation | Webdatensatz | **Ausschließen**; kuratorische Werkdokumentation liegt außerhalb des festgelegten Scopes |
 | MacKenzie & Soukoreff, *Text Entry for Mobile Computing* | Interaction: Messmodelle und Methoden | vollständiges lokales PDF; [Neuauswertung abgeschlossen](source-notes/mackenzie-soukoreff-2002-mobile-text-entry.md) | **Kern-/Methodenquelle**; Reviewstand 2002, einzelne Vier-Personen-Keystroke-Beobachtung nicht verallgemeinern |
 | Digital Canon, *Martine Neddam - Digital Art* | Werk-/Künstlerinnenkontext | Webdatensatz | **Ausschließen**; Werk- und Künstlerinnenkontext liegt außerhalb des festgelegten Scopes |
@@ -280,8 +392,8 @@ Für jede Aufnahme festhalten:
 
 1. Die vorhandenen vollständigen und aktuell im Scope liegenden Quellen sind unter `SOURCE_EVALUATION_GUIDE.md` einzeln neu gelesen; Teilzugänge und Standards wurden nur innerhalb ihres verfügbaren Umfangs ausgewertet. Carroll bleibt wegen des fehlenden legal zugänglichen Volltexts als abstractbegrenzte Vorprüfung offen.
 2. Bak Herrie und Zacher Sørensen bleiben Reserve und werden nur dann close-read, wenn vor einer konkreten Mensch-System-Passage ein direkt belegter Statuszustand benötigt wird; soziale Anwesenheit oder Messengerbeziehung bleiben ausgeschlossen.
-3. Die strukturbezogene Synthese aus 26 freigegebenen Einzelnotizen und Carrolls offener Vorprüfung ist aktualisiert; Surface, Interaction, Operation und ihre Übergänge bleiben getrennt.
+3. Die strukturbezogene Synthese aus 29 freigegebenen Einzelnotizen und Carrolls offener Vorprüfung ist aktualisiert; Surface, Interaction, Operation und ihre Übergänge bleiben getrennt.
 4. Social-Media-, zwischenmenschliche Messenger- und Kunstquellen nicht weiter auswerten; die ausdrücklich markierten Ausschlüsse bleiben im Audit als dokumentierte Scope-Entscheidung sichtbar.
-5. Als ersten Schreibtest den ausgewählten Abschnitt **Interaction -> Eingabe als physischer Prozess** knapp mit Feit et al., Oulasvirta et al., Ruan et al. sowie MacKenzie und Soukoreff entwickeln; van Esch et al. nur bei sprachlicher Kontextualisierung ergänzen.
+5. Der ausgewählte Abschnitt **Interaction -> Eingabe als physischer Prozess** besitzt nun zusätzlich eng begrenzte Quellen zu QWERTY-Geschichte, ASR-Ungleichheit und technischer Einschreibung. Der bestehende Rumpftext wird erst in einem eigenen redaktionellen Schritt umgeschrieben.
 6. Beim Schreiben absatzweise prüfen, welche konkrete Aussage noch keinen ausreichenden Beleg besitzt.
 7. Nur für diese bestätigten Lücken gezielt zusätzliche Literatur oder visuelle Primärbelege beschaffen.

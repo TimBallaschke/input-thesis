@@ -1,0 +1,190 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: DRAFT-05
+000003 | Title: Operation 2 supplied for removal of SEO anticipation
+000004 | Source SHA-256: 5f5d2cb46e842c0c2869dd5f8d08c82e27b7d1da7cfcaa5ff4a455349347e17f
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | 
+000007 | Eine Eingabe wird nicht notwendig erst mit dem Absenden verarbeitet. Bereits
+000008 | während der Eingabe können technische Vorgänge ausgelöst werden, ohne dass der
+000009 | aktuelle Text schon als fertige Anfrage übermittelt oder eine damit verbundene
+000010 | Operation ausgeführt wurde.
+000011 | Bei HTML-Eingabefeldern lassen sich etwa die Veränderung eines Feldwerts und die
+000012 | spätere Übermittlung eines Formulars unterscheiden (vgl. WHATWG 2026, Abschn.
+000013 | 4.10.5.5 und 4.10.22.3). Besonders deutlich wird diese Trennung bei Suchfeldern.
+000014 | Chromium kann bereits während der Eingabe Suchvorschläge abrufen und unter
+000015 | bestimmten Bedingungen eine Ergebnisseite für eine vorhergesagte Suchanfrage
+000016 | vorladen, bevor NutzerInnen diese Anfrage tatsächlich bestätigen (vgl. The
+000017 | Chromium Projects 2026, Omnibox Prefetch and Prerender for Default Search
+000018 | Engines).
+000019 | Feldänderung, Übermittlung und Ausführung sind deshalb als unterschiedliche
+000020 | Vorgänge zu betrachten. Das Absenden kann einen weiteren Verarbeitungsschritt
+000021 | auslösen, markiert aber nicht grundsätzlich deren Beginn.
+000022 | Je nach Eingabesystem führt eine Eingabe zu unterschiedlichen Formen der
+000023 | Verarbeitung.
+000024 | In der Command Line kann eine Eingabe eine festgelegte Programmfunktion auslösen.
+000025 | Bei mkdir entwurf besteht diese Funktion beispielsweise darin, ein Verzeichnis mit
+000026 | dem angegebenen Namen zu erzeugen (vgl. IEEE/The Open Group 2024, mkdir).
+000027 | Bei Formularen steht dagegen die Prüfung einer Eingabe gegen festgelegte
+000028 | Anforderungen im Vordergrund. Ein Feld kann etwa daraufhin geprüft werden, ob ein
+000029 | erforderlicher Wert vorhanden ist oder ob die Eingabe den vorgesehenen Bedingungen
+000030 | entspricht (vgl. WHATWG 2026, Abschn. 4.10.21).
+000031 | Bei einer Suche werden mögliche Treffer aus einer vorhandenen
+000032 | Informationsgrundlage ermittelt und in eine Rangordnung gebracht. Bereits Brin und
+000033 | Page beschreiben dafür die Verbindung unterschiedlicher Merkmale wie
+000034 | Textübereinstimmungen und Linkstrukturen (vgl. Brin/Page 1998, S. 109–113).
+000035 | Bei einem Sprachmodell entsteht die Ausgabe wiederum schrittweise. Auf Grundlage
+000036 | des bisherigen Kontexts werden mögliche folgende Tokens gewichtet und nacheinander
+000037 | erzeugt. Die Antwort entsteht dadurch als Folge einzelner Vorhersagen (vgl.
+000038 | Radford et al. 2019, PDF-S. 2, 4 und 6).
+000039 | Diese Verfahren unterscheiden sich deutlich. Gemeinsam ist ihnen jedoch, dass
+000040 | zwischen Eingabe und Ergebnis jeweils ein technisches Verfahren steht. Dessen
+000041 | Beschreibung erklärt noch nicht, nach welchen Maßstäben eine Eingabe akzeptiert,
+000042 | ein Treffer höher eingeordnet oder eine Antwort als erwünscht behandelt wird.
+000043 | Bei Command Line und Formular sind die Maßstäbe der Verarbeitung vergleichsweise
+000044 | klar festgelegt. Ein Befehl stellt bestimmte Funktionen bereit, ein Formular kann
+000045 | bestimmte Anforderungen an eine Eingabe stellen. Diese Bedingungen sind jedoch
+000046 | nicht durch die Eingabe selbst gegeben, sondern wurden zuvor festgelegt.
+000047 | Bei mkdir ist beispielsweise definiert, welche Funktion der Befehl ausführt und
+000048 | welche Bedeutung seine Operanden besitzen (vgl. IEEE/The Open Group 2024, mkdir).
+000049 | NutzerInnen können entscheiden, ob und mit welchem Verzeichnisnamen sie diese
+000050 | Funktion verwenden. Welche Funktion überhaupt zur Verfügung steht und wie sie
+000051 | aufgerufen wird, bestimmen sie damit jedoch nicht.
+000052 | Ähnlich verhält es sich bei Formularen. HTML stellt verschiedene Möglichkeiten
+000053 | bereit, Eingaben auf ihre Gültigkeit zu prüfen. Welche Felder ein konkretes
+000054 | Formular enthält und welche Anforderungen dabei gelten, wird jedoch erst in der
+000055 | jeweiligen Anwendung festgelegt (vgl. WHATWG 2026, Abschn. 4.10.21). Dass eine
+000056 | Eingabe technisch geprüft werden kann, sagt somit noch nicht, welche Bedingungen
+000057 | tatsächlich geprüft werden sollen.
+000058 | In beiden Fällen bewegen sich NutzerInnen innerhalb bereits bestimmter
+000059 | Handlungsmöglichkeiten. Sie können ihre Eingabe anpassen, verfügen aber nicht im
+000060 | gleichen Maß über die Regeln, anhand derer eine Funktion bereitgestellt oder ein
+000061 | Wert akzeptiert wird.
+000062 | Die Frage lautet deshalb nicht nur, welche Bedingungen gelten, sondern auch, wer
+000063 | sie festlegt und wer sich an sie anpassen muss.
+000064 | Bei einer Suche ist der Maßstab weniger eindeutig als bei einem Formular. Zwischen
+000065 | einer Anfrage und möglichen Treffern besteht keine einfache Entsprechung, aus der
+000066 | sich eine einzige richtige Reihenfolge ergeben würde. Suchsysteme müssen deshalb
+000067 | Merkmale auswählen, anhand derer sie einschätzen, welche Inhalte für eine Anfrage
+000068 | besonders relevant sind.
+000069 | Bereits Brin und Page beschreiben dafür die Verbindung verschiedener Hinweise wie
+000070 | Textübereinstimmungen und Linkstrukturen (vgl. Brin/Page 1998, S. 109–113). Welche
+000071 | Merkmale berücksichtigt und wie sie gewichtet werden, beeinflusst damit, welche
+000072 | Inhalte in den Ergebnissen sichtbar werden und an welcher Position sie erscheinen.
+000073 | Relevanz wird dadurch nicht lediglich in vorhandenen Informationen gefunden,
+000074 | sondern durch technische Auswahl- und Bewertungsverfahren operationalisiert.
+000075 | Gillespie weist entsprechend darauf hin, dass algorithmische Relevanz auf
+000076 | Entscheidungen darüber beruht, welche Signale als bedeutsam gelten und wie sie
+000077 | miteinander in Beziehung gesetzt werden (vgl. Gillespie 2014, S. 175–179,
+000078 | 183–187).
+000079 | Auch die Weiterentwicklung solcher Verfahren folgt bestimmten Vorstellungen davon,
+000080 | was ein gutes Suchergebnis ausmacht. Google beschreibt dafür unter anderem
+000081 | Bewertungen durch Search Quality Rater, vergleichende Tests verschiedener
+000082 | Ergebnisvarianten und Experimente mit realem Suchverkehr. Auch das Verhalten von
+000083 | NutzerInnen kann dabei als Signal in die Bewertung von Veränderungen einfließen
+000084 | (vgl. Google 2026, Improving Search with rigorous testing).
+000085 | NutzerInnen sind damit nicht vollständig außerhalb dieser Bewertungsprozesse. Ihr
+000086 | Verhalten kann zur Beurteilung eines Suchsystems beitragen. Sie bestimmen jedoch
+000087 | nicht im gleichen Maß darüber, welche Merkmale berücksichtigt, wie sie
+000088 | interpretiert und welche Veränderungen daraus abgeleitet werden.
+000089 | Eine Suchanfrage lässt sich verändern. Die Regeln, nach denen mögliche Ergebnisse
+000090 | ausgewählt und geordnet werden, lassen sich dadurch jedoch nicht gleichermaßen
+000091 | verändern. Die Frage nach einem relevanten Ergebnis ist deshalb zugleich eine
+000092 | Frage danach, wessen Vorstellung von Relevanz in der Rangordnung wirksam wird.
+000093 | Ein Ranking ordnet nicht nur Informationen für diejenigen, die nach ihnen suchen.
+000094 | Es entscheidet zugleich darüber, welche Inhalte gefunden werden und welche
+000095 | weitgehend unsichtbar bleiben. Eine hohe Position kann deshalb auch für diejenigen
+000096 | von Bedeutung sein, die Informationen, Produkte oder Dienstleistungen anbieten.
+000097 | Damit treffen in der Rangordnung unterschiedliche Interessen aufeinander.
+000098 | NutzerInnen möchten möglichst passende Ergebnisse erhalten, während Anbieter ein
+000099 | Interesse daran haben können, mit ihren Inhalten möglichst sichtbar zu werden.
+000100 | Gerade bei kommerziellen Angeboten kann eine gute Platzierung darüber
+000101 | mitentscheiden, ob potenzielle KundInnen erreicht werden.
+000102 | Anbieter versuchen deshalb aktiv, ihre Position innerhalb solcher Rangordnungen zu
+000103 | verbessern. Inhalte können etwa so gestaltet oder angepasst werden, dass sie den
+000104 | bekannten oder vermuteten Auswahlkriterien eines Suchsystems besser entsprechen.
+000105 | Das Ranking wirkt damit auf diejenigen zurück, die in ihm erscheinen möchten: Sie
+000106 | richten ihre Inhalte zumindest teilweise daran aus, unter welchen Bedingungen
+000107 | Sichtbarkeit hergestellt wird.
+000108 | Ranking betrifft somit nicht allein das Finden, sondern ebenso das Gefundenwerden.
+000109 | Die Kriterien eines Suchsystems strukturieren dadurch sowohl den Zugang zu
+000110 | Informationen als auch die Bedingungen, unter denen andere Akteure um
+000111 | Aufmerksamkeit konkurrieren.
+000112 | Diese beiden Perspektiven müssen sich nicht widersprechen. Ein gut auffindbarer
+000113 | Inhalt kann zugleich relevant und hilfreich sein. Dennoch entsteht ein
+000114 | Spannungsverhältnis, weil die Rangordnung sowohl das Informationsinteresse der
+000115 | Suchenden als auch die Sichtbarkeitsinteressen derjenigen berührt, die in ihr
+000116 | erscheinen möchten.
+000117 | Bei einem Sprachmodell ergibt sich aus der Wahrscheinlichkeit möglicher nächster
+000118 | Tokens noch kein Maßstab dafür, ob eine Antwort sachlich richtig, hilfreich oder
+000119 | angemessen ist. Die statistische Vorhersage von Text und die Bewertung einer
+000120 | Antwort sind deshalb voneinander zu unterscheiden.
+000121 | Sprachmodelle können zusätzlich darauf trainiert werden, bestimmte Antwortweisen
+000122 | gegenüber anderen zu bevorzugen. Bei InstructGPT wurden dafür unter anderem
+000123 | menschliche Demonstrationen und Bewertungen verwendet. Bewertende verglichen
+000124 | verschiedene Modellausgaben, deren Präferenzen anschließend in das weitere
+000125 | Training einflossen (vgl. Ouyang et al. 2022, S. 2, 4–10).
+000126 | Damit werden auch Vorstellungen davon wirksam, was als erwünschte Antwort gilt.
+000127 | Ouyang et al. orientieren die Bewertung unter anderem an Hilfreichsein,
+000128 | Wahrhaftigkeit und Schadensvermeidung. Diese Maßstäbe sind jedoch nicht
+000129 | voraussetzungslos: Sie werden von Forschenden formuliert und durch die Urteile
+000130 | ausgewählter Bewertender konkretisiert.
+000131 | Diese Prägung findet während des Trainings statt und ist von der späteren
+000132 | Verarbeitung einer einzelnen Anfrage zu unterscheiden. Bei einer konkreten Antwort
+000133 | entscheiden nicht erneut menschliche Bewertende. Ihre früheren Bewertungen können
+000134 | jedoch mitbestimmt haben, welche Antwortweisen das Modell eher hervorbringt.
+000135 | Dass solche Maßstäbe miteinander in Konflikt geraten können, zeigt sich etwa bei
+000136 | Sycophancy. Sharma et al. untersuchen Fälle, in denen Modelle dazu tendieren,
+000137 | einer in der Anfrage vertretenen Position zuzustimmen, obwohl eine sachliche
+000138 | Prüfung zu einem anderen Ergebnis führen könnte (vgl. Sharma et al. 2024, S. 3–9).
+000139 | Hilfreich zu sein bedeutet deshalb nicht zwangsläufig, NutzerInnen zu bestätigen.
+000140 | Eine hilfreiche Antwort kann ebenso darin bestehen, einer Annahme zu widersprechen
+000141 | oder Unsicherheit kenntlich zu machen. Auch beim Prompt stellt sich damit die
+000142 | Frage, welche Vorstellung einer guten Antwort im Verhalten des Systems wirksam
+000143 | wird.
+000144 | Die Maßstäbe eines Auswahlverfahrens wirken nicht nur auf diejenigen, die nach
+000145 | Informationen suchen. Sie beeinflussen auch diejenigen, die mit ihren Inhalten
+000146 | gefunden werden möchten.
+000147 | Bei Suchmaschinen zeigt sich das in der Search Engine Optimization. Anbieter
+000148 | versuchen, Inhalte so zu gestalten, dass sie von Suchsystemen besser erfasst und
+000149 | möglichst weit oben eingeordnet werden. Dabei orientieren sie sich an bekannten
+000150 | oder vermuteten Kriterien des Rankings. Die Auswahlregeln einer Suchmaschine
+000151 | werden damit selbst zu Bedingungen, an denen andere Akteure ihr Handeln ausrichten
+000152 | (vgl. Gillespie 2014, S. 183–187).
+000153 | Ein ähnlicher Ansatz wird inzwischen für generative Systeme untersucht. Aggarwal
+000154 | et al. bezeichnen als Generative Engine Optimization Verfahren, bei denen Quellen
+000155 | so verändert werden, dass sie in generierten Antworten häufiger oder sichtbarer
+000156 | berücksichtigt werden. In ihrem Versuchsaufbau konnten unterschiedliche
+000157 | Veränderungen an Quellen deren Präsenz in den Antworten beeinflussen, wobei die
+000158 | Wirkung je nach Strategie und Themenbereich variierte (vgl. Aggarwal et al. 2024,
+000159 | PDF-S. 2–9, 12).
+000160 | SEO und GEO unterscheiden sich in ihren konkreten Verfahren. Gemeinsam ist ihnen
+000161 | jedoch, dass Inhaltsanbieter versuchen, die Bedingungen eines Auswahlprozesses zu
+000162 | verstehen und ihre Inhalte daran anzupassen.
+000163 | Das Informationsangebot wird damit nicht allein danach gestaltet, was für
+000164 | LeserInnen oder NutzerInnen hilfreich sein könnte. Es kann zugleich darauf
+000165 | ausgerichtet werden, innerhalb eines technischen Auswahlverfahrens möglichst gut
+000166 | berücksichtigt zu werden. Beides muss sich nicht widersprechen: Ein hilfreicher
+000167 | Inhalt kann zugleich optimiert sein.
+000168 | Zwischen dem Informationsinteresse der NutzerInnen und dem Interesse anderer, mit
+000169 | ihren Inhalten sichtbar zu werden, entsteht damit ein weiterer Zusammenhang.
+000170 | Auswahlverfahren ordnen nicht nur bereits vorhandene Inhalte. Sie können auch
+000171 | beeinflussen, wie diese Inhalte überhaupt produziert und gestaltet werden.
+000172 | Zwischen einer Eingabe und ihrem Ergebnis stehen damit nicht nur technische
+000173 | Verfahren, sondern auch Maßstäbe, anhand derer etwas ausgeführt, akzeptiert,
+000174 | ausgewählt oder als erwünscht behandelt wird. Diese Maßstäbe sind nicht in der
+000175 | Eingabe selbst enthalten. Sie werden durch Standards, Software, konkrete
+000176 | Anwendungen und die Entscheidungen ihrer EntwicklerInnen und Betreiber
+000177 | mitbestimmt.
+000178 | NutzerInnen können ihre Eingaben innerhalb dieser Bedingungen verändern und auf
+000179 | Ergebnisse reagieren. Sie verfügen jedoch nicht im gleichen Maß über die Regeln,
+000180 | nach denen Eingaben verarbeitet, Inhalte geordnet oder Antworten erzeugt werden.
+000181 | Andere Akteure können wiederum versuchen, sich an diesen Regeln auszurichten, um
+000182 | innerhalb der jeweiligen Auswahlverfahren sichtbar zu werden.
+000183 | Macht zeigt sich damit nicht allein darin, dass technische Regeln existieren,
+000184 | sondern in den unterschiedlichen Möglichkeiten, diese Regeln festzulegen, zu
+000185 | erkennen, zu prüfen und zu verändern.
+000186 | Wie eine Eingabe verarbeitet wird und nach welchen Maßstäben dabei Ergebnisse
+000187 | entstehen, erklärt jedoch noch nicht, wohin sie gelangt und welchen weiteren
+000188 | Zwecken sie dienen kann. Damit verschiebt sich die Perspektive im folgenden
+000189 | Abschnitt von der Verarbeitung auf die weitere Verwendung der Eingabe.
+000190 | 

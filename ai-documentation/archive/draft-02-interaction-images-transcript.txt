@@ -1,0 +1,302 @@
+000001 | AI COLLABORATION DOCUMENTATION - IMPORTED MATERIAL
+000002 | Archive ID: DRAFT-02
+000003 | Title: Interaction chapter supplied for image-material discussion
+000004 | Source SHA-256: 5573366e1d11113d98fcb274485b71e447f6cd55f66872ed6f96ebc018eda5aa
+000005 | Content: verbatim text supplied by the student; line wrapping added
+000006 | Display: Unicode line/paragraph separators rendered as line breaks
+000007 | 
+000008 | Interaction
+000009 | 
+000010 | Eingabe als physischer Prozess
+000011 | 
+000012 | Texteingabe setzt zunächst eine körperliche Handlung voraus. Bevor Text als
+000013 | Inhalt, Anfrage oder Befehl verarbeitet werden kann, muss er zunächst erzeugt und
+000014 | vom System erfasst werden. Diese körperliche Ausführung erfordert motorische
+000015 | Bewegung sowie visuelle Aufmerksamkeit und ist von der sprachlichen
+000016 | Formulierungsarbeit zu unterscheiden. Derselbe sichtbare Text kann aus sehr
+000017 | unterschiedlichen Eingabeprozessen hervorgehen (vgl. Feit et al. 2016, S.
+000018 | 4264–4271; MacKenzie/Soukoreff 2002, S. 154–160, 163–165). Dabei wird eine
+000019 | körperliche Handlung nicht unmittelbar zu Text. Zwischen einer physischen Eingabe
+000020 | und dem sichtbaren Ergebnis liegen technische Zuordnungs- oder Erkennungsprozesse.
+000021 | Texteingabe entsteht somit im Zusammenspiel zwischen körperlicher Handlung und
+000022 | technischer Verarbeitung. Welche Arbeit dabei vom Nutzer und welche vom System
+000023 | übernommen wird, unterscheidet sich je nach Eingabeverfahren.
+000024 | 
+000025 | Das Tippen auf einer physischen Tastatur koordiniert Finger-, Hand- und
+000026 | Blickbewegungen. Dabei kommen unterschiedliche, teils individuell erlernte
+000027 | Schreibtechniken zum Einsatz. Ein Tastendruck wird vom System registriert und
+000028 | einem Zeichen oder einer Funktion zugeordnet (vgl. Feit et al. 2016, S.
+000029 | 4262–4271). Auf einem Touchscreen verändert sich dieser Bewegungsablauf:
+000030 | Griffhaltung, Geräteformat beeinflussen die Eingabe, während das System die
+000031 | Position einer Berührung einer vermutlich beabsichtigten Taste zuordnen muss.
+000032 | Spracheingabe verlagert die körperliche Ausführung auf das Sprechen. Das
+000033 | akustische Signal wird technisch erkannt und in eine wahrscheinliche Zeichenfolge
+000034 | übersetzt, die anschließend kontrolliert und gegebenenfalls korrigiert werden muss
+000035 | (vgl. Ruan et al. 2017, Art. 159:13–159:17).
+000036 | Wie diese Handlungen ausgeführt werden, wird zugleich durch die Gestaltung des
+000037 | jeweiligen Eingabesystems geprägt. Bei einer Tastatur legt etwa das verwendete
+000038 | Testen-Layout fest, an welcher Position einzelne Zeichen erreichbar sind.
+000039 | Verbreitete Anordnungen wie QWERTY entstanden im Kontext früher Schreibmaschinen
+000040 | und wurden anschließend durch technische Entwicklung und Standardisierung
+000041 | langfristig etabliert. Ihre heutige Nutzung beruht auf erlernten motorischen
+000042 | Routinen (vgl. Galbraith/Kay 2025, PDF-S. 5–8, 16–19; Feit et al. 2016, S.
+000043 | 4268–4271). Auch auf Touchscreens strukturieren Größe, Position und Anordnung der
+000044 | Tasten mögliche Bewegungen vor. Bei der Spracheingabe kann wiederum die
+000045 | Rückmeldung des Systems dazu führen, dass NutzerInnen ihre Eingabe wiederholen,
+000046 | verändern oder korrigieren. Eingabearbeit entsteht damit im Wechselspiel zwischen
+000047 | menschlicher Anpassung, technischer Verarbeitung und Rückmeldung. Eingabesysteme
+000048 | legen bestimmte Nutzungsweisen nahe und setzen dabei bestimmte Fähigkeiten,
+000049 | Routinen und Verhaltensweisen ihrer NutzerInnen voraus (vgl. Akrich 1992, S.
+000050 | 207–211, 216–222).
+000051 | Diese Voraussetzungen sind nicht für alle NutzerInnen gleich. Welche Zeichen
+000052 | unmittelbar verfügbar sind und welche zusätzliche Schritte erfordern, hängt unter
+000053 | anderem von Sprache, Schriftsystem und verwendetem Layout ab. Auch technische
+000054 | Spracherkennungssysteme funktionieren nicht für alle Sprechweisen gleich
+000055 | zuverlässig. Koenecke et al. untersuchten fünf kommerzielle
+000056 | Spracherkennungssysteme und fanden in ihrem US-amerikanischen Datensatz eine
+000057 | durchschnittliche Wortfehlerrate von 0,35 für Black speakers gegenüber 0,19 für
+000058 | White speakers (vgl. Koenecke et al. 2020, S. 7684–7688). Die untersuchten Systeme
+000059 | erkannten die Äußerungen der beiden Gruppen damit unterschiedlich zuverlässig.
+000060 | Dies wirft die Frage auf, welche Körper, Sprachen und Sprechweisen von einem
+000061 | System vorausgesetzt werden und für wen zusätzliche Anpassungs- oder
+000062 | Kontrollarbeit entsteht.
+000063 | Im fertigen Text bleiben diese Vorgänge weitgehend unsichtbar. Aus einer
+000064 | Zeichenfolge lässt sich nicht ablesen, durch welches Eingabeverfahren sie
+000065 | entstanden ist, welche Bewegungen und erlernten Routinen dafür notwendig waren
+000066 | oder welche technischen Zuordnungen und Korrekturen stattgefunden haben. Die
+000067 | einheitliche Form des Textes verdeckt damit die unterschiedlichen Prozesse seiner
+000068 | Entstehung.
+000069 | 
+000070 | 
+000071 | Erforderliche Kenntnisse und Kompetenzen
+000072 | 
+000073 | Neben der körperlichen Ausführung setzt Texteingabe Wissen darüber voraus, wie
+000074 | sich ein Anliegen in eine für das jeweilige System geeignete Eingabe übersetzen
+000075 | lässt. Zu wissen, was erreicht werden soll, bedeutet noch nicht, die dafür
+000076 | passende Eingabe zu kennen. Das erforderliche Wissen kann bereits vorhanden sein,
+000077 | nachgeschlagen, durch das Interface vermittelt oder erst während der Nutzung
+000078 | erschlossen werden.
+000079 | Welche Eingabe geeignet ist, hängt nicht allein davon ab, was NutzerInnen
+000080 | erreichen möchten. Auch das System selbst gibt vor, welche Eingaben es akzeptiert
+000081 | und wie es sie verarbeitet. Dabei ist eine akzeptierte Eingabe nicht automatisch
+000082 | eine zielführende Eingabe. Ein System kann einen Text technisch verarbeiten, ohne
+000083 | dass NutzerInnen damit das gewünschte Ergebnis erreichen.
+000084 | Entscheidend ist deshalb auch, ob NutzerInnen erkennen können, was von ihnen
+000085 | erwartet wird. Diese Anforderungen entstehen nicht nur aus technischen
+000086 | Notwendigkeiten, sondern auch aus Entscheidungen derjenigen, die ein System
+000087 | gestalten und betreiben (vgl. Akrich 1992, S. 207–209, 216).
+000088 | Bei Befehlssystemen ist vergleichsweise klar festgelegt, welche Eingaben
+000089 | erforderlich sind. Wer beispielsweise ein neues Verzeichnis anlegen möchte, muss
+000090 | dafür den Befehl mkdir kennen und in der vorgesehenen Syntax verwenden.
+000091 | Befehlsname und Syntax müssen erlernt oder nachgeschlagen werden (vgl.
+000092 | POSIX.1-2024, mkdir).
+000093 | Auch solche Vorgaben sind das Ergebnis von Gestaltungsentscheidungen. Ritchie
+000094 | beschreibt etwa, wie bei der Entwicklung von Unix, einem in den 1970er-Jahren
+000095 | entwickelten Betriebssystem, bereits vorhandene Gewohnheiten der Entwickler
+000096 | einzelne Entscheidungen beeinflussten (vgl. Ritchie 1984, PDF-S. 7–9). Was
+000097 | zunächst eine Gestaltungsentscheidung war, kann sich so etablieren und später zu
+000098 | Wissen werden, das von NutzerInnen vorausgesetzt wird.
+000099 | Bei Suchfeldern ist weniger klar vorgegeben, wie eine geeignete Eingabe aussehen
+000100 | muss. Anders als bei einem Command-Line-Befehl gibt es keine feste Syntax.
+000101 | NutzerInnen müssen ihren Informationsbedarf dennoch in Begriffe übersetzen, mit
+000102 | denen das Suchsystem arbeiten kann. Ob eine Formulierung geeignet ist, zeigt sich
+000103 | häufig erst an den Ergebnissen und kann eine erneute Suche notwendig machen (vgl.
+000104 | Hearst 2009, S. 1–3). Das Suchfeld selbst gibt dabei nur wenig darüber preis,
+000105 | welche Formulierungen zu hilfreichen Ergebnissen führen.
+000106 | Noch deutlicher wird der Unterschied zwischen einer verarbeitbaren und einer
+000107 | zielführenden Eingabe bei Promptfeldern für KI-Systeme. NutzerInnen können ihr
+000108 | Anliegen zwar in natürlicher Sprache formulieren, müssen aber einschätzen, was das
+000109 | System leisten kann, welche Informationen es benötigt und wie sie das gewünschte
+000110 | Ergebnis beschreiben. Subramonyam et al. unterscheiden entsprechend zwischen dem
+000111 | Einschätzen der Systemfähigkeiten, dem Formulieren geeigneter Instruktionen und
+000112 | dem Konkretisieren des gewünschten Ergebnisses (vgl. Subramonyam et al. 2024, S.
+000113 | 2–3, 6–8).
+000114 | Die Verwendung natürlicher Sprache beseitigt die Notwendigkeit von Systemwissen
+000115 | damit nicht, sondern verändert dessen Form. Während sich die Syntax eines
+000116 | Command-Line-Befehls vergleichsweise eindeutig dokumentieren lässt, ist bei einem
+000117 | Prompt nicht zwangsläufig ersichtlich, wie eine Eingabe verändert werden müsste,
+000118 | um ein besseres Ergebnis zu erzielen. Zamfirescu-Pereira et al. zeigen, dass
+000119 | einzelne erfolgreiche Antworten zu vorschnellen Annahmen über das Verhalten eines
+000120 | Systems führen können und Erwartungen aus menschlicher Kommunikation nicht ohne
+000121 | Weiteres auf dessen Funktionsweise übertragbar sind (vgl. Zamfirescu-Pereira et
+000122 | al. 2023, S. 9–13). Bei einem unzureichenden Ergebnis bleibt damit offen, ob eine
+000123 | andere Formulierung helfen würde oder eine Grenze des Systems erreicht ist.
+000124 | Formulare bilden hierzu einen Gegenpol. Sie machen einen größeren Teil der
+000125 | erwarteten Eingabe bereits auf der Oberfläche sichtbar. Beschriftungen, Feldtypen,
+000126 | Pflichtfeldkennzeichnungen oder Hinweise können vorgeben, welche Informationen
+000127 | erwartet werden und in welcher Form sie bereitzustellen sind (vgl. Seckler et al.
+000128 | 2014, S. 1276–1282; Cui et al. 2025, S. 9, 12–14). Dadurch wird ein Teil der
+000129 | erforderlichen Wissensarbeit vom Gedächtnis der NutzerInnen auf die Oberfläche
+000130 | verlagert. Diese Orientierung geht jedoch mit einer stärkeren Vorstrukturierung
+000131 | einher: Das Formular legt zugleich fest, welche Angaben vorgesehen sind und in
+000132 | welchen Kategorien sie ausgedrückt werden können. Lässt sich ein Anliegen nicht in
+000133 | diese Struktur einordnen, wird diese zur Begrenzung.
+000134 | Command Line, Suchfeld, Promptfeld und Formular unterscheiden sich damit nicht
+000135 | einfach darin, wie viel Wissen sie voraussetzen, sondern darin, wie die
+000136 | Bedingungen einer zielführenden Eingabe zwischen System, Oberfläche und
+000137 | NutzerInnen verteilt werden. Ein stärker strukturiertes Interface kann
+000138 | Anforderungen sichtbar machen und damit Orientierung bieten, begrenzt zugleich
+000139 | aber den vorgesehenen Ausdrucksraum. Ein offeneres Feld lässt mehr Formen der
+000140 | Eingabe zu, macht jedoch nicht zwangsläufig deutlich, welche davon für ein
+000141 | bestimmtes Anliegen zielführend sind.
+000142 | Offenheit bedeutet daher nicht, dass eine Eingabe weniger voraussetzt. Vielmehr
+000143 | kann sich die Vorstrukturierung von der sichtbaren Oberfläche in die technische
+000144 | Verarbeitung verlagern. Entscheidend ist deshalb nicht nur, was NutzerInnen wissen
+000145 | oder können, sondern auch, welches Wissen ein System vermittelt, welches es
+000146 | voraussetzt und wie sichtbar diese Anforderungen sind.
+000147 | Das prägt auch, wie ein Misserfolg eingeordnet wird. Führt eine Eingabe nicht zum
+000148 | gewünschten Ergebnis, kann das an fehlendem Wissen oder einer ungeeigneten
+000149 | Formulierung liegen, aber ebenso an der Gestaltung oder den Grenzen des Systems.
+000150 | Die Verantwortung für ein unzureichendes Ergebnis liegt deshalb nicht automatisch
+000151 | bei den NutzerInnen, sondern hängt auch davon ab, welche Anforderungen das System
+000152 | stellt und wie deutlich es diese vermittelt.
+000153 | 
+000154 | 
+000155 | Korrigieren und Bearbeiten
+000156 | Texteingabe endet nicht mit dem Erzeugen von Zeichen. Solange ein Text bearbeitbar
+000157 | bleibt, kann er verändert, ergänzt oder zurückgenommen werden. Dabei ist jedoch
+000158 | nicht jede Änderung eine Korrektur. Ein Text kann ebenso umformuliert werden, weil
+000159 | sich eine Absicht verändert hat. An der Bearbeitung selbst lässt sich dieser
+000160 | Unterschied zunächst nicht erkennen: Das Löschen eines Wortes kann einen
+000161 | Tippfehler beseitigen oder eine inhaltliche Entscheidung revidieren.
+000162 | Bearbeitbarkeit beschreibt deshalb zunächst nur die Möglichkeit, einen bestehenden
+000163 | Text zu verändern (vgl. Shneiderman 1983, S. 57–59, 64–65).
+000164 | Von einer Korrektur lässt sich erst sprechen, wenn eine Eingabe als abweichend
+000165 | oder falsch bewertet wird. Was dabei als richtig gilt, kann unterschiedlich
+000166 | bestimmt sein. NutzerInnen können etwas anderes gemeint haben, ein System kann nur
+000167 | bestimmte Formate akzeptieren oder selbst vermuten, welche Eingabe wahrscheinlich
+000168 | beabsichtigt war.
+000169 | Diese Bewertungen müssen nicht übereinstimmen. Eine formal ungültige Eingabe kann
+000170 | inhaltlich dennoch richtig sein, und eine vom System vorgeschlagene Korrektur muss
+000171 | nicht der Absicht der NutzerInnen entsprechen (vgl. Oulasvirta et al. 2013, S.
+000172 | 2773; Ruan et al. 2017, Art. 159:5; Seckler et al. 2014, S. 1276–1282).
+000173 | Korrektur findet damit nicht allein auf Seiten der NutzerInnen statt. Systeme
+000174 | übernehmen bereits während der Eingabe einen Teil der Interpretation und Prüfung.
+000175 | Bei Touchscreens können beispielsweise sowohl die Berührungsposition als auch der
+000176 | sprachliche Kontext beeinflussen, welches Zeichen erkannt wird (vgl. Oulasvirta et
+000177 | al. 2013, S. 2773). Formulare prüfen Eingaben und können sie zurückweisen, wenn
+000178 | sie nicht den vorgesehenen Anforderungen entsprechen (vgl. Seckler et al. 2014, S.
+000179 | 1279, 1282).
+000180 | Entscheidend ist daher, wie die Aufgaben der Korrektur verteilt sind: Wer erkennt
+000181 | eine Abweichung, wer verändert die Eingabe und wer überprüft anschließend, ob das
+000182 | Ergebnis tatsächlich stimmt? Automatische Korrekturen können NutzerInnen Arbeit
+000183 | abnehmen, verlangen zugleich aber eine Kontrolle des Ergebnisses. Die Gestaltung
+000184 | eines Eingabesystems bestimmt damit mit, welche Aufgaben Menschen und technische
+000185 | Systeme jeweils übernehmen (vgl. Akrich 1992, S. 216).
+000186 | Bearbeitbarkeit eröffnet dabei einen gewissen Handlungsspielraum. Einzelne Stellen
+000187 | können verändert und frühere Schritte teilweise zurückgenommen werden, ohne die
+000188 | gesamte Eingabe neu zu beginnen. Entscheidend ist jedoch, wie weit diese
+000189 | Möglichkeiten tatsächlich reichen. Systemseitige Änderungen sind beispielsweise
+000190 | nur dann gut kontrollierbar, wenn sie erkennbar und gegebenenfalls rückgängig zu
+000191 | machen sind.
+000192 | Der sichtbare Text zeigt dabei immer nur den aktuellen Zustand. Derselbe Text kann
+000193 | durch sehr unterschiedliche Folgen von Eingaben, Löschungen und Korrekturen
+000194 | entstanden sein. Am Ergebnis allein ist deshalb nicht erkennbar, welchen Anteil
+000195 | Mensch und System an seinem Zustand hatten (vgl. MacKenzie/Soukoreff 2002, S.
+000196 | 164–165). Zugleich endet die Möglichkeit zur Korrektur dort, wo eine Veränderung
+000197 | des Textes nicht mehr automatisch die bereits ausgelöste Operation verändert.
+000198 | 
+000199 | Autocomplete und Vorschläge
+000200 | Texteingabe entsteht nicht immer ausschließlich durch selbst eingegebene Zeichen.
+000201 | Systeme können während des Schreibens mögliche Fortsetzungen oder nächste Wörter
+000202 | anbieten. NutzerInnen können solche Vorschläge übernehmen, verändern oder
+000203 | unabhängig davon weiterschreiben. Neben das eigene Formulieren tritt damit die
+000204 | Auswahl aus bereits angebotenem sprachlichem Material. Vorschläge unterscheiden
+000205 | sich dabei von automatischen Korrekturen, da sie zunächst als Möglichkeit
+000206 | erscheinen und nicht ohne Weiteres in den Text übernommen werden (vgl. Quinn/Zhai
+000207 | 2016, S. 83–84; Arnold et al. 2020, PDF-S. 4–5).
+000208 | Solche Vorschläge können einen Teil der Eingabearbeit übernehmen. Wird ein Wort
+000209 | oder eine längere Fortsetzung ausgewählt, müssen weniger Zeichen einzeln
+000210 | eingegeben werden. Gleichzeitig entsteht eine neue Aufgabe: Die angebotenen
+000211 | Optionen müssen wahrgenommen und daraufhin geprüft werden, ob sie zur
+000212 | beabsichtigten Eingabe passen. Weniger Tastenanschläge bedeuten deshalb nicht
+000213 | zwangsläufig eine schnellere oder einfachere Eingabe. Quinn und Zhai zeigen, dass
+000214 | ständig sichtbare Wortvervollständigungen in ihrer Untersuchung zwar die Zahl der
+000215 | benötigten Tastenschläge reduzierten, die Eingabe jedoch verlangsamten (vgl.
+000216 | Quinn/Zhai 2016, S. 83–86). Vorschläge verlagern Eingabearbeit damit teilweise vom
+000217 | Tippen auf das Wahrnehmen und Auswählen.
+000218 | Dabei sind die angebotenen Möglichkeiten bereits durch das System vorausgewählt.
+000219 | Eine Vorschlagsliste zeigt nicht alle denkbaren Fortsetzungen, sondern nur einen
+000220 | kleinen Ausschnitt. Im Versuchsaufbau von Arnold et al. wurden beispielsweise die
+000221 | drei wahrscheinlichsten Wörter beziehungsweise Vervollständigungen eines
+000222 | Sprachmodells angezeigt (vgl. Arnold et al. 2020, PDF-S. 4–5). Welche
+000223 | Formulierungen NutzerInnen leicht auswählen können, hängt damit von der Auswahl
+000224 | des Systems ab. Was das Modell für wahrscheinlich hält, muss jedoch nicht dem
+000225 | entsprechen, was NutzerInnen tatsächlich ausdrücken möchten.
+000226 | Dass Vorschläge nicht automatisch übernommen werden, bedeutet nicht, dass sie ohne
+000227 | Einfluss bleiben. Arnold et al. untersuchten dies anhand frei formulierter
+000228 | Bildbeschreibungen. Mit Wortvorschlägen entstanden im Durchschnitt kürzere Texte
+000229 | und es wurden weniger Wörter verwendet, die das Modell nicht vorhergesagt hatte.
+000230 | Gleichzeitig empfanden die Teilnehmenden das Schreiben mit Vorschlägen als weniger
+000231 | belastend (vgl. Arnold et al. 2020, PDF-S. 3–8).
+000232 | Vorschläge können die Eingabe damit erleichtern und zugleich beeinflussen, welche
+000233 | Formulierungen entstehen. Auch wenn NutzerInnen sie ablehnen können, prägt ihre
+000234 | Sichtbarkeit den verfügbaren Ausdrucksraum mit.
+000235 | Vorschläge können jedoch an unterschiedlichen Stellen des Eingabeprozesses
+000236 | ansetzen. Wortvervollständigungen greifen in einen bereits begonnenen Text ein.
+000237 | Suchvorschläge können eine Anfrage ergänzen oder alternative Begriffe anbieten.
+000238 | Promptideen setzen teilweise noch früher an, indem sie mögliche Aufgaben oder
+000239 | Formulierungsrichtungen vorschlagen (vgl. Hearst 2009, S. 11–13; Subramonyam et
+000240 | al. 2024, PDF-S. 11–14).
+000241 | Diese Formen von Vorschlägen erfüllen unterschiedliche Funktionen. Ergebnisse zu
+000242 | Wortvorhersagen lassen sich deshalb nicht ohne Weiteres auf Such- oder
+000243 | Promptvorschläge übertragen.
+000244 | Vorschläge unterstützen damit nicht nur die Eingabe, sondern beeinflussen
+000245 | zugleich, welche sprachlichen Möglichkeiten im Moment des Schreibens sichtbar und
+000246 | naheliegend werden. Dieser Einfluss beginnt bereits mit der Auswahl und Anzeige
+000247 | der Vorschläge und nicht erst mit ihrer Übernahme. NutzerInnen können davon
+000248 | abweichen, formulieren jedoch in einer Situation, die durch das System bereits
+000249 | mitstrukturiert und in Teilen gelenkt wird.
+000250 | 
+000251 | 
+000252 | Iteration und Reformulierung
+000253 | Texteingabe endet nicht zwangsläufig mit dem Absenden. Auf die Reaktion des
+000254 | Systems können eine Bewertung des Ergebnisses und eine weitere Eingabe folgen.
+000255 | Eine solche erneute Eingaberunde lässt sich als Iteration verstehen. Wird die
+000256 | folgende Eingabe dabei sprachlich, inhaltlich oder in ihrem Umfang verändert,
+000257 | handelt es sich zugleich um eine Reformulierung.
+000258 | Diese muss nicht auf einen Fehler zurückgehen. Eine neue Formulierung kann auch
+000259 | entstehen, weil sich das Anliegen im Verlauf der Interaktion verändert oder
+000260 | konkretisiert hat.
+000261 | Wie NutzerInnen eine Eingabe verändern, hängt davon ab, was sich aus der Reaktion
+000262 | des Systems ableiten lässt. Bei Formularen kann eine Fehlermeldung vergleichsweise
+000263 | klar zeigen, welche Anforderung noch nicht erfüllt ist. In den von Seckler et al.
+000264 | untersuchten Registrierungsformularen führten beispielsweise fehlende
+000265 | Formatangaben zu Schwierigkeiten bei der erfolgreichen Übermittlung (vgl. Seckler
+000266 | et al. 2014, S. 1279–1282).
+000267 | Bei Suchergebnissen oder generierten Antworten ist dagegen oft weniger deutlich,
+000268 | wie die Eingabe verändert werden sollte. Ein unerwünschtes Ergebnis zu erkennen
+000269 | bedeutet noch nicht zu wissen, wie es vermieden werden kann.
+000270 | Darüber hinaus können Suchergebnisse verändern, wonach NutzerInnen im nächsten
+000271 | Schritt überhaupt suchen. Sie zeigen nicht nur, ob die gewählten Begriffe zum
+000272 | Informationsbedarf passen, sondern können auch neue Begriffe, Zusammenhänge oder
+000273 | Teilaspekte sichtbar machen. Diese können wiederum in eine folgende Anfrage
+000274 | einfließen (vgl. Hearst 2009, S. 3, 7–8).
+000275 | Reformulierung bedeutet damit nicht nur, dieselbe Frage präziser auszudrücken.
+000276 | Auch das Verständnis dessen, wonach gesucht wird, kann sich im Verlauf der Suche
+000277 | verändern.
+000278 | Auch beim Prompting können Antworten des Systems zum Ausgangspunkt weiterer
+000279 | Eingaben werden. NutzerInnen ergänzen oder verändern ihre Instruktionen und
+000280 | beurteilen anschließend die neue Antwort. Eine solche Wiederholung führt jedoch
+000281 | nicht zwangsläufig zu einer verlässlichen Verbesserung.
+000282 | Zamfirescu-Pereira et al. beobachteten beispielsweise, dass Teilnehmende ihre
+000283 | Prompts häufig anhand einzelner Antworten anpassten. Erzeugte eine Änderung einmal
+000284 | ein besseres Ergebnis, wurde sie teilweise bereits als erfolgreich bewertet, ohne
+000285 | systematisch zu prüfen, ob sie auch in anderen Fällen funktioniert (vgl.
+000286 | Zamfirescu-Pereira et al. 2023, S. 9–12). Eine überzeugende Antwort zeigt daher
+000287 | zunächst nur, dass eine Eingabe in diesem Fall funktioniert hat. Sie erklärt
+000288 | weder, warum das Ergebnis besser war, noch ob dieselbe Änderung zuverlässig zu
+000289 | besseren Ergebnissen führt.
+000290 | Damit stellt sich auch die Frage, woran eine Verbesserung überhaupt erkannt wird.
+000291 | Eine neue Eingabe kann sich stärker am ursprünglichen Anliegen orientieren, aber
+000292 | ebenso auf das reagieren, was das System bereits ausgegeben hat. Dabei kann sich
+000293 | auch verändern, welches Ergebnis NutzerInnen überhaupt anstreben.
+000294 | Eine solche Verschiebung kann selbst Teil der Interaktion sein. Bei einer Suche
+000295 | kann gerade die Veränderung der eigenen Fragestellung zu neuen Erkenntnissen
+000296 | führen. Iteration bedeutet daher nicht nur, Eingaben wiederholt anzupassen,
+000297 | sondern auch fortlaufend neu zu bewerten, welches Ergebnis eigentlich erreicht
+000298 | werden soll (vgl. Subramonyam et al. 2024, S. 2, 6–7).
+000299 | Systemreaktionen sind damit nicht nur Ergebnisse vergangener Eingaben, sondern
+000300 | zugleich Ausgangspunkt für weitere. NutzerInnen leiten aus ihnen ab, was sie
+000301 | verändern könnten, ohne die zugrunde liegende Verarbeitung vollständig zu kennen.
+000302 | 

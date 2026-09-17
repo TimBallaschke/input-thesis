@@ -1,0 +1,502 @@
+000001 | AI COLLABORATION DOCUMENTATION - SHARED CHAT SNAPSHOT
+000002 | Archive ID: CGPT-14
+000003 | Title: Formulierungen Thesis
+000004 | Source: https://chatgpt.com/share/6aabaa4a-8af4-83eb-a267-9b3b38d924d9
+000005 | Retrieved UTC: 2026-09-17T08:58:38.153900+00:00
+000006 | Messages SHA-256: e39a8fc2754e046d8b1c47a24f6643397bb0488c733c5fc867a2370fa165eca6
+000007 | Scope: public shared text; attachments and linked artifacts may be missing.
+000008 | Exact message text is preserved in JSONL. Display adds wrapping and labels
+000009 | for citation controls, writing blocks and unsupported symbols.
+000010 | Message timestamps are provider metadata. Share timestamps are separate.
+000011 | Hidden reasoning, system instructions and tool payloads are excluded.
+000012 | 
+000013 | MESSAGE 0001 | 2026-08-30T14:16:20.843000+00:00 | USER | PROMPT
+000014 | ich fange heute an einen ersten Abschnitt für meine Masterarbeit zu schreiben und
+000015 | ich beginne. mit dem Interaction part. Das ist meine geplante Struktur und ich
+000016 | würde gerne mit dem Interaction teil beginnen mit der eingabe als physischer
+000017 | prozess. Das ist die untergliederung die ich mir überlegt hatte und das ist die
+000018 | vorhandene Quellenlage. Bitte hilf mir diesen ersten Abschnitt zu formulieren. Er
+000019 | soll eine einführung in den Bereich "Interaction" darstellen und das Thema
+000020 | eröffnen.
+000021 | [ATTACHMENT: Struktur_Masterarbeit_Input.pages; content unavailable]
+000022 | [ATTACHMENT: QUELLENUEBERSICHT_INTERACTION_PHYSICAL_INPUT_COMPACT_01.md; content
+000023 | unavailable]
+000024 | 
+000025 | MESSAGE 0002 | 2026-08-30T14:16:24.668948+00:00 | ASSISTANT | COMMENTARY
+000026 | Ich schaue mir zuerst die geplante Gesamtstruktur und die vorhandene
+000027 | Quellenübersicht gemeinsam an. Dann formuliere ich dir einen ersten, noch gut
+000028 | weiterbearbeitbaren Abschnitt, der **Interaction** eröffnet und von dort sauber in
+000029 | die „Eingabe als physischer Prozess“ hineinführt.
+000030 | 
+000031 | MESSAGE 0003 | 2026-08-30T14:18:03.462696+00:00 | ASSISTANT | FINAL
+000032 | Ja. Für den Einstieg würde ich **Interaction zunächst sehr klar von Surface
+000033 | absetzen**: Surface fragt, was das Feld sichtbar anbietet und kommuniziert;
+000034 | Interaction fragt danach, **was eine Person tatsächlich tun muss, damit aus diesem
+000035 | Angebot eine Eingabe wird**. Genau so ist die Ebene in deiner Quellenverteilung
+000036 | bereits angelegt: als Zusammenspiel von Handlung, Wissen und Entscheidungen –
+000037 | Tippen, Korrigieren, Auswählen, Reformulieren und iterativer Navigation.
+000038 | [filecite: turn2file12: L629-L638]
+000039 | 
+000040 | Für den ersten Unterabschnitt würde ich dann bewusst **noch nicht mit Prompting,
+000041 | Syntax oder kognitiver Formulierungsarbeit beginnen**, sondern ganz basal: Bevor
+000042 | eine Eingabe semantisch oder technisch etwas tun kann, muss Text überhaupt
+000043 | hervorgebracht werden. Das passt sehr gut zu deiner Kernaussage, dass der fertige
+000044 | String seinen körperlichen und technischen Entstehungsweg weitgehend verbirgt.
+000045 | [filecite: turn6file0: L15-L25]
+000046 | 
+000047 | Ich würde ungefähr so anfangen:
+000048 | 
+000049 | ### Interaction – Eingabe als physischer Prozess
+000050 | 
+000051 | Während die Ebene *Surface* danach fragt, welche Möglichkeiten und Grenzen ein
+000052 | Eingabefeld sichtbar kommuniziert, verschiebt sich mit *Interaction* die
+000053 | Perspektive vom Feld auf die Handlung. Entscheidend ist nun nicht mehr allein,
+000054 | **was eingegeben werden kann**, sondern **was notwendig ist, um eine Eingabe
+000055 | tatsächlich hervorzubringen**. Zwischen einer menschlichen Intention und dem Text,
+000056 | der schließlich im Feld erscheint, liegt eine Reihe von Handlungen: Zeichen werden
+000057 | erzeugt, kontrolliert, korrigiert und verändert. Texteingabe ist in diesem Sinne
+000058 | nicht lediglich die Übertragung eines bereits fertigen sprachlichen Inhalts,
+000059 | sondern selbst ein Prozess.
+000060 | 
+000061 | Die grundlegendste Voraussetzung dieses Prozesses ist zunächst eine körperliche.
+000062 | Text muss erzeugt werden, bevor er als sichtbare Zeichenfolge im Interface
+000063 | vorliegt. Dieser scheinbar selbstverständliche Schritt gerät leicht aus dem Blick,
+000064 | weil das Eingabefeld am Ende nur den resultierenden Text zeigt. Wie dieser
+000065 | entstanden ist, bleibt darin weitgehend unsichtbar. Forschung zu *text entry*
+000066 | behandelt Texteingabe entsprechend nicht als transparenten Übertragungsvorgang,
+000067 | sondern unterscheidet unter anderem Bewegung, Geschwindigkeit, Genauigkeit,
+000068 | Lernzustand, Fehler und Korrektur als verschiedene Dimensionen des
+000069 | Eingabeprozesses (vgl. MacKenzie/Soukoreff 2002, S. 154–160). [filecite:
+000070 | turn5file0: L5-L13]
+000071 | 
+000072 | Bereits das Tippen auf einer physischen Tastatur beruht dabei auf erlernten
+000073 | Bewegungs- und Wahrnehmungsstrategien. Feit et al. zeigen in ihrer Untersuchung
+000074 | alltäglicher Tastaturnutzung, dass erfolgreiche Texteingabe nicht auf eine einzige
+000075 | „richtige“ Tipptechnik reduziert werden kann. Unterschiede zeigen sich unter
+000076 | anderem darin, welche Finger für bestimmte Tasten eingesetzt werden, wie
+000077 | Bewegungen vorbereitet werden, wie stark sich die Hände über die Tastatur bewegen
+000078 | und wie der Blick zwischen Tastatur und Bildschirm verteilt wird (vgl. Feit et al.
+000079 | 2016, S. 4266–4271). Das vertraute Tippen erscheint damit weniger als unmittelbare
+000080 | Übersetzung von Sprache in Zeichen denn als eine erlernte sensomotorische Praxis.
+000081 | [filecite: turn6file0: L29-L34]
+000082 | 
+000083 | Auf Touchscreens verändert sich diese körperliche Konstellation. Hier werden die
+000084 | Möglichkeiten der Eingabe unter anderem durch die Größe und Haltung des Geräts,
+000085 | die Reichweite und Koordination der Daumen sowie durch die technische
+000086 | Interpretation einzelner Berührungspunkte geprägt. Oulasvirta et al. untersuchen
+000087 | diese Faktoren am Beispiel einer für die Eingabe mit zwei Daumen optimierten
+000088 | Tablet-Tastatur und verbinden dabei Griff, Bewegung, Tastaturlayout, Training und
+000089 | Fehlerkorrektur miteinander (vgl. Oulasvirta et al. 2013, S. 2767–2773). Das
+000090 | Beispiel macht sichtbar, dass der entstehende Text nicht allein durch die
+000091 | schreibende Person hervorgebracht wird, sondern aus einem Zusammenspiel von
+000092 | Körper, Gerät und technischer Interpretation entsteht. [filecite: turn5file1:
+000093 | L30-L35]
+000094 | 
+000095 | Auch Spracheingabe hebt diese Vermittlung nicht auf, sondern verteilt sie neu. An
+000096 | die Stelle von Fingerbewegungen tritt zunächst das Sprechen; anschließend muss das
+000097 | Gesprochene jedoch erkannt, als Texteingabe abgeschlossen, überprüft und
+000098 | gegebenenfalls korrigiert werden. In der Untersuchung von Ruan et al. werden
+000099 | Fehler der Spracherkennung häufig wiederum über die Tastatur bearbeitet (vgl. Ruan
+000100 | et al. 2017, Art. 159:5, 159:12–20). Die körperliche Arbeit der Eingabe
+000101 | verschwindet also nicht, sondern verändert ihre Form: aus Tippen wird ein Prozess
+000102 | aus Sprechen, Erkennen, Kontrollieren und Korrigieren. [filecite: turn6file1:
+000103 | L46-L50]
+000104 | 
+000105 | Damit kann dieselbe sichtbare Zeichenfolge aus sehr unterschiedlichen
+000106 | Interaktionsprozessen hervorgehen. Ein Satz in einem Such-, Formular- oder
+000107 | Promptfeld lässt im Nachhinein nicht erkennen, ob er auf einer physischen Tastatur
+000108 | geschrieben, über einen Touchscreen erzeugt oder diktiert und anschließend
+000109 | korrigiert wurde. Der fertige Text nivelliert diese Unterschiede und erscheint als
+000110 | einheitlicher String. Für die Betrachtung von *Interaction* ist jedoch gerade
+000111 | dieser vorausgehende Prozess entscheidend: Texteingabe beginnt nicht erst mit der
+000112 | Bedeutung des eingegebenen Textes, sondern bereits mit den körperlichen, erlernten
+000113 | und technisch vermittelten Handlungen, durch die dieser Text überhaupt entsteht.
+000114 | [filecite: turn6file0: L17-L25]
+000115 | 
+000116 | Ich finde diese Fassung als **Eröffnung von Interaction ziemlich stark**, weil sie
+000117 | drei Dinge nacheinander macht: Sie definiert zunächst deine Betrachtungsebene,
+000118 | setzt dann mit einer extrem grundlegenden Voraussetzung ein und öffnet von dort
+000119 | schrittweise die Komplexität. Vor allem der letzte Gedanke – **der String zeigt
+000120 | das Resultat, aber nicht seinen Entstehungsprozess** – ist sehr anschlussfähig an
+000121 | die gesamte Arbeit. Er verbindet sogar Surface, Interaction und später Operation:
+000122 | Auf der Surface siehst du den String; Interaction rekonstruiert, wie er zustande
+000123 | kommt; Operation fragt danach, was anschließend damit geschieht.
+000124 | 
+000125 | Eine Sache würde ich allerdings noch ändern: In deiner aktuellen Gliederung steht
+000126 | unter diesem Punkt auch „alternative Eingabegeräte“. Dafür ist deine jetzige
+000127 | Quellenlage eigentlich zu unspezifisch. Deine vier Kernquellen tragen sauber
+000128 | **physische Tastatur → Touchscreen → Spracheingabe** und genau diese Dreiteilung
+000129 | ist in deiner Quellenübersicht vorgesehen. [filecite: turn1file0: L19-L25] Ich
+000130 | würde deshalb zunächst bei diesen drei Formen bleiben. Ebenso würde ich die
+000131 | Studien **nicht als Aussagen über heutige Alltagsnutzung allgemein** formulieren:
+000132 | Feit ist eine kleine Tastaturstudie, Oulasvirta ein trainierter KALQ-Laborfall und
+000133 | Ruan eine Transkriptionsstudie unter den Bedingungen von 2017. Deine
+000134 | Quellenübersicht markiert diese Grenzen bereits ausdrücklich. [filecite:
+000135 | turn6file0: L29-L34]
+000136 | 
+000137 | Der nächste Absatz könnte anschließend sehr natürlich mit etwas wie **„Die
+000138 | physische Fähigkeit, Text hervorzubringen, reicht jedoch noch nicht aus, um ein
+000139 | Eingabesystem bedienen zu können.“** beginnen. Damit wärst du direkt bei deinem
+000140 | nächsten Interaction-Punkt: **erforderliche Kenntnisse und Kompetenzen**.
+000141 | [memcite]
+000142 | 
+000143 | MESSAGE 0004 | 2026-08-30T14:27:38.192000+00:00 | USER | PROMPT
+000144 | ok nein bitte halte es deutlich knapper. der physische eingabe prozess soll nicht
+000145 | so umfrangreich angerissen werden. außerdem würde ich gerne nicht den übergang von
+000146 | Surface zu Interaction bennen sondern anfangen sondern eher benennen. "Der
+000147 | Interaktion mit einem Texteingabefeld steht zunächst ein physischer Prozess
+000148 | voraus. Sie verlangt eine mechanische Interaktion des Nutzers ...". Ich würde
+000149 | gerne erst mal einen Sprachstil heraus arbeiten, den wir als ausgangspunkt
+000150 | festsetzen können um weitere Textabschnitte zu generieren
+000151 | 
+000152 | MESSAGE 0005 | 2026-08-30T14:27:39.692074+00:00 | ASSISTANT | FINAL
+000153 | Ja, das ist klarer. Ich würde **Interaction nicht erst theoretisch einführen**,
+000154 | sondern unmittelbar am konkreten Vorgang beginnen. Der Ton kann dabei sachlich,
+000155 | knapp und leicht beschreibend sein – wissenschaftlich, aber nicht unnötig
+000156 | abstrakt.
+000157 | 
+000158 | Als Ausgangspunkt würde ich so schreiben:
+000159 | 
+000160 | [Text block]
+000161 | Der Interaktion mit einem Texteingabefeld geht zunächst ein physischer Prozess
+000162 | voraus. Texteingabe verlangt eine körperliche Handlung, durch die Zeichen erzeugt
+000163 | und in das System überführt werden. Je nach Eingabemethode verteilt sich diese
+000164 | Handlung unterschiedlich: Beim Tippen auf einer Tastatur oder einem Touchscreen
+000165 | wird Text durch erlernte Finger- und Bewegungsabläufe erzeugt, bei der
+000166 | Spracheingabe durch Sprechen und die anschließende Kontrolle des erkannten Textes.
+000167 | Der sichtbare Text ist damit das Ergebnis eines körperlich und technisch
+000168 | vermittelten Prozesses, der im fertigen String selbst nicht mehr erkennbar ist.
+000169 | [End text block]
+000170 | **Diesen Sprachstil würde ich als Basis festsetzen:** kurze bis mittellange Sätze;
+000171 | möglichst eine Aussage pro Satz; konkrete Beschreibung vor theoretischer
+000172 | Interpretation; wenige Adjektive; Begriffe wie *Prozess*, *Handlung*, *Eingabe*,
+000173 | *System*, *String* konsequent verwenden; keine großen rhetorischen Behauptungen;
+000174 | und Quellen eher zur Absicherung einzelner Aussagen einsetzen, statt den Text um
+000175 | die Quellen herumzubauen.
+000176 | 
+000177 | Besonders passend für deine Arbeit finde ich die Bewegung **„konkreter Vorgang →
+000178 | kurze Differenzierung → analytische Konsequenz“**. Das können wir für die
+000179 | folgenden Abschnitte ziemlich konsequent als Schreibmuster verwenden. [memcite]
+000180 | 
+000181 | MESSAGE 0006 | 2026-08-30T15:39:23.041000+00:00 | USER | PROMPT
+000182 | Zum nächsten Abschnitt Erforderliche Kenntnisse und Kompetenzen: Kernaussage:
+000183 | 
+000184 | > Erfolgreiche Texteingabe setzt erlerntes Systemwissen voraus. Menschen müssen
+000185 | ihre Intention in die Begriffe, Regeln und Erwartungen des jeweiligen Systems
+000186 | übersetzen. Natürliche Sprache beseitigt diese Arbeit nicht, sondern verlagert
+000187 | sie.
+000188 | 
+000189 | ### Untergliederung
+000190 | 
+000191 | 1. **Systemwissen:** Jede Eingabeform besitzt ein Vokabular und Regeln.
+000192 | 2. **Erlernte Bedienung:** Vertrautheit kann eine Bedienung intuitiv erscheinen
+000193 | lassen.
+000194 | 3. **Erinnerungsarbeit:** Passwörter, Befehle und wechselnde Anforderungen
+000195 | belasten das Gedächtnis.
+000196 | 4. **Natürliche Sprache:** Weniger sichtbare Syntax bedeutet nicht automatisch
+000197 | weniger Anforderungen.
+000198 | 5. **Übersetzungsarbeit:** Eine menschliche Intention muss als Befehl, Suchanfrage
+000199 | oder Prompt formuliert werden.
+000200 | 6. **Übergang:** Die Eingabeformen beseitigen notwendiges Wissen nicht, sondern
+000201 | verteilen es unterschiedlich.
+000202 | 
+000203 | ### Quellenübersicht
+000204 | 
+000205 | | ThemaQuellenBenötigte Aussage |
+000206 | |
+000207 | |
+000208 | | ----------------------------- | ------------------------------------------------
+000209 | ----------------------------------------- | --------------------------------------
+000210 | ----------------------------------------------------------------------------------
+000211 | ------------- |
+000212 | | Begriffe und Befehle          | Black/Moran 1982, S. 8–10
+000213 | | Befehlsnamen müssen gelernt und innerhalb eines Sets unterschieden werden;
+000214 | geläufige Wörter sind nicht automatisch leichter.          |
+000215 | | Erlernte Bedienung            | Shneiderman 1983, S. 64–66
+000216 | | Sichtbare Aktionen können erinnerte Syntax reduzieren. Icons, Metaphern und
+000217 | Systemdarstellungen müssen dennoch gelernt werden.        |
+000218 | | Passwörter und Anforderungen  | Adams/Sasse 1999, lokale PDF-S. 2–6
+000219 | | Mehrere Passwörter, Wechselregeln und unklare Sicherheitsmodelle erzeugen
+000220 | Erinnerungsarbeit und eigene Bewältigungsstrategien.        |
+000221 | | Natürliche Sprache            | Shneiderman 1980, S. 139–141
+000222 | | Natürliche Sprache kann Mehrdeutigkeit und überhöhte Erwartungen erzeugen.
+000223 | Präzise Syntax verlangt dagegen explizites Lernwissen.     |
+000224 | | Suchanfragen                  | Hearst 2009, Buch-S. 1–3
+000225 | | Ein Informationsbedarf muss in eine Query übersetzt und anhand der Ergebnisse
+000226 | schrittweise präzisiert werden.                         |
+000227 | | Prompts                       | Subramonyam et al. 2024, PDF-S. 2–3 und 6–8;
+000228 | Zamfirescu-Pereira et al. 2023, PDF-S. 10–13 | Prompting verlangt Annahmen über
+000229 | Fähigkeiten, Kontext, Instruktionswirkung und gewünschte Ausgaben sowie deren
+000230 | anschließende Prüfung. |
+000231 | 
+000232 | MESSAGE 0007 | 2026-08-30T15:39:24.438706+00:00 | ASSISTANT | FINAL
+000233 | Ich würde den Abschnitt ähnlich knapp halten und wieder vom konkreten Vorgang zur
+000234 | allgemeineren Aussage gehen:
+000235 | 
+000236 | [Text block]
+000237 | Neben der physischen Ausführung setzt Texteingabe Kenntnisse über das jeweilige
+000238 | System voraus. Nutzer müssen wissen, welche Begriffe, Regeln und Formen einer
+000239 | Eingabe erwartet werden. Bei Befehlssystemen betrifft dies etwa das Erlernen und
+000240 | Unterscheiden gültiger Kommandos; auch vertraut erscheinende Bedienweisen beruhen
+000241 | auf zuvor erworbenem Wissen über Symbole, Funktionen und Abläufe (vgl. Black/Moran
+000242 | 1982; Shneiderman 1983). Hinzu kommt Erinnerungsarbeit, etwa bei Passwörtern oder
+000243 | wechselnden Eingabeanforderungen, für die Nutzer eigene Strategien entwickeln
+000244 | (vgl. Adams/Sasse 1999).
+000245 | 
+000246 | Natürliche Sprache hebt diese Anforderungen nicht grundsätzlich auf. Statt einer
+000247 | expliziten Syntax tritt stärker die Aufgabe, eine eigene Intention in eine für das
+000248 | System verwertbare Form zu übersetzen. Ein Informationsbedarf muss als Suchanfrage
+000249 | formuliert und anhand der Ergebnisse weiter präzisiert werden; beim Prompting
+000250 | kommen Annahmen über Fähigkeiten, Kontext und erwartete Ausgaben hinzu (vgl.
+000251 | Hearst 2009; Subramonyam et al. 2024; Zamfirescu-Pereira et al. 2023). Die
+000252 | verschiedenen Formen der Texteingabe beseitigen notwendiges Systemwissen damit
+000253 | nicht, sondern verteilen es unterschiedlich.
+000254 | [End text block]
+000255 | Ich würde diesen Stil beibehalten: **keine Quelle einzeln ausführlich erklären**,
+000256 | sondern mehrere konkrete Beispiele benutzen, um eine übergeordnete Aussage
+000257 | aufzubauen. Dadurch bleibt der Text für deine kurze Arbeit relativ dicht.
+000258 | 
+000259 | MESSAGE 0008 | 2026-08-30T16:52:32.581000+00:00 | USER | PROMPT
+000260 | nun zum nächsten Abschnitt "Korrigieren und Bearbeiten": **Direkte Bearbeitung:**
+000261 | Text kann über Cursor, Auswahl, Einfügen, Löschen, Ersetzen und Undo verändert
+000262 | werden.
+000263 | 
+000264 | 1. **Systemgestützte Korrektur:** Autokorrektur oder die nachträgliche Anpassung
+000265 | erkannter Eingaben greifen zusätzlich in den Text ein.
+000266 | 2. **Fehler und Rückmeldung:** Validierung oder eine fehlerhafte Transkription
+000267 | machen weitere Kontrolle und Korrektur erforderlich.
+000268 | 3. **Unsichtbarer Bearbeitungsweg:** Der fertige Text zeigt nicht, welche
+000269 | Änderungen, Löschungen oder Korrekturen ihm vorausgingen.
+000270 | 
+000271 | Quellenübersicht:
+000272 | 
+000273 | | UnterpunktQuelle und PassageBenötigte AussageGrenze |
+000274 | |
+000275 | |                                                                          |
+000276 | | --------------------------------------------------- |
+000277 | ---------------------------------------------------------------------------------
+000278 | | --------------------------------------------------------------------------------
+000279 | ------------------------------------------------------------- |
+000280 | ------------------------------------------------------------------------ |
+000281 | | Direkte Bearbeitung                                 | WHATWG 2026, Abschn.
+000282 | 4.10.20; WHATWG-P5; W3C 2026, Abschn. 6.1–6.2; W3CIE26-P4–P6 | Cursor, Auswahl,
+000283 | Ersetzen, Löschen und Undo/Redo sind unterscheidbare Bearbeitungshandlungen und
+000284 | technische Ereignisse.                       | normative Standards; keine
+000285 | tatsächliche Nutzung oder konkrete Oberfläche |
+000286 | | Reversible Bearbeitung                              | Shneiderman 1983, S. 57–59
+000287 | und 64–65; SHN83-P1–P3                                 | Sichtbare Cursorposition,
+000288 | unmittelbare Änderungen und Undo ermöglichen eine schrittweise Bearbeitung.
+000289 | | historische und konzeptionelle Darstellung                               |
+000290 | | Systemgestützte Korrektur                           | Oulasvirta et al. 2013, S.
+000291 | 2773; OUL13-P7                                         | Systeme können Eingaben
+000292 | beziehungsweise Touchpunkte automatisch korrigieren; die Korrektur verbessert das
+000293 | Ergebnis jedoch nicht zwangsläufig. | spezielles Tablet-Keyboard und kontrollierte
+000294 | Studie                      |
+000295 | | Spracheingabe                                       | Ruan et al. 2017, Art.
+000296 | 159:5 und 159:13–159:17; RUAN17-P3, P5, P7–P10             | Die erkannte
+000297 | Ersttranskription muss kontrolliert und gegebenenfalls per Tastatur oder Sprache
+000298 | korrigiert werden.                              | kurze Transkriptionsaufgaben
+000299 | unter Idealbedingungen                      |
+000300 | | Validierung und Reparatur                           | Seckler et al. 2014, S.
+000301 | 1276–1282; SE14-P3–P7; WHATWG-P6                          | Fehlermeldungen und
+000302 | Formatregeln führen zur Korrektur und erneuten Submission.
+000303 | | Webformulare; Seckler untersucht gebündelte Redesigns                    |
+000304 | | Unsichtbarer Verlauf                                | MacKenzie/Soukoreff 2002,
+000305 | S. 164–165; MS02-P8–P9                                  | Der fertige Text enthält
+000306 | keine Information über Löschung, Navigation, Umschalten und andere
+000307 | Bearbeitungsschritte.                             |
+000308 | |
+000309 | 
+000310 | MESSAGE 0009 | 2026-08-30T16:52:34.073854+00:00 | ASSISTANT | FINAL
+000311 | Für den Abschnitt würde ich wieder nah am konkreten Vorgang bleiben und den
+000312 | unsichtbaren Bearbeitungsweg als Schlussgedanken setzen:
+000313 | 
+000314 | [Text block]
+000315 | Texteingabe endet nicht mit dem Erzeugen von Zeichen, sondern umfasst auch deren
+000316 | fortlaufende Bearbeitung. Über Cursorposition, Auswahl, Einfügen, Löschen,
+000317 | Ersetzen sowie Undo und Redo kann ein bestehender Text schrittweise verändert
+000318 | werden. Solche Handlungen sind nicht nur auf der Oberfläche unterscheidbar,
+000319 | sondern werden auch technisch als unterschiedliche Bearbeitungsvorgänge behandelt
+000320 | (vgl. WHATWG 2026; W3C 2026). Die Möglichkeit, Änderungen unmittelbar zu sehen und
+000321 | gegebenenfalls rückgängig zu machen, unterstützt dabei eine reversible und
+000322 | schrittweise Bearbeitung (vgl. Shneiderman 1983).
+000323 | 
+000324 | Neben diesen direkten Eingriffen können auch Systeme selbst korrigierend in die
+000325 | Eingabe eingreifen. Dazu gehören etwa die automatische Anpassung von
+000326 | Touch-Eingaben oder die Korrektur einer fehlerhaften Sprachtranskription (vgl.
+000327 | Oulasvirta et al. 2013; Ruan et al. 2017). Auch Fehlermeldungen und Formatvorgaben
+000328 | können weitere Änderungen notwendig machen, bevor eine Eingabe akzeptiert oder
+000329 | erneut abgesendet wird (vgl. Seckler et al. 2014). Im fertigen Text bleibt dieser
+000330 | Bearbeitungsprozess jedoch weitgehend unsichtbar: Er zeigt weder gelöschte Zeichen
+000331 | noch vorherige Formulierungen oder die einzelnen Korrekturschritte, die zu ihm
+000332 | geführt haben (vgl. MacKenzie/Soukoreff 2002).
+000333 | [End text block]
+000334 | Ich würde hier bewusst **nicht noch Autokorrektur, Validierung, Spracheingabe etc.
+000335 | jeweils einzeln ausführen**. Entscheidend ist eher die Bewegung: **direkte
+000336 | Bearbeitung → systemgestützte Korrektur → unsichtbarer Verlauf**. Das hält den
+000337 | Abschnitt kompakt und gibt ihm trotzdem eine klare argumentative Funktion.
+000338 | 
+000339 | MESSAGE 0010 | 2026-08-30T17:24:59.114000+00:00 | USER | PROMPT
+000340 | nun zum nächsten Abschnitt "Autocomplete und Vorschläge": **Vorausgreifende
+000341 | Eingabe:** Das System bietet während der Eingabe mögliche Zeichenfolgen, Wörter
+000342 | oder Formulierungen an.
+000343 | 
+000344 | 1. **Veränderte Handlung:** Nutzer müssen Vorschläge wahrnehmen, prüfen, auswählen
+000345 | oder ignorieren.
+000346 | 2. **Verschobener Aufwand:** Vorschläge können Tastenanschläge reduzieren,
+000347 | zugleich aber Aufmerksamkeit und Auswahlzeit beanspruchen.
+000348 | 3. **Unterschiedliche Anwendungsbereiche:** Wortvervollständigung, Suchvorschläge
+000349 | und Promptideen beruhen auf demselben Grundprinzip, sind aber nicht
+000350 | wirkungsgleich.
+000351 | 
+000352 | Quellenübersicht:
+000353 | 
+000354 | | UnterpunktQuelle und PassageBenötigte AussageGrenze |
+000355 | |
+000356 | |
+000357 | |
+000358 | | --------------------------------------------------- |
+000359 | ------------------------------------------------------ | -------------------------
+000360 | ----------------------------------------------------------------------------------
+000361 | ----------------------------------------------------------------------- | --------
+000362 | ------------------------------------------------------------------------------ |
+000363 | | Wortvervollständigung                               | Quinn/Zhai 2016, S. 83–86;
+000364 | QZ16-P1–P9                  | Bis zu drei Wortvorschläge erschienen über der
+000365 | Tastatur. Immer sichtbare Vorschläge reduzierten die benötigten Taps,
+000366 | verlangsamten in der untersuchten Aufgabe jedoch die Eingabe. | 17 Personen,
+000367 | historischer iPod, kontrolliertes Textkopieren ohne reale Fehlerkorrektur |
+000368 | | Suchvorschläge                                      | Hearst 2009, S. 11–18;
+000369 | HEARST-P7, P9                   | Suchfelder können während des Tippens Präfixe
+000370 | oder verwandte Begriffe vorschlagen und dadurch mögliche Queryformulierungen
+000371 | sichtbar machen.                                        | historische
+000372 | Suchoberflächen; zugrunde liegende Studien nur sekundär berichtet          |
+000373 | | Sprach- und Modellabhängigkeit                      | van Esch et al. 2019, S.
+000374 | 5–8 und 16–18; VE19-P2, P6–P7 | Wortvorhersage hängt von Korpus, Sprachmodell und
+000375 | gewählter Sprache ab; unpassende Unterstützung kann Korrektur oder Abschalten
+000376 | verlangen.                                         | aggregierter
+000377 | Herstellerbericht ohne vollständige Wirkungsstudie                        |
+000378 | | Promptideen                                         | Subramonyam et al. 2024,
+000379 | S. 11–14; SUB24-P7–P8         | Promptideen, mehrere Ausgaben und manuelle
+000380 | Kontrolle werden als mögliche Unterstützung offener LLM-Interfaces beschrieben.
+000381 | | theoretische Musterbildung; Wirksamkeit nicht empirisch getestet
+000382 | |
+000383 | | Technische Annahme                                  | W3C 2026, Abschn. 6.1.2;
+000384 | W3CIE26-P4                    | Die Annahme einer Vorschlags- oder
+000385 | Autokorrekturersetzung kann technisch von direktem Tippen unterschieden werden.
+000386 | | Working Draft; keine Aussage über Darstellung oder Browserunterstützung
+000387 | |
+000388 | 
+000389 | MESSAGE 0011 | 2026-08-30T17:25:01.335029+00:00 | ASSISTANT | FINAL
+000390 | Ich würde es wieder knapp halten und den Schwerpunkt auf die veränderte Handlung
+000391 | legen:
+000392 | 
+000393 | [Text block]
+000394 | Autocomplete und Vorschläge greifen bereits während der Eingabe voraus, indem sie
+000395 | mögliche Zeichenfolgen, Wörter oder Formulierungen anbieten. Dadurch verändert
+000396 | sich auch die Handlung des Nutzers: Neben dem Tippen tritt das Wahrnehmen, Prüfen,
+000397 | Auswählen oder Ignorieren vorgeschlagener Optionen. Solche Vorschläge können die
+000398 | Zahl notwendiger Eingaben reduzieren, zugleich aber zusätzliche Aufmerksamkeit und
+000399 | Auswahlzeit erfordern (vgl. Quinn/Zhai 2016).
+000400 | 
+000401 | Dieses Prinzip findet sich in unterschiedlichen Formen wieder.
+000402 | Wortvervollständigungen schlagen mögliche Fortsetzungen vor, Suchfelder machen
+000403 | denkbare Queryformulierungen sichtbar, und in offenen KI-Interfaces können
+000404 | Promptideen mögliche Instruktionen nahelegen (vgl. Hearst 2009; Subramonyam et al.
+000405 | 2024). Ihre Wirkung ist jedoch nicht gleichzusetzen: Sie hängt unter anderem von
+000406 | Aufgabe, Sprache, zugrunde liegendem Modell und der Qualität der vorgeschlagenen
+000407 | Optionen ab (vgl. van Esch et al. 2019). Vorschläge reduzieren Eingabearbeit damit
+000408 | nicht einfach, sondern verschieben einen Teil davon vom Formulieren und Tippen hin
+000409 | zum Beobachten und Entscheiden.
+000410 | [End text block]
+000411 | Der letzte Satz ist hier wahrscheinlich der wichtigste, weil er die analytische
+000412 | Funktion des Abschnitts sehr sauber zusammenfasst.
+000413 | 
+000414 | MESSAGE 0012 | 2026-08-30T17:46:29.596000+00:00 | USER | PROMPT
+000415 | Nun "Iteration und Reformulierung": **Abgrenzung:** Bearbeitung verändert den
+000416 | aktuellen Text; Iteration beginnt nach einer Systemreaktion.
+000417 | 
+000418 | 1. **Formulare und Suche:** Validierung verlangt eine korrigierte Eingabe,
+000419 | Suchergebnisse können eine veränderte Query anregen.
+000420 | 2. **Dialogische Systeme:** Bereits ELIZA organisiert Interaktion als Abfolge von
+000421 | Eingabe und Antwort; bei LLM-Systemen kann die Ausgabe zur Grundlage eines
+000422 | überarbeiteten Prompts werden.
+000423 | 3. **Begrenzung:** Promptiteration verläuft nicht automatisch systematisch,
+000424 | sondern häufig lokal und anhand einzelner Ausgaben.
+000425 | 4. **Übergang:** Das Texteingabefeld ist damit nicht nur Eingabestelle, sondern
+000426 | Teil einer zeitlichen Interaktionsfolge.
+000427 | 
+000428 | Quellenübersicht:
+000429 | 
+000430 | | UnterpunktQuelle und PassageBenötigte AussageGrenze |
+000431 | |
+000432 | |                                                                    |
+000433 | | --------------------------------------------------- | --------------------------
+000434 | ----------------------------------------------------------------------------------
+000435 | ----------------------------------------------------------------------------------
+000436 | ---------------- | ---------------------------------------------------------------
+000437 | -------------------------------------------------------------------- |
+000438 | ------------------------------------------------------------------ |
+000439 | | Formularvalidierung                                 | [Seckler et al. 2014]\(/Us
+000440 | ers/timballaschke/Desktop/Projekt/01\_Projekte/Master\_Thesis/research/source-note
+000441 | s/seckler-et-al-2014-usable-web-forms.md), S. 1279–1282; `SE14-P3–P7`
+000442 | | Fehlende oder unklare Angaben können weitere Eingabe- und Absendeversuche
+000443 | erforderlich machen.                                      | Untersucht wurden
+000444 | gebündelt überarbeitete Registrierungsformulare. |
+000445 | | Suchiteration                                       | [Hearst 2009]\(/Users/timb
+000446 | allaschke/Desktop/Projekt/01\_Projekte/Master\_Thesis/research/source-notes/hearst
+000447 | -2009-search-user-interfaces-preview\.md), S. 3, 7–8, 14 und 19–20; `HEARST-P4`,
+000448 | `P6`, `P8`, `P11` | Ergebnisse werden geprüft und können Begriffe oder Richtungen
+000449 | für eine reformulierte Query liefern.                                 |
+000450 | Historische Synthese mit teilweise sekundären Belegen.             |
+000451 | | Dialogische Abfolge                                 | [Weizenbaum 1966]\(/Users/
+000452 | timballaschke/Desktop/Projekt/01\_Projekte/Master\_Thesis/research/source-notes/we
+000453 | izenbaum-1966-eliza.md), S. 36; `W66-P1–P2`
+000454 | | ELIZA organisiert Interaktion technisch als Eingabe, Übergabe, Antwort und
+000455 | erneute Eingabe.                                         | Regelbasiertes
+000456 | historisches System; kein Modell heutiger LLMs.     |
+000457 | | Promptiteration                                     | [Zamfirescu-Pereira et al.
+000458 | 2023]\(/Users/timballaschke/Desktop/Projekt/01\_Projekte/Master\_Thesis/research/s
+000459 | ource-notes/zamfirescu-pereira-et-al-2023-why-johnny-cant-prompt.md), S. 9–12;
+000460 | `ZP23-P3–P6`       | Teilnehmende überarbeiteten Prompts überwiegend lokal und ad
+000461 | hoc; häufig galt bereits eine einzelne verbesserte Antwort als Erfolg. | Zehn
+000462 | Personen, vorgegebener Chatbot und prototypische Oberfläche.  |
+000463 | | Aufwand der Reformulierung                          | [Subramonyam et al. 2024]\
+000464 | (/Users/timballaschke/Desktop/Projekt/01\_Projekte/Master\_Thesis/research/source-
+000465 | notes/subramonyam-et-al-2024-gulf-of-envisioning.md), S. 2 und 6–7; `SUB24-P5`
+000466 | | Wiederholtes Lesen und Reformulieren kann zusätzlichen Aufwand erzeugen und
+000467 | lokale Verbesserungen begünstigen.                      |
+000468 | |
+000469 | 
+000470 | MESSAGE 0013 | 2026-08-30T17:46:31.082152+00:00 | ASSISTANT | FINAL
+000471 | Ich würde die Abgrenzung zur Bearbeitung direkt am Anfang setzen und dann Suche,
+000472 | Formulare und dialogische Systeme zusammenführen:
+000473 | 
+000474 | [Text block]
+000475 | Während Bearbeitung den aktuellen Text verändert, beginnt Iteration erst mit einer
+000476 | Reaktion des Systems. Eine Fehlermeldung in einem Formular kann eine korrigierte
+000477 | Eingabe erforderlich machen, Suchergebnisse können neue Begriffe oder eine
+000478 | veränderte Query anregen (vgl. Seckler et al. 2014; Hearst 2009). Die Eingabe wird
+000479 | damit Teil einer Folge aus Formulierung, Systemreaktion, Bewertung und erneuter
+000480 | Eingabe.
+000481 | 
+000482 | Dieses Prinzip findet sich auch in dialogischen Systemen. Bereits ELIZA
+000483 | organisiert Interaktion als wiederholte Abfolge von Eingabe und Antwort (vgl.
+000484 | Weizenbaum 1966). Bei LLM-Systemen kann eine Ausgabe wiederum zum Ausgangspunkt
+000485 | für einen veränderten Prompt werden. Diese Reformulierung erfolgt jedoch nicht
+000486 | zwangsläufig systematisch, sondern häufig lokal und anhand einzelner Ergebnisse
+000487 | (vgl. Zamfirescu-Pereira et al. 2023; Subramonyam et al. 2024). Das
+000488 | Texteingabefeld ist damit nicht nur eine Stelle zur einmaligen Eingabe, sondern
+000489 | Teil einer zeitlichen Interaktionsfolge.
+000490 | [End text block]
+000491 | Ich würde hier den Begriff **„zeitliche Interaktionsfolge“** beibehalten – der
+000492 | fasst den Abschnitt sehr präzise zusammen und grenzt ihn gut vom vorherigen
+000493 | Bearbeitungsabschnitt ab.
+000494 | 
+000495 | ---
+000496 | 
+000497 | If you want, I can:
+000498 | 
+000499 | - Weiter mit 'Iteration und Reformulierung' Abschnitt schreiben
+000500 | - Textabschnitt zu 'Autocomplete und Vorschläge' präzisieren
+000501 | - 'Korrigieren und Bearbeiten' Abschnitt knapp und klar formulieren
+000502 | 

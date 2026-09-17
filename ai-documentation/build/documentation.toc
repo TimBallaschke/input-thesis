@@ -1,15 +1,35 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{Editorial note}{1}{section*.1}%
-\contentsline {section}{\numberline {1}Earlier conversation about the thesis topic}{2}{section.1}%
-\contentsline {section}{\numberline {2}Earlier conversation about source research}{23}{section.2}%
-\contentsline {section}{\numberline {3}AI-assisted research plan}{28}{section.3}%
-\contentsline {section}{\numberline {4}Externally supplied review feedback}{31}{section.4}%
-\contentsline {section}{\numberline {5}Externally supplied review feedback}{34}{section.5}%
-\contentsline {section}{\numberline {6}Externally supplied review feedback}{37}{section.6}%
-\contentsline {section}{\numberline {7}Externally supplied review feedback}{40}{section.7}%
-\contentsline {section}{\numberline {8}Codex production task}{44}{section.8}%
-\contentsline {section}{\numberline {9}Codex production task}{204}{section.9}%
-\contentsline {section}{\numberline {10}Technical metadata}{264}{section.10}%
-\contentsline {subsection}{\numberline {10.1}CDX-01 session snapshot}{264}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}CDX-02 session snapshot}{265}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Process metrics}{265}{subsection.10.3}%
+\contentsline {section}{\numberline {1}Earlier conversation about the thesis topic}{4}{section.1}%
+\contentsline {section}{\numberline {2}Earlier conversation about source research}{25}{section.2}%
+\contentsline {section}{\numberline {3}AI-assisted research plan}{30}{section.3}%
+\contentsline {section}{\numberline {4}Earlier AI conversation on the current Interaction draft and a Steyerl-informed reading}{33}{section.4}%
+\contentsline {section}{\numberline {5}Externally supplied review feedback}{40}{section.5}%
+\contentsline {section}{\numberline {6}Externally supplied review feedback}{43}{section.6}%
+\contentsline {section}{\numberline {7}Externally supplied review feedback}{46}{section.7}%
+\contentsline {section}{\numberline {8}Externally supplied review feedback}{49}{section.8}%
+\contentsline {section}{\numberline {9}Codex production task}{53}{section.9}%
+\contentsline {section}{\numberline {10}Codex production task}{213}{section.10}%
+\contentsline {section}{\numberline {11}Codex production task}{273}{section.11}%
+\contentsline {section}{\numberline {12}Interaction chapter supplied for critical review}{482}{section.12}%
+\contentsline {section}{\numberline {13}Interaction chapter supplied for image-material discussion}{487}{section.13}%
+\contentsline {section}{\numberline {14}Operation 1 text supplied for overlap review}{492}{section.14}%
+\contentsline {section}{\numberline {15}Operation 2 text supplied for critical revision}{494}{section.15}%
+\contentsline {section}{\numberline {16}Operation 2 text supplied for SEO overlap revision}{496}{section.16}%
+\contentsline {section}{\numberline {17}Operation 3 text supplied for scope and balance review}{499}{section.17}%
+\contentsline {section}{\numberline {18}Physical input section with supplied correction annotations}{501}{section.18}%
+\contentsline {section}{\numberline {19}Masterarbeit kritisch bewerten}{503}{section.19}%
+\contentsline {section}{\numberline {20}Abschnitt formulieren}{520}{section.20}%
+\contentsline {section}{\numberline {21}Masterthesis Weiterformulieren}{533}{section.21}%
+\contentsline {section}{\numberline {22}Masterarbeit Abschnitt überarbeiten}{540}{section.22}%
+\contentsline {section}{\numberline {23}Technische Zuordnung formulieren}{560}{section.23}%
+\contentsline {section}{\numberline {24}Operation Abschnitt schreiben}{574}{section.24}%
+\contentsline {section}{\numberline {25}Masterarbeit Überarbeiten}{607}{section.25}%
+\contentsline {section}{\numberline {26}Feedback zur Masterarbeit}{625}{section.26}%
+\contentsline {section}{\numberline {27}Steyerl Kritik an Eingabeprozessen}{645}{section.27}%
+\contentsline {section}{\numberline {28}Formulierungen Thesis}{711}{section.28}%
+\contentsline {section}{\numberline {29}Technical metadata}{719}{section.29}%
+\contentsline {subsection}{\numberline {29.1}CDX-01 session snapshot}{719}{subsection.29.1}%
+\contentsline {subsection}{\numberline {29.2}CDX-02 session snapshot}{720}{subsection.29.2}%
+\contentsline {subsection}{\numberline {29.3}CDX-03 session snapshot}{720}{subsection.29.3}%
+\contentsline {subsection}{\numberline {29.4}Process metrics}{721}{subsection.29.4}%

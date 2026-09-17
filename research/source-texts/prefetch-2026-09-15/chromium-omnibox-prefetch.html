@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Omnibox Prefetch and Prerender for Default Search Engines</title>
+  <link rel="stylesheet" href="/_stylesheets/@docsearch/style.css">
+  <link rel="stylesheet" href="/_stylesheets/default.css">
+  <link rel="stylesheet" href="/_stylesheets/highlight.js/github.min.css">
+</head>
+
+<header>
+  <button id="mobile-nav-toggle" class="mobile-nav-toggle" type="button" aria-label="Open navigation menu" aria-controls="sidebar-left" aria-expanded="false">
+    <span class="mobile-nav-toggle-bars" aria-hidden="true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+  </button>
+  <a class="header-brand" href="/">
+    <img alt="the Chromium logo" src="/_assets/icon-chromium-96.png" width="48" height="48">
+    <h2>The Chromium Projects</h2>
+  </a>
+  <div id="search"></div>
+</header>
+
+<div id="mobile-nav-backdrop" aria-hidden="true"></div>
+
+<div id="main-wrapper">
+  <nav id="sidebar-left" class="sidebar-nav" aria-label="Site navigation">
+    <div class="mobile-nav-header">
+      <h3>Menu</h3>
+      <button id="mobile-nav-close" class="mobile-nav-close" type="button" aria-label="Close navigation menu">&times;</button>
+    </div>
+    <section class="sidebar-primary">
+      <a href="/chromium-projects">Home</a>
+      <a href="/Home">Chromium</a>
+      <a href="/chromium-os">ChromiumOS</a>
+    </section>
+    <section class="sidebar-quick-links">
+      <h4>Quick links</h4>
+      <a href="/for-testers/bug-reporting-guidelines">Report bugs</a>
+      <a href="/developers/discussion-groups">Discuss</a>
+    </section>
+    <section class="sidebar-other-sites">
+      <h4>Other sites</h4>
+      <a href="https://blog.chromium.org/">Chromium Blog</a>
+      <a href="https://developer.chrome.com/extensions">Google Chrome Extensions</a>
+    </section>
+    <section class="sidebar-license" role="complementary">
+      Except as otherwise
+      <a href="https://developers.google.com/site-policies.html#restrictions">noted</a>,
+      the content of this page is licensed under a
+      <a href="https://creativecommons.org/licenses/by/2.5/">Creative Commons Attribution 2.5 license</a>,
+      and examples are licensed under the
+      <a href="https://chromium.googlesource.com/chromium/src/+/HEAD/LICENSE">BSD License</a>.
+    </section>
+    <section class="sidebar-privacy" role="complementary">
+      <a href="https://policies.google.com/privacy">Privacy</a>
+    </section>
+    <a class="edit-this-page" href="https://edit.chromium.org/edit?repo=chromium/website/main&file=site/developers/design-documents/omnibox-prefetch-for-default-search-engines/index.md&cloneRepo=chromium/website:refs/heads/main&fullPath=chromium/site/developers/design-documents/omnibox-prefetch-for-default-search-engines/index.md">Edit</a>
+  </nav>
+  <main>
+    <div class="breadcrumbs">
+      <a href="/developers">For Developers</a> &gt;
+      <a href="/developers/design-documents">Design Documents</a> &gt;
+    </div>
+    <h1>Omnibox Prefetch and Prerender for Default Search Engines</h1>
+  <p>This doc provides a quick guideline and example of how to adapt an existing
+Chrome Default Search Engine (DSE) to prefetch and prerender likely suggestions.
+This doc also provides some key details for understanding how Chrome treats
+instructions to prefetch.</p>
+<h1>How to recommend prefetches</h1>
+<p>Chrome utilizes the DSE suggestion API to fetch a list of suggestions that are
+parsed in a fairly straightforward manner. This API fetches suggestions based on
+the current user input in the omnibox, and a new set of suggestions is fetched
+for each input change in the omnibox. Search engines specify their suggestion
+API URL in a Chromium config file, e.g., <a href="https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json;drc=453b22336b4546cf64373bfc8a7ba9ed31c24fff;l=67">Bing is configured
+here</a>.
+Note that “{searchTerms}” is the input in the omnibox, and various search
+engines have implemented query params that any search engine can send to their
+suggestion API.</p>
+<p>There are up to 5 elements in an array, none of which are required. However,
+they are parsed by position, so to provide the 5th element, all previous fields
+must be present (but can be empty). The fields are:</p>
+<ol>
+<li>
+<p>The query value (must match the user input)</p>
+</li>
+<li>
+<p>The suggestion list (an array of the suggestions text, i.e., possible autocompleted query values)</p>
+</li>
+<li>
+<p>The description list (an array of the descriptive text corresponding to to the suggestion list that is shown to the user)</p>
+</li>
+<li>
+<p>The query URL list (appears to be unused in Chrome, but needs to be the 4th item)</p>
+</li>
+<li>
+<p>A JSON object of optional values</p>
+</li>
+</ol>
+<p>We will assume that the search engine has already implemented at least the first
+and second field of the suggestion API. The third field is optional, but will be
+implemented by most search engines that implement the suggestion API. The fourth
+field must be present (in order to use the fifth field), but can be an empty
+array. The fifth field is where we will focus our attention.</p>
+<p>Assuming the provider has entries for the first 4 fields, the fifth field is a
+JSON object, which can be initially added as an empty JSON object (“{}”) (note
+there are other fields that can be added to this object, so en existing DSE
+implementation may already provide a non-empty object). The prefetch
+functionality is triggered using a new JSON field in this fifth field JSON
+object. The provider needs to determine which suggestion result should be
+prefetched using 0-indexing to represent the suggestion (often this is the first
+suggestion result, as it is at the top of the list, so the index is 0). Once the
+suggestion index is identified, the following should be added to the JSON object
+replacing &lt;prefetch index&gt; with the appropriate value:</p>
+<pre><code>&quot;google:clientdata&quot;: {
+    &quot;phi&quot;: &lt;prefetch index&gt;;
+}
+</code></pre>
+<p>An example of the entire suggestion autocomplete response is provided below. It
+will cause a prefetch for the first result in the suggestion list:</p>
+<pre><code>[
+    &quot;do&quot;,
+    [&quot;Dog&quot;,&quot;Dolphin&quot;,&quot;Dodo&quot;\],
+    [&quot;Terrestrial Mammal&quot;, &quot;Aquatic Mammal&quot;, &quot;Extinct Bird&quot;],
+    [],
+    {
+        &quot;google:clientdata&quot;: {
+            &quot;phi&quot;: 0
+        }
+
+    }
+]
+</code></pre>
+<p>This response will show the user the three results (Dog: Terrestrial mammal,
+Dolphin: Aquatic Mammal, Dodo: Extinct Bird), and it will trigger a prefetch of
+the search result for “Dog”. The prefetched result page will be fetched with the
+“Purpose: Prefetch” header. The prefetched results page (if successfully
+fetched) is stored in memory for 60 seconds, and ignores cache headers when
+being served.</p>
+<p>If a DSE wants to customize the prefetch behavior, such as to add a query
+parameter, they may submit a change list to alter the <a href="https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json?q=prepopulate%20-f:Debug%2Fgen%20f:json&amp;ss=chromium">Chromium Source Code
+(components/<wbr>search_engines/<wbr>prepopulated_engines.json)</a>
+to modify the search URL. Google has added a
+<a href="https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/prepopulated_engines.json?q=f:prepopulated%20google:prefetchSource%20-f:Debug%2Fgen&amp;ss=chromium">google:prefetchSource</a>
+parameter to the search URL (i.e., the URL adds
+“<a href="https://source.chromium.org/chromium/chromium/src/+/main:components/search_engines/template_url.cc;l=1153;drc=98898daa2e8f46ff098cea1f2e218f8a8266c838;bpv=1;bpt=1">&amp;pf=cs</a>”).
+This query parameter is sent by chromium and used by Google Search’s server to
+treat the request as a prefetch from the omnibox.</p>
+<h1>How to recommend prerenders</h1>
+<p>Similar to Prefetch, Prerender also utilizes the same format to indicate prerender indexes,
+with the key of &quot;pre&quot;:</p>
+<pre><code>&quot;google:clientdata&quot;: {
+    &quot;pre&quot;: &lt;prerender index&gt;;
+}
+</code></pre>
+<h1>Things to note about the implementation</h1>
+<p>There are various reasons that Search prefetches might not be triggered by
+Chrome or might not be served to the user:</p>
+<ul>
+<li>
+<p>The user has disabled speculative prefetching</p>
+</li>
+<li>
+<p>The user has disabled Javascript (overall of for the search provider domain)</p>
+</li>
+<li>
+<p>The suggestion engine is not the DSE</p>
+</li>
+<li>
+<p>There was a recent error when prefetching</p>
+</li>
+<li>
+<p>There were too many recent prefetches that the user did not navigate to</p>
+</li>
+<li>
+<p>A prefetch (for that search term) was issued recently, whether it can be served or not</p>
+</li>
+<li>
+<p>Chrome (or an extension) blocked or delayed the search query URL</p>
+</li>
+<li>
+<p>The prefetch did not finish (see a 2XX response code) by the time the user navigated</p>
+</li>
+<li>
+<p>The user changed language, changed DSE, cleared history, etc. before the user navigates to the prefetch</p>
+</li>
+<li>
+<p>The prefetch became stale (60 seconds is the current configuration)</p>
+</li>
+<li>
+<p>The request failed (received a non 2XX error, timed out, network error)</p>
+</li>
+<li>
+<p>Prerender obeys all constraints above</p>
+</li>
+</ul>
+<p>Additionally, if the DSE adds a prefetch parameter, and the prefetch is served,
+the address bar will show the URL the user would have otherwise navigated to
+without the prefetch. This preserves history and link sharing to prevent users
+seeing an error code or other problems when the server assumes the prefetch
+parameter means the query is low priority due to being a prefetch.</p>
+<p>Considering saving resources, Prerender would attempt to reuse the prefetched
+response instead of sending a new network request, which means the search
+engine will receive only one main resource request if it recommends prefetch
+and prerender the same term.</p>
+
+  </main>
+</div>
+<script>
+// Configure Algolia search.
+let s = document.createElement('script');
+s.src = '/_scripts/@docsearch/index.js';
+document.head.append(s);
+
+window.addEventListener('load', () => {
+  // Add the Algolia search widget.
+  docsearch({
+    container: '#search',
+    appId: 'RZDQYCCABX',
+    apiKey: '98b0eabafeb13fe3e1af693d5713d8b4',
+    indexName: 'chromium'
+  });
+});
+
+// Configure Google Analytics v4
+s = document.createElement('script');
+s.src = 'https://www.googletagmanager.com/gtag/js?id=G-24XP4PG02H'
+s.async = true;
+document.head.append(s)
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-24XP4PG02H');
+
+// Configure consent bar.
+s = document.createElement('script');
+s.src = 'https://www.gstatic.com/brandstudio/kato/cookie_choice_component/cookie_consent_bar.v3.js'
+s.dataset.autoloadCookieConsentBar = true;
+s.dataset.autoloadCookieContentBarIntlCode = '';
+document.head.append(s);
+
+// Configure the mobile navigation drawer.
+// Keep in sync with $mobile-nav-breakpoint in default.scss.
+const mobileNavBreakpoint = 768;
+const mobileNavToggle = document.getElementById('mobile-nav-toggle');
+const mobileNav = document.getElementById('sidebar-left');
+const mobileNavClose = document.getElementById('mobile-nav-close');
+const mobileNavBackdrop = document.getElementById('mobile-nav-backdrop');
+
+if (mobileNavToggle && mobileNav && mobileNavClose && mobileNavBackdrop) {
+  const setMobileNavState = (isOpen) => {
+    mobileNavToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+    document.body.classList.toggle('mobile-nav-open', isOpen);
+  };
+
+  const closeMobileNav = (returnFocus = false) => {
+    setMobileNavState(false);
+    if (returnFocus) {
+      mobileNavToggle.focus();
+    }
+  };
+
+  const openMobileNav = () => {
+    setMobileNavState(true);
+    mobileNav.scrollTop = 0;
+    mobileNavClose.focus();
+  };
+
+  mobileNavToggle.addEventListener('click', () => {
+    if (document.body.classList.contains('mobile-nav-open')) {
+      closeMobileNav();
+    } else {
+      openMobileNav();
+    }
+  });
+
+  mobileNavClose.addEventListener('click', () => closeMobileNav(true));
+  mobileNavBackdrop.addEventListener('click', () => closeMobileNav(true));
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      closeMobileNav(true);
+    }
+  });
+
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > mobileNavBreakpoint) {
+      closeMobileNav();
+    }
+  });
+
+  mobileNav.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', closeMobileNav);
+  });
+}</script>

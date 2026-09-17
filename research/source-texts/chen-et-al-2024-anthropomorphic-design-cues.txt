@@ -1,0 +1,1231 @@
+Effects of Anthropomorphic Design Cues of Chatbots on
+Users’ Perception and Visual Behaviors
+Citation for published version (APA):
+Chen, J., Guo, F., Ren, Z., Li, M., & Ham, J. (2024). Effects of Anthropomorphic Design Cues of Chatbots on
+Users’ Perception and Visual Behaviors. International Journal of Human-Computer Interaction, 40(14), 3636-
+3654. https://doi.org/10.1080/10447318.2023.2193514
+
+
+
+
+Document license:
+TAVERNE
+
+
+DOI:
+10.1080/10447318.2023.2193514
+
+
+Document status and date:
+Published: 01/01/2024
+
+
+Document Version:
+Publisher’s PDF, also known as Version of Record (includes final page, issue and volume numbers)
+
+
+Please check the document version of this publication:
+• A submitted manuscript is the version of the article upon submission and before peer-review. There can be
+important differences between the submitted version and the official published version of record. People
+interested in the research are advised to contact the author for the final version of the publication, or visit the
+DOI to the publisher's website.
+• The final author version and the galley proof are versions of the publication after peer review.
+• The final published version features the final layout of the paper including the volume, issue and page
+numbers.
+Link to publication
+
+
+
+
+General rights
+Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners
+and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+
+       • Users may download and print one copy of any publication from the public portal for the purpose of private study or research.
+       • You may not further distribute the material or use it for any profit-making activity or commercial gain
+       • You may freely distribute the URL identifying the publication in the public portal.
+
+If the publication is distributed under the terms of Article 25fa of the Dutch Copyright Act, indicated by the “Taverne” license above, please
+follow below link for the End User Agreement:
+www.tue.nl/taverne
+
+Take down policy
+If you believe that this document breaches copyright please contact us at:
+openaccess@tue.nl
+providing details and we will investigate your claim.
+
+
+
+
+Download date: 17. Sep. 2026
+      International Journal of Human–Computer Interaction
+
+
+
+
+      ISSN: (Print) (Online) Journal homepage: www.tandfonline.com/journals/hihc20
+
+
+
+
+Effects of Anthropomorphic Design Cues of
+Chatbots on Users’ Perception and Visual
+Behaviors
+
+Jiahao Chen, Fu Guo, Zenggen Ren, Mingming Li & Jaap Ham
+
+To cite this article: Jiahao Chen, Fu Guo, Zenggen Ren, Mingming Li & Jaap Ham (2024)
+Effects of Anthropomorphic Design Cues of Chatbots on Users’ Perception and Visual
+Behaviors, International Journal of Human–Computer Interaction, 40:14, 3636-3654, DOI:
+10.1080/10447318.2023.2193514
+
+To link to this article: https://doi.org/10.1080/10447318.2023.2193514
+
+
+
+
+       Published online: 05 Apr 2023.
+
+
+
+       Submit your article to this journal
+
+
+
+       Article views: 1608
+
+
+
+       View related articles
+
+
+
+       View Crossmark data
+
+
+
+       Citing articles: 9 View citing articles
+
+
+
+
+                      Full Terms & Conditions of access and use can be found at
+             https://www.tandfonline.com/action/journalInformation?journalCode=hihc20
+INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION
+2024, VOL. 40, NO. 14, 3636–3654
+https://doi.org/10.1080/10447318.2023.2193514
+
+
+
+
+Effects of Anthropomorphic Design Cues of Chatbots on Users’ Perception and
+Visual Behaviors
+Jiahao Chena            , Fu Guoa     , Zenggen Rena, Mingming Lia, and Jaap Hamb
+a
+ Department of Industrial Engineering, School of Business Administration, Northeastern University, Shenyang, China; bResearch Group of
+Human Technology Interaction, Department of Industrial Engineering and Innovation Sciences, Eindhoven University of Technology,
+Eindhoven, The Netherlands
+
+
+    ABSTRACT                                                                                                             KEYWORDS
+    Measurement of users’ perception and visual behaviors to anthropomorphic design cues of chat-                        Chatbot appearance;
+    bots can improve our understanding of chatbots and potentially optimize chatbot design.                              conversational style; user
+    However, as two typical and basic features, how chatbot appearances and conversational styles                        perception; visual behaviors;
+                                                                                                                         eye-tracking
+    jointly affect users’ perception and visual behaviors remains unclear. Therefore, this study con-
+    ducted an eye-tracking experiment to explore users’ perception and visual behaviors. Results indi-
+    cate that anthropomorphic appearances and human-like conversational styles jointly increased
+    users’ perception of chatbots’ social presence, trust in chatbots, and satisfaction with chatbots. In
+    contrast, on users’ visual behaviors, such a joint effect was not found, although chatbots with
+    higher anthropomorphic appearances and human-like conversational styles triggered more fixation
+    counts and longer dwell time. These findings suggest that anthropomorphic appearance and
+    human-like conversational style can improve users’ perception and attract more visual attention to
+    chatbots. These findings provide theoretical contributions and practical implications for relevant
+    researchers and designers.
+
+
+
+
+1. Introduction                                                               like they are interacting with a real person rather than with
+                                                                              a machine (Go & Sundar, 2019). Additionally, these
+With the rapid development and implementation of artificial
+                                                                              anthropomorphic design cues are able to enhance the emo-
+intelligence (AI) technology, interactive chatbots are widely
+                                                                              tional appeal of the website and increase user satisfaction
+used on many e-commerce websites. Since chatbots are able
+                                                                              (Etemad-Sajadi, 2016; Wang et al., 2007). However, Nowak
+to provide 7/24-h service for dealing with customers’ ques-
+                                                                              (2004) argued that low anthropomorphic images of chatbots
+tions, they can contribute to increasing engagement and
+reducing the response time in the conversation (Ashfaq                        are considered more likable and credible than high
+et al., 2020). Additionally, the application of chatbots leads                anthropomorphic images. Ciechanowski et al. (2019) mani-
+to higher customer satisfaction, lower costs, positive product                fested that chatbots with too many anthropomorphic design
+attitudes, and greater purchase intentions (Chung et al.,                     cues may lead to an uncanny valley effect (a feeling of eeri-
+2020; Xie et al., 2022).                                                      ness or revulsion towards an artificial social agent (Song &
+    Chatbots can interact with users, for example with cus-                   Shin, 2022)), especially for embodied agents. Still, existing
+tomers on websites through a chat window. During such                         research has found that anthropomorphic cues can affect
+interactions, the design cues of chatbots play crucial roles in               users’ perception without making which level of anthropo-
+users’ perception and experience. Although the chatbot is a                   morphism had what effect.
+computer-based system that interacts with users in natural                       Users’ perception of chatbots is mainly affected by the
+language, they are often designed with anthropomorphic                        visual appearance and conversational style. That is, earlier
+styles to make users feel that the interaction with the chat-                 research suggested that anthropomorphic chatbots can posi-
+bot is more real and natural (Følstad & Brandtzaeg, 2020).                    tively affect perceived social presence (Liebrecht et al., 2020),
+An artificial social agent’s (such as a chatbot’s) level of                   perceived trust (Seitz et al., 2022), and satisfaction (Araujo,
+anthropomorphism is defined as “the extent to which an                        2018). However, earlier studies primarily investigated separ-
+agent acts and behaves like a human” (Meyer et al., 2016).                    ately the effects of visual appearances or the effects of con-
+Anthropomorphic cues of chatbots include visual appearan-                     versational styles of chatbots on users’ perception. No
+ces and conversational styles (Araujo, 2018; Go & Sundar,                     research considers the joint effect of these two factors, even
+2019). Users interacting with chatbots with anthropo-                         though both of them are essential elements of chatbots.
+morphic avatars and conversational styles may feel more                       Moreover, users’ perception is related to intrinsic and
+
+CONTACT Fu Guo       fguo@mail.neu.edu.cn       Department of Industrial Engineering, School of Business Administration, Northeastern University, no. 195,
+Chuangxin Road, Hunnan District, Shenyang 110167, China
+ß 2023 Taylor & Francis Group, LLC
+                                                                    INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION         3637
+
+
+unconscious information processing, which cannot be accur-         (Tsai et al., 2021), the user’s trust in the chatbot (Mostafa &
+ately measured only through the method of self-reporting           Kasamani, 2022), and the user’s satisfaction with the chatbot
+(Luan et al., 2016). Various factors, such as peer pressure,       (Klein & Martinez, 2022). More specifically, social presence
+time pressure, motivation or even unawareness, may lead to         can be described as a psychological state that the intelligent
+the users’ unwillingness or inability to express their intrinsic   agents are experienced as social actors (e.g., a real person)
+thoughts (Guo & Zhang, 2020). In contrast, psychophysio-           (Lee, 2004). Social presence is increased when users are
+logical measures (Spelt et al., 2019), such as eye-tracking        exposed to agents with human-like features (Oh et al.,
+and electroencephalography (EEG), can observe users’               2018). Correspondingly, Qiu and Benbasat (2009) argued
+physiological responses and bridge users’ intrinsic emotional      that anthropomorphic appearances of chatbots can create a
+responses and subjective perception. In line with this, the        feeling of social presence. Furthermore, trust can be argued
+current study employed eye-tracking combined with a sub-           to be essential for human-chatbot interaction. A crucial rea-
+jective evaluation to explore the joint effect of anthropo-        son for this is that users’ trust in the chatbot will affect the
+morphic appearances and conversational styles of chatbots          user’s behavioral intentions (Benbasat & Wang, 2005).
+on users’ perception and visual behavior.                          Indeed, Liebrecht et al. (2021) showed that chatbots with
+    In the human-computer interaction domain, the eye-             anthropomorphic design cues make users experience the
+tracking method has been widely used to evaluate website           interaction as more natural and increase the user’s trust in
+design and interface usability (Cao, Ding, et al., 2021; Wang      the chatbot. Finally, user satisfaction is typically considered
+et al., 2021). Unfortunately, despite the importance in this       as the user’s attitudes (i.e., the user’s evaluation of the chat-
+field, an eye-tracking method has not been adopted to assess       bot on a dimension from negative to positive) about the
+chatbot design. Hence, the current study investigated the          chatbot (Ashfaq et al., 2020). Tinwell (2009) indicated that
+effects of anthropomorphic design cues of chatbots on users’       anthropomorphic features of chatbots have positive effects
+perception and visual behaviors by adopting the eye-tracking       on user satisfaction.
+method.                                                                Earlier research explored users’ perception of the chatbot
+                                                                   (i.e., social presence, trust, and satisfaction) through the self-
+                                                                   report method (Ahn et al., 2022; Jiang et al., 2022; Seitz
+1.1. Users’ perception of anthropomorphic design cues
+                                                                   et al., 2022). Informative as self-report measures may be,
+of chatbots
+                                                                   research also suggested that users suffer from certain disad-
+According to the media equation theory, people react to            vantages (Paulhus & Vazire, 2007). For example, earlier
+artificial agents in the same way as to other people, and this     research showed that self-report measures can be biased by
+response is inevitable and automatic (Reeves & Nass, 1996).        certain cognitive processes of the user, that is, people under
+Additionally, the Computers Are Social Actors Paradigm             certain circumstances report their inner states to be different
+(CASA) (Nass et al., 1996) suggested that users are more           from how they internally perceive them (Martin & Morich,
+likely to self-disclose when computers follow the rules of         2011). Therefore, in the current research, we argue that a
+human conversation. Correspondingly, chatbots could also           more objective measure (eye-tracking method) should be
+make users feel like they are interacting with a human.            employed to reflect users’ intrinsic perception. Users’ eyes
+Previous research indicated that agents with higher human-         don’t lie and eye movements will manifest users’ visual
+likeness provide more social cues and then lead to more            behaviors and areas of attention (Guo et al., 2016). In add-
+social responses (Nass & Moon, 2000). That is, the more            ition, vision is a significant sense to capture users’ percep-
+computers show human-like characteristics, the more social         tion of the interface design (Guo et al., 2022). Users’ visual
+responses will be elicited (Nass & Moon, 2000). This               behaviors on the interface could be reflected by some eye-
+research is also supported by the social agency theory             tracking metrics such as fixation count, fixation duration,
+(Wiseman et al., 2012) that anthropomorphic cues could             and dwell time.
+trigger users positive social responses. When users interact           One of the most common manipulations of chatbots
+with an agent that exhibits anthropomorphic visual cues or         design is to use anthropomorphic appearances (Go &
+language styles, these features excite users to expect their       Sundar, 2019; Xu et al., 2022). Anthropomorphic appearan-
+interaction as a human-human interaction and lead to               ces in chatbots are often designed with human pictures or
+humanness perceptions (Jackson & Williams, 2021).                  animations to increase a feeling of humanness (Qiu &
+Therefore, anthropomorphic cues play a crucial part in             Benbasat, 2009). As the visual cue, anthropomorphic appear-
+designing human-like chatbots for natural interaction.             ances could bring users a sense of sociality to the chatbot
+Indeed, earlier research has suggested that different manipu-      (Qiu & Benbasat, 2009). Evidence suggested that various
+lations of anthropomorphic cues can affect users’ perception       types of appearances used in computer interfaces can have
+of chatbots (Go & Sundar, 2019). However, although earlier         different kinds of effects on users’ perception during the
+research found that anthropomorphic chatbots have effects          process of human-computer interaction (Nowak, 2004). Due
+on users’ perception, it’s still unclear which level of            to the finding that users generally respond more positively
+anthropomorphism had what effect.                                  to chatbots with anthropomorphic characters (Chaves &
+    In the current research, we focus on the influence of          Gerosa, 2021; Rhim et al., 2022), many studies have paid
+anthropomorphic cues of chatbots on three elements of              attention to the anthropomorphism of chatbots. That is,
+chatbot perception: perceived social presence of the chatbot       Araujo (2018) found that emotional connections between
+3638     J. CHEN ET AL.
+
+
+user and chatbot can be enhanced after interacting with a          have been found to affect users’ perception of chatbots.
+chatbot that exhibits human-like cues. Further, female             Earlier research pointed out that high anthropomorphic
+anthropomorphic chatbot design yielded more positive               characteristics may increase user expectations, which can
+effects on humanness and warmth than male chatbot design           result in disappointment when those high expectations are
+(Borau et al., 2021; Pawlik, 2022). Also, Hassanein and Head       not satisfied (Mimoun et al., 2012). In addition, Baylor and
+(2007) claimed that chatbots using human pictures or ani-          Rosenberg-Kima (2006) argued that empathic text messages
+mations as the appearance would increase perceived social          presented by the agent contribute to reducing frustration
+presence of the chatbot. And likewise, Chattaraman et al.          since people can attribute their frustration to technology
+(2014) presented evidence that customers expressed more            rather than themselves.
+trust and satisfaction about websites with human-like                 However, to the best of our knowledge, although studied
+appearances. However, Nowak (2004) found that low                  separately, earlier research has not investigated how these
+anthropomorphic appearances seem to be more likable and            characteristics (appearances and conversational styles) affects
+popular than high anthropomorphic appearances. A possible          users’ perception together. It is conceivable that chatbots
+reason for this finding might be that users’ perception of the     with anthropomorphic appearances and mechanical conver-
+appearance does not merely depend on the level of                  sational styles may bring people less satisfaction (Egner,
+anthropomorphism, but rather that some other extrinsic fac-        2007). A feeling of incongruity may cause a less pleasant
+tors and intrinsic cognition of users may also affect this rela-   experience when chatbots partly show anthropomorphic fea-
+tionship. Therefore, it seems that users’ perception of the        tures and partly do not. This incongruity also suggests an
+anthropomorphic appearances is complicated and diverse,            expectancy violation effect that one kind of high anthropo-
+and our perspective on this human perception can be                morphic cue may raise users’ expectations for humanness to
+enriched by not only measuring through the self-report             chatbots, but these expectations will be violated and even
+method.                                                            result in users less favorable attitudes and lower behavioral
+   Apart from chatbot appearances, conversational styles are       intentions when a chatbot also show another kind of low
+also a crucial cue used in chatbots design. As a special ver-      anthropomorphic cue (Go & Sundar, 2019). Additionally, in
+bal cue in chatbot communication, conversational style             line with the literature on cognitive consistency principle,
+refers to the linguistic variation utilized in the message that    inconsistent cues (e.g., the pairing of a human face with a
+can induce different social responses (Feine et al., 2019). For    humanoid voice or a human voice with a humanoid face)
+example, Li and Wang (2023) suggested that a chatbot with          will lead to longer cognitive processing time and less trust
+informal (vs. formal) conversational style could increase          compared to consistent cues (the pairing of a human face
+continuance intention and improve brand attitude.                  with a human voice or a humanoid face with a humanoid
+Conversational styles of chatbots mainly include human-like        voice) (Gong & Nass, 2007). Therefore, as two crucial fea-
+styles and mechanical styles and the difference lies in the        tures in the chatbot, we argue that the interaction effect
+anthropomorphic degree of conversational language                  between visual appearances and conversational styles on
+(Gnewuch et al., 2018). Existing research has shown that           users’ perception and attitudes to chatbots deserves to be
+conversational styles of chatbots have effects on users’ atti-     investigated considering the wide usage of chatbots.
+tudes, personalization, and perception (Liebrecht & van            Additionally, extant research primarily employed the self-
+Hooijdonk, 2020). Essentially, human-like conversational           reported method to measure user experience, which has the
+styles could evoke a human schema (Zhou et al., 2019),             disadvantage of being fundamentally subjective and not clear
+which in turn can affect users’ perception and evaluation of       about users’ intrinsic perception. Hence, a more objective
+the chatbot. Chatbots with human-like language styles (e.g.,       measurement method of user experiences seems essential to
+“May I help you?”) displayed in the text dialogue can trigger      explore the interactive effects of these characters on users’
+the user to perceive the chatbot as an anthropomorphic             perception.
+agent and in turn improve users’ perception of the chatbot
+(Liebrecht et al., 2021). Indeed, several studies showed that
+                                                                   1.2. Visual behaviors and eye-tracking metrics
+conversational styles have effects on users’ perception.
+Specifically, Liebrecht et al. (2020) found that human-like        In recent years, the eye-tracking technique has been widely
+conversational styles can yield a higher social presence and       used to reveal users’ cognitive processes and behavioral
+satisfaction with the chatbot. Araujo (2018) showed that           intentions (Bialkova et al., 2020; Luan et al., 2016). As an
+users were more likely to interact with chatbots that used         objective measurement, eye tracking metrics provide useful
+human-like conversational styles. Also, compared to mech-          data for the interface design (Wang et al., 2014), preference
+anical styles, chatbots with human-like conversational styles      evaluation for humaniod robot appearance (Li, Guo, Fang,
+can increase users’ perceived trust and satisfaction               et al., 2022), and visual perception (Jarodzka et al., 2021).
+(Muralidharan et al., 2014). Concludingly, chatbots with           According to the eye-mind hypothesis (Just & Carpenter,
+human-like conversational styles can enhance users’ percep-        1976), people are thinking and perceiving the stimuli
+tion of social presence of the chatbot, trust in the chatbot,      when they read sentences or view images, where the cog-
+and satisfaction with the chatbot.                                 nitive processes could be recognized by eye-tracking met-
+   As shown by various (though separate) studies, both             rics. In addition, eye-tracking metrics also can be used to
+anthropomorphic appearances and conversational styles              reveal users’ perception and cognitive processes through
+                                                                   INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION        3639
+
+
+visual behaviors (Pei et al., 2022). When users interact          perception and visual behaviors. Besides, a more objective
+with chatbots on the website, their visual behaviors to the       eye-tracking method is necessary to reveal users’ intrinsic
+anthropomorphic design cues of chatbots will be reflected         perception of the chatbot. Grounded on the aforementioned
+in eye-tracking metrics.                                          findings, this study aimed to explore how anthropomorphic
+   The eye-tracking method obtains great popularity in            appearances and conversational styles of chatbots jointly
+exploring users’ perception and attitudes. Wang et al. (2014)     affect users’ perception and visual behaviors. The combined
+manifested that product images with a human face generate         method of the subjective evaluation and an eye-tracking
+much appeal and social presence, which in turn leads to           method was used to reflect users’ perception and visual
+positivie attitudes. Li, Guo, Ren, et al. (2022) showed that      behaviors. Specifically, the following research questions were
+positive appearances of humanoid robots lead to short fixa-       proposed:
+tions than neutral or negative appearances, that is, more vis-       RQ1: How do anthropomorphic appearances and conversational
+ual attention is allocated to neutral or negative appearances        styles jointly affect users’ perception of the chatbot?
+of humanoid robots. Boardman et al. (2022) indicated that
+rotating banners in the visual hierarchy of retail homepages         RQ2: How do anthropomorphic appearances and conversational
+can attract more users’ attention and cognitive resources.           styles jointly affect users’ visual behaviors?
+Pei et al. (2022) argued that dynamic images are better than
+static images for users’ experience. Several studies have
+applied an eye-tracking method to explore users’ cognition        2. Methodology
+and visual behaviors in different scenarios. However, no          This study employed a 3 (appearance anthropomorphism:
+research has yet investigated users’ perception and visual        high anthropomorphic vs. medium anthropomorphic vs. low
+behaviors in the chatbot design, which directly causes the        anthropomorphic)  2 (conversational style: human-like vs.
+gap between users’ visual perception and the chatbot design.      mechanical) within-subject experiment. An eye-tracking
+   Among eye-tracking metrics, fixation count, fixation dur-      experiment was conducted to explore users’ visual behaviors.
+ation, and dwell time are the main eye-tracking metrics           Users’ perception was collected with the subjective evalu-
+widely used to reflect users’ perception and visual informa-      ation during the experiment.
+tion. Fixation count refers to the number of fixations in the
+area of interest (AOI), which can explain the total amount
+of visual attention (Behe et al., 2015) or user preference        2.1. Stimuli
+(Glaholt et al., 2009). Average fixation duration is the aver-
+                                                                  The prototype of chatbots on the bank website was con-
+age duration of each fixation (Holmqvist et al., 2011). The
+                                                                  structed for the experiment since chatbots often provide
+longer average fixation duration indicates more occupation        consulting services on many online bank websites (Lui &
+of time in the area and deeper cognitive processing (Unema        Lamb, 2018). The chatbot was designed as a regular cus-
+et al., 2005). In addition, longer average fixation duration      tomer service assistant in a fictitious bank website named
+may imply that the area is more attractive, or it represents      XYZ, providing a short dialogue to user inquiries. To avoid
+more difficulties in information processing (Jacob & Karn,        the effect of the dialogue contents on the purpose of this
+2003). Dwell time is the sum time of fixation and saccade.        experiment, the dialogue topic was limited to opening hours
+Longer dwell time means higher perceived experience and           about the bank.
+attraction (Guo et al., 2016). This study attempted to use           The chatbot was designed for six conditions based on the
+these eye-tracking metrics to analyze users’ visual behaviors     level of anthropomorphic appearances and conversational
+and explore the potential cognitive mechanism to anthropo-        styles. Following earlier research (Appel et al., 2012; Araujo,
+morphic design cues on the chatbot.                               2018; Go & Sundar, 2019), females are more common used
+                                                                  as the visual appearance in chatbot research. Additionally,
+1.3. Aim of this study                                            earlier research showed that chatbot gender has significant
+                                                                  impact on users’ perception (Pawlik, 2022). Therefore, to
+Briefly, anthropomorphic appearances and conversational           avoid gender effects, high anthropomorphic appearances were
+styles of chatbots are two crucial features in human-chatbot      designed with a real woman, and medium anthropomorphic
+interaction (Go & Sundar, 2019). Existing research separ-         appearances were designed with an animated woman, while
+ately examined anthropomorphic appearances or conversa-           low anthropomorphic appearances were designed with a
+tional styles of chatbots on users’ attitudes and behavioral      “speech bubble” in the present study. Conversational styles
+intentions with the self-reported method (Araujo, 2018; Roy       were designed with the human-like style (e.g., hello, may I
+& Naidoo, 2021; Xu et al., 2022). Additionally, little research   help you, and you are welcome) and the mechanical style
+has considered these two features together, and none has          (e.g., start and quit). To better measure users’ perception and
+even used more objective measures, such as an eye-tracking        visual behaviors, 3 similar prototypes for each level of
+method. Previous research contributing to exploring users’        anthropomorphic appearances were designed. Hence, there
+subjective perception of anthropomorphic appearances and          are 18 different stimuli in this experiment (Appendix A).
+conversational styles reaches limited consensus (Pawlik,          Additionally, these chatbot appearances were designed for
+2022; Schuetzler et al., 2020). However, there still exists a     females to avoid gender bias (Pawlik, 2022). An overview of
+critical research gap in exploring the joint effect on users’     the different prototypes of chatbots is shown in Table 1.
+3640       J. CHEN ET AL.
+
+
+Table 1. Experiment prototypes.
+Number         Anthropomorphic appearances   Conversational styles    Number        Anthropomorphic appearances   Conversational styles
+1              High #1                       Human-like                  10         High #2                       Mechanical
+2              Medium #1                     Human-like                  11         Medium #2                     Mechanical
+3              Low #1                        Human-like                  12         Low #2                        Mechanical
+4              High #1                       Mechanical                  13         High #3                       Human-like
+5              Medium #1                     Mechanical                  14         Medium #3                     Human-like
+6              Low #1                        Mechanical                  15         Low #3                        Human-like
+7              High #2                       Human-like                  16         High #3                       Mechanical
+8              Medium #2                     Human-like                  17         Medium #3                     Mechanical
+9              Low #2                        Human-like                  18         Low #3                        Mechanical
+
+
+
+
+    Before the formal experiment, a pre-study with 27 partic-        with normal or corrected-to-normal vision without astigma-
+ipants aged from 22 to 28 (M ¼ 25.01, SD ¼ 1.49) was                 tism. After finishing the experiment, each participant would
+conducted to check the validity of the manipulation. This            receive 20 RMB as compensation for voluntary participation.
+pre-study used a 3 (appearance anthropomorphism: high                The study was approved by the Ethics Review Committee of
+anthropomorphic vs. medium anthropomorphic vs. low                   the local university.
+anthropomorphic) within-subject design (repeated measures
+design). For chatbot appearances manipulation check, the
+perceived anthropomorphism was evaluated with items on a             2.3. Instruments
+7-point Likert scale from Nowak and Rauh (2005) (e.g., “the          The SMI-iView XTM RED eye-tracking system with an
+chatbot looks very human,” “the chatbot looks very real-             accuracy of 0.4 was used to record users’ visual movements
+istic”). Results of repeat-measures ANOVAs showed that               at a sampling rate of 500 Hz. This system is composed of a
+there were significant differences [F(2, 78) ¼ 113.464,              recording computer, a 20-inch LCD monitor with a reso-
+p < 0.001] in different levels of anthropomorphic appearan-          lution of 1680  1050 pixels, and two remote infra-red
+ces with high (M ¼ 5.07, SD ¼ 0.78), medium (M ¼ 4.05,               diodes placed at the bottom. BeGaze 3.6 software was used
+SD ¼ 1.07), and low levels (M ¼ 1.56, SD ¼ 0.77). Besides,           to define each AOI and analyze eye-tracking metrics.
+the difference [F(2, 78) ¼ 0.566, p ¼ 0.570] between three
+images in the high level of anthropomorphic appearances,
+the difference [F(2, 78) ¼ 0.095, p ¼ 0.910] between three           2.4. Procedure
+images in the medium level of anthropomorphic appearan-
+                                                                     The experiment was conducted in a human factor laboratory
+ces and the difference [F(2, 78) ¼ 0.662, p ¼ 0.519] between
+                                                                     with sound insulation, reasonable lighting, and suitable tem-
+three images in the low level of anthropomorphic appearan-
+                                                                     perature. Each participant was instructed about the experi-
+ces were not significant. For conversational styles manipula-
+                                                                     ment purposes, procedures, and signed an informed consent
+tion check, perceived conversational styles were evaluated
+with items on a 5-point Likert scale from Bartneck et al.            form voluntarily before the formal experiment. Additionally,
+(2009) (e.g., “my impression of the chatbot’s language felt          participants were required to imagine the scenario that they
+humanlike,” “my impression of the chatbot’s language felt            ask the chatbot on the website of ABC bank about the open-
+alive”). The results showed that there were significant differ-      ing hours of the workday. To collect quantitative and quali-
+ences [t(52) ¼ 6.899, p < 0.001] in two different conversa-          tative data, two main steps were included in the experiment.
+tional styles with human-like style (M ¼ 3.64, SD ¼ 1.07) and        Before the experiment task, a calibration procedure was per-
+mechanical style (M ¼ 1.76, SD ¼ 0.93). Therefore, manipula-         formed to control the error of eye position within 0.5 . In
+tion checks for anthropomorphic appearances and conversa-            the first step, each participant freely viewed the chatbot
+tional styles were valid.                                            without time limitations. In the second step, each participant
+                                                                     was asked to complete a subjective evaluation to provide
+                                                                     their intuitive perception of the chatbot. An LCD screen
+2.2. Participants                                                    would automatically display the next chatbot after partici-
+A priori analysis using G-power 3.1 manifested that a min-           pants completed the evaluation in a self-determined time.
+imal sample size of 72 would be required to detect a large           To counter order effects, all stimuli of chatbots were pre-
+effect size (f ¼ 0.25, a ¼ 0.05, 1  b ¼ 0.90) (Cohen, 1988).        sented in random throughout the experiment. The flow dia-
+To obtain more valid data, a total of 80 university partici-         gram of the eye-tracking experiment was shown in Figure 1.
+pants were recruited through campus posters. Data from 4             The whole experiment will not end until participants have
+out of 80 participants were excluded due to the low eye-             viewed and evaluated all chatbots. For each participant, the
+tracking accuracy. Therefore, there were 76 valid partici-           total time of the procedure was approximately 25 min.
+pants, including 36 males and 40 females. Participants’ age
+ranged from 21 to 30 (M ¼ 24.33, SD ¼ 2.02). Various
+                                                                     2.5. Measurements and eye-tracking metrics
+majors were represented across the participant pool, includ-
+ing business, engineering, accounting, marketing, and                In this study, we primarily observed users’ subjective percep-
+finance. All participants were in good physical condition,           tion and visual behaviors when freely viewing chatbots. The
+                                                                 INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION         3641
+
+
+
+
+Figure 1. Flow diagram of eye-tracking experiment.
+
+
+
+                                                                3. Results
+                                                                The subjective evaluation and eye-tracking data were proc-
+                                                                essed by within-subject repeated-measures ANOVAs, cor-
+                                                                rected with Greenhouse-Geisser correction by SPSS 25.0.
+                                                                The distribution will be transformed to a normal level if the
+                                                                raw data is skewed (Amin et al., 2019). Repeated-measures
+                                                                ANOVAs for eye-tracking metrics were conducted on the
+                                                                AOIs of the chatbot interface, chatbot appearances, and dia-
+                                                                logue contents, respectively. An overview of the results was
+                                                                displayed in Table 2. This table shows that both main effects
+                                                                and interaction effects between the chatbot appearances and
+                                                                conversational styles on users’ perception of social presence,
+                                                                users’ trust, and users’ satisfaction were found. While only
+                                                                some significant main effects but no interaction effect were
+                                                                found on eye-tracking metrics.
+
+
+                                                                3.1. Subjective evaluation results
+                                                                Repeat-measures ANOVAs were conducted on users’ per-
+                                                                ception of social presence, users’ trust, and users’ satisfaction
+                                                                with anthropomorphic chatbot appearances (high vs.
+                                                                medium vs. low) and conversational styles (human-like vs.
+                                                                mechanical), respectively. The mean perceived social pres-
+                                                                ence, perceived trust, and satisfaction (and their standard
+Figure 2. Definition of each AOI on the chatbot interface.      deviations) in different conditions were shown in Table 3.
+                                                                   The results of repeated-measures ANOVA indicated sig-
+evaluation scale consisted of three constructs: perceived       nificant main effects of the chatbot appearances [F(1.605,
+social presence, perceived trust, and satisfaction. All meas-   121.143) ¼ 214.619, p < 0.001, gp2 ¼ 0.741] and conversa-
+urements were assessed on a 7-point Likert scale. Perceived     tional styles [F(1, 75) ¼ 849.040, p < 0.001, gp2 ¼ 0.919] on
+social presence was measured with items from Gefen and          perceived social presence. The interaction effect between the
+Straub (2003). Perceived trust was measured with items          chatbot appearances and conversational styles was also
+from Lee and See (2004). Satisfaction was measured with         found [F(1.821, 136.574) ¼ 16.841, p < 0.001, gp2 ¼ 0.183].
+items from Oliver (1980).                                       Simple effect analyses showed that in all conditions of chat-
+   To analyze eye-tracking metrics, AOIs were defined for       bot appearances, perceived social presence scores of chatbot
+each trial. AOIs include the area of chatbot appearances, the   with human-like conversational styles were higher than that
+area of dialogue contents, and the area of the whole chatbot    in chatbot with mechanical conversational styles. Similarly,
+interface. Figure 2 showed details about AOIs on the chatbot    in different kinds of conversational styles, perceived social
+interface. To avoid the effect of AOI size on eye-tracking      presence scores were highest at high anthropomorphic
+metrics, these metrics were standardized in the same size by    appearances, followed by medium anthropomorphic appear-
+dividing each AOI coverage (the percentage of AOI size in       ances, and lowest at low anthropomorphic appearances, as
+the whole size of stimuli) (Guo et al., 2010; Li, Guo, Ren,     shown in Figure 3. Furthermore, in the condition of high
+et al., 2022).                                                  anthropomorphic appearance, users perceived a higher social
+3642        J. CHEN ET AL.
+
+
+Table 2. An overview of the measured effects.
+Measured outcomes                                                                                     Effects                            F           p          gp2
+Subjective       Perceived social presence                                          Chatbot appearances                              214.619      0.000        0.741
+  outcomes                                                                          Conversational styles                            849.040      0.000        0.919
+                                                                                    Chatbot appearances  conversational styles       16.841      0.000        0.183
+                 Perceived trust                                                    Chatbot appearances                               73.012      0.000        0.493
+                                                                                    Conversational styles                            243.636      0.000        0.765
+                                                                                    Chatbot appearances  conversational styles       22.744      0.000        0.233
+                 Satisfaction                                                       Chatbot appearances                              156.091      0.000        0.675
+                                                                                    Conversational styles                            513.608      0.000        0.873
+                                                                                    Chatbot appearances  conversational styles       30..413     0.000        0.289
+Eye-tracking     Fixation count on the area of the whole chatbot interface          Chatbot appearances                                7.423      0.001        0.090
+   outcomes                                                                         Conversational styles                             72.494      0.000        0.492
+                                                                                    Chatbot appearances  conversational styles        0.350      0.705        0.005
+                 Average fixation duration on the area of the whole chatbot         Chatbot appearances                                0.887      0.414        0.012
+                   interface                                                        Conversational styles                             27.561      0.000        0.269
+                                                                                    Chatbot appearances  conversational styles        0.089      0.915        0.001
+                 Dwell time on the area of the whole chatbot interface              Chatbot appearances                               10.981      0.000        0.128
+                                                                                    Conversational styles                             74.539      0.000        0.498
+                                                                                    Chatbot appearances  conversational styles        0.185      0.831        0.002
+                 Fixation count on the area of chatbot appearance                   Chatbot appearances                               56.436      0.000        0.429
+                                                                                    Conversational styles                              0.609      0.437        0.008
+                                                                                    Chatbot appearances  conversational styles        0.126      0.882        0.002
+                 Average fixation duration on the area of chatbot appearance        Chatbot appearances                               42.867      0.000        0.364
+                                                                                    Conversational styles                              2.845      0.096        0.037
+                                                                                    Chatbot appearances  conversational styles        0.891      0.412        0.012
+                 Dwell time on the area of chatbot appearance                       Chatbot appearances                               52.544      0.000        0.412
+                                                                                    Conversational styles                              4.055      0.084        0.051
+                                                                                    Chatbot appearances  conversational styles        0.485      0.616        0.006
+                 Fixation count on the area of dialogue contents                    Chatbot appearances                                3.573      0.030        0.045
+                                                                                    Conversational styles                             89.647      0.000        0.544
+                                                                                    Chatbot appearances  conversational styles        0.275      0.760        0.004
+                 Average fixation duration on the area of dialogue contents         Chatbot appearances                                4.469      0.027        0.056
+                                                                                    Conversational styles                             60.940      0.000        0.448
+                                                                                    Chatbot appearances  conversational styles        0.110      0.798        0.001
+                 Dwell time on the area of dialogue contents                        Chatbot appearances                                7.852      0.001        0.095
+                                                                                    Conversational styles                             85.098      0.000        0.532
+                                                                                    Chatbot appearances  conversational styles        0.514      0.583        0.007
+
+
+
+
+Figure 3. Interaction effects between anthropomorphic appearances and conversational styles on perceived social presence, perceived trust, and satisfaction.
+
+
+presence to chatbots with a human-like conversational style                        anthropomorphic appearances in conditions of human-like
+compared with a mechanical conversational style, and this                          conversational styles (ps < 0.001) and mechanical conversa-
+difference was larger than when the chatbot had a medium                           tional styles (ps < 0.001).
+or low anthropomorphic appearance. Post-hoc analyses also                             The results of repeated-measures ANOVA indicated sig-
+showed that users perceived social presence scores to chat-                        nificant main effects of the chatbot appearances [F(1.605,
+bots with human-like conversational styles were higher than                        120.350) ¼ 73.012, p < 0.001, gp2 ¼ 0.493] and conversa-
+that chatbots with mechanical conversational styles in condi-                      tional styles [F(1, 75) ¼ 243.636, p < 0.001, gp2 ¼ 0.765] on
+tions of high anthropomorphic appearances (p < 0.001),                             perceived trust. The interaction effect between the chatbot
+medium anthropomorphic appearances (p < 0.001) and low                             appearances and conversational styles was also found
+anthropomorphic appearances (p < 0.001). Likewise, users                           [F(1.657, 124.252) ¼ 22.744, p < 0.001, gp2 ¼ 0.233]. Simple
+perceived social presence scores were highest at high                              effect analyses showed that in all conditions of chatbot
+anthropomorphic appearances, followed by medium                                    appearances, perceived trust scores of chatbot with human-
+anthropomorphic appearances, and lowest at low                                     like conversational styles were higher than that in chatbot
+                                                                                        INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION          3643
+
+
+with mechanical conversational styles. Similarly, in different                        (p < 0.001). Likewise, user satisfaction scores were highest at
+kinds of conversational styles, perceived trust scores were                           high anthropomorphic appearances, followed by medium
+highest at high anthropomorphic appearances, followed by                              anthropomorphic appearances, and lowest at low anthropo-
+medium anthropomorphic appearances, and lowest at low                                 morphic appearances in conditions of human-like conversa-
+anthropomorphic appearances, as shown in Figure 3. In                                 tional styles (ps < 0.001) and mechanical conversational
+addition, in the condition of high anthropomorphic appear-                            styles (ps < 0.001).
+ance, users perceived trust in chatbots with a human-like
+conversational style were higher compared with a mechan-
+ical conversational style, and this difference was larger than                        3.2. Eye-tracking outcomes
+when the chatbot had a medium or low anthropomorphic                                  3.2.1. Eye-tracking metrics on the area of the whole chat-
+appearance. Post-hoc analyses also showed that users per-                             bot interface
+ceived trust scores to chatbots with human-like conversa-                             Table 4 displayed the descriptive statistics of eye-tracking
+tional styles were higher than that chatbots with mechanical                          metrics on the area of the whole chatbot interface. The
+conversational styles in conditions of high anthropomorphic                           results of repeated-measures ANOVA found significant
+appearances (p < 0.001), medium anthropomorphic appear-                               main effects of the chatbot appearances [F(2, 150) ¼ 7.423,
+ances (p < 0.001) and low anthropomorphic appearances                                 p < 0.001, gp2 ¼ 0.090] and conversational styles [F(1, 75) ¼
+(p < 0.001). Likewise, users perceived trust scores were high-                        72.494, p < 0.001, gp2 ¼ 0.492] on fixation count. No inter-
+est at high anthropomorphic appearances, followed by
+                                                                                      action effect was observed. More specific trends were
+medium anthropomorphic appearances, and lowest at low
+                                                                                      denoted by multiple comparisons of fixation count, as
+anthropomorphic appearances in conditions of human-like
+                                                                                      shown in Figure 4. The results revealed that chatbots with
+conversational styles (ps < 0.001) and mechanical conversa-
+                                                                                      high anthropomorphic appearances (M ¼ 0.764, SD ¼ 0.045)
+tional styles [high-medium (p ¼ 0.101), high-low (p < 0.001)
+                                                                                      attracted more fixation counts than chatbots with low
+and medium-low (p < 0.001)].
+                                                                                      anthropomorphic appearances (M ¼ 0.691, SD ¼ 0.037,
+   The results of repeated-measures ANOVA manifested sig-
+                                                                                      p < 0.01), and chatbots with medium anthropomorphic
+nificant main effects of the chatbot appearances [F(1.622,
+                                                                                      appearances (M ¼ 0.760, SD ¼ 0.041) attracted more fixation
+121.658) ¼ 156.091, p < 0.001, gp2 ¼ 0.675] and conversa-
+tional styles [F(1, 75) ¼ 513.608, p < 0.001, gp2 ¼ 0.873] on                         counts than chatbots with low anthropomorphic appearan-
+user satisfaction. The interaction effect between the chatbot                         ces (M ¼ 0.691, SD ¼ 0.037, p < 0.01). The difference
+appearances and conversational styles was also found [F(2,                            between chatbots with high and medium anthropomorphic
+150) ¼ 30.413, p < 0.001, gp2 ¼ 0.289]. Simple effect analy-                          appearances was not significant (p ¼ 0.833). As for conversa-
+ses showed that in all conditions of chatbot appearances,                             tional styles, the result showed that chatbots with human-
+user satisfaction scores of chatbot with human-like conversa-                         like styles (M ¼ 0.832, SD ¼ 0.046) attracted more fixation
+tional styles were higher than that in chatbot with mechan-                           counts than chatbots with mechanical styles (M ¼ 0.645,
+ical conversational styles. Similarly, in different kinds of                          SD ¼ 0.034, p < 0.001).
+conversational styles, users’ satisfaction scores were highest                           The results of repeated-measures ANOVA showed a sig-
+at high anthropomorphic appearances, followed by medium                               nificant main effect of conversational styles [F(1, 75) ¼
+anthropomorphic appearances, and lowest at low anthropo-                              27.561, p < 0.001, gp2 ¼ 0.269] on average fixation duration,
+morphic appearances, as shown in Figure 3. What’s more, in                            while no significant main effect on the chatbot appearances
+the condition of high anthropomorphic appearance, user                                and no interaction effect were found. More specific trends
+satisfaction with chatbots with a human-like conversational                           were denoted by multiple comparisons of average fixation
+style were higher compared with a mechanical conversa-                                duration, as shown in Figure 4. The results revealed that
+tional style, and this difference was larger than when the                            chatbots with mechanical styles attracted longer average fix-
+chatbot had a medium or low anthropomorphic appearance.                               ation duration (M ¼ 3.477, SD ¼ 0.124) than chatbots with
+Post-hoc analyses also showed that user satisfaction scores                           human-like styles (M ¼ 3.261, SD ¼ 0.099, p < 0.001).
+to chatbots with human-like conversational styles were                                   The results of repeated-measures ANOVA manifested sig-
+higher than that chatbots with mechanical conversational                              nificant main effects of the chatbot appearances [F(2, 150)
+styles in conditions of high anthropomorphic appearances                              ¼ 10.981, p < 0.001, gp2 ¼ 0.128] and conversational styles
+(p < 0.001),     medium      anthropomorphic       appearances                        [F(1, 75) ¼ 74.539, p < 0.001, gp2 ¼ 0.498] on dwell time.
+(p < 0.001) and low anthropomorphic appearances                                       No interaction effect was observed. More specific trends
+
+Table 3. Descriptive statistics of perceived social presence, perceived trust, and satisfaction.
+                             Condition                                              Perceived social presence      Perceived trust            Satisfaction
+Appearances anthropomorphism                    Conversational Style                          M (SD)                   M (SD)                   M (SD)
+High                                            Human-like                                6.057 (0.580)             5.941 (0.667)         5.965 (0.685)
+High                                            Mechanical                                2.713 (0.959)             3.673 (1.161)         3.068 (0.973)
+Medium                                          Human-like                                5.226 (0.618)             5.318 (0.680)         5.116 (0.755)
+Medium                                          Mechanical                                2.380 (0.893)             3.535 (1.147)         2.794 (0.893)
+Low                                             Human-like                                4.270 (1.041)             4.636 (0.989)         4.178 (1.038)
+Low                                             Mechanical                                1.617 (0.636)             3.114 (1.301)         2.132 (0.895)
+3644        J. CHEN ET AL.
+
+
+
+
+Figure 4. Multiple comparisons of eye-tracking metrics on the area of the whole chatbot interface.
+
+
+Table 4. Descriptive statistics of eye-tracking metrics on the area of the whole chatbot interface.
+Condition                                                                   Fixation count (n)        Average fixation duration (ms)   Dwell time (ms)
+Appearances anthropomorphism                Conversational Style                  M (SD)                         M (SD)                    M (SD)
+High                                        Human-like                        0.860 (0.465)                   3.290 (0.895)            203.952 (89.545)
+High                                        Mechanical                        0.668 (0.362)                   3.501 (1.159)            164.725 (79.384)
+Medium                                      Human-like                        0.860 (0.434)                   3.251 (0.920)            205.071 (91.779)
+Medium                                      Mechanical                        0.659 (0.313)                   3.485 (1.167)            166.578 (71.766)
+Low                                         Human-like                        0.776 (0.393)                   3.241 (0.888)            188.704 (79.77)
+Low                                         Mechanical                        0.607 (0.317)                   3.445 (1.023)            145.041 (65.449)
+
+
+
+were denoted by multiple comparisons of dwell time, as                              of the chatbot appearances [F(1.548, 116.097) ¼ 56.436,
+shown in Figure 4. The results revealed that dwell time in                          p < 0.001, gp2 ¼ 0.429] on fixation count, while no signifi-
+chatbot     with   high    anthropomorphic       appearances                        cant main effect on the conversational style and no inter-
+(M ¼ 184.338, SD ¼ 9.041) was longer than that in chatbot                           action effect were found. More specific trends were denoted
+with low anthropomorphic appearances (M ¼ 166.873,                                  by multiple comparisons of fixation count, as shown in
+SD ¼ 7.578, p < 0.001), and dwell time in chatbot with                              Figure 5. The results revealed that chatbots with high
+medium anthropomorphic appearances (M ¼ 185.824,                                    anthropomorphic appearances (M ¼ 2.923, SD ¼ 0.226)
+SD ¼ 8.763) was also longer than that in chatbot with low                           attracted more fixation counts than chatbots with low
+anthropomorphic appearances (M ¼ 166.873, SD ¼ 7.578,                               anthropomorphic appearances (M ¼ 1.646, SD ¼ 0.165,
+p < 0.001). The difference between chatbot with high and                            p < 0.001), and chatbots with medium anthropomorphic
+medium anthropomorphic appearances was not significant                              appearances (M ¼ 2.784, SD ¼ 0.217) attracted more fixation
+(p ¼ 0.728). As for conversational styles, the result showed                        counts than chatbots with low anthropomorphic appearan-
+that dwell time in the chatbot with human-like style                                ces (M ¼ 1.646, SD ¼ 0.165, p < 0.001). However, the differ-
+(M ¼ 199.242, SD ¼ 9.315) was longer than that in the chat-                         ence between chatbots with high anthropomorphic
+bot with mechanical style (M ¼ 158.781, SD ¼ 7.395,                                 appearances and medium anthropomorphic appearances was
+p < 0.001).                                                                         not significant (p ¼ 0.185).
+                                                                                       The results of repeated-measures ANOVA showed a sig-
+                                                                                    nificant main effect of the chatbot appearances [F(2, 150) ¼
+3.2.2. Eye-tracking metrics on the area of chatbot                                  42.867, p < 0.001, gp2 ¼ 0.364] on average fixation duration,
+appearances                                                                         while no significant main effect on conversational styles and
+Table 5 displayed the descriptive statistics of eye-tracking                        no interaction effect were found. More specific trends were
+metrics on the area of chatbot appearances. The results of                          denoted by multiple comparisons of average fixation dur-
+repeated-measures ANOVA showed a significant main effect                            ation, as shown in Figure 5. The results manifested that
+                                                                                     INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION          3645
+
+
+
+
+Figure 5. Multiple comparisons of eye-tracking metrics in the area of chatbot appearances.
+
+
+Table 5. Descriptive statistics of eye-tracking metrics on the area of chatbot appearances.
+Condition                                                                  Fixation count (n)      Average fixation duration (ms)   Dwell time (ms)
+Appearances anthropomorphism               Conversational Style                 M (SD)                        M (SD)                     M (SD)
+High                                       Human-like                        2.905 (2.029)               112.488 (68.439)           565.544 (446.770)
+High                                       Mechanical                        2.942 (2.179)               113.718 (70.968)           585.045 (504.533)
+Medium                                     Human-like                        2.753 (2.079)               105.735 (62.154)           500.677 (390.251)
+Medium                                     Mechanical                        2.814 (1.982)               111.556 (67.417)           562.808 (484.403)
+Low                                        Human-like                        1.578 (1.537)                71.113 (57.296)           266.553 (270.829)
+Low                                        Mechanical                        1.713 (1.520)                83.207 (52.751)           309.654 (293.393)
+
+
+chatbots    with    high    anthropomorphic     appearances                        measures ANOVA found significant main effects of the
+(M ¼ 113.103, SD ¼ 7.247) attracted longer average fixation                        chatbot appearances [F(2, 150) ¼ 3.573, p < 0.05, gp2 ¼
+duration than chatbots with low anthropomorphic appearan-                          0.045] and conversational styles [F(1, 75) ¼ 89.647,
+ces (M ¼ 77.160, SD ¼ 5.782, p < 0.001), and chatbots with                         p < 0.001, gp2 ¼ 0.544] on fixation count. No interaction
+medium anthropomorphic (M ¼ 108.646, SD ¼ 6.768)                                   effect was observed. More specific trends were denoted by
+appearances attracted longer average fixation duration than                        multiple comparisons of fixation count, as shown in Figure
+chatbots     with    low    anthropomorphic     appearances                        6. The results revealed that chatbots with low anthropo-
+(M ¼ 77.160, SD ¼ 5.782, p < 0.001). However, the difference                       morphic appearances (M ¼ 1.120, SD ¼ 0.066) attracted
+between chatbots with high anthropomorphic appearances                             more fixation counts than chatbots with high anthropo-
+and medium anthropomorphic appearances was not signifi-                            morphic appearances (M ¼ 1.032, SD ¼ 0.065, p < 0.05), and
+cant (p ¼ 0.247).                                                                  chatbots with medium anthropomorphic appearances
+   The results of repeated-measures ANOVA manifested sig-                          (M ¼ 1.102, SD ¼ 0.067) attracted more fixation counts than
+nificant main effects of the chatbot appearances [F(1.461,                         chatbots     with   high     anthropomorphic      appearances
+109.612) ¼ 52.544, p < 0.001, gp2 ¼ 0.412] on dwell time,                          (M ¼ 1.032, SD ¼ 0.065, p < 0.05). However, the difference
+while no significant main effect on conversational styles and                      between chatbots with medium anthropomorphic appearan-
+no interaction effect were found. More specific trends were                        ces and low anthropomorphic appearances was not signifi-
+denoted by multiple comparisons of dwell time, as shown in                         cant (p ¼ 0.579). As for conversational styles, the result
+Figure 5. The results revealed that dwell time in chatbots                         showed that the chatbot with human-like style (M ¼ 1.256,
+with high anthropomorphic appearances (M ¼ 575.295,                                SD ¼ 0.076) attracted more fixation counts than the chatbot
+SD ¼ 51.357) was longer than that in chatbots with low                             with mechanical style (M ¼ 0.913, SD ¼ 0.053, p < 0.001).
+anthropomorphic appearances (M ¼ 288.103, SD ¼ 30.405,                                The results of repeated-measures ANOVA showed signifi-
+p < 0.001), and dwell time in chatbots with medium                                 cant main effects of the chatbot appearances [F(1.311,
+anthropomorphic appearances (M ¼ 531.742, SD ¼ 47.233)                             98.330) ¼ 4.469, p < 0.05, gp2 ¼ 0.056] and conversational
+was also longer than that in chatbots with low anthropo-                           styles [F(1, 75) ¼ 60.940, p < 0.001, gp2 ¼ 0.448] on average
+morphic appearances (M ¼ 288.103, SD ¼ 30.405, p < 0.001).                         fixation duration, while there was no interaction effect.
+However, the difference between chatbots with high                                 More specific trends were denoted by multiple comparisons
+anthropomorphic appearances and medium anthropo-                                   of average fixation duration, as shown in Figure 6. The
+morphic appearances was not significant (p ¼ 0.051).                               results revealed that chatbots with low anthropomorphic
+                                                                                   appearances (M ¼ 7.473, SD ¼ 0.188) attracted longer average
+                                                                                   fixation duration than chatbots with high anthropomorphic
+3.2.3. Eye-tracking metrics on the area of dialogue                                appearances (M ¼ 6.991, SD ¼ 0.236, p ¼ 0.024), and chatbots
+contents                                                                           with medium anthropomorphic appearances attracted longer
+Table 6 displayed the descriptive statistics of eye-tracking                       average fixation duration (M ¼ 7.471, SD ¼ 0.254) than chat-
+metrics on the area of conversation. The results of repeated-                      bots with high anthropomorphic appearances (M ¼ 6.991,
+3646        J. CHEN ET AL.
+
+
+
+
+Figure 6. Multiple comparisons of eye-tracking metrics on the area of dialogue contents.
+
+
+Table 6. Descriptive statistics of eye-tracking metrics on the area of dialogue contents.
+Condition                                                                  Fixation count (n)       Average fixation duration (ms)   Dwell time (ms)
+Appearances anthropomorphism                Conversational Style                 M (SD)                        M (SD)                     M (SD)
+High                                        Human-like                        1.193 (0.707)                 6.525 (1.819)            241.739 (134.354)
+High                                        Mechanical                        0.871 (0.498)                 7.457 (2.447)            175.145 (102.783)
+Medium                                      Human-like                        1.287 (0.727)                 6.926 (1.959)            264.566 (151.119)
+Medium                                      Mechanical                        0.916 (0.511)                 8.016 (2.652)            189.651 (107.566)
+Low                                         Human-like                        1.288 (0.706)                 6.936 (1.904)            276.053 (148.253)
+Low                                         Mechanical                        0.951 (0.537)                 8.009 (2.662)            195.256 (114.037)
+
+
+
+SD ¼ 0.236, p < 0.001). However, the difference between                             medium anthropomorphic appearances and low anthropo-
+chatbots with medium anthropomorphic appearances and                                morphic appearances was not significant (p ¼ 0.210). As for
+low anthropomorphic appearances was not significant                                 conversational styles, the result showed that dwell time in
+(p ¼ 0.994). As for conversational styles, the result showed                        the chatbot with human-like style (M ¼ 260.786,
+that the chatbot with mechanical style (M ¼ 7.827,                                  SD ¼ 15.469) was longer than that in the chatbot with mech-
+SD ¼ 0.216) attracted longer average fixation duration than                         anical style (M ¼ 186.684, SD ¼ 11.164, p < 0.001).
+the chatbot with human-like style (M ¼ 6.796, SD ¼ 0.207,
+p < 0.001).
+                                                                                    4. Discussion
+   The results of repeated-measures ANOVA manifested sig-
+nificant main effects of the chatbot appearances [F(2, 150)                         With the aim of exploring the interaction effect of anthropo-
+¼ 7.852, p < 0.005, gp2 ¼ 0.095] and conversational styles                          morphic appearances and conversational styles on users’
+[F(1, 75) ¼ 85.098, p < 0.001, gp2 ¼ 0.532] on dwell time.                          subjective perception and visual behaviors of the chatbot,
+No interaction effect was observed. More specific trends                            this study designed chatbots with three different levels of
+were denoted by multiple comparisons of dwell time, as                              anthropomorphic appearances (high, medium, and low) and
+shown in Figure 6. The results revealed that dwell time in                          two kinds of conversational styles (human-like style and
+chatbots     with    low    anthropomorphic      appearances                        mechanical style). The eye-tracking method and a subjective
+(M ¼ 235.654, SD ¼ 13.914) was longer than that in chatbots                         evaluation were employed to record users’ eye-tracking met-
+with high anthropomorphic appearances (M ¼ 208.442,                                 rics and subjective perception. The results showed that
+SD ¼ 12.633, p < 0.001), and dwell time in chatbots with                            anthropomorphic appearances and conversational styles had
+medium anthropomorphic appearances (M ¼ 227.109,                                    joint and diverse effects on users’ perception and visual
+SD ¼ 13.915) was also longer than that in chatbots with high                        behaviors.
+anthropomorphic appearances (M ¼ 208.442, SD ¼ 12.633,                                 The results indicated that anthropomorphic appearances
+p < 0.01). However, the difference between chatbots with                            and human-like conversational styles jointly increased users’
+                                                                    INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION        3647
+
+
+perception of the chatbot’s social presence, trust in the chat-    that it interacts at high levels of anthropomorphism in all its
+bot, and satisfaction with the chatbot. In contrast, on users’     utterances and behaviors. But, as our results showed, when
+visual behaviors, such a joint effect was not found, although      chatbots with high anthropomorphic appearance but com-
+chatbots with higher anthropomorphic appearances and               municating in a mechanical language style, this kind of chat-
+chatbots with human-like conversational styles triggered           bot does not fit the user’s expectations, and its social cues
+more fixation counts and longer dwell time. These findings         (appearance and language) are not aligned. For chatbots
+suggested that anthropomorphic appearance and human-like           with medium or low levels of anthropomorphism in appear-
+conversational style can improve users’ perception and             ance, users may not have too high expectations of anthropo-
+attract more visual attention to the chatbot.                      morphism, and failure of communicating in a humanlike
+                                                                   style (but rather using a mechanical style) seem to have a
+                                                                   less severe effect in the users’ perceived social presence, per-
+4.1. Effects on users’ perception                                  ceived trust, and satisfaction. Also, these findings can be
+Furthermore, the present results indicated that chatbot            explained by the idea that users feel more natural and pleas-
+appearances and conversational styles had significant main         ant when chatbots with anthropomorphic appearances show
+effects on users’ perception of social presence, users’ trust,     conversational styles, which is consistent with their identity
+and user satisfaction. It is noteworthy that interaction effects   (as indicated by the type of conversational styles they use).
+between chatbot appearances and conversational styles on           This result was also similar to the find from Go and Sundar
+users’ perception of social presence, users’ trust, and user       (2019) that there was an interaction effect between visual
+satisfaction were also found, which implied the joint effects      cues and identity cues of chatbots on perceived homophily.
+of anthropomorphic appearances and conversational styles           When the chatbot had anthropomorphic appearances, users
+on users’ perception. Specifically, regardless of the anthropo-    in the human identity condition manifested higher perceived
+morphic level of chatbot appearances, users’ perception of         homophily and favorable attitudes. However, in the condi-
+social presence, users’ trust, and user satisfaction with          tion of mechanical conversational style, users’ perception of
+human-like conversational styles were higher than that of          social presence, users’ trust, and user satisfaction with chat-
+mechanical conversational styles. Besides, under different         bots with different anthropomorphic appearances were espe-
+conversational styles, users’ perception of social presence,       cially low, even the chatbot with high anthropomorphic
+users’ trust, and user satisfaction were positively related to     appearances. This finding confirmed the expectation viola-
+the anthropomorphic level of chatbot appearances.                  tion effect (Burgoon & Walther, 1990). Chatbots with mech-
+   These results are in line with some earlier findings. Based     anical language styles made users expect machine-like cues,
+on the research from Qiu and Benbasat (2009), users’ per-          but the use of high anthropomorphic appearances may be
+ception of social presence of the chatbot with a human             perceived as dishonest and thereby reduced users’ perception
+appearance was the highest, followed by chatbots with ani-         and behavioral attitudes. Another possible support for these
+mated appearances, and the company logo with the lowest            joint effects could be offered by the media equation theory
+perceived social presence. Araujo (2018) and Liebrecht et al.      (Reeves & Nass, 1996), people instinctively attribute human
+(2021) also indicated that human-like language styles posi-        traits to computers and treat them as social actors.
+tively affected users’ perception of social presence. As for       Therefore, the superposition of two different anthropo-
+the effect on perceived trust, Følstad et al. (2018) found that    morphic cues increased users’ perception of social presence,
+anthropomorphic appearances and conversational styles              users’ trust, and user satisfaction. Different from existing
+could increase users’ perception of trust. Muralidharan et al.     research (Ciechanowski et al., 2019), this study did not find
+(2014) manifested that chatbots with human-like conversa-          the uncanny valley effect. This might be because the chatbot
+tional styles have higher ratings of trust compared to mech-       appearances occupied a relatively small proportion of the
+anical styles. As regards satisfaction, Tinwell (2009) revealed    area on the interface. Users were required to not only pay
+that anthropomorphic appearances have positive effects on          attention to the chatbot appearance but also follow conver-
+user satisfaction. Araujo (2018) also proved that users are        sational styles.
+more satisfied with chatbots with human-like language
+styles. In this study, anthropomorphic design cues yielded
+                                                                   4.2. Effects on users’ visual behaviors
+higher perception of social presence, users’ trust, and user
+satisfaction. Additionally, according to the theory of social      Eye-tracking metrics revealed interesting findings. The pre-
+presence, higher perceived social presence could also pro-         sent study observed significant main effects of chatbot
+mote users’ trust and satisfaction (Cyr et al., 2007; Lu et al.,   appearances and conversational styles on users’ fixation
+2016; Verhagen et al., 2014).                                      count and dwell time on the AOIs of the whole chatbot
+   More importantly, the results manifested joint effects of       interface. Fixation count is typically associated with users’
+these anthropomorphic design cues on users’ subjective per-        attention allocated to AOIs and may reflect the attractive-
+ception. We argue that finding an interaction between              ness of stimuli (Behe et al., 2015). Dwell time is the sum
+anthropomorphic appearance and human-like conversational           time of fixation and saccade and is related to user experi-
+style on subjectively measures only suggested that it is a         ence and interest (Guo et al., 2016). In the present study,
+higher-level cognitive effect that occurs: A chatbot that          users devoted more fixation counts and dwell time to chat-
+appears as highly anthropomorphic may set the expectation          bots with high and medium anthropomorphic appearances
+3648     J. CHEN ET AL.
+
+
+compared to chatbots with low anthropomorphic appearan-          feel anthropomorphic features, compared to the “speech
+ces. Besides, chatbots with human-like conversational styles     bubble,” which leads to more visual attention to the human
+attracted more fixation counts and longer dwell time than        images and animated images. Hence, although findings of
+chatbots with mechanical styles. These findings suggested        the pre-study showed significant differences between differ-
+that anthropomorphic design cues might attract users’ inter-     ent levels of anthropomorphic appearances, no significant
+est and result in more visual attention (Araujo, 2018).          difference between high and medium anthropomorphic
+Existing research manifested that using human images or          appearances for eye-tracking metrics was found.
+animations could increase user satisfaction and lead to              Regarding the AOIs of the dialogue contents, results indi-
+favorable attitudes (Hassanein & Head, 2007). Therefore,         cated significant main effects of chatbot appearances and
+users devoted more visual attention to these anthropo-           conversational styles on users’ fixation count, average fix-
+morphic features. Moreover, the result showed a significant      ation duration, and dwell time. Specifically, chatbots with
+main effect of conversational styles on average fixation dur-    low anthropomorphic appearances attracted the most fix-
+ation on the AOIs of the whole chatbot interface.                ation count, the longest average fixation duration, and the
+Specifically, chatbots with mechanical conversational styles     longest dwell time on the AOIs of the dialogue contents, fol-
+attracted longer average fixation duration than chatbots with    lowed by chatbots with medium anthropomorphic appearan-
+human-like styles. The average fixation duration is related to   ces, and then chatbots with high anthropomorphic
+the total amount of visual attention paid to each fixation       appearances. That is, users devoted more attention to high
+and is considered attractive or a reflection of the processing   anthropomorphic appearances of chatbots, which caused less
+depth of visual information (Ramos Gameiro et al., 2017;         attention allocation to AOIs of the dialogue contents. This
+Unema et al., 2005). This finding indicated that mechanical      finding also suggested that anthropomorphic appearances
+language styles require deep information processing and fur-     are conducive to attracting users’ visual attention. Earlier
+ther understanding. According to the media equation theory       research showed that anthropomorphic design cues could
+(Reeves & Nass, 1996), users instinctively react to artificial   adapt user preferences and provide a good first impression,
+agents in the same way as to other people. When chatbots         thereby increasing users’ interest and attention (Cao, Zhang,
+showed a mechanical language style, users may hesitate and       et al., 2021; Ho & Hou, 2015). As for the condition of con-
+need further confirmation of the information, thereby            versational style, results indicated that chatbots with human-
+increasing the average fixation duration.                        like styles attracted more fixation counts and longer dwell
+   When separately investigating users’ visual behaviors on      time than chatbots with mechanical styles. These findings
+the AOIs of chatbot appearances, results manifested signifi-     also suggested that anthropomorphic styles might attract
+cant main effects of chatbot appearances on users’ fixation      users’ interest and result in more attention (Araujo, 2018).
+count, average fixation duration, and dwell time.                However, users devoted longer average fixation duration to
+Specifically, users devoted more fixation counts, longer aver-   the chatbot with mechanical conversational style rather than
+age fixation duration, and longer dwell time to chatbots         the chatbot with human-like style. This result provided add-
+with high and medium anthropomorphic appearances com-            itional support for the media equation theory (Reeves &
+pared to chatbots with low anthropomorphic appearances.          Nass, 1996). Users treat interactions with chatbots the same
+The findings revealed that anthropomorphic design features       way they view interactions with humans. When chatbots
+attracted users’ more visual attention. It also meant users      showed mechanical language styles rather than human-like
+were more interested in anthropomorphic appearances of           styles, users may get frustrated and require more fixation
+chatbots, thereby causing sustained attention. This result is    duration to process information (Lee, 2008).
+partially supported by the research about product appearan-          Nevertheless, this study did not observe any interaction
+ces from Qu and Guo (2019) that pleasant appearances             effects of anthropomorphic appearances and conversational
+could yield the most visual attention. In the present study,     styles on eye-tracking metrics. This result might because sig-
+anthropomorphic design features have been found to               nificant effects of anthropomorphic appearances on eye-
+increase users’ satisfaction and pleasantness (Go & Sundar,      tracking metrics on the AOIs of the dialogue contents were
+2019; Nowak & Rauh, 2005). Whereas, present findings are         confirmed, while there was no significant effect of conversa-
+different from the result that more visual attention are allo-   tional styles on eye-tracking metrics on the AOIs of the
+cated to the neutral or negative appearance of humanoid          chatbot appearances. Overall, the result of eye-tracking met-
+robots (Li, Guo, Ren, et al., 2022). The possible reason is      rics might suggest that anthropomorphic design cues may
+that neutral or negative appearances of humanoid robots          attract users’ interest and result in more visual attention.
+lead to the uncanny valley effect (Ciechanowski et al., 2019)    This also can be supported by results from users’ subjective
+and give birth to negative or fearful impressions, which may     perception that anthropomorphic appearances and human-
+activate negative biases and attract more visual attention. By   like conversational styles could enhance users’ perception of
+contrast, the area of chatbot appearances only accounts for a    social presence, users’ trust, and user satisfaction (Araujo,
+small part of the whole interface. Therefore, the present        2018; Følstad et al., 2018; Liebrecht et al., 2021; Lu et al.,
+study didn’t show the uncanny valley effect. In addition, no     2016).
+significant difference between high and medium anthropo-             Although so much evidence supporting the present find-
+morphic appearances was confirmed. This probably because         ings, there are still some studies that contradict these results.
+both human images and animated images can make users             Specifically, anthropomorphic design cues will enhance
+                                                                   INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION       3649
+
+
+users’ expectations, which can result in frustration when         that people instinctively view computer system as social
+these expectations are not realized (Nowak & Biocca, 2003).       actors during the interaction. Therefore, anthropomorphic
+Further, Nowak (2004) indicated that low anthropomorphic          design cues increased users’ subjective perception and visual
+images are more likable and credible than high anthropo-          attention to chatbots.
+morphic images and no anthropomorphic images are more
+attractive than anthropomorphic images. A possible explan-
+ation is that virtual agents with high anthropomorphic            5. Implications, limitations, and directions for future
+design cues lead to false expectations and disappointments        research
+(Knijnenburg & Willemsen, 2016; Schroeder, 2001). Users           5.1. Implications
+become frustrated when there is an imbalance between the
+anthropomorphism and actual capabilities of the virtual           This study makes several significant theoretical contribu-
+agent (Mimoun et al., 2012). Besides, another possible rea-       tions. Firstly, considering existing research primarily
+son is that high anthropomorphic images will cause the            employed the self-reported method to investigate the influ-
+uncanny valley effect, which may yield a sense of unease or       ence of anthropomorphic appearances and conversational
+even revulsion (Ciechanowski et al., 2019). However, previ-       styles on users’ subjective perception (Go & Sundar, 2019;
+ous research primarily focused on the anthropomorphic             Liebrecht et al., 2020), it would contribute to understanding
+appearances of virtual agents. That is, users were only           the nature of the effect of these anthropomorphic cues on
+exposed to different appearances. In the present study, we        the chatbot design and revealing users’ perception and visual
+took the whole chatbot interface as the research object. The      behaviors. Next, compared with existing literature that has
+proportion of the area of chatbot appearances only accounts       studied these two factors separately, the present study identi-
+for a small part of the interface. Apart from chatbot appear-     fied the joint effect of anthropomorphic appearances and
+ances, conversational styles were also considered in this         human-like conversational styles on users’ subjective percep-
+research. This distinctive discrepancy may lead the present       tion. The results manifested that anthropomorphic appear-
+findings to be different from existing studies.                   ances and conversational styles could induce users’ higher
+                                                                  perception of social presence, users’ trust, and user satisfac-
+                                                                  tion. Finally, to the best of the authors’ knowledge, this is
+4.3. Combined measurement of the anthropomorphic                  the first time to provide the combined method of subjective
+effect                                                            evaluation and eye-tracking technique to explore users’ sub-
+Noticeably, we observed significant effects of anthropo-          jective perception and visual behaviors on the chatbot. It
+morphic design cues of chatbots on users’ subjective percep-      also provided a new research perspective for the chatbot
+tion and visual behaviors. Specifically, anthropomorphic          design.
+appearances and human-like conversational styles jointly             This study also provides valuable enlightenment to practi-
+increased users’ perception of the chatbot’s social presence,     tioners for the design of chatbots on the website. The pre-
+trust in the chatbot, and satisfaction with the chatbot.          sent result showed that anthropomorphic appearances and
+Likewise, chatbots with anthropomorphic appearances could         conversational styles could enhance users’ perception and
+attracted more fixation counts, longer average fixation dur-      visual attention. The findings signified that chatbot designers
+ation, and longer dwell time. Besides, chatbots with human-       and researchers should consider incorporating anthropo-
+like conversational styles attracted more fixation counts,        morphic appearances and conversational styles in the chat-
+shorter average fixation duration, and longer dwell time.         bot. However, practitioners should be aware that
+These eye-tracking results suggested that chatbots with           anthropomorphism may lead to unexpected consequences.
+anthropomorphic design cues could attract more visual             That is, high anthropomorphic design cues may create high
+attention.                                                        expectations for users, which can result in disappointment
+   In fact, subjective evaluation results and eye-tracking out-   or frustration when users’ expectations are not balanced
+comes are compatible and mutually supportive in this study.       with the chatbots’ capabilities (Knijnenburg & Willemsen,
+Our subjective evaluation results manifested that users’ per-     2016).
+ceived social presence, perceived trust, and satisfaction are
+higher when a chatbot was designed with anthropomorphic           5.2. Limitations, and directions for future research
+visual appearance and human-like conversational style,
+which is also supported by social agency theory (Wiseman          This study also has limitations that can seed future inquiry.
+et al., 2012) that anthropomorphic cues could trigger users       First, this research only explored the effect of anthropo-
+positive social responses. These positive social responses        morphic appearances and conversational styles on users’
+stimulate users’ interest and result in more visual attention     perception and visual behaviors. Beyond these two features,
+to the chatbot, which is ultimately reflected in eye-tracking     more anthropomorphic design cues, such as identity (Go &
+outcomes. In turn, eye-tracking results manifested that           Sundar, 2019), humor (Niculescu et al., 2013), and commu-
+anthropomorphic cues could attract more visual attention,         nication delay (Schanke et al., 2021) may affect users’ per-
+which provided favorable support for subjective evaluation        ception and visual behaviors. Therefore, future research
+results in the present study. These results were also consist-    could consider more anthropomorphic design cues in the
+ent with the media equation theory (Reeves & Nass, 1996)          chatbot design. Secondly, experiment stimuli were designed
+3650       J. CHEN ET AL.
+
+
+to incorporate the experimental manipulation, which may                  References
+not represent a typical chatbot on the website. Participants
+                                                                         Ahn, R. J., Cho, S. Y., & Sunny Tsai, W. (2022). Demystifying
+were told to imagine that they were communicating with a                    Computer-Generated Imagery (CGI) influencers: The effect of per-
+chatbot online. These measures increased internal validity,                 ceived anthropomorphism and social presence on brand outcomes.
+but future research can maximize ecological validity.                       Journal of Interactive Advertising, 22(3), 327–335. https://doi.org/10.
+Thirdly, within-subject experimental design was adopted in                  1080/15252019.2022.2111242
+                                                                         Amin, A., Shah, B., Khattak, A. M., Moreira, F. J. L., Ali, G., Rocha,
+this study. Although we used a random presentation order
+                                                                            A., & Anwar, S. (2019). Cross-company customer churn prediction
+of experimental stimuli, interference between different                     in telecommunication: A comparison of data transformation meth-
+experimental conditions may affect the results. Still, this                 ods. International Journal of Information Management, 46, 304–319.
+experiment design including randomization guarantees that                   https://doi.org/10.1016/j.ijinfomgt.2018.08.015
+the effect found were caused by our (within) manipulation                Appel, J., von der P€utten, A., Kr€amer, N. C., & Gratch, J. (2012). Does
+                                                                            humanity matter? Analyzing the importance of social cues and per-
+and are not an order effect. Besides, participants’ experimen-
+                                                                            ceived agency of a computer system for the emergence of social
+tal tasks were also increased. Therefore, future research can               reactions during human-computer interaction. Advances in Human-
+consider the between-subject experimental design, which is                  Computer Interaction, 2012(13), 1–10. https://doi.org/10.1155/2012/
+considered as the “gold standard” in the domain of human-                   324694
+computer interaction research (Gergle & Tan, 2014).                      Araujo, T. (2018). Living up to the chatbot hype: The influence of
+                                                                            anthropomorphic design cues and communicative agency framing on
+                                                                            conversational agent and company perceptions. Computers in Human
+6. Conclusion                                                               Behavior, 85, 183–189. https://doi.org/10.1016/j.chb.2018.03.051
+                                                                         Ashfaq, M., Yun, J., Yu, S., & Loureiro, S. M. C. (2020). I, Chatbot:
+The current study revealed whether and how anthropo-                        Modeling the determinants of users’ satisfaction and continuance
+morphic appearances and conversational styles affect users’                 intention of AI-powered service agents. Telematics and Informatics,
+subjective perception and visual behaviors on chatbots                      54, 101473. https://doi.org/10.1016/j.tele.2020.101473
+                                                                         Bartneck, C., Kulic, D., Croft, E., & Zoghbi, S. (2009). Measurement
+through the combined method of subjective evaluation and                    instruments for the anthropomorphism, animacy, likeability, per-
+eye-tracking technique. The subjective evaluation results                   ceived intelligence, and perceived safety of Robots. International
+showed that anthropomorphic appearances and human-like                      Journal of Social Robotics, 1(1), 71–81. https://doi.org/10.1007/
+conversational styles jointly enhanced users’ perception of                 s12369-008-0001-3
+social presence, users’ trust, and user satisfaction. Eye-track-         Baylor, A. L., Rosenberg-Kima, R. B. (2006). Interface agents to allevi-
+                                                                            ate online frustration. Proceedings of the 7th international conference
+ing metrics indicated that chatbots with anthropomorphic                    on learning sciences. International Society of the Learning Sciences.
+appearances attracted more fixation counts, longer average               Behe, B. K., Bae, M., Huddleston, P. T., & Sage, L. (2015). The effect of
+fixation duration, and longer dwell time. Chatbots with                     involvement on visual attention and product choice. Journal of
+human-like conversational styles attracted more fixation                    Retailing and Consumer Services, 24, 10–21. https://doi.org/10.1016/j.
+counts, shorter average fixation duration, and longer dwell                 jretconser.2015.01.002
+                                                                         Benbasat, I., & Wang, W. (2005). Trust in and adoption of online rec-
+time. These results suggested that anthropomorphic design                   ommendation agents. Journal of the Association for Information
+cues could attract more visual attention to the chatbot.                    Systems, 6(3), 72–101. https://doi.org/10.17705/1jais.00065
+Additionally, these findings provided theoretical contribu-              Bialkova, S., Grunert, K. G., & van Trijp, H. (2020). From desktop to
+tions for understanding the nature of the effects of                        supermarket shelf: Eye-tracking exploration on consumer attention
+                                                                            and choice. Food Quality and Preference, 81, 103839. https://doi.org/
+anthropomorphic appearances and human-like conversa-
+                                                                            10.1016/j.foodqual.2019.103839
+tional styles and valuable enlightenment to practitioners for            Boardman, R., McCormick, H., & Henninger, C. E. (2022). Exploring
+the design of chatbots.                                                     attention on a retailer’s homepage: An eye-tracking & qualitative
+                                                                            research study. Behaviour & Information Technology, 1–17. https://
+                                                                            doi.org/10.1080/0144929X.2022.2059396
+Acknowledgments                                                          Borau, S., Otterbring, T., Laporte, S., & Fosso Wamba, S. (2021). The
+We would like to thank all the participants for their involvement in        most human bot: Female gendering increases humanness percep-
+our research. Moreover, we are grateful to extend our gratitude to the      tions of bots and acceptance of AI. Psychology & Marketing, 38(7),
+editors and the reviewers for their valuable comments.                      1052–1068. https://doi.org/10.1002/mar.21480
+                                                                         Burgoon, J. K., & Walther, J. B. (1990). Nonverbal expectancies and
+                                                                            the evaluative consequences of violations. Human Communication
+Disclosure statement                                                        Research, 17(2), 232–265. https://doi.org/10.1111/j.1468-2958.1990.
+                                                                            tb00232.x
+No potential conflict of interest was reported by the author(s).         Cao, Y., Ding, Y., Proctor, R. W., Duffy, V. G., Liu, Y., & Zhang, X.
+                                                                            (2021). Detecting users’ usage intentions for websites employing
+                                                                            deep learning on eye-tracking data. Information Technology and
+Funding                                                                     Management, 22(4), 281–292. https://doi.org/10.1007/s10799-021-
+                                                                            00336-6
+This work was supported by the National Natural Science Foundation       Cao, Y., Zhang, Y., Ding, Y., Duffy, V. G., & Zhang, X. (2021). Is an
+of China [Grant No. 72071035].                                              anthropomorphic app icon more attractive? Evidence from neuroer-
+                                                                            gonomomics. Applied Ergonomics, 97, 103545. https://doi.org/10.
+                                                                            1016/j.apergo.2021.103545
+ORCID                                                                    Chattaraman, V., Kwon, W.-S., Gilbert, J. E., & Li, Y. (2014). Virtual
+                                                                            shopping agents: Persona effects for older users. Journal of Research
+Jiahao Chen     http://orcid.org/0000-0002-6110-7851                        in Interactive Marketing, 8(2), 144–162. https://doi.org/10.1108/
+Fu Guo     http://orcid.org/0000-0001-6209-1874                             JRIM-08-2013-0054
+                                                                              INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION               3651
+
+
+Chaves, A. P., & Gerosa, M. A. (2021). How should my chatbot inter-          Hassanein, K., & Head, M. (2007). Manipulating perceived social pres-
+   act? A survey on social characteristics in human–Chatbot interaction         ence through the web interface and its impact on attitude towards
+   design. International Journal of Human–Computer Interaction, 37(8),          online shopping. International Journal of Human-Computer Studies,
+   729–758. https://doi.org/10.1080/10447318.2020.1841438                       65(8), 689–708. https://doi.org/10.1016/j.ijhcs.2006.11.018
+Chung, M., Ko, E., Joung, H., & Kim, S. J. (2020). Chatbot e-service         Ho, C.-H., & Hou, K.-C. (2015). Exploring the attractive factors of app
+   and customer satisfaction regarding luxury brands. Journal of                icons. KSII Transactions on Internet and Information Systems (TIIS),
+   Business Research, 117, 587–595. https://doi.org/10.1016/j.jbusres.          9(6), 2251–2270. https://doi.org/10.3837/tiis.2015.06.016
+   2018.10.004                                                               Holmqvist, K., Nystr€  om, M., Andersson, R., Dewhurst, R., Jarodzka,
+Ciechanowski, L., Przegalinska, A., Magnuski, M., & Gloor, P. (2019).           H., & Van de Weijer, J. (2011). Eye tracking: A comprehensive guide
+   In the shades of the uncanny valley: An experimental study of                to methods and measures. OUP Oxford.
+   human–Chatbot interaction. Future Generation Computer Systems,            Jackson, R. B., & Williams, T. (2021). A theory of social agency for
+   92, 539–548. https://doi.org/10.1016/j.future.2018.01.055                    human-robot interaction. Frontiers in Robotics and AI, 8, 687726.
+Cohen, J. (1988). Statistical power analysis for the behavioral sciences.       https://doi.org/10.3389/frobt.2021.687726
+   Academic Press. https://doi.org/10.1016/B978-0-12-179060-8.50012-8        Jacob, R. J., & Karn, K. S. (2003). Eye tracking in human-computer
+Cyr, D., Hassanein, K., Head, M., & Ivanov, A. (2007). The role of              interaction and usability research: Ready to deliver the promises. In
+   social presence in establishing loyalty in e-service environments.           The Mind’s Eye (pp. 573–605). Elsevier. https://doi.org/10.1016/
+   Interacting with Computers, 19(1), 43–56. https://doi.org/10.1016/j.         B978-044451020-4/50031-1
+   intcom.2006.07.010                                                        Jarodzka, H., Skuballa, I., & Gruber, H. (2021). Eye-tracking in educa-
+Egner, T. (2007). Congruency sequence effects and cognitive control.            tional practice: Investigating visual perception underlying teaching
+   Cognitive, Affective, & Behavioral Neuroscience, 7(4), 380–390.              and learning in the classroom. Educational Psychology Review, 33(1),
+   https://doi.org/10.3758/CABN.7.4.380                                         1–10. https://doi.org/10.1007/s10648-020-09565-7
+Etemad-Sajadi, R. (2016). The impact of online real-time interactivity       Jiang, H., Cheng, Y., Yang, J., & Gao, S. (2022). AI-powered chatbot
+   on patronage intention: The use of avatars. Computers in Human               communication with customers: Dialogic interactions, satisfaction,
+   Behavior, 61, 227–232. https://doi.org/10.1016/j.chb.2016.03.045             engagement, and customer behavior. Computers in Human Behavior,
+Feine, J., Gnewuch, U., Morana, S., & Maedche, A. (2019). A taxonomy            134, 107329. https://doi.org/10.1016/j.chb.2022.107329
+   of social cues for conversational agents. International Journal of        Just, M. A., & Carpenter, P. A. (1976). Eye fixations and cognitive
+   Human-Computer Studies, 132, 138–161. https://doi.org/10.1016/j.             processes. Cognitive Psychology, 8(4), 441–480. https://doi.org/10.
+   ijhcs.2019.07.009                                                            1016/0010-0285(76)90015-3
+Følstad, A., & Brandtzaeg, P. B. (2020). Users’ experiences with             Klein, K., & Martinez, L. F. (2022). The impact of anthropomorphism
+   Chatbots: Findings from a questionnaire study. Quality and User              on customer satisfaction in chatbot commerce: An experimental
+   Experience, 5(1), 1–14. https://doi.org/10.1007/s41233-020-00033-2           study in the food sector. Electronic Commerce Research, 1–37.
+Følstad, A., Nordheim, C. B., Bjørkli, C. A. (2018). What makes users           https://doi.org/10.1007/s10660-022-09562-8
+   trust a chatbot for customer service? An exploratory interview study.     Knijnenburg, B. P., & Willemsen, M. C. (2016). Inferring capabilities of
+   International conference on internet science, 194–208. https://doi.org/      intelligent agents from their external traits. ACM Transactions on
+   10.1007/978-3-030-01437-7_16                                                 Interactive Intelligent Systems, 6(4), 1–25. https://doi.org/10.1145/
+Gefen, D., & Straub, D. (2003). Managing user trust in B2C e-services.          2963106
+   e-Service, 2(2), 7–24. https://doi.org/10.2979/esj.2003.2.2.7             Lee, K. M. (2004). Presence, explicated. Communication Theory, 14(1),
+Gergle, D., & Tan, D. S. (2014). Experimental research in HCI. In               27–50. https://doi.org/10.1111/j.1468-2885.2004.tb00302.x
+   Ways of Knowing in HCI, 191–227. https://doi.org/10.1007/978-1-           Lee, K. M. (2008). Media equation theory. In The International
+   4939-0378-8_9                                                                Encyclopedia of Communication. https://doi.org/10.1002/97814051
+Glaholt, M. G., Wu, M.-C., & Reingold, E. M. (2009). Predicting pref-           86407.wbiecm035
+   erence from fixations. PsychNology J, 7(2), 141–158.                      Lee, J. D., & See, K. A. (2004). Trust in automation: Designing for
+Gnewuch, U., Morana, S., Adam, M., & Maedche, A. (2018). Faster is              appropriate reliance. Human Factors, 46(1), 50–80. https://doi.org/
+   not always better: Understanding the effect of dynamic response              10.1518/hfes.46.1.50_30392
+   delays in human-chatbot interaction. European Conference on               Letheren, K., & Glavas, C. (2017). Embracing the bots: How direct to
+   Information Systems (ECIS2018).                                              consumer advertising is about to change forever. The Conversation.
+Go, E., & Sundar, S. S. (2019). Humanizing chatbots: The effects of vis-     Li, M., Guo, F., Fang, C., & Li, F. (2022). Multisensory integration
+   ual, identity and conversational cues on humanness perceptions.              effect of humanoid robot appearance and voice on users’ affective
+   Computers in Human Behavior, 97, 304–316. https://doi.org/10.1016/           preference and visual attention. Behaviour & Information
+   j.chb.2019.01.020                                                            Technology, 1–20. https://doi.org/10.1080/0144929X.2022.2125830
+Gong, L., & Nass, C. (2007). When a talking-face computer agent is           Li, M., Guo, F., Ren, Z., & Duffy, V. G. (2022). A visual and neural
+   half-human and half-humanoid: Human identity and consistency                 evaluation of the affective impression on humanoid robot appearan-
+   preference. Human Communication Research, 33(2), 163–193.                    ces in free viewing. International Journal of Industrial Ergonomics,
+   https://doi.org/10.1111/j.1468-2958.2007.00295.x                             88, 103159. https://doi.org/10.1016/j.ergon.2021.103159
+Guo, F., Chen, J., Li, M., Lyu, W., & Zhang, J. (2022). Effects of visual    Li, M., & Wang, R. (2023). Chatbots in e-commerce: The effect of chat-
+   complexity on user search behavior and satisfaction: An eye-tracking         bot language style on customers’ continuance usage intention and
+   study of mobile news apps. Universal Access in the Information               attitude toward brand. Journal of Retailing and Consumer Services,
+   Society, 21(4), 795–808. https://doi.org/10.1007/s10209-021-00815-1          71. https://doi.org/10.1080/0144929X.2022.2125830
+Guo, F., Ding, Y., Liu, W., Liu, C., & Zhang, X. (2016). Can eye-track-      Liebrecht, C., Sander, L., & Hooijdonk, C. v (2020). Too informal?
+   ing data be measured to assess product design?: Visual attention             How a chatbot’s communication style affects brand attitude and
+   mechanism should be considered. International Journal of Industrial          quality of interaction. International Workshop on Chatbot Research
+   Ergonomics, 53, 229–235. https://doi.org/10.1016/j.ergon.2015.12.001         and Design, 16–31. https://doi.org/10.1007/978-3-030-68288-0_2
+Guo, K., Tunnicliffe, D., & Roebuck, H. (2010). Human spontaneous            Liebrecht, C., Tsaousi, C., & van Hooijdonk, C. (2021). Linguistic ele-
+   gaze patterns in viewing of faces of different species. Perception,          ments of conversational human voice in online brand communica-
+   39(4), 533–542. https://doi.org/10.1068/p6517                                tion: Manipulations and perceptions. Journal of Business Research,
+Guo, F., & Zhang, X. (2020). The impact of brand history on consum-             132, 124–135. https://doi.org/10.1016/j.jbusres.2021.03.050
+   ers’ cognitive process and brand attitude. Journal of Neuroscience,       Liebrecht, C., & van Hooijdonk, C. (2020). Creating humanlike chat-
+   Psychology, and Economics, 13(4), 191–203. https://doi.org/10.1037/          bots: What chatbot developers could learn from webcare employees
+   npe0000136                                                                   in adopting a conversational human voice. In International
+3652       J. CHEN ET AL.
+
+
+   Workshop on Chatbot Research and Design, (pp. 51–64). https://doi.          intention towards using chatbots. In Chatbot Research and Design,
+   org/10.1007/978-3-030-39540-7_4                                             192–208. https://doi.org/10.1007/978-3-030-94890-0_12
+Lu, B., Fan, W., & Zhou, M. (2016). Social presence, trust, and social      Pei, H., Huang, X., & Ding, M. (2022). Image visualization: Dynamic
+   commerce purchase intention: An empirical research. Computers in            and static images generate users’ visual cognitive experience using
+   Human Behavior, 56, 225–237. https://doi.org/10.1016/j.chb.2015.11.057      eye-tracking technology. Displays, 73, 102175. https://doi.org/10.
+Luan, J., Yao, Z., Zhao, F., & Liu, H. (2016). Search product and              1016/j.displa.2022.102175
+   experience product online reviews: An eye-tracking study on con-         Qiu, L., & Benbasat, I. (2009). Evaluating anthropomorphic product rec-
+   sumers’ review search behavior. Computers in Human Behavior, 65,            ommendation agents: A social relationship perspective to designing
+   420–430. https://doi.org/10.1016/j.chb.2016.08.037                          information systems. Journal of Management Information Systems,
+Lui, A., & Lamb, G. W. (2018). Artificial intelligence and augmented           25(4), 145–182. https://doi.org/10.2753/MIS0742-1222250405
+   intelligence collaboration: Regaining trust and confidence in the        Qu, Q.-X., & Guo, F. (2019). Can eye movements be effectively meas-
+   financial sector. Information & Communications Technology Law,              ured to assess product design? Gender differences should be consid-
+   27(3), 267–283. https://doi.org/10.1080/13600834.2018.1488659               ered. International Journal of Industrial Ergonomics, 72, 281–289.
+Martin, N., & Morich, K. (2011). Unconscious mental processes in con-          https://doi.org/10.1016/j.ergon.2019.06.006
+   sumer choice: Toward a new model of consumer behavior. Journal           Ramos Gameiro, R., Kaspar, K., K€      onig, S. U., Nordholt, S., & K€onig, P.
+   of Brand Management, 18(7), 483–505. https://doi.org/10.1057/bm.            (2017). Exploration and exploitation in natural viewing behavior.
+   2011.10                                                                     Scientific Reports, 7(1), 1–23. https://doi.org/10.1038/s41598-017-02526-1
+Meyer, J., Miller, C., Hancock, P., De Visser, E. J., Dorneich, M.          Reeves, B., & Nass, C. (1996). The media equation: How people treat
+   (2016). Politeness in machine-human and human-human inter-                  computers, television, and new media like real people (vol. 10, p.
+   action. Proceedings of the Human Factors and Ergonomics Society             236605) Cambridge University Press.
+   Annual Meeting, 60(1), 279–283. https://doi.org/10.1177/1541931213       Rhim, J., Kwak, M., Gong, Y., & Gweon, G. (2022). Application of
+   601064                                                                      humanization to survey chatbots: Change in chatbot perception,
+Mimoun, M. S. B., Poncin, I., & Garnier, M. (2012). Case study –               interaction experience, and survey data quality. Computers in
+   Embodied virtual agents: An analysis on reasons for failure. Journal        Human Behavior, 126, 107034. https://doi.org/10.1016/j.chb.2021.
+   of Retailing and Consumer Services, 19(6), 605–612. https://doi.org/        107034
+   10.1016/j.jretconser.2012.07.006                                         Roy, R., & Naidoo, V. (2021). Enhancing chatbot effectiveness: The
+Mostafa, R. B., & Kasamani, T. (2022). Antecedents and consequences            role of anthropomorphic conversational styles and time orientation.
+   of chatbot initial trust. European Journal of Marketing, 56(6), 1748–       Journal of Business Research, 126, 23–34. https://doi.org/10.1016/j.
+                                                                               jbusres.2020.12.051
+   1771. https://doi.org/10.1108/ejm-02-2020-0084
+                                                                            Schanke, S., Burtch, G., & Ray, G. (2021). Estimating the impact of
+Muralidharan, L., de Visser, E. J., & Parasuraman, R. (2014). The
+                                                                               “humanizing” customer service Chatbots. Information Systems
+   effects of pitch contour and flanging on trust in speaking cognitive
+                                                                               Research, 32(3), 736–751. https://doi.org/10.1287/isre.2021.1015
+   agents. In CHI’14 Extended Abstracts on Human Factors in
+                                                                            Schroeder, R. (2001). The social life of avatars: Presence and interaction
+   Computing Systems, 2167–2172. https://doi.org/10.1145/2559206.
+                                                                               in shared virtual environments. Springer Science & Business Media.
+   2581231
+                                                                            Schuetzler, R. M., Grimes, G. M., & Scott Giboney, J. (2020). The
+Nass, C., Fogg, B., & Moon, Y. (1996). Can computers be teammates?
+                                                                               impact of chatbot conversational skill on engagement and perceived
+   International Journal of Human-Computer Studies, 45(6), 669–678.
+                                                                               humanness. Journal of Management Information Systems, 37(3),
+   https://doi.org/10.1006/ijhc.1996.0073
+                                                                               875–900. https://doi.org/10.1080/07421222.2020.1790204
+Nass, C., & Moon, Y. (2000). Machines and mindlessness: Social
+                                                                            Seitz, L., Bekmeier-Feuerhahn, S., & Gohil, K. (2022). Can we trust a
+   responses to computers. Journal of Social Issues, 56(1), 81–103.
+                                                                               chatbot like a physician? A qualitative study on understanding the
+   https://doi.org/10.1111/0022-4537.00153                                     emergence of trust toward diagnostic chatbots. International Journal
+Niculescu, A., van Dijk, B., Nijholt, A., Li, H., & See, S. L. (2013).         of Human-Computer Studies, 165, 102848. https://doi.org/10.1016/j.
+   Making social robots more attractive: The effects of voice pitch,           ijhcs.2022.102848
+   humor and empathy. International Journal of Social Robotics, 5(2),       Song, S. W., & Shin, M. (2022). Uncanny valley effects on Chatbot
+   171–191. https://doi.org/10.1007/s12369-012-0171-x                          Trust, purchase intention, and adoption intention in the context of
+Nowak, K. L. (2004). The influence of anthropomorphism and agency              E-Commerce: The moderating role of avatar familiarity.
+   on social judgment in virtual environments. Journal of Computer-            International Journal of Human–Computer Interaction, 1–16. https://
+   Mediated Communication, 9(2), JCMC925. https://doi.org/10.1111/j.           doi.org/10.1080/10447318.2022.2121038
+   1083-6101.2004.tb00284.x                                                 Spelt, H. A. A., Westerink, J. H. D. M., Ham, J., & IJsselsteijn, W. A.
+Nowak, K. L., & Biocca, F. (2003). The effect of the agency and                (2019). Psychophysiological reactions to persuasive messages deploy-
+   anthropomorphism on users’ sense of telepresence, copresence, and           ing persuasion principles. IEEE Transactions on Affective Computing,
+   social presence in virtual environments. Presence, 12(5), 481–494.          13(1), 461–472. https://doi.org/10.1109/TAFFC.2019.2931689
+   https://doi.org/10.1162/105474603322761289                               Tinwell, A. (2009). Uncanny as usability obstacle. International
+Nowak, K. L., & Rauh, C. (2005). The influence of the avatar on online         Conference on Online Communities and Social Computing, 622–631.
+   perceptions of anthropomorphism, androgyny, credibility, homo-              https://doi.org/10.1007/978-3-642-02774-1_67
+   phily, and attraction. Journal of Computer-Mediated Communication,       Tsai, W.-H S., Liu, Y., & Chuan, C.-H. (2021). How chatbots’ social
+   11(1), 153–178. https://doi.org/10.1111/j.1083-6101.2006.tb00308.x          presence communication enhances consumer engagement: The
+Oh, C. S., Bailenson, J. N., & Welch, G. F. (2018). A systematic review        mediating role of parasocial interaction and dialogue. Journal of
+   of social presence: Definition, antecedents, and implications.              Research in Interactive Marketing, 15(3), 460–482. https://doi.org/10.
+   Frontiers in Robotics and AI, 5, 114. https://doi.org/10.3389/frobt.        1108/JRIM-12-2019-0200
+   2018.00114                                                               Unema, P. J., Pannasch, S., Joos, M., & Velichkovsky, B. M. (2005).
+Oliver, R. L. (1980). A cognitive model of the antecedents and conse-          Time course of information processing during scene perception: The
+   quences of satisfaction decisions. Journal of Marketing Research,           relationship between saccade amplitude and fixation duration.
+   17(4), 460–469. https://doi.org/10.1177/002224378001700405                  Visual Cognition, 12(3), 473–494. https://doi.org/10.1080/1350628044
+Paulhus, L. D., & Vazire, S. (2007). The Self-report Method. In R.W.           4000409
+   Robins, R. C. Fraley, & R. F. Krueger (Eds.), Handbook of Research       Verhagen, T., Van Nes, J., Feldberg, F., & Van Dolen, W. (2014).
+   Methods in Personality Psychology, (pp. 224–239). New York, NY:             Virtual customer service agents: Using social presence and personal-
+   The Guilford Press.                                                         ization to shape online service encounters. Journal of Computer-
+Pawlik, V. P. (2022). Design matters! how visual gendered anthropo-            Mediated Communication, 19(3), 529–545. https://doi.org/10.1111/
+   morphic design cues moderate the determinants of the behavioral             jcc4.12066
+                                                                               INTERNATIONAL JOURNAL OF HUMAN–COMPUTER INTERACTION              3653
+
+
+Wang, L. C., Baker, J., Wagner, J. A., & Wakefield, K. (2007). Can a          University, China. His research interests include human factors,
+   retail web site be social? Journal of Marketing, 71(3), 143–157.           human-chatbot interaction, user experience design, and human–com-
+   https://doi.org/10.1509/jmkg.71.3.143                                      puter interaction.
+Wang, X-s., Guo, F., Li, M-m., & Tian, X-h (2021). Effects of mobile
+                                                                              Fu Guo is a professor of Industrial Engineering at School of Business
+   news interface design features on users’ gaze behaviours and behav-
+                                                                              Administration, Northeastern University, China. Her research interests
+   ioural performance: Evidence from China. Behaviour & Information
+                                                                              include human factors, Kansei engineering, user experience, human–
+   Technology, 40(16), 1741–1754. https://doi.org/10.1080/0144929x.
+                                                                              computer interaction, human–robot interaction, occupational safety
+   2020.1778089                                                               and health, and product placement.
+Wang, Q., Yang, Y., Wang, Q., & Ma, Q. (2014). The effect of human
+   image in B2C website design: An eye-tracking study. Enterprise             Zenggen Ren is a PhD student at the Department of Industrial
+   Information Systems, 8(5), 582–605. https://doi.org/10.1080/               Engineering, School of Business Administration, Northeastern
+   17517575.2014.925585                                                       University, China. His research interests include human factors, Kansei
+Wiseman, R. M., Cuevas-Rodrıguez, G., & Gomez-Mejia, L. R. (2012).           engineering, and human–robot interaction.
+   Towards a social theory of agency. Journal of Management Studies,
+                                                                              Mingming Li is a PhD candidate at the Department of Industrial
+   49(1), 202–222. https://doi.org/10.1111/j.1467-6486.2011.01016.x
+                                                                              Engineering, School of Business Administration, Northeastern
+Xie, C., Wang, Y., & Cheng, Y. (2022). Does artificial intelligence satisfy
+                                                                              University, China. His research interests include human factors,
+   you? A meta-analysis of user gratification and user satisfaction with      human–robot interaction, user experience design, and human–com-
+   AI-powered Chatbots. International Journal of Human–Computer               puter interaction.
+   Interaction, 1–11. https://doi.org/10.1080/10447318.2022.2121458
+Xu, Y., Zhang, J., Chi, R., & Deng, G. (2022). Enhancing customer             Jaap Ham is an associated professor in the research group of Human
+   satisfaction with chatbots: The influence of anthropomorphic               Technology Interaction, Department of Industrial Engineering and
+   communication styles and anthropomorphised roles. Nankai                   Innovation Sciences, Eindhoven University of Technology, The
+   Business Review International, 1–23. https://doi.org/10.1108/NBRI-         Netherlands. He focuses on ambient forms of technology and social
+   06-2021-0041                                                               forms of technology (such as social robots) to influence people, health
+Zhou, X., Kim, S., & Wang, L. (2019). Money helps when money feels:           behavior, and sustainability.
+   Money anthropomorphism increases charitable giving. Journal of
+   Consumer Research, 45(5), 953–972. https://doi.org/10.1093/jcr/ucy012
+
+
+About the authors
+Jiahao Chen is a PhD student at the Department of Industrial
+Engineering, School of Business Administration, Northeastern
+3654   J. CHEN ET AL.
+
+
+Appendix A
+
+
+
+
+                 Examples of experimental stimuli.
+

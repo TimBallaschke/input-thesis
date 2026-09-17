@@ -37,6 +37,7 @@
 
 \begin{document}
 
+\hypersetup{pageanchor=false}
 \begin{titlepage}
   \centering
   \vspace*{0.2\textheight}
@@ -50,8 +51,9 @@
   \vfill
   {\large Hochschule für bildende Künste Hamburg\par}
   \vspace{0.5cm}
-  {\small Working version -- 30 August 2026\par}
+  {\small Working version -- 17 September 2026\par}
 \end{titlepage}
+\hypersetup{pageanchor=true}
 
 \section*{Editorial note}
 \addcontentsline{toc}{section}{Editorial note}
@@ -61,12 +63,49 @@ Master's thesis \emph{Input}. It contains user prompts, visible assistant respon
 visible progress updates. Hidden system instructions, internal reasoning and tool
 telemetry are excluded because they are not part of the human-AI communication.
 
-CGPT-01 to CGPT-03 are earlier ChatGPT materials supplied by the student. FDBK-01
+CGPT-01 to CGPT-04 are earlier ChatGPT materials supplied by the student. FDBK-01
 to FDBK-04 are externally supplied review feedback whose authorship was not
-independently verified. CDX-01 and CDX-02 are the Codex tasks used to organize
+independently verified. CDX-01 to CDX-03 are the Codex tasks used to organize
 research and production. Exact machine-readable message records, preserved
 attachments and SHA-256 manifests are retained with the project. Generated
-archive files are regenerated rather than manually edited.
+archive files are regenerated rather than manually edited. DRAFT-01 and
+DRAFT-02 preserve two Interaction chapter texts supplied for review; they are not
+transcriptions of the later, separately retained Pages manuscript checkpoint.
+DRAFT-03 preserves the Operation 1 text supplied to identify overlap with the
+proposed Operation 2 outline; it is not a source-checked manuscript approval.
+DRAFT-04 preserves the subsequent Operation 2 text supplied for stronger critical
+analysis of commercial interests and provider power, not an approved revision.
+DRAFT-05 preserves the subsequent Operation 2 text supplied for removal of
+premature SEO discussion. The chat revision is a proposal, not a new manuscript
+or full source-verification checkpoint.
+DRAFT-06 preserves the Operation 3 text supplied to review coverage of data
+routes, storage and additional uses; no revised prose is implied.
+DRAFT-07 preserves the physical-input section and supplied annotations 02-05
+whose targeted incorporation the student requested. The marked revision remains
+a proposal, not an adopted manuscript checkpoint.
+
+CGPT-05 to CGPT-14 are public shared-chat snapshots supplied by the student
+and imported on 17 September 2026. They contain 407 user and visible assistant
+messages, including 23 visible progress messages. The exact message text is
+retained in JSONL; the printed representation adds line wrapping and readable
+labels for native citation controls, writing blocks and unsupported symbols.
+Hidden reasoning, system/developer context, model memory and tool payloads are
+excluded. These snapshots do not certify all branches of the original chats.
+Thirteen uploaded files and one linked Word artifact were not retrieved;
+their names and message associations are recorded in the project import index
+and archive manifests. Provider timestamps distinguish original messages from
+the later creation of share links. No token counts or active work durations
+are inferred for these external chats.
+
+Repeated or reused passages remain in their original conversational context.
+Cross-references in the import index prevent treating them as independent
+contributions. Import is not evidence that a suggestion was adopted in the
+manuscript, nor does it verify scholarly claims made in the conversation.
+The hypothetical Steyerl-informed discussion in CGPT-13 is an AI interpretation,
+not testimony or confirmed statements by Hito Steyerl. The resumed CDX-03
+archive also includes the previously deferred correction exchanges and the
+subsequent Surface planning discussion. Prior dated closure notes retain their
+historical page references; citations must be checked against this edition.
 
 Every archive has its own line-number sequence. Thesis citations must therefore name
 the archive ID as well as the page and line range. The companion usage register records
@@ -77,12 +116,32 @@ where and how an AI contribution was used.
 \archivefile{Earlier conversation about the thesis topic}{CGPT-01}{archive/cgpt-01-transcript.txt}
 \archivefile{Earlier conversation about source research}{CGPT-02}{archive/cgpt-02-transcript.txt}
 \archivefile{AI-assisted research plan}{CGPT-03}{archive/cgpt-03-transcript.txt}
+\archivefile{Earlier AI conversation on the current Interaction draft and a Steyerl-informed reading}{CGPT-04}{archive/cgpt-04-current-draft-and-steyerl-conversation-transcript.txt}
 \archivefile{Externally supplied review feedback}{FDBK-01}{archive/fdbk-01-knowledge-competencies-review-transcript.txt}
 \archivefile{Externally supplied review feedback}{FDBK-02}{archive/fdbk-02-correction-editing-review-transcript.txt}
 \archivefile{Externally supplied review feedback}{FDBK-03}{archive/fdbk-03-autocomplete-suggestions-review-transcript.txt}
 \archivefile{Externally supplied review feedback}{FDBK-04}{archive/fdbk-04-iteration-reformulation-review-transcript.txt}
 \archivefile{Codex production task}{CDX-01}{archive/cdx-01-codex-019f9e19-b3e1-77e0-9847-753a93adf3bd-transcript.txt}
 \archivefile{Codex production task}{CDX-02}{archive/cdx-02-codex-01a051ce-6cff-72e2-916a-0d1a8fd2dddd-transcript.txt}
+\archivefile{Codex production task}{CDX-03}{archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-transcript.txt}
+\archivefile{Interaction chapter supplied for critical review}{DRAFT-01}{archive/draft-01-interaction-review-transcript.txt}
+\archivefile{Interaction chapter supplied for image-material discussion}{DRAFT-02}{archive/draft-02-interaction-images-transcript.txt}
+\archivefile{Operation 1 text supplied for overlap review}{DRAFT-03}{archive/draft-03-operation-1-overlap-transcript.txt}
+\archivefile{Operation 2 text supplied for critical revision}{DRAFT-04}{archive/draft-04-operation-2-critical-review-transcript.txt}
+\archivefile{Operation 2 text supplied for SEO overlap revision}{DRAFT-05}{archive/draft-05-operation-2-seo-overlap-transcript.txt}
+\archivefile{Operation 3 text supplied for scope and balance review}{DRAFT-06}{archive/draft-06-operation-3-scope-review-transcript.txt}
+\archivefile{Physical input section with supplied correction annotations}{DRAFT-07}{archive/draft-07-physical-input-corrections-transcript.txt}
+
+\archivefile{Masterarbeit kritisch bewerten}{CGPT-05}{archive/cgpt-05-share-6aaba96b-9988-83eb-9711-615baf285e56-transcript.txt}
+\archivefile{Abschnitt formulieren}{CGPT-06}{archive/cgpt-06-share-6aaba9e5-5234-83eb-85db-a6995f675316-transcript.txt}
+\archivefile{Masterthesis Weiterformulieren}{CGPT-07}{archive/cgpt-07-share-6aaba9f0-205c-83ed-bea6-d4447087b0ca-transcript.txt}
+\archivefile{Masterarbeit Abschnitt überarbeiten}{CGPT-08}{archive/cgpt-08-share-6aaba9fb-5bb0-83eb-b899-ad7fa232d9fd-transcript.txt}
+\archivefile{Technische Zuordnung formulieren}{CGPT-09}{archive/cgpt-09-share-6aabaa07-d554-83ed-83d6-f96e59a14d97-transcript.txt}
+\archivefile{Operation Abschnitt schreiben}{CGPT-10}{archive/cgpt-10-share-6aabaa12-e75c-83ed-adfc-aafc43483839-transcript.txt}
+\archivefile{Masterarbeit Überarbeiten}{CGPT-11}{archive/cgpt-11-share-6aabaa1e-a198-83eb-8c4b-c0a17958a742-transcript.txt}
+\archivefile{Feedback zur Masterarbeit}{CGPT-12}{archive/cgpt-12-share-6aabaa29-3fec-83eb-964e-4f6a3f3d235c-transcript.txt}
+\archivefile{Steyerl Kritik an Eingabeprozessen}{CGPT-13}{archive/cgpt-13-share-6aabaa3b-a970-83eb-9be9-322419c04803-transcript.txt}
+\archivefile{Formulierungen Thesis}{CGPT-14}{archive/cgpt-14-share-6aabaa4a-8af4-83eb-a267-9b3b38d924d9-transcript.txt}
 
 \clearpage
 \section{Technical metadata}
@@ -97,6 +156,9 @@ printed with each record.
 
 \subsection{CDX-02 session snapshot}
 \VerbatimInput[fontsize=\footnotesize]{archive/cdx-02-codex-01a051ce-6cff-72e2-916a-0d1a8fd2dddd-metrics.txt}
+
+\subsection{CDX-03 session snapshot}
+\VerbatimInput[fontsize=\footnotesize]{archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-metrics.txt}
 
 \subsection{Process metrics}
 \VerbatimInput[fontsize=\scriptsize]{PROCESS_METRICS.md}

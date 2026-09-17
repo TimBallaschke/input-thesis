@@ -2,10 +2,24 @@
 
 ## Status und Funktion
 
-- Datum: 30. August 2026
+Aktualitätshinweis vom 15. September 2026: Die folgende Synthese dokumentiert
+den früheren Quellen- und Gliederungsstand. Für die weitere Ausarbeitung von
+Operation gilt nun die vom Autor bestätigte
+[Arbeitsgliederung Operation](GLIEDERUNG_OPERATION_01.md). Die hier behaltenen
+Quellenrollen und Lücken werden bei der abschnittsweisen Ausarbeitung geprüft;
+sie sind nicht automatisch eine neue Quellenzuordnung zur revidierten Struktur.
+Für die jüngste kritische Ausarbeitung von Operation 2 ergänzt die
+[Redaktionsstruktur zu Interessen und Macht](REDAKTION_OPERATION_2_INTERESSEN_MACHT_01.md)
+Gillespie sowie den Google-/Alphabet-Anzeigenfall. Historische Bestandszahlen
+unten bleiben als solche erhalten; der aktuelle Bestand steht im Quellenaudit.
+Die Gesamtüberarbeitung P-0158 / AI-053 differenziert inzwischen alle vier
+Abschnitte; die oben verlinkte Arbeitsgliederung hat Planungsvorrang. Vorliegende
+Quellen werden dabei neu zugeordnet, nicht pauschal für neue Aussagen freigegeben.
+
+- Datum: 30. August 2026; fortgeschrieben am 3. September 2026
 - Verbindliche Strukturgrundlage: `presentation/Struktur_Masterarbeit_Input.pages`
 - Auswertungsgrundlage: `research/SOURCE_EVALUATION_GUIDE.md`
-- Evidenzbasis: 26 freigegebene und eine abstractbegrenzt offene, nach dem neuen Leitfaden erstellte Einzelquellennotiz
+- Evidenzbasis: 29 freigegebene und eine abstractbegrenzt offene, nach dem neuen Leitfaden erstellte Einzelquellennotiz
 - Zweck: den vorhandenen Quellenbestand innerhalb der bereits festgelegten Autorstruktur **Einleitung/Historischer Rahmen -> Surface -> Interaction -> Operation -> Schlussteil** zusammenführen
 - Status: Arbeitsgrundlage für das spätere Schreiben, kein Thesistext und keine neue Kapitelgliederung
 
@@ -25,7 +39,7 @@ Die Pages-Datei gibt folgende Bewegung vor:
 
 Zeitliche und animierte Zustände wie Typing, Generating, Streaming, Stoppen und Fehler werden nicht als neues Hauptkapitel eingeführt. Sie bilden ein Querschnittsthema zwischen Surface, Interaction und Operation: Sichtbarer Zustand, menschliche Interpretation und dokumentierter technischer Auslöser müssen getrennt werden.
 
-## Zuordnung der 26 aktiven Quellen und einer offenen Vorprüfung
+## Zuordnung der 29 aktiven Quellen und einer offenen Vorprüfung
 
 | Quelle | Primärer Beitrag in der Autorstruktur | Sekundärer Beitrag | Zentrale Grenze |
 | --- | --- | --- | --- |
@@ -40,8 +54,11 @@ Zeitliche und animierte Zustände wie Typing, Generating, Streaming, Stoppen und
 | [Zamfirescu-Pereira et al. 2023 – Why Johnny Can't Prompt](source-notes/zamfirescu-pereira-et-al-2023-why-johnny-cant-prompt.md) | Interaction: Promptwissen, Iteration und Testen | konkrete operative Rollen in BotDesigner | zehn Personen, eine Aufgabe, historisches GPT-3 und Forschungsprototyp |
 | [Oulasvirta et al. 2013 – Two-Thumb Text Entry](source-notes/oulasvirta-et-al-2013-two-thumb-text-entry.md) | Interaction als körperlicher und erlernter Prozess | Touchpunkt -> Zeichen als operative Übersetzung | KALQ, Tablet, kleine homogene Stichproben und intensives Training |
 | [Feit, Weir und Oulasvirta 2016 – How We Type](source-notes/feit-weir-oulasvirta-2016-how-we-type.md) | Interaction: physische Tastatur, Fingerstrategien und Blicksteuerung | Keypress-Verlauf gegenüber fertigem Text | 30 Personen, kontrollierte Transkription, finnische QWERTY-Tastatur und offizielles WPM-Erratum |
+| [Galbraith und Kay 2025 – QWERTY and IP Complementarity](source-notes/galbraith-kay-2025-qwerty-ip-complementarity.md) | historischer Rahmen: QWERTY als gekoppelte Surface und Mechanik | Standardisierung, Umlernen und wirtschaftliche Schutzstrategie | deutliche Gegenposition zur Lock-in-Erzählung; historische Rekonstruktion statt heutiger Nutzungsstudie |
 | [Ruan et al. 2017 – Speech and Keyboard Text Entry](source-notes/ruan-et-al-2017-speech-keyboard-text-entry.md) | Interaction: Touchscreen-Tastatur und Spracheingabe | Spracherkennung, sichtbare Ersttranskription und multimodale Korrektur | Idealbedingungen, kurze Transkription, Produktstand 2017 und keine freie Komposition |
+| [Koenecke et al. 2020 – Racial Disparities in ASR](source-notes/koenecke-et-al-2020-racial-disparities-asr.md) | Operation: ungleich verteilte Wortfehlerraten kommerzieller Spracherkennung | Machtfrage nach zusätzlicher Prüf- und Korrekturarbeit | keine Diktieroberfläche, keine Korrekturbeobachtung, historische Systeme und regionale Konfundierung |
 | [van Esch et al. 2019 – Gboard Internationalization](source-notes/van-esch-et-al-2019-gboard-internationalization.md) | sprach- und schriftspezifische Surface/Interaction | Modelle und institutionelle Priorisierung | Herstellerbericht; aggregierte Methoden und Produktstand 2019 |
+| [Akrich 1992 – De-Scription of Technical Objects](source-notes/akrich-1992-de-scription-technical-objects.md) | theoretische Linse für die Rückkopplung von Surface, Interaction und Operation | Skript, projektierte Nutzer:innen, Delegation und Blackboxing | Techniktransfer- und Infrastrukturbeispiele; kein Texteingabeinterface |
 | [von Ahn et al. 2008 – reCAPTCHA](source-notes/von-ahn-et-al-2008-recaptcha.md) | sichtbare versus operative Bedeutung | Surface -> Interaction eines historischen Zugangstests | historisches System; keine gegenwärtige reCAPTCHA-Aussage |
 | [WHATWG 2026 – HTML Standard](source-notes/whatwg-2026-html-standard-forms-input.md) | Operation: Feldzustände, Werte, Validierung und Submission | normative Surface- und Bearbeitungsrollen | Standard statt Browserpraxis; keine Serveroperation |
 | [Hearst 2009 – Search User Interfaces](source-notes/hearst-2009-search-user-interfaces-preview.md) | Surface/Interaction von Suchfeldern, Feedback und Reformulierung | opake Querytransformation als Operationsfrage | unvollständiger Buchauszug, historische Beispiele und keine Retrievaltechnik |
@@ -84,6 +101,7 @@ Der vorhandene Bestand erlaubt einen **selektiven historischen Kontrast**, aber 
 - Shneiderman fasst Ganzseiteneditoren und andere Systeme als Direct Manipulation: sichtbare Objekte, physische oder beschriftete Aktionen sowie schnelle, inkrementelle und reversible Effekte sollen Syntaxübersetzung verringern, ohne Repräsentationen automatisch überlegen zu machen (SHN83-P1–P8).
 - RFC 1866 dokumentiert 1995 die technische Trennung von Feldrolle, bearbeitetem Zustand und übertragenen Name-Wert-Daten (RFC1866-P1–P6).
 - Hearst beschreibt die Websuche von 2009 als historisch einfache Feld-Ergebnis-Konstellation, hinter der erlernte Querykonventionen und automatische Eingriffe liegen (HEARST-P2–P5, HEARST-P9).
+- Galbraith und Kay rekonstruieren QWERTY als zeitgebundene Kopplung aus sichtbarem Layout, Typenhebelmechanik, Umlern- und Standardisierungsarbeit sowie wirtschaftlicher Strategie. Ihre Gegenposition zur klassischen Lock-in-Erzählung darf nicht als Nachweis universeller Layoutoptimalität erscheinen (GK25-P1–P8).
 - Subramonyam sowie Zamfirescu-Pereira et al. verschieben den Vergleich auf offene LLM-Promptinteraktion, belegen aber weder einen direkten Entwicklungspfad aus früheren Systemen noch eine aktuelle allgemeine Modelloperation (SUB24-P1–P4; ZP23-P1, ZP23-P8).
 
 **Historische Grenze:** Zwischen diesen Punkten fehlen operative Primärquellen zur Shell, technische Zwischenstufen der Websuche und Formulare sowie ein belastbarer technischer Übergang zu heutigen LLMs. Carrolls möglicher Beitrag zu Dateinamen und Command-Paradigmen bleibt mangels Volltext offen. Die vorhandenen Fälle dürfen deshalb nicht als lineare Evolution „vom Command zur Konversation“ ausgegeben werden.
@@ -152,9 +170,13 @@ Oulasvirta et al. ergänzen die physische Tastatur um Touchscreen-Eingabe. Griff
 
 Ruan et al. erweitern das Spektrum auf Diktat. Unter ausdrücklich idealen Bedingungen war die Spracheingabe für kurze englische und mandarinchinesische Transkriptionen knapp dreimal schneller als die Touchscreen-Tastatur, erzeugte während der Eingabe weniger korrigierte Fehler, ließ aber mehr unkorrigierte Fehler im Endtext. Entscheidend für den Abschnitt ist nicht nur der Geschwindigkeitswert: Sprechen, manuelles Beenden, Systemverarbeitung, Prüfen und Korrigieren bilden eine eigene Handlungskette; 86 Prozent der Korrekturzeit in der Sprachbedingung wurden wieder mit der Tastatur ausgeführt (RUAN17-P3–P7, RUAN17-P12). Die Studie belegt weder freie Promptkomposition noch heutige Alltagsbedingungen.
 
+Koenecke et al. zeigen für fünf damalige kommerzielle Systeme, dass diese operative Erkennung im untersuchten US-Korpus nicht gleich verteilt war: Aggregiert lag die WER für Black speakers bei 0,35 und für White speakers bei 0,19. Textgleiche Kurzäußerungen und die ergänzenden Modelltests stützen eine vorsichtige Erklärung über akustische Modellierung, Aussprache und Prosodie (KOE20-P1–P7). Die Quelle beobachtet weder Interface noch Korrektur. Zusätzliche Prüf- oder Korrekturarbeit ist deshalb eine Projektfrage, die nur in Kombination mit Ruans dokumentierter Korrekturkette gestellt werden darf.
+
 Van Esch et al. ergänzen, dass physische Erreichbarkeit und Eingaberoutine sprach- und schriftsystemspezifisch sind. Long Press, Seitenwechsel, dynamische Tasten, Layoutwechsel und Workarounds verteilen die Eingabearbeit unterschiedlich (VE19-P2, VE19-P4, VE19-P7). Wegen der aggregierten Herstellerdarstellung dient diese Quelle nur als Kontextualisierung.
 
 MacKenzie und Soukoreff liefern dafür den methodischen Rahmen: Textschaffen und Textkopieren verlangen unterschiedliche Aufmerksamkeitsverteilungen, Anfänger- und Expertenleistung dürfen nicht gleichgesetzt werden, und Geschwindigkeit muss gemeinsam mit Genauigkeit betrachtet werden (MS02-P3–P6). Diese Quelle liefert keine aktuellen Leistungswerte, verhindert aber, verschieden erhobene Text-Entry-Zahlen unkritisch zu vergleichen.
+
+Akrich rahmt diese Fälle als wechselseitige Definition von technischem Objekt, projektierten und realen Nutzer:innen. Ihr Begriff des Skripts lokalisiert Annahmen über Rollen und Kompetenzen im Entwurf; Störung, Abweichung und Umgehung machen sie sichtbar, während Stabilisierung und Blackboxing sie verdecken können (AKR92-P1–P9). Das ist eine theoretische Projektion auf Texteingabe, kein direkter HCI-Befund.
 
 ### Erforderliche Kenntnisse und Kompetenzen
 
@@ -231,13 +253,15 @@ Der zentrale Operationsbefund ist, dass „der eingegebene Text“ technisch kei
 
 ### Verarbeitung
 
-Die 26 freigegebenen Quellen decken einzelne Verarbeitungsformen ungleichmäßig ab:
+Die 29 freigegebenen Quellen decken einzelne Verarbeitungsformen ungleichmäßig ab:
 
 - **Regelbasierte Dialogtransformation:** ELIZA ist technisch direkt dokumentiert (W66-P2–P4).
 - **Formularwert, Validierung und Übertragung:** RFC 1866 und WHATWG liefern historische und aktuelle normative Baselines (RFC1866-P4–P7; WHATWG-P3–P11).
 - **Klassifikation:** Cui et al. dokumentieren die Forschungspipeline zur Klassifikation von Formularen und angeforderten Datenarten; Bowker und Star liefern den theoretischen Infrastrukturrahmen. Beides ist von der tatsächlichen Websiteverarbeitung zu trennen (CUI25-P3–P7; BOWKER-P1–P11).
 - **Probabilistische Zeichenrekonstruktion:** Oulasvirta et al. dokumentieren die Verbindung von Touchwahrscheinlichkeit und Sprachkontext (OUL13-P7).
 - **Spracherkennung und multimodale Korrektur:** Ruan et al. dokumentieren für ihr Testbett den Weg von der serverbasierten Ersttranskription über sichtbare Kontrolle bis zu tastatur- oder sprachbasierter Korrektur. Die interne Deep-Speech-2-Inferenz bleibt außerhalb der Interfaceanalyse (RUAN17-P2–P3, RUAN17-P6–P10).
+- **Ungleich verteilte Spracherkennung:** Koenecke et al. vergleichen Wortfehlerraten von fünf kommerziellen Systemen und prüfen mögliche akustische gegenüber sprachmodellbezogenen Ursachen. Interne Modelle, konkrete Interfaces und tatsächliche Korrekturarbeit bleiben unbeobachtet (KOE20-P1–P8).
+- **Delegation und Blackboxing:** Akrich liefert eine theoretische Beschreibung dafür, wie technische Objekte Kompetenzen und Verantwortlichkeiten verteilen und ihre Vermittlung nach Stabilisierung verdecken können. Die Übertragung auf Textfelder benötigt stets die jeweilige direkte Quelle (AKR92-P5–P9).
 - **Verteilte Weiterverarbeitung:** reCAPTCHA dokumentiert die Aggregation mehrerer menschlicher Transkriptionen mit OCR-Vorschlägen (RECAPTCHA-P3–P6).
 - **Promptzusammensetzung:** Zamfirescu-Pereira et al. dokumentieren eine Anfrage an `text-davinci-002` aus Preamble, lokalem Verlauf, Reminder und Rollenpräfix; die interne Modellinferenz bleibt offen (ZP23-P8).
 - **Bearbeitungsereignisse:** *Input Events Level 2* ordnet Editing-Absichten und Daten technischen Ereignistypen und -folgen zu, einschließlich Vorschlagsersetzung, Undo/Redo, Paste und IME-Komposition. Der Working Draft belegt keine Implementierungsunterstützung (W3CIE26-P1–P9).
@@ -297,14 +321,15 @@ Die folgenden Aussagen sind **Projektsynthesen**. Sie stehen nicht wörtlich in 
 | SYN-14 | Direct Manipulation kann erinnerte Syntax durch sichtbare, inkrementelle und reversible Handlungen ersetzen, erzeugt aber eigene Repräsentations- und Lernanforderungen. | SHN83-P1–P8; GOOD82-P1; MOR24-P3–P4 | Historisches Konzept; Morris nennt es nur als nicht evaluierte Alternative für generative KI. | stark historisch, offen für aktuelle KI |
 | SYN-15 | Ein fertiger Text zeigt nicht, wie er entstanden ist; Anschläge, Blick- und Bewegungsverlauf, Spracherkennung, Korrektur, Vorschlagsannahme, Paste, Undo/Redo und IME-Komposition benötigen Prozess- oder Ereignisdaten. | MS02-P8–P9; FEIT16-P1, FEIT16-P9; RUAN17-P8–P10; W3CIE26-P4–P9; QZ16-P5–P6 | Kontrollierte Prozessstudien plus normativer Working Draft; keine allgemeine reale Browser-, Alltags- oder Langtextstudie. | stark als methodische/technische Unterscheidung |
 | SYN-16 | Ein Wechsel der Eingabemodalität beseitigt Interaktionsarbeit nicht, sondern verteilt sie neu zwischen Motorik, Sprechen, Aufmerksamkeit, Erkennung, Kontrolle und Korrektur. | FEIT16-P3–P8; OUL13-P2–P7; RUAN17-P3–P10; MS02-P3–P6 | Der direkte Sprachvergleich gilt nur für kurze Transkription unter Idealbedingungen; keine freie LLM-Promptkomposition. | stark für die untersuchten Eingabesituationen |
+| SYN-17 | Eingabesysteme können Annahmen über Nutzer:innen und Kompetenzen materialisieren; Abweichung macht diese Annahmen sichtbar, Stabilisierung kann sie verdecken. | AKR92-P1–P9; GK25-P2–P7; OUL13-P4, OUL13-P7; KOE20-P2–P8 | Akrich ist eine Theoriequelle, Galbraith/Kay sind historisch umstritten und Koenecke et al. untersuchen kein Interface; jede Anwendung bleibt fallbezogen. | stark als analytische Frage, nur fallweise empirisch |
 
 ## Was der Bestand für die vorhandenen Kapitel bereits leistet
 
 | Vorhandener Abschnitt | Bereits tragfähige Funktion | Noch nicht ausreichend gedeckt |
 | --- | --- | --- |
-| Einleitung/Historischer Rahmen | Typen als unterschiedliche Mensch-System-Übergänge; selektive Kontraste zwischen Command, Ganzseiteneditor, Direct Manipulation, Formular, Suche und Dialog | lückenlose Geschichte; Shell-Operation jenseits der `mkdir`-Utility; Carroll-Volltext; Übergang zu heutigen LLMs |
+| Einleitung/Historischer Rahmen | Typen als unterschiedliche Mensch-System-Übergänge; selektive Kontraste zwischen QWERTY, Command, Ganzseiteneditor, Direct Manipulation, Formular, Suche und Dialog | lückenlose Geschichte; ausgewogene Vertiefung der QWERTY-/Pfadabhängigkeitsdebatte; Shell-Operation jenseits der `mkdir`-Utility; Carroll-Volltext; Übergang zu heutigen LLMs |
 | Surface | Feldrollen, sichtbare Regeln, Editor-/Vorschlagselemente, Kontext, scheinbare Offenheit und begrenzte zeitliche Statusformen | eigener aktueller visueller Korpus; aktuelle native Browser- und KI-Produktzustände |
-| Interaction | Physische Tastatur, Touchscreen und kontrolliertes Diktat; Körper, Lernen, Systemwissen, mehrdimensionale Evaluation, Korrektur, Wortvorschläge, Iteration, Warten und Feedback | freie Komposition und Langtextrevision; aktuelle In-the-wild-Diktier-, Such- und LLM-Prozessdaten |
+| Interaction | Physische Tastatur, Touchscreen und kontrolliertes Diktat; Körper, Lernen, Systemwissen, mehrdimensionale Evaluation, Korrektur, Wortvorschläge, Iteration, Warten und Feedback; begrenzte ASR-Ungleichheit | freie Komposition und Langtextrevision; aktuelle In-the-wild-Diktier-, Such- und LLM-Prozessdaten; tatsächlich geleistete Korrekturarbeit nach ASR-Fehlern |
 | Operation | `mkdir`-Utility-Syntax, Formwerte und Submission, ELIZA-Regeln, Touchkorrektur, serverbasierte Ersttranskription, Editing-Events, reCAPTCHA-Aggregation, BotDesigner-Promptzusammensetzung und Composition-Timer | vollständiges Shell-Parsing und Prozessausführung, Query/Index/Retrieval, Omnibox-Routing, reale Editing-Unterstützung, heutige Spracherkennung und LLM-Inferenz |
 | Sichtbare/operative Bedeutung | starke Fallkontraste durch reCAPTCHA, HTML-Wertstufen, BotDesigner-Rollen und RFC-Statuslogik | dokumentierte Kopplung konkreter KI-Statusanzeigen an Backendzustände |
 
@@ -325,7 +350,7 @@ Die Lücken lösen weiterhin keine pauschale Literaturrecherche aus. Sie werden 
 
 ## Nächster Schreibschritt
 
-**Interaction -> Eingabe als physischer Prozess** liegt nun in [`DRAFT_INTERACTION_STEPWISE_01.md`](DRAFT_INTERACTION_STEPWISE_01.md) als autorbestätigter und gegen die ausgewerteten Source Notes geprüfter deutscher Arbeitsstand vor. Die Fassung verbindet physische Tastatur, trainierte Zweidaumeneingabe, Spracheingabe und die methodische Grenze zur freien Formulierung. Bei Ruan et al. wurde die Formulierung auf den belegten Anteil der Korrekturzeit präzisiert. Der Abschnitt bleibt außerhalb der Thesis-LaTeX-Dateien; sein Draft-Modus ist abgeschlossen.
+**Interaction -> Eingabe als physischer Prozess** liegt in [`DRAFT_INTERACTION_STEPWISE_01.md`](DRAFT_INTERACTION_STEPWISE_01.md) als autorbestätigter und gegen die ursprünglichen Source Notes geprüfter deutscher Arbeitsstand vor. Die neue Dreiergruppe aus Galbraith/Kay, Koenecke et al. und Akrich ist in der revidierten Gliederung und den Quellenübersichten verankert, aber noch nicht in diesen Rumpftext eingearbeitet. Der Abschnitt bleibt außerhalb der Thesis-LaTeX-Dateien; sein Draft-Modus ist abgeschlossen.
 
 **Interaction -> Erforderliche Kenntnisse und Kompetenzen** ist nun ebenfalls in [`DRAFT_INTERACTION_STEPWISE_01.md`](DRAFT_INTERACTION_STEPWISE_01.md) als autorbestätigter und gegen die ausgewerteten Source Notes geprüfter deutscher Arbeitsstand festgehalten. Die Fassung vergleicht explizites Befehls- und Syntaxwissen, Queryformulierung, iterativ entstehendes Promptwissen und die teilweise Externalisierung erwarteter Daten durch Formulare. Die gezielt ergänzte POSIX-Quelle stützt nur das konkrete `mkdir`-Beispiel. Abrufwege für Formulardaten bleiben als Projektsynthese markiert. Der Abschnitt bleibt außerhalb der Thesis-LaTeX-Dateien; sein Draft-Modus ist abgeschlossen.
 
@@ -337,4 +362,4 @@ Die Lücken lösen weiterhin keine pauschale Literaturrecherche aus. Sie werden 
 
 Der nächste Teilabschnitt ist noch nicht als kompakte Schreibübersicht vorbereitet. Nach der bestehenden Autorstruktur folgt **Warten, Turn-Taking und sichtbare Aktivität**; seine Auswahl und Gewichtung beginnt erst nach ausdrücklicher Fortsetzung durch den Autor.
 
-Der zuvor erstellte 417-Wörter-Entwurf unter [`DRAFT_INTERACTION_PHYSICAL_INPUT_01.md`](DRAFT_INTERACTION_PHYSICAL_INPUT_01.md) bleibt als historischer, zurückgestellter Arbeitsstand erhalten und wird nicht fortgeschrieben. Für alle weiteren Teilabschnitte gilt [`WORKFLOW_TEILABSCHNITTE.md`](WORKFLOW_TEILABSCHNITTE.md). Anzahl der Unterpunkte und Quellenpassagen sind nicht festgelegt, sondern folgen dem jeweiligen Argument. Eine weitere Literatursuche wird erst ausgelöst, wenn die Kurzübersicht eine konkrete Beleglücke zeigt.
+Die vom Autor bestätigte Fassung des physischen Prozessabschnitts steht in [`DRAFT_INTERACTION_STEPWISE_01.md`](DRAFT_INTERACTION_STEPWISE_01.md). Die neue kritische Gliederung und die drei Ergänzungsquellen sind darin noch nicht eingearbeitet. Für alle weiteren Teilabschnitte gilt [`WORKFLOW_TEILABSCHNITTE.md`](WORKFLOW_TEILABSCHNITTE.md). Anzahl der Unterpunkte und Quellenpassagen sind nicht festgelegt, sondern folgen dem jeweiligen Argument. Eine weitere Literatursuche wird erst ausgelöst, wenn die Kurzübersicht eine konkrete Beleglücke zeigt.

@@ -16,6 +16,16 @@ def sha256(path: Path) -> str:
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
+def normalize_line_breaks(text: str) -> str:
+    """Render pasted Unicode separators as breaks without changing the source."""
+    return (
+        text.replace("\r\n", "\n")
+        .replace("\r", "\n")
+        .replace("\u2028", "\n")
+        .replace("\u2029", "\n\n")
+    )
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", required=True, type=Path)
@@ -33,8 +43,10 @@ def main() -> None:
         "Content: verbatim text supplied by the student; line wrapping added",
         "",
     ]
+    if "\u2028" in source_text or "\u2029" in source_text:
+        display.insert(-1, "Display: Unicode line/paragraph separators rendered as line breaks")
 
-    for source_line in source_text.replace("\r\n", "\n").replace("\r", "\n").split("\n"):
+    for source_line in normalize_line_breaks(source_text).split("\n"):
         if not source_line:
             display.append("")
             continue

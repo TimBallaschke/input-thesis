@@ -2007,7 +2007,815 @@ monetary cost, energy use or emissions. Final archive synchronization and PDF
 production/QA follow this measurement boundary.
 
 
-## Coverage note
+## P-0136 — Critical reframing and three-layer feedback structure
+
+- Start UTC: `2026-09-03T09:41:03.373Z`
+- End UTC: `2026-09-03T12:40:01.488Z`
+- Start local: `2026-09-03T11:41:03.373+02:00`
+- End local: `2026-09-03T14:40:01.488+02:00`
+- Elapsed wall-clock span: `02:58:58.115`
+- Boundary: the author's initial current-manuscript and critique request through
+  visible confirmation that the editorial note, imported conversation and
+  readable documentation registers had been updated, before final archive and
+  PDF regeneration
+- Visible messages in span: `4 user`, `9 assistant`
+- Top-level tool-call records: `36 exec`
+- Token delta: `unavailable`
+
+The elapsed span includes long intervals between the author's follow-up
+messages and is not uninterrupted human or machine labour. The session starts
+with the first visible user message before any cumulative token snapshot, so no
+valid baseline exists for the complete process. Assigning zero or subtracting
+from the first later snapshot would be misleading. The exact timestamps,
+visible-message count, archive trace and qualitative tool record are retained
+without manufacturing a token delta.
+
+The span covers read-only extraction of the current Pages manuscript, review of
+the supplied professor notes and earlier AI conversation, creation and later
+expansion of the separate editorial working note, preservation of all four
+input cases, and integration of Surface, Interaction and Operation as a
+feedback loop. It also covers the byte-identical CGPT-04 preservation, CDX-03
+export and project-register updates. The Pages manuscript and thesis LaTeX
+files were not changed. The new text remains provisional planning and draft
+material, so no `TXT-###` identifier was assigned. Final deterministic archive
+synchronization and documentation-PDF production follow this measurement
+boundary.
+
+
+## P-0137 — Critical revision of the physical-input outline
+
+- Start UTC: `2026-09-03T12:51:25.205Z`
+- End UTC: `2026-09-03T12:54:37.456Z`
+- Start local: `2026-09-03T14:51:25.205+02:00`
+- End local: `2026-09-03T14:54:37.456+02:00`
+- Elapsed wall-clock span: `00:03:12.251`
+- Boundary: user-supplied outline through the visible documentation-workflow
+  update after the revised structure and evidence-boundary check
+- Baseline token snapshot UTC: `2026-09-03T12:50:32.333Z`
+- End token snapshot UTC: `2026-09-03T12:54:39.373Z`
+- Input-token delta: `577,678`
+- Cached-input subset: `519,296`
+- Non-cached input, calculated: `58,382`
+- Output-token delta: `7,204`
+- Reasoning-output subset: `857`
+- Non-reasoning output, calculated: `6,347`
+- Total-token delta: `584,882`
+- Top-level tool-call records: `7 exec`
+- Visible messages in span: `1 user`, `4 assistant`
+- Calculation script: `scripts/extract_process_metrics.py`
+
+The token delta includes repeated processing of the accumulated task context,
+source-overview material, tool schemas and the new outline. It must not be read
+as newly written prose or as resource consumption by itself. The
+author-confirmed draft and the Pages manuscript remained unchanged, so no
+`TXT-###` identifier was assigned.
+
+## P-0138 — Targeted critical source completion for physical input
+
+- Start UTC: `2026-09-03T13:05:22.110Z`
+- End UTC: `2026-09-03T13:24:48.796Z`
+- Start local: `2026-09-03T15:05:22.110+02:00`
+- End local: `2026-09-03T15:24:48.796+02:00`
+- Elapsed wall-clock span: `00:19:26.686`
+- Boundary: the author's instruction to obtain the three recommended sources
+  through the visible confirmation that they had been critically evaluated,
+  integrated into the source/structure records and were ready for final
+  documentation closure
+- Baseline token snapshot UTC: `2026-09-03T13:03:31.725Z`
+- End token snapshot UTC: `2026-09-03T13:24:51.222Z`
+- Input-token delta: `12,445,900`
+- Cached-input subset: `12,117,504`
+- Non-cached input, calculated: `328,396`
+- Output-token delta: `41,675`
+- Reasoning-output subset: `11,289`
+- Non-reasoning output, calculated: `30,386`
+- Total-token delta: `12,487,575`
+- Top-level tool-call records: `77 exec`
+- Visible messages in span: `1 user`, `7 assistant`
+- Calculation script: `scripts/extract_process_metrics.py`
+
+The bounded span includes scholarly and institutional web discovery, correction
+of one mismatched QWERTY full text, acquisition and hashing of three source
+PDFs plus one official XML record, complete text reading, OCR where required,
+rendered-page inspection, source-note and BibTeX preparation, and integration
+into the project-wide evidence records. Galbraith and Kay are used as a bounded
+historical counterposition, Akrich as theory rather than direct HCI evidence,
+and Koenecke et al. as evidence of unequal ASR error rates rather than measured
+correction work. The token figures include repeated context, tool schemas,
+full source texts, OCR and rendered-page data. They do not measure newly written
+prose, monetary cost, energy use or emissions. The confirmed Interaction draft
+and Pages manuscript remained unchanged, and no `TXT-###` identifier was
+assigned.
+
+## P-0139 — Import three evaluated sources into Zotero
+
+- Start UTC: `2026-09-03T13:33:09.408Z`
+- End UTC: `2026-09-03T13:36:44.180Z`
+- Start local: `2026-09-03T15:33:09.408+02:00`
+- End local: `2026-09-03T15:36:44.180+02:00`
+- Elapsed wall-clock span: `00:03:34.772`
+- Boundary: the author's Zotero-import instruction through the visible
+  confirmation that item keys, collection membership, Better BibTeX keys,
+  automatic export and source-status records had been verified
+- Baseline token snapshot UTC: `2026-09-03T13:32:17.793Z`
+- End token snapshot UTC: `2026-09-03T13:36:48.482Z`
+- Input-token delta: `3,036,037`
+- Cached-input subset: `2,998,400`
+- Non-cached input, calculated: `37,637`
+- Output-token delta: `8,586`
+- Reasoning-output subset: `3,655`
+- Non-reasoning output, calculated: `4,931`
+- Total-token delta: `3,044,623`
+- Top-level tool-call records: `21 exec`
+- Visible messages in span: `1 user`, `4 assistant`
+- Calculation script: `scripts/extract_process_metrics.py`
+
+The span covers Zotero workflow loading, local API and connector readiness,
+duplicate searches, selected-target verification, mechanical splitting of the
+prepared BibTeX batch, three separately targeted connector imports, direct
+item verification, automatic Better BibTeX export checking and project-status
+updates. It created three bibliographic records but no PDF attachments, source
+interpretation, thesis prose or `TXT-###` passage. Token figures include
+repeated project context, tool schemas and Zotero inventory data; they do not
+measure visible prose, monetary cost, energy use or emissions. Final archive
+synchronization and documentation-PDF production follow this boundary.
+
+## P-0140 - Two-source selection, recorded retrospectively
+
+- Start UTC: `2026-09-14T08:33:43.003Z`
+- End UTC: `2026-09-14T08:39:47.605Z`
+- Local span: `10:33:43.003-10:39:47.605`, Europe/Berlin (+02:00)
+- Elapsed wall-clock span: `00:06:04.602`
+- Baseline token snapshot UTC: `2026-09-14T08:33:34.117Z`
+- End token snapshot UTC: `2026-09-14T08:39:47.689Z`
+- Input-token delta: `1,588,836`; cached-input subset: `1,498,368`
+- Non-cached input, calculated: `90,468`
+- Output-token delta: `6,049`; reasoning-output subset: `3,260`
+- Non-reasoning output, calculated: `2,789`
+- Total-token delta: `1,594,885`
+- Top-level tool-call records: `10 exec`
+- Visible messages: `1 user`, `4 assistant`
+- Calculation script: `scripts/extract_process_metrics.py`
+
+Boundary: source-search instruction through the two-source recommendation.
+The later retrospective archive/PDF closure is outside this selection span.
+Token accounting is not a measure of visible prose, money or energy.
+
+## P-0141 - Zotero import and knowledge/competence source evaluation
+
+- Start UTC: `2026-09-14T08:46:34.427Z`
+- End UTC: `2026-09-14T08:56:19.246Z`
+- Local span: `10:46:34.427-10:56:19.246`, Europe/Berlin (+02:00)
+- Elapsed wall-clock span: `00:09:44.819`
+- Baseline token snapshot UTC: `2026-09-14T08:39:47.689Z`
+- End token snapshot UTC: `2026-09-14T08:56:30.440Z`
+- Input-token delta: `2,534,508`; cached-input subset: `2,344,832`
+- Non-cached input, calculated: `189,676`
+- Output-token delta: `16,478`; reasoning-output subset: `2,880`
+- Non-reasoning output, calculated: `13,598`
+- Total-token delta: `2,550,986`
+- Top-level tool-call records: `22 exec`
+- Visible messages: `1 user`, `5 assistant`
+- Calculation script: `scripts/extract_process_metrics.py`
+
+Boundary: import/evaluation instruction through the saved-results update.
+Includes closing the preceding documentation gap, Zotero startup and two
+collection-specific imports with PDF attachment checks, formal notes and
+project-record updates. Final archive synchronization and PDF production
+follow this boundary. Token counts include repeated context and tool output;
+they are not visible text length, monetary cost, energy use or emissions.
+
+## P-0142 - Critical subsection discussions (retrospective closure)
+
+- Source: CDX-03 machine session; `scripts/extract_process_metrics.py`
+- Visible boundary: `2026-09-14T09:02:01.215Z` to `2026-09-14T10:03:58.197Z`
+- Elapsed wall-clock span: `3716.982` seconds, including time between turns
+- Input tokens: `2,325,850`; cached-input subset: `1,825,920`
+- Non-cached input, calculated: `499,930`
+- Output tokens: `18,869`; reasoning-output subset: `7,861`
+- Non-reasoning output, calculated: `11,008`; total tokens: `2,344,719`
+- Top-level tool records: `11 exec`; visible messages: `6 user`, `12 assistant`
+
+Boundary covers the intervening chat-based outlines and source-gap discussions,
+not just one editing operation. It is not active work duration. Documentation
+closure itself occurs in the next measured span. Tokens include repeated
+context and tools, not just visible prose; they do not measure cost or energy.
+
+## P-0143 - One predictive-text source
+
+- Source: CDX-03 machine session; `scripts/extract_process_metrics.py`
+- Visible boundary: `2026-09-14T10:06:15.927Z` to `2026-09-14T10:12:48Z`
+- Elapsed wall-clock span: `392.073` seconds
+- Input tokens: `1,789,017`; cached-input subset: `1,706,624`
+- Non-cached input, calculated: `82,393`
+- Output tokens: `10,897`; reasoning-output subset: `2,793`
+- Non-reasoning output, calculated: `8,104`; total tokens: `1,799,914`
+- Top-level tool records: `14 exec`; visible messages: `1 user`, `5 assistant`
+
+Boundary covers the targeted search, previous-discussion archive closure,
+full-text/figure evaluation, source package and overview supplement through the
+saved-results update. Final documentation synchronization and PDF verification
+follow this boundary. No Zotero write occurred. These accounting values include
+repeated context and tool output; they are not word counts, costs or emissions.
+
+## P-0144 - Arnold Zotero integration
+
+- Source: CDX-03 machine session; `scripts/extract_process_metrics.py`
+- Visible boundary: `2026-09-14T10:38:29.523Z` to `2026-09-14T10:41:50.208Z`
+- Elapsed wall-clock span: `200.685` seconds
+- Input tokens: `2,125,088`; cached-input subset: `1,985,152`
+- Non-cached input, calculated: `139,936`
+- Output tokens: `5,376`; reasoning-output subset: `793`
+- Non-reasoning output, calculated: `4,583`; total tokens: `2,130,464`
+- Top-level tool records: `10 exec`; visible messages: `1 user`, `4 assistant`
+
+Boundary covers source-note recheck, duplicate/destination checks, one Zotero
+import with PDF, metadata and attachment-hash verification, automatic export
+and project-status updates. Final PDF production and visual verification follow
+this boundary. No new source interpretation or thesis text was produced.
+Accounting includes repeated context and tools; it is not visible word count,
+monetary cost, energy use or emissions. Elapsed time is not active labor time.
+
+## P-0145 - Interaction editorial and image-idea phase
+
+- Source: CDX-03 machine session; `scripts/extract_process_metrics.py`
+- Visible boundary: `2026-09-14T10:49:55.492Z` to `2026-09-14T14:27:30.839Z`
+- Elapsed wall-clock span: `13055.347` seconds
+- Input tokens: `2,147,341`; cached-input subset: `1,925,248`
+- Non-cached input, calculated: `222,093`
+- Output tokens: `18,343`; reasoning-output subset: `7,456`
+- Non-reasoning output, calculated: `10,887`; total tokens: `2,165,684`
+- Top-level tool records: `10 exec`; visible messages: `8 user`, `14 assistant`
+
+This multi-turn boundary includes user pauses between outlines, critical
+review, a marked correction variant and image ideas. It is not active work
+duration. Attachment preservation and documentation closure occurred on
+15 September under P-0146. Token accounting includes repeated context and
+technical overhead; it is not visible word count, cost or energy use.
+
+## P-0146 - Author-designated Interaction checkpoint
+
+- Source: CDX-03 machine session; `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T05:59:52.739Z` to `2026-09-15T06:06:51.170Z`
+- Elapsed wall-clock span: `418.431` seconds
+- Input tokens: `1,184,399`; cached-input subset: `1,053,184`
+- Non-cached input, calculated: `131,215`
+- Output tokens: `11,683`; reasoning-output subset: `2,359`
+- Non-reasoning output, calculated: `9,324`; total tokens: `1,196,082`
+- Top-level tool records: `9 exec`; visible messages: `1 user`, `3 assistant`
+
+Boundary runs from the author's request through checkpoint/status recording
+and the first archive export. It includes integrity and hash checks, immutable
+copies, scope/authority notes and consolidated documentation records. The
+first combined patch failed verification and made no changes; smaller verified
+patches were then applied. Final metrics insertion, archive refresh and PDF
+production/QA follow this boundary. No manuscript content or Operation
+structure was changed. Time is wall-clock span, not active labor; tokens
+include context and tools and do not quantify money, energy or emissions.
+
+## P-0147 - Operation structure review and adoption
+
+- Source: CDX-03 machine session; `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T06:13:08.296Z` to `2026-09-15T06:22:06.768Z`
+- Elapsed wall-clock span: `538.472` seconds
+- Input tokens: `1,635,881`; cached-input subset: `1,595,648`
+- Non-cached input, calculated: `40,233`
+- Output tokens: `9,975`; reasoning-output subset: `4,072`
+- Non-reasoning output, calculated: `5,903`; total tokens: `1,645,856`
+- Top-level tool records: `7 exec`; visible messages: `2 user`, `5 assistant`
+
+The boundary covers the advisory review and the author's subsequent request
+to save the four-section outline, through file/status recording and the first
+archive export. It includes time between turns, not uninterrupted work. Final
+documentation production and verification follow this boundary. No new source
+research, scholarly claim evaluation or manuscript edit occurred. Accounting
+includes repeated context and technical overhead, not just written text; it
+does not measure monetary cost, energy use or emissions.
+
+## P-0148 - Targeted Operation source round
+
+- Source: the resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T07:27:13.628Z` to `2026-09-15T07:45:18.623Z`
+- Elapsed wall-clock span: `1,084.995` seconds
+- Input tokens: `4,253,690`; cached-input subset: `4,029,824`
+- Non-cached input, calculated: `223,866`
+- Output tokens: `23,879`; reasoning-output subset: `4,438`
+- Non-reasoning output, calculated: `19,441`; total tokens: `4,277,569`
+- Top-level tool records: `30 exec`; visible messages: `1 user`, `8 assistant`
+- Bracketing token snapshots: `2026-09-15T07:26:42.040Z` and
+  `2026-09-15T07:45:21.825Z`
+
+This boundary covers the authorized research request through the saved-results
+update. Source selection, verified reading, local source packages, five notes,
+bibliographic preparation and project/outline/audit changes are included.
+The preceding advisory turn is archived and included qualitatively in P-0148,
+but excluded from this token delta: the resumed segment has no token snapshot
+before that earlier request. The first attempted larger boundary therefore
+failed and was not estimated. The complete visible archive combines the old
+and resumed session segments using the existing multi-source exporter.
+Documentation closure, export checks and PDF build/QA follow the boundary.
+Accounting includes repeated context and tools, not just written prose; it is
+not a measure of money, energy, emissions or uninterrupted labor.
+
+## P-0149 - GEO and sycophancy: discussion, evaluation and import
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T07:55:02.181Z` to `2026-09-15T08:15:45.819Z`
+- Elapsed wall-clock span: `1,243.638` seconds
+- Input tokens: `6,252,810`; cached-input subset: `5,986,304`
+- Non-cached input, calculated: `266,506`
+- Output tokens: `27,780`; reasoning-output subset: `5,392`
+- Non-reasoning output, calculated: `22,388`; total tokens: `6,280,590`
+- Top-level tool records: `43 exec`, `1 js`, `1 request_user_input_async`;
+  visible messages: `2 user`, `11 assistant`
+- Bracketing snapshots: `2026-09-15T07:50:16.624Z` and
+  `2026-09-15T08:15:56.235Z`
+
+The boundary covers the preceding advisory question, targeted source checks,
+the authorized three-source evaluation/import, source and status files, and
+the saved-analysis update. It includes time between turns, not uninterrupted
+labor. A narrower import-only boundary was first calculated diagnostically;
+the figures above replace it and include the advisory discussion. It includes
+source retrieval, bounded reading and figure checks, version reconciliation,
+the released GEO prompt-code check and verified local Zotero imports.
+The locked-Mac UI path was unnecessary after inspecting and using the normal
+local connector session update. No security setting was changed. Final metrics
+insertion and PDF build/QA follow this boundary. Accounting includes repeated
+context and tools; it measures neither money, energy nor emissions. The archive
+contains visible conversation, not the full contents of local AI-analysis
+notes; adoption of their wording requires an explicit provenance step.
+
+## P-0150 - Operation bibliography import and readiness clarification
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T09:15:56.297Z` to `2026-09-15T09:24:25.107Z`
+- Elapsed wall-clock span: `508.810` seconds
+- Input tokens: `2,554,738`; cached-input subset: `2,406,400`
+- Non-cached input, calculated: `148,338`
+- Output tokens: `12,663`; reasoning-output subset: `3,447`
+- Non-reasoning output, calculated: `9,216`; total tokens: `2,567,401`
+- Top-level tool records: `10 exec`; visible messages: `2 user`, `6 assistant`
+- Bracketing snapshots: `2026-09-15T08:19:11.258Z` and
+  `2026-09-15T09:24:37.014Z`
+
+The boundary includes the preceding readiness discussion and the subsequent
+authorized import of eight existing source records. It covers duplicate and
+metadata checks, adding existing PDF/HTML attachments, two collection-scoped
+import sessions, verifying hashes and automatic export, correcting local
+source-management status and one transposed pair of author first names.
+The gap between requests is included in elapsed time, not treated as active
+labor. No new research or thesis prose was produced. Documentation metrics
+insertion and final PDF build/QA follow this boundary. Token counts include
+repeated context and tool overhead and do not quantify money, energy or
+emissions. The transcript records visible conversation, not all local note
+contents or raw tool payloads.
+
+## P-0151 - Operation outline refinement after the source rounds
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T09:29:58.124Z` to `2026-09-15T09:35:22.414Z`
+- Elapsed wall-clock span: `324.290` seconds
+- Input tokens: `632,118`; cached-input subset: `594,432`
+- Non-cached input, calculated: `37,686`
+- Output tokens: `6,874`; reasoning-output subset: `1,106`
+- Non-reasoning output, calculated: `5,768`; total tokens: `638,992`
+- Top-level tool records: `6 exec`; visible messages: `2 user`, `5 assistant`
+- Bracketing snapshots: `2026-09-15T09:29:24.594Z` and
+  `2026-09-15T09:35:33.785Z`
+
+This boundary combines the structural review with the authorized saved-outline
+revision. It includes time between requests, not uninterrupted labor. Existing
+source mappings, project authority and manuscript/bibliography hashes were
+checked; no new research or source interpretation was undertaken. A process-log
+patch failed context verification without writing and was then corrected.
+The saved outline and qualitative documentation updates are inside the boundary;
+archive synchronization, metrics insertion and final PDF build/QA follow it.
+Accounting includes repeated context and technical overhead and does not quantify
+money, energy or emissions. The transcript preserves visible discussion and
+progress, not the full local outline artifact or hidden reasoning.
+
+## P-0152 - Operation 1 discussion and author-supplied outline adoption
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T09:37:49.091Z` to `2026-09-15T10:15:46.410Z`
+- Elapsed wall-clock span: `2,277.319` seconds
+- Input tokens: `1,343,601`; cached-input subset: `1,299,328`
+- Non-cached input, calculated: `44,273`
+- Output tokens: `11,697`; reasoning-output subset: `2,993`
+- Non-reasoning output, calculated: `8,704`; total tokens: `1,355,298`
+- Top-level tool records: `6 exec`; visible messages: `4 user`, `7 assistant`
+- Bracketing snapshots: `2026-09-15T09:37:24.336Z` and
+  `2026-09-15T10:15:58.978Z`
+
+This boundary includes the initial subsection proposal, the author's criticism
+of repetition/triviality, the narrower revision, the supplied final structure
+and its verified saving. Waiting between four user turns is included; this is
+not uninterrupted labor. Existing source notes were consulted for the initial
+outline, but no new research or full-text re-evaluation was undertaken. A
+normalized comparison confirmed exact wording of the supplied outline in the
+working file, apart from HTML spaces and Markdown whitespace. Project authority
+and qualitative logs were updated; source and manuscript hashes are unchanged.
+Final archive refresh, metric insertion and PDF build/QA follow the boundary.
+The full adopted outline is present in the visible user message, unlike earlier
+local-only artifacts. Counts include repeated context and technical overhead;
+they do not measure monetary cost, energy use or emissions.
+
+## P-0153 - Research on processing before confirmation
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T10:39:49.127Z` to `2026-09-15T10:47:42.106Z`
+- Elapsed wall-clock span: `472.979` seconds
+- Input tokens: `1,798,029`; cached-input subset: `1,683,072`
+- Non-cached input, calculated: `114,957`
+- Output tokens: `8,356`; reasoning-output subset: `1,743`
+- Non-reasoning output, calculated: `6,613`; total tokens: `1,806,385`
+- Top-level tool records: `13 exec`; visible messages: `1 user`, `5 assistant`
+- Bracketing snapshots: `2026-09-15T10:18:18.417Z` and
+  `2026-09-15T10:47:54.676Z`
+
+This boundary covers the current research request, primary-source checking,
+six raw-HTML acquisitions, the bounded research memo, project checkpoint and
+qualitative logs. The remembered Gmail/password anecdote remains unsubstantiated;
+documented alternatives support earlier processing without proving that claim.
+The earlier baseline snapshot is the last token record before the new request,
+not an extension of the measured wall-clock boundary. Both approved outlines,
+the structure Pages document, Interaction checkpoint and bibliography retain
+their previous hashes. No Zotero write, manuscript passage or formal corpus
+admission. Archive synchronization, metric insertion and PDF build/QA follow
+the visible boundary. Counts include repeated context and technical overhead;
+they do not measure monetary cost, energy use or emissions.
+
+## P-0154 - Resume timing notes and distinguish personal memory from evidence
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T10:58:52.543Z` to `2026-09-15T11:01:34.460Z`
+- Elapsed wall-clock span: `161.917` seconds
+- Input tokens: `431,110`; cached-input subset: `369,408`
+- Non-cached input, calculated: `61,702`
+- Output tokens: `5,210`; reasoning-output subset: `749`
+- Non-reasoning output, calculated: `4,461`; total tokens: `436,320`
+- Top-level tool records: `3 exec`; visible messages: `1 user`, `3 assistant`
+- Bracketing snapshots: `2026-09-15T10:50:16.704Z` and
+  `2026-09-15T11:01:46.963Z`
+
+The boundary covers the request, recovery of the earlier point 6, consultation
+of existing research and outlines, saved timing notes, provisional Operation 2
+placement and qualitative logs. It does not include new source research,
+Zotero changes or adopted prose. The Gmail memory remains a personal research
+stimulus, not proof of a technical mechanism or an asserted first-hand
+observation. The prior baseline snapshot is the last token record before the
+new request and does not extend the wall-clock boundary. Archive sync, metric
+insertion and PDF build/QA follow the visible saved-state boundary. Token counts
+include repeated context and overhead, not money, energy or emissions.
+
+## P-0155 - Clarify compact scope and confirm timing in Operation 2
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T11:30:55.149Z` to `2026-09-15T11:38:28.965Z`
+- Elapsed wall-clock span: `453.816` seconds
+- Input tokens: `845,498`; cached-input subset: `828,416`
+- Non-cached input, calculated: `17,082`
+- Output tokens: `7,106`; reasoning-output subset: `1,605`
+- Non-reasoning output, calculated: `5,501`; total tokens: `852,604`
+- Top-level tool records: `2 exec`; visible messages: `4 user`, `6 assistant`
+- Bracketing snapshots: `2026-09-15T11:03:57.710Z` and
+  `2026-09-15T11:38:44.195Z`
+
+This multi-turn boundary includes the repeated expanded note sequence, the
+author's clarification that he meant the original compact point 6, the restored
+version, placement advice and authorized saving in Operation 2. It includes
+waiting between user turns, not uninterrupted labor. The five-movement variant
+is retained only as background. Operation 1, manuscripts and bibliography are
+unchanged; no new source research or verification was performed. The earlier
+baseline snapshot is the last token record before the boundary, not additional
+elapsed working time. Archive sync, metric insertion and PDF build/QA follow
+the saved-state boundary. Counts include repeated context and overhead and
+must not be interpreted as monetary cost, energy use or emissions.
+
+## P-0156 - Three internal movements and overlap-aware Operation 2 outline
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T11:42:48.136Z` to `2026-09-15T12:16:38.945Z`
+- Elapsed wall-clock span: `2030.809` seconds
+- Input tokens: `2,856,445`; cached-input subset: `2,477,184`
+- Non-cached input, calculated: `379,261`
+- Output tokens: `20,379`; reasoning-output subset: `6,352`
+- Non-reasoning output, calculated: `14,027`; total tokens: `2,876,824`
+- Top-level tool records: `12 exec`; visible messages: `5 user`, `9 assistant`
+- Bracketing snapshots: `2026-09-15T11:40:52.500Z` and
+  `2026-09-15T12:16:48.156Z`
+
+This multi-turn boundary covers the first Operation 2 bullet outline, the
+author-supplied Operation 1 comparison, the overlap review and revised bullets,
+external structural feedback and its authorized adoption. It includes waiting
+between user turns, not uninterrupted labor. The current editing turn uses
+existing evaluated sources without a new source round or import. The supplied
+text is preserved verbatim as DRAFT-03, not approved as source-checked thesis
+prose. Hashes confirm unchanged overall-outline sections 1, 3 and 4, separate
+Operation 1 outline, structure Pages file, Interaction checkpoint and bibliography.
+The prior baseline is the last token snapshot before the boundary, not an
+extension of elapsed time. Archive synchronization, metric insertion and PDF
+build/QA follow the saved-state boundary. Counts include repeated context and
+technical overhead and do not measure monetary cost, energy or emissions.
+
+## P-0157 - Critical Operation 2 revision: interests and decision asymmetry
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T12:48:23.151Z` to `2026-09-15T13:03:05.161Z`
+- Elapsed wall-clock span: `882.010` seconds
+- Input tokens: `3,624,828`; cached-input subset: `3,501,696`
+- Non-cached input, calculated: `123,132`
+- Output tokens: `24,186`; reasoning-output subset: `4,591`
+- Non-reasoning output, calculated: `19,595`; total tokens: `3,649,014`
+- Top-level tool records: `21 exec`; visible messages: `2 user`, `8 assistant`
+- Bracketing snapshots: `2026-09-15T12:20:08.851Z` and
+  `2026-09-15T13:03:16.606Z`
+
+This two-turn boundary includes the supplied prose, critical advice and initial
+web checks, followed by authorized source evaluation and structural refinement.
+It includes the interval between user turns, not uninterrupted labor. Only
+specified Gillespie and Alphabet passages were evaluated; the Google article
+was read. The proof-copy and missing SEC raw-snapshot limits remain explicit.
+Two new notes cover three sources. The unchanged author text is preserved as
+DRAFT-04; the earlier outline is retained separately. Hashes confirm unchanged
+overall-outline sections 1, 3 and 4, structure Pages, Interaction checkpoint and
+bibliography. Zotero was neither re-inventoried nor modified. The prior snapshot
+is the last token record before the boundary and does not extend elapsed time.
+Archive synchronization, metric insertion and PDF build/QA follow the saved-state
+boundary. Counts include repeated context and technical overhead, not monetary
+cost, energy use or emissions.
+
+## P-0158 - Whole Operation outline: distinct critical tasks and boundaries
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T13:07:52.592Z` to `2026-09-15T13:18:25.477Z`
+- Elapsed wall-clock span: `632.885` seconds
+- Input tokens: `1,186,853`; cached-input subset: `1,116,416`
+- Non-cached input, calculated: `70,437`
+- Output tokens: `9,117`; reasoning-output subset: `1,642`
+- Non-reasoning output, calculated: `7,475`; total tokens: `1,195,970`
+- Top-level tool records: `8 exec`; visible messages: `3 user`, `5 assistant`
+- Bracketing snapshots: `2026-09-15T13:07:10.019Z` and
+  `2026-09-15T13:18:29.253Z`
+
+This three-turn boundary covers the two whole-structure advisory discussions
+and the authorized revision through its first saved-state update. The span
+includes waiting between user turns, not uninterrupted labor. Four headings,
+the short timing opening and three Operation 2 movements remain; sections 1,
+3 and 4 receive distinct substructures and cross-topic boundaries. The prior
+outline is checkpointed byte-identically. Existing source notes were consulted,
+not newly evaluated. Manuscripts, the older separate Operation 1 outline and
+bibliography remain unchanged; Zotero was not accessed. Minor status cleanup,
+log registration, archive synchronization, metrics and PDF build/QA follow
+the boundary. A mistyped source-segment path caused a read-only export failure;
+the corrected two-segment command completed. The baseline token snapshot does
+not extend elapsed time. Counts include repeated context and technical overhead,
+not monetary cost, energy use or emissions.
+
+## P-0159 - Operation drafting, evidence references and preliminary profiles
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`
+- Boundary: `2026-09-15T13:23:55.246Z` to `2026-09-15T14:55:25.373Z`
+- Elapsed wall-clock span: `5490.127` seconds
+- Input tokens: `4,096,859`; cached-input subset: `3,702,528`
+- Non-cached input, calculated: `394,331`
+- Output tokens: `23,508`; reasoning-output subset: `10,300`
+- Non-reasoning output, calculated: `13,208`; total tokens: `4,120,367`
+- Top-level tool records: `17 exec`; visible messages: `10 user`, `20 assistant`
+- Bracketing snapshots: `2026-09-15T13:22:35.062Z` and
+  `2026-09-15T14:55:25.578Z`
+
+This multi-turn span includes subsection outlines, clarification of the omitted
+Command Line and missing citation lines, supplied text and minimal SEO-overlap
+revision, then a preliminary source-status discussion about personal inference
+and advertising uses. Waiting between user turns is included; elapsed time is
+not active labor. Preliminary web records are not a completed source evaluation.
+The source-selection request and new close reading belong to P-0160. DRAFT-05
+preservation, logs, archive synchronization and PDF closure take place after
+this boundary. Manuscripts and bibliography are unchanged. Counts include
+repeated context and technical overhead, not monetary cost, energy or emissions.
+
+## P-0160 - Operation 3: personal inference and secondary advertising use
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`.
+- Boundary: `2026-09-15T14:56:44.745Z` to `2026-09-15T15:11:23.242Z`.
+- Elapsed wall-clock span: `878.497` seconds.
+- Input tokens: `3,785,378`; cached-input subset: `3,560,192`.
+- Non-cached input, calculated: `225,186`.
+- Output tokens: `18,635`; reasoning-output subset: `2,368`.
+- Non-reasoning output, calculated: `16,267`; total tokens: `3,804,013`.
+- Top-level tool records: `31 exec`; visible messages: `1 user`, `6 assistant`.
+- Bracketing snapshots: `2026-09-15T14:55:25.578Z` and
+  `2026-09-15T15:11:33.907Z`.
+
+Boundary includes the required closure of the preceding drafting phase, then
+the authorized source acquisition, bounded close reading, evidence mapping
+and saved-result update. Staab's real-text experiment and bot simulation are
+separate; the FTC complaint and consent order have distinct evidentiary roles.
+The public official search.ftc.gov PDFs supplied the local files after www
+downloads returned 403. No verification challenge was bypassed. Two notes
+cover three primary records, with no bibliography, Zotero or manuscript edits.
+Small closure-locator and whitespace corrections are technical overhead.
+Later archive synchronization, this metric insertion and final PDF QA follow
+the saved-result boundary. The span is not uninterrupted labor; token counts
+include repeated context and cannot represent cost, energy or emissions.
+
+## P-0161 - Operation 3 source-backed bullet sequence
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`.
+- Boundary: `2026-09-15T15:14:56.129Z` to `2026-09-15T15:18:00.076Z`.
+- Elapsed wall-clock span: `183.947` seconds.
+- Input tokens: `1,018,720`; cached-input subset: `852,736`.
+- Non-cached input, calculated: `165,984`.
+- Output tokens: `6,064`; reasoning-output subset: `1,554`.
+- Non-reasoning output, calculated: `4,510`; total tokens: `1,024,784`.
+- Top-level tool records: `5 exec`; visible messages: `1 user`, `3 assistant`.
+- Bracketing snapshots: `2026-09-15T15:14:19.122Z` and
+  `2026-09-15T15:18:31.007Z`.
+
+The boundary covers the request, consultation of existing source notes and
+creation of the bullet proposal through the saved-result update. No new
+close reading or source admission occurred. Main outline, manuscripts and
+bibliography remain unchanged. The API retention case is not activated.
+Read-only filename searches returned no matches; this did not affect the
+available source notes. Documentation logging, archive synchronization,
+metrics insertion and final PDF QA follow the saved-result boundary.
+Elapsed time is not uninterrupted labor. Token counts include repeated
+context and technical overhead, not monetary cost, energy or emissions.
+
+## P-0162 - Operation 3 scope and balance review
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`.
+- Boundary: `2026-09-15T15:40:28.910Z` to `2026-09-15T15:48:07.483Z`.
+- Elapsed wall-clock span: `458.573` seconds.
+- Input tokens: `2,120,831`; cached-input subset: `1,997,952`.
+- Non-cached input, calculated: `122,879`.
+- Output tokens: `8,618`; reasoning-output subset: `2,031`.
+- Non-reasoning output, calculated: `6,587`; total tokens: `2,129,449`.
+- Top-level tool records: `14 exec`; visible messages: `1 user`, `5 assistant`.
+- Bracketing snapshots: `2026-09-15T15:38:49.144Z` and
+  `2026-09-15T15:48:16.125Z`.
+
+The span covers the review request through the saved-result update. It includes
+comparison with earlier plans, narrow official API-documentation verification,
+preservation of DRAFT-06 and creation of the review memo and readable logs.
+It does not include an Operation 4 draft. The prior continuation was interrupted
+after commentary. A wrong script-name lookup, a failed patch and truncated broad
+log searches caused no manuscript or source changes. No new source admission,
+Zotero import or approved outline revision occurred. The initial metrics run
+used export time; the record above instead uses the actual visible message
+boundaries. Archive synchronization, metric insertion and final PDF build/QA
+follow the saved-result boundary. Elapsed time is not uninterrupted labor;
+token counts include repeated context and overhead, not monetary cost, energy
+or emissions.
+
+## P-0163 - Revised Operation 3 bullet sequence
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`.
+- Boundary: `2026-09-15T15:51:11.333Z` to `2026-09-15T15:54:10.756Z`.
+- Elapsed wall-clock span: `179.423` seconds.
+- Input tokens: `674,291`; cached-input subset: `631,808`.
+- Non-cached input, calculated: `42,483`.
+- Output tokens: `5,433`; reasoning-output subset: `659`.
+- Non-reasoning output, calculated: `4,774`; total tokens: `679,724`.
+- Top-level tool records: `5 exec`; visible messages: `1 user`, `3 assistant`.
+- Bracketing snapshots: `2026-09-15T15:50:56.080Z` and
+  `2026-09-15T15:54:19.262Z`.
+
+The span covers the revised-bullets request through the saved-result update.
+It includes consultation of prior plans and source notes, narrow official
+API-documentation rechecking, creation of version 02 and readable log updates.
+The API storage distinction is activated without a new source admission.
+No source import, manuscript edit or overall-outline replacement occurred.
+An initially truncated combined note output was followed by a dedicated API
+note read. Archive synchronization, metrics insertion and PDF build/QA follow
+the saved-result boundary. Elapsed time is not uninterrupted labor; token
+counts include repeated context and overhead, not cost, energy or emissions.
+
+## P-0164 - Operation 4 source-backed bullet sequence
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026;
+  `scripts/extract_process_metrics.py`.
+- Boundary: `2026-09-15T16:12:33.794Z` to `2026-09-15T16:16:20.156Z`.
+- Elapsed wall-clock span: `226.362` seconds.
+- Input tokens: `967,459`; cached-input subset: `933,376`.
+- Non-cached input, calculated: `34,083`.
+- Output tokens: `6,596`; reasoning-output subset: `1,532`.
+- Non-reasoning output, calculated: `5,064`; total tokens: `974,055`.
+- Top-level tool records: `5 exec`; visible messages: `1 user`, `4 assistant`.
+- Bracketing snapshots: `2026-09-15T15:57:04.156Z` and
+  `2026-09-15T16:16:28.616Z`.
+
+The boundary covers the Operation 4 request through the saved-result update.
+It includes consultation of existing source notes, targeted revisiting of
+stored FTC/Cheng primary-source text, the five-movement proposal and readable
+log updates. No new source admission, product-function verification, import,
+manuscript edit or overall-outline replacement occurred. A combined note
+output was truncated; the needed Zamfirescu-Pereira note was reread separately.
+Archive synchronization, metric insertion and final PDF build/QA follow the
+saved-result boundary. Elapsed time is not uninterrupted labor; token counts
+include repeated context and overhead, not monetary cost, energy or emissions.
+
+## P-0165 - Targeted physical-input corrections
+
+- Source: resumed CDX-03 machine segment dated 15 September 2026, continuing
+  into 16 September; `scripts/extract_process_metrics.py`.
+- Boundary: `2026-09-16T05:54:13.374Z` to `2026-09-16T05:58:12.640Z`.
+- Elapsed wall-clock span: `239.266` seconds.
+- Input tokens: `1,423,867`; cached-input subset: `1,393,024`.
+- Non-cached input, calculated: `30,843`.
+- Output tokens: `7,326`; reasoning-output subset: `2,900`.
+- Non-reasoning output, calculated: `4,426`; total tokens: `1,431,193`.
+- Top-level tool records: `6 exec`; visible messages: `1 user`, `4 assistant`.
+- Bracketing snapshots: `2026-09-16T05:53:08.111Z` and
+  `2026-09-16T05:58:21.940Z`.
+
+The boundary covers the annotated-section request through the saved-result
+update. Existing source evaluations informed citation placement; this was not
+a new source round or comprehensive audit of all retained claims. The exact
+input and annotations were preserved as DRAFT-07 and the five-paragraph marked
+proposal retained separately. No Pages, bibliography or Zotero changes occurred.
+A search for a date-specific session directory returned no directory; the
+existing resumed source segment contains the turn. Combined note output was
+partly truncated; needed source rows were retrieved separately. Archive sync,
+metric insertion and final PDF build/QA follow the saved-result boundary.
+Elapsed time is not uninterrupted labor; token counts include repeated context
+and overhead, not monetary cost, energy or emissions.
+
+## P-0166 to P-0168 - Deferred corrections and external-share import
+
+- Recorded on 17 September 2026; current CDX-03 synchronization extends the
+  prior 351-message archive without changing those earlier message records.
+- P-0166 documents the correction exchanges of 16 September retrospectively.
+  Their multi-hour communication span is not presented as active work time.
+- P-0167 records the Surface planning/retention exchange on 17 September.
+- P-0168 adds 10 separate external share snapshots with 407 visible messages:
+  193 user, 191 final assistant and 23 visible assistant progress messages.
+- External archive IDs: CGPT-05 through CGPT-14. Source-reported message
+  timestamps, retrieval times, counts, omissions and hashes are in each manifest.
+- Missing external materials: 13 uploaded files and one linked Word artifact.
+- No external token, cost or active work-time figures are available or inferred.
+  Provider share-creation dates are not treated as original chat dates.
+- The import combines public-page retrieval, deterministic extraction,
+  overlap checks, local record updates and PDF generation. The cumulative
+  Codex snapshot is retained; no precise cross-chat process-token attribution
+  is claimed for this consolidated batch.
+- Source: `archive/shared-chat-import-2026-09-17-audit.json` and the associated
+  manifests. Model labels are provider metadata, not independently verified.
+
+## Historical coverage note
+
+### P-0169 - Surface audit and Norman evaluation
+
+- Visible boundary: 17 September 2026, 09:32:54.975-09:50:46.242 UTC;
+  11:32:54.975-11:50:46.242 Europe/Berlin (UTC+02:00).
+- Wall-clock span: 1071.267 seconds, including the interval between advisory
+  and approval turns; not active human or machine labour time.
+- Three visible user messages and eleven visible assistant messages in this
+  span; twenty-one top-level tool-call records (twenty exec, one user question).
+- Token-snapshot bounds: 09:12:20.731 and 09:50:59.828 UTC. Delta:
+  2,893,821 input, including 2,733,312 cached; 21,662 output, including 5,646
+  reasoning tokens; 2,915,483 total. Non-cached input by subtraction: 160,509.
+- Counts include repeated context/technical overhead and do not measure
+  visible text length, cost, energy use or labour. Hidden reasoning is excluded.
+- Source: extract_process_metrics.py, resumed CDX-03 session. Later archive,
+  PDF generation and QA are outside this bounded research span.
+
+### P-0170 - Surface effects sources and verified import
+
+- Recorded on 17 September 2026. The associated discussion includes the
+  example-selection request at 09:57:02.698 UTC, the effects-source request
+  at 10:05:12.917 UTC and the three-source approval at 10:22:14.439 UTC.
+- Zotero recorded the three imports at 10:27:04-10:27:24 UTC. The task was
+  interrupted before notes/documentation closure. Tim's status question at
+  12:36:47.574 UTC resumed work; the saved-notes update is at 12:39:48.197 UTC.
+- The gap is not treated as active work. No single uninterrupted labour
+  duration or precise process-specific token cost is claimed. The generated
+  CDX-03 metrics retain the cumulative session accounting and message counts.
+- Snapshot: 541 visible messages, preserving the previous 521 as a prefix.
+  The supplied realtime handoff is preserved as received, not represented as
+  a complete independently recovered voice transcript.
+- Three new bibliographic records and three PDF attachments were verified;
+  import hashes match the local source PDFs. No manuscript passage was adopted.
+- Later PDF compilation and QA occur after this research/result boundary.
+
+## Historical instrumentation coverage
 
 Quantitative process instrumentation was introduced after `P-0022`. `P-0022`
 was backfilled because it has clear single-turn start and end boundaries.

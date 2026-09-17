@@ -1,0 +1,133 @@
+{
+  "archives": 10,
+  "messages": 407,
+  "roles": {
+    "user": 193,
+    "assistant": 214
+  },
+  "phases": {
+    "prompt": 193,
+    "commentary": 23,
+    "final": 191
+  },
+  "missing_uploads": 13,
+  "linked_artifacts_not_retrieved": 1,
+  "existing_archive_overlap_records": [
+    {
+      "archive_id": "CGPT-05",
+      "message": 20,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-370"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 25,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 27,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 29,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 29,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-02-interaction-9398ba42.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 29,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-136"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 35,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 35,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-136"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 39,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 39,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-02-interaction-9398ba42.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 39,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-136"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 43,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 45,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 47,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 57,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 59,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 65,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-11",
+      "message": 69,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/DRAFT-01-interaction-73295501.txt"
+    },
+    {
+      "archive_id": "CGPT-13",
+      "message": 4,
+      "kind": "full_message_normalized_containment",
+      "existing_source": "attachments/CHATGPT-04-current-draft-and-steyerl-conversation.txt"
+    }
+  ],
+  "cross_share_repeated_full_messages": [],
+  "comparison_limits": "Whitespace/HTML-entity-normalized containment (minimum 180 characters), with separate two-end candidate matching for longer text. Not a semantic plagiarism or final manuscript adoption check."
+}
