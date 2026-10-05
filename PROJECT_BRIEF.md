@@ -4,6 +4,46 @@
 
 This document records confirmed requirements for the Master's thesis. Items marked as open must be completed when the corresponding official information becomes available.
 
+### Shared revision-chat documentation checkpoint - 5 October 2026
+
+Tim explicitly supplied three further ChatGPT shares for the AI documentation:
+CGPT-17, *Abschnitt Überarbeiten*; CGPT-18, *Schluss überarbeiten*; and
+CGPT-19, *Masterthesis umformulieren*. The
+[dated import index](ai-documentation/SHARED_CHAT_IMPORT_2026-10-05.md)
+records 220 visible messages, chapter associations, provenance and overlaps.
+The snapshots indicate no missing attachments; earlier documented gaps remain.
+
+The short chats concern a Surface passage and the conclusion. The longer chat
+contains stepwise revisions across the introduction, Surface, Interaction,
+Operation and conclusion, including explicit user wording selections. This
+archival import does not verify source claims or establish which formulations
+entered the current manuscript. Passage-level adoption remains to be mapped.
+CDX-04 records the current documentation task. P-0173; AI-081-AI-084.
+
+### Drafting and documentation checkpoint - 18 September 2026
+
+Two further shares explicitly supplied by Tim are preserved as CGPT-15,
+*Eingabemöglichkeit Erklären*, and CGPT-16, *Einleitung formulieren*.
+The [dated import index](ai-documentation/SHARED_CHAT_IMPORT_2026-09-18.md)
+records 76 messages, provenance and overlaps with the existing communication.
+Neither snapshot indicates unavailable attachments; earlier documented gaps
+remain open. Archiving does not establish adoption or verify cited claims.
+
+The intervening Codex conversation developed bullets for the four Surface
+sections, local wording changes and introduction/conclusion outlines. It also
+contains the separately requested Git backup of 17 September, commit
+`94630287374a44f34bc9700b7962db2875f0ba3b`. This import does not authorize
+another publication. CDX-03 is synchronized as part of the documentation
+closure; usage records distinguish Codex outlines from subsequent ChatGPT prose.
+
+The four-part Surface structure remains the working organization. Its earlier
+section-2 title was questioned and alternatives discussed; the supplied current
+manuscript uses *Die Aufforderung zur Eingabe*. Introduction and conclusion
+proposals are not treated as a newly confirmed research question or final prose.
+The current Pages file is preserved without editing. Passage-level adoption and
+the dated interface-capture corpus still require separate verification.
+P-0171/P-0172; AI-076-AI-080.
+
 ### Surface trust and steering sources - 17 September 2026
 
 Tim explicitly selected all three proposed sources: Chen et al. 2024,

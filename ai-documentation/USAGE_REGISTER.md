@@ -2,6 +2,48 @@
 
 This register connects AI-assisted project decisions and thesis passages to the archived communication. It supplements, but does not replace, citations in the thesis.
 
+## Additional revision records - 5 October 2026
+
+| ID | Project location or passage | Category | AI contribution | Archive reference | Status and citation scope |
+| --- | --- | --- | --- | --- | --- |
+| AI-081 | Surface: Veränderliche Oberfläche und sichtbare Zustände | editorial / prose proposals | Shortened the supplied passage, reduced repetition and removed Command Line / prompt examples at the user's request | P-0173; CGPT-17, messages 1-4, transcript lines 1-107 | Exact visible snapshot retained. Chat preference does not establish manuscript adoption; cited source assertions are not newly verified |
+| AI-082 | Conclusion | conceptual / structural / editorial / prose proposals | Condensed the supplied conclusion around conditional openness, steering and other actors' interests, and the distinction between formulation and processing control | P-0173; CGPT-18, messages 1-2, transcript lines 1-142 | Proposal, not a confirmed final manuscript. Reused conclusion text in CGPT-19 is cross-referenced |
+| AI-083 | Introduction, Surface, Interaction, Operation and conclusion | conceptual / structural / editorial / prose proposals | Stepwise wording alternatives and revisions to supplied passages, including externally set conditions, knowledge requirements, criteria, system feedback, data uses and control | P-0173; CGPT-19, messages 1-214, transcript lines 1-5032 | User wording selections remain visible in context. Passage-level adoption and claim/source verification remain separate; no new TXT ID is inferred from the import |
+| AI-084 | AI documentation infrastructure | technical / structural | Archived the three public shares, indexed provenance and overlaps, added the current Codex task and rebuilt the documentation with page/line verification | P-0173; CDX-04; dated import index and page map | Local documentation work; no new thesis prose or manuscript revision |
+
+Current share locators are in
+[`SHARED_CHAT_PAGE_REFERENCES_2026-10-05.md`](SHARED_CHAT_PAGE_REFERENCES_2026-10-05.md).
+Earlier dated locators below describe their own PDF editions.
+
+Closure locators (5 October 2026, 876-page edition): CGPT-17: printed pp. 762-763, lines 1-107; CGPT-18: printed pp. 764-766, lines 1-142; CGPT-19: printed pp. 767-837, lines 1-5032.
+AI-084 is recorded in CDX-04, lines 1-48, printed p. 497.
+These ranges locate exchanges; individual adopted passages still require
+their own citations. PDF SHA-256:
+`d51abbd7e79105b39e037655d7a7a95cbb29f8a39e2e89d5581e1f9c5c8dcf7a`.
+
+## Additional drafting records - 18 September 2026
+
+| ID | Project location or passage | Category | AI contribution | Archive reference | Status and citation scope |
+| --- | --- | --- | --- | --- | --- |
+| AI-076 | Surface outline, wording and example discussion | structural / conceptual / editorial | Four section outlines, title alternatives and targeted wording proposals; bounded distinction between the Luguri refusal flow and a text-field-specific effect | P-0171; CDX-03 messages 543-566, 577-580 | Retrospective chat record. No current-product effects audit or blanket prose adoption; cite retained formulations/interpretations where required |
+| AI-077 | Introduction and conclusion planning | structural / conceptual | Six-movement outlines connecting Surface, Interaction and Operation; provisional question and authorship/control synthesis | P-0171; CDX-03 messages 571-576 | Author requested planning, not confirmation of every proposed claim. Later external prose drafting is separately indexed below |
+| AI-078 | Surface drafting in ChatGPT | conceptual / structural / editorial / prose proposals | Stepwise prose development and revisions from supplied outlines, including the preference for Eingabefeld over Eingabestelle | P-0172; CGPT-15, messages 1-42, transcript lines 1-1171 | Exact snapshot retained. Repeated outlines cross-reference Codex; this is not independent evidence or a completed passage-level adoption map |
+| AI-079 | Introduction and conclusion drafting in ChatGPT | conceptual / structural / editorial / prose proposals | Introduction drafts and revisions in messages 1-20; conclusion drafts and revisions in messages 21-34, using prior Codex outlines supplied by the user | P-0172; CGPT-16, messages 1-34, transcript lines 1-699 | Exact snapshot retained. Source verification and identification of adopted wording remain separate; cite actual verbatim/paraphrased use |
+| AI-080 | AI documentation infrastructure | technical / structural | Incremental shared-chat import, collision checks, dated batch index and PDF-verification support; archival synchronization | P-0172; dated import report and CDX-03 from message 581 | Local documentation work only; no thesis-prose contribution or publication authorization |
+
+Page locators for the 18 September edition are in `SHARED_CHAT_PAGE_REFERENCES_2026-09-18.md`.
+Earlier dated locators below identify their own working editions, not necessarily
+the pagination of the current PDF. New TXT IDs are not inferred from a chat import.
+
+Closure locators (18 September 2026, 798-page edition): AI-076 is at CDX-03
+lines 14826-15463 and 15758-15801; AI-077 at lines 15497-15757; the covered
+drafting interval occupies printed pp. 481-495. AI-078 is at CGPT-15 lines
+1-1171, printed pp. 734-750; AI-079 at CGPT-16 lines 1-699, pp. 751-760.
+AI-080's request and saved-record updates are at CDX-03 lines 15802-15841,
+pp. 495-496. These ranges locate the documented exchanges, not yet citations
+for individual adopted thesis passages. PDF SHA-256:
+`c930534259692d56eccd480d78e68e1dee2a92c5804924d3d6d2d5805e71fba8`.
+
 ## Usage categories
 
 - **verbatim**: wording copied from an AI response; an in-text or footnote citation is required.

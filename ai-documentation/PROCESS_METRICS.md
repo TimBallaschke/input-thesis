@@ -22,6 +22,15 @@ not replace the readable descriptions in `PROCESS_LOG.md`.
 - Historical processes are not assigned precise metrics when their boundaries
   overlap or cannot be reconstructed reliably.
 
+## P-0173 - Shared-chat documentation import, 5 October 2026
+
+CDX-04 retains the current session snapshot and available platform accounting.
+No process-specific token delta is assigned: the local session does not provide
+token snapshots bracketing the initial user request. The existing extraction
+script rejects that interval instead of inferring a baseline. This is not a
+zero-token result. External ChatGPT shares provide message timestamps only;
+no token counts, costs or active working durations are inferred for them.
+
 ## P-0022 — Preliminary analysis of Shneiderman (1983)
 
 - Start UTC: `2026-07-26T14:15:59.776Z`
@@ -2815,7 +2824,42 @@ and overhead, not monetary cost, energy or emissions.
   import hashes match the local source PDFs. No manuscript passage was adopted.
 - Later PDF compilation and QA occur after this research/result boundary.
 
-## Historical instrumentation coverage
+### P-0171 - Retrospective drafting coverage
+
+- Visible discussion spans 17 September 2026, 12:50:00.500 UTC, through
+  18 September 2026, 07:00:14.203 UTC (CDX-03 messages 543-580).
+- This multi-turn span includes idle periods and a separately authorized Git
+  backup. It is not treated as uninterrupted labour or one token-cost event.
+- Surface outlines, introduction/conclusion proposals and local revisions
+  are preserved as communication. Their later adoption is not inferred.
+
+### P-0172 - Two additional public-share snapshots
+
+- Import requested on 18 September 2026 at 07:30:06.481 UTC.
+- Visible saved-record update: 07:40:14.548 UTC; wall-clock span 608.067 seconds,
+  not uninterrupted labour. The token snapshots bracketing this interval
+  are 07:00:14.367 and 07:40:25.743 UTC. Input delta: 2,165,937, including
+  1,713,024 cached; non-cached by subtraction: 452,913. Output: 11,784,
+  including 2,243 reasoning tokens; total: 2,177,721. Thirteen top-level
+  exec records and six visible messages (one user, five assistant).
+- Source: extract_process_metrics.py and the resumed CDX-03 machine segment.
+  Counts include repeated context/overhead and do not establish monetary
+  cost, energy use or work time. Only numeric reasoning counts are retained.
+  Final overlap indexing, archive/PDF verification and QA follow this boundary.
+- CGPT-15: 42 messages, 21 user and 21 final assistant; 1171 numbered lines.
+- CGPT-16: 34 messages, 17 user and 17 final assistant; 699 numbered lines.
+- Total new share communication: 76 messages and 1870 numbered lines.
+- Retrieval timestamps, provider message timestamps, hashes and exclusions
+  are recorded in the per-archive manifests. No missing materials are
+  indicated in these two snapshots; previous import gaps remain open.
+- No external token accounting, monetary cost or active work-time data are
+  available or inferred. Current Codex cumulative accounting is retained in
+  the synchronized machine-derived snapshot, not equated with share cost.
+- Exact messages are unchanged. Normalized overlaps are cross-referenced,
+  not removed or counted as independent adopted contributions. Current
+  PDF line verification and visual QA are documented in the closure record.
+
+## Historical instrumentation coverage and limits
 
 Quantitative process instrumentation was introduced after `P-0022`. `P-0022`
 was backfilled because it has clear single-turn start and end boundaries.

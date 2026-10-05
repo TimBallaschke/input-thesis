@@ -1,0 +1,250 @@
+{
+  "archive_id": "CGPT-16",
+  "excluded_counts": {
+    "empty_node": 1,
+    "non_conversation_role": 37,
+    "non_text_content:model_editable_context": 3,
+    "non_text_content:reasoning_recap": 17
+  },
+  "extraction": "Public share HTML route data; selected linear conversation; visible user/assistant text only",
+  "limits": [
+    "Share is a snapshot, not a guarantee of the complete original chat or all branches.",
+    "Attached files/images and linked sandbox artifacts are not archived unless separately supplied.",
+    "Share creation timestamps are not original conversation timestamps.",
+    "Model labels and timestamps are provider metadata, not independently verified.",
+    "No token/cost/time-of-work figures are inferred; no source validation or manuscript adoption implied.",
+    "Hidden reasoning, system/developer context, model memory and tool payloads excluded."
+  ],
+  "message_count": 34,
+  "message_line_ranges": [
+    {
+      "end_line": 116,
+      "message_id": "550bf419-331b-46b1-a950-4a6eb92ee3d0",
+      "sequence": 1,
+      "start_line": 13
+    },
+    {
+      "end_line": 145,
+      "message_id": "7d177823-667e-4b6b-91c0-53fec37e64c1",
+      "sequence": 2,
+      "start_line": 118
+    },
+    {
+      "end_line": 150,
+      "message_id": "75c396b3-1994-498a-acec-3b613b9d6049",
+      "sequence": 3,
+      "start_line": 147
+    },
+    {
+      "end_line": 176,
+      "message_id": "7b60eb57-9bb4-4047-9833-7bdce022c7fe",
+      "sequence": 4,
+      "start_line": 152
+    },
+    {
+      "end_line": 179,
+      "message_id": "ff07ccde-3e82-4628-b8f8-ab3742533269",
+      "sequence": 5,
+      "start_line": 178
+    },
+    {
+      "end_line": 203,
+      "message_id": "629411c2-6372-4b0a-af7b-32d9adcf7a75",
+      "sequence": 6,
+      "start_line": 181
+    },
+    {
+      "end_line": 206,
+      "message_id": "7473ee62-91e1-4a32-ae64-92ea62d74a10",
+      "sequence": 7,
+      "start_line": 205
+    },
+    {
+      "end_line": 227,
+      "message_id": "405a0aae-1e06-434a-bb9b-f751671a71af",
+      "sequence": 8,
+      "start_line": 208
+    },
+    {
+      "end_line": 232,
+      "message_id": "a1bd69c1-75ad-4ada-a18f-3ed3d10b202c",
+      "sequence": 9,
+      "start_line": 229
+    },
+    {
+      "end_line": 253,
+      "message_id": "f7289eb0-a6a3-4b99-84f9-cf83323c7f77",
+      "sequence": 10,
+      "start_line": 234
+    },
+    {
+      "end_line": 256,
+      "message_id": "98be419a-16a1-4ffe-8b4c-52497df7f290",
+      "sequence": 11,
+      "start_line": 255
+    },
+    {
+      "end_line": 285,
+      "message_id": "ce01dc05-23fb-4090-8f49-56ad3ef4adfb",
+      "sequence": 12,
+      "start_line": 258
+    },
+    {
+      "end_line": 289,
+      "message_id": "dd871232-6cf0-4f14-bf98-70efcf018fef",
+      "sequence": 13,
+      "start_line": 287
+    },
+    {
+      "end_line": 315,
+      "message_id": "e4f71644-fe6d-4fff-af16-fa5eb4bfedaf",
+      "sequence": 14,
+      "start_line": 291
+    },
+    {
+      "end_line": 318,
+      "message_id": "8ed2c05e-e217-4dde-8eec-d0a2e3fcc7c3",
+      "sequence": 15,
+      "start_line": 317
+    },
+    {
+      "end_line": 338,
+      "message_id": "49d45f6a-22d9-4f29-8808-0f526479e284",
+      "sequence": 16,
+      "start_line": 320
+    },
+    {
+      "end_line": 341,
+      "message_id": "7ef3be98-57fb-485c-b51b-d1559a94ec94",
+      "sequence": 17,
+      "start_line": 340
+    },
+    {
+      "end_line": 369,
+      "message_id": "c905f88f-40e9-4db8-94c7-d7ecc7a64c79",
+      "sequence": 18,
+      "start_line": 343
+    },
+    {
+      "end_line": 372,
+      "message_id": "69b308d4-84d5-4c43-931e-f82c3923f501",
+      "sequence": 19,
+      "start_line": 371
+    },
+    {
+      "end_line": 395,
+      "message_id": "b833e6bc-2c18-4c27-9017-18a4944e43f7",
+      "sequence": 20,
+      "start_line": 374
+    },
+    {
+      "end_line": 505,
+      "message_id": "82f8ff9c-5398-4ee2-95d5-e47f558bf68a",
+      "sequence": 21,
+      "start_line": 397
+    },
+    {
+      "end_line": 528,
+      "message_id": "a1f6b5a4-6bce-4e89-9ba7-b81bf64c6e06",
+      "sequence": 22,
+      "start_line": 507
+    },
+    {
+      "end_line": 532,
+      "message_id": "cfc06ff5-5c8f-4090-bb7a-ee79128c666a",
+      "sequence": 23,
+      "start_line": 530
+    },
+    {
+      "end_line": 554,
+      "message_id": "3402df62-ee6a-456c-8f82-2510bf5eff7b",
+      "sequence": 24,
+      "start_line": 534
+    },
+    {
+      "end_line": 557,
+      "message_id": "c9539e2a-5e80-4d07-a729-e0027eb869ea",
+      "sequence": 25,
+      "start_line": 556
+    },
+    {
+      "end_line": 581,
+      "message_id": "20ff82fb-554e-4007-af30-ab60c7921826",
+      "sequence": 26,
+      "start_line": 559
+    },
+    {
+      "end_line": 584,
+      "message_id": "dcc0e412-899d-45a2-b26c-cf5083b629d2",
+      "sequence": 27,
+      "start_line": 583
+    },
+    {
+      "end_line": 611,
+      "message_id": "f5b40a56-5e05-4395-ae1c-afcfd98378be",
+      "sequence": 28,
+      "start_line": 586
+    },
+    {
+      "end_line": 614,
+      "message_id": "82a0fecd-2558-4cdf-92cd-f0877052cc6d",
+      "sequence": 29,
+      "start_line": 613
+    },
+    {
+      "end_line": 640,
+      "message_id": "e49ab866-63b2-426f-8a20-70b60f76a824",
+      "sequence": 30,
+      "start_line": 616
+    },
+    {
+      "end_line": 643,
+      "message_id": "e1f1b84f-cd5a-433e-8067-a0be5e288ca7",
+      "sequence": 31,
+      "start_line": 642
+    },
+    {
+      "end_line": 663,
+      "message_id": "55907c81-acdb-49ad-b20b-44e8b2a7ce86",
+      "sequence": 32,
+      "start_line": 645
+    },
+    {
+      "end_line": 666,
+      "message_id": "e93297ca-d854-4b61-acfb-326f6fab50de",
+      "sequence": 33,
+      "start_line": 665
+    },
+    {
+      "end_line": 698,
+      "message_id": "875eb014-90c2-4688-8d13-48d95b5ea646",
+      "sequence": 34,
+      "start_line": 668
+    }
+  ],
+  "messages_end_utc": "2026-09-17T15:40:29.166402+00:00",
+  "messages_file": "cgpt-16-share-6aace863-6a04-83eb-a1a7-75fa37701969-messages.jsonl",
+  "messages_sha256": "c6ca7434d3b1c62af7151cb9312ac460e93a8632e907dbc877a22bdbe8ebde1b",
+  "messages_start_utc": "2026-09-17T15:05:21.090000+00:00",
+  "missing_material": [],
+  "phases": {
+    "final": 17,
+    "prompt": 17
+  },
+  "raw_http_response_retained": false,
+  "retrieved_at_utc": "2026-09-18T07:32:13.348715+00:00",
+  "retrieved_url": "https://chatgpt.com/share/6aace863-6a04-83eb-a1a7-75fa37701969",
+  "roles": {
+    "assistant": 17,
+    "user": 17
+  },
+  "share_created_at_utc": "2026-09-18T07:29:39.424577+00:00",
+  "share_updated_at_utc": "2026-09-18T07:29:42.129537+00:00",
+  "share_url": "https://chatgpt.com/share/6aace863-6a04-83eb-a1a7-75fa37701969",
+  "source_http_response_sha256": "6cbfe96474556f039d2639dd89e5156638245ff0444456cad38da63eb7170b80",
+  "source_node_count": 92,
+  "title": "Einleitung formulieren",
+  "transcript_file": "cgpt-16-share-6aace863-6a04-83eb-a1a7-75fa37701969-transcript.txt",
+  "transcript_lines": 699,
+  "transcript_sha256": "b8239461719b265ce16f679eb47fbb7c093e093ea09e8280c8a12f4db5e965c9"
+}

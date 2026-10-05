@@ -28,7 +28,8 @@ def normal(text):
 
 def main():
     archive = ROOT / "archive"
-    manifests = [json.loads(p.read_text()) for p in sorted(archive.glob("cgpt-*-share-*-manifest.json"))]
+    manifests = [m for p in sorted(archive.glob("cgpt-*-share-*-manifest.json"))
+                 if (m := json.loads(p.read_text()))["archive_id"] in TOPICS]
     assert len(manifests) == 10
     assert len({m["share_url"] for m in manifests}) == 10
     records = {m["archive_id"]: [json.loads(x) for x in (archive / m["messages_file"]).read_text().splitlines()] for m in manifests}

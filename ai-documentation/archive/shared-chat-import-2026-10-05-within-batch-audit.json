@@ -1,0 +1,53 @@
+{
+  "comparison_limits": "Whitespace and HTML-entity normalization; sampled 800-character blocks at 400-character intervals, then longest contiguous excerpt; not whole-message identity, semantic similarity or manuscript adoption.",
+  "records": [
+    {
+      "archive_id": "CGPT-17",
+      "message": 1,
+      "other_archive_id": "CGPT-19",
+      "other_message": 91,
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1282,
+        "source_start": 89,
+        "other_start": 3433
+      }
+    },
+    {
+      "archive_id": "CGPT-18",
+      "message": 1,
+      "other_archive_id": "CGPT-19",
+      "other_message": 207,
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2843,
+        "source_start": 1238,
+        "other_start": 1189
+      }
+    },
+    {
+      "archive_id": "CGPT-18",
+      "message": 2,
+      "other_archive_id": "CGPT-19",
+      "other_message": 213,
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1843,
+        "source_start": 687,
+        "other_start": 0
+      }
+    },
+    {
+      "archive_id": "CGPT-18",
+      "message": 2,
+      "other_archive_id": "CGPT-19",
+      "other_message": 214,
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1106,
+        "source_start": 1392,
+        "other_start": 1893
+      }
+    }
+  ]
+}

@@ -1,0 +1,3850 @@
+{
+  "description": "Frozen provenance and citation mapping for the initial transfer, not a live editing index.",
+  "headings": [
+    {
+      "title": "Einleitung",
+      "level": 1,
+      "id": "einleitung",
+      "source_line": 1,
+      "markdown_line": 13
+    },
+    {
+      "title": "Surface",
+      "level": 1,
+      "id": "surface",
+      "source_line": 16,
+      "markdown_line": 39
+    },
+    {
+      "title": "Formale Erscheinung und Einbettung",
+      "level": 2,
+      "id": "formale-erscheinung-und-einbettung",
+      "source_line": 17,
+      "markdown_line": 41
+    },
+    {
+      "title": "Die Aufforderung zur Eingabe",
+      "level": 2,
+      "id": "aufforderung-zur-eingabe",
+      "source_line": 28,
+      "markdown_line": 61
+    },
+    {
+      "title": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "level": 2,
+      "id": "sichtbare-anforderungen-hilfen-grenzen",
+      "source_line": 42,
+      "markdown_line": 87
+    },
+    {
+      "title": "Veränderliche Oberfläche und sichtbare Zustände",
+      "level": 2,
+      "id": "veraenderliche-oberflaeche-zustaende",
+      "source_line": 55,
+      "markdown_line": 113
+    },
+    {
+      "title": "Interaction",
+      "level": 1,
+      "id": "interaction",
+      "source_line": 72,
+      "markdown_line": 145
+    },
+    {
+      "title": "Eingabe als physischer Prozess",
+      "level": 2,
+      "id": "eingabe-als-physischer-prozess",
+      "source_line": 74,
+      "markdown_line": 147
+    },
+    {
+      "title": "Erforderliche Kenntnisse und Kompetenzen",
+      "level": 2,
+      "id": "kenntnisse-und-kompetenzen",
+      "source_line": 81,
+      "markdown_line": 159
+    },
+    {
+      "title": "Korrigieren und Bearbeiten",
+      "level": 2,
+      "id": "korrigieren-und-bearbeiten",
+      "source_line": 96,
+      "markdown_line": 179
+    },
+    {
+      "title": "Autocomplete und Vorschläge",
+      "level": 2,
+      "id": "autocomplete-und-vorschlaege",
+      "source_line": 101,
+      "markdown_line": 189
+    },
+    {
+      "title": "Iteration und Reformulierung",
+      "level": 2,
+      "id": "iteration-und-reformulierung",
+      "source_line": 109,
+      "markdown_line": 201
+    },
+    {
+      "title": "Operation",
+      "level": 1,
+      "id": "operation",
+      "source_line": 122,
+      "markdown_line": 225
+    },
+    {
+      "title": "Technische Rolle und Kontext der Eingabe",
+      "level": 2,
+      "id": "technische-rolle-und-kontext",
+      "source_line": 123,
+      "markdown_line": 227
+    },
+    {
+      "title": "Verarbeitung und ihre Maßstäbe",
+      "level": 2,
+      "id": "verarbeitung-und-massstaebe",
+      "source_line": 139,
+      "markdown_line": 257
+    },
+    {
+      "title": "Übertragung, Speicherung und Weiterverwendung",
+      "level": 2,
+      "id": "uebertragung-speicherung-weiterverwendung",
+      "source_line": 170,
+      "markdown_line": 317
+    },
+    {
+      "title": "Sichtbare Rückmeldung und operative Reichweite",
+      "level": 2,
+      "id": "rueckmeldung-und-operative-reichweite",
+      "source_line": 183,
+      "markdown_line": 339
+    },
+    {
+      "title": "Schluss",
+      "level": 1,
+      "id": "schluss",
+      "source_line": 203,
+      "markdown_line": 371
+    }
+  ],
+  "paragraphs": [
+    {
+      "id": "p-001",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 3,
+      "markdown_line": 15,
+      "citations": []
+    },
+    {
+      "id": "p-002",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 4,
+      "markdown_line": 17,
+      "citations": []
+    },
+    {
+      "id": "p-003",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 5,
+      "markdown_line": 19,
+      "citations": []
+    },
+    {
+      "id": "p-004",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 6,
+      "markdown_line": 21,
+      "citations": []
+    },
+    {
+      "id": "p-005",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 7,
+      "markdown_line": 23,
+      "citations": []
+    },
+    {
+      "id": "p-006",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 8,
+      "markdown_line": 25,
+      "citations": []
+    },
+    {
+      "id": "p-007",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 9,
+      "markdown_line": 27,
+      "citations": []
+    },
+    {
+      "id": "p-008",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 10,
+      "markdown_line": 29,
+      "citations": []
+    },
+    {
+      "id": "p-009",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 11,
+      "markdown_line": 31,
+      "citations": []
+    },
+    {
+      "id": "p-010",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 12,
+      "markdown_line": 33,
+      "citations": []
+    },
+    {
+      "id": "p-011",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 13,
+      "markdown_line": 35,
+      "citations": []
+    },
+    {
+      "id": "p-012",
+      "chapter": "Einleitung",
+      "section": "Einleitung",
+      "source_line": 14,
+      "markdown_line": 37,
+      "citations": []
+    },
+    {
+      "id": "p-013",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 18,
+      "markdown_line": 43,
+      "citations": [
+        "cite-001"
+      ]
+    },
+    {
+      "id": "p-014",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 19,
+      "markdown_line": 45,
+      "citations": [
+        "cite-002"
+      ]
+    },
+    {
+      "id": "p-015",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 20,
+      "markdown_line": 47,
+      "citations": [
+        "cite-003"
+      ]
+    },
+    {
+      "id": "p-016",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 21,
+      "markdown_line": 49,
+      "citations": []
+    },
+    {
+      "id": "p-017",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 22,
+      "markdown_line": 51,
+      "citations": []
+    },
+    {
+      "id": "p-018",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 23,
+      "markdown_line": 53,
+      "citations": []
+    },
+    {
+      "id": "p-019",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 24,
+      "markdown_line": 55,
+      "citations": [
+        "cite-004"
+      ]
+    },
+    {
+      "id": "p-020",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 25,
+      "markdown_line": 57,
+      "citations": []
+    },
+    {
+      "id": "p-021",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 26,
+      "markdown_line": 59,
+      "citations": []
+    },
+    {
+      "id": "p-022",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 29,
+      "markdown_line": 63,
+      "citations": [
+        "cite-005"
+      ]
+    },
+    {
+      "id": "p-023",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 30,
+      "markdown_line": 65,
+      "citations": []
+    },
+    {
+      "id": "p-024",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 31,
+      "markdown_line": 67,
+      "citations": []
+    },
+    {
+      "id": "p-025",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 32,
+      "markdown_line": 69,
+      "citations": [
+        "cite-006"
+      ]
+    },
+    {
+      "id": "p-026",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 33,
+      "markdown_line": 71,
+      "citations": []
+    },
+    {
+      "id": "p-027",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 34,
+      "markdown_line": 73,
+      "citations": []
+    },
+    {
+      "id": "p-028",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 35,
+      "markdown_line": 75,
+      "citations": []
+    },
+    {
+      "id": "p-029",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 36,
+      "markdown_line": 77,
+      "citations": [
+        "cite-007"
+      ]
+    },
+    {
+      "id": "p-030",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 37,
+      "markdown_line": 79,
+      "citations": [
+        "cite-008"
+      ]
+    },
+    {
+      "id": "p-031",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 38,
+      "markdown_line": 81,
+      "citations": []
+    },
+    {
+      "id": "p-032",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 39,
+      "markdown_line": 83,
+      "citations": []
+    },
+    {
+      "id": "p-033",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 40,
+      "markdown_line": 85,
+      "citations": []
+    },
+    {
+      "id": "p-034",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 43,
+      "markdown_line": 89,
+      "citations": [
+        "cite-009"
+      ]
+    },
+    {
+      "id": "p-035",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 44,
+      "markdown_line": 91,
+      "citations": []
+    },
+    {
+      "id": "p-036",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 45,
+      "markdown_line": 93,
+      "citations": []
+    },
+    {
+      "id": "p-037",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 46,
+      "markdown_line": 95,
+      "citations": [
+        "cite-010"
+      ]
+    },
+    {
+      "id": "p-038",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 47,
+      "markdown_line": 97,
+      "citations": []
+    },
+    {
+      "id": "p-039",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 48,
+      "markdown_line": 99,
+      "citations": [
+        "cite-011"
+      ]
+    },
+    {
+      "id": "p-040",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 49,
+      "markdown_line": 101,
+      "citations": [
+        "cite-012"
+      ]
+    },
+    {
+      "id": "p-041",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 50,
+      "markdown_line": 103,
+      "citations": []
+    },
+    {
+      "id": "p-042",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 51,
+      "markdown_line": 105,
+      "citations": [
+        "cite-013"
+      ]
+    },
+    {
+      "id": "p-043",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 52,
+      "markdown_line": 107,
+      "citations": []
+    },
+    {
+      "id": "p-044",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 53,
+      "markdown_line": 109,
+      "citations": []
+    },
+    {
+      "id": "p-045",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 54,
+      "markdown_line": 111,
+      "citations": []
+    },
+    {
+      "id": "p-046",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 56,
+      "markdown_line": 115,
+      "citations": [
+        "cite-014"
+      ]
+    },
+    {
+      "id": "p-047",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 57,
+      "markdown_line": 117,
+      "citations": []
+    },
+    {
+      "id": "p-048",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 58,
+      "markdown_line": 119,
+      "citations": []
+    },
+    {
+      "id": "p-049",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 59,
+      "markdown_line": 121,
+      "citations": [
+        "cite-015"
+      ]
+    },
+    {
+      "id": "p-050",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 60,
+      "markdown_line": 123,
+      "citations": []
+    },
+    {
+      "id": "p-051",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 61,
+      "markdown_line": 125,
+      "citations": [
+        "cite-016"
+      ]
+    },
+    {
+      "id": "p-052",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 62,
+      "markdown_line": 127,
+      "citations": [
+        "cite-017"
+      ]
+    },
+    {
+      "id": "p-053",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 63,
+      "markdown_line": 129,
+      "citations": []
+    },
+    {
+      "id": "p-054",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 64,
+      "markdown_line": 131,
+      "citations": []
+    },
+    {
+      "id": "p-055",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 65,
+      "markdown_line": 133,
+      "citations": [
+        "cite-018"
+      ]
+    },
+    {
+      "id": "p-056",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 66,
+      "markdown_line": 135,
+      "citations": []
+    },
+    {
+      "id": "p-057",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 67,
+      "markdown_line": 137,
+      "citations": []
+    },
+    {
+      "id": "p-058",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 68,
+      "markdown_line": 139,
+      "citations": []
+    },
+    {
+      "id": "p-059",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 69,
+      "markdown_line": 141,
+      "citations": []
+    },
+    {
+      "id": "p-060",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 70,
+      "markdown_line": 143,
+      "citations": []
+    },
+    {
+      "id": "p-061",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 75,
+      "markdown_line": 149,
+      "citations": [
+        "cite-019",
+        "cite-020"
+      ]
+    },
+    {
+      "id": "p-062",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 76,
+      "markdown_line": 151,
+      "citations": [
+        "cite-021",
+        "cite-022",
+        "cite-023",
+        "cite-024"
+      ]
+    },
+    {
+      "id": "p-063",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 77,
+      "markdown_line": 153,
+      "citations": [
+        "cite-025",
+        "cite-026",
+        "cite-027",
+        "cite-028",
+        "cite-029"
+      ]
+    },
+    {
+      "id": "p-064",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 78,
+      "markdown_line": 155,
+      "citations": [
+        "cite-030",
+        "cite-031"
+      ]
+    },
+    {
+      "id": "p-065",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 79,
+      "markdown_line": 157,
+      "citations": [
+        "cite-032"
+      ]
+    },
+    {
+      "id": "p-066",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 82,
+      "markdown_line": 161,
+      "citations": [
+        "cite-033"
+      ]
+    },
+    {
+      "id": "p-067",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 83,
+      "markdown_line": 163,
+      "citations": [
+        "cite-034",
+        "cite-035"
+      ]
+    },
+    {
+      "id": "p-068",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 84,
+      "markdown_line": 165,
+      "citations": [
+        "cite-036",
+        "cite-037"
+      ]
+    },
+    {
+      "id": "p-069",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 85,
+      "markdown_line": 167,
+      "citations": [
+        "cite-038"
+      ]
+    },
+    {
+      "id": "p-070",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 86,
+      "markdown_line": 169,
+      "citations": [
+        "cite-039"
+      ]
+    },
+    {
+      "id": "p-071",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 87,
+      "markdown_line": 171,
+      "citations": [
+        "cite-040",
+        "cite-041",
+        "cite-042"
+      ]
+    },
+    {
+      "id": "p-072",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 88,
+      "markdown_line": 173,
+      "citations": []
+    },
+    {
+      "id": "p-073",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 89,
+      "markdown_line": 175,
+      "citations": []
+    },
+    {
+      "id": "p-074",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 90,
+      "markdown_line": 177,
+      "citations": []
+    },
+    {
+      "id": "p-075",
+      "chapter": "Interaction",
+      "section": "Korrigieren und Bearbeiten",
+      "source_line": 97,
+      "markdown_line": 181,
+      "citations": []
+    },
+    {
+      "id": "p-076",
+      "chapter": "Interaction",
+      "section": "Korrigieren und Bearbeiten",
+      "source_line": 98,
+      "markdown_line": 183,
+      "citations": [
+        "cite-043"
+      ]
+    },
+    {
+      "id": "p-077",
+      "chapter": "Interaction",
+      "section": "Korrigieren und Bearbeiten",
+      "source_line": 99,
+      "markdown_line": 185,
+      "citations": [
+        "cite-044"
+      ]
+    },
+    {
+      "id": "p-078",
+      "chapter": "Interaction",
+      "section": "Korrigieren und Bearbeiten",
+      "source_line": 100,
+      "markdown_line": 187,
+      "citations": [
+        "cite-045"
+      ]
+    },
+    {
+      "id": "p-079",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 102,
+      "markdown_line": 191,
+      "citations": [
+        "cite-046"
+      ]
+    },
+    {
+      "id": "p-080",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 103,
+      "markdown_line": 193,
+      "citations": [
+        "cite-047"
+      ]
+    },
+    {
+      "id": "p-081",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 104,
+      "markdown_line": 195,
+      "citations": [
+        "cite-048"
+      ]
+    },
+    {
+      "id": "p-082",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 105,
+      "markdown_line": 197,
+      "citations": [
+        "cite-049"
+      ]
+    },
+    {
+      "id": "p-083",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 106,
+      "markdown_line": 199,
+      "citations": [
+        "cite-050"
+      ]
+    },
+    {
+      "id": "p-084",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 110,
+      "markdown_line": 203,
+      "citations": []
+    },
+    {
+      "id": "p-085",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 111,
+      "markdown_line": 205,
+      "citations": []
+    },
+    {
+      "id": "p-086",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 112,
+      "markdown_line": 207,
+      "citations": [
+        "cite-051"
+      ]
+    },
+    {
+      "id": "p-087",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 113,
+      "markdown_line": 209,
+      "citations": [
+        "cite-052"
+      ]
+    },
+    {
+      "id": "p-088",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 114,
+      "markdown_line": 211,
+      "citations": [
+        "cite-053"
+      ]
+    },
+    {
+      "id": "p-089",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 115,
+      "markdown_line": 213,
+      "citations": []
+    },
+    {
+      "id": "p-090",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 116,
+      "markdown_line": 215,
+      "citations": []
+    },
+    {
+      "id": "p-091",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 117,
+      "markdown_line": 217,
+      "citations": [
+        "cite-054",
+        "cite-055"
+      ]
+    },
+    {
+      "id": "p-092",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 118,
+      "markdown_line": 219,
+      "citations": []
+    },
+    {
+      "id": "p-093",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 119,
+      "markdown_line": 221,
+      "citations": [
+        "cite-056"
+      ]
+    },
+    {
+      "id": "p-094",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 120,
+      "markdown_line": 223,
+      "citations": []
+    },
+    {
+      "id": "p-095",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 124,
+      "markdown_line": 229,
+      "citations": []
+    },
+    {
+      "id": "p-096",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 125,
+      "markdown_line": 231,
+      "citations": []
+    },
+    {
+      "id": "p-097",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 126,
+      "markdown_line": 233,
+      "citations": []
+    },
+    {
+      "id": "p-098",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 127,
+      "markdown_line": 235,
+      "citations": [
+        "cite-057"
+      ]
+    },
+    {
+      "id": "p-099",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 128,
+      "markdown_line": 237,
+      "citations": []
+    },
+    {
+      "id": "p-100",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 129,
+      "markdown_line": 239,
+      "citations": [
+        "cite-058"
+      ]
+    },
+    {
+      "id": "p-101",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 130,
+      "markdown_line": 241,
+      "citations": []
+    },
+    {
+      "id": "p-102",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 131,
+      "markdown_line": 243,
+      "citations": [
+        "cite-059"
+      ]
+    },
+    {
+      "id": "p-103",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 132,
+      "markdown_line": 245,
+      "citations": [
+        "cite-060"
+      ]
+    },
+    {
+      "id": "p-104",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 133,
+      "markdown_line": 247,
+      "citations": []
+    },
+    {
+      "id": "p-105",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 134,
+      "markdown_line": 249,
+      "citations": [
+        "cite-061"
+      ]
+    },
+    {
+      "id": "p-106",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 135,
+      "markdown_line": 251,
+      "citations": [
+        "cite-062"
+      ]
+    },
+    {
+      "id": "p-107",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 136,
+      "markdown_line": 253,
+      "citations": []
+    },
+    {
+      "id": "p-108",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 137,
+      "markdown_line": 255,
+      "citations": []
+    },
+    {
+      "id": "p-109",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 140,
+      "markdown_line": 259,
+      "citations": []
+    },
+    {
+      "id": "p-110",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 141,
+      "markdown_line": 261,
+      "citations": [
+        "cite-063",
+        "cite-064"
+      ]
+    },
+    {
+      "id": "p-111",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 142,
+      "markdown_line": 263,
+      "citations": []
+    },
+    {
+      "id": "p-112",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 143,
+      "markdown_line": 265,
+      "citations": []
+    },
+    {
+      "id": "p-113",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 144,
+      "markdown_line": 267,
+      "citations": [
+        "cite-065"
+      ]
+    },
+    {
+      "id": "p-114",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 145,
+      "markdown_line": 269,
+      "citations": [
+        "cite-066"
+      ]
+    },
+    {
+      "id": "p-115",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 146,
+      "markdown_line": 271,
+      "citations": [
+        "cite-067"
+      ]
+    },
+    {
+      "id": "p-116",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 147,
+      "markdown_line": 273,
+      "citations": [
+        "cite-068"
+      ]
+    },
+    {
+      "id": "p-117",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 148,
+      "markdown_line": 275,
+      "citations": []
+    },
+    {
+      "id": "p-118",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 149,
+      "markdown_line": 277,
+      "citations": []
+    },
+    {
+      "id": "p-119",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 150,
+      "markdown_line": 279,
+      "citations": [
+        "cite-069"
+      ]
+    },
+    {
+      "id": "p-120",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 151,
+      "markdown_line": 281,
+      "citations": [
+        "cite-070"
+      ]
+    },
+    {
+      "id": "p-121",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 152,
+      "markdown_line": 283,
+      "citations": []
+    },
+    {
+      "id": "p-122",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 153,
+      "markdown_line": 285,
+      "citations": []
+    },
+    {
+      "id": "p-123",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 154,
+      "markdown_line": 287,
+      "citations": [
+        "cite-071"
+      ]
+    },
+    {
+      "id": "p-124",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 155,
+      "markdown_line": 289,
+      "citations": [
+        "cite-072"
+      ]
+    },
+    {
+      "id": "p-125",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 156,
+      "markdown_line": 291,
+      "citations": [
+        "cite-073"
+      ]
+    },
+    {
+      "id": "p-126",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 157,
+      "markdown_line": 293,
+      "citations": [
+        "cite-074"
+      ]
+    },
+    {
+      "id": "p-127",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 158,
+      "markdown_line": 295,
+      "citations": []
+    },
+    {
+      "id": "p-128",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 159,
+      "markdown_line": 297,
+      "citations": [
+        "cite-075"
+      ]
+    },
+    {
+      "id": "p-129",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 160,
+      "markdown_line": 299,
+      "citations": [
+        "cite-076",
+        "cite-077"
+      ]
+    },
+    {
+      "id": "p-130",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 161,
+      "markdown_line": 301,
+      "citations": [
+        "cite-078"
+      ]
+    },
+    {
+      "id": "p-131",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 162,
+      "markdown_line": 303,
+      "citations": []
+    },
+    {
+      "id": "p-132",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 163,
+      "markdown_line": 305,
+      "citations": []
+    },
+    {
+      "id": "p-133",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 164,
+      "markdown_line": 307,
+      "citations": [
+        "cite-079"
+      ]
+    },
+    {
+      "id": "p-134",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 165,
+      "markdown_line": 309,
+      "citations": [
+        "cite-080"
+      ]
+    },
+    {
+      "id": "p-135",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 166,
+      "markdown_line": 311,
+      "citations": [
+        "cite-081"
+      ]
+    },
+    {
+      "id": "p-136",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 167,
+      "markdown_line": 313,
+      "citations": []
+    },
+    {
+      "id": "p-137",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 168,
+      "markdown_line": 315,
+      "citations": []
+    },
+    {
+      "id": "p-138",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 171,
+      "markdown_line": 319,
+      "citations": []
+    },
+    {
+      "id": "p-139",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 172,
+      "markdown_line": 321,
+      "citations": [
+        "cite-082"
+      ]
+    },
+    {
+      "id": "p-140",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 173,
+      "markdown_line": 323,
+      "citations": [
+        "cite-083",
+        "cite-084"
+      ]
+    },
+    {
+      "id": "p-141",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 174,
+      "markdown_line": 325,
+      "citations": [
+        "cite-085"
+      ]
+    },
+    {
+      "id": "p-142",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 175,
+      "markdown_line": 327,
+      "citations": [
+        "cite-086"
+      ]
+    },
+    {
+      "id": "p-143",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 176,
+      "markdown_line": 329,
+      "citations": [
+        "cite-087"
+      ]
+    },
+    {
+      "id": "p-144",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 177,
+      "markdown_line": 331,
+      "citations": [
+        "cite-088"
+      ]
+    },
+    {
+      "id": "p-145",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 178,
+      "markdown_line": 333,
+      "citations": [
+        "cite-089"
+      ]
+    },
+    {
+      "id": "p-146",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 179,
+      "markdown_line": 335,
+      "citations": [
+        "cite-090"
+      ]
+    },
+    {
+      "id": "p-147",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 180,
+      "markdown_line": 337,
+      "citations": []
+    },
+    {
+      "id": "p-148",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 184,
+      "markdown_line": 341,
+      "citations": []
+    },
+    {
+      "id": "p-149",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 185,
+      "markdown_line": 343,
+      "citations": [
+        "cite-091",
+        "cite-092"
+      ]
+    },
+    {
+      "id": "p-150",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 186,
+      "markdown_line": 345,
+      "citations": []
+    },
+    {
+      "id": "p-151",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 187,
+      "markdown_line": 347,
+      "citations": []
+    },
+    {
+      "id": "p-152",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 188,
+      "markdown_line": 349,
+      "citations": [
+        "cite-093"
+      ]
+    },
+    {
+      "id": "p-153",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 189,
+      "markdown_line": 351,
+      "citations": [
+        "cite-094"
+      ]
+    },
+    {
+      "id": "p-154",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 190,
+      "markdown_line": 353,
+      "citations": []
+    },
+    {
+      "id": "p-155",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 191,
+      "markdown_line": 355,
+      "citations": [
+        "cite-095"
+      ]
+    },
+    {
+      "id": "p-156",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 192,
+      "markdown_line": 357,
+      "citations": []
+    },
+    {
+      "id": "p-157",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 193,
+      "markdown_line": 359,
+      "citations": [
+        "cite-096"
+      ]
+    },
+    {
+      "id": "p-158",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 194,
+      "markdown_line": 361,
+      "citations": [
+        "cite-097"
+      ]
+    },
+    {
+      "id": "p-159",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 195,
+      "markdown_line": 363,
+      "citations": [
+        "cite-098"
+      ]
+    },
+    {
+      "id": "p-160",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 196,
+      "markdown_line": 365,
+      "citations": []
+    },
+    {
+      "id": "p-161",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 197,
+      "markdown_line": 367,
+      "citations": [
+        "cite-099"
+      ]
+    },
+    {
+      "id": "p-162",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 198,
+      "markdown_line": 369,
+      "citations": []
+    },
+    {
+      "id": "p-163",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 204,
+      "markdown_line": 373,
+      "citations": []
+    },
+    {
+      "id": "p-164",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 205,
+      "markdown_line": 375,
+      "citations": []
+    },
+    {
+      "id": "p-165",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 206,
+      "markdown_line": 377,
+      "citations": []
+    },
+    {
+      "id": "p-166",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 207,
+      "markdown_line": 379,
+      "citations": []
+    },
+    {
+      "id": "p-167",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 208,
+      "markdown_line": 381,
+      "citations": []
+    },
+    {
+      "id": "p-168",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 209,
+      "markdown_line": 383,
+      "citations": []
+    },
+    {
+      "id": "p-169",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 210,
+      "markdown_line": 385,
+      "citations": []
+    },
+    {
+      "id": "p-170",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 211,
+      "markdown_line": 387,
+      "citations": []
+    },
+    {
+      "id": "p-171",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 212,
+      "markdown_line": 389,
+      "citations": []
+    },
+    {
+      "id": "p-172",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 213,
+      "markdown_line": 391,
+      "citations": []
+    },
+    {
+      "id": "p-173",
+      "chapter": "Schluss",
+      "section": "Schluss",
+      "source_line": 214,
+      "markdown_line": 393,
+      "citations": []
+    }
+  ],
+  "citations": [
+    {
+      "id": "cite-001",
+      "paragraph_id": "p-013",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 18,
+      "source_column": 418,
+      "original": "(vgl. Norman 2008)",
+      "markdown": "[[vgl. @normanSignifiersNotAffordances2008]]{#cite-001}",
+      "items": [
+        {
+          "key": "normanSignifiersNotAffordances2008",
+          "original": "Norman 2008",
+          "original_label": "Norman 2008",
+          "original_suffix": "",
+          "markdown_suffix": ""
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-002",
+      "paragraph_id": "p-014",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 19,
+      "source_column": 298,
+      "original": "(vgl. Shneiderman 1983, S. 57–59)",
+      "markdown": "[[vgl. @shneidermanDirectManipulationStep1983, S. 57–59]]{#cite-002}",
+      "items": [
+        {
+          "key": "shneidermanDirectManipulationStep1983",
+          "original": "Shneiderman 1983, S. 57–59",
+          "original_label": "Shneiderman 1983",
+          "original_suffix": ", S. 57–59",
+          "markdown_suffix": ", S. 57–59"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-003",
+      "paragraph_id": "p-015",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 20,
+      "source_column": 543,
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.5 und 4.10.11)",
+      "markdown": "[[vgl. @whatwgHTMLStandard2026, Abschn. 4.10.5 und 4.10.11]]{#cite-003}",
+      "items": [
+        {
+          "key": "whatwgHTMLStandard2026",
+          "original": "WHATWG 2026, Abschn. 4.10.5 und 4.10.11",
+          "original_label": "WHATWG 2026",
+          "original_suffix": ", Abschn. 4.10.5 und 4.10.11",
+          "markdown_suffix": ", Abschn. 4.10.5 und 4.10.11"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-004",
+      "paragraph_id": "p-019",
+      "chapter": "Surface",
+      "section": "Formale Erscheinung und Einbettung",
+      "source_line": 24,
+      "source_column": 183,
+      "original": "(vgl. Akrich 1992, S. 207–209)",
+      "markdown": "[[vgl. @akrichDeScriptionTechnical1992, S. 207–209]]{#cite-004}",
+      "items": [
+        {
+          "key": "akrichDeScriptionTechnical1992",
+          "original": "Akrich 1992, S. 207–209",
+          "original_label": "Akrich 1992",
+          "original_suffix": ", S. 207–209",
+          "markdown_suffix": ", S. 207–209"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-005",
+      "paragraph_id": "p-022",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 29,
+      "source_column": 417,
+      "original": "(vgl. Norman 2008; Hearst 2009, S. 18–19)",
+      "markdown": "[[vgl. @normanSignifiersNotAffordances2008; @hearstSearchUserInterfaces2009, S. 18–19]]{#cite-005}",
+      "items": [
+        {
+          "key": "normanSignifiersNotAffordances2008",
+          "original": "Norman 2008",
+          "original_label": "Norman 2008",
+          "original_suffix": "",
+          "markdown_suffix": ""
+        },
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 18–19",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 18–19",
+          "markdown_suffix": ", S. 18–19"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-006",
+      "paragraph_id": "p-025",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 32,
+      "source_column": 380,
+      "original": "(vgl. Hearst 2009, S. 18–19)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 18–19]]{#cite-006}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 18–19",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 18–19",
+          "markdown_suffix": ", S. 18–19"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-007",
+      "paragraph_id": "p-029",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 36,
+      "source_column": 473,
+      "original": "(vgl. Akrich 1992, S. 207–209; Subramonyam et al. 2024, PDF-S. 9–12)",
+      "markdown": "[[vgl. @akrichDeScriptionTechnical1992, S. 207–209; @subramonyamBridgingGulfEnvisioning2024, PDF-S. 9–12]]{#cite-007}",
+      "items": [
+        {
+          "key": "akrichDeScriptionTechnical1992",
+          "original": "Akrich 1992, S. 207–209",
+          "original_label": "Akrich 1992",
+          "original_suffix": ", S. 207–209",
+          "markdown_suffix": ", S. 207–209"
+        },
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, PDF-S. 9–12",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", PDF-S. 9–12",
+          "markdown_suffix": ", PDF-S. 9–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-008",
+      "paragraph_id": "p-030",
+      "chapter": "Surface",
+      "section": "Die Aufforderung zur Eingabe",
+      "source_line": 37,
+      "source_column": 396,
+      "original": "(vgl. Chen et al. 2024, S. 3639–3643)",
+      "markdown": "[[vgl. @chenEffectsAnthropomorphicDesign2024, S. 3639–3643]]{#cite-008}",
+      "items": [
+        {
+          "key": "chenEffectsAnthropomorphicDesign2024",
+          "original": "Chen et al. 2024, S. 3639–3643",
+          "original_label": "Chen et al. 2024",
+          "original_suffix": ", S. 3639–3643",
+          "markdown_suffix": ", S. 3639–3643"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-009",
+      "paragraph_id": "p-034",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 43,
+      "source_column": 407,
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1278, 1282)",
+      "markdown": "[[vgl. @secklerDesigningUsableWeb2014, S. 1276–1278, 1282]]{#cite-009}",
+      "items": [
+        {
+          "key": "secklerDesigningUsableWeb2014",
+          "original": "Seckler et al. 2014, S. 1276–1278, 1282",
+          "original_label": "Seckler et al. 2014",
+          "original_suffix": ", S. 1276–1278, 1282",
+          "markdown_suffix": ", S. 1276–1278, 1282"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-010",
+      "paragraph_id": "p-037",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 46,
+      "source_column": 421,
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1278; Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12)",
+      "markdown": "[[vgl. @secklerDesigningUsableWeb2014, S. 1276–1278; @hearstSearchUserInterfaces2009, S. 11–13; @subramonyamBridgingGulfEnvisioning2024, PDF-S. 11–12]]{#cite-010}",
+      "items": [
+        {
+          "key": "secklerDesigningUsableWeb2014",
+          "original": "Seckler et al. 2014, S. 1276–1278",
+          "original_label": "Seckler et al. 2014",
+          "original_suffix": ", S. 1276–1278",
+          "markdown_suffix": ", S. 1276–1278"
+        },
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 11–13",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 11–13",
+          "markdown_suffix": ", S. 11–13"
+        },
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, PDF-S. 11–12",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", PDF-S. 11–12",
+          "markdown_suffix": ", PDF-S. 11–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-011",
+      "paragraph_id": "p-039",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 48,
+      "source_column": 350,
+      "original": "(vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 11–13; @subramonyamBridgingGulfEnvisioning2024, PDF-S. 11–12]]{#cite-011}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 11–13",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 11–13",
+          "markdown_suffix": ", S. 11–13"
+        },
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, PDF-S. 11–12",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", PDF-S. 11–12",
+          "markdown_suffix": ", PDF-S. 11–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-012",
+      "paragraph_id": "p-040",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 49,
+      "source_column": 351,
+      "original": "(vgl. Akrich 1992, S. 207–209)",
+      "markdown": "[[vgl. @akrichDeScriptionTechnical1992, S. 207–209]]{#cite-012}",
+      "items": [
+        {
+          "key": "akrichDeScriptionTechnical1992",
+          "original": "Akrich 1992, S. 207–209",
+          "original_label": "Akrich 1992",
+          "original_suffix": ", S. 207–209",
+          "markdown_suffix": ", S. 207–209"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-013",
+      "paragraph_id": "p-042",
+      "chapter": "Surface",
+      "section": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "source_line": 51,
+      "source_column": 358,
+      "original": "(vgl. Luguri/Strahilevitz 2021, S. 71–76)",
+      "markdown": "[[vgl. @luguriShiningLightDark2021, S. 71–76]]{#cite-013}",
+      "items": [
+        {
+          "key": "luguriShiningLightDark2021",
+          "original": "Luguri/Strahilevitz 2021, S. 71–76",
+          "original_label": "Luguri/Strahilevitz 2021",
+          "original_suffix": ", S. 71–76",
+          "markdown_suffix": ", S. 71–76"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-014",
+      "paragraph_id": "p-046",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 56,
+      "source_column": 432,
+      "original": "(vgl. Shneiderman 1983, S. 57–59)",
+      "markdown": "[[vgl. @shneidermanDirectManipulationStep1983, S. 57–59]]{#cite-014}",
+      "items": [
+        {
+          "key": "shneidermanDirectManipulationStep1983",
+          "original": "Shneiderman 1983, S. 57–59",
+          "original_label": "Shneiderman 1983",
+          "original_suffix": ", S. 57–59",
+          "markdown_suffix": ", S. 57–59"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-015",
+      "paragraph_id": "p-049",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 59,
+      "source_column": 435,
+      "original": "(vgl. Hearst 2009, S. 11–13, 18–19)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 11–13, 18–19]]{#cite-015}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 11–13, 18–19",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 11–13, 18–19",
+          "markdown_suffix": ", S. 11–13, 18–19"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-016",
+      "paragraph_id": "p-051",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 61,
+      "source_column": 250,
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1278, 1282)",
+      "markdown": "[[vgl. @secklerDesigningUsableWeb2014, S. 1276–1278, 1282]]{#cite-016}",
+      "items": [
+        {
+          "key": "secklerDesigningUsableWeb2014",
+          "original": "Seckler et al. 2014, S. 1276–1278, 1282",
+          "original_label": "Seckler et al. 2014",
+          "original_suffix": ", S. 1276–1278, 1282",
+          "markdown_suffix": ", S. 1276–1278, 1282"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-017",
+      "paragraph_id": "p-052",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 62,
+      "source_column": 416,
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1282)",
+      "markdown": "[[vgl. @secklerDesigningUsableWeb2014, S. 1276–1282]]{#cite-017}",
+      "items": [
+        {
+          "key": "secklerDesigningUsableWeb2014",
+          "original": "Seckler et al. 2014, S. 1276–1282",
+          "original_label": "Seckler et al. 2014",
+          "original_suffix": ", S. 1276–1282",
+          "markdown_suffix": ", S. 1276–1282"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-018",
+      "paragraph_id": "p-055",
+      "chapter": "Surface",
+      "section": "Veränderliche Oberfläche und sichtbare Zustände",
+      "source_line": 65,
+      "source_column": 433,
+      "original": "(vgl. Norman 2008; Shneiderman 1983, S. 59, 64–65)",
+      "markdown": "[[vgl. @normanSignifiersNotAffordances2008; @shneidermanDirectManipulationStep1983, S. 59, 64–65]]{#cite-018}",
+      "items": [
+        {
+          "key": "normanSignifiersNotAffordances2008",
+          "original": "Norman 2008",
+          "original_label": "Norman 2008",
+          "original_suffix": "",
+          "markdown_suffix": ""
+        },
+        {
+          "key": "shneidermanDirectManipulationStep1983",
+          "original": "Shneiderman 1983, S. 59, 64–65",
+          "original_label": "Shneiderman 1983",
+          "original_suffix": ", S. 59, 64–65",
+          "markdown_suffix": ", S. 59, 64–65"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-019",
+      "paragraph_id": "p-061",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 75,
+      "source_column": 192,
+      "original": "(vgl. Feit et al. 2016, S. 4264–4271; Ruan et al. 2017, Art. 159:4–159:5, 159:15–159:17)",
+      "markdown": "[[vgl. @feitHowWeType2016, S. 4264–4271; @ruanComparingSpeechKeyboard2017, Art. 159:4–159:5, 159:15–159:17]]{#cite-019}",
+      "items": [
+        {
+          "key": "feitHowWeType2016",
+          "original": "Feit et al. 2016, S. 4264–4271",
+          "original_label": "Feit et al. 2016",
+          "original_suffix": ", S. 4264–4271",
+          "markdown_suffix": ", S. 4264–4271"
+        },
+        {
+          "key": "ruanComparingSpeechKeyboard2017",
+          "original": "Ruan et al. 2017, Art. 159:4–159:5, 159:15–159:17",
+          "original_label": "Ruan et al. 2017",
+          "original_suffix": ", Art. 159:4–159:5, 159:15–159:17",
+          "markdown_suffix": ", Art. 159:4–159:5, 159:15–159:17"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-020",
+      "paragraph_id": "p-061",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 75,
+      "source_column": 426,
+      "original": "(vgl. MacKenzie/Soukoreff 2002, S. 164–165; Ruan et al. 2017, Art. 159:16–159:17)",
+      "markdown": "[[vgl. @mackenzieTextEntryMobile2002, S. 164–165; @ruanComparingSpeechKeyboard2017, Art. 159:16–159:17]]{#cite-020}",
+      "items": [
+        {
+          "key": "mackenzieTextEntryMobile2002",
+          "original": "MacKenzie/Soukoreff 2002, S. 164–165",
+          "original_label": "MacKenzie/Soukoreff 2002",
+          "original_suffix": ", S. 164–165",
+          "markdown_suffix": ", S. 164–165"
+        },
+        {
+          "key": "ruanComparingSpeechKeyboard2017",
+          "original": "Ruan et al. 2017, Art. 159:16–159:17",
+          "original_label": "Ruan et al. 2017",
+          "original_suffix": ", Art. 159:16–159:17",
+          "markdown_suffix": ", Art. 159:16–159:17"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-021",
+      "paragraph_id": "p-062",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 76,
+      "source_column": 177,
+      "original": "(vgl. Feit et al. 2016, S. 4262–4271)",
+      "markdown": "[[vgl. @feitHowWeType2016, S. 4262–4271]]{#cite-021}",
+      "items": [
+        {
+          "key": "feitHowWeType2016",
+          "original": "Feit et al. 2016, S. 4262–4271",
+          "original_label": "Feit et al. 2016",
+          "original_suffix": ", S. 4262–4271",
+          "markdown_suffix": ", S. 4262–4271"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-022",
+      "paragraph_id": "p-062",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 76,
+      "source_column": 309,
+      "original": "(vgl. MacKenzie/Soukoreff 2002, S. 152–153, 164–165)",
+      "markdown": "[[vgl. @mackenzieTextEntryMobile2002, S. 152–153, 164–165]]{#cite-022}",
+      "items": [
+        {
+          "key": "mackenzieTextEntryMobile2002",
+          "original": "MacKenzie/Soukoreff 2002, S. 152–153, 164–165",
+          "original_label": "MacKenzie/Soukoreff 2002",
+          "original_suffix": ", S. 152–153, 164–165",
+          "markdown_suffix": ", S. 152–153, 164–165"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-023",
+      "paragraph_id": "p-062",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 76,
+      "source_column": 580,
+      "original": "(vgl. Oulasvirta et al. 2013, S. 2767–2772)",
+      "markdown": "[[vgl. @oulasvirtaImprovingTwoThumb2013, S. 2767–2772]]{#cite-023}",
+      "items": [
+        {
+          "key": "oulasvirtaImprovingTwoThumb2013",
+          "original": "Oulasvirta et al. 2013, S. 2767–2772",
+          "original_label": "Oulasvirta et al. 2013",
+          "original_suffix": ", S. 2767–2772",
+          "markdown_suffix": ", S. 2767–2772"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-024",
+      "paragraph_id": "p-062",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 76,
+      "source_column": 863,
+      "original": "(vgl. Ruan et al. 2017, Art. 159:4–159:5, 159:13–159:17)",
+      "markdown": "[[vgl. @ruanComparingSpeechKeyboard2017, Art. 159:4–159:5, 159:13–159:17]]{#cite-024}",
+      "items": [
+        {
+          "key": "ruanComparingSpeechKeyboard2017",
+          "original": "Ruan et al. 2017, Art. 159:4–159:5, 159:13–159:17",
+          "original_label": "Ruan et al. 2017",
+          "original_suffix": ", Art. 159:4–159:5, 159:13–159:17",
+          "markdown_suffix": ", Art. 159:4–159:5, 159:13–159:17"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-025",
+      "paragraph_id": "p-063",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 77,
+      "source_column": 409,
+      "original": "(vgl. Galbraith/Kay 2025, PDF-S. 5–8, 16–19)",
+      "markdown": "[[vgl. @galbraithHiddenPlainSight2025, PDF-S. 5–8, 16–19]]{#cite-025}",
+      "items": [
+        {
+          "key": "galbraithHiddenPlainSight2025",
+          "original": "Galbraith/Kay 2025, PDF-S. 5–8, 16–19",
+          "original_label": "Galbraith/Kay 2025",
+          "original_suffix": ", PDF-S. 5–8, 16–19",
+          "markdown_suffix": ", PDF-S. 5–8, 16–19"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-026",
+      "paragraph_id": "p-063",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 77,
+      "source_column": 518,
+      "original": "(vgl. Feit et al. 2016, S. 4268–4271)",
+      "markdown": "[[vgl. @feitHowWeType2016, S. 4268–4271]]{#cite-026}",
+      "items": [
+        {
+          "key": "feitHowWeType2016",
+          "original": "Feit et al. 2016, S. 4268–4271",
+          "original_label": "Feit et al. 2016",
+          "original_suffix": ", S. 4268–4271",
+          "markdown_suffix": ", S. 4268–4271"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-027",
+      "paragraph_id": "p-063",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 77,
+      "source_column": 658,
+      "original": "(vgl. Oulasvirta et al. 2013, S. 2767–2771)",
+      "markdown": "[[vgl. @oulasvirtaImprovingTwoThumb2013, S. 2767–2771]]{#cite-027}",
+      "items": [
+        {
+          "key": "oulasvirtaImprovingTwoThumb2013",
+          "original": "Oulasvirta et al. 2013, S. 2767–2771",
+          "original_label": "Oulasvirta et al. 2013",
+          "original_suffix": ", S. 2767–2771",
+          "markdown_suffix": ", S. 2767–2771"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-028",
+      "paragraph_id": "p-063",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 77,
+      "source_column": 850,
+      "original": "(vgl. Ruan et al. 2017, Art. 159:5, 159:16–159:17)",
+      "markdown": "[[vgl. @ruanComparingSpeechKeyboard2017, Art. 159:5, 159:16–159:17]]{#cite-028}",
+      "items": [
+        {
+          "key": "ruanComparingSpeechKeyboard2017",
+          "original": "Ruan et al. 2017, Art. 159:5, 159:16–159:17",
+          "original_label": "Ruan et al. 2017",
+          "original_suffix": ", Art. 159:5, 159:16–159:17",
+          "markdown_suffix": ", Art. 159:5, 159:16–159:17"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-029",
+      "paragraph_id": "p-063",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 77,
+      "source_column": 1048,
+      "original": "(vgl. Akrich 1992, S. 207–211, 216–222)",
+      "markdown": "[[vgl. @akrichDeScriptionTechnical1992, S. 207–211, 216–222]]{#cite-029}",
+      "items": [
+        {
+          "key": "akrichDeScriptionTechnical1992",
+          "original": "Akrich 1992, S. 207–211, 216–222",
+          "original_label": "Akrich 1992",
+          "original_suffix": ", S. 207–211, 216–222",
+          "markdown_suffix": ", S. 207–211, 216–222"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-030",
+      "paragraph_id": "p-064",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 78,
+      "source_column": 221,
+      "original": "(vgl. van Esch et al. 2019, S. 13–15)",
+      "markdown": "[[vgl. @vaneschWritingAcrossWorlds2019, S. 13–15]]{#cite-030}",
+      "items": [
+        {
+          "key": "vaneschWritingAcrossWorlds2019",
+          "original": "van Esch et al. 2019, S. 13–15",
+          "original_label": "van Esch et al. 2019",
+          "original_suffix": ", S. 13–15",
+          "markdown_suffix": ", S. 13–15"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-031",
+      "paragraph_id": "p-064",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 78,
+      "source_column": 662,
+      "original": "(vgl. Koenecke et al. 2020, S. 7684–7685)",
+      "markdown": "[[vgl. @koeneckeRacialDisparitiesAutomated2020, S. 7684–7685]]{#cite-031}",
+      "items": [
+        {
+          "key": "koeneckeRacialDisparitiesAutomated2020",
+          "original": "Koenecke et al. 2020, S. 7684–7685",
+          "original_label": "Koenecke et al. 2020",
+          "original_suffix": ", S. 7684–7685",
+          "markdown_suffix": ", S. 7684–7685"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-032",
+      "paragraph_id": "p-065",
+      "chapter": "Interaction",
+      "section": "Eingabe als physischer Prozess",
+      "source_line": 79,
+      "source_column": 63,
+      "original": "(vgl. MacKenzie/Soukoreff 2002, S. 164–165)",
+      "markdown": "[[vgl. @mackenzieTextEntryMobile2002, S. 164–165]]{#cite-032}",
+      "items": [
+        {
+          "key": "mackenzieTextEntryMobile2002",
+          "original": "MacKenzie/Soukoreff 2002, S. 164–165",
+          "original_label": "MacKenzie/Soukoreff 2002",
+          "original_suffix": ", S. 164–165",
+          "markdown_suffix": ", S. 164–165"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-033",
+      "paragraph_id": "p-066",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 82,
+      "source_column": 415,
+      "original": "(vgl. Akrich 1992, S. 207–209, 216)",
+      "markdown": "[[vgl. @akrichDeScriptionTechnical1992, S. 207–209, 216]]{#cite-033}",
+      "items": [
+        {
+          "key": "akrichDeScriptionTechnical1992",
+          "original": "Akrich 1992, S. 207–209, 216",
+          "original_label": "Akrich 1992",
+          "original_suffix": ", S. 207–209, 216",
+          "markdown_suffix": ", S. 207–209, 216"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-034",
+      "paragraph_id": "p-067",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 83,
+      "source_column": 226,
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "markdown": "[[vgl. @ieeeOpenGroupMkdir2024, mkdir]]{#cite-034}",
+      "items": [
+        {
+          "key": "ieeeOpenGroupMkdir2024",
+          "original": "IEEE/The Open Group 2024, mkdir",
+          "original_label": "IEEE/The Open Group 2024",
+          "original_suffix": ", mkdir",
+          "markdown_suffix": ", mkdir"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-035",
+      "paragraph_id": "p-067",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 83,
+      "source_column": 331,
+      "original": "(vgl. Shneiderman 1983, S. 65–66)",
+      "markdown": "[[vgl. @shneidermanDirectManipulationStep1983, S. 65–66]]{#cite-035}",
+      "items": [
+        {
+          "key": "shneidermanDirectManipulationStep1983",
+          "original": "Shneiderman 1983, S. 65–66",
+          "original_label": "Shneiderman 1983",
+          "original_suffix": ", S. 65–66",
+          "markdown_suffix": ", S. 65–66"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-036",
+      "paragraph_id": "p-068",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 84,
+      "source_column": 319,
+      "original": "(vgl. Google Search Help, o. J., „Refine Google searches“, Abschnitt „Operators“)",
+      "markdown": "[[vgl. @googleRefineSearches, „Refine Google searches“, Abschnitt „Operators“]]{#cite-036}",
+      "items": [
+        {
+          "key": "googleRefineSearches",
+          "original": "Google Search Help, o. J., „Refine Google searches“, Abschnitt „Operators“",
+          "original_label": "Google Search Help, o. J.",
+          "original_suffix": ", „Refine Google searches“, Abschnitt „Operators“",
+          "markdown_suffix": ", „Refine Google searches“, Abschnitt „Operators“"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-037",
+      "paragraph_id": "p-068",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 84,
+      "source_column": 640,
+      "original": "(vgl. Hearst 2009, S. 1–3)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 1–3]]{#cite-037}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 1–3",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 1–3",
+          "markdown_suffix": ", S. 1–3"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-038",
+      "paragraph_id": "p-069",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 85,
+      "source_column": 529,
+      "original": "(vgl. Subramonyam et al. 2024, S. 2–3, 6–8)",
+      "markdown": "[[vgl. @subramonyamBridgingGulfEnvisioning2024, S. 2–3, 6–8]]{#cite-038}",
+      "items": [
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, S. 2–3, 6–8",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", S. 2–3, 6–8",
+          "markdown_suffix": ", S. 2–3, 6–8"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-039",
+      "paragraph_id": "p-070",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 86,
+      "source_column": 609,
+      "original": "(vgl. Zamfirescu-Pereira et al. 2023, S. 9–13)",
+      "markdown": "[[vgl. @zamfirescu-pereiraWhyJohnnyCant2023, S. 9–13]]{#cite-039}",
+      "items": [
+        {
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023",
+          "original": "Zamfirescu-Pereira et al. 2023, S. 9–13",
+          "original_label": "Zamfirescu-Pereira et al. 2023",
+          "original_suffix": ", S. 9–13",
+          "markdown_suffix": ", S. 9–13"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-040",
+      "paragraph_id": "p-071",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 87,
+      "source_column": 292,
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1282)",
+      "markdown": "[[vgl. @secklerDesigningUsableWeb2014, S. 1276–1282]]{#cite-040}",
+      "items": [
+        {
+          "key": "secklerDesigningUsableWeb2014",
+          "original": "Seckler et al. 2014, S. 1276–1282",
+          "original_label": "Seckler et al. 2014",
+          "original_suffix": ", S. 1276–1282",
+          "markdown_suffix": ", S. 1276–1282"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-041",
+      "paragraph_id": "p-071",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 87,
+      "source_column": 456,
+      "original": "(vgl. Hearst 2009, S. 18–19)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 18–19]]{#cite-041}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 18–19",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 18–19",
+          "markdown_suffix": ", S. 18–19"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-042",
+      "paragraph_id": "p-071",
+      "chapter": "Interaction",
+      "section": "Erforderliche Kenntnisse und Kompetenzen",
+      "source_line": 87,
+      "source_column": 812,
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.5 und 4.10.21)",
+      "markdown": "[[vgl. @whatwgHTMLStandard2026, Abschn. 4.10.5 und 4.10.21]]{#cite-042}",
+      "items": [
+        {
+          "key": "whatwgHTMLStandard2026",
+          "original": "WHATWG 2026, Abschn. 4.10.5 und 4.10.21",
+          "original_label": "WHATWG 2026",
+          "original_suffix": ", Abschn. 4.10.5 und 4.10.21",
+          "markdown_suffix": ", Abschn. 4.10.5 und 4.10.21"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-043",
+      "paragraph_id": "p-076",
+      "chapter": "Interaction",
+      "section": "Korrigieren und Bearbeiten",
+      "source_line": 98,
+      "source_column": 532,
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1282; Hearst 2009, S. 14–18)",
+      "markdown": "[[vgl. @secklerDesigningUsableWeb2014, S. 1276–1282; @hearstSearchUserInterfaces2009, S. 14–18]]{#cite-043}",
+      "items": [
+        {
+          "key": "secklerDesigningUsableWeb2014",
+          "original": "Seckler et al. 2014, S. 1276–1282",
+          "original_label": "Seckler et al. 2014",
+          "original_suffix": ", S. 1276–1282",
+          "markdown_suffix": ", S. 1276–1282"
+        },
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 14–18",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 14–18",
+          "markdown_suffix": ", S. 14–18"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-044",
+      "paragraph_id": "p-077",
+      "chapter": "Interaction",
+      "section": "Korrigieren und Bearbeiten",
+      "source_line": 99,
+      "source_column": 607,
+      "original": "(vgl. Akrich 1992, S. 216)",
+      "markdown": "[[vgl. @akrichDeScriptionTechnical1992, S. 216]]{#cite-044}",
+      "items": [
+        {
+          "key": "akrichDeScriptionTechnical1992",
+          "original": "Akrich 1992, S. 216",
+          "original_label": "Akrich 1992",
+          "original_suffix": ", S. 216",
+          "markdown_suffix": ", S. 216"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-045",
+      "paragraph_id": "p-078",
+      "chapter": "Interaction",
+      "section": "Korrigieren und Bearbeiten",
+      "source_line": 100,
+      "source_column": 318,
+      "original": "(vgl. Shneiderman 1983, S. 59, 64–65)",
+      "markdown": "[[vgl. @shneidermanDirectManipulationStep1983, S. 59, 64–65]]{#cite-045}",
+      "items": [
+        {
+          "key": "shneidermanDirectManipulationStep1983",
+          "original": "Shneiderman 1983, S. 59, 64–65",
+          "original_label": "Shneiderman 1983",
+          "original_suffix": ", S. 59, 64–65",
+          "markdown_suffix": ", S. 59, 64–65"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-046",
+      "paragraph_id": "p-079",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 102,
+      "source_column": 536,
+      "original": "(vgl. Quinn/Zhai 2016, S. 83–84; Arnold et al. 2020, PDF-S. 4–5)",
+      "markdown": "[[vgl. @quinnCostBenefitStudy2016, S. 83–84; @arnoldPredictiveTextEncourages2020, PDF-S. 4–5]]{#cite-046}",
+      "items": [
+        {
+          "key": "quinnCostBenefitStudy2016",
+          "original": "Quinn/Zhai 2016, S. 83–84",
+          "original_label": "Quinn/Zhai 2016",
+          "original_suffix": ", S. 83–84",
+          "markdown_suffix": ", S. 83–84"
+        },
+        {
+          "key": "arnoldPredictiveTextEncourages2020",
+          "original": "Arnold et al. 2020, PDF-S. 4–5",
+          "original_label": "Arnold et al. 2020",
+          "original_suffix": ", PDF-S. 4–5",
+          "markdown_suffix": ", PDF-S. 4–5"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-047",
+      "paragraph_id": "p-080",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 103,
+      "source_column": 613,
+      "original": "(vgl. Quinn/Zhai 2016, S. 83–86)",
+      "markdown": "[[vgl. @quinnCostBenefitStudy2016, S. 83–86]]{#cite-047}",
+      "items": [
+        {
+          "key": "quinnCostBenefitStudy2016",
+          "original": "Quinn/Zhai 2016, S. 83–86",
+          "original_label": "Quinn/Zhai 2016",
+          "original_suffix": ", S. 83–86",
+          "markdown_suffix": ", S. 83–86"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-048",
+      "paragraph_id": "p-081",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 104,
+      "source_column": 342,
+      "original": "(vgl. Arnold et al. 2020, PDF-S. 4–5)",
+      "markdown": "[[vgl. @arnoldPredictiveTextEncourages2020, PDF-S. 4–5]]{#cite-048}",
+      "items": [
+        {
+          "key": "arnoldPredictiveTextEncourages2020",
+          "original": "Arnold et al. 2020, PDF-S. 4–5",
+          "original_label": "Arnold et al. 2020",
+          "original_suffix": ", PDF-S. 4–5",
+          "markdown_suffix": ", PDF-S. 4–5"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-049",
+      "paragraph_id": "p-082",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 105,
+      "source_column": 320,
+      "original": "(vgl. Arnold et al. 2020, PDF-S. 3–7)",
+      "markdown": "[[vgl. @arnoldPredictiveTextEncourages2020, PDF-S. 3–7]]{#cite-049}",
+      "items": [
+        {
+          "key": "arnoldPredictiveTextEncourages2020",
+          "original": "Arnold et al. 2020, PDF-S. 3–7",
+          "original_label": "Arnold et al. 2020",
+          "original_suffix": ", PDF-S. 3–7",
+          "markdown_suffix": ", PDF-S. 3–7"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-050",
+      "paragraph_id": "p-083",
+      "chapter": "Interaction",
+      "section": "Autocomplete und Vorschläge",
+      "source_line": 106,
+      "source_column": 350,
+      "original": "(vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 11–13; @subramonyamBridgingGulfEnvisioning2024, PDF-S. 11–12]]{#cite-050}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 11–13",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 11–13",
+          "markdown_suffix": ", S. 11–13"
+        },
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, PDF-S. 11–12",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", PDF-S. 11–12",
+          "markdown_suffix": ", PDF-S. 11–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-051",
+      "paragraph_id": "p-086",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 112,
+      "source_column": 221,
+      "original": "(vgl. Seckler et al. 2014, S. 1279–1282)",
+      "markdown": "[[vgl. @secklerDesigningUsableWeb2014, S. 1279–1282]]{#cite-051}",
+      "items": [
+        {
+          "key": "secklerDesigningUsableWeb2014",
+          "original": "Seckler et al. 2014, S. 1279–1282",
+          "original_label": "Seckler et al. 2014",
+          "original_suffix": ", S. 1279–1282",
+          "markdown_suffix": ", S. 1279–1282"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-052",
+      "paragraph_id": "p-087",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 113,
+      "source_column": 222,
+      "original": "(vgl. Hearst 2009, S. 3, 7–8; Subramonyam et al. 2024, S. 6–8)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 3, 7–8; @subramonyamBridgingGulfEnvisioning2024, S. 6–8]]{#cite-052}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 3, 7–8",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 3, 7–8",
+          "markdown_suffix": ", S. 3, 7–8"
+        },
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, S. 6–8",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", S. 6–8",
+          "markdown_suffix": ", S. 6–8"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-053",
+      "paragraph_id": "p-088",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 114,
+      "source_column": 326,
+      "original": "(vgl. Hearst 2009, S. 3, 7–8)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 3, 7–8]]{#cite-053}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 3, 7–8",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 3, 7–8",
+          "markdown_suffix": ", S. 3, 7–8"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-054",
+      "paragraph_id": "p-091",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 117,
+      "source_column": 204,
+      "original": "(vgl. Zamfirescu-Pereira et al. 2023, S. 7–8)",
+      "markdown": "[[vgl. @zamfirescu-pereiraWhyJohnnyCant2023, S. 7–8]]{#cite-054}",
+      "items": [
+        {
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023",
+          "original": "Zamfirescu-Pereira et al. 2023, S. 7–8",
+          "original_label": "Zamfirescu-Pereira et al. 2023",
+          "original_suffix": ", S. 7–8",
+          "markdown_suffix": ", S. 7–8"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-055",
+      "paragraph_id": "p-091",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 117,
+      "source_column": 525,
+      "original": "(vgl. Zamfirescu-Pereira et al. 2023, S. 11–12)",
+      "markdown": "[[vgl. @zamfirescu-pereiraWhyJohnnyCant2023, S. 11–12]]{#cite-055}",
+      "items": [
+        {
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023",
+          "original": "Zamfirescu-Pereira et al. 2023, S. 11–12",
+          "original_label": "Zamfirescu-Pereira et al. 2023",
+          "original_suffix": ", S. 11–12",
+          "markdown_suffix": ", S. 11–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-056",
+      "paragraph_id": "p-093",
+      "chapter": "Interaction",
+      "section": "Iteration und Reformulierung",
+      "source_line": 119,
+      "source_column": 234,
+      "original": "(vgl. Hearst 2009, S. 3, 7–8, 14)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 3, 7–8, 14]]{#cite-056}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 3, 7–8, 14",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 3, 7–8, 14",
+          "markdown_suffix": ", S. 3, 7–8, 14"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-057",
+      "paragraph_id": "p-098",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 127,
+      "source_column": 334,
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "markdown": "[[vgl. @ieeeOpenGroupMkdir2024, mkdir]]{#cite-057}",
+      "items": [
+        {
+          "key": "ieeeOpenGroupMkdir2024",
+          "original": "IEEE/The Open Group 2024, mkdir",
+          "original_label": "IEEE/The Open Group 2024",
+          "original_suffix": ", mkdir",
+          "markdown_suffix": ", mkdir"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-058",
+      "paragraph_id": "p-100",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 129,
+      "source_column": 373,
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.22.4)",
+      "markdown": "[[vgl. @whatwgHTMLStandard2026, Abschn. 4.10.22.4]]{#cite-058}",
+      "items": [
+        {
+          "key": "whatwgHTMLStandard2026",
+          "original": "WHATWG 2026, Abschn. 4.10.22.4",
+          "original_label": "WHATWG 2026",
+          "original_suffix": ", Abschn. 4.10.22.4",
+          "markdown_suffix": ", Abschn. 4.10.22.4"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-059",
+      "paragraph_id": "p-102",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 131,
+      "source_column": 384,
+      "original": "(vgl. Brin/Page 1998, S. 111–112; Google 2025, In-depth guide to how Google Search works, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @brinPage1998Anatomy, S. 111–112; @googleSearchWorks2025, In-depth guide to how Google Search works, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026]]{#cite-059}",
+      "items": [
+        {
+          "key": "brinPage1998Anatomy",
+          "original": "Brin/Page 1998, S. 111–112",
+          "original_label": "Brin/Page 1998",
+          "original_suffix": ", S. 111–112",
+          "markdown_suffix": ", S. 111–112"
+        },
+        {
+          "key": "googleSearchWorks2025",
+          "original": "Google 2025, In-depth guide to how Google Search works, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026",
+          "original_label": "Google 2025",
+          "original_suffix": ", In-depth guide to how Google Search works, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", In-depth guide to how Google Search works, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-060",
+      "paragraph_id": "p-103",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 132,
+      "source_column": 252,
+      "original": "(vgl. Google 2025, In-depth guide to how Google Search works, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @googleSearchWorks2025, In-depth guide to how Google Search works, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026]]{#cite-060}",
+      "items": [
+        {
+          "key": "googleSearchWorks2025",
+          "original": "Google 2025, In-depth guide to how Google Search works, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026",
+          "original_label": "Google 2025",
+          "original_suffix": ", In-depth guide to how Google Search works, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", In-depth guide to how Google Search works, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-061",
+      "paragraph_id": "p-105",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 134,
+      "source_column": 225,
+      "original": "(vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @openaiTextGenerationSnapshot2026, Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026]]{#cite-061}",
+      "items": [
+        {
+          "key": "openaiTextGenerationSnapshot2026",
+          "original": "OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026",
+          "original_label": "OpenAI, o. J., Text generation",
+          "original_suffix": ", Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-062",
+      "paragraph_id": "p-106",
+      "chapter": "Operation",
+      "section": "Technische Rolle und Kontext der Eingabe",
+      "source_line": 135,
+      "source_column": 152,
+      "original": "(vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @openaiTextGenerationSnapshot2026, Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026]]{#cite-062}",
+      "items": [
+        {
+          "key": "openaiTextGenerationSnapshot2026",
+          "original": "OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026",
+          "original_label": "OpenAI, o. J., Text generation",
+          "original_suffix": ", Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-063",
+      "paragraph_id": "p-110",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 141,
+      "source_column": 133,
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.5.5 und 4.10.22.3)",
+      "markdown": "[[vgl. @whatwgHTMLStandard2026, Abschn. 4.10.5.5 und 4.10.22.3]]{#cite-063}",
+      "items": [
+        {
+          "key": "whatwgHTMLStandard2026",
+          "original": "WHATWG 2026, Abschn. 4.10.5.5 und 4.10.22.3",
+          "original_label": "WHATWG 2026",
+          "original_suffix": ", Abschn. 4.10.5.5 und 4.10.22.3",
+          "markdown_suffix": ", Abschn. 4.10.5.5 und 4.10.22.3"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-064",
+      "paragraph_id": "p-110",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 141,
+      "source_column": 458,
+      "original": "(vgl. The Chromium Projects, o. J., Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @chromiumOmniboxPrefetchSnapshot2026, Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026]]{#cite-064}",
+      "items": [
+        {
+          "key": "chromiumOmniboxPrefetchSnapshot2026",
+          "original": "The Chromium Projects, o. J., Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026",
+          "original_label": "The Chromium Projects, o. J.",
+          "original_suffix": ", Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-065",
+      "paragraph_id": "p-113",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 144,
+      "source_column": 82,
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "markdown": "[[vgl. @ieeeOpenGroupMkdir2024, mkdir]]{#cite-065}",
+      "items": [
+        {
+          "key": "ieeeOpenGroupMkdir2024",
+          "original": "IEEE/The Open Group 2024, mkdir",
+          "original_label": "IEEE/The Open Group 2024",
+          "original_suffix": ", mkdir",
+          "markdown_suffix": ", mkdir"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-066",
+      "paragraph_id": "p-114",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 145,
+      "source_column": 103,
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.21)",
+      "markdown": "[[vgl. @whatwgHTMLStandard2026, Abschn. 4.10.21]]{#cite-066}",
+      "items": [
+        {
+          "key": "whatwgHTMLStandard2026",
+          "original": "WHATWG 2026, Abschn. 4.10.21",
+          "original_label": "WHATWG 2026",
+          "original_suffix": ", Abschn. 4.10.21",
+          "markdown_suffix": ", Abschn. 4.10.21"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-067",
+      "paragraph_id": "p-115",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 146,
+      "source_column": 128,
+      "original": "(vgl. Brin/Page 1998, S. 109–113)",
+      "markdown": "[[vgl. @brinPage1998Anatomy, S. 109–113]]{#cite-067}",
+      "items": [
+        {
+          "key": "brinPage1998Anatomy",
+          "original": "Brin/Page 1998, S. 109–113",
+          "original_label": "Brin/Page 1998",
+          "original_suffix": ", S. 109–113",
+          "markdown_suffix": ", S. 109–113"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-068",
+      "paragraph_id": "p-116",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 147,
+      "source_column": 235,
+      "original": "(vgl. Radford et al. 2019, PDF-S. 2, 4 und 6)",
+      "markdown": "[[vgl. @radfordEtAl2019LanguageModels, PDF-S. 2, 4 und 6]]{#cite-068}",
+      "items": [
+        {
+          "key": "radfordEtAl2019LanguageModels",
+          "original": "Radford et al. 2019, PDF-S. 2, 4 und 6",
+          "original_label": "Radford et al. 2019",
+          "original_suffix": ", PDF-S. 2, 4 und 6",
+          "markdown_suffix": ", PDF-S. 2, 4 und 6"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-069",
+      "paragraph_id": "p-119",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 150,
+      "source_column": 123,
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "markdown": "[[vgl. @ieeeOpenGroupMkdir2024, mkdir]]{#cite-069}",
+      "items": [
+        {
+          "key": "ieeeOpenGroupMkdir2024",
+          "original": "IEEE/The Open Group 2024, mkdir",
+          "original_label": "IEEE/The Open Group 2024",
+          "original_suffix": ", mkdir",
+          "markdown_suffix": ", mkdir"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-070",
+      "paragraph_id": "p-120",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 151,
+      "source_column": 268,
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.21)",
+      "markdown": "[[vgl. @whatwgHTMLStandard2026, Abschn. 4.10.21]]{#cite-070}",
+      "items": [
+        {
+          "key": "whatwgHTMLStandard2026",
+          "original": "WHATWG 2026, Abschn. 4.10.21",
+          "original_label": "WHATWG 2026",
+          "original_suffix": ", Abschn. 4.10.21",
+          "markdown_suffix": ", Abschn. 4.10.21"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-071",
+      "paragraph_id": "p-123",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 154,
+      "source_column": 124,
+      "original": "(vgl. Brin/Page 1998, S. 109–113)",
+      "markdown": "[[vgl. @brinPage1998Anatomy, S. 109–113]]{#cite-071}",
+      "items": [
+        {
+          "key": "brinPage1998Anatomy",
+          "original": "Brin/Page 1998, S. 109–113",
+          "original_label": "Brin/Page 1998",
+          "original_suffix": ", S. 109–113",
+          "markdown_suffix": ", S. 109–113"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-072",
+      "paragraph_id": "p-124",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 155,
+      "source_column": 339,
+      "original": "(vgl. Gillespie 2014, S. 175–179, 183–187)",
+      "markdown": "[[vgl. @gillespie2014RelevanceAlgorithms, S. 175–179, 183–187]]{#cite-072}",
+      "items": [
+        {
+          "key": "gillespie2014RelevanceAlgorithms",
+          "original": "Gillespie 2014, S. 175–179, 183–187",
+          "original_label": "Gillespie 2014",
+          "original_suffix": ", S. 175–179, 183–187",
+          "markdown_suffix": ", S. 175–179, 183–187"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-073",
+      "paragraph_id": "p-125",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 156,
+      "source_column": 394,
+      "original": "(vgl. Google, o. J., Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @googleSearchTestingSnapshot2026, Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026]]{#cite-073}",
+      "items": [
+        {
+          "key": "googleSearchTestingSnapshot2026",
+          "original": "Google, o. J., Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026",
+          "original_label": "Google, o. J.",
+          "original_suffix": ", Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-074",
+      "paragraph_id": "p-126",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 157,
+      "source_column": 299,
+      "original": "(vgl. Google, o. J., Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026; Gillespie 2014, S. 185–187)",
+      "markdown": "[[vgl. @googleSearchTestingSnapshot2026, Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026; @gillespie2014RelevanceAlgorithms, S. 185–187]]{#cite-074}",
+      "items": [
+        {
+          "key": "googleSearchTestingSnapshot2026",
+          "original": "Google, o. J., Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026",
+          "original_label": "Google, o. J.",
+          "original_suffix": ", Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026"
+        },
+        {
+          "key": "gillespie2014RelevanceAlgorithms",
+          "original": "Gillespie 2014, S. 185–187",
+          "original_label": "Gillespie 2014",
+          "original_suffix": ", S. 185–187",
+          "markdown_suffix": ", S. 185–187"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-075",
+      "paragraph_id": "p-128",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 159,
+      "source_column": 290,
+      "original": "(vgl. Ouyang et al. 2022, S. 1–2, 6–8)",
+      "markdown": "[[vgl. @ouyangEtAl2022Instructions, S. 1–2, 6–8]]{#cite-075}",
+      "items": [
+        {
+          "key": "ouyangEtAl2022Instructions",
+          "original": "Ouyang et al. 2022, S. 1–2, 6–8",
+          "original_label": "Ouyang et al. 2022",
+          "original_suffix": ", S. 1–2, 6–8",
+          "markdown_suffix": ", S. 1–2, 6–8"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-076",
+      "paragraph_id": "p-129",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 160,
+      "source_column": 302,
+      "original": "(vgl. Ouyang et al. 2022, S. 2, 4–6)",
+      "markdown": "[[vgl. @ouyangEtAl2022Instructions, S. 2, 4–6]]{#cite-076}",
+      "items": [
+        {
+          "key": "ouyangEtAl2022Instructions",
+          "original": "Ouyang et al. 2022, S. 2, 4–6",
+          "original_label": "Ouyang et al. 2022",
+          "original_suffix": ", S. 2, 4–6",
+          "markdown_suffix": ", S. 2, 4–6"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-077",
+      "paragraph_id": "p-129",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 160,
+      "source_column": 499,
+      "original": "(vgl. Ouyang et al. 2022, S. 2, 5–6)",
+      "markdown": "[[vgl. @ouyangEtAl2022Instructions, S. 2, 5–6]]{#cite-077}",
+      "items": [
+        {
+          "key": "ouyangEtAl2022Instructions",
+          "original": "Ouyang et al. 2022, S. 2, 5–6",
+          "original_label": "Ouyang et al. 2022",
+          "original_suffix": ", S. 2, 5–6",
+          "markdown_suffix": ", S. 2, 5–6"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-078",
+      "paragraph_id": "p-130",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 161,
+      "source_column": 280,
+      "original": "(vgl. Sharma et al. 2024, S. 3–9)",
+      "markdown": "[[vgl. @sharmaUnderstandingSycophancyLanguage2024, S. 3–9]]{#cite-078}",
+      "items": [
+        {
+          "key": "sharmaUnderstandingSycophancyLanguage2024",
+          "original": "Sharma et al. 2024, S. 3–9",
+          "original_label": "Sharma et al. 2024",
+          "original_suffix": ", S. 3–9",
+          "markdown_suffix": ", S. 3–9"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-079",
+      "paragraph_id": "p-133",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 164,
+      "source_column": 399,
+      "original": "(vgl. Gillespie 2014, S. 183–187)",
+      "markdown": "[[vgl. @gillespie2014RelevanceAlgorithms, S. 183–187]]{#cite-079}",
+      "items": [
+        {
+          "key": "gillespie2014RelevanceAlgorithms",
+          "original": "Gillespie 2014, S. 183–187",
+          "original_label": "Gillespie 2014",
+          "original_suffix": ", S. 183–187",
+          "markdown_suffix": ", S. 183–187"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-080",
+      "paragraph_id": "p-134",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 165,
+      "source_column": 593,
+      "original": "(vgl. Aggarwal et al. 2024, PDF-S. 2–9, 12)",
+      "markdown": "[[vgl. @aggarwalGEOGenerativeEngine2024, PDF-S. 2–9, 12]]{#cite-080}",
+      "items": [
+        {
+          "key": "aggarwalGEOGenerativeEngine2024",
+          "original": "Aggarwal et al. 2024, PDF-S. 2–9, 12",
+          "original_label": "Aggarwal et al. 2024",
+          "original_suffix": ", PDF-S. 2–9, 12",
+          "markdown_suffix": ", PDF-S. 2–9, 12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-081",
+      "paragraph_id": "p-135",
+      "chapter": "Operation",
+      "section": "Verarbeitung und ihre Maßstäbe",
+      "source_line": 166,
+      "source_column": 390,
+      "original": "(vgl. Gillespie 2014, S. 176–177, 183–185; Aggarwal et al. 2024, PDF-S. 1–3)",
+      "markdown": "[[vgl. @gillespie2014RelevanceAlgorithms, S. 176–177, 183–185; @aggarwalGEOGenerativeEngine2024, PDF-S. 1–3]]{#cite-081}",
+      "items": [
+        {
+          "key": "gillespie2014RelevanceAlgorithms",
+          "original": "Gillespie 2014, S. 176–177, 183–185",
+          "original_label": "Gillespie 2014",
+          "original_suffix": ", S. 176–177, 183–185",
+          "markdown_suffix": ", S. 176–177, 183–185"
+        },
+        {
+          "key": "aggarwalGEOGenerativeEngine2024",
+          "original": "Aggarwal et al. 2024, PDF-S. 1–3",
+          "original_label": "Aggarwal et al. 2024",
+          "original_suffix": ", PDF-S. 1–3",
+          "markdown_suffix": ", PDF-S. 1–3"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-082",
+      "paragraph_id": "p-139",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 172,
+      "source_column": 337,
+      "original": "(vgl. FTC 2023, Complaint, Rn. 46–50; OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @ftc2023BetterHelpComplaint, Complaint, Rn. 46–50; @openaiDataControlsSnapshot2026, Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026]]{#cite-082}",
+      "items": [
+        {
+          "key": "ftc2023BetterHelpComplaint",
+          "original": "FTC 2023, Complaint, Rn. 46–50",
+          "original_label": "FTC 2023",
+          "original_suffix": ", Complaint, Rn. 46–50",
+          "markdown_suffix": ", Complaint, Rn. 46–50"
+        },
+        {
+          "key": "openaiDataControlsSnapshot2026",
+          "original": "OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026",
+          "original_label": "OpenAI, o. J., Data controls in the OpenAI platform",
+          "original_suffix": ", Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-083",
+      "paragraph_id": "p-140",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 173,
+      "source_column": 246,
+      "original": "(vgl. OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @openaiDataControlsSnapshot2026, Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026]]{#cite-083}",
+      "items": [
+        {
+          "key": "openaiDataControlsSnapshot2026",
+          "original": "OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026",
+          "original_label": "OpenAI, o. J., Data controls in the OpenAI platform",
+          "original_suffix": ", gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-084",
+      "paragraph_id": "p-140",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 173,
+      "source_column": 497,
+      "original": "(vgl. OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. @openaiDataControlsSnapshot2026, Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026]]{#cite-084}",
+      "items": [
+        {
+          "key": "openaiDataControlsSnapshot2026",
+          "original": "OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026",
+          "original_label": "OpenAI, o. J., Data controls in the OpenAI platform",
+          "original_suffix": ", gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-085",
+      "paragraph_id": "p-141",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 174,
+      "source_column": 170,
+      "original": "(vgl. exemplarisch OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026)",
+      "markdown": "[[vgl. exemplarisch @openaiDataControlsSnapshot2026, Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026]]{#cite-085}",
+      "items": [
+        {
+          "key": "openaiDataControlsSnapshot2026",
+          "original": "OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026",
+          "original_label": "OpenAI, o. J., Data controls in the OpenAI platform",
+          "original_suffix": ", Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026",
+          "markdown_suffix": ", Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-086",
+      "paragraph_id": "p-142",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 175,
+      "source_column": 447,
+      "original": "(vgl. von Ahn et al. 2008, S. 1465–1466)",
+      "markdown": "[[vgl. @vonahnReCAPTCHA2008, S. 1465–1466]]{#cite-086}",
+      "items": [
+        {
+          "key": "vonahnReCAPTCHA2008",
+          "original": "von Ahn et al. 2008, S. 1465–1466",
+          "original_label": "von Ahn et al. 2008",
+          "original_suffix": ", S. 1465–1466",
+          "markdown_suffix": ", S. 1465–1466"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-087",
+      "paragraph_id": "p-143",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 176,
+      "source_column": 478,
+      "original": "(vgl. von Ahn et al. 2008, S. 1466)",
+      "markdown": "[[vgl. @vonahnReCAPTCHA2008, S. 1466]]{#cite-087}",
+      "items": [
+        {
+          "key": "vonahnReCAPTCHA2008",
+          "original": "von Ahn et al. 2008, S. 1466",
+          "original_label": "von Ahn et al. 2008",
+          "original_suffix": ", S. 1466",
+          "markdown_suffix": ", S. 1466"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-088",
+      "paragraph_id": "p-144",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 177,
+      "source_column": 511,
+      "original": "(vgl. FTC 2023, Complaint vom 7. Juli 2023, Rn. 11–13, 23–27)",
+      "markdown": "[[vgl. @ftc2023BetterHelpComplaint, Complaint vom 7. Juli 2023, Rn. 11–13, 23–27]]{#cite-088}",
+      "items": [
+        {
+          "key": "ftc2023BetterHelpComplaint",
+          "original": "FTC 2023, Complaint vom 7. Juli 2023, Rn. 11–13, 23–27",
+          "original_label": "FTC 2023",
+          "original_suffix": ", Complaint vom 7. Juli 2023, Rn. 11–13, 23–27",
+          "markdown_suffix": ", Complaint vom 7. Juli 2023, Rn. 11–13, 23–27"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-089",
+      "paragraph_id": "p-145",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 178,
+      "source_column": 270,
+      "original": "(vgl. FTC 2023, Complaint, Rn. 53b und 54)",
+      "markdown": "[[vgl. @ftc2023BetterHelpComplaint, Complaint, Rn. 53b und 54]]{#cite-089}",
+      "items": [
+        {
+          "key": "ftc2023BetterHelpComplaint",
+          "original": "FTC 2023, Complaint, Rn. 53b und 54",
+          "original_label": "FTC 2023",
+          "original_suffix": ", Complaint, Rn. 53b und 54",
+          "markdown_suffix": ", Complaint, Rn. 53b und 54"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-090",
+      "paragraph_id": "p-146",
+      "chapter": "Operation",
+      "section": "Übertragung, Speicherung und Weiterverwendung",
+      "source_line": 179,
+      "source_column": 364,
+      "original": "(vgl. Staab et al. 2024, S. 1–3, 4–9)",
+      "markdown": "[[vgl. @staabEtAl2024PrivacyInference, S. 1–3, 4–9]]{#cite-090}",
+      "items": [
+        {
+          "key": "staabEtAl2024PrivacyInference",
+          "original": "Staab et al. 2024, S. 1–3, 4–9",
+          "original_label": "Staab et al. 2024",
+          "original_suffix": ", S. 1–3, 4–9",
+          "markdown_suffix": ", S. 1–3, 4–9"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-091",
+      "paragraph_id": "p-149",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 185,
+      "source_column": 272,
+      "original": "(vgl. Gillespie 2014, S. 176–177)",
+      "markdown": "[[vgl. @gillespie2014RelevanceAlgorithms, S. 176–177]]{#cite-091}",
+      "items": [
+        {
+          "key": "gillespie2014RelevanceAlgorithms",
+          "original": "Gillespie 2014, S. 176–177",
+          "original_label": "Gillespie 2014",
+          "original_suffix": ", S. 176–177",
+          "markdown_suffix": ", S. 176–177"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-092",
+      "paragraph_id": "p-149",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 185,
+      "source_column": 446,
+      "original": "(vgl. Subramonyam et al. 2024, S. 6–8, 11–12)",
+      "markdown": "[[vgl. @subramonyamBridgingGulfEnvisioning2024, S. 6–8, 11–12]]{#cite-092}",
+      "items": [
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, S. 6–8, 11–12",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", S. 6–8, 11–12",
+          "markdown_suffix": ", S. 6–8, 11–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-093",
+      "paragraph_id": "p-152",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 188,
+      "source_column": 311,
+      "original": "(vgl. Cheng et al. 2026, S. 4–7)",
+      "markdown": "[[vgl. @chengSycophanticAIDecreases2026, S. 4–7]]{#cite-093}",
+      "items": [
+        {
+          "key": "chengSycophanticAIDecreases2026",
+          "original": "Cheng et al. 2026, S. 4–7",
+          "original_label": "Cheng et al. 2026",
+          "original_suffix": ", S. 4–7",
+          "markdown_suffix": ", S. 4–7"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-094",
+      "paragraph_id": "p-153",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 189,
+      "source_column": 93,
+      "original": "(vgl. Sharma et al. 2024, S. 7–9)",
+      "markdown": "[[vgl. @sharmaUnderstandingSycophancyLanguage2024, S. 7–9]]{#cite-094}",
+      "items": [
+        {
+          "key": "sharmaUnderstandingSycophancyLanguage2024",
+          "original": "Sharma et al. 2024, S. 7–9",
+          "original_label": "Sharma et al. 2024",
+          "original_suffix": ", S. 7–9",
+          "markdown_suffix": ", S. 7–9"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-095",
+      "paragraph_id": "p-155",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 191,
+      "source_column": 256,
+      "original": "(vgl. FTC 2023, Complaint, Rn. 57–58)",
+      "markdown": "[[vgl. @ftc2023BetterHelpComplaint, Complaint, Rn. 57–58]]{#cite-095}",
+      "items": [
+        {
+          "key": "ftc2023BetterHelpComplaint",
+          "original": "FTC 2023, Complaint, Rn. 57–58",
+          "original_label": "FTC 2023",
+          "original_suffix": ", Complaint, Rn. 57–58",
+          "markdown_suffix": ", Complaint, Rn. 57–58"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-096",
+      "paragraph_id": "p-157",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 193,
+      "source_column": 271,
+      "original": "(vgl. Hearst 2009, S. 3, 7–8; Zamfirescu-Pereira et al. 2023, S. 9–14)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 3, 7–8; @zamfirescu-pereiraWhyJohnnyCant2023, S. 9–14]]{#cite-096}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 3, 7–8",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 3, 7–8",
+          "markdown_suffix": ", S. 3, 7–8"
+        },
+        {
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023",
+          "original": "Zamfirescu-Pereira et al. 2023, S. 9–14",
+          "original_label": "Zamfirescu-Pereira et al. 2023",
+          "original_suffix": ", S. 9–14",
+          "markdown_suffix": ", S. 9–14"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-097",
+      "paragraph_id": "p-158",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 194,
+      "source_column": 252,
+      "original": "(vgl. Zamfirescu-Pereira et al. 2023, S. 11–12)",
+      "markdown": "[[vgl. @zamfirescu-pereiraWhyJohnnyCant2023, S. 11–12]]{#cite-097}",
+      "items": [
+        {
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023",
+          "original": "Zamfirescu-Pereira et al. 2023, S. 11–12",
+          "original_label": "Zamfirescu-Pereira et al. 2023",
+          "original_suffix": ", S. 11–12",
+          "markdown_suffix": ", S. 11–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-098",
+      "paragraph_id": "p-159",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 195,
+      "source_column": 304,
+      "original": "(vgl. Hearst 2009, S. 7–8, 14–18; Subramonyam et al. 2024, S. 11–12)",
+      "markdown": "[[vgl. @hearstSearchUserInterfaces2009, S. 7–8, 14–18; @subramonyamBridgingGulfEnvisioning2024, S. 11–12]]{#cite-098}",
+      "items": [
+        {
+          "key": "hearstSearchUserInterfaces2009",
+          "original": "Hearst 2009, S. 7–8, 14–18",
+          "original_label": "Hearst 2009",
+          "original_suffix": ", S. 7–8, 14–18",
+          "markdown_suffix": ", S. 7–8, 14–18"
+        },
+        {
+          "key": "subramonyamBridgingGulfEnvisioning2024",
+          "original": "Subramonyam et al. 2024, S. 11–12",
+          "original_label": "Subramonyam et al. 2024",
+          "original_suffix": ", S. 11–12",
+          "markdown_suffix": ", S. 11–12"
+        }
+      ],
+      "status": "mapped"
+    },
+    {
+      "id": "cite-099",
+      "paragraph_id": "p-161",
+      "chapter": "Operation",
+      "section": "Sichtbare Rückmeldung und operative Reichweite",
+      "source_line": 197,
+      "source_column": 282,
+      "original": "(vgl. Akrich 1992, S. 207–209, 216; Gillespie 2014, S. 183–187)",
+      "markdown": "[[vgl. @akrichDeScriptionTechnical1992, S. 207–209, 216; @gillespie2014RelevanceAlgorithms, S. 183–187]]{#cite-099}",
+      "items": [
+        {
+          "key": "akrichDeScriptionTechnical1992",
+          "original": "Akrich 1992, S. 207–209, 216",
+          "original_label": "Akrich 1992",
+          "original_suffix": ", S. 207–209, 216",
+          "markdown_suffix": ", S. 207–209, 216"
+        },
+        {
+          "key": "gillespie2014RelevanceAlgorithms",
+          "original": "Gillespie 2014, S. 183–187",
+          "original_label": "Gillespie 2014",
+          "original_suffix": ", S. 183–187",
+          "markdown_suffix": ", S. 183–187"
+        }
+      ],
+      "status": "mapped"
+    }
+  ],
+  "bibliography_origins": {
+    "aggarwalGEOGenerativeEngine2024": "references/library.bib",
+    "akrichDeScriptionTechnical1992": "references/library.bib",
+    "arnoldPredictiveTextEncourages2020": "references/library.bib",
+    "brinPage1998Anatomy": "references/library.bib",
+    "chenEffectsAnthropomorphicDesign2024": "references/library.bib",
+    "chengSycophanticAIDecreases2026": "references/library.bib",
+    "galbraithHiddenPlainSight2025": "references/library.bib",
+    "googleSearchTestingSnapshot2026": "references/library.bib",
+    "googleSearchWorks2025": "references/library.bib",
+    "hearstSearchUserInterfaces2009": "references/library.bib",
+    "koeneckeRacialDisparitiesAutomated2020": "references/library.bib",
+    "luguriShiningLightDark2021": "references/library.bib",
+    "mackenzieTextEntryMobile2002": "references/library.bib",
+    "openaiDataControlsSnapshot2026": "references/library.bib",
+    "openaiTextGenerationSnapshot2026": "references/library.bib",
+    "oulasvirtaImprovingTwoThumb2013": "references/library.bib",
+    "ouyangEtAl2022Instructions": "references/library.bib",
+    "quinnCostBenefitStudy2016": "references/library.bib",
+    "radfordEtAl2019LanguageModels": "references/library.bib",
+    "secklerDesigningUsableWeb2014": "references/library.bib",
+    "sharmaUnderstandingSycophancyLanguage2024": "references/library.bib",
+    "shneidermanDirectManipulationStep1983": "references/library.bib",
+    "subramonyamBridgingGulfEnvisioning2024": "references/library.bib",
+    "vaneschWritingAcrossWorlds2019": "references/library.bib",
+    "vonahnReCAPTCHA2008": "references/library.bib",
+    "whatwgHTMLStandard2026": "references/library.bib",
+    "zamfirescu-pereiraWhyJohnnyCant2023": "references/library.bib",
+    "ieeeOpenGroupMkdir2024": "references/manual.bib",
+    "feitHowWeType2016": "research/import-records/physical-and-speech-text-entry-c041-c042.bib",
+    "ruanComparingSpeechKeyboard2017": "research/import-records/physical-and-speech-text-entry-c041-c042.bib",
+    "normanSignifiersNotAffordances2008": "research/import-records/norman-2008-signifiers.bib",
+    "gillespie2014RelevanceAlgorithms": "thesis/text/source/additional-records.bib",
+    "staabEtAl2024PrivacyInference": "thesis/text/source/additional-records.bib",
+    "ftc2023BetterHelpComplaint": "thesis/text/source/additional-records.bib",
+    "chromiumOmniboxPrefetchSnapshot2026": "thesis/text/source/additional-records.bib",
+    "googleRefineSearches": "thesis/text/source/additional-records.bib"
+  }
+}

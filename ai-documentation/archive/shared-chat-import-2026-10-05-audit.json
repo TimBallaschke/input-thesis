@@ -1,0 +1,401 @@
+{
+  "date": "2026-10-05",
+  "archives": [
+    "CGPT-17",
+    "CGPT-18",
+    "CGPT-19"
+  ],
+  "messages": 220,
+  "roles": {
+    "user": 110,
+    "assistant": 110
+  },
+  "phases": {
+    "prompt": 110,
+    "final": 110
+  },
+  "missing_material": [],
+  "existing_archive_overlap_records": [
+    {
+      "archive_id": "CGPT-18",
+      "message": 1,
+      "existing_source": "cgpt-16-share-6aace863-6a04-83eb-a1a7-75fa37701969-messages.jsonl#message-28",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1057,
+        "new_start": 1856,
+        "existing_start": 290
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 55,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-557",
+      "kind": "existing_full_message_contained_in_new"
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 55,
+      "existing_source": "cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-messages.jsonl#message-16",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1267,
+        "new_start": 1314,
+        "existing_start": 499
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 75,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-559",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1289,
+        "new_start": 3192,
+        "existing_start": 0
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 75,
+      "existing_source": "cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-messages.jsonl#message-24",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1317,
+        "new_start": 47,
+        "existing_start": 366
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 91,
+      "existing_source": "cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-messages.jsonl#message-36",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1121,
+        "new_start": 1180,
+        "existing_start": 184
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 91,
+      "existing_source": "cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-messages.jsonl#message-38",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1134,
+        "new_start": 2300,
+        "existing_start": 206
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 91,
+      "existing_source": "cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-messages.jsonl#message-40",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1010,
+        "new_start": 3433,
+        "existing_start": 194
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 115,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-355",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1747,
+        "new_start": 1322,
+        "existing_start": 1412
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 115,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-479",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2541,
+        "new_start": 858,
+        "existing_start": 812
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 115,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-483",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2501,
+        "new_start": 859,
+        "existing_start": 980
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 115,
+      "existing_source": "attachments/DRAFT-02-interaction-9398ba42.txt",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1758,
+        "new_start": 1321,
+        "existing_start": 6160
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 119,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-355",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1747,
+        "new_start": 1322,
+        "existing_start": 1412
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 119,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-479",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2541,
+        "new_start": 858,
+        "existing_start": 812
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 119,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-483",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2501,
+        "new_start": 859,
+        "existing_start": 980
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 119,
+      "existing_source": "attachments/DRAFT-02-interaction-9398ba42.txt",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1758,
+        "new_start": 1321,
+        "existing_start": 6160
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 125,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-473",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 830,
+        "new_start": 869,
+        "existing_start": 1134
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 129,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-374",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1733,
+        "new_start": 566,
+        "existing_start": 612
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 129,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-468",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2299,
+        "new_start": 0,
+        "existing_start": 0
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 129,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-472",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2268,
+        "new_start": 31,
+        "existing_start": 119
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 129,
+      "existing_source": "cgpt-11-share-6aabaa1e-a198-83eb-8c4b-c0a17958a742-messages.jsonl#message-51",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2299,
+        "new_start": 0,
+        "existing_start": 673
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 129,
+      "existing_source": "attachments/DRAFT-02-interaction-9398ba42.txt",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 2268,
+        "new_start": 31,
+        "existing_start": 13227
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 135,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-462",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1382,
+        "new_start": 1113,
+        "existing_start": 1215
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 135,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-467",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1341,
+        "new_start": 1113,
+        "existing_start": 1395
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 153,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-457",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1951,
+        "new_start": 705,
+        "existing_start": 826
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 153,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-461",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1919,
+        "new_start": 705,
+        "existing_start": 950
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 153,
+      "existing_source": "cgpt-08-share-6aaba9fb-5bb0-83eb-b899-ad7fa232d9fd-messages.jsonl#message-1",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1894,
+        "new_start": 762,
+        "existing_start": 1659
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 153,
+      "existing_source": "attachments/DRAFT-03-operation-1-69d8b488.txt",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1894,
+        "new_start": 762,
+        "existing_start": 1502
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 167,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-456",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1433,
+        "new_start": 0,
+        "existing_start": 3495
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 169,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-456",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1103,
+        "new_start": 0,
+        "existing_start": 3825
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 185,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-415",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 968,
+        "new_start": 1880,
+        "existing_start": 2755
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 185,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-450",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1009,
+        "new_start": 1880,
+        "existing_start": 2499
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 185,
+      "existing_source": "cgpt-06-share-6aaba9e5-5234-83eb-85db-a6995f675316-messages.jsonl#message-13",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 965,
+        "new_start": 1882,
+        "existing_start": 407
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 188,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-450",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 884,
+        "new_start": 323,
+        "existing_start": 3520
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "message": 207,
+      "existing_source": "cgpt-16-share-6aace863-6a04-83eb-a1a7-75fa37701969-messages.jsonl#message-28",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 1057,
+        "new_start": 1807,
+        "existing_start": 290
+      }
+    }
+  ],
+  "comparison_limits": "Whitespace and HTML-entity normalized full-message containment above 180 characters; separate matching-end candidates; sampled 800-character blocks at 400-character intervals identify candidates for a longest contiguous excerpt check. No exhaustive partial-overlap, semantic-similarity or manuscript adoption test."
+}

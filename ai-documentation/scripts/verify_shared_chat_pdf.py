@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Check all imported transcript lines in the built PDF and create page locators."""
 import hashlib
+import argparse
 import json
 from pathlib import Path
 import re
@@ -16,6 +17,11 @@ def norm(text):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--date", default="2026-09-17", help="Date of the checked PDF edition (YYYY-MM-DD)")
+    args = parser.parse_args()
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", args.date):
+        parser.error("--date must use YYYY-MM-DD")
     extracted = subprocess.check_output(["pdftotext", "-layout", str(PDF), "-"], text=True)
     pages = extracted.split("\f")
     if not pages[-1].strip():
@@ -57,14 +63,14 @@ def main():
     result = {"pdf_file": "output/pdf/AI_Collaboration_Documentation_working.pdf",
               "pdf_sha256": hashlib.sha256(PDF.read_bytes()).hexdigest(), "pdf_pages": len(pages),
               "entries": entries, "note": "Physical PDF pages are one-based. Printed page numbers exclude the title page. Recompute after rebuilding."}
-    (ROOT / "archive/shared-chat-import-2026-09-17-pages.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
-    md = ["# Seitenverweise: Share-Import vom 17. September 2026", "", f"Arbeitsausgabe: {len(pages)} PDF-Seiten. SHA-256: `{result['pdf_sha256']}`.", "",
-          "Alle nummerierten Zeilen der zehn neuen Transkripte wurden auf Vollständigkeit und Textübereinstimmung mit der PDF geprüft (Leerraum und Unicode-Normalisierung ausgenommen).", "",
+    (ROOT / f"archive/shared-chat-import-{args.date}-pages.json").write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n")
+    md = [f"# Seitenverweise: Share-Archive, Arbeitsausgabe {args.date}", "", f"Arbeitsausgabe: {len(pages)} PDF-Seiten. SHA-256: `{result['pdf_sha256']}`.", "",
+          f"Alle nummerierten Zeilen der {len(entries)} Share-Transkripte wurden auf Vollständigkeit und Textübereinstimmung mit der PDF geprüft (Leerraum und Unicode-Normalisierung ausgenommen).", "",
           "| Archiv | Gedruckte Seiten | PDF-Seiten | Archivzeilen |", "| --- | --- | --- | --- |"]
     for e in entries:
         md.append(f"| {e['archive_id']} | {e['printed_first_page']}–{e['printed_last_page']} | {e['pdf_first_page']}–{e['pdf_last_page']} | 1–{e['verified_numbered_lines']} |")
     md += ["", "Für Zitate die gedruckte Seite zusammen mit Archiv-ID und Zeilennummer verwenden. Die JSON-Datei enthält zusätzlich die Zeilenbereiche je Seite. Diese Angaben gelten nur für die hier mit SHA-256 bezeichnete Arbeitsausgabe."]
-    (ROOT / "SHARED_CHAT_PAGE_REFERENCES_2026-09-17.md").write_text("\n".join(md) + "\n")
+    (ROOT / f"SHARED_CHAT_PAGE_REFERENCES_{args.date}.md").write_text("\n".join(md) + "\n")
     print(json.dumps({"pages": len(pages), "verified_archives": len(entries), "verified_lines": sum(e["verified_numbered_lines"] for e in entries),
                       "ranges": [{k: e[k] for k in ("archive_id", "pdf_first_page", "pdf_last_page", "printed_first_page", "printed_last_page")} for e in entries]}, ensure_ascii=False))
 

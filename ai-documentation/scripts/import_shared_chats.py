@@ -264,8 +264,14 @@ def render(manifest, records, archive_dir):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--render-only", action="store_true")
+    parser.add_argument("--share", action="append", help="Explicit public share URL or ID; repeat for a new batch")
+    parser.add_argument("--start-id", type=int, help="First CGPT archive number for an explicit new batch")
     args = parser.parse_args()
     archive = ROOT / "archive"
+    if args.render_only and (args.share or args.start_id is not None):
+        parser.error("--render-only cannot be combined with new-share arguments")
+    if bool(args.share) != (args.start_id is not None):
+        parser.error("--share and --start-id must be supplied together")
     if args.render_only:
         snapshots = []
         for p in sorted(archive.glob("cgpt-*-share-*-manifest.json")):
@@ -273,8 +279,25 @@ def main():
             r = [json.loads(x) for x in (archive / m["messages_file"]).read_text().splitlines()]
             snapshots.append((m, r))
     else:
+        shares = args.share or SHARES
+        start_id = args.start_id if args.start_id is not None else 5
+        if start_id < 1:
+            parser.error("--start-id must be positive")
+        shares = [s.removeprefix("https://chatgpt.com/share/").rstrip("/") for s in shares]
+        if any(not re.fullmatch(r"[0-9a-f]{8}(?:-[0-9a-f]{4}){3}-[0-9a-f]{12}", s) for s in shares):
+            parser.error("Only public ChatGPT share URLs or UUIDs are supported")
+        if len(shares) != len(set(shares)):
+            parser.error("Duplicate share URLs in the requested batch")
+        for number, share in enumerate(shares, start_id):
+            aid = f"CGPT-{number:02d}"
+            for existing_path in archive.glob("cgpt-*-share-*-manifest.json"):
+                existing = json.loads(existing_path.read_text())
+                same_id = existing["archive_id"] == aid
+                same_share = existing["share_url"].rsplit("/", 1)[-1] == share
+                if same_id != same_share:
+                    parser.error(f"Archive ID/share collision with {existing_path.name}")
         with ThreadPoolExecutor(max_workers=3) as pool:
-            snapshots = list(pool.map(fetch, enumerate(SHARES, 5)))
+            snapshots = list(pool.map(fetch, enumerate(shares, start_id)))
     for m, records in snapshots:
         result = render(m, records, archive)
         print(json.dumps({k: result[k] for k in ("archive_id", "title", "message_count", "roles", "transcript_lines", "messages_start_utc", "messages_end_utc")}, ensure_ascii=False))

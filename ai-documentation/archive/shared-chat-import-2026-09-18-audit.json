@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-18",
+  "archives": [
+    "CGPT-15",
+    "CGPT-16"
+  ],
+  "messages": 76,
+  "roles": {
+    "user": 38,
+    "assistant": 38
+  },
+  "phases": {
+    "prompt": 38,
+    "final": 38
+  },
+  "missing_material": [],
+  "existing_archive_overlap_records": [
+    {
+      "archive_id": "CGPT-15",
+      "message": 1,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-545",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 4207,
+        "new_start": 0,
+        "existing_start": 0
+      }
+    },
+    {
+      "archive_id": "CGPT-15",
+      "message": 13,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-548",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 5754,
+        "new_start": 0,
+        "existing_start": 0
+      }
+    },
+    {
+      "archive_id": "CGPT-15",
+      "message": 23,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-553",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 5703,
+        "new_start": 0,
+        "existing_start": 0
+      }
+    },
+    {
+      "archive_id": "CGPT-15",
+      "message": 33,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-564",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 5355,
+        "new_start": 0,
+        "existing_start": 0
+      }
+    },
+    {
+      "archive_id": "CGPT-16",
+      "message": 1,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-574",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 4750,
+        "new_start": 94,
+        "existing_start": 375
+      }
+    },
+    {
+      "archive_id": "CGPT-16",
+      "message": 21,
+      "existing_source": "cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-messages.jsonl#message-576",
+      "kind": "normalized_contiguous_excerpt_not_whole_message_identity",
+      "normalized_excerpt": {
+        "characters": 5029,
+        "new_start": 136,
+        "existing_start": 325
+      }
+    }
+  ],
+  "comparison_limits": "Whitespace and HTML-entity normalized full-message containment above 180 characters; separate matching-end candidates; sampled 800-character blocks at 400-character intervals identify candidates for a longest contiguous excerpt check. No exhaustive partial-overlap, semantic-similarity or manuscript adoption test."
+}

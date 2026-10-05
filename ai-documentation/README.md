@@ -76,3 +76,37 @@ reasoning and tool payloads are not retained. Upload metadata is not the file
 itself. Import does not establish manuscript adoption or verify source claims.
 The explicit import request resumes documentation work previously deferred
 during section corrections; the current Codex communication is also synchronized.
+
+## Additional shared chats, 18 September 2026
+
+CGPT-15 (*Eingabemöglichkeit Erklären*, 42 messages) and CGPT-16
+(*Einleitung formulieren*, 34 messages) add the Surface and
+introduction/conclusion drafting exchanges. See
+[`SHARED_CHAT_IMPORT_2026-09-18.md`](SHARED_CHAT_IMPORT_2026-09-18.md) and the
+[18 September page map](SHARED_CHAT_PAGE_REFERENCES_2026-09-18.md). Earlier dated page
+maps refer to their historical PDF editions. Neither new snapshot indicates
+missing attachments; this does not close the previous import's material gaps.
+
+For a later explicitly authorized batch, use repeatable `--share` arguments
+and an unused `--start-id` with `scripts/import_shared_chats.py`. Existing ID/URL
+assignments and changed snapshots are protected against accidental overwrite.
+`scripts/index_shared_chat_batch.py --date YYYY-MM-DD --archive-id CGPT-NN`
+produces a separate dated batch index; repeat the archive-ID option as needed.
+Run `scripts/verify_shared_chat_pdf.py --date YYYY-MM-DD` after the two-pass PDF
+build to verify all imported share lines and generate current page references.
+This local import does not itself commit, push or publish the documentation.
+
+## Additional shared chats, 5 October 2026
+
+CGPT-17 (*Abschnitt Überarbeiten*, 4 messages), CGPT-18
+(*Schluss überarbeiten*, 2 messages) and CGPT-19
+(*Masterthesis umformulieren*, 214 messages) preserve the three further shares
+explicitly supplied by Tim. See the
+[dated import index](SHARED_CHAT_IMPORT_2026-10-05.md) for provenance, chapter
+associations and overlap references and the
+[current page map](SHARED_CHAT_PAGE_REFERENCES_2026-10-05.md) for citations.
+These snapshots indicate no missing attachments; earlier material gaps remain.
+CDX-04 preserves the visible communication for this documentation task.
+Chat requests and wording selections are recorded without inferring their
+adoption in the manuscript. Earlier archive contents and dated page maps remain
+intact; page references must match the PDF edition actually cited.

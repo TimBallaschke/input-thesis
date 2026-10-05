@@ -266,7 +266,69 @@ This log records individual, materially relevant production events in a readable
 
 | P-0170 | 2026-09-17 | Select current Surface examples and admit all three trust/steering sources | Recorded the author's acceptance of the Wikipedia account-creation example; searched primary studies after the explicit request for trust and steering evidence; checked selected methods/results and source figures; verified Crossref metadata; secured three PDFs; ruled out title duplicates, imported all three records and PDFs through Zotero, assigned existing collections through connector session updates, and checked item keys, export keys and attachment hashes. Added bounded source notes and an optional subsection map | Chen: reported trust in viewed prototypes; John: Experiment 2 questionnaire disclosures; Luguri: simulated service choices, not actual purchases. No universal effects or current-product manipulation claim. All three admitted; later thesis use undecided. CUA became unavailable when the Mac locked; the already-enabled connector completed the import without unlocking. Work was subsequently interrupted and resumed after Tim's status question; no work-time inference across that gap | Three notes, import records, PDFs/texts/Crossref snapshots; QUELLENUEBERSICHT_SURFACE_VERTRAUEN_LENKUNG_01.md; project/audit updates; AI-075; 49 source notes, 42 project PDFs, 60 bibliography records | PROJECT; research/conceptual support and source administration. No Pages or outline edit, no adopted thesis passage. No other pending sources imported | CDX-03 source selection and import approval; synchronized archive and checked PDF closure below |
 
-## Recording rule
+## Drafting and additional shared chats - 18 September 2026
+
+| Process ID | Date | Intent | Action / tool | Relevant data / result | Artifacts / sources | Related text | Trace |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P-0171 | 2026-09-17 to 2026-09-18; recorded 18 September | Consolidate the intervening drafting exchanges and separately authorized Git backup | Recorded four Surface bullet outlines, title alternatives, local wording revisions, a bounded Luguri example clarification, and introduction/conclusion outlines. Recorded the 17 September user-authorized commit/push as a separate administrative action within the covered conversation | Chat proposals, not a new manuscript audit or blanket adoption. The Luguri discussion distinguishes a burdensome bundled refusal flow from an isolated causal effect of text entry. Introduction/conclusion formulations remain proposals. The historical Git action is commit 94630287374a44f34bc9700b7962db2875f0ba3b; its authorization is not carried into the current import | Extended CDX-03; AI-076/AI-077; current project checkpoint | PROJECT; structural, conceptual and editorial assistance; passage adoption remains to be mapped | CDX-03 messages 543-580; exact line/page locators at closure |
+| P-0172 | 2026-09-18 | Add the two explicitly supplied ChatGPT shares to the AI documentation | Retrieved the public snapshots with the existing visible-message parser; preserved exact user/assistant message text with hashes, message ranges and provenance; added incremental-batch collision checks and dated indexing/verification support; synchronized visible CDX-03 with prefix verification; cross-referenced overlaps and integrated the two appendices into the LaTeX documentation | CGPT-15 has 42 messages and CGPT-16 has 34, together 38 user and 38 final assistant messages. No missing materials are indicated in these snapshots. Hidden reasoning, system/developer context, model memory and tool payloads are excluded. Public web preview was incomplete/failed, but direct public-page parsing succeeded. Import neither verifies source assertions nor establishes manuscript adoption. Earlier source records and missing-material notices remain intact | Six new share archive/display/manifest files; dated import audit and page index; AI-078-AI-080; extended CDX-03 and checked working PDF | PROJECT; archive/provenance work plus retrospective drafting record, no new TXT ID or manuscript edit | CGPT-15/CGPT-16; CDX-03 from message 581; build/QA closure below |
+
+## Additional revision shares - 5 October 2026
+
+| Process ID | Date/time | Input / goal | AI activity and tools | AI output / source limits | Result / artifact | Thesis link and use | Archive reference |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P-0173 | 2026-10-05 | Add the three explicitly supplied ChatGPT shares to the AI documentation | Retrieved public share HTML with the existing visible-message parser; preserved exact user/assistant text, hashes, provider timestamps and numbered transcripts; indexed earlier and within-batch overlaps; added CDX-04 for the current import task and integrated the new archives into the existing LaTeX documentation | CGPT-17: 4 messages; CGPT-18: 2; CGPT-19: 214. Total: 110 user and 110 final assistant messages. No missing materials indicated in these snapshots. Hidden reasoning, system/developer context, model memory and tool payloads remain excluded. Chat wording choices are documented without inferring manuscript adoption or validating cited claims | Nine share message/display/manifest files; dated import audit and page map; AI-081-AI-084; CDX-04; updated working PDF | PROJECT; revision provenance and technical documentation; no new TXT ID or manuscript edit | CGPT-17-CGPT-19; CDX-04; build/QA closure below |
+
+## Recording rule and dated closures
+
+Closure for P-0173 (5 October 2026): retained 220 visible shared-chat messages
+and synchronized CDX-04 through the pre-QA progress update, with 6 messages
+and 48 verified numbered lines. Indexed 35 earlier-archive overlaps
+and four within-batch contiguous excerpts without inferring whole-message
+identity or manuscript adoption. All 45 share message/display/manifest files
+regenerate byte-identically. Prior archive records, Pages manuscripts and
+thesis TeX files match their pre-import hashes.
+
+The 876-page working PDF passes deterministic comparison for all
+22,063 share-transcript lines and all CDX-04 lines. Build/output copies
+match SHA-256 `d51abbd7e79105b39e037655d7a7a95cbb29f8a39e2e89d5581e1f9c5c8dcf7a`. Built with the existing LuaLaTeX engine;
+the initial XeLaTeX attempt could not resolve the installed main-font name.
+No font substitution was needed. Final diagnostics contain no warnings,
+missing-character messages, overfull/underfull boxes or errors.
+Physical pages 1, 2, 3, 4, 498, 763, 764, 765, 766, 767, 768, 769, 803, 838, 876 were rendered and
+visually checked; archive starts 763 and 768 were additionally inspected at
+full size. Current locators: CGPT-17: printed pp. 762-763, lines 1-107; CGPT-18: printed pp. 764-766, lines 1-142; CGPT-19: printed pp. 767-837, lines 1-5032.
+The dated page map updates all 15 imported shares; earlier dated maps
+remain historical editions. Post-snapshot QA commentary and the final
+handoff enter the next synchronization.
+
+
+Closure for P-0171/P-0172 (18 September 2026): CDX-03 contains 586 visible
+messages and 15,841 numbered lines; its preceding 541 message records remain
+an exact byte prefix. The retrospective drafting record is at lines
+14826-15801, printed pp. 481-495; the current import request and saved-record
+updates are at lines 15802-15841, pp. 495-496. The final included visible update
+is at 07:40:14.548 UTC; the archive snapshot extends through 07:40:23.840 UTC.
+
+CGPT-15 occupies printed pp. 734-750, lines 1-1171; CGPT-16 pp. 751-760,
+lines 1-699. Six long contiguous normalized excerpts link their supplied
+outlines to CDX-03; no whole-message identity or final adoption is inferred.
+All 16,782 lines across the twelve imported share archives pass deterministic
+PDF comparison. All 36 archive/display/manifest files regenerate byte-identically,
+and the prior 30 match Git HEAD. CDX-03 line comparison passes except the
+previously documented discretionary soft hyphen at line 2664, omitted only in
+PDF extraction. Four argument/collision rejection tests and Python syntax
+checks passed. Generated blank transcript lines retain their intentional
+separator whitespace; authored Markdown/Python/LaTeX diffs pass whitespace checks.
+
+The 798-page PDF has SHA-256
+`c930534259692d56eccd480d78e68e1dee2a92c5804924d3d6d2d5805e71fba8`.
+Build and output copies match. No warning, missing-character, overfull-box or
+error diagnostics. Physical pages 1, 2, 4, 492, 496, 497, 735, 751, 752, 761
+and 798 were rendered and visually checked. The supplied Pages file retains
+SHA-256 `1334a74ae44e313cfdcbff2551c056a0010874e7b1633919642ccbac222196a8`.
+No manuscript, bibliography, Zotero or Git publication change. Later QA
+commentary and this task's final handoff enter the next archive synchronization.
 
 Closure for P-0170 (17 September 2026): CDX-03 contains 541 visible messages;
 the preceding 521 remain an exact prefix. Case selection, source research,

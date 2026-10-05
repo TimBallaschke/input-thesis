@@ -1,0 +1,13 @@
+{
+  "roundtrip_text_exact_except_blank_lines_and_edge_whitespace": true,
+  "citation_groups": 99,
+  "citation_items": 118,
+  "sources": 36,
+  "unresolved": [],
+  "pandoc_checked": true,
+  "pandoc_version": "pandoc 3.9",
+  "html_reference_targets": 36,
+  "html_citation_occurrence_anchors": 99,
+  "broken_internal_html_links": 0,
+  "html_internal_link_count": 118
+}

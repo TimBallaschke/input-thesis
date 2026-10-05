@@ -1,0 +1,70 @@
+{
+  "archive_id": "CGPT-17",
+  "excluded_counts": {
+    "empty_node": 1,
+    "hidden": 1,
+    "non_conversation_role": 11,
+    "non_text_content:reasoning_recap": 2
+  },
+  "extraction": "Public share HTML route data; selected linear conversation; visible user/assistant text only",
+  "limits": [
+    "Share is a snapshot, not a guarantee of the complete original chat or all branches.",
+    "Attached files/images and linked sandbox artifacts are not archived unless separately supplied.",
+    "Share creation timestamps are not original conversation timestamps.",
+    "Model labels and timestamps are provider metadata, not independently verified.",
+    "No token/cost/time-of-work figures are inferred; no source validation or manuscript adoption implied.",
+    "Hidden reasoning, system/developer context, model memory and tool payloads excluded."
+  ],
+  "message_count": 4,
+  "message_line_ranges": [
+    {
+      "end_line": 34,
+      "message_id": "2e2f1d94-a320-4f41-bf47-c2afaaa306fa",
+      "sequence": 1,
+      "start_line": 13
+    },
+    {
+      "end_line": 68,
+      "message_id": "24d44123-9c35-4199-98e1-51401664c6f8",
+      "sequence": 2,
+      "start_line": 36
+    },
+    {
+      "end_line": 72,
+      "message_id": "cee894f8-dddf-41a0-98aa-93a1911f1678",
+      "sequence": 3,
+      "start_line": 70
+    },
+    {
+      "end_line": 106,
+      "message_id": "539d1573-4acb-48e4-9878-686204f39ca7",
+      "sequence": 4,
+      "start_line": 74
+    }
+  ],
+  "messages_end_utc": "2026-10-05T08:05:42.101416+00:00",
+  "messages_file": "cgpt-17-share-6ac3ade6-d438-83ed-bf84-1f0a897128e3-messages.jsonl",
+  "messages_sha256": "c45d9c4bed79317c4e8e7ca8a4c01c15873b6a88557ca152a391249e6e30b664",
+  "messages_start_utc": "2026-10-05T08:04:40.233000+00:00",
+  "missing_material": [],
+  "phases": {
+    "final": 2,
+    "prompt": 2
+  },
+  "raw_http_response_retained": false,
+  "retrieved_at_utc": "2026-10-05T14:04:11.942281+00:00",
+  "retrieved_url": "https://chatgpt.com/share/6ac3ade6-d438-83ed-bf84-1f0a897128e3",
+  "roles": {
+    "assistant": 2,
+    "user": 2
+  },
+  "share_created_at_utc": "2026-10-05T14:02:14.834325+00:00",
+  "share_updated_at_utc": "2026-10-05T14:02:15.421361+00:00",
+  "share_url": "https://chatgpt.com/share/6ac3ade6-d438-83ed-bf84-1f0a897128e3",
+  "source_http_response_sha256": "d42b9e68d9f3d3db3f55cb40e310be244b6ad05d9b2ac5501c8b52b4bba76e22",
+  "source_node_count": 19,
+  "title": "Abschnitt Überarbeiten",
+  "transcript_file": "cgpt-17-share-6ac3ade6-d438-83ed-bf84-1f0a897128e3-transcript.txt",
+  "transcript_lines": 107,
+  "transcript_sha256": "1fcae033548a293c879956582ed3b7a9cd71c8785b48737badebba2a725184f2"
+}

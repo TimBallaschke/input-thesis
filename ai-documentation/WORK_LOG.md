@@ -1,5 +1,42 @@
 # Work Log
 
+## Additional revision shares - 5 October 2026
+
+| ID | Date | Responsibility | Action and decision | Result or artifact | Archive reference |
+| --- | --- | --- | --- | --- | --- |
+| W-190 | 2026-10-05 | AI, authorized by Tim Ballaschke | Imported the three supplied public shares; retained exact visible text, provenance and numbered transcripts; documented chapter associations and reused passages; added the current Codex import task and updated the documentation PDF | P-0173; AI-081-AI-084; CGPT-17-CGPT-19, 220 messages; dated import index and verified page map. Chat preferences are not treated as verified manuscript adoption | Three new share archives and CDX-04; PDF closure recorded after QA |
+
+Closure W-191, 5 October 2026: integrated CGPT-17-CGPT-19 and CDX-04,
+rebuilt the 876-page working PDF and verified 22,063 shared-chat
+lines plus 48 CDX-04 lines. Checked 15 representative rendered pages,
+including the new archive boundaries and two full-size archive starts.
+Final LuaLaTeX diagnostics are clean. Build/output SHA-256:
+`d51abbd7e79105b39e037655d7a7a95cbb29f8a39e2e89d5581e1f9c5c8dcf7a`. Current page map and overlap reports
+are retained in the 5 October import index. Earlier archives and manuscripts
+retain their pre-import hashes. Later QA commentary and handoff enter the
+next archive synchronization.
+
+## Additional shares and drafting record - 18 September 2026
+
+| ID | Date | Responsibility | Action and decision | Result or artifact | Archive reference |
+| --- | --- | --- | --- | --- | --- |
+| W-187 | 2026-09-18 | Tim Ballaschke + AI | Retrospectively documented Surface outlines and revisions, introduction/conclusion planning, and the separately authorized 17 September Git backup. Kept proposals, source interpretations and manuscript adoption distinct | P-0171; AI-076/AI-077; project checkpoint. No retrospective claim of uninterrupted work or final prose adoption | CDX-03 messages 543-580 |
+| W-188 | 2026-09-18 | AI, authorized by Tim Ballaschke | Imported the two supplied public shares; retained exact visible messages and provenance, checked overlaps, synchronized CDX-03 and extended the incremental import/index/PDF-verification workflow | P-0172; AI-078-AI-080; CGPT-15/CGPT-16, 76 messages; dated import index. No manuscript change, new research, Zotero operation, commit or push | Two new share archives and CDX-03 from message 581; PDF closure recorded after QA |
+
+Closure W-189, 18 September 2026: synchronized CDX-03 to 586 messages with
+the previous 541 preserved exactly; imported 76 messages as CGPT-15/CGPT-16
+and indexed six long-excerpt overlaps. Rebuilt the 798-page documentation and
+verified every one of the 16,782 shared-chat lines. Checked all CDX-03 lines
+with only the pre-existing soft-hyphen extraction exception at line 2664.
+Thirty-six share files regenerate byte-identically; the previous thirty are
+unchanged against Git HEAD. Eleven representative pages were visually checked;
+build diagnostics are clean. Build/output SHA-256:
+`c930534259692d56eccd480d78e68e1dee2a92c5804924d3d6d2d5805e71fba8`.
+Current share locators: printed pp. 734-750 and 751-760. The dated page map
+also updates all earlier shares without replacing their historical edition index.
+Pages manuscript hash is unchanged. No commit or push. Later QA commentary
+and final handoff enter the next synchronization.
+
 ## Surface trust and steering update - 17 September 2026
 
 | ID | Date | Responsibility | Action and decision | Result or artifact | Archive reference |

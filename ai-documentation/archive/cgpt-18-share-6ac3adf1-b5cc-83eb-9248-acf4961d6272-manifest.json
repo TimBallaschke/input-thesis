@@ -1,0 +1,58 @@
+{
+  "archive_id": "CGPT-18",
+  "excluded_counts": {
+    "empty_node": 1,
+    "hidden": 1,
+    "non_conversation_role": 9,
+    "non_text_content:reasoning_recap": 1
+  },
+  "extraction": "Public share HTML route data; selected linear conversation; visible user/assistant text only",
+  "limits": [
+    "Share is a snapshot, not a guarantee of the complete original chat or all branches.",
+    "Attached files/images and linked sandbox artifacts are not archived unless separately supplied.",
+    "Share creation timestamps are not original conversation timestamps.",
+    "Model labels and timestamps are provider metadata, not independently verified.",
+    "No token/cost/time-of-work figures are inferred; no source validation or manuscript adoption implied.",
+    "Hidden reasoning, system/developer context, model memory and tool payloads excluded."
+  ],
+  "message_count": 2,
+  "message_line_ranges": [
+    {
+      "end_line": 77,
+      "message_id": "d5a7bb69-926e-4a89-92aa-d260c2e18bf1",
+      "sequence": 1,
+      "start_line": 13
+    },
+    {
+      "end_line": 141,
+      "message_id": "af123c73-730c-4004-9d61-1a273ddf5ddb",
+      "sequence": 2,
+      "start_line": 79
+    }
+  ],
+  "messages_end_utc": "2026-10-05T13:55:06.104552+00:00",
+  "messages_file": "cgpt-18-share-6ac3adf1-b5cc-83eb-9248-acf4961d6272-messages.jsonl",
+  "messages_sha256": "e96c050871c268f703ccf4a5dc5937c34037ee8deb3dc2529d40427cdb882c4f",
+  "messages_start_utc": "2026-10-05T13:54:59.063000+00:00",
+  "missing_material": [],
+  "phases": {
+    "final": 1,
+    "prompt": 1
+  },
+  "raw_http_response_retained": false,
+  "retrieved_at_utc": "2026-10-05T14:04:11.927249+00:00",
+  "retrieved_url": "https://chatgpt.com/share/6ac3adf1-b5cc-83eb-9248-acf4961d6272",
+  "roles": {
+    "assistant": 1,
+    "user": 1
+  },
+  "share_created_at_utc": "2026-10-05T14:02:25.714969+00:00",
+  "share_updated_at_utc": "2026-10-05T14:02:26.305925+00:00",
+  "share_url": "https://chatgpt.com/share/6ac3adf1-b5cc-83eb-9248-acf4961d6272",
+  "source_http_response_sha256": "c21d991d036573d80530a8b51357d687facce85f835f0bd8ee9240dd00cb3c26",
+  "source_node_count": 14,
+  "title": "Schluss überarbeiten",
+  "transcript_file": "cgpt-18-share-6ac3adf1-b5cc-83eb-9248-acf4961d6272-transcript.txt",
+  "transcript_lines": 142,
+  "transcript_sha256": "989639bbffe38382fd569b3ca99c905e587ad896a86bfef52204326a3056cd75"
+}

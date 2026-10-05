@@ -11,25 +11,32 @@
 \contentsline {section}{\numberline {9}Codex production task}{53}{section.9}%
 \contentsline {section}{\numberline {10}Codex production task}{213}{section.10}%
 \contentsline {section}{\numberline {11}Codex production task}{273}{section.11}%
-\contentsline {section}{\numberline {12}Interaction chapter supplied for critical review}{482}{section.12}%
-\contentsline {section}{\numberline {13}Interaction chapter supplied for image-material discussion}{487}{section.13}%
-\contentsline {section}{\numberline {14}Operation 1 text supplied for overlap review}{492}{section.14}%
-\contentsline {section}{\numberline {15}Operation 2 text supplied for critical revision}{494}{section.15}%
-\contentsline {section}{\numberline {16}Operation 2 text supplied for SEO overlap revision}{496}{section.16}%
-\contentsline {section}{\numberline {17}Operation 3 text supplied for scope and balance review}{499}{section.17}%
-\contentsline {section}{\numberline {18}Physical input section with supplied correction annotations}{501}{section.18}%
-\contentsline {section}{\numberline {19}Masterarbeit kritisch bewerten}{503}{section.19}%
-\contentsline {section}{\numberline {20}Abschnitt formulieren}{520}{section.20}%
-\contentsline {section}{\numberline {21}Masterthesis Weiterformulieren}{533}{section.21}%
-\contentsline {section}{\numberline {22}Masterarbeit Abschnitt überarbeiten}{540}{section.22}%
-\contentsline {section}{\numberline {23}Technische Zuordnung formulieren}{560}{section.23}%
-\contentsline {section}{\numberline {24}Operation Abschnitt schreiben}{574}{section.24}%
-\contentsline {section}{\numberline {25}Masterarbeit Überarbeiten}{607}{section.25}%
-\contentsline {section}{\numberline {26}Feedback zur Masterarbeit}{625}{section.26}%
-\contentsline {section}{\numberline {27}Steyerl Kritik an Eingabeprozessen}{645}{section.27}%
-\contentsline {section}{\numberline {28}Formulierungen Thesis}{711}{section.28}%
-\contentsline {section}{\numberline {29}Technical metadata}{719}{section.29}%
-\contentsline {subsection}{\numberline {29.1}CDX-01 session snapshot}{719}{subsection.29.1}%
-\contentsline {subsection}{\numberline {29.2}CDX-02 session snapshot}{720}{subsection.29.2}%
-\contentsline {subsection}{\numberline {29.3}CDX-03 session snapshot}{720}{subsection.29.3}%
-\contentsline {subsection}{\numberline {29.4}Process metrics}{721}{subsection.29.4}%
+\contentsline {section}{\numberline {12}Codex documentation import task}{497}{section.12}%
+\contentsline {section}{\numberline {13}Interaction chapter supplied for critical review}{498}{section.13}%
+\contentsline {section}{\numberline {14}Interaction chapter supplied for image-material discussion}{503}{section.14}%
+\contentsline {section}{\numberline {15}Operation 1 text supplied for overlap review}{508}{section.15}%
+\contentsline {section}{\numberline {16}Operation 2 text supplied for critical revision}{510}{section.16}%
+\contentsline {section}{\numberline {17}Operation 2 text supplied for SEO overlap revision}{512}{section.17}%
+\contentsline {section}{\numberline {18}Operation 3 text supplied for scope and balance review}{515}{section.18}%
+\contentsline {section}{\numberline {19}Physical input section with supplied correction annotations}{517}{section.19}%
+\contentsline {section}{\numberline {20}Masterarbeit kritisch bewerten}{519}{section.20}%
+\contentsline {section}{\numberline {21}Abschnitt formulieren}{536}{section.21}%
+\contentsline {section}{\numberline {22}Masterthesis Weiterformulieren}{549}{section.22}%
+\contentsline {section}{\numberline {23}Masterarbeit Abschnitt überarbeiten}{556}{section.23}%
+\contentsline {section}{\numberline {24}Technische Zuordnung formulieren}{576}{section.24}%
+\contentsline {section}{\numberline {25}Operation Abschnitt schreiben}{590}{section.25}%
+\contentsline {section}{\numberline {26}Masterarbeit Überarbeiten}{623}{section.26}%
+\contentsline {section}{\numberline {27}Feedback zur Masterarbeit}{641}{section.27}%
+\contentsline {section}{\numberline {28}Steyerl Kritik an Eingabeprozessen}{661}{section.28}%
+\contentsline {section}{\numberline {29}Formulierungen Thesis}{727}{section.29}%
+\contentsline {section}{\numberline {30}Eingabemöglichkeit Erklären}{735}{section.30}%
+\contentsline {section}{\numberline {31}Einleitung formulieren}{752}{section.31}%
+\contentsline {section}{\numberline {32}Abschnitt Überarbeiten}{762}{section.32}%
+\contentsline {section}{\numberline {33}Schluss überarbeiten}{764}{section.33}%
+\contentsline {section}{\numberline {34}Masterthesis umformulieren}{767}{section.34}%
+\contentsline {section}{\numberline {35}Technical metadata}{838}{section.35}%
+\contentsline {subsection}{\numberline {35.1}CDX-01 session snapshot}{838}{subsection.35.1}%
+\contentsline {subsection}{\numberline {35.2}CDX-02 session snapshot}{839}{subsection.35.2}%
+\contentsline {subsection}{\numberline {35.3}CDX-03 session snapshot}{839}{subsection.35.3}%
+\contentsline {subsection}{\numberline {35.4}CDX-04 session snapshot}{840}{subsection.35.4}%
+\contentsline {subsection}{\numberline {35.5}Process metrics}{841}{subsection.35.5}%

@@ -63,3 +63,17 @@ The count of 407 messages includes 193 user messages, 191 assistant responses
 and 23 visible assistant progress messages. No hidden reasoning, tool payloads
 or unrelated page configuration is archived. Share snapshots may omit other
 original conversation branches; they are not a complete account export.
+
+## Public shared-chat snapshots imported on 5 October 2026
+
+The three explicitly supplied shares are retained using the same visible-text
+extraction, exact JSONL and hashed manifest format. The
+[dated import index](SHARED_CHAT_IMPORT_2026-10-05.md) records provenance,
+chapter associations and overlaps. No missing uploads or linked artifacts are
+indicated in these snapshots; earlier missing materials remain unresolved.
+
+| Archive ID | Snapshot manifest | Messages | Coverage |
+| --- | --- | ---: | --- |
+| CGPT-17 | [Manifest](archive/cgpt-17-share-6ac3ade6-d438-83ed-bf84-1f0a897128e3-manifest.json) | 4 | Surface revision; visible text |
+| CGPT-18 | [Manifest](archive/cgpt-18-share-6ac3adf1-b5cc-83eb-9248-acf4961d6272-manifest.json) | 2 | Conclusion revision; visible text |
+| CGPT-19 | [Manifest](archive/cgpt-19-share-6ac3adfb-dfc0-83eb-a116-93a33686fb9c-manifest.json) | 214 | Stepwise revisions across introduction, Surface, Interaction, Operation and conclusion; visible text |
