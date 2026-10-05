@@ -4,6 +4,117 @@
 
 This document records confirmed requirements for the Master's thesis. Items marked as open must be completed when the corresponding official information becomes available.
 
+### AI documentation grey labels - 5 October 2026
+
+Tim requested 30% grey (70% brightness) for line numbers and message headers.
+Both now use `#b3b3b3`; running text and 10 pt footer numbers stay black.
+All 522 pages and text/link positions remain unchanged; grey/black computed
+colors and all 2,437 header classes are checked. P-0210 / W-228. No PDF export.
+
+### AI documentation page numbers - 5 October 2026
+
+Tim requested 10 pt page numbers in the AI documentation. Footer numbers now
+use Arketa 10 pt with their lower edge still 8 mm above the paper bottom;
+body and line numbers remain 7 pt. All 522 pages and content positions remain
+unchanged. Verified footer size/bottom position and refreshed the cached browser
+stylesheet. P-0209 / W-227. No PDF export.
+
+### Justified AI documentation - 5 October 2026
+
+Tim requested the AI documentation in justified text using his original plugin.
+The plugin now composes complete paragraphs with `mode: 'justified'`, joining
+fixed archive wrapping within each paragraph. Blank boundaries and compact
+message headers remain; paragraph endings run out normally. Character spans
+map all old canonical archive-line IDs to the newly composed physical rows.
+Only overfull machine-string rows are split and recomposed with the plugin;
+surrounding paragraph rows retain plugin justification. All source text,
+archive checksums, 84,791 physical numbers and 2,665 candidate targets pass.
+The new edition has 522 pages; 73 page geometries and browser/print navigation
+are checked. P-0208 / W-226. No PDF export.
+
+### Compact AI documentation message headers - 5 October 2026
+
+Tim requested shorter message header lines. The browser edition now displays
+only number and sender, for example `164 · Assistant`, without leading zeroes.
+All 2,437 message headers occupy one line. Full timestamps and technical phases
+remain in the untouched archives; message bodies and their plugin composition
+are preserved. Repagination produces 593 pages, and all physical line numbers,
+stable links and current register ranges are verified again. P-0207 / W-225.
+Browser-only change, no PDF export.
+
+### AI documentation line numbering correction - 5 October 2026
+
+Tim requested numbers for the actual printed lines without leading zeroes.
+Each composed row, including continuations and blank separators, now has its
+own sequential number within its archive. The subsection register displays
+current printed line ranges and hit positions. Canonical source IDs remain
+hidden, mapped to current positions so content links survive layout changes.
+The 608-page layout, Arketa 7 pt, all texts and original plugin remain unchanged.
+P-0206 / W-224. Browser-only change, no PDF export.
+
+### AI documentation browser edition - 5 October 2026
+
+Tim requested a separate AI documentation edition in the thesis grid, all in
+Arketa 7 pt, without vertical rules, with left-hand line references and one
+blank line between messages. He selected initial association at subchapter
+level. The additional browser edition preserves the 34 communication archives,
+editorial context and technical metadata from the historical documentation:
+608 A4 pages, two columns, margins 30/8/8/8 mm and gap 5 mm. The original
+Flattersatz plugin composes the text; stable archive line numbers are retained,
+with continuation lines unnumbered. Current page/column/physical-row positions
+are regenerated in a separate lookup. All original texts, exported plugin
+styles and checksums pass; 73 page geometries and browser jumps are checked.
+
+The thesis's 13 subchapter headings now link to subsection evidence registers.
+The thesis retains 24 pages, 127 paragraphs, 1,700 body lines, 108 source lines
+and all 89 scholarly source links. The first register contains 2,665 candidates
+from literal overlap, section names and shared precise source labels, covering
+the 13 subchapters plus introduction/conclusion. All are explicitly pending
+context review; no complete semantic provenance or manuscript adoption is
+certified. Earlier missing attachments/branches remain open. The additional
+technical typesetting chat is archived separately as CDX-05; it is outside the
+reproduced historical edition. No PDF export or source-verification change.
+P-0205 / W-223. See `ai-documentation/web-typesetting/README.md`.
+
+### Print typography checkpoint - 5 October 2026
+
+The complete final `presentation/261005_Master_Thesis.pages` is now typeset in
+24 A4 browser pages, including five separate centered chapter title pages:
+Einleitung, Surface, Interaction, Operation and Schluss. All 127 manuscript
+paragraphs, 13 subchapter headings and 89 citation groups have been transferred.
+The 1,700 composed body lines match the final manuscript after citation-marker
+conversion; all 89 source/return links resolve. All 24 pages were visually
+reviewed. The original Pages file and original Web-to-Print plugin are unchanged.
+P-0204. No new source evaluation or PDF export.
+
+Tim's current typography: prompt-based authoring with a read-only browser
+preview; original Flattersatz plugin; Arketa 10 pt; single-sided A4; left 30 mm,
+top/right/bottom 8 mm; two 83.5 mm columns with 5 mm gap. Baseline 13.058 pt
+(130.6%); no paragraph blank lines, subsequent paragraphs indented by about
+four character advances (double the previous indent). Section-opening paragraphs start flush.
+Subchapter headings are centered/tracked uppercase; then blank line, * * *,
+blank line and body. Subchapters flow continuously across columns.
+Main chapter titles are alone at the physical page center.
+Page numbers use 01–09, then 10 onward, inside the type area with lower edge
+8 mm above paper bottom and two blank baseline rows above.
+
+Body text remains left aligned. Each subsection's 7 pt source notes now form
+one continuous justified paragraph, composed by the unchanged original plugin
+with mode `justified`: [01] source [02] source, with ordinary spaces and clickable
+labels. Source paragraphs use the full column width. Body calls also use leading
+zeroes. Above each list: blank baseline, * * *, blank baseline. Below each list:
+six blank baselines before the next subheading, without a trailing star row. Each complete source
+paragraph stays together with at least the final two body lines. Full sources
+retain 35 keys; no separate bibliography is shown.
+Two paragraphs use a 48 px ragged zone to avoid an overfull plugin fallback;
+the others retain 36 px. Plugin word/glyph limits remain unchanged.
+
+`thesis/typesetting-compat/manuscript.json` preserves the full structured text,
+headings and citation mappings; `layout-results.json` records the current audit.
+The browser at http://127.0.0.1:8768/preview.html shows the complete work.
+Browser-only updates remain the default; PDF export only when requested.
+The existing PDF is an older excerpt and does not represent the full manuscript.
+
 ### Shared revision-chat documentation checkpoint - 5 October 2026
 
 Tim explicitly supplied three further ChatGPT shares for the AI documentation:

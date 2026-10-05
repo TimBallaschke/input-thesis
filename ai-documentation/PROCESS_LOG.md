@@ -278,6 +278,9 @@ This log records individual, materially relevant production events in a readable
 | Process ID | Date/time | Input / goal | AI activity and tools | AI output / source limits | Result / artifact | Thesis link and use | Archive reference |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | P-0173 | 2026-10-05 | Add the three explicitly supplied ChatGPT shares to the AI documentation | Retrieved public share HTML with the existing visible-message parser; preserved exact user/assistant text, hashes, provider timestamps and numbered transcripts; indexed earlier and within-batch overlaps; added CDX-04 for the current import task and integrated the new archives into the existing LaTeX documentation | CGPT-17: 4 messages; CGPT-18: 2; CGPT-19: 214. Total: 110 user and 110 final assistant messages. No missing materials indicated in these snapshots. Hidden reasoning, system/developer context, model memory and tool payloads remain excluded. Chat wording choices are documented without inferring manuscript adoption or validating cited claims | Nine share message/display/manifest files; dated import audit and page map; AI-081-AI-084; CDX-04; updated working PDF | PROJECT; revision provenance and technical documentation; no new TXT ID or manuscript edit | CGPT-17-CGPT-19; CDX-04; build/QA closure below |
+| P-0174 | 2026-10-05 | Test the existing Web-to-Print Flattersatz plugin with Vivliostyle before choosing the thesis architecture | Built an isolated final-manuscript excerpt; compared direct script loading with a precomposed export; added test-only link restoration and paragraph-edge break rules; generated and inspected a five-page PDF | Prepared HTML preserves all 100 plugin lines, glyph scaling and spacing within renderer precision. Eight notes remain on their call pages; all 26 internal PDF links resolve. Simple direct loading only composes the visible viewer page in this fixture. Original Pages, plugin and main thesis text unchanged; no new scholarly evaluation, drafting or passage adoption | thesis/typesetting-compat/README.md and results.json; output/pdf/Input_Plugin_Vivliostyle_Test.pdf | PROJECT; technical compatibility investigation, architecture decision remains with Tim | Current Codex conversation 01a10c7f-c7d1-7b53-a020-b4536da99533; empirical line, destination and visual checks in the retained report |
+| P-0175 | 2026-10-05 | Show the typeset work in the browser and edit it through prompts | Built and tested a provisional editing interface, then removed its authoring controls after Tim clarified the workflow. Retained a continuous read-only Core preview and a local-only server | Browser visibly contains five pages, all 100 composed body lines and eight note calls. Authoring remains in the source/style files through prompts; no full manuscript transfer, new scholarly interpretation or adopted thesis prose | thesis/typesetting-compat/preview.html, preview.js, serve_preview.py and README.md | PROJECT; prompt-based authoring preference and local visual review | Current Codex conversation 01a10c7f-c7d1-7b53-a020-b4536da99533; browser state verified on preview.html |
+| P-0176 | 2026-10-05 | Apply Arketa at 11 pt, continuous two-column A4, 30/10/10/10 mm margins, approximately 130% leading, centered tracked uppercase subheadings and only a gutter-aligned page number | Set a 55-row baseline and measured font tracking; retained the original plugin, added a measured vertical correction to one full column and repaginated; removed test captions and visible return arrows, linking note numbers back to the text instead | Four-page Surface proof with all 257 body lines unchanged, eight same-page footnotes and 26 resolving internal PDF links; four pages visually checked. Gap 10 mm and bottom page-number position remain provisional. No manuscript edits or new scholarly source evaluation | thesis/typesetting-compat/layout-results.json; output/pdf/Input_Arketa_Zweispaltig.pdf; read-only browser preview | PROJECT; typography specification and layout proof of the existing excerpt | Current Codex conversation 01a10c7f-c7d1-7b53-a020-b4536da99533 |
 
 ## Recording rule and dated closures
 
@@ -374,3 +377,402 @@ are registered in the table above.
 Closure for P-0140/P-0141 (14 September 2026): CDX-03 was synchronized through the results update at 08:56:19.246 UTC (84 visible messages in the exported snapshot). Selection is at lines 2526-2619, printed PDF pages 306-307; the import/evaluation turn is at lines 2621-2657, printed page 308. The working PDF contains 338 A4 pages; SHA-256 `e546d5ad55fcc9f5e3cefebb839bcc0758ec432fdfde7bafc4c50f7c7349bfae`. Source-result, current-turn and new metrics pages were visually checked; the successful LuaLaTeX log contains no missing-character or overfull-box diagnostics. New process metrics are on printed page 337. The final handoff message enters the next archive synchronization, as with earlier batches. No thesis passage was adopted.
 
 Create an event when a step changes the argument, source base, text, project structure, software state or submitted artifact. Routine retries are folded into the same event unless the failure itself influenced a decision.
+
+
+## P-0177 — 5 October 2026: 10 pt and 6 mm column gap
+
+Tim requested a 6 mm gap, 10 pt Arketa and temporary removal of headings.
+Applied this to the current excerpt, including its bibliography heading, without
+editing the Pages manuscript or original Flattersatz plugin. Columns are 82 mm;
+60 baseline rows give 130.9% leading. Rebuilt browser composition and four-page
+A4 PDF, verified all 229 body lines, 26 internal destinations and eight same-page
+footnotes, and visually reviewed all pages. Prompt-based read-only preview updated.
+No complete manuscript transfer or scholarly source evaluation. W-195.
+
+
+## P-0178 — 5 October 2026: paragraph indents
+
+Tim requested paragraph indents instead of blank lines. Removed body paragraph
+spacing and added first-line indents of about two character advances to the
+14 subsequent paragraphs, retaining a flush opening paragraph. The adapter
+reserves and removes a temporary prefix before restoring source links; the
+original plugin is unchanged. Set its ragged zone to 36 px to avoid an overlong
+first-line fallback. Rebuilt and visually reviewed four A4 pages; all 232 body
+lines and 26 internal links verified, eight footnotes on their call pages.
+Browser preview updated; current excerpt only. W-196.
+
+
+## P-0179 — 5 October 2026: 8 mm outer margins
+
+Tim requested 8 mm top/right/bottom margins. Left remains 30 mm; A4 type area
+is now 172 × 281 mm, two 83 mm columns with the confirmed 6 mm gap. Retained
+10 pt Arketa, paragraph indents and omitted headings. The 61-row baseline is
+130.6%. Rebuilt and visually reviewed the four-page excerpt PDF and updated
+browser preview. Verified 230 preserved body lines, 26 internal links and eight
+footnotes on their call pages; original Pages and plugin unchanged. W-197.
+
+
+## P-0180 — 5 October 2026: leading-zero page numbers
+
+Tim requested centered bottom page numbers with a leading zero below 10 and
+a blank line above, referring also to the text start. Applied decimal-leading-zero
+to the existing centered footer and checked 01–04 in browser and four-page PDF.
+Verified all 230 body lines, 26 internal links and eight same-page footnotes;
+all pages visually reviewed. Asked whether the blank line belongs between text
+end and footer or before the top text start; that layout change is pending a reply.
+W-198.
+
+
+## P-0181 — 5 October 2026: website star pattern for headings
+
+Read the existing website chapter-pages/reading-pages code and README as design
+reference. Tim requested its blank-line/star pattern for headings. Restored
+Surface and both excerpt subheadings with centered tracked capitals: title,
+blank baseline, centered * * *, blank baseline, body; the main title additionally
+has an upper star triplet separated by one baseline. Kept titles in column flow
+without introducing the website's separate chapter pages. Section-opening
+paragraphs are flush; subsequent paragraphs retain indents. Rebuilt/read-only
+preview updated and all four PDF pages visually reviewed; 230 body lines, 26
+internal destinations and eight same-page notes verified. Original manuscript,
+website and plugin unchanged. W-199.
+
+
+## P-0182 — 5 October 2026: temporarily hidden sources
+
+Tim requested hiding sources for later reinsertion. Added a reversible display
+flag, omitting source call digits, footnotes and bibliography from composed HTML
+and PDF while preserving eight mappings, seven citation keys and original prose
+in fixture data. Original Pages, bibliography and plugin remain unchanged.
+Rebuilt the three-page proof, checked all 229 body lines, no visible sources or
+PDF link annotations, A4 size and page counters; visually reviewed all pages
+and updated read-only browser preview. W-200.
+
+
+## P-0183 — 5 October 2026: retain subheadings; browser-first updates
+
+Tim reaffirmed retaining tracked subchapter headings and asked to stop automatic
+PDF exports for every revision. Inspected the live browser: both current excerpt
+subheadings are present, centered and uppercase with 8.66449 px tracking.
+Refreshed the displayed preview and added a composition assertion protecting
+these headings. Recorded browser-only updates as the default and PDF export
+on request. No PDF export or manuscript change. W-201.
+
+
+## P-0184 — 5 October 2026: 3 mm column gap
+
+Tim requested a 3 mm gap. Updated columns and heading blocks to 84.5 mm
+within the unchanged 172 mm type area. Rebuilt the browser-only composition:
+two A4 pages, 224 preserved plugin lines, both tracked centered uppercase
+subheadings and no source elements; visually inspected the live preview.
+No PDF export; previous PDF remains at the 6 mm-gap state. W-202.
+
+
+## P-0185 — 5 October 2026: separate centered chapter title pages
+
+Tim requested Surface/Interaction/Operation on separate otherwise blank pages,
+centered in the middle. Moved Surface out of the excerpt's two-column body
+onto a named A4 title page with equal margins, full-width table-cell centering
+and no stars. Retained tracked uppercase type, page counter and both existing
+subheadings with star separators. Interaction/Operation follow the same future
+rule but are not yet part of this excerpt. Browser-only proof: three pages,
+224 unchanged lines. Live DOM confirms no body lines on the title page and
+visual inspection confirms centered title. No PDF export. W-203.
+
+
+## P-0186 — 5 October 2026: footer inside the type area
+
+Tim clarified that the page number must be inside the type area, its lower edge
+8 mm from the paper bottom, with one blank text row above. Reserved two baseline
+rows at the bottom and positioned the counter within that reservation. Kept the
+chapter title at physical page center. Browser-only composition: three pages,
+224 preserved body lines, no sources; checked counter lower margins and blank
+gaps. Headless geometry is within 0.05 mm of 8 mm, displayed preview within
+0.11 mm due renderer pixel rounding. No PDF export. W-204.
+
+
+## P-0187 — 5 October 2026: 5 mm column gap
+
+Tim requested a 5 mm gap. Updated the columns and subheading blocks to 83.5 mm
+within the 172 mm type area and rebuilt browser-only composition. Four pages
+including the chapter title, 228 preserved body lines; both tracked subheadings,
+hidden sources and inside-type-area footer checks pass. Live browser confirms
+5 mm gap. No PDF export. W-205.
+
+
+## P-0188 — 5 October 2026: subsection-end sources
+
+Tim specified 8 pt sources beneath each subchapter: numbers flush left, source
+text in the right 75% of the column, blank row / star triplet / blank row above,
+and three blank rows before the next heading. Reintroduced body source calls
+and grouped eight existing short notes under their two subsections, with return
+links and no separate bibliography. Used explicit table cells after verifying
+that generated display-table anonymous cells failed the width constraint.
+Live DOM confirms 8 pt, 75% body width, eight resolving links/two groups;
+visually reviewed the first sources block. Four browser pages, 228 preserved
+plugin lines, headings/footer checks pass. No original manuscript/plugin change,
+new source evaluation or PDF export. W-206.
+
+
+## P-0189 — 5 October 2026: extra blank footer row
+
+Tim requested one additional blank line above the page number. Reserved three
+baseline rows (two blank rows plus the counter), keeping the counter bottom
+8 mm from paper edge and the chapter title centered. Browser rebuilt: four
+pages, 228 preserved lines, sources/headings retained. Live full-page gap
+measures about 9.56 mm, exceeding two 4.6066 mm baselines. No PDF export. W-207.
+
+
+## P-0190 — 5 October 2026: centered sources with inline numbers
+
+Tim requested centered source references with the number directly before each.
+Replaced the two-cell layout with centered inline numbering and text inside a
+centered 75%-width block. Retained 8 pt, separator/gaps, links and footer.
+Browser checks confirm eight centered entries with inline numbers and 75%
+block width. Four pages, 228 preserved body lines; no PDF export. W-208.
+
+
+## P-0191 — 5 October 2026: 7 pt sources
+
+Tim requested 7 pt source references. Changed subsection-end source font size
+from 8 to 7 pt, retaining centered inline numbering, width, links and gaps.
+Rebuilt browser composition and confirmed all eight entries at 7 pt; four pages,
+228 body lines preserved. No PDF export. W-209.
+
+
+## P-0192 — 5 October 2026: left-aligned sources with bracketed numbers
+
+Tim requested left alignment again, a smaller number-to-source gap, and brackets
+instead of the number's period. Restored two cells with [1]–[8], reducing the
+number column from the original 25% to 12.5% (10.44 mm); source text retains
+75% of full column width. Kept 7 pt and all gaps/links. Browser geometry verifies
+all eight labels/alignment/widths; visually reviewed the source block. Four
+pages, 228 preserved body lines; no PDF export. W-210.
+
+
+## P-0193 — 5 October 2026: re-centered source notes
+
+Tim requested centered sources again. Centered each 7 pt source with its inline
+bracketed number in a 75%-width block; retained separators, gaps and links.
+Browser confirms eight centered entries; four pages and 228 body lines retained.
+No PDF export. W-211.
+
+
+## P-0194 — 5 October 2026: complete final manuscript typesetting
+
+Tim authorized typesetting the complete final Master's thesis using the confirmed
+browser layout. Read the complete final Pages body without modification and
+transferred five chapters, 13 subheadings and 127 paragraphs. Introduction and
+conclusion follow the centered separate-title-page design. All 89 citation groups
+map to 35 existing source keys; retained the qualifier “exemplarisch” in one note.
+Placed existing short notes beneath their subsection and retained bidirectional
+links; no new scholarly evaluation or bibliography edit.
+
+Updated the adapter to freeze all five chapter bodies, protect complete source
+lists with their final two body lines and retry only two overfull paragraphs with
+a 48 px ragged zone. Original plugin unchanged. Browser composition contains
+1,694 preserved body lines on 25 pages. Independent audit compares every paragraph
+against final manuscript text, checks 89 source/backlinks, 13 intact source groups,
+all counters and severe line overflow. All 25 page screenshots reviewed.
+Original Pages/plugin hashes verified unchanged. Saved full structured manuscript
+and layout/audit reports. No PDF export, website deployment, git commit or source
+claim verification. W-212.
+
+## P-0195 — 5 October 2026: left-aligned notes and fresh subchapter columns
+
+Tim requested left-aligned body and source text, a small number-to-source gap,
+leading zeroes below ten and new columns for chapter/subchapter starts. Restored
+7 pt source tables with 12.5% number and 75% text widths relative to the full
+column; labels [01]–[09], then [10] onward, and corresponding two-digit body calls.
+Every subchapter now starts at the top of a fresh column. Existing separate
+centered main chapter title pages remain, followed by the chapter body.
+
+Browser composition: 26 A4 pages, 1,695 preserved body lines and 127 unchanged
+paragraphs. All 13 subheading top positions measure 8 mm; all 89 source/return
+links resolve, source groups remain intact and overflow checks pass. Visually
+reviewed all 26 page images and refreshed the live browser preview. Original
+Pages/plugin unchanged; no PDF export or manuscript content change. W-213.
+
+## P-0196 — 5 October 2026: doubled paragraph indents
+
+Tim requested twice the existing paragraph indentation. Doubled the reserved
+composition prefix from two to four character advances, accounting for both
+spaces in the width calculation. Section-opening paragraphs remain flush.
+Browser composition preserves all 1,700 body lines on 26 pages; heading starts,
+footer placement and source links retained. No PDF export. W-214.
+
+## P-0197 — 5 October 2026: sources aligned to the column bottom
+
+Tim requested each subsection's existing source block at the lower edge of its
+final text column, above the reserved footer rows. Added a second layout pass
+that measures the paginated block and stores a relative vertical offset in the
+frozen HTML. Retained the source list with its final two prose lines, the star
+separator, 7 pt left alignment, leading-zero labels and larger paragraph indents.
+Native column floats were tested but deferred two lists inconsistently between
+the preview and export renderers; the final implementation uses measured offsets.
+
+All 13 complete source blocks end within 0.15 mm of the same 275.18 mm text-area
+bottom and remain in the final prose column. Browser: 26 pages, 1,700 preserved
+body lines, 127 paragraphs, all 89 linked source notes. No overflow or source/body
+overlap; footer/headings retained. All page contact sheets visually reviewed.
+Original Pages/plugin unchanged; no PDF export. W-215.
+
+## P-0198 — 5 October 2026: full-column source width
+
+Tim requested sources extending to the same right edge as body text. Expanded
+source tables from 87.5% to 100% of the column; retained the 12.5% number column
+and enlarged source text from 75% to 87.5%. Kept left alignment, 7 pt, leading
+zeroes and bottom placement. All 89 source widths/right edges and links checked;
+13 blocks retained at the final text-column bottom, 26 pages and 1,700 body lines
+preserved. Visually inspected the long sources on page 22; browser refreshed.
+No PDF export. W-216.
+
+## P-0199 — 5 October 2026: one-character source number gap
+
+Tim requested a gap of one character width between each source label and text.
+Replaced the percentage number column with 5ch (four-character bracketed label
+plus 1ch padding); source text uses all remaining space to the right column edge.
+All 89 measured gaps are approximately 1.60 mm and match the 1ch padding; source
+widths, links and 13 bottom/final-column positions pass. Browser remains 26 pages
+with 1,700 preserved body lines. Visually checked page 22 and refreshed preview.
+No PDF export. W-217.
+
+## P-0200 — 5 October 2026: sources after text and continuous subsections
+
+Tim requested source lists directly below subsection text again, a blank/star/
+blank sequence beneath each list, then three further blank rows before the next
+subheading. Disabled the bottom-placement pass and forced subchapter column
+breaks. Added the trailing star triplet and four blank baselines after it (one
+separator blank plus three extra blanks), yielding six baseline rows from the
+last source to the next heading. Retained the existing pre-source separator,
+7 pt left alignment, full width and 1ch number gap.
+
+Browser audit verifies all 13 trailing separators and in-column six-row gaps,
+89 source labels/links/widths and all 127 unchanged paragraphs. The composition
+now spans 25 pages with 1,700 preserved body lines. All page contact sheets
+visually reviewed; preview refreshed. Main chapter title pages retained.
+Original Pages/plugin unchanged; no PDF export. W-218.
+
+## P-0201 — 5 October 2026: continuous justified source paragraphs
+
+Tim requested inline bracketed source numbers and references flowing as prose,
+justified with the existing plugin. Replaced per-entry tables with one 7 pt source
+paragraph per subsection. The original plugin composes all 13 source paragraphs
+with mode justified; body remains ragged. The adapter restores bracket-label IDs
+and return links after plain-text composition and saves a separate source manifest.
+Retained full width, leading zeroes, source/star gaps and continuous subheadings.
+
+Verified all 89 source texts against the manuscript mappings, 108 composed source
+lines against rendered lines, 7 pt size, all 89 bidirectional links and separator
+gaps. All 127 body paragraphs and 1,700 plugin lines remain preserved on 24 pages.
+An overflowing kept final body pair is moved to the next column during layout
+validation to preserve the footer gap with mixed 10/7 pt line boxes. All page
+contact sheets and the longest source paragraph reviewed. Original plugin/Pages
+unchanged; browser refreshed; no PDF export. W-219.
+
+## P-0202 — 5 October 2026: six blank rows after source paragraphs
+
+Tim requested removing the trailing star row and six blank lines between each
+source paragraph and the following subheading. Removed trailing star markup and
+reserved six baseline rows instead. Kept the pre-source stars and continuous
+7 pt plugin-justified source paragraphs. All 13 gaps/no-trailing-stars checked;
+89 source links and 108 source lines preserved, 24 pages and 1,700 body lines
+retained. Visually checked page 5 and refreshed preview. No PDF export. W-220.
+
+## P-0203 — 5 October 2026: one blank before notes, stars after notes
+
+Tim requested only one blank row between prose and notes and a blank row/star
+triplet beneath the notes. Removed pre-source stars, restored trailing stars
+after one blank baseline, and retained six total baseline rows to the next
+heading (four blank rows after the star row). All 13 configurations/gaps,
+89 links, 108 justified source lines and 1,700 body lines verified on 24 pages.
+Visually checked page 5 and refreshed browser. No PDF export. W-221.
+
+## P-0204 — 5 October 2026: undo latest separator change
+
+Tim requested undoing P-0203. Restored P-0202: blank/star/blank before the notes,
+no trailing stars and six blank baselines before the next subheading. Rebuilt
+and verified 24 pages, all 13 separator/gap configurations, 89 source links,
+1,700 body lines and 108 justified source lines. Browser refreshed. No PDF export. W-222.
+
+## P-0205 — 5 October 2026: separate AI browser edition and subsection link register
+
+Tim requested a separate plain Arketa 7 pt AI documentation in the thesis's
+A4/two-column grid, left-hand line references without vertical rules and one
+blank line between messages. He selected initial provenance association per
+subchapter. Preserved the 34 historical communication archives, editorial note
+and technical metadata in a separate 608-page HTML edition. Original archive
+line IDs remain stable; current page/column/physical-row locations are generated
+separately. The original Flattersatz plugin is unchanged. All source text,
+exported line styles, archive checksums and 2,665 candidate targets pass; 73
+page geometries and actual browser jumps were checked. A fully loaded print
+HTML exists; no PDF export. Historical documentation files remain unchanged.
+
+Assigned durable SEC IDs to the 13 subchapters plus introduction/conclusion.
+The thesis's 13 subheading links lead to the initial register. Candidate rules
+are twelve-word overlap, explicit section names and precise shared reference
+labels. Every relation remains pending context review; these matches do not
+certify adoption or exhaustive indirect influence. Earlier archival gaps remain.
+The thesis keeps 24 pages, 127 paragraphs, 1,700 body lines, 108 source lines
+and all 89 source links. CDX-05 snapshots the current visible technical chat
+separately, outside the reproduced historical edition. W-223.
+
+## P-0206 — 5 October 2026: number actual printed AI-documentation lines
+
+Tim corrected the use of canonical source-line numbers in the visible gutter
+and requested removal of leading zeroes. Each actual composed row now has its
+own sequential archive-local number, including continuation and blank rows.
+Fixed archive-line identities remain hidden; generated locations and targets
+carry the actual printed number. The subsection register uses current printed
+line ranges and hit positions. Layout and plugin composition remain unchanged:
+608 pages, all source text and original plugin styles retained. Numbering and
+all source targets verified in static pages and browser; no PDF export. W-224.
+
+## P-0207 — 5 October 2026: shorten AI-documentation message headers
+
+Tim requested shortening the long MESSAGE/timestamp/role/phase header lines.
+Replaced their display with number and sender, for example `164 · Assistant`,
+without leading zeroes. The unchanged original plugin composes all 2,437 compact
+headers as single lines. Original archives and full header metadata remain
+intact, and every body row retains its original text and plugin style.
+Repaginated to 593 A4 pages; all 95,938 physical row numbers, 60,948 stable
+archive-line targets and 2,665 candidate links verified. Checked 74 page
+geometries, the requested message 164 and browser/fully loaded print navigation.
+Browser updated; no PDF export. W-225.
+
+## P-0208 — 5 October 2026: justify AI documentation with original plugin
+
+Tim requested justified AI documentation using his Web-to-Print plugin.
+Changed composition to `mode: 'justified'` and joined fixed archive source-line
+wraps within each paragraph, preserving blank boundaries and separate compact
+message headers. Paragraph character spans associate every composed row with
+all intersecting immutable archive-line IDs. Normal paragraph endings remain
+unjustified. Actual glyph-range checks identify overfull machine strings even
+when the plugin emits no overflow warning; 225 affected rows are split without
+changing source characters and recomposed by the plugin, retaining surrounding
+paragraph composition. Empty plugin spacer rows are discarded.
+
+Rebuilt 522 A4 pages. Verified all normalized source paragraph text, original
+archive checksums, published plugin styles, 84,791 physical line numbers,
+60,948 canonical targets, 2,437 compact headers and 2,665 candidate links.
+73 page geometries, browser jumps/register positions and all 522 fully loaded
+print pages pass. Visually checked the requested CGPT-19 message 164 page and
+refreshed the browser. Original plugin unchanged; no PDF export. W-226.
+
+## P-0209 — 5 October 2026: 10 pt AI-documentation page numbers
+
+Tim requested 10 pt page numbers in this documentation. Set the footer to
+Arketa 10 pt with a matching line box, retaining its 8 mm bottom edge.
+Body and gutter numbers stay 7 pt; all 522 pages and link positions remain.
+The existing source/row/link checks and 73 sampled footer geometries pass.
+Versioned preview/print stylesheet links to refresh an old cached browser copy;
+actual browser computed footer size is 13.3333 CSS px = 10 pt. No PDF export. W-227.
+
+## P-0210 — 5 October 2026: 30% grey AI-documentation labels
+
+Tim requested light grey line numbers and message headers, explicitly 70%
+brightness / 30% grey. Applied `#b3b3b3` to gutter numbers and a dedicated
+message-header class. Running text and footer numbers stay black. All 2,437
+compact header classes are checked; sampled grey/black computed colors and
+existing text/style/row/link/geometry checks pass. All 522 pages and content
+positions remain. Browser cache updated; actual header and gutter colors both
+read rgb(179, 179, 179). No PDF export. W-228.

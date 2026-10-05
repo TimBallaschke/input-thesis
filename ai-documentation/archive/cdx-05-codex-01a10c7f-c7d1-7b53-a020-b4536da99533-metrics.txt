@@ -1,0 +1,57 @@
+AI COLLABORATION TECHNICAL METADATA
+Master's thesis: Input
+Archive ID: CDX-05
+Codex task ID: 01a10c7f-c7d1-7b53-a020-b4536da99533
+Metrics schema: 1
+
+SESSION AND RUNTIME
+Session start UTC: 2026-10-05T14:37:46.193Z
+Session start local: 2026-10-05T16:37:46.193+02:00
+Exported through UTC: 2026-10-05T19:37:10.234Z
+Session elapsed: 04:59:24
+Originator: Codex Desktop
+Codex version: 0.159.2
+Model provider: openai
+Model: gpt-6.1-sol
+Reasoning effort: medium
+Timezone: Europe/Berlin
+
+VISIBLE COMMUNICATION
+Start UTC: 2026-10-05T14:37:47.485Z
+End UTC: 2026-10-05T19:35:34.152Z
+Start local: 2026-10-05T16:37:47.485+02:00
+End local: 2026-10-05T21:35:34.152+02:00
+Elapsed span: 04:57:47
+Messages: 175
+User messages: 43
+Assistant messages: 132
+User visible words: 1,356
+Assistant visible words: 4,858
+
+CUMULATIVE TOKEN ACCOUNTING SNAPSHOT
+Snapshot UTC: 2026-10-05T19:36:47.965Z
+Input tokens: 69,515,983
+  Cached input subset: 67,684,992
+  Non-cached input, calculated: 1,830,991
+Output tokens: 315,606
+  Reasoning output subset: 134,127
+  Non-reasoning output, calculated: 181,479
+Total tokens: 69,831,589
+Model context window: 258,400
+
+TOP-LEVEL TOOL CALL RECORDS
+Total: 492
+  exec: 413
+  js: 74
+  request_user_input_async: 4
+  sleep: 1
+
+INTERPRETATION NOTES
+- Token figures are platform-accounting values, not visible word counts.
+- Cached input tokens are included in input tokens, not added to them.
+- Reasoning output tokens are a subset of output tokens; only their count is retained.
+- Input accounting includes repeated context, system instructions, tool schemas and tool results.
+- Top-level exec records may orchestrate multiple semantic tool operations.
+- The figures do not by themselves establish monetary cost, energy use or carbon emissions.
+- Hidden reasoning content, system instructions and raw tool telemetry remain excluded.
+- When an archive spans multiple source segments, the cumulative token snapshot comes from the latest segment and may not include earlier segments.

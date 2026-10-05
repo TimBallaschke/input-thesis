@@ -1,0 +1,913 @@
+[
+  {
+    "label": "Bisher",
+    "pt": 6,
+    "narrow": true,
+    "strength": 1,
+    "punctuation_doubling_cases": 60,
+    "letter_alignment_cases": 16,
+    "nonzero_metric_cases": 72,
+    "rows": 38,
+    "mean_edge_error_px": 0.270395643620882,
+    "max_edge_error_px": 0.29035561561585155,
+    "edges": [
+      {
+        "last": "e",
+        "error_px": -0.25433178615571705,
+        "text": "**Schluss** Die Texteingabe erscheint als einfache"
+      },
+      {
+        "last": "-",
+        "error_px": -0.26960077476496735,
+        "text": "und vertraute Handlung, findet jedoch nie voraus-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2648361735344338,
+        "text": "setzungslos statt. Auch ein offen wirkendes Einga-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2773915271759506,
+        "text": "befeld ist an technische, gestalterische und in-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2686533117294516,
+        "text": "stitutionelle Bedingungen gebunden. NutzerInnen"
+      },
+      {
+        "last": ",",
+        "error_px": -0.2750028553008974,
+        "text": "können innerhalb dieser Bedingungen formulieren,"
+      },
+      {
+        "last": "n",
+        "error_px": -0.26230687427522525,
+        "text": "auswählen, korrigieren und reagieren, bestimmen"
+      },
+      {
+        "last": "e",
+        "error_px": -0.25938776016232623,
+        "text": "sie jedoch nur teilweise selbst. Damit ist auch die"
+      },
+      {
+        "last": ".",
+        "error_px": -0.2802404441833346,
+        "text": "vermeintliche Offenheit der Texteingabe begrenzt."
+      },
+      {
+        "last": "-",
+        "error_px": -0.2709758210182258,
+        "text": "Hinweise, Vorschläge, Korrekturen oder vorgege-"
+      },
+      {
+        "last": "g",
+        "error_px": -0.27034281253810377,
+        "text": "bene Handlungsmöglichkeiten können Orientierung"
+      },
+      {
+        "last": "g",
+        "error_px": -0.2811102247238182,
+        "text": "bieten und das Eingeben erleichtern. Gleichzeitig"
+      },
+      {
+        "last": "r",
+        "error_px": -0.2737626338005157,
+        "text": "lenken sie Aufmerksamkeit und Verhalten. In der"
+      },
+      {
+        "last": "-",
+        "error_px": -0.27693867444992293,
+        "text": "Interaktion mit einem Eingabefeld sind NutzerIn-"
+      },
+      {
+        "last": "d",
+        "error_px": -0.29035561561585155,
+        "text": "nen deshalb zwangsläufig auch den Interessen und"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2669780182838508,
+        "text": "Entscheidungen anderer Akteure ausgesetzt. Ent-"
+      },
+      {
+        "last": "e",
+        "error_px": -0.2772819356918035,
+        "text": "wicklerInnen und Betreiber bestimmen mit, welche"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2791989631652996,
+        "text": "Möglichkeiten angeboten werden, welche Eingaben"
+      },
+      {
+        "last": "n",
+        "error_px": -0.26895115089416777,
+        "text": "erwünscht oder verwertbar sind und was mit ihnen"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2758656482697006,
+        "text": "geschieht. Besonders deutlich wird dabei die Un-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2758656482697006,
+        "text": "terscheidung zwischen der Kontrolle über die ei-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2598923258781838,
+        "text": "gene Formulierung und der Kontrolle über ihre wei-"
+      },
+      {
+        "last": ",",
+        "error_px": -0.25473576831819855,
+        "text": "tere Verarbeitung. NutzerInnen können entscheiden,"
+      },
+      {
+        "last": "e",
+        "error_px": -0.27108779811857175,
+        "text": "was sie eingeben und häufig auch, wie sie ihre"
+      },
+      {
+        "last": "s",
+        "error_px": -0.2626849851608313,
+        "text": "Eingabe verändern. Daraus folgt jedoch nicht, dass"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2724301395415978,
+        "text": "sie ebenso bestimmen oder vollständig nachvollzie-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2704117717743202,
+        "text": "hen können, wie diese Eingabe bewertet, gespei-"
+      },
+      {
+        "last": "r",
+        "error_px": -0.2583657121658689,
+        "text": "chert, verarbeitet oder weiterverwendet wird. Für"
+      },
+      {
+        "last": "b",
+        "error_px": -0.2654101204872177,
+        "text": "die Gestaltung von Texteingaben reicht es deshalb"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2785031375884728,
+        "text": "nicht aus, lediglich ihre Bedienung möglichst ein-"
+      },
+      {
+        "last": ",",
+        "error_px": -0.2765417289733705,
+        "text": "fach erscheinen zu lassen. Ebenso entscheidend ist,"
+      },
+      {
+        "last": ",",
+        "error_px": -0.2803014793395846,
+        "text": "welche Bedingungen einer Eingabe sichtbar werden,"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2711154375076603,
+        "text": "welche Handlungsmöglichkeiten tatsächlich bestehen"
+      },
+      {
+        "last": "-",
+        "error_px": -0.26960077476496735,
+        "text": "und wie verständlich ihre Grenzen vermittelt wer-"
+      },
+      {
+        "last": "h",
+        "error_px": -0.26130585479734236,
+        "text": "den. Entscheidend ist damit nicht allein, was sich"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2737778239250588,
+        "text": "in ein Textfeld eingeben lässt, sondern unter wel-"
+      },
+      {
+        "last": "d",
+        "error_px": -0.2590953016281219,
+        "text": "chen Bedingungen diese Eingabe wirksam wird und"
+      }
+    ]
+  },
+  {
+    "label": "Doppelt",
+    "pt": 6,
+    "narrow": true,
+    "strength": 2,
+    "punctuation_doubling_cases": 60,
+    "letter_alignment_cases": 16,
+    "nonzero_metric_cases": 72,
+    "rows": 38,
+    "mean_edge_error_px": 0.2694656455065692,
+    "max_edge_error_px": 0.29044182491293213,
+    "edges": [
+      {
+        "last": "e",
+        "error_px": -0.2654822626113855,
+        "text": "**Schluss** Die Texteingabe erscheint als einfache"
+      },
+      {
+        "last": "-",
+        "error_px": -0.27518303585043213,
+        "text": "und vertraute Handlung, findet jedoch nie voraus-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.26611908912661875,
+        "text": "setzungslos statt. Auch ein offen wirkendes Einga-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2713903951645307,
+        "text": "befeld ist an technische, gestalterische und in-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2686227941512698,
+        "text": "stitutionelle Bedingungen gebunden. NutzerInnen"
+      },
+      {
+        "last": ",",
+        "error_px": -0.27475347518918625,
+        "text": "können innerhalb dieser Bedingungen formulieren,"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2623068742751684,
+        "text": "auswählen, korrigieren und reagieren, bestimmen"
+      },
+      {
+        "last": "e",
+        "error_px": -0.25938776016232623,
+        "text": "sie jedoch nur teilweise selbst. Damit ist auch die"
+      },
+      {
+        "last": ".",
+        "error_px": -0.2765026092529297,
+        "text": "vermeintliche Offenheit der Texteingabe begrenzt."
+      },
+      {
+        "last": "e",
+        "error_px": -0.28071215057377685,
+        "text": "Hinweise, Vorschläge, Korrekturen oder vorgegebene"
+      },
+      {
+        "last": "n",
+        "error_px": -0.27918063354491096,
+        "text": "Handlungsmöglichkeiten können Orientierung bieten"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2745871286391548,
+        "text": "und das Eingeben erleichtern. Gleichzeitig lenken"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2595357532500202,
+        "text": "sie Aufmerksamkeit und Verhalten. In der Interakti-"
+      },
+      {
+        "last": "b",
+        "error_px": -0.2654101204872177,
+        "text": "on mit einem Eingabefeld sind NutzerInnen deshalb"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2740451984406036,
+        "text": "zwangsläufig auch den Interessen und Entscheidun-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2641379289626684,
+        "text": "gen anderer Akteure ausgesetzt. EntwicklerInnen"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2745871286391548,
+        "text": "und Betreiber bestimmen mit, welche Möglichkeiten"
+      },
+      {
+        "last": "r",
+        "error_px": -0.2702752208709853,
+        "text": "angeboten werden, welche Eingaben erwünscht oder"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2873205709457807,
+        "text": "verwertbar sind und was mit ihnen geschieht. Be-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2595357532500202,
+        "text": "sonders deutlich wird dabei die Unterscheidung zwi-"
+      },
+      {
+        "last": "g",
+        "error_px": -0.2633516407013303,
+        "text": "schen der Kontrolle über die eigene Formulierung"
+      },
+      {
+        "last": ".",
+        "error_px": -0.2765026092529297,
+        "text": "und der Kontrolle über ihre weitere Verarbeitung."
+      },
+      {
+        "last": "n",
+        "error_px": -0.28549167823791777,
+        "text": "NutzerInnen können entscheiden, was sie eingeben"
+      },
+      {
+        "last": ".",
+        "error_px": -0.2659947681427184,
+        "text": "und häufig auch, wie sie ihre Eingabe verändern."
+      },
+      {
+        "last": "-",
+        "error_px": -0.25922211647036875,
+        "text": "Daraus folgt jedoch nicht, dass sie ebenso bestim-"
+      },
+      {
+        "last": "e",
+        "error_px": -0.2712304420471128,
+        "text": "men oder vollständig nachvollziehen können, wie"
+      },
+      {
+        "last": "t",
+        "error_px": -0.2715468978882427,
+        "text": "diese Eingabe bewertet, gespeichert, verarbeitet"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2564438190460123,
+        "text": "oder weiterverwendet wird. Für die Gestaltung von"
+      },
+      {
+        "last": "-",
+        "error_px": -0.27006945228572476,
+        "text": "Texteingaben reicht es deshalb nicht aus, ledig-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.26943943214416777,
+        "text": "lich ihre Bedienung möglichst einfach erscheinen"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2740451984406036,
+        "text": "zu lassen. Ebenso entscheidend ist, welche Bedin-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.26154145240786875,
+        "text": "gungen einer Eingabe sichtbar werden, welche Hand-"
+      },
+      {
+        "last": "e",
+        "error_px": -0.26294122123715624,
+        "text": "lungsmöglichkeiten tatsächlich bestehen und wie"
+      },
+      {
+        "last": "-",
+        "error_px": -0.29044182491293213,
+        "text": "verständlich ihre Grenzen vermittelt werden. Ent-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.2662387428283637,
+        "text": "scheidend ist damit nicht allein, was sich in ein"
+      },
+      {
+        "last": "-",
+        "error_px": -0.26294526100161875,
+        "text": "Textfeld eingeben lässt, sondern unter welchen Be-"
+      },
+      {
+        "last": "r",
+        "error_px": -0.25370644330985215,
+        "text": "dingungen diese Eingabe wirksam wird und wer über"
+      }
+    ]
+  },
+  {
+    "label": "Ganz",
+    "pt": 6,
+    "narrow": false,
+    "strength": 2,
+    "punctuation_doubling_cases": 60,
+    "letter_alignment_cases": 16,
+    "nonzero_metric_cases": 72,
+    "rows": 35,
+    "mean_edge_error_px": 0.1902371566576114,
+    "max_edge_error_px": 0.20737743377685547,
+    "edges": [
+      {
+        "last": "d",
+        "error_px": -0.18219229221347177,
+        "text": "**Schluss** Die Texteingabe erscheint als einfache und"
+      },
+      {
+        "last": "-",
+        "error_px": -0.2041559400558981,
+        "text": "vertraute Handlung, findet jedoch nie voraussetzungs-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.18960788536071504,
+        "text": "los statt. Auch ein offen wirkendes Eingabefeld ist an"
+      },
+      {
+        "last": "-",
+        "error_px": -0.1917876338958422,
+        "text": "technische, gestalterische und institutionelle Bedin-"
+      },
+      {
+        "last": "r",
+        "error_px": -0.1910386443137213,
+        "text": "gungen gebunden. NutzerInnen können innerhalb dieser"
+      },
+      {
+        "last": "-",
+        "error_px": -0.17784487915037062,
+        "text": "Bedingungen formulieren, auswählen, korrigieren und re-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.19113316917423617,
+        "text": "agieren, bestimmen sie jedoch nur teilweise selbst. Da-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.19044040393828254,
+        "text": "mit ist auch die vermeintliche Offenheit der Textein-"
+      },
+      {
+        "last": "r",
+        "error_px": -0.19998256206508813,
+        "text": "gabe begrenzt. Hinweise, Vorschläge, Korrekturen oder"
+      },
+      {
+        "last": "g",
+        "error_px": -0.19937273740765704,
+        "text": "vorgegebene Handlungsmöglichkeiten können Orientierung"
+      },
+      {
+        "last": "-",
+        "error_px": -0.19175243377685547,
+        "text": "bieten und das Eingeben erleichtern. Gleichzeitig len-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.19137178707126168,
+        "text": "ken sie Aufmerksamkeit und Verhalten. In der Interaktion"
+      },
+      {
+        "last": "-",
+        "error_px": -0.19175243377685547,
+        "text": "mit einem Eingabefeld sind NutzerInnen deshalb zwangs-"
+      },
+      {
+        "last": "r",
+        "error_px": -0.18515101909633813,
+        "text": "läufig auch den Interessen und Entscheidungen anderer"
+      },
+      {
+        "last": "-",
+        "error_px": -0.1857233228683981,
+        "text": "Akteure ausgesetzt. EntwicklerInnen und Betreiber be-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.17960598564150132,
+        "text": "stimmen mit, welche Möglichkeiten angeboten werden, wel-"
+      },
+      {
+        "last": "t",
+        "error_px": -0.1822079467773392,
+        "text": "che Eingaben erwünscht oder verwertbar sind und was mit"
+      },
+      {
+        "last": "-",
+        "error_px": -0.19409360027316325,
+        "text": "ihnen geschieht. Besonders deutlich wird dabei die Un-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.1831678552626954,
+        "text": "terscheidung zwischen der Kontrolle über die eigene For-"
+      },
+      {
+        "last": "-",
+        "error_px": -0.1892192487716784,
+        "text": "mulierung und der Kontrolle über ihre weitere Verarbei-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.1737546129227212,
+        "text": "tung. NutzerInnen können entscheiden, was sie eingeben"
+      },
+      {
+        "last": "-",
+        "error_px": -0.18970798206328254,
+        "text": "und häufig auch, wie sie ihre Eingabe verändern. Dar-"
+      },
+      {
+        "last": "r",
+        "error_px": -0.19246682882305777,
+        "text": "aus folgt jedoch nicht, dass sie ebenso bestimmen oder"
+      },
+      {
+        "last": "e",
+        "error_px": -0.20307151317592798,
+        "text": "vollständig nachvollziehen können, wie diese Eingabe"
+      },
+      {
+        "last": "-",
+        "error_px": -0.1955107784270922,
+        "text": "bewertet, gespeichert, verarbeitet oder weiterverwen-"
+      },
+      {
+        "last": "s",
+        "error_px": -0.17458566284176413,
+        "text": "det wird. Für die Gestaltung von Texteingaben reicht es"
+      },
+      {
+        "last": "t",
+        "error_px": -0.20069250106814707,
+        "text": "deshalb nicht aus, lediglich ihre Bedienung möglichst"
+      },
+      {
+        "last": ",",
+        "error_px": -0.19083992958076124,
+        "text": "einfach erscheinen zu lassen. Ebenso entscheidend ist,"
+      },
+      {
+        "last": "-",
+        "error_px": -0.19175243377685547,
+        "text": "welche Bedingungen einer Eingabe sichtbar werden, wel-"
+      },
+      {
+        "last": "e",
+        "error_px": -0.19358862876890726,
+        "text": "che Handlungsmöglichkeiten tatsächlich bestehen und wie"
+      },
+      {
+        "last": "-",
+        "error_px": -0.20737743377685547,
+        "text": "verständlich ihre Grenzen vermittelt werden. Entschei-"
+      },
+      {
+        "last": "d",
+        "error_px": -0.19412122726441794,
+        "text": "dend ist damit nicht allein, was sich in ein Textfeld"
+      },
+      {
+        "last": "-",
+        "error_px": -0.17822445964816325,
+        "text": "eingeben lässt, sondern unter welchen Bedingungen die-"
+      },
+      {
+        "last": "n",
+        "error_px": -0.19076755332946504,
+        "text": "se Eingabe wirksam wird und wer über diese Bedingungen"
+      }
+    ]
+  },
+  {
+    "label": "Doppelt10",
+    "pt": 10,
+    "narrow": false,
+    "strength": 2,
+    "punctuation_doubling_cases": 60,
+    "letter_alignment_cases": 16,
+    "nonzero_metric_cases": 72,
+    "rows": 64,
+    "mean_edge_error_px": 0.06039284074874616,
+    "max_edge_error_px": 0.07497596740722656,
+    "edges": [
+      {
+        "last": "-",
+        "error_px": 0.06301358890539177,
+        "text": "**Schluss** Die Texteingabe er-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.07248172378535855,
+        "text": "scheint als einfache und ver-"
+      },
+      {
+        "last": "h",
+        "error_px": 0.059709228515544055,
+        "text": "traute Handlung, findet jedoch"
+      },
+      {
+        "last": ".",
+        "error_px": 0.04372596740722656,
+        "text": "nie voraussetzungslos statt."
+      },
+      {
+        "last": "-",
+        "error_px": 0.06149240779870979,
+        "text": "Auch ein offen wirkendes Ein-"
+      },
+      {
+        "last": ",",
+        "error_px": 0.07497596740722656,
+        "text": "gabefeld ist an technische,"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06451129913330078,
+        "text": "gestalterische und institu-"
+      },
+      {
+        "last": ".",
+        "error_px": 0.058056852340655496,
+        "text": "tionelle Bedingungen gebunden."
+      },
+      {
+        "last": "b",
+        "error_px": 0.050870418548583984,
+        "text": "NutzerInnen können innerhalb"
+      },
+      {
+        "last": ",",
+        "error_px": 0.06904815483085258,
+        "text": "dieser Bedingungen formulieren,"
+      },
+      {
+        "last": "-",
+        "error_px": 0.05846583080290202,
+        "text": "auswählen, korrigieren und re-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06451129913330078,
+        "text": "agieren, bestimmen sie je-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.05877100658415202,
+        "text": "doch nur teilweise selbst. Da-"
+      },
+      {
+        "last": "e",
+        "error_px": 0.04876782131202617,
+        "text": "mit ist auch die vermeintliche"
+      },
+      {
+        "last": "-",
+        "error_px": 0.058690766334507316,
+        "text": "Offenheit der Texteingabe be-"
+      },
+      {
+        "last": ",",
+        "error_px": 0.07025478363038928,
+        "text": "grenzt. Hinweise, Vorschläge,"
+      },
+      {
+        "last": "e",
+        "error_px": 0.07152509689331055,
+        "text": "Korrekturen oder vorgegebene"
+      },
+      {
+        "last": "n",
+        "error_px": 0.05337406158446356,
+        "text": "Handlungsmöglichkeiten können"
+      },
+      {
+        "last": "s",
+        "error_px": 0.05492544174194336,
+        "text": "Orientierung bieten und das"
+      },
+      {
+        "last": "-",
+        "error_px": 0.05814742565155484,
+        "text": "Eingeben erleichtern. Gleich-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06784902763365608,
+        "text": "zeitig lenken sie Aufmerksam-"
+      },
+      {
+        "last": "r",
+        "error_px": 0.06517553329467773,
+        "text": "keit und Verhalten. In der"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06816743278511694,
+        "text": "Interaktion mit einem Eingabe-"
+      },
+      {
+        "last": "b",
+        "error_px": 0.06353714752208361,
+        "text": "feld sind NutzerInnen deshalb"
+      },
+      {
+        "last": "-",
+        "error_px": 0.07390772533415202,
+        "text": "zwangsläufig auch den Interes-"
+      },
+      {
+        "last": "r",
+        "error_px": 0.06504326915739966,
+        "text": "sen und Entscheidungen anderer"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06841157341011694,
+        "text": "Akteure ausgesetzt. Entwickle-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06451129913330078,
+        "text": "rInnen und Betreiber bestim-"
+      },
+      {
+        "last": "n",
+        "error_px": 0.05088813781731005,
+        "text": "men mit, welche Möglichkeiten"
+      },
+      {
+        "last": "-",
+        "error_px": 0.04917226982115608,
+        "text": "angeboten werden, welche Ein-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06271908664700732,
+        "text": "gaben erwünscht oder verwert-"
+      },
+      {
+        "last": "n",
+        "error_px": 0.04647064208984375,
+        "text": "bar sind und was mit ihnen"
+      },
+      {
+        "last": "h",
+        "error_px": 0.054777465820393445,
+        "text": "geschieht. Besonders deutlich"
+      },
+      {
+        "last": "g",
+        "error_px": 0.0495497698783538,
+        "text": "wird dabei die Unterscheidung"
+      },
+      {
+        "last": "e",
+        "error_px": 0.06703500843048005,
+        "text": "zwischen der Kontrolle über die"
+      },
+      {
+        "last": "r",
+        "error_px": 0.06517553329467773,
+        "text": "eigene Formulierung und der"
+      },
+      {
+        "last": "e",
+        "error_px": 0.07152509689331055,
+        "text": "Kontrolle über ihre weitere"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06804536247261694,
+        "text": "Verarbeitung. NutzerInnen kön-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.041836099624674716,
+        "text": "nen entscheiden, was sie ein-"
+      },
+      {
+        "last": "e",
+        "error_px": 0.06863329172142585,
+        "text": "geben und häufig auch, wie sie"
+      },
+      {
+        "last": "s",
+        "error_px": 0.06086737346652171,
+        "text": "ihre Eingabe verändern. Daraus"
+      },
+      {
+        "last": "e",
+        "error_px": 0.07152509689331055,
+        "text": "folgt jedoch nicht, dass sie"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06348693084714796,
+        "text": "ebenso bestimmen oder vollstän-"
+      },
+      {
+        "last": "e",
+        "error_px": 0.051607429027626495,
+        "text": "dig nachvollziehen können, wie"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06623351287839796,
+        "text": "diese Eingabe bewertet, gespei-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06397521209714796,
+        "text": "chert, verarbeitet oder weiter-"
+      },
+      {
+        "last": "-",
+        "error_px": 0.04334831714629672,
+        "text": "verwendet wird. Für die Gestal-"
+      },
+      {
+        "last": "t",
+        "error_px": 0.07470035552978516,
+        "text": "tung von Texteingaben reicht"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06451129913330078,
+        "text": "es deshalb nicht aus, ledig-"
+      },
+      {
+        "last": "t",
+        "error_px": 0.06954893493661984,
+        "text": "lich ihre Bedienung möglichst"
+      },
+      {
+        "last": ".",
+        "error_px": 0.04914487075802754,
+        "text": "einfach erscheinen zu lassen."
+      },
+      {
+        "last": "-",
+        "error_px": 0.061315278053257316,
+        "text": "Ebenso entscheidend ist, wel-"
+      },
+      {
+        "last": "e",
+        "error_px": 0.05512390089040764,
+        "text": "che Bedingungen einer Eingabe"
+      },
+      {
+        "last": "-",
+        "error_px": 0.07102584362030484,
+        "text": "sichtbar werden, welche Hand-"
+      },
+      {
+        "last": "h",
+        "error_px": 0.062339103698718645,
+        "text": "lungsmöglichkeiten tatsächlich"
+      },
+      {
+        "last": "h",
+        "error_px": 0.047009231567358256,
+        "text": "bestehen und wie verständlich"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06451129913330078,
+        "text": "ihre Grenzen vermittelt wer-"
+      },
+      {
+        "last": "t",
+        "error_px": 0.059075355529785156,
+        "text": "den. Entscheidend ist damit"
+      },
+      {
+        "last": "n",
+        "error_px": 0.04658767700198041,
+        "text": "nicht allein, was sich in ein"
+      },
+      {
+        "last": "-",
+        "error_px": 0.06479726982115608,
+        "text": "Textfeld eingeben lässt, son-"
+      },
+      {
+        "last": "n",
+        "error_px": 0.04843383789057043,
+        "text": "dern unter welchen Bedingungen"
+      },
+      {
+        "last": "d",
+        "error_px": 0.05497088623053514,
+        "text": "diese Eingabe wirksam wird und"
+      },
+      {
+        "last": "-",
+        "error_px": 0.04286003589629672,
+        "text": "wer über diese Bedingungen ver-"
+      }
+    ]
+  }
+]

@@ -110,3 +110,34 @@ CDX-04 preserves the visible communication for this documentation task.
 Chat requests and wording selections are recorded without inferring their
 adoption in the manuscript. Earlier archive contents and dated page maps remain
 intact; page references must match the PDF edition actually cited.
+
+## Additional browser typesetting edition, 5 October 2026
+
+The [browser typesetting notes](web-typesetting/README.md) describe the separate
+Arketa 7 pt/two-column A4 edition of the historical 34 archives, editorial note
+and technical metadata. Original archive line numbers remain stable; generated
+page positions belong to this new edition. Historical PDF page references are
+not rewritten. No PDF was exported in accordance with Tim's browser-only
+instruction. A fully loaded print HTML is available for a later requested export.
+
+Thesis subchapter headings link to an initial evidence-candidate register.
+Context review and complete manuscript-adoption mapping remain open. CDX-05
+preserves a visible-communication snapshot of the current technical typesetting
+chat separately, without hidden reasoning/system/tool content; it has not been
+appended to the reproduced historical edition. P-0205 / W-223.
+
+P-0206 / W-224 corrects the visible numbering: each actual composed line now
+receives its own number without leading zeroes, sequential within each archive.
+
+P-0207 / W-225 shortens all 2,437 visible message headers to number and sender,
+for example `164 · Assistant`. Full timestamps and technical phases remain in
+the original archives. Body text and plugin composition are preserved; the
+593-page edition regenerates printed line numbers and link positions.
+
+P-0208 / W-226 sets the documentation in justified paragraphs through the
+unchanged original plugin. Fixed archive wrapping is joined within paragraphs;
+character spans retain links to every original line. The new 522-page edition
+preserves all message text and regenerates current printed line numbers and
+register positions. Browser and fully loaded print HTML are checked; no PDF export.
+The candidate register shows those current printed ranges and hit positions;
+canonical historical line IDs are retained only as underlying identities.

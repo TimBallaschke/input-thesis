@@ -1,0 +1,2985 @@
+{
+  "scope": "complete_final_manuscript",
+  "paragraphs": [
+    {
+      "id": "para-001",
+      "original": "Einen Begriff suchen, eine Angabe in ein Formular eintragen, einen Befehl ausführen oder eine Aufgabe an ein Sprachmodell formulieren: Unterschiedliche Anliegen beginnen heute mit der Eingabe von Text. Die dafür vorgesehene Stelle erscheint häufig unscheinbar, etwa als begrenzter Bereich auf einer Oberfläche, als Einfügemarke oder mit einer Aufforderung zur Eingabe. Das Schreiben in solche Eingabestellen ist zu einer vertrauten und vielfach selbstverständlichen Handlung im Umgang mit digitalen System geworden.",
+      "calls": [],
+      "chapter_id": "chapter-01",
+      "section_id": "section-01"
+    },
+    {
+      "id": "para-002",
+      "original": "Gerade in dieser scheinbaren Einfachheit bleiben jedoch zahlreiche Bedingungen der Texteingabe zunächst im Hintergrund. Was äußerlich ähnlich aussieht, kann unter sehr unterschiedlichen Voraussetzungen stattfinden und unterschiedliche Folgen haben. Eine Zeichenfolge kann als Befehl, als Formularwert, als Suchanfrage oder als Prompt behandelt werden. Dabei unterscheiden sich sowohl die Anforderungen an die Eingabe als auch die Art, wie sie verarbeitet und bewertet wird. Die sichtbare Form allein lässt daher nur begrenzt erkennen, unter welchen Bedingungen eine Eingabe wirksam wird.",
+      "calls": [],
+      "chapter_id": "chapter-01",
+      "section_id": "section-01"
+    },
+    {
+      "id": "para-003",
+      "original": "Texteingabe lässt sich daher nicht allein als sprachliche Handlung betrachten. Sie entsteht im Zusammenspiel menschlicher Tätigkeit, gestalteter Oberfläche und technischer Verarbeitung. NutzerInnen formulieren, prüfen, verändern und wiederholen Eingaben. Zugleich gelten Anforderungen, die durch Gestaltung, technische Standards, EntwicklerInnen oder Betreiber festgelegt werden. Der Handlungsspielraum der NutzerInnen bewegt sich damit zwischen eigener Entscheidung und vorgegebenen Bedingungen.",
+      "calls": [],
+      "chapter_id": "chapter-01",
+      "section_id": "section-01"
+    },
+    {
+      "id": "para-004",
+      "original": "Im Zentrum stehen vier Situationen der Texteingabe: Command Line, Formular, Suchfeld und Promptfeld. Sie verbinden die Eingabe sichtbaren Textes mit unterschiedlichen Anforderungen, Erwartungen und Verarbeitungszusammenhängen und ermöglichen dadurch einen vergleichenden Blick auf dieselbe grundlegende Handlung.",
+      "calls": [],
+      "chapter_id": "chapter-01",
+      "section_id": "section-01"
+    },
+    {
+      "id": "para-005",
+      "original": "Drei Perspektiven machen unterschiedliche Aspekte der Texteingabe sichtbar. Unter Surface steht ihre sichtbare Erscheinung im Vordergrund: Wie wird eine Eingabemöglichkeit dargestellt, und welche Erwartungen oder Anforderungen werden dabei vermittelt? Interaction richtet den Blick auf die Tätigkeiten der NutzerInnen beim Formulieren, Bearbeiten, Auswählen und erneuten Eingeben. Operation betrachtet schließlich die technischen Zusammenhänge, in denen der eingegebene Text verarbeitet wird, sowie die Maßstäbe und möglichen weiteren Verwendungen, die dabei wirksam werden.",
+      "calls": [],
+      "chapter_id": "chapter-01",
+      "section_id": "section-01"
+    },
+    {
+      "id": "para-006",
+      "original": "Diese Perspektiven bilden keine strikt aufeinanderfolgenden Phasen. Sie greifen ineinander und beeinflussen sich gegenseitig. Rückmeldungen oder Vorschläge können etwa die sichtbare Oberfläche verändern und zugleich die nächste Eingabe mitbestimmen.",
+      "calls": [],
+      "chapter_id": "chapter-01",
+      "section_id": "section-01"
+    },
+    {
+      "id": "para-007",
+      "original": "Das Texteingabefeld lässt sich damit als gestaltete Schnittstelle verstehen, an der sichtbare Form, menschliche Tätigkeit und technische Verarbeitung zusammentreffen. Dabei vermittelt die Oberfläche Orientierung und setzt zugleich Bedingungen, ohne sämtliche Anforderungen und Folgen der Eingabe sichtbar zu machen. Gerade die Unterschiede zwischen verschiedenen Eingabesituationen werfen deshalb die Frage auf, was NutzerInnen erkennen und beeinflussen können und was ihrem unmittelbaren Zugriff entzogen bleibt. Die Untersuchung beginnt bei dem, was ihnen zunächst unmittelbar begegnet: der sichtbaren Erscheinung der Eingabestelle.",
+      "calls": [],
+      "chapter_id": "chapter-01",
+      "section_id": "section-01"
+    },
+    {
+      "id": "para-008",
+      "original": "Dass an einer Stelle Text eingegeben werden kann, bedeutet noch nicht, dass diese Möglichkeit auch unmittelbar erkennbar ist. Die Oberfläche muss Hinweise darauf geben, wo eine Eingabe möglich ist. Eine Umrandung, ein abgesetzter Hintergrund, eine freie Fläche oder ein sichtbarer Textcursor können eine solche Funktion anzeigen. Norman bezeichnet solche wahrnehmbaren Hinweise auf mögliche Handlungen als Signifiers (vgl. Norman 2008).",
+      "calls": [
+        "call-001"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "id": "para-009",
+      "original": "Keines dieser Merkmale ist jedoch für sich genommen notwendig. In einer Command Line erscheint die aktuelle Eingabestelle beispielsweise nicht zwingend als separat umrandetes Feld. Ihre Position kann stattdessen durch einen Prompt, einen Cursor und den bereits dargestellten Text erkennbar werden (vgl. Shneiderman 1983, S. 57–59). Ob eine Stelle als Eingabemöglichkeit verstanden werden kann, hängt damit nicht von einem einzelnen formalen Merkmal ab, sondern vom Zusammenspiel verschiedener sichtbarer Hinweise innerhalb der jeweiligen Oberfläche.",
+      "calls": [
+        "call-002"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "id": "para-010",
+      "original": "Eingabestellen unterscheiden sich darin, wie viel Raum sie dem Text sichtbar zur Verfügung stellen. Breite und Höhe bestimmen, welcher Ausschnitt einer Eingabe gleichzeitig zu sehen ist. Ein einzeiliges Eingabefeld stellt Text daher anders dar als ein mehrzeiliger Bereich. HTML unterscheidet entsprechend zwischen einzeiligen und mehrzeiligen Eingabeelementen und behandelt deren sichtbare Dimensionierung getrennt von möglichen Begrenzungen der Textmenge (vgl. WHATWG 2026, Abschn. 4.10.5 und 4.10.11).",
+      "calls": [
+        "call-003"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "id": "para-011",
+      "original": "Die sichtbare Größe eines Eingabebereichs entspricht dabei nicht zwangsläufig seiner technischen Kapazität. Auch ein kleines Feld kann mehr Text aufnehmen, als unmittelbar sichtbar ist. Dennoch kann seine Größe eine Erwartung darüber vermitteln, welchen Umfang eine Eingabe haben soll: Ein kurzes einzeiliges Feld legt eine knappe Angabe näher als ein großzügiger mehrzeiliger Bereich. Die formale Dimension begrenzt die Eingabe somit nicht notwendig, kann aber beeinflussen, welche Länge NutzerInnen als vorgesehen wahrnehmen.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "id": "para-012",
+      "original": "Ein Eingabefeld erhält seine sichtbare Bedeutung nicht nur durch seine eigene Form, sondern auch durch seine Position innerhalb der Oberfläche. Abstände, Größenverhältnisse und die Beziehung zu weiteren Feldern, Texten und Bedienelementen bestimmen mit, wie stark eine Eingabemöglichkeit hervortritt und welche Rolle ihr innerhalb einer Ansicht zukommt.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "id": "para-013",
+      "original": "Dies zeigt sich im Vergleich unterschiedlicher Oberflächen: Auf der Startseite von Google steht das Suchfeld zentral und weitgehend für sich. Im Registrierungsdialog von Wikipedia erscheinen dagegen mehrere Eingabefelder als Teile eines gemeinsamen Ablaufs. Bei ChatGPT nimmt das Eingabefeld ebenfalls eine zentrale Position ein, ist jedoch in eine andere funktionale Umgebung eingebettet. Im Terminal wiederum ist die aktuelle Eingabestelle unmittelbar mit bereits ausgegebenem Text verbunden und nicht als eigenständiges Interfaceelement abgesetzt.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "id": "para-014",
+      "original": "Die Anordnung kann somit bestimmte Handlungen innerhalb einer Oberfläche besonders hervorheben (vgl. Akrich 1992, S. 207–209). Ein großes, zentral platziertes Eingabefeld erhält dabei eine andere visuelle Gewichtung als ein kleines Feld, das zwischen weiteren Bedienelementen oder innerhalb eines längeren Formulars angeordnet ist. Diese Hervorhebung lässt sich als Teil einer entworfenen Nutzungsvorstellung betrachten. Form, Größe und Position geben somit Hinweise darauf, welche Bedeutung einer Eingabe innerhalb der jeweiligen Anwendung zugeschrieben wird.",
+      "calls": [
+        "call-004"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "id": "para-015",
+      "original": "Ein Eingabefeld als bearbeitbar zu erkennen bedeutet noch nicht zu wissen, was dort eingegeben werden soll. Zusätzliche Hinweise wie Beschriftungen, Platzhalter, Beispiele, Symbole oder die Texte zugehöriger Buttons können den vorgesehenen Gebrauch näher bestimmen (vgl. Norman 2008; Hearst 2009, S. 18–19). Dabei erfüllen sie unterschiedliche Funktionen: Eine Beschriftung kann benennen, welche Information erwartet wird, ein Beispiel eine mögliche Eingabe vorführen und eine Buttonbeschriftung anzeigen, welche Handlung mit der Eingabe ausgelöst werden soll. Die Funktion eines Eingabefelds wird damit nicht allein durch seine Form vermittelt, sondern auch durch die sprachlichen und visuellen Hinweise in seinem unmittelbaren Umfeld.",
+      "calls": [
+        "call-005"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-016",
+      "original": "Wie solche Hinweise eingesetzt werden, unterscheidet sich je nach Eingabesituation. In einem Formular benennen Feldbeschriftungen meist konkrete Angaben, die innerhalb eines übergeordneten Vorgangs verlangt werden. Ein Suchfeld weist die Eingabe dagegen als Suche nach Informationen aus und kann zugleich erkennen lassen, auf welchen Bestand sich diese Suche bezieht (vgl. Hearst 2009, S. 18–19). Bei Promptfeldern können Formulierungen und Beispiele einen offeneren Handlungsraum vermitteln, etwa indem sie dazu auffordern, eine Frage zu stellen, eine Aufgabe zu formulieren oder ein Anliegen zu beschreiben. Bei der Command Line können sichtbare Hinweise anzeigen, wo eine Eingabe erfolgt, erklären aber nicht zwingend, welche Befehle oder syntaktischen Formen verstanden werden.",
+      "calls": [
+        "call-006"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-017",
+      "original": "Sichtbare Hinweise legen den vorgesehenen Gebrauch eines Eingabefelds jedoch nicht vollständig fest. Sie können Orientierung geben, garantieren aber weder ein einheitliches Verständnis noch, dass alle relevanten Anforderungen unmittelbar erkennbar sind. Fehlen entsprechende Hinweise, müssen Erwartungen, Regeln oder Konventionen teilweise aus Vorwissen erschlossen werden. Ebenso lässt sich aus der Darstellung allein nicht ableiten, ob eine angekündigte Funktion technisch tatsächlich in der vermittelten Weise erfüllt wird.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-018",
+      "original": "Nicht nur der Inhalt einer Aufforderung, sondern auch ihre sprachliche Formulierung beeinflusst, wie eine Anwendung erscheint. Eine sachliche Aufforderung um eine bestimmte Angabe stellt eine andere Beziehung her als die freundlich formulierte Einladung, eine Frage zu stellen, ein Anliegen zu schildern oder Unterstützung bei einer Aufgabe zu erhalten. Insbesondere dialogisch gestaltete Anwendungen können sich dadurch als Werkzeug, Auskunftsstelle oder unterstützendes Gegenüber präsentieren.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-019",
+      "original": "Mit dieser Ansprache wird zugleich eine Vorstellung davon vermittelt, wofür die Anwendung geeignet sein soll. Werden bestimmte Aufgaben ausdrücklich angeboten oder durch Beispiele vorgeführt, entsteht ein kommuniziertes Leistungsangebot. Akrichs Konzept entworfener Nutzerrollen lässt sich hier erweitern: Gestaltung entwirft nicht nur eine Vorstellung davon, was Nutzer tun sollen, sondern auch davon, welche Rolle das technische Gegenüber in dieser Interaktion einnimmt (vgl. Akrich 1992, S. 207–209; Subramonyam et al. 2024, PDF-S. 9–12).",
+      "calls": [
+        "call-007"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-020",
+      "original": "Die sprachliche Gestaltung einer Anwendung kann beeinflussen, wie viel Vertrauen NutzerInnen ihr entgegenbringen. Chen et al. untersuchten hierzu die Darstellungen von Bank-Chatbots, die sich unter anderem in ihrem Gesprächsstil unterschieden. In den untersuchten Bedingungen erhielt ein menschenähnlicher Gesprächsstil höhere Vertrauensbewertungen als ein stärker mechanisch wirkender Stil (vgl. Chen et al. 2024, S. 3639–3643).",
+      "calls": [
+        "call-008"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-021",
+      "original": "Damit wird die Ansprache von NutzerInnen nicht nur für die Verständlichkeit einer Interaktion relevant, sondern auch für die Einschätzung der Anwendung selbst. Eine persönlichere oder dialogischere Darstellung kann Vertrauen begünstigen, ohne zugleich eine höhere technische Zuverlässigkeit oder bessere inhaltliche Leistung zu belegen. Vertrauen kann damit auf einer kommunikativen Wirkung beruhen, für die auf technischer Ebene keine entsprechende Grundlage nachgewiesen ist. Darstellung und tatsächliche Leistungsfähigkeit sind daher voneinander zu unterscheiden.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-022",
+      "original": "Beschriftungen, Beispiele und sprachliche Ansprache vermitteln damit nicht nur, wie ein Eingabefeld verwendet werden soll, sondern auch, welche Möglichkeiten eine Anwendung anbietet und welche Leistungen von ihr erwartet werden können. Entscheidend ist dabei, welche Bedingungen, Grenzen oder Unsicherheiten sichtbar gemacht werden und welche im Hintergrund bleiben. Zwischen dem, was eine Oberfläche nahelegt, und dem, was technisch tatsächlich möglich ist, kann eine Differenz entstehen.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "id": "para-023",
+      "original": "Zu wissen, wozu ein Eingabefeld dient, bedeutet noch nicht zu wissen, unter welchen Bedingungen eine Eingabe akzeptiert oder sinnvoll verarbeitet werden kann. Neben der erwarteten Information kann daher auch relevant sein, in welcher Form sie eingegeben werden soll. Hinweise auf Pflichtfelder, bestimmte Formate oder Zeichenbegrenzungen können solche Anforderungen bereits vor der Eingabe sichtbar machen (vgl. Seckler et al. 2014, S. 1276–1278, 1282).",
+      "calls": [
+        "call-009"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-024",
+      "original": "Bei Formularen lassen sich diese Ebenen häufig unmittelbar unterscheiden: Eine Feldbeschriftung bezeichnet die verlangte Information, während zusätzliche Hinweise deren erforderliche Form näher bestimmen. Fehlen solche Angaben, bedeutet dies jedoch nicht, dass keine Anforderungen bestehen. Sie können technisch vorausgesetzt werden, ohne auf der Oberfläche sichtbar zu sein.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-025",
+      "original": "Die Command Line bildet hierzu einen deutlichen Kontrast. Sie kann anzeigen, wo eine Eingabe erfolgt, vermittelt aber nicht zwangsläufig, welche Befehle, Argumente oder syntaktischen Formen gültig sind. Solche Anforderungen müssen aus Vorwissen oder zusätzlichen Informationsquellen erschlossen werden. Sichtbar wird damit nur ein Teil der Bedingungen, unter denen eine Eingabe verarbeitet werden kann.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-026",
+      "original": "Nicht jeder sichtbare Hinweis bezeichnet eine verbindliche Bedingung. Eine Formatangabe kann festlegen, wie eine Eingabe erfolgen muss, während ein Beispiel lediglich eine mögliche Form zeigt. Suchvorschläge bieten mögliche Anfragen an, ohne andere Formulierungen grundsätzlich auszuschließen. Ähnlich können bei Promptfeldern vorgeschlagene Aufgaben oder Formulierungen Orientierung geben, ohne den möglichen Handlungsraum vollständig festzulegen (vgl. Seckler et al. 2014, S. 1276–1278; Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12).",
+      "calls": [
+        "call-010"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-027",
+      "original": "Für die Gestaltung ist daher entscheidend, ob erkennbar wird, welchen Status ein Hinweis besitzt. NutzerInnen müssen unterscheiden können, was eingegeben werden muss, was möglich ist und was lediglich vorgeschlagen wird. Ein Beispiel, das nicht eindeutig als solches erkennbar ist, kann dabei stärker wie eine Vorgabe erscheinen, als es technisch tatsächlich der Fall ist.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-028",
+      "original": "Beispiele und Vorschläge können die Eingabe erleichtern, indem sie mögliche Formulierungen oder Aufgaben sichtbar machen. Gerade bei Such- und Promptfeldern zeigen sie jedoch immer nur einen Ausschnitt der möglichen Handlungen und bilden den tatsächlichen Handlungsraum nicht vollständig ab. Bestimmte Möglichkeiten werden unmittelbar präsent, während andere selbst entwickelt oder aus Vorwissen erschlossen werden müssen. Eine nicht dargestellte Möglichkeit ist deshalb nicht zwangsläufig ausgeschlossen. Welche Beispiele und Vorschläge eine Oberfläche hervorhebt, ist Ergebnis gestalterischer Entscheidungen (vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12; Akrich 1992, S. 207–209).",
+      "calls": [
+        "call-011"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-029",
+      "original": "Sichtbare Hinweise dienen nicht nur der Orientierung. Eine Oberfläche kann verständlich vermitteln, wie eine Handlung ausgeführt werden soll, und zugleich bestimmte Entscheidungen stärker begünstigen als andere. Relevant ist daher nicht nur, ob Anforderungen, Einschränkungen und Alternativen sichtbar sind, sondern auch, wie zugänglich und hervorgehoben sie dargestellt werden.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-030",
+      "original": "Luguri und Strahilevitz zeigen in experimentellen Untersuchungen zu sogenannten Dark Patterns, dass die Gestaltung von Entscheidungsoptionen das Verhalten von NutzerInnen beeinflussen kann. In einzelnen Versuchsbedingungen stimmten Teilnehmende einem angebotenen Datenschutz- und Kreditüberwachungsdienst häufiger zu, wenn Informationen weniger zugänglich dargestellt oder Möglichkeiten zur Ablehnung erschwert wurden (vgl. Luguri/Strahilevitz 2021, S. 71–76).",
+      "calls": [
+        "call-012"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-031",
+      "original": "Die Studie verdeutlicht damit, dass Sichtbarkeit und Zugänglichkeit von Informationen und Alternativen für Entscheidungen relevant sein können. Zu fragen ist daher, ob eine Oberfläche lediglich bei der Ausführung einer eigenen Entscheidung unterstützt oder bestimmte Handlungen dadurch begünstigt, dass andere Möglichkeiten weniger deutlich sichtbar werden.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "id": "para-032",
+      "original": "Ein Eingabefeld besitzt häufig keine unveränderliche Erscheinung. Im Verlauf seiner Nutzung kann es unterschiedliche sichtbare Zustände annehmen. Ein leeres Feld unterscheidet sich etwa von einem fokussierten oder bereits ausgefüllten Feld. Veränderungen wie eine hervorgehobene Umrandung, ein sichtbarer Cursor oder der dargestellte Text können anzeigen, welcher Bereich aktuell aktiv ist und an welcher Stelle eine Eingabe erfolgen kann (vgl. Shneiderman 1983, S. 57–59).",
+      "calls": [
+        "call-013"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-033",
+      "original": "Entscheidend ist dabei, welche zusätzliche Information eine Veränderung gegenüber dem vorherigen Zustand vermittelt. Der Fokus eines Feldes kann etwa anzeigen, dass eine Eingabe nun möglich ist, während der eingegebene Text sichtbar macht, was bereits erfasst wurde. Für die Analyse ist daher nicht nur der leere Ausgangszustand relevant, sondern auch, wie sich das Eingabefeld während seiner Nutzung verändert.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-034",
+      "original": "Auch Hinweise und Anforderungen bleiben während der Eingabe nicht zwangsläufig konstant sichtbar. Sie können bereits im leeren Feld erscheinen, erst beim Fokussieren hinzukommen oder sich während der Eingabe verändern. Platzhalter verschwinden beispielsweise häufig mit Beginn der Texteingabe, während Suchvorschläge auf den bereits eingegebenen Text reagieren und fortlaufend neue Möglichkeiten anzeigen können (vgl. Hearst 2009, S. 11–13, 18–19).",
+      "calls": [
+        "call-014"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-035",
+      "original": "Für die Gestaltung ist daher nicht nur relevant, welche Informationen angeboten werden, sondern auch zu welchem Zeitpunkt sie sichtbar sind. Eine Anforderung oder Hilfe kann vor Beginn der Eingabe verfügbar sein, während des Schreibens verschwinden oder erst nach einer Eingabe beziehungsweise bei einem Problem erscheinen. Entscheidend ist, ob sie in dem Moment zugänglich ist, in dem sie benötigt wird (vgl. Seckler et al. 2014, S. 1276–1278, 1282).",
+      "calls": [
+        "call-015"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-036",
+      "original": "Fehlermeldungen verändern die sichtbare Darstellung eines Eingabefelds, indem sie eine Eingabe als problematisch kennzeichnen. Dabei ist nicht nur ihr Wortlaut relevant, sondern auch, wie die Meldung dem betroffenen Feld zugeordnet und visuell hervorgehoben wird. Farbe, Position oder zusätzliche Symbole können anzeigen, auf welche Eingabe sich eine Meldung bezieht und dass eine weitere Handlung erforderlich ist (vgl. Seckler et al. 2014, S. 1276–1282).",
+      "calls": [
+        "call-016"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-037",
+      "original": "Dabei lässt sich unterscheiden, ob eine Fehlermeldung lediglich auf ein Problem hinweist oder zugleich erklärt, welche Anforderung nicht erfüllt wurde. Besonders aufschlussreich ist, ob sie eine bereits zuvor sichtbare Regel wiederholt oder eine Bedingung erstmals offenlegt. Im zweiten Fall wird erst nach der Eingabe deutlich, welche Form die Anwendung erwartet. Fehlermeldungen können damit nicht nur einen problematischen Zustand kennzeichnen, sondern zugleich zuvor unsichtbare Anforderungen sichtbar machen.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-038",
+      "original": "Auch nach dem Absenden kann sich das Eingabefeld sichtbar verändern. Veränderungen an Buttons, Aktivitätsanzeigen oder erneut erscheinende Eingabefelder können anzeigen, ob eine Eingabe noch bearbeitet werden kann, eine Verarbeitung läuft oder bereits eine neue Eingabe möglich ist (vgl. Norman 2008; Shneiderman 1983, S. 59, 64–65).",
+      "calls": [
+        "call-017"
+      ],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-039",
+      "original": "Die Oberfläche vermittelt damit, welche Handlungen im jeweiligen Moment möglich sind und in welchem Zustand sich die Interaktion befindet. Welche internen Prozesse diesen sichtbaren Veränderungen zugrunde liegen, lässt sich daraus allein jedoch nicht ableiten.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-040",
+      "original": "Die Oberfläche stellt damit nicht zu jedem Zeitpunkt dieselben Informationen und Handlungsmöglichkeiten bereit. Hinweise, Anforderungen und Rückmeldungen können erscheinen, verschwinden oder sich im Verlauf der Nutzung verändern. Für die Beurteilung eines Eingabefelds ist daher nicht nur sein Ausgangszustand relevant, sondern auch, welche Orientierung in den verschiedenen Momenten der Interaktion sichtbar wird.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-041",
+      "original": "Die Oberfläche macht dabei bestimmte Möglichkeiten und Anforderungen erkennbar, legt jedoch nicht fest, wie NutzerInnen mit ihnen umgehen. Welche Tätigkeiten erforderlich sind, um innerhalb dieser Bedingungen eine Eingabe zu formulieren, untersucht das folgende Kapitel Interaction.",
+      "calls": [],
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "id": "para-042",
+      "original": "Texteingabe verbindet körperliche Handlung mit technischer Zuordnung oder Erkennung. Welche motorischen und wahrnehmungsbezogenen Anforderungen dabei entstehen, hängt vom Eingabeverfahren ab (vgl. Feit et al. 2016, S. 4264–4271; Ruan et al. 2017, Art. 159:4–159:5, 159:15–159:17). Derselbe sichtbare Text kann deshalb aus unterschiedlichen Prozessen hervorgehen, in denen Mensch und System jeweils andere Aufgaben übernehmen (vgl. MacKenzie/Soukoreff 2002, S. 164–165; Ruan et al. 2017, Art. 159:16–159:17).",
+      "calls": [
+        "call-018",
+        "call-019"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "id": "para-043",
+      "original": "Das Tippen auf einer physischen Tastatur koordiniert Finger-, Hand- und Blickbewegungen. Dabei kommen unterschiedliche, teils individuell erlernte Schreibtechniken zum Einsatz (vgl. Feit et al. 2016, S. 4262–4271). Ein Tastendruck wird vom System registriert und einem Zeichen oder einer Funktion zugeordnet (vgl. MacKenzie/Soukoreff 2002, S. 152–153, 164–165). Auf einem Touchscreen verändert sich dieser Bewegungsablauf: Griffhaltung und Geräteformat beeinflussen die Eingabe, während das System die Position einer Berührung einer vermutlich beabsichtigten Taste zuordnen muss (vgl. Oulasvirta et al. 2013, S. 2767–2772). Spracheingabe verlagert die körperliche Ausführung auf das Sprechen. Das akustische Signal wird technisch erkannt und in eine wahrscheinliche Zeichenfolge übersetzt, die anschließend kontrolliert und gegebenenfalls korrigiert werden muss (vgl. Ruan et al. 2017, Art. 159:4–159:5, 159:13–159:17).",
+      "calls": [
+        "call-020",
+        "call-021",
+        "call-022",
+        "call-023"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "id": "para-044",
+      "original": "Wie diese Handlungen ausgeführt werden, wird durch die Gestaltung des jeweiligen Eingabesystems geprägt. Bei Tastaturen bestimmen etwa Tastenlayout und Anordnung, wie einzelne Zeichen erreichbar sind. Verbreitete Layouts wie QWERTY sind historisch entstanden und durch Standardisierung etabliert worden; ihre Nutzung beruht heute auf erlernten motorischen Routinen (vgl. Galbraith/Kay 2025, PDF-S. 5–8, 16–19; Feit et al. 2016, S. 4268–4271). Auch auf Touchscreens strukturieren Größe und Position der Tasten mögliche Bewegungen, während bei der Spracheingabe Rückmeldungen des Systems dazu führen können, dass Eingaben wiederholt, verändert oder korrigiert werden (vgl. Oulasvirta et al. 2013, S. 2767–2771; Ruan et al. 2017, Art. 159:5, 159:16–159:17). Eingabesysteme legen damit bestimmte Nutzungsweisen nahe und setzen entsprechende Fähigkeiten und Routinen voraus (vgl. Akrich 1992, S. 207–211, 216–222).",
+      "calls": [
+        "call-024",
+        "call-025",
+        "call-026"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "id": "para-045",
+      "original": "Diese Voraussetzungen sind nicht für alle NutzerInnen gleich. Welche Zeichen unmittelbar verfügbar sind oder zusätzliche Schritte erfordern, hängt etwa von Sprache, Schriftsystem und verwendetem Layout ab (vgl. van Esch et al. 2019, S. 13–15). Auch Spracherkennungssysteme können verschiedene Sprechweisen unterschiedlich zuverlässig erkennen. Koenecke et al. fanden bei fünf kommerziellen Systemen in einem US-amerikanischen Datensatz eine durchschnittliche Wortfehlerrate von 0,35 für die als „Black speakers“ bezeichnete Gruppe gegenüber 0,19 für die als „White speakers“ bezeichnete Gruppe (vgl. Koenecke et al. 2020, S. 7684–7685). Die untersuchten Systeme erkannten die Äußerungen beider Gruppen damit unterschiedlich zuverlässig. Dies wirft die Frage auf, welche Sprachen, Sprechweisen und Formen der Eingabe ein System voraussetzt und für wen daraus zusätzlicher Anpassungs- oder Kontrollaufwand entsteht.",
+      "calls": [
+        "call-027",
+        "call-028"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "id": "para-046",
+      "original": "Im fertigen Text bleiben diese Vorgänge weitgehend unsichtbar (vgl. MacKenzie/Soukoreff 2002, S. 164–165). Aus einer Zeichenfolge lässt sich nicht ablesen, durch welches Eingabeverfahren sie entstanden ist, welche Bewegungen und erlernten Routinen dafür notwendig waren oder welche technischen Zuordnungen und Korrekturen stattgefunden haben. Die einheitliche Form des Textes lässt seine unterschiedlichen Entstehungsbedingungen nicht erkennen.",
+      "calls": [
+        "call-029"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "id": "para-047",
+      "original": "Ein Anliegen zu kennen bedeutet noch nicht, eine geeignete Eingabe formulieren zu können. NutzerInnen müssen einschätzen, welche Informationen ein System benötigt und in welcher Form diese übermittelt werden sollten. Eine Eingabe kann technisch akzeptiert werden, ohne zum gewünschten Ergebnis zu führen. Entscheidend ist daher nicht nur, ob ein System eine Eingabe verarbeitet, sondern auch, welches Wissen erforderlich ist, um sie zielführend zu formulieren (vgl. Akrich 1992, S. 207–209, 216).",
+      "calls": [
+        "call-030"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "id": "para-048",
+      "original": "Bei Befehlssystemen ist dieses Wissen vergleichsweise eindeutig bestimmt. Wer beispielsweise ein neues Verzeichnis anlegen möchte, muss den Befehl mkdir kennen und in der vorgesehenen Syntax verwenden (vgl. IEEE/The Open Group 2024, mkdir). Befehlsname und Syntax müssen daher erlernt oder nachgeschlagen werden (vgl. Shneiderman 1983, S. 65–66).",
+      "calls": [
+        "call-031",
+        "call-032"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "id": "para-049",
+      "original": "Eine gewöhnliche Websuche setzt dagegen keine feste Befehlssyntax voraus. NutzerInnen müssen ihren Informationsbedarf jedoch in Begriffe übersetzen, mit denen das Suchsystem arbeiten kann. Zusätzliche Kenntnisse, etwa über Suchoperatoren wie Anführungszeichen oder site:, können dabei helfen, eine Anfrage gezielt einzugrenzen (vgl. Google Search Help, o. J., „Refine Google searches“, Abschnitt „Operators“). Ob eine Formulierung geeignet ist, zeigt sich häufig erst an den Ergebnissen und kann eine erneute Suche erforderlich machen (vgl. Hearst 2009, S. 1–3). Das notwendige Wissen betrifft hier somit weniger eine verbindliche Syntax als die Einschätzung, welche Formulierungen zu hilfreichen Ergebnissen führen.",
+      "calls": [
+        "call-033",
+        "call-034"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "id": "para-050",
+      "original": "Bei Promptfeldern für KI-Systeme verschiebt sich diese Anforderung erneut. NutzerInnen können ihr Anliegen in natürlicher Sprache formulieren, müssen dabei jedoch einschätzen, was das System leisten kann, welche Informationen es benötigt und wie das gewünschte Ergebnis beschrieben werden sollte. Subramonyam et al. unterscheiden entsprechend zwischen dem Einschätzen der Systemfähigkeiten, dem Formulieren geeigneter Instruktionen und dem Konkretisieren des gewünschten Ergebnisses (vgl. Subramonyam et al. 2024, S. 2–3, 6–8). Die Verwendung natürlicher Sprache beseitigt die Notwendigkeit von Systemwissen daher nicht, sondern verändert dessen Form. Anders als bei einer dokumentierten Befehlssyntax ist bei einem unzureichenden Ergebnis nicht immer ersichtlich, ob eine andere Formulierung helfen würde oder eine Grenze des Systems erreicht ist. Zamfirescu-Pereira et al. zeigen zudem, dass einzelne erfolgreiche Antworten zu vorschnellen Annahmen über das Verhalten eines Systems führen können und Erwartungen aus menschlicher Kommunikation nicht ohne Weiteres auf dessen Funktionsweise übertragbar sind (vgl. Zamfirescu-Pereira et al. 2023, S. 9–13).",
+      "calls": [
+        "call-035",
+        "call-036"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "id": "para-051",
+      "original": "Bei Formularen kann ein größerer Teil des erforderlichen Wissens unmittelbar über die Oberfläche vermittelt werden. Beschriftungen, Formatangaben und Pflichtfeldkennzeichnungen können anzeigen, welche Informationen benötigt werden und in welcher Form sie einzugeben sind (vgl. Seckler et al. 2014, S. 1276–1282). NutzerInnen müssen diese Anforderungen dadurch weniger aus dem Gedächtnis abrufen oder selbst erschließen; ein Teil des notwendigen Wissens wird auf die Oberfläche verlagert (vgl. Hearst 2009, S. 18–19).",
+      "calls": [
+        "call-037",
+        "call-038"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "id": "para-052",
+      "original": "Command Line, Suchfeld, Promptfeld und Formular unterscheiden sich damit nicht einfach darin, wie viel Wissen sie voraussetzen. Unterschiede bestehen vielmehr darin, welche Kenntnisse erforderlich sind und wie diese zwischen NutzerInnen, Oberfläche und System verteilt werden. Weniger sichtbare Vorgaben bedeuten dabei nicht, dass weniger Bedingungen bestehen. Sie können vielmehr dazu führen, dass NutzerInnen einen größeren Teil dieser Bedingungen selbst erschließen müssen. Bleiben sie unklar, lässt sich bei einem unzureichenden Ergebnis nur schwer unterscheiden, ob fehlendes Wissen, eine ungeeignete Formulierung oder eine Grenze des Systems ausschlaggebend war.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "id": "para-053",
+      "original": "Texteingaben können nachträglich verändert werden. Eine solche Bearbeitung muss jedoch nicht bedeuten, dass zuvor ein Fehler vorlag: NutzerInnen können eine Formulierung ändern, ergänzen oder ihre Absicht neu bestimmen. Von Korrektur lässt sich dagegen sprechen, wenn eine Eingabe als falsch oder abweichend bewertet und entsprechend verändert wird.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-10"
+    },
+    {
+      "id": "para-054",
+      "original": "Was dabei als fehlerhaft gilt, kann unterschiedlich bestimmt werden. Eine Eingabe kann der Absicht der NutzerInnen entsprechen und dennoch von einem System zurückgewiesen werden, etwa weil ein erwartetes Format nicht eingehalten wurde. Umgekehrt kann ein System eine Korrektur vorschlagen oder automatisch vornehmen, die nicht der ursprünglichen Absicht entspricht (vgl. Seckler et al. 2014, S. 1276–1282; Hearst 2009, S. 14–18). Die dafür verwendeten Bewertungskriterien sind häufig durch die Gestaltung und technische Umsetzung eines Systems festgelegt und damit auch Ergebnis von Entscheidungen seiner EntwicklerInnen, Anbieter oder Betreiber. Was als korrekt gilt, richtet sich daher nicht zwangsläufig allein nach der Absicht der NutzerInnen.",
+      "calls": [
+        "call-039"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-10"
+    },
+    {
+      "id": "para-055",
+      "original": "Damit stellt sich die Frage, wie Erkennen, Verändern und Überprüfen zwischen NutzerInnen und System verteilt sind. Bei einem ungültigen Formularwert kann das System auf eine Abweichung hinweisen, während die NutzerInnen die Eingabe selbst ändern. Bei einer automatischen Korrektur übernimmt dagegen das System die Veränderung, während NutzerInnen prüfen müssen, ob das Ergebnis ihrer Absicht entspricht. Die Gestaltung eines Eingabesystems bestimmt somit mit, welche Schritte von Menschen und welche vom technischen System übernommen werden (vgl. Akrich 1992, S. 216).",
+      "calls": [
+        "call-040"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-10"
+    },
+    {
+      "id": "para-056",
+      "original": "Die Möglichkeit zur Bearbeitung gibt NutzerInnen zugleich Kontrolle über den eingegebenen Text. Einzelne Stellen können verändert und Änderungen teilweise rückgängig gemacht werden, ohne die gesamte Eingabe neu zu beginnen. Werden Veränderungen vom System vorgenommen, ist besonders wichtig, dass sie erkennbar und gegebenenfalls rückgängig zu machen sind (vgl. Shneiderman 1983, S. 59, 64–65). Diese Kontrolle über den Text bedeutet jedoch nicht zwangsläufig, dass auch bereits ausgelöste Vorgänge zurückgenommen werden können.",
+      "calls": [
+        "call-041"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-10"
+    },
+    {
+      "id": "para-057",
+      "original": "Texteingabe entsteht nicht immer ausschließlich durch selbst eingegebene Zeichen. Systeme können während des Schreibens mögliche Fortsetzungen oder nächste Wörter anbieten. NutzerInnen können solche Vorschläge übernehmen, verändern oder unabhängig davon weiterschreiben. Neben das eigene Formulieren tritt damit die Auswahl aus bereits angebotenem sprachlichem Material. Vorschläge unterscheiden sich dabei von automatischen Korrekturen, da sie zunächst als Möglichkeit erscheinen und nicht ohne Weiteres in den Text übernommen werden (vgl. Quinn/Zhai 2016, S. 83–84; Arnold et al. 2020, PDF-S. 4–5).",
+      "calls": [
+        "call-042"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "id": "para-058",
+      "original": "Solche Vorschläge können einen Teil der Eingabearbeit übernehmen. Wird ein Wort oder eine längere Fortsetzung ausgewählt, müssen weniger Zeichen einzeln eingegeben werden. Gleichzeitig entsteht eine neue Aufgabe: Die angebotenen Optionen müssen wahrgenommen und daraufhin geprüft werden, ob sie zur beabsichtigten Eingabe passen. Weniger Tastenanschläge bedeuten deshalb nicht zwangsläufig eine schnellere oder einfachere Eingabe. Quinn und Zhai zeigen, dass ständig sichtbare Wortvervollständigungen in ihrer Untersuchung zwar die Zahl der benötigten Tastenschläge reduzierten, die Eingabe jedoch verlangsamten (vgl. Quinn/Zhai 2016, S. 83–86). Vorschläge verlagern Eingabearbeit damit teilweise vom Tippen auf das Wahrnehmen und Auswählen.",
+      "calls": [
+        "call-043"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "id": "para-059",
+      "original": "Dabei sind die angebotenen Möglichkeiten bereits durch das System vorausgewählt. Eine Vorschlagsliste zeigt nicht alle denkbaren Fortsetzungen, sondern nur einen kleinen Ausschnitt. Im Versuchsaufbau von Arnold et al. wurden beispielsweise die drei wahrscheinlichsten Wörter beziehungsweise Vervollständigungen eines Sprachmodells angezeigt (vgl. Arnold et al. 2020, PDF-S. 4–5). Welche Formulierungen NutzerInnen leicht auswählen können, hängt damit von der Auswahl des Systems ab. Was das Modell für wahrscheinlich hält, muss jedoch nicht dem entsprechen, was NutzerInnen tatsächlich ausdrücken möchten.",
+      "calls": [
+        "call-044"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "id": "para-060",
+      "original": "Die Möglichkeit, Vorschläge abzulehnen, bedeutet daher nicht, dass die Eingabe von ihrem Einfluss unabhängig bleibt. Bereits ihre Sichtbarkeit kann beeinflussen, welche Formulierungen naheliegend erscheinen und welche Alternativen weniger unmittelbar in Betracht gezogen werden. Arnold et al. zeigen dies anhand frei formulierter Bildbeschreibungen: Mit Wortvorschlägen entstanden im Durchschnitt kürzere Texte, und die Teilnehmenden verwendeten weniger Wörter, die vom Modell nicht vorhergesagt worden waren (vgl. Arnold et al. 2020, PDF-S. 3–7). Obwohl die Eingabe formal offen blieb, näherten sich die entstandenen Texte damit stärker den vom System angebotenen Möglichkeiten an.",
+      "calls": [
+        "call-045"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "id": "para-061",
+      "original": "Die vermeintliche Freiheit eines offenen Texteingabefelds ist deshalb nicht mit einer unbeeinflussten Formulierung gleichzusetzen. Die Auswahl des Systems wird zu einem Teil der Bedingungen, unter denen NutzerInnen ihre Eingabe entwickeln.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "id": "para-062",
+      "original": "Vorschläge können dabei an unterschiedlichen Stellen des Eingabeprozesses ansetzen. Wortvervollständigungen greifen in einen bereits begonnenen Text ein, Suchvorschläge können eine Anfrage ergänzen oder alternative Begriffe anbieten. Promptideen setzen teilweise noch früher an, indem sie mögliche Aufgaben oder Formulierungsrichtungen vorschlagen (vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12).",
+      "calls": [
+        "call-046"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "id": "para-063",
+      "original": "Texteingabe endet nicht zwangsläufig mit dem Absenden. Auf die Reaktion des Systems können eine Bewertung des Ergebnisses und eine weitere Eingabe folgen. Eine solche erneute Eingaberunde lässt sich als Iteration verstehen. Wird die folgende Eingabe dabei sprachlich, inhaltlich oder in ihrem Umfang verändert, handelt es sich zugleich um eine Reformulierung.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-064",
+      "original": "Diese muss nicht auf einen Fehler zurückgehen. Eine neue Formulierung kann auch entstehen, weil sich das Anliegen im Verlauf der Interaktion verändert oder konkretisiert hat.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-065",
+      "original": "Wie NutzerInnen eine Eingabe verändern, hängt davon ab, was sich aus der Reaktion des Systems ableiten lässt. Bei Formularen kann eine Fehlermeldung vergleichsweise klar zeigen, welche Anforderung noch nicht erfüllt ist (vgl. Seckler et al. 2014, S. 1279–1282).",
+      "calls": [
+        "call-047"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-066",
+      "original": "Bei Suchergebnissen oder generierten Antworten ist dagegen oft weniger deutlich, wie die Eingabe verändert werden sollte. Ein unerwünschtes Ergebnis zu erkennen bedeutet noch nicht zu wissen, wie es vermieden werden kann (vgl. Hearst 2009, S. 3, 7–8; Subramonyam et al. 2024, S. 6–8).",
+      "calls": [
+        "call-048"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-067",
+      "original": "Darüber hinaus können Suchergebnisse verändern, wonach NutzerInnen im nächsten Schritt überhaupt suchen. Sie zeigen nicht nur, ob die gewählten Begriffe zum Informationsbedarf passen, sondern können auch neue Begriffe, Zusammenhänge oder Teilaspekte sichtbar machen. Diese können wiederum in eine folgende Anfrage einfließen (vgl. Hearst 2009, S. 3, 7–8).",
+      "calls": [
+        "call-049"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-068",
+      "original": "Reformulierung bedeutet damit nicht nur, dieselbe Frage präziser auszudrücken. Auch das Verständnis dessen, wonach gesucht wird, kann sich im Verlauf der Suche verändern.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-069",
+      "original": "Auch beim Prompting können Antworten des Systems zum Ausgangspunkt weiterer Eingaben werden. NutzerInnen ergänzen oder verändern ihre Instruktionen und beurteilen anschließend die neue Antwort. Eine solche Wiederholung führt jedoch nicht zwangsläufig zu einer verlässlichen Verbesserung.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-070",
+      "original": "Zamfirescu-Pereira et al. untersuchten zehn Personen mit wenig oder keiner Erfahrung im Promptdesign, die mit dem Werkzeug BotDesigner einen vorgegebenen GPT-3-basierten Rezeptchatbot verbessern sollten (vgl. Zamfirescu-Pereira et al. 2023, S. 7–8). In dieser Aufgabe passten die Teilnehmenden ihre Prompts häufig anhand einzelner Antworten an. Erzeugte eine Änderung einmal ein besseres Ergebnis, wurde sie teilweise bereits als erfolgreich bewertet, ohne systematisch zu prüfen, ob sie auch in anderen Fällen funktioniert (vgl. Zamfirescu-Pereira et al. 2023, S. 11–12). Die Bewertung einer Änderung beruhte damit teilweise auf einzelnen erfolgreichen Antworten und nicht auf ihrer wiederholten Überprüfung.",
+      "calls": [
+        "call-050",
+        "call-051"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-071",
+      "original": "Die Reaktion des Systems ist damit nicht nur das Ergebnis einer vorausgegangenen Eingabe, sondern wirkt zugleich auf die nächste Handlung zurück. Sie macht bestimmte Veränderungen der Eingabe plausibel, während andere weniger naheliegend erscheinen. Ein als erfolgreich wahrgenommenes Ergebnis kann dazu führen, dass eine Formulierung beibehalten oder erneut verwendet wird; ein unzureichendes Ergebnis gibt dagegen Anlass, bestimmte Teile der Eingabe zu verändern. NutzerInnen leiten aus diesen Reaktionen ab, was sie verändern könnten, ohne die zugrunde liegende Verarbeitung vollständig zu kennen. Die Gestaltung des Systems nimmt damit unmittelbar Einfluss auf ihr Verhalten, indem Rückmeldungen und Ergebnisse mitbestimmen, welche nächsten Schritte sinnvoll oder erfolgversprechend erscheinen. Das formal offene Texteingabefeld bedeutet daher nicht, dass die weitere Formulierung unabhängig vom System erfolgt. Durch seine Reaktionen prägt das System mit, welche Eingaben NutzerInnen in Betracht ziehen und welche Strategien sie im Verlauf der Interaktion entwickeln. Der Einfluss des Systems kann dabei über die Formulierung der nächsten Eingabe hinausgehen. Auch das angestrebte Ergebnis selbst kann sich im Verlauf der Interaktion verändern. Bei einer Suche kann etwa die Reaktion des Systems Anlass geben, die eigene Fragestellung weiterzuentwickeln und dadurch neue Erkenntnisse zu gewinnen (vgl. Hearst 2009, S. 3, 7–8, 14).“",
+      "calls": [
+        "call-052"
+      ],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-072",
+      "original": "Insgesamt umfasst Texteingabe körperliche Ausführung, das Erschließen von Anforderungen sowie fortlaufende Auswahl und Prüfung. Wie viel davon NutzerInnen übernehmen, hängt auch von den Vorgaben, Vorschlägen und Rückmeldungen des Systems ab. Die Interaktion macht damit sichtbar, wie NutzerInnen Eingaben formulieren, verändern und auf das System reagieren. Sie legt jedoch nicht offen, wie der eingegebene Text technisch verarbeitet wird, nach welchen Kriterien er bewertet wird oder was anschließend mit ihm geschieht. Diese Zusammenhänge untersucht das folgende Kapitel Operation.",
+      "calls": [],
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "id": "para-073",
+      "original": "Ein eingegebener Text ist zunächst eine Zeichenfolge. Welche technische Rolle er erhält und was er bewirken kann, hängt von dem Zusammenhang ab, in dem er verarbeitet wird. Dieselbe Zeichenfolge kann etwa als Befehl, Formularwert, Suchanfrage oder Prompt dienen. Die Absicht der NutzerInnen allein legt diese Rolle nicht fest.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-074",
+      "original": "Dabei lassen sich der sichtbare Text, seine technische Repräsentation und die Operation, in deren Zusammenhang er verarbeitet wird, voneinander unterscheiden. Der eingegebene Text kann einer bestimmten Struktur zugeordnet oder gemeinsam mit weiteren Informationen verarbeitet werden. Was im Eingabefeld sichtbar ist, entspricht daher nicht zwangsläufig der vollständigen technischen Eingabe.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-075",
+      "original": "In der Command Line lässt sich die Abhängigkeit vom technischen Kontext besonders deutlich beobachten. Bei der Eingabe mkdir entwurf übernehmen die Bestandteile unterschiedliche Rollen: mkdir bezeichnet eine Utility zur Erstellung von Verzeichnissen, während entwurf als Operand angibt, welches Verzeichnis erzeugt werden soll (vgl. IEEE/The Open Group 2024, mkdir). Innerhalb einer entsprechenden Befehlsumgebung kann die Zeichenfolge damit die Erstellung eines Verzeichnisses auslösen. Wird mkdir entwurf dagegen in ein Suchfeld eingegeben, wird dieselbe Zeichenfolge als Suchanfrage behandelt. Ihre technische Funktion ergibt sich somit nicht aus dem sichtbaren Text allein, sondern aus dem Zusammenhang, in dem er verarbeitet wird.",
+      "calls": [
+        "call-053"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-076",
+      "original": "Bei einem Formular wird der eingegebene Text innerhalb einer vorgegebenen Struktur weiterverarbeitet. Bei der regulären HTML-Übermittlung werden die berücksichtigten Eingaben als Name-Wert-Einträge zusammengestellt: NutzerInnen bestimmen den eingegebenen Wert, während seine technische Zuordnung durch das jeweilige Formular bereits festgelegt ist (vgl. WHATWG 2026, Abschn. 4.10.22.4). Die technisch wirksame Eingabe umfasst damit nicht nur den sichtbaren Text, sondern auch die Struktur, innerhalb derer er als bestimmter Wert behandelt wird.",
+      "calls": [
+        "call-054"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-077",
+      "original": "Bei einem Suchfeld richtet sich die eingegebene Zeichenfolge an eine bereits vorbereitete Informationsgrundlage. Eine Websuche durchsucht nicht erst im Moment der Anfrage das gesamte Web, sondern greift auf zuvor erfasste und indexierte Inhalte zurück. Welche Ergebnisse verfügbar werden können, hängt daher bereits davon ab, welche Inhalte in dieser Grundlage enthalten sind (vgl. Brin/Page 1998, S. 111–112; Google 2025, „In-depth guide to how Google Search works“, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026).",
+      "calls": [
+        "call-055"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-078",
+      "original": "Zugleich muss die sichtbare Zeichenfolge nicht die einzige Information sein, die bei der Verarbeitung berücksichtigt wird. Google nennt unter anderem Standort, Sprache und Gerät als mögliche Kontextinformationen für die Bereitstellung von Suchergebnissen (vgl. Google 2025, „In-depth guide to how Google Search works“, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026). Ergebnisse können dadurch an nutzer- und situationsbezogene Bedingungen angepasst werden, ohne dass aus ihrer Darstellung unmittelbar hervorgeht, welche dieser Informationen berücksichtigt wurden. NutzerInnen können daher dieselbe Zeichenfolge eingeben und dennoch Ergebnisse erhalten, die durch weitere, im Suchfeld nicht sichtbare Faktoren mitbestimmt sind. Auf einige dieser Bedingungen können sie zudem nur begrenzt Einfluss nehmen. Die scheinbar offene Suche richtet sich somit stets auf eine bereits strukturierte Informationsgrundlage und wird zugleich in einem Kontext verarbeitet, den NutzerInnen weder vollständig einsehen noch allein bestimmen.",
+      "calls": [
+        "call-056"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-079",
+      "original": "Bei einem Promptfeld kann der aktuell formulierte Text nur einen Teil des Verarbeitungskontexts bilden. Neben der aktuellen Nutzereingabe können etwa frühere Gesprächsteile oder zusätzliche Anweisungen berücksichtigt werden (vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026). Entscheidend ist dabei nicht nur, welcher Text in diesem Kontext enthalten ist, sondern auch, welche Rolle ihm innerhalb der Verarbeitung zugewiesen wird.",
+      "calls": [
+        "call-057"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-080",
+      "original": "In der dokumentierten OpenAI API werden beispielsweise Entwickler- und Nutzernachrichten unterschieden und mit unterschiedlichen Prioritäten behandelt (vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026). Die Anweisung aus dem sichtbaren Eingabefeld ist damit nicht zwangsläufig die einzige oder vorrangige Anweisung, die in die Verarbeitung eingeht. Welche weiteren Bestandteile vorhanden sind und wie sie zueinander stehen, wird durch die jeweilige Anwendung mitbestimmt.",
+      "calls": [
+        "call-058"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-081",
+      "original": "Die sprachliche Offenheit des Promptfelds bedeutet daher nicht, dass auch die Bedingungen seiner Verarbeitung offen sind. NutzerInnen können frei formulieren, ohne damit allein festzulegen, in welchem Kontext und unter welchen weiteren Anweisungen ihre Eingabe verarbeitet wird.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-082",
+      "original": "Autorenschaft über den Text bedeutet nicht zugleich vollständige Kontrolle über seine technische Einbettung. NutzerInnen können ihre Eingabe selbst formulieren und bearbeiten, ohne allein festzulegen, welche technische Rolle sie erhält und mit welchen weiteren Informationen sie verarbeitet wird. Entscheidend ist daher, welche dieser Bedingungen sie erkennen und verändern können. Bleiben solche Bedingungen unsichtbar, kann dies die Nachvollziehbarkeit der technischen Verwendung begrenzen.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "id": "para-083",
+      "original": "Eine Eingabe wird nicht notwendig erst mit dem Absenden verarbeitet. Bereits während der Eingabe können technische Vorgänge ausgelöst werden, ohne dass der aktuelle Text schon als fertige Anfrage übermittelt oder eine damit verbundene Operation ausgeführt wurde.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-084",
+      "original": "Bei HTML-Eingabefeldern lassen sich etwa die Veränderung eines Feldwerts und die spätere Übermittlung eines Formulars unterscheiden (vgl. WHATWG 2026, Abschn. 4.10.5.5 und 4.10.22.3). Besonders deutlich wird diese Trennung bei Suchfeldern. Chromium kann bereits während der Eingabe Suchvorschläge abrufen und unter bestimmten Bedingungen eine Ergebnisseite für eine vorhergesagte Suchanfrage vorladen, bevor NutzerInnen diese Anfrage tatsächlich bestätigen (vgl. The Chromium Projects, o. J., Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026).",
+      "calls": [
+        "call-059",
+        "call-060"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-085",
+      "original": "Feldänderung, Übermittlung und Ausführung sind deshalb als unterschiedliche Vorgänge zu betrachten. Das Absenden kann einen weiteren Verarbeitungsschritt auslösen, markiert aber nicht grundsätzlich deren Beginn.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-086",
+      "original": "Je nach Eingabesystem führt eine Eingabe zu unterschiedlichen Formen der Verarbeitung.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-087",
+      "original": "In der Command Line kann eine Eingabe eine festgelegte Programmfunktion auslösen (vgl. IEEE/The Open Group 2024, mkdir).",
+      "calls": [
+        "call-061"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-088",
+      "original": "Bei Formularen steht dagegen die Prüfung einer Eingabe gegen festgelegte Anforderungen im Vordergrund (vgl. WHATWG 2026, Abschn. 4.10.21).",
+      "calls": [
+        "call-062"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-089",
+      "original": "Bei einer Suche werden mögliche Treffer aus einer vorhandenen Informationsgrundlage ermittelt und in eine Rangordnung gebracht (vgl. Brin/Page 1998, S. 109–113).",
+      "calls": [
+        "call-063"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-090",
+      "original": "Bei einem Sprachmodell entsteht die Ausgabe wiederum schrittweise. Auf Grundlage des bisherigen Kontexts werden mögliche folgende Tokens gewichtet und nacheinander erzeugt. Die Antwort entsteht dadurch als Folge einzelner Vorhersagen (vgl. Radford et al. 2019, PDF-S. 2, 4 und 6).",
+      "calls": [
+        "call-064"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-091",
+      "original": "Diese Verfahren unterscheiden sich deutlich. Gemeinsam ist ihnen jedoch, dass zwischen Eingabe und Ergebnis jeweils ein technisches Verfahren steht. Die Verarbeitung einer Eingabe folgt dabei unterschiedlichen Maßstäben. Sie bestimmen mit, welche Eingaben akzeptiert, welche Treffer höher eingeordnet und welche Antworten als erwünscht behandelt werden.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-092",
+      "original": "Bei Command Line und Formular sind die Maßstäbe der Verarbeitung vergleichsweise klar festgelegt. Ein Befehl stellt bestimmte Funktionen bereit, ein Formular kann bestimmte Anforderungen an eine Eingabe stellen. Diese Bedingungen sind jedoch nicht durch die Eingabe selbst gegeben, sondern wurden zuvor festgelegt.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-093",
+      "original": "Bei mkdir ist beispielsweise definiert, welche Funktion der Befehl ausführt und welche Bedeutung seine Operanden besitzen (vgl. IEEE/The Open Group 2024, mkdir). NutzerInnen können entscheiden, ob und mit welchem Verzeichnisnamen sie diese Funktion verwenden. Welche Funktion überhaupt zur Verfügung steht und wie sie aufgerufen wird, bestimmen sie damit jedoch nicht.",
+      "calls": [
+        "call-065"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-094",
+      "original": "Ähnlich verhält es sich bei Formularen. HTML stellt verschiedene Möglichkeiten bereit, Eingaben auf ihre Gültigkeit zu prüfen. Welche Felder ein konkretes Formular enthält und welche Anforderungen dabei gelten, wird jedoch erst in der jeweiligen Anwendung festgelegt (vgl. WHATWG 2026, Abschn. 4.10.21).",
+      "calls": [
+        "call-066"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-095",
+      "original": "In beiden Fällen bewegen sich NutzerInnen innerhalb bereits bestimmter Handlungsmöglichkeiten.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-096",
+      "original": "Bei einer Suche ist der Maßstab weniger eindeutig. Zwischen einer Anfrage und möglichen Treffern besteht keine einfache Entsprechung, aus der sich eine einzige richtige Reihenfolge ergeben würde. Suchsysteme müssen deshalb Merkmale auswählen, anhand derer sie einschätzen, welche Inhalte für eine Anfrage besonders relevant sind.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-097",
+      "original": "Bereits Brin und Page beschreiben, dass Suchsysteme verschiedene Kriterien miteinander verbinden, etwa die Übereinstimmung von Suchbegriffen mit Texten und die Verlinkung zwischen Webseiten (vgl. Brin/Page 1998, S. 109–113). Welche Kriterien berücksichtigt und wie stark sie gewichtet werden, beeinflusst, welche Inhalte in den Suchergebnissen erscheinen und an welcher Position sie stehen.",
+      "calls": [
+        "call-067"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-098",
+      "original": "Relevanz ist damit nicht einfach eine Eigenschaft, die einem Inhalt von sich aus zukommt. Sie wird auch dadurch hergestellt, nach welchen Kriterien ein Suchsystem Inhalte bewertet und ordnet. Gillespie weist entsprechend darauf hin, dass algorithmische Relevanz auf Entscheidungen darüber beruht, welche Informationen für die Bewertung als bedeutsam gelten und wie sie gewichtet werden (vgl. Gillespie 2014, S. 175–179, 183–187).",
+      "calls": [
+        "call-068"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-099",
+      "original": "Auch die Weiterentwicklung dieser Kriterien setzt Entscheidungen darüber voraus, was als gutes Suchergebnis gelten soll. Google beschreibt hierfür unter anderem Bewertungen durch Search Quality Rater, Vergleiche verschiedener Ergebnisvarianten und Experimente mit realem Suchverkehr. Auch das Verhalten von NutzerInnen kann dabei herangezogen werden, um Veränderungen am Suchsystem zu bewerten (vgl. Google, o. J., Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026).",
+      "calls": [
+        "call-069"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-100",
+      "original": "NutzerInnen sind damit nicht vollständig außerhalb dieser Bewertungsprozesse. Ihr Verhalten kann zur Beurteilung eines Suchsystems beitragen. Sie bestimmen jedoch nicht im gleichen Maß darüber, welche Merkmale berücksichtigt, wie sie interpretiert und welche Veränderungen daraus abgeleitet werden (vgl. Google, o. J., Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026; Gillespie 2014, S. 185–187).",
+      "calls": [
+        "call-070"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-101",
+      "original": "Eine Suchanfrage lässt sich verändern. Die Regeln, nach denen mögliche Ergebnisse ausgewählt und geordnet werden, lassen sich dadurch jedoch nicht gleichermaßen verändern. Die Frage nach einem relevanten Ergebnis ist deshalb zugleich eine Frage danach, wessen Vorstellung von Relevanz in der Rangordnung wirksam wird.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-102",
+      "original": "Bei einem Sprachmodell ergibt sich aus der Wahrscheinlichkeit möglicher nächster Tokens noch kein Maßstab dafür, ob eine Antwort sachlich richtig, hilfreich oder angemessen ist. Die statistische Vorhersage von Text und die Bewertung einer Antwort sind deshalb voneinander zu unterscheiden (vgl. Ouyang et al. 2022, S. 1–2, 6–8).",
+      "calls": [
+        "call-071"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-103",
+      "original": "Sprachmodelle können zusätzlich darauf trainiert werden, bestimmte Antwortweisen gegenüber anderen zu bevorzugen. Ein historisches Beispiel ist das auf GPT-3 aufbauende InstructGPT. Hier wurden menschliche Demonstrationen und Vergleiche verschiedener Modellausgaben für das weitere Training verwendet (vgl. Ouyang et al. 2022, S. 2, 4–6). Als Maßstäbe nannten die Forschenden Hilfreichsein, Wahrhaftigkeit und Schadensvermeidung. Konkretisiert wurden sie durch die Urteile ausgewählter Bewertender (vgl. Ouyang et al. 2022, S. 2, 5–6).",
+      "calls": [
+        "call-072",
+        "call-073"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-104",
+      "original": "Dass solche Maßstäbe nicht immer eindeutig miteinander vereinbar sind, zeigt sich am Beispiel von Sycophancy. Sharma et al. untersuchen Fälle, in denen Modelle dazu tendieren, einer in der Anfrage vertretenen Position zuzustimmen, obwohl eine sachliche Prüfung zu einem anderen Ergebnis führen würde (vgl. Sharma et al. 2024, S. 3–9). Eine Antwort kann dadurch zustimmend und für NutzerInnen zunächst angenehm erscheinen, ohne zugleich sachlich angemessen zu sein.",
+      "calls": [
+        "call-074"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-105",
+      "original": "Damit stellt sich auch die Frage, welche Ziele bei der Gestaltung und Weiterentwicklung solcher Systeme verfolgt und gegeneinander abgewogen werden. Wahrhaftigkeit und sachliche Angemessenheit können dabei neben Zielen wie Nutzerzufriedenheit, Nutzungshäufigkeit oder langfristiger Bindung stehen. Diese Ziele können im Gegensatz zueinander stehen. Entscheidend ist daher, welche Vorstellung einer guten Antwort im System wirksam wird und wer darüber bestimmt, nach welchen Kriterien Antworten bevorzugt werden.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-106",
+      "original": "Ranking betrifft nicht allein das Finden, sondern ebenso das Gefundenwerden. Bei Suchmaschinen zeigt sich das in der Search Engine Optimization. Anbieter versuchen, Inhalte so zu gestalten, dass sie von Suchsystemen besser erfasst und möglichst weit oben eingeordnet werden. Dabei orientieren sie sich an bekannten oder vermuteten Kriterien des Rankings. Die Auswahlregeln einer Suchmaschine werden damit selbst zu Bedingungen, an denen andere Akteure ihr Handeln ausrichten (vgl. Gillespie 2014, S. 183–187).",
+      "calls": [
+        "call-075"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-107",
+      "original": "Auch im Zusammenhang mit Large Language Models wird untersucht, wie sich die Sichtbarkeit externer Quellen in generierten Antworten beeinflussen lässt. Aggarwal et al. bezeichnen diesen Ansatz als Generative Engine Optimization. Untersucht werden dabei Systeme, die für die Generierung einer Antwort auf externe Quellen zurückgreifen. Durch gezielte Veränderungen an Quellentexten soll erreicht werden, dass diese in den erzeugten Antworten häufiger oder prominenter berücksichtigt werden. Im untersuchten Versuchsaufbau ließ sich die Präsenz einzelner Quellen auf diese Weise beeinflussen, wobei die Wirkung je nach Strategie und Themenbereich unterschiedlich ausfiel (vgl. Aggarwal et al. 2024, PDF-S. 2–9, 12).",
+      "calls": [
+        "call-076"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-108",
+      "original": "SEO und GEO unterscheiden sich in ihren konkreten Verfahren. Gemeinsam ist ihnen jedoch, dass Inhaltsanbieter versuchen, die Bedingungen eines Auswahlprozesses zu verstehen und ihre Inhalte daran anzupassen. Das Ergebnis einer Eingabe hängt somit auch von Inhalten ab, die andere Akteure mit Blick auf ihre Sichtbarkeit gestaltet haben, etwa um eigene kommerzielle Interessen zu verfolgen (vgl. Gillespie 2014, S. 176–177, 183–185; Aggarwal et al. 2024, PDF-S. 1–3).",
+      "calls": [
+        "call-077"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-109",
+      "original": "Zwischen einer Eingabe und ihrem Ergebnis stehen damit nicht nur technische Verfahren, sondern auch Maßstäbe, anhand derer etwas ausgeführt, akzeptiert, ausgewählt oder als erwünscht behandelt wird. Diese Maßstäbe ergeben sich nicht allein aus der Eingabe, sondern werden durch technische Standards, die Gestaltung und Implementierung eines Systems sowie durch Entscheidungen seiner EntwicklerInnen und Betreiber mitbestimmt. In ihnen können sich damit unterschiedliche Interessen, Zielsetzungen und Vorstellungen darüber niederschlagen, welches Ergebnis als geeignet oder erwünscht gilt.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "id": "para-110",
+      "original": "Neben den Verfahren und Maßstäben der Verarbeitung ist zu betrachten, wohin die Daten einer Eingabe gelangen und wofür sie verwendet werden. Eine Eingabe wird nicht nur verarbeitet, um eine unmittelbare Antwort oder Handlung hervorzubringen. Daten werden übertragen, gespeichert, mit weiteren Angaben verknüpft und können über die einzelne Interaktion hinaus in technische und organisatorische Prozesse eingehen. Dabei umfasst die Verarbeitung nicht nur den sichtbaren Text, sondern auch weitere Daten wie NutzerInnen-Kennungen oder technisch abgeleitete Informationen (vgl. FTC 2023, Complaint, Rn. 46–50; OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026).",
+      "calls": [
+        "call-078"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-111",
+      "original": "Mit dem Abschluss einer Anfrage endet die Verarbeitung dieser Daten nicht zwangsläufig. Für die OpenAI-API dokumentiert der Anbieter beispielsweise die Speicherung von Prompts, erzeugten Antworten und zugehörigen Metadaten in Protokollen. (vgl. OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026).",
+      "calls": [
+        "call-079"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-112",
+      "original": "Speicherung ist dabei selbst eine technische und organisatorische Entscheidung. Auch wenn sie der Bereitstellung einer angeforderten Funktion dient, wird festgelegt, welche Daten dafür aufbewahrt werden, wie lange dies geschieht und welche weiteren Verwendungen vorgesehen sind (vgl. exemplarisch OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026). Die Kontrolle über den eingegebenen Text endet für NutzerInnen daher nicht erst dort, wo Daten für einen anderen Zweck verwendet werden, sondern bereits dort, wo sie nicht selbst bestimmen können, welche Daten nach der Eingabe erhalten bleiben und wie mit ihnen weiter verfahren wird.",
+      "calls": [
+        "call-080"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-113",
+      "original": "Dass eine Eingabe für einen weiteren Zweck verwendet wird, lässt sich am ursprünglichen textbasierten reCAPTCHA zeigen. Das 2008 vorgestellte System verband eine Sicherheitsprüfung mit der Digitalisierung gedruckter Texte. NutzerInnen sollten zwei Wörter entziffern: eines, dessen Lösung dem System bereits bekannt war, und ein weiteres aus einem digitalisierten Buch, das von der automatischen Texterkennung nicht zuverlässig erkannt worden war (vgl. von Ahn et al. 2008, S. 1465–1466).",
+      "calls": [
+        "call-081"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-114",
+      "original": "Die Antwort auf das bekannte Wort diente dazu zu prüfen, ob die Eingabe wahrscheinlich von einem Menschen stammte. Wurde dieses Wort richtig erkannt, konnte auch die Antwort auf das unbekannte Wort als mögliche Transkription berücksichtigt und mit den Eingaben weiterer NutzerInnen sowie vorhandenen OCR-Ergebnissen abgeglichen werden. Eine Eingabe erfüllte damit zwei Aufgaben zugleich: Sie ermöglichte den Zugang zu einem Dienst und trug zur Digitalisierung alter Bücher bei (vgl. von Ahn et al. 2008, S. 1466).",
+      "calls": [
+        "call-082"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-115",
+      "original": "Ein Fall formularbasierter Datenerhebung ist der Online-Beratungsdienst BetterHelp. Nach Darstellung der US-amerikanischen Verbraucherschutz- und Wettbewerbsbehörde Federal Trade Commission (FTC) dienten Angaben aus einem Aufnahmefragebogen der Zuordnung zu passenden TherapeutInnen; bei der anschließenden Kontoanlage wurden unter anderem Name und E-Mail-Adresse eingegeben. Zugleich habe BetterHelp zugesichert, dass die Angaben aus dem Fragebogen zwischen NutzerInnen und TherapeutInnen vertraulich blieben (vgl. FTC 2023, Complaint vom 7. Juli 2023, Rn. 11–13, 23–27).",
+      "calls": [
+        "call-083"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-116",
+      "original": "Die FTC warf BetterHelp vor, bestimmte Angaben und Kennungen dennoch für Werbezwecke an Facebook übermittelt zu haben. So sei die Angabe einer früheren Therapie als Werbeereignis codiert und zur erneuten Werbeansprache sowie zur Optimierung von Anzeigen genutzt worden (vgl. FTC 2023, Complaint, Rn. 53b und 54). Das Beispiel zeigt, dass Angaben, die NutzerInnen für einen bestimmten Zweck eingeben, technisch auch in andere Verwendungszusammenhänge überführt werden können. Welche Funktion eine Eingabe für NutzerInnen erfüllt, legt somit nicht zwangsläufig fest, wofür die daraus entstehenden Daten anschließend verwendet werden.",
+      "calls": [
+        "call-084"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-117",
+      "original": "Eine weitere Form der Weiterverwendung besteht darin, aus vorhandenem Text zusätzliche Informationen abzuleiten. Staab et al. zeigen, dass KI-Systeme anhand ausgewählter Reddit-Beiträge Rückschlüsse auf persönliche Merkmale wie Wohnort, Alter oder Beruf ziehen konnten. Als Hinweise dienten dabei etwa regionaltypische Ausdrücke oder Beschreibungen von Alltagssituationen(vgl. Staab et al. 2024, S. 1–3, 4–9). Das Beispiel macht deutlich, dass Texte Informationen über ihre VerfasserInnen enthalten können, die nicht ausdrücklich eingegeben wurden und dennoch technisch erschlossen werden können.",
+      "calls": [
+        "call-085"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "id": "para-118",
+      "original": "Dass ein System auf eine Eingabe reagiert, macht die dadurch ausgelösten Vorgänge nicht vollständig sichtbar. Eine Bestätigung, Fehlermeldung, Ergebnisliste oder generierte Antwort zeigt zunächst nur einen Ausschnitt der Verarbeitung. Bei einem Formular kann etwa erkennbar sein, ob eine Eingabe akzeptiert wurde, ohne dass weitere Verarbeitungsschritte sichtbar werden. Bei einer Suche lassen sich die angezeigten Ergebnisse betrachten, während die Gründe für ihre Auswahl und Reihenfolge nur begrenzt erkennbar sind (vgl. Gillespie 2014, S. 176–177). Ebenso kann eine generierte Antwort gelesen und bewertet werden, ohne dass daraus hervorgeht, unter welchen Bedingungen sie entstanden ist (vgl. Subramonyam et al. 2024, S. 6–8, 11–12).",
+      "calls": [
+        "call-086",
+        "call-087"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "id": "para-119",
+      "original": "Auch ein sichtbares Ergebnis ist nicht zwangsläufig verlässlich prüfbar. Eine Antwort kann überzeugend formuliert sein oder Quellen nennen, ohne dass damit bereits geklärt ist, ob ihre Aussagen zutreffen oder warum gerade diese Informationen ausgewählt wurden. Für die Beurteilung eines Ergebnisses ist daher nicht nur relevant, dass es sichtbar vorliegt, sondern auch, welche Informationen über sein Zustandekommen und welche Möglichkeiten zu seiner Überprüfung verfügbar sind.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "id": "para-120",
+      "original": "Auch die Möglichkeit, auf ein Ergebnis zu reagieren, bedeutet nicht, bereits ausgelöste Vorgänge vollständig kontrollieren zu können. Einen Text zu bearbeiten, eine neue Verarbeitung anzustoßen oder zuvor entstandene Daten zu löschen sind unterschiedliche Eingriffe mit jeweils eigener technischer Reichweite. Dies zeigt sich etwa bei Löschvorgängen. Im BetterHelp-Fall beschreibt die FTC, dass Angaben, die aus Werbeplattformen entfernt wurden, dadurch nicht zugleich aus den Datenbanken der beteiligten Drittanbieter gelöscht waren (vgl. FTC 2023, Complaint, Rn. 57–58). Eine sichtbare Möglichkeit zum Löschen oder Zurücknehmen gibt daher noch keinen vollständigen Aufschluss darüber, welche Datenbestände und zuvor ausgelösten Vorgänge tatsächlich davon erfasst werden.",
+      "calls": [
+        "call-088"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "id": "para-121",
+      "original": "Entscheidend ist somit, welchen Teil der zugrunde liegenden Operation Rückmeldungen und Eingriffsmöglichkeiten tatsächlich sichtbar oder veränderbar machen. Die Möglichkeit, einen Text frei einzugeben, bedeutet nicht zugleich, über das dadurch Ausgelöste verfügen zu können. NutzerInnen bestimmen zwar, was sie formulieren, jedoch nur begrenzt, in welchem technischen Kontext ihre Eingabe wirksam wird, nach welchen Maßstäben Ergebnisse entstehen, wie Daten weiterverwendet werden und welche Resultate anschließend noch verändert werden können. Diese Bedingungen werden durch technische Standards sowie durch Entscheidungen von EntwicklerInnen, Betreibern und weiteren beteiligten Stellen bestimmt (vgl. Akrich 1992, S. 207–209, 216; Gillespie 2014, S. 183–187).",
+      "calls": [
+        "call-089"
+      ],
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "id": "para-122",
+      "original": "Surface, Interaction und Operation greifen damit ineinander. Die Oberfläche macht bestimmte Möglichkeiten und Bedingungen sichtbar, die Interaktion beschreibt, wie NutzerInnen innerhalb dieser Bedingungen handeln und ihre Eingaben verändern, und die Operation umfasst die technischen Zusammenhänge, in denen diese Eingaben verarbeitet und wirksam werden. Die Einfachheit der sichtbaren Texteingabe steht damit technischen Bedingungen und Folgen gegenüber, die für NutzerInnen nur teilweise erkennbar und beeinflussbar sind.",
+      "calls": [],
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "id": "para-123",
+      "original": "Die Texteingabe erscheint als einfache und vertraute Handlung, findet jedoch nie voraussetzungslos statt. Auch ein offen wirkendes Eingabefeld ist an technische, gestalterische und institutionelle Bedingungen gebunden. NutzerInnen können innerhalb dieser Bedingungen formulieren, auswählen, korrigieren und reagieren, bestimmen sie jedoch nur teilweise selbst.",
+      "calls": [],
+      "chapter_id": "chapter-05",
+      "section_id": "section-18"
+    },
+    {
+      "id": "para-124",
+      "original": "Damit ist auch die vermeintliche Offenheit der Texteingabe begrenzt. Hinweise, Vorschläge, Korrekturen oder vorgegebene Handlungsmöglichkeiten können Orientierung bieten und das Eingeben erleichtern. Gleichzeitig lenken sie Aufmerksamkeit und Verhalten. In der Interaktion mit einem Eingabefeld sind NutzerInnen deshalb zwangsläufig auch den Interessen und Entscheidungen anderer Akteure ausgesetzt. EntwicklerInnen und Betreiber bestimmen mit, welche Möglichkeiten angeboten werden, welche Eingaben erwünscht oder verwertbar sind und was mit ihnen geschieht.",
+      "calls": [],
+      "chapter_id": "chapter-05",
+      "section_id": "section-18"
+    },
+    {
+      "id": "para-125",
+      "original": "Besonders deutlich wird dabei die Unterscheidung zwischen der Kontrolle über die eigene Formulierung und der Kontrolle über ihre weitere Verarbeitung. NutzerInnen können entscheiden, was sie eingeben und häufig auch, wie sie ihre Eingabe verändern. Daraus folgt jedoch nicht, dass sie ebenso bestimmen oder vollständig nachvollziehen können, wie diese Eingabe bewertet, gespeichert, verarbeitet oder weiterverwendet wird.",
+      "calls": [],
+      "chapter_id": "chapter-05",
+      "section_id": "section-18"
+    },
+    {
+      "id": "para-126",
+      "original": "Für die Gestaltung von Texteingaben reicht es deshalb nicht aus, lediglich ihre Bedienung möglichst einfach erscheinen zu lassen. Ebenso entscheidend ist, welche Bedingungen einer Eingabe sichtbar werden, welche Handlungsmöglichkeiten tatsächlich bestehen und wie verständlich ihre Grenzen vermittelt werden.",
+      "calls": [],
+      "chapter_id": "chapter-05",
+      "section_id": "section-18"
+    },
+    {
+      "id": "para-127",
+      "original": "Entscheidend ist damit nicht allein, was sich in ein Textfeld eingeben lässt, sondern unter welchen Bedingungen diese Eingabe wirksam wird und wer über diese Bedingungen verfügt.",
+      "calls": [],
+      "chapter_id": "chapter-05",
+      "section_id": "section-18"
+    }
+  ],
+  "notes": [
+    {
+      "number": 1,
+      "id": "fn-001",
+      "call_id": "call-001",
+      "marker": "⁰¹",
+      "original": "(vgl. Norman 2008)",
+      "body_html": "Vgl. Norman 2008.",
+      "references": [
+        {
+          "text": "Norman 2008",
+          "key": "normanSignifiersNotAffordances2008"
+        }
+      ],
+      "paragraph_id": "para-008",
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "number": 2,
+      "id": "fn-002",
+      "call_id": "call-002",
+      "marker": "⁰²",
+      "original": "(vgl. Shneiderman 1983, S. 57–59)",
+      "body_html": "Vgl. Shneiderman 1983, S. 57–59.",
+      "references": [
+        {
+          "text": "Shneiderman 1983, S. 57–59",
+          "key": "shneidermanDirectManipulationStep1983"
+        }
+      ],
+      "paragraph_id": "para-009",
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "number": 3,
+      "id": "fn-003",
+      "call_id": "call-003",
+      "marker": "⁰³",
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.5 und 4.10.11)",
+      "body_html": "Vgl. WHATWG 2026, Abschn. 4.10.5 und 4.10.11.",
+      "references": [
+        {
+          "text": "WHATWG 2026, Abschn. 4.10.5 und 4.10.11",
+          "key": "whatwgHTMLStandard2026"
+        }
+      ],
+      "paragraph_id": "para-010",
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "number": 4,
+      "id": "fn-004",
+      "call_id": "call-004",
+      "marker": "⁰⁴",
+      "original": "(vgl. Akrich 1992, S. 207–209)",
+      "body_html": "Vgl. Akrich 1992, S. 207–209.",
+      "references": [
+        {
+          "text": "Akrich 1992, S. 207–209",
+          "key": "akrichDeScriptionTechnical1992"
+        }
+      ],
+      "paragraph_id": "para-014",
+      "chapter_id": "chapter-02",
+      "section_id": "section-03"
+    },
+    {
+      "number": 5,
+      "id": "fn-005",
+      "call_id": "call-005",
+      "marker": "⁰⁵",
+      "original": "(vgl. Norman 2008; Hearst 2009, S. 18–19)",
+      "body_html": "Vgl. Norman 2008; Hearst 2009, S. 18–19.",
+      "references": [
+        {
+          "text": "Norman 2008",
+          "key": "normanSignifiersNotAffordances2008"
+        },
+        {
+          "text": "Hearst 2009, S. 18–19",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-015",
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "number": 6,
+      "id": "fn-006",
+      "call_id": "call-006",
+      "marker": "⁰⁶",
+      "original": "(vgl. Hearst 2009, S. 18–19)",
+      "body_html": "Vgl. Hearst 2009, S. 18–19.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 18–19",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-016",
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "number": 7,
+      "id": "fn-007",
+      "call_id": "call-007",
+      "marker": "⁰⁷",
+      "original": "(vgl. Akrich 1992, S. 207–209; Subramonyam et al. 2024, PDF-S. 9–12)",
+      "body_html": "Vgl. Akrich 1992, S. 207–209; Subramonyam et al. 2024, PDF-S. 9–12.",
+      "references": [
+        {
+          "text": "Akrich 1992, S. 207–209",
+          "key": "akrichDeScriptionTechnical1992"
+        },
+        {
+          "text": "Subramonyam et al. 2024, PDF-S. 9–12",
+          "key": "subramonyamBridgingGulfEnvisioning2024"
+        }
+      ],
+      "paragraph_id": "para-019",
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "number": 8,
+      "id": "fn-008",
+      "call_id": "call-008",
+      "marker": "⁰⁸",
+      "original": "(vgl. Chen et al. 2024, S. 3639–3643)",
+      "body_html": "Vgl. Chen et al. 2024, S. 3639–3643.",
+      "references": [
+        {
+          "text": "Chen et al. 2024, S. 3639–3643",
+          "key": "chenEffectsAnthropomorphicDesign2024"
+        }
+      ],
+      "paragraph_id": "para-020",
+      "chapter_id": "chapter-02",
+      "section_id": "section-04"
+    },
+    {
+      "number": 9,
+      "id": "fn-009",
+      "call_id": "call-009",
+      "marker": "⁰⁹",
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1278, 1282)",
+      "body_html": "Vgl. Seckler et al. 2014, S. 1276–1278, 1282.",
+      "references": [
+        {
+          "text": "Seckler et al. 2014, S. 1276–1278, 1282",
+          "key": "secklerDesigningUsableWeb2014"
+        }
+      ],
+      "paragraph_id": "para-023",
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "number": 10,
+      "id": "fn-010",
+      "call_id": "call-010",
+      "marker": "¹⁰",
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1278; Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12)",
+      "body_html": "Vgl. Seckler et al. 2014, S. 1276–1278; Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12.",
+      "references": [
+        {
+          "text": "Seckler et al. 2014, S. 1276–1278",
+          "key": "secklerDesigningUsableWeb2014"
+        },
+        {
+          "text": "Hearst 2009, S. 11–13",
+          "key": "hearstSearchUserInterfaces2009"
+        },
+        {
+          "text": "Subramonyam et al. 2024, PDF-S. 11–12",
+          "key": "subramonyamBridgingGulfEnvisioning2024"
+        }
+      ],
+      "paragraph_id": "para-026",
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "number": 11,
+      "id": "fn-011",
+      "call_id": "call-011",
+      "marker": "¹¹",
+      "original": "(vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12; Akrich 1992, S. 207–209)",
+      "body_html": "Vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12; Akrich 1992, S. 207–209.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 11–13",
+          "key": "hearstSearchUserInterfaces2009"
+        },
+        {
+          "text": "Subramonyam et al. 2024, PDF-S. 11–12",
+          "key": "subramonyamBridgingGulfEnvisioning2024"
+        },
+        {
+          "text": "Akrich 1992, S. 207–209",
+          "key": "akrichDeScriptionTechnical1992"
+        }
+      ],
+      "paragraph_id": "para-028",
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "number": 12,
+      "id": "fn-012",
+      "call_id": "call-012",
+      "marker": "¹²",
+      "original": "(vgl. Luguri/Strahilevitz 2021, S. 71–76)",
+      "body_html": "Vgl. Luguri/Strahilevitz 2021, S. 71–76.",
+      "references": [
+        {
+          "text": "Luguri/Strahilevitz 2021, S. 71–76",
+          "key": "luguriShiningLightDark2021"
+        }
+      ],
+      "paragraph_id": "para-030",
+      "chapter_id": "chapter-02",
+      "section_id": "section-05"
+    },
+    {
+      "number": 13,
+      "id": "fn-013",
+      "call_id": "call-013",
+      "marker": "¹³",
+      "original": "(vgl. Shneiderman 1983, S. 57–59)",
+      "body_html": "Vgl. Shneiderman 1983, S. 57–59.",
+      "references": [
+        {
+          "text": "Shneiderman 1983, S. 57–59",
+          "key": "shneidermanDirectManipulationStep1983"
+        }
+      ],
+      "paragraph_id": "para-032",
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "number": 14,
+      "id": "fn-014",
+      "call_id": "call-014",
+      "marker": "¹⁴",
+      "original": "(vgl. Hearst 2009, S. 11–13, 18–19)",
+      "body_html": "Vgl. Hearst 2009, S. 11–13, 18–19.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 11–13, 18–19",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-034",
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "number": 15,
+      "id": "fn-015",
+      "call_id": "call-015",
+      "marker": "¹⁵",
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1278, 1282)",
+      "body_html": "Vgl. Seckler et al. 2014, S. 1276–1278, 1282.",
+      "references": [
+        {
+          "text": "Seckler et al. 2014, S. 1276–1278, 1282",
+          "key": "secklerDesigningUsableWeb2014"
+        }
+      ],
+      "paragraph_id": "para-035",
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "number": 16,
+      "id": "fn-016",
+      "call_id": "call-016",
+      "marker": "¹⁶",
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1282)",
+      "body_html": "Vgl. Seckler et al. 2014, S. 1276–1282.",
+      "references": [
+        {
+          "text": "Seckler et al. 2014, S. 1276–1282",
+          "key": "secklerDesigningUsableWeb2014"
+        }
+      ],
+      "paragraph_id": "para-036",
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "number": 17,
+      "id": "fn-017",
+      "call_id": "call-017",
+      "marker": "¹⁷",
+      "original": "(vgl. Norman 2008; Shneiderman 1983, S. 59, 64–65)",
+      "body_html": "Vgl. Norman 2008; Shneiderman 1983, S. 59, 64–65.",
+      "references": [
+        {
+          "text": "Norman 2008",
+          "key": "normanSignifiersNotAffordances2008"
+        },
+        {
+          "text": "Shneiderman 1983, S. 59, 64–65",
+          "key": "shneidermanDirectManipulationStep1983"
+        }
+      ],
+      "paragraph_id": "para-038",
+      "chapter_id": "chapter-02",
+      "section_id": "section-06"
+    },
+    {
+      "number": 18,
+      "id": "fn-018",
+      "call_id": "call-018",
+      "marker": "¹⁸",
+      "original": "(vgl. Feit et al. 2016, S. 4264–4271; Ruan et al. 2017, Art. 159:4–159:5, 159:15–159:17)",
+      "body_html": "Vgl. Feit et al. 2016, S. 4264–4271; Ruan et al. 2017, Art. 159:4–159:5, 159:15–159:17.",
+      "references": [
+        {
+          "text": "Feit et al. 2016, S. 4264–4271",
+          "key": "feitHowWeType2016"
+        },
+        {
+          "text": "Ruan et al. 2017, Art. 159:4–159:5, 159:15–159:17",
+          "key": "ruanComparingSpeechKeyboard2017"
+        }
+      ],
+      "paragraph_id": "para-042",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 19,
+      "id": "fn-019",
+      "call_id": "call-019",
+      "marker": "¹⁹",
+      "original": "(vgl. MacKenzie/Soukoreff 2002, S. 164–165; Ruan et al. 2017, Art. 159:16–159:17)",
+      "body_html": "Vgl. MacKenzie/Soukoreff 2002, S. 164–165; Ruan et al. 2017, Art. 159:16–159:17.",
+      "references": [
+        {
+          "text": "MacKenzie/Soukoreff 2002, S. 164–165",
+          "key": "mackenzieTextEntryMobile2002"
+        },
+        {
+          "text": "Ruan et al. 2017, Art. 159:16–159:17",
+          "key": "ruanComparingSpeechKeyboard2017"
+        }
+      ],
+      "paragraph_id": "para-042",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 20,
+      "id": "fn-020",
+      "call_id": "call-020",
+      "marker": "²⁰",
+      "original": "(vgl. Feit et al. 2016, S. 4262–4271)",
+      "body_html": "Vgl. Feit et al. 2016, S. 4262–4271.",
+      "references": [
+        {
+          "text": "Feit et al. 2016, S. 4262–4271",
+          "key": "feitHowWeType2016"
+        }
+      ],
+      "paragraph_id": "para-043",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 21,
+      "id": "fn-021",
+      "call_id": "call-021",
+      "marker": "²¹",
+      "original": "(vgl. MacKenzie/Soukoreff 2002, S. 152–153, 164–165)",
+      "body_html": "Vgl. MacKenzie/Soukoreff 2002, S. 152–153, 164–165.",
+      "references": [
+        {
+          "text": "MacKenzie/Soukoreff 2002, S. 152–153, 164–165",
+          "key": "mackenzieTextEntryMobile2002"
+        }
+      ],
+      "paragraph_id": "para-043",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 22,
+      "id": "fn-022",
+      "call_id": "call-022",
+      "marker": "²²",
+      "original": "(vgl. Oulasvirta et al. 2013, S. 2767–2772)",
+      "body_html": "Vgl. Oulasvirta et al. 2013, S. 2767–2772.",
+      "references": [
+        {
+          "text": "Oulasvirta et al. 2013, S. 2767–2772",
+          "key": "oulasvirtaImprovingTwoThumb2013"
+        }
+      ],
+      "paragraph_id": "para-043",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 23,
+      "id": "fn-023",
+      "call_id": "call-023",
+      "marker": "²³",
+      "original": "(vgl. Ruan et al. 2017, Art. 159:4–159:5, 159:13–159:17)",
+      "body_html": "Vgl. Ruan et al. 2017, Art. 159:4–159:5, 159:13–159:17.",
+      "references": [
+        {
+          "text": "Ruan et al. 2017, Art. 159:4–159:5, 159:13–159:17",
+          "key": "ruanComparingSpeechKeyboard2017"
+        }
+      ],
+      "paragraph_id": "para-043",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 24,
+      "id": "fn-024",
+      "call_id": "call-024",
+      "marker": "²⁴",
+      "original": "(vgl. Galbraith/Kay 2025, PDF-S. 5–8, 16–19; Feit et al. 2016, S. 4268–4271)",
+      "body_html": "Vgl. Galbraith/Kay 2025, PDF-S. 5–8, 16–19; Feit et al. 2016, S. 4268–4271.",
+      "references": [
+        {
+          "text": "Galbraith/Kay 2025, PDF-S. 5–8, 16–19",
+          "key": "galbraithHiddenPlainSight2025"
+        },
+        {
+          "text": "Feit et al. 2016, S. 4268–4271",
+          "key": "feitHowWeType2016"
+        }
+      ],
+      "paragraph_id": "para-044",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 25,
+      "id": "fn-025",
+      "call_id": "call-025",
+      "marker": "²⁵",
+      "original": "(vgl. Oulasvirta et al. 2013, S. 2767–2771; Ruan et al. 2017, Art. 159:5, 159:16–159:17)",
+      "body_html": "Vgl. Oulasvirta et al. 2013, S. 2767–2771; Ruan et al. 2017, Art. 159:5, 159:16–159:17.",
+      "references": [
+        {
+          "text": "Oulasvirta et al. 2013, S. 2767–2771",
+          "key": "oulasvirtaImprovingTwoThumb2013"
+        },
+        {
+          "text": "Ruan et al. 2017, Art. 159:5, 159:16–159:17",
+          "key": "ruanComparingSpeechKeyboard2017"
+        }
+      ],
+      "paragraph_id": "para-044",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 26,
+      "id": "fn-026",
+      "call_id": "call-026",
+      "marker": "²⁶",
+      "original": "(vgl. Akrich 1992, S. 207–211, 216–222)",
+      "body_html": "Vgl. Akrich 1992, S. 207–211, 216–222.",
+      "references": [
+        {
+          "text": "Akrich 1992, S. 207–211, 216–222",
+          "key": "akrichDeScriptionTechnical1992"
+        }
+      ],
+      "paragraph_id": "para-044",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 27,
+      "id": "fn-027",
+      "call_id": "call-027",
+      "marker": "²⁷",
+      "original": "(vgl. van Esch et al. 2019, S. 13–15)",
+      "body_html": "Vgl. van Esch et al. 2019, S. 13–15.",
+      "references": [
+        {
+          "text": "van Esch et al. 2019, S. 13–15",
+          "key": "vaneschWritingAcrossWorlds2019"
+        }
+      ],
+      "paragraph_id": "para-045",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 28,
+      "id": "fn-028",
+      "call_id": "call-028",
+      "marker": "²⁸",
+      "original": "(vgl. Koenecke et al. 2020, S. 7684–7685)",
+      "body_html": "Vgl. Koenecke et al. 2020, S. 7684–7685.",
+      "references": [
+        {
+          "text": "Koenecke et al. 2020, S. 7684–7685",
+          "key": "koeneckeRacialDisparitiesAutomated2020"
+        }
+      ],
+      "paragraph_id": "para-045",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 29,
+      "id": "fn-029",
+      "call_id": "call-029",
+      "marker": "²⁹",
+      "original": "(vgl. MacKenzie/Soukoreff 2002, S. 164–165)",
+      "body_html": "Vgl. MacKenzie/Soukoreff 2002, S. 164–165.",
+      "references": [
+        {
+          "text": "MacKenzie/Soukoreff 2002, S. 164–165",
+          "key": "mackenzieTextEntryMobile2002"
+        }
+      ],
+      "paragraph_id": "para-046",
+      "chapter_id": "chapter-03",
+      "section_id": "section-08"
+    },
+    {
+      "number": 30,
+      "id": "fn-030",
+      "call_id": "call-030",
+      "marker": "³⁰",
+      "original": "(vgl. Akrich 1992, S. 207–209, 216)",
+      "body_html": "Vgl. Akrich 1992, S. 207–209, 216.",
+      "references": [
+        {
+          "text": "Akrich 1992, S. 207–209, 216",
+          "key": "akrichDeScriptionTechnical1992"
+        }
+      ],
+      "paragraph_id": "para-047",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 31,
+      "id": "fn-031",
+      "call_id": "call-031",
+      "marker": "³¹",
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "body_html": "Vgl. IEEE/The Open Group 2024, mkdir.",
+      "references": [
+        {
+          "text": "IEEE/The Open Group 2024, mkdir",
+          "key": "ieeeOpenGroupMkdir2024"
+        }
+      ],
+      "paragraph_id": "para-048",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 32,
+      "id": "fn-032",
+      "call_id": "call-032",
+      "marker": "³²",
+      "original": "(vgl. Shneiderman 1983, S. 65–66)",
+      "body_html": "Vgl. Shneiderman 1983, S. 65–66.",
+      "references": [
+        {
+          "text": "Shneiderman 1983, S. 65–66",
+          "key": "shneidermanDirectManipulationStep1983"
+        }
+      ],
+      "paragraph_id": "para-048",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 33,
+      "id": "fn-033",
+      "call_id": "call-033",
+      "marker": "³³",
+      "original": "(vgl. Google Search Help, o. J., „Refine Google searches“, Abschnitt „Operators“)",
+      "body_html": "Vgl. Google Search Help, o. J., „Refine Google searches“, Abschnitt „Operators“.",
+      "references": [
+        {
+          "text": "Google Search Help, o. J., „Refine Google searches“, Abschnitt „Operators“",
+          "key": "googleRefineSearches"
+        }
+      ],
+      "paragraph_id": "para-049",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 34,
+      "id": "fn-034",
+      "call_id": "call-034",
+      "marker": "³⁴",
+      "original": "(vgl. Hearst 2009, S. 1–3)",
+      "body_html": "Vgl. Hearst 2009, S. 1–3.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 1–3",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-049",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 35,
+      "id": "fn-035",
+      "call_id": "call-035",
+      "marker": "³⁵",
+      "original": "(vgl. Subramonyam et al. 2024, S. 2–3, 6–8)",
+      "body_html": "Vgl. Subramonyam et al. 2024, S. 2–3, 6–8.",
+      "references": [
+        {
+          "text": "Subramonyam et al. 2024, S. 2–3, 6–8",
+          "key": "subramonyamBridgingGulfEnvisioning2024"
+        }
+      ],
+      "paragraph_id": "para-050",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 36,
+      "id": "fn-036",
+      "call_id": "call-036",
+      "marker": "³⁶",
+      "original": "(vgl. Zamfirescu-Pereira et al. 2023, S. 9–13)",
+      "body_html": "Vgl. Zamfirescu-Pereira et al. 2023, S. 9–13.",
+      "references": [
+        {
+          "text": "Zamfirescu-Pereira et al. 2023, S. 9–13",
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023"
+        }
+      ],
+      "paragraph_id": "para-050",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 37,
+      "id": "fn-037",
+      "call_id": "call-037",
+      "marker": "³⁷",
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1282)",
+      "body_html": "Vgl. Seckler et al. 2014, S. 1276–1282.",
+      "references": [
+        {
+          "text": "Seckler et al. 2014, S. 1276–1282",
+          "key": "secklerDesigningUsableWeb2014"
+        }
+      ],
+      "paragraph_id": "para-051",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 38,
+      "id": "fn-038",
+      "call_id": "call-038",
+      "marker": "³⁸",
+      "original": "(vgl. Hearst 2009, S. 18–19)",
+      "body_html": "Vgl. Hearst 2009, S. 18–19.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 18–19",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-051",
+      "chapter_id": "chapter-03",
+      "section_id": "section-09"
+    },
+    {
+      "number": 39,
+      "id": "fn-039",
+      "call_id": "call-039",
+      "marker": "³⁹",
+      "original": "(vgl. Seckler et al. 2014, S. 1276–1282; Hearst 2009, S. 14–18)",
+      "body_html": "Vgl. Seckler et al. 2014, S. 1276–1282; Hearst 2009, S. 14–18.",
+      "references": [
+        {
+          "text": "Seckler et al. 2014, S. 1276–1282",
+          "key": "secklerDesigningUsableWeb2014"
+        },
+        {
+          "text": "Hearst 2009, S. 14–18",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-054",
+      "chapter_id": "chapter-03",
+      "section_id": "section-10"
+    },
+    {
+      "number": 40,
+      "id": "fn-040",
+      "call_id": "call-040",
+      "marker": "⁴⁰",
+      "original": "(vgl. Akrich 1992, S. 216)",
+      "body_html": "Vgl. Akrich 1992, S. 216.",
+      "references": [
+        {
+          "text": "Akrich 1992, S. 216",
+          "key": "akrichDeScriptionTechnical1992"
+        }
+      ],
+      "paragraph_id": "para-055",
+      "chapter_id": "chapter-03",
+      "section_id": "section-10"
+    },
+    {
+      "number": 41,
+      "id": "fn-041",
+      "call_id": "call-041",
+      "marker": "⁴¹",
+      "original": "(vgl. Shneiderman 1983, S. 59, 64–65)",
+      "body_html": "Vgl. Shneiderman 1983, S. 59, 64–65.",
+      "references": [
+        {
+          "text": "Shneiderman 1983, S. 59, 64–65",
+          "key": "shneidermanDirectManipulationStep1983"
+        }
+      ],
+      "paragraph_id": "para-056",
+      "chapter_id": "chapter-03",
+      "section_id": "section-10"
+    },
+    {
+      "number": 42,
+      "id": "fn-042",
+      "call_id": "call-042",
+      "marker": "⁴²",
+      "original": "(vgl. Quinn/Zhai 2016, S. 83–84; Arnold et al. 2020, PDF-S. 4–5)",
+      "body_html": "Vgl. Quinn/Zhai 2016, S. 83–84; Arnold et al. 2020, PDF-S. 4–5.",
+      "references": [
+        {
+          "text": "Quinn/Zhai 2016, S. 83–84",
+          "key": "quinnCostBenefitStudy2016"
+        },
+        {
+          "text": "Arnold et al. 2020, PDF-S. 4–5",
+          "key": "arnoldPredictiveTextEncourages2020"
+        }
+      ],
+      "paragraph_id": "para-057",
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "number": 43,
+      "id": "fn-043",
+      "call_id": "call-043",
+      "marker": "⁴³",
+      "original": "(vgl. Quinn/Zhai 2016, S. 83–86)",
+      "body_html": "Vgl. Quinn/Zhai 2016, S. 83–86.",
+      "references": [
+        {
+          "text": "Quinn/Zhai 2016, S. 83–86",
+          "key": "quinnCostBenefitStudy2016"
+        }
+      ],
+      "paragraph_id": "para-058",
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "number": 44,
+      "id": "fn-044",
+      "call_id": "call-044",
+      "marker": "⁴⁴",
+      "original": "(vgl. Arnold et al. 2020, PDF-S. 4–5)",
+      "body_html": "Vgl. Arnold et al. 2020, PDF-S. 4–5.",
+      "references": [
+        {
+          "text": "Arnold et al. 2020, PDF-S. 4–5",
+          "key": "arnoldPredictiveTextEncourages2020"
+        }
+      ],
+      "paragraph_id": "para-059",
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "number": 45,
+      "id": "fn-045",
+      "call_id": "call-045",
+      "marker": "⁴⁵",
+      "original": "(vgl. Arnold et al. 2020, PDF-S. 3–7)",
+      "body_html": "Vgl. Arnold et al. 2020, PDF-S. 3–7.",
+      "references": [
+        {
+          "text": "Arnold et al. 2020, PDF-S. 3–7",
+          "key": "arnoldPredictiveTextEncourages2020"
+        }
+      ],
+      "paragraph_id": "para-060",
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "number": 46,
+      "id": "fn-046",
+      "call_id": "call-046",
+      "marker": "⁴⁶",
+      "original": "(vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12)",
+      "body_html": "Vgl. Hearst 2009, S. 11–13; Subramonyam et al. 2024, PDF-S. 11–12.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 11–13",
+          "key": "hearstSearchUserInterfaces2009"
+        },
+        {
+          "text": "Subramonyam et al. 2024, PDF-S. 11–12",
+          "key": "subramonyamBridgingGulfEnvisioning2024"
+        }
+      ],
+      "paragraph_id": "para-062",
+      "chapter_id": "chapter-03",
+      "section_id": "section-11"
+    },
+    {
+      "number": 47,
+      "id": "fn-047",
+      "call_id": "call-047",
+      "marker": "⁴⁷",
+      "original": "(vgl. Seckler et al. 2014, S. 1279–1282)",
+      "body_html": "Vgl. Seckler et al. 2014, S. 1279–1282.",
+      "references": [
+        {
+          "text": "Seckler et al. 2014, S. 1279–1282",
+          "key": "secklerDesigningUsableWeb2014"
+        }
+      ],
+      "paragraph_id": "para-065",
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "number": 48,
+      "id": "fn-048",
+      "call_id": "call-048",
+      "marker": "⁴⁸",
+      "original": "(vgl. Hearst 2009, S. 3, 7–8; Subramonyam et al. 2024, S. 6–8)",
+      "body_html": "Vgl. Hearst 2009, S. 3, 7–8; Subramonyam et al. 2024, S. 6–8.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 3, 7–8",
+          "key": "hearstSearchUserInterfaces2009"
+        },
+        {
+          "text": "Subramonyam et al. 2024, S. 6–8",
+          "key": "subramonyamBridgingGulfEnvisioning2024"
+        }
+      ],
+      "paragraph_id": "para-066",
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "number": 49,
+      "id": "fn-049",
+      "call_id": "call-049",
+      "marker": "⁴⁹",
+      "original": "(vgl. Hearst 2009, S. 3, 7–8)",
+      "body_html": "Vgl. Hearst 2009, S. 3, 7–8.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 3, 7–8",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-067",
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "number": 50,
+      "id": "fn-050",
+      "call_id": "call-050",
+      "marker": "⁵⁰",
+      "original": "(vgl. Zamfirescu-Pereira et al. 2023, S. 7–8)",
+      "body_html": "Vgl. Zamfirescu-Pereira et al. 2023, S. 7–8.",
+      "references": [
+        {
+          "text": "Zamfirescu-Pereira et al. 2023, S. 7–8",
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023"
+        }
+      ],
+      "paragraph_id": "para-070",
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "number": 51,
+      "id": "fn-051",
+      "call_id": "call-051",
+      "marker": "⁵¹",
+      "original": "(vgl. Zamfirescu-Pereira et al. 2023, S. 11–12)",
+      "body_html": "Vgl. Zamfirescu-Pereira et al. 2023, S. 11–12.",
+      "references": [
+        {
+          "text": "Zamfirescu-Pereira et al. 2023, S. 11–12",
+          "key": "zamfirescu-pereiraWhyJohnnyCant2023"
+        }
+      ],
+      "paragraph_id": "para-070",
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "number": 52,
+      "id": "fn-052",
+      "call_id": "call-052",
+      "marker": "⁵²",
+      "original": "(vgl. Hearst 2009, S. 3, 7–8, 14)",
+      "body_html": "Vgl. Hearst 2009, S. 3, 7–8, 14.",
+      "references": [
+        {
+          "text": "Hearst 2009, S. 3, 7–8, 14",
+          "key": "hearstSearchUserInterfaces2009"
+        }
+      ],
+      "paragraph_id": "para-071",
+      "chapter_id": "chapter-03",
+      "section_id": "section-12"
+    },
+    {
+      "number": 53,
+      "id": "fn-053",
+      "call_id": "call-053",
+      "marker": "⁵³",
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "body_html": "Vgl. IEEE/The Open Group 2024, mkdir.",
+      "references": [
+        {
+          "text": "IEEE/The Open Group 2024, mkdir",
+          "key": "ieeeOpenGroupMkdir2024"
+        }
+      ],
+      "paragraph_id": "para-075",
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "number": 54,
+      "id": "fn-054",
+      "call_id": "call-054",
+      "marker": "⁵⁴",
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.22.4)",
+      "body_html": "Vgl. WHATWG 2026, Abschn. 4.10.22.4.",
+      "references": [
+        {
+          "text": "WHATWG 2026, Abschn. 4.10.22.4",
+          "key": "whatwgHTMLStandard2026"
+        }
+      ],
+      "paragraph_id": "para-076",
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "number": 55,
+      "id": "fn-055",
+      "call_id": "call-055",
+      "marker": "⁵⁵",
+      "original": "(vgl. Brin/Page 1998, S. 111–112; Google 2025, „In-depth guide to how Google Search works“, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. Brin/Page 1998, S. 111–112; Google 2025, „In-depth guide to how Google Search works“, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "Brin/Page 1998, S. 111–112",
+          "key": "brinPage1998Anatomy"
+        },
+        {
+          "text": "Google 2025, „In-depth guide to how Google Search works“, Abschn. „Indexing“ und „Serving search results“, gesicherte Fassung vom 15. September 2026",
+          "key": "googleSearchWorks2025"
+        }
+      ],
+      "paragraph_id": "para-077",
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "number": 56,
+      "id": "fn-056",
+      "call_id": "call-056",
+      "marker": "⁵⁶",
+      "original": "(vgl. Google 2025, „In-depth guide to how Google Search works“, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. Google 2025, „In-depth guide to how Google Search works“, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "Google 2025, „In-depth guide to how Google Search works“, Abschn. „Serving search results“, gesicherte Fassung vom 15. September 2026",
+          "key": "googleSearchWorks2025"
+        }
+      ],
+      "paragraph_id": "para-078",
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "number": 57,
+      "id": "fn-057",
+      "call_id": "call-057",
+      "marker": "⁵⁷",
+      "original": "(vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026",
+          "key": "openaiTextGenerationSnapshot2026"
+        }
+      ],
+      "paragraph_id": "para-079",
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "number": 58,
+      "id": "fn-058",
+      "call_id": "call-058",
+      "marker": "⁵⁸",
+      "original": "(vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "OpenAI, o. J., Text generation, Abschn. „Message roles and instruction following“, gesicherte Fassung vom 15. September 2026",
+          "key": "openaiTextGenerationSnapshot2026"
+        }
+      ],
+      "paragraph_id": "para-080",
+      "chapter_id": "chapter-04",
+      "section_id": "section-14"
+    },
+    {
+      "number": 59,
+      "id": "fn-059",
+      "call_id": "call-059",
+      "marker": "⁵⁹",
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.5.5 und 4.10.22.3)",
+      "body_html": "Vgl. WHATWG 2026, Abschn. 4.10.5.5 und 4.10.22.3.",
+      "references": [
+        {
+          "text": "WHATWG 2026, Abschn. 4.10.5.5 und 4.10.22.3",
+          "key": "whatwgHTMLStandard2026"
+        }
+      ],
+      "paragraph_id": "para-084",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 60,
+      "id": "fn-060",
+      "call_id": "call-060",
+      "marker": "⁶⁰",
+      "original": "(vgl. The Chromium Projects, o. J., Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. The Chromium Projects, o. J., Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "The Chromium Projects, o. J., Omnibox Prefetch and Prerender for Default Search Engines, gesicherte Fassung vom 15. September 2026",
+          "key": "chromiumOmniboxPrefetchSnapshot2026"
+        }
+      ],
+      "paragraph_id": "para-084",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 61,
+      "id": "fn-061",
+      "call_id": "call-061",
+      "marker": "⁶¹",
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "body_html": "Vgl. IEEE/The Open Group 2024, mkdir.",
+      "references": [
+        {
+          "text": "IEEE/The Open Group 2024, mkdir",
+          "key": "ieeeOpenGroupMkdir2024"
+        }
+      ],
+      "paragraph_id": "para-087",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 62,
+      "id": "fn-062",
+      "call_id": "call-062",
+      "marker": "⁶²",
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.21)",
+      "body_html": "Vgl. WHATWG 2026, Abschn. 4.10.21.",
+      "references": [
+        {
+          "text": "WHATWG 2026, Abschn. 4.10.21",
+          "key": "whatwgHTMLStandard2026"
+        }
+      ],
+      "paragraph_id": "para-088",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 63,
+      "id": "fn-063",
+      "call_id": "call-063",
+      "marker": "⁶³",
+      "original": "(vgl. Brin/Page 1998, S. 109–113)",
+      "body_html": "Vgl. Brin/Page 1998, S. 109–113.",
+      "references": [
+        {
+          "text": "Brin/Page 1998, S. 109–113",
+          "key": "brinPage1998Anatomy"
+        }
+      ],
+      "paragraph_id": "para-089",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 64,
+      "id": "fn-064",
+      "call_id": "call-064",
+      "marker": "⁶⁴",
+      "original": "(vgl. Radford et al. 2019, PDF-S. 2, 4 und 6)",
+      "body_html": "Vgl. Radford et al. 2019, PDF-S. 2, 4 und 6.",
+      "references": [
+        {
+          "text": "Radford et al. 2019, PDF-S. 2, 4 und 6",
+          "key": "radfordEtAl2019LanguageModels"
+        }
+      ],
+      "paragraph_id": "para-090",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 65,
+      "id": "fn-065",
+      "call_id": "call-065",
+      "marker": "⁶⁵",
+      "original": "(vgl. IEEE/The Open Group 2024, mkdir)",
+      "body_html": "Vgl. IEEE/The Open Group 2024, mkdir.",
+      "references": [
+        {
+          "text": "IEEE/The Open Group 2024, mkdir",
+          "key": "ieeeOpenGroupMkdir2024"
+        }
+      ],
+      "paragraph_id": "para-093",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 66,
+      "id": "fn-066",
+      "call_id": "call-066",
+      "marker": "⁶⁶",
+      "original": "(vgl. WHATWG 2026, Abschn. 4.10.21)",
+      "body_html": "Vgl. WHATWG 2026, Abschn. 4.10.21.",
+      "references": [
+        {
+          "text": "WHATWG 2026, Abschn. 4.10.21",
+          "key": "whatwgHTMLStandard2026"
+        }
+      ],
+      "paragraph_id": "para-094",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 67,
+      "id": "fn-067",
+      "call_id": "call-067",
+      "marker": "⁶⁷",
+      "original": "(vgl. Brin/Page 1998, S. 109–113)",
+      "body_html": "Vgl. Brin/Page 1998, S. 109–113.",
+      "references": [
+        {
+          "text": "Brin/Page 1998, S. 109–113",
+          "key": "brinPage1998Anatomy"
+        }
+      ],
+      "paragraph_id": "para-097",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 68,
+      "id": "fn-068",
+      "call_id": "call-068",
+      "marker": "⁶⁸",
+      "original": "(vgl. Gillespie 2014, S. 175–179, 183–187)",
+      "body_html": "Vgl. Gillespie 2014, S. 175–179, 183–187.",
+      "references": [
+        {
+          "text": "Gillespie 2014, S. 175–179, 183–187",
+          "key": "gillespie2014RelevanceAlgorithms"
+        }
+      ],
+      "paragraph_id": "para-098",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 69,
+      "id": "fn-069",
+      "call_id": "call-069",
+      "marker": "⁶⁹",
+      "original": "(vgl. Google, o. J., Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. Google, o. J., Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "Google, o. J., Improving Search with rigorous testing, gesicherte Fassung vom 15. September 2026",
+          "key": "googleSearchTestingSnapshot2026"
+        }
+      ],
+      "paragraph_id": "para-099",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 70,
+      "id": "fn-070",
+      "call_id": "call-070",
+      "marker": "⁷⁰",
+      "original": "(vgl. Google, o. J., Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026; Gillespie 2014, S. 185–187)",
+      "body_html": "Vgl. Google, o. J., Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026; Gillespie 2014, S. 185–187.",
+      "references": [
+        {
+          "text": "Google, o. J., Improving Search with rigorous testing, Abschn. „Testing for usefulness“ und „Analyzing metrics“, gesicherte Fassung vom 15. September 2026",
+          "key": "googleSearchTestingSnapshot2026"
+        },
+        {
+          "text": "Gillespie 2014, S. 185–187",
+          "key": "gillespie2014RelevanceAlgorithms"
+        }
+      ],
+      "paragraph_id": "para-100",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 71,
+      "id": "fn-071",
+      "call_id": "call-071",
+      "marker": "⁷¹",
+      "original": "(vgl. Ouyang et al. 2022, S. 1–2, 6–8)",
+      "body_html": "Vgl. Ouyang et al. 2022, S. 1–2, 6–8.",
+      "references": [
+        {
+          "text": "Ouyang et al. 2022, S. 1–2, 6–8",
+          "key": "ouyangEtAl2022Instructions"
+        }
+      ],
+      "paragraph_id": "para-102",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 72,
+      "id": "fn-072",
+      "call_id": "call-072",
+      "marker": "⁷²",
+      "original": "(vgl. Ouyang et al. 2022, S. 2, 4–6)",
+      "body_html": "Vgl. Ouyang et al. 2022, S. 2, 4–6.",
+      "references": [
+        {
+          "text": "Ouyang et al. 2022, S. 2, 4–6",
+          "key": "ouyangEtAl2022Instructions"
+        }
+      ],
+      "paragraph_id": "para-103",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 73,
+      "id": "fn-073",
+      "call_id": "call-073",
+      "marker": "⁷³",
+      "original": "(vgl. Ouyang et al. 2022, S. 2, 5–6)",
+      "body_html": "Vgl. Ouyang et al. 2022, S. 2, 5–6.",
+      "references": [
+        {
+          "text": "Ouyang et al. 2022, S. 2, 5–6",
+          "key": "ouyangEtAl2022Instructions"
+        }
+      ],
+      "paragraph_id": "para-103",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 74,
+      "id": "fn-074",
+      "call_id": "call-074",
+      "marker": "⁷⁴",
+      "original": "(vgl. Sharma et al. 2024, S. 3–9)",
+      "body_html": "Vgl. Sharma et al. 2024, S. 3–9.",
+      "references": [
+        {
+          "text": "Sharma et al. 2024, S. 3–9",
+          "key": "sharmaUnderstandingSycophancyLanguage2024"
+        }
+      ],
+      "paragraph_id": "para-104",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 75,
+      "id": "fn-075",
+      "call_id": "call-075",
+      "marker": "⁷⁵",
+      "original": "(vgl. Gillespie 2014, S. 183–187)",
+      "body_html": "Vgl. Gillespie 2014, S. 183–187.",
+      "references": [
+        {
+          "text": "Gillespie 2014, S. 183–187",
+          "key": "gillespie2014RelevanceAlgorithms"
+        }
+      ],
+      "paragraph_id": "para-106",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 76,
+      "id": "fn-076",
+      "call_id": "call-076",
+      "marker": "⁷⁶",
+      "original": "(vgl. Aggarwal et al. 2024, PDF-S. 2–9, 12)",
+      "body_html": "Vgl. Aggarwal et al. 2024, PDF-S. 2–9, 12.",
+      "references": [
+        {
+          "text": "Aggarwal et al. 2024, PDF-S. 2–9, 12",
+          "key": "aggarwalGEOGenerativeEngine2024"
+        }
+      ],
+      "paragraph_id": "para-107",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 77,
+      "id": "fn-077",
+      "call_id": "call-077",
+      "marker": "⁷⁷",
+      "original": "(vgl. Gillespie 2014, S. 176–177, 183–185; Aggarwal et al. 2024, PDF-S. 1–3)",
+      "body_html": "Vgl. Gillespie 2014, S. 176–177, 183–185; Aggarwal et al. 2024, PDF-S. 1–3.",
+      "references": [
+        {
+          "text": "Gillespie 2014, S. 176–177, 183–185",
+          "key": "gillespie2014RelevanceAlgorithms"
+        },
+        {
+          "text": "Aggarwal et al. 2024, PDF-S. 1–3",
+          "key": "aggarwalGEOGenerativeEngine2024"
+        }
+      ],
+      "paragraph_id": "para-108",
+      "chapter_id": "chapter-04",
+      "section_id": "section-15"
+    },
+    {
+      "number": 78,
+      "id": "fn-078",
+      "call_id": "call-078",
+      "marker": "⁷⁸",
+      "original": "(vgl. FTC 2023, Complaint, Rn. 46–50; OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. FTC 2023, Complaint, Rn. 46–50; OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "FTC 2023, Complaint, Rn. 46–50",
+          "key": "ftc2023BetterHelpComplaint"
+        },
+        {
+          "text": "OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Data retention controls for abuse monitoring“, gesicherte Fassung vom 15. September 2026",
+          "key": "openaiDataControlsSnapshot2026"
+        }
+      ],
+      "paragraph_id": "para-110",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 79,
+      "id": "fn-079",
+      "call_id": "call-079",
+      "marker": "⁷⁹",
+      "original": "(vgl. OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026",
+          "key": "openaiDataControlsSnapshot2026"
+        }
+      ],
+      "paragraph_id": "para-111",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 80,
+      "id": "fn-080",
+      "call_id": "call-080",
+      "marker": "⁸⁰",
+      "original": "(vgl. exemplarisch OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026)",
+      "body_html": "Vgl. exemplarisch OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026.",
+      "references": [
+        {
+          "text": "exemplarisch OpenAI, o. J., Data controls in the OpenAI platform, Abschn. „Types of data stored with the OpenAI API“, gesicherte Fassung vom 15. September 2026",
+          "key": "openaiDataControlsSnapshot2026"
+        }
+      ],
+      "paragraph_id": "para-112",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 81,
+      "id": "fn-081",
+      "call_id": "call-081",
+      "marker": "⁸¹",
+      "original": "(vgl. von Ahn et al. 2008, S. 1465–1466)",
+      "body_html": "Vgl. von Ahn et al. 2008, S. 1465–1466.",
+      "references": [
+        {
+          "text": "von Ahn et al. 2008, S. 1465–1466",
+          "key": "vonahnReCAPTCHA2008"
+        }
+      ],
+      "paragraph_id": "para-113",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 82,
+      "id": "fn-082",
+      "call_id": "call-082",
+      "marker": "⁸²",
+      "original": "(vgl. von Ahn et al. 2008, S. 1466)",
+      "body_html": "Vgl. von Ahn et al. 2008, S. 1466.",
+      "references": [
+        {
+          "text": "von Ahn et al. 2008, S. 1466",
+          "key": "vonahnReCAPTCHA2008"
+        }
+      ],
+      "paragraph_id": "para-114",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 83,
+      "id": "fn-083",
+      "call_id": "call-083",
+      "marker": "⁸³",
+      "original": "(vgl. FTC 2023, Complaint vom 7. Juli 2023, Rn. 11–13, 23–27)",
+      "body_html": "Vgl. FTC 2023, Complaint vom 7. Juli 2023, Rn. 11–13, 23–27.",
+      "references": [
+        {
+          "text": "FTC 2023, Complaint vom 7. Juli 2023, Rn. 11–13, 23–27",
+          "key": "ftc2023BetterHelpComplaint"
+        }
+      ],
+      "paragraph_id": "para-115",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 84,
+      "id": "fn-084",
+      "call_id": "call-084",
+      "marker": "⁸⁴",
+      "original": "(vgl. FTC 2023, Complaint, Rn. 53b und 54)",
+      "body_html": "Vgl. FTC 2023, Complaint, Rn. 53b und 54.",
+      "references": [
+        {
+          "text": "FTC 2023, Complaint, Rn. 53b und 54",
+          "key": "ftc2023BetterHelpComplaint"
+        }
+      ],
+      "paragraph_id": "para-116",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 85,
+      "id": "fn-085",
+      "call_id": "call-085",
+      "marker": "⁸⁵",
+      "original": "(vgl. Staab et al. 2024, S. 1–3, 4–9)",
+      "body_html": "Vgl. Staab et al. 2024, S. 1–3, 4–9.",
+      "references": [
+        {
+          "text": "Staab et al. 2024, S. 1–3, 4–9",
+          "key": "staabEtAl2024PrivacyInference"
+        }
+      ],
+      "paragraph_id": "para-117",
+      "chapter_id": "chapter-04",
+      "section_id": "section-16"
+    },
+    {
+      "number": 86,
+      "id": "fn-086",
+      "call_id": "call-086",
+      "marker": "⁸⁶",
+      "original": "(vgl. Gillespie 2014, S. 176–177)",
+      "body_html": "Vgl. Gillespie 2014, S. 176–177.",
+      "references": [
+        {
+          "text": "Gillespie 2014, S. 176–177",
+          "key": "gillespie2014RelevanceAlgorithms"
+        }
+      ],
+      "paragraph_id": "para-118",
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "number": 87,
+      "id": "fn-087",
+      "call_id": "call-087",
+      "marker": "⁸⁷",
+      "original": "(vgl. Subramonyam et al. 2024, S. 6–8, 11–12)",
+      "body_html": "Vgl. Subramonyam et al. 2024, S. 6–8, 11–12.",
+      "references": [
+        {
+          "text": "Subramonyam et al. 2024, S. 6–8, 11–12",
+          "key": "subramonyamBridgingGulfEnvisioning2024"
+        }
+      ],
+      "paragraph_id": "para-118",
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "number": 88,
+      "id": "fn-088",
+      "call_id": "call-088",
+      "marker": "⁸⁸",
+      "original": "(vgl. FTC 2023, Complaint, Rn. 57–58)",
+      "body_html": "Vgl. FTC 2023, Complaint, Rn. 57–58.",
+      "references": [
+        {
+          "text": "FTC 2023, Complaint, Rn. 57–58",
+          "key": "ftc2023BetterHelpComplaint"
+        }
+      ],
+      "paragraph_id": "para-120",
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    },
+    {
+      "number": 89,
+      "id": "fn-089",
+      "call_id": "call-089",
+      "marker": "⁸⁹",
+      "original": "(vgl. Akrich 1992, S. 207–209, 216; Gillespie 2014, S. 183–187)",
+      "body_html": "Vgl. Akrich 1992, S. 207–209, 216; Gillespie 2014, S. 183–187.",
+      "references": [
+        {
+          "text": "Akrich 1992, S. 207–209, 216",
+          "key": "akrichDeScriptionTechnical1992"
+        },
+        {
+          "text": "Gillespie 2014, S. 183–187",
+          "key": "gillespie2014RelevanceAlgorithms"
+        }
+      ],
+      "paragraph_id": "para-121",
+      "chapter_id": "chapter-04",
+      "section_id": "section-17"
+    }
+  ],
+  "sources": [
+    "aggarwalGEOGenerativeEngine2024",
+    "akrichDeScriptionTechnical1992",
+    "arnoldPredictiveTextEncourages2020",
+    "brinPage1998Anatomy",
+    "chenEffectsAnthropomorphicDesign2024",
+    "chromiumOmniboxPrefetchSnapshot2026",
+    "feitHowWeType2016",
+    "ftc2023BetterHelpComplaint",
+    "galbraithHiddenPlainSight2025",
+    "gillespie2014RelevanceAlgorithms",
+    "googleRefineSearches",
+    "googleSearchTestingSnapshot2026",
+    "googleSearchWorks2025",
+    "hearstSearchUserInterfaces2009",
+    "ieeeOpenGroupMkdir2024",
+    "koeneckeRacialDisparitiesAutomated2020",
+    "luguriShiningLightDark2021",
+    "mackenzieTextEntryMobile2002",
+    "normanSignifiersNotAffordances2008",
+    "openaiDataControlsSnapshot2026",
+    "openaiTextGenerationSnapshot2026",
+    "oulasvirtaImprovingTwoThumb2013",
+    "ouyangEtAl2022Instructions",
+    "quinnCostBenefitStudy2016",
+    "radfordEtAl2019LanguageModels",
+    "ruanComparingSpeechKeyboard2017",
+    "secklerDesigningUsableWeb2014",
+    "sharmaUnderstandingSycophancyLanguage2024",
+    "shneidermanDirectManipulationStep1983",
+    "staabEtAl2024PrivacyInference",
+    "subramonyamBridgingGulfEnvisioning2024",
+    "vaneschWritingAcrossWorlds2019",
+    "vonahnReCAPTCHA2008",
+    "whatwgHTMLStandard2026",
+    "zamfirescu-pereiraWhyJohnnyCant2023"
+  ],
+  "chapters": [
+    {
+      "id": "chapter-01",
+      "title": "Einleitung"
+    },
+    {
+      "id": "chapter-02",
+      "title": "Surface"
+    },
+    {
+      "id": "chapter-03",
+      "title": "Interaction"
+    },
+    {
+      "id": "chapter-04",
+      "title": "Operation"
+    },
+    {
+      "id": "chapter-05",
+      "title": "Schluss"
+    }
+  ],
+  "sections": [
+    {
+      "id": "section-01",
+      "title": "Einleitung",
+      "trace_id": "SEC-001",
+      "has_heading": false,
+      "note_ids": []
+    },
+    {
+      "id": "section-02",
+      "title": "Surface",
+      "trace_id": null,
+      "has_heading": false,
+      "note_ids": []
+    },
+    {
+      "id": "section-03",
+      "title": "Formale Erscheinung und Einbettung",
+      "trace_id": "SEC-002",
+      "has_heading": true,
+      "note_ids": [
+        "fn-001",
+        "fn-002",
+        "fn-003",
+        "fn-004"
+      ]
+    },
+    {
+      "id": "section-04",
+      "title": "Die Aufforderung zur Eingabe",
+      "trace_id": "SEC-003",
+      "has_heading": true,
+      "note_ids": [
+        "fn-005",
+        "fn-006",
+        "fn-007",
+        "fn-008"
+      ]
+    },
+    {
+      "id": "section-05",
+      "title": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "trace_id": "SEC-004",
+      "has_heading": true,
+      "note_ids": [
+        "fn-009",
+        "fn-010",
+        "fn-011",
+        "fn-012"
+      ]
+    },
+    {
+      "id": "section-06",
+      "title": "Veränderliche Oberfläche und sichtbare Zustände",
+      "trace_id": "SEC-005",
+      "has_heading": true,
+      "note_ids": [
+        "fn-013",
+        "fn-014",
+        "fn-015",
+        "fn-016",
+        "fn-017"
+      ]
+    },
+    {
+      "id": "section-07",
+      "title": "Interaction",
+      "trace_id": null,
+      "has_heading": false,
+      "note_ids": []
+    },
+    {
+      "id": "section-08",
+      "title": "Eingabe als physischer Prozess",
+      "trace_id": "SEC-006",
+      "has_heading": true,
+      "note_ids": [
+        "fn-018",
+        "fn-019",
+        "fn-020",
+        "fn-021",
+        "fn-022",
+        "fn-023",
+        "fn-024",
+        "fn-025",
+        "fn-026",
+        "fn-027",
+        "fn-028",
+        "fn-029"
+      ]
+    },
+    {
+      "id": "section-09",
+      "title": "Erforderliche Kenntnisse und Kompetenzen",
+      "trace_id": "SEC-007",
+      "has_heading": true,
+      "note_ids": [
+        "fn-030",
+        "fn-031",
+        "fn-032",
+        "fn-033",
+        "fn-034",
+        "fn-035",
+        "fn-036",
+        "fn-037",
+        "fn-038"
+      ]
+    },
+    {
+      "id": "section-10",
+      "title": "Korrigieren und Bearbeiten",
+      "trace_id": "SEC-008",
+      "has_heading": true,
+      "note_ids": [
+        "fn-039",
+        "fn-040",
+        "fn-041"
+      ]
+    },
+    {
+      "id": "section-11",
+      "title": "Autocomplete und Vorschläge",
+      "trace_id": "SEC-009",
+      "has_heading": true,
+      "note_ids": [
+        "fn-042",
+        "fn-043",
+        "fn-044",
+        "fn-045",
+        "fn-046"
+      ]
+    },
+    {
+      "id": "section-12",
+      "title": "Iteration und Reformulierung",
+      "trace_id": "SEC-010",
+      "has_heading": true,
+      "note_ids": [
+        "fn-047",
+        "fn-048",
+        "fn-049",
+        "fn-050",
+        "fn-051",
+        "fn-052"
+      ]
+    },
+    {
+      "id": "section-13",
+      "title": "Operation",
+      "trace_id": null,
+      "has_heading": false,
+      "note_ids": []
+    },
+    {
+      "id": "section-14",
+      "title": "Technische Rolle und Kontext der Eingabe",
+      "trace_id": "SEC-011",
+      "has_heading": true,
+      "note_ids": [
+        "fn-053",
+        "fn-054",
+        "fn-055",
+        "fn-056",
+        "fn-057",
+        "fn-058"
+      ]
+    },
+    {
+      "id": "section-15",
+      "title": "Verarbeitung und ihre Maßstäbe",
+      "trace_id": "SEC-012",
+      "has_heading": true,
+      "note_ids": [
+        "fn-059",
+        "fn-060",
+        "fn-061",
+        "fn-062",
+        "fn-063",
+        "fn-064",
+        "fn-065",
+        "fn-066",
+        "fn-067",
+        "fn-068",
+        "fn-069",
+        "fn-070",
+        "fn-071",
+        "fn-072",
+        "fn-073",
+        "fn-074",
+        "fn-075",
+        "fn-076",
+        "fn-077"
+      ]
+    },
+    {
+      "id": "section-16",
+      "title": "Übertragung, Speicherung und Weiterverwendung",
+      "trace_id": "SEC-013",
+      "has_heading": true,
+      "note_ids": [
+        "fn-078",
+        "fn-079",
+        "fn-080",
+        "fn-081",
+        "fn-082",
+        "fn-083",
+        "fn-084",
+        "fn-085"
+      ]
+    },
+    {
+      "id": "section-17",
+      "title": "Sichtbare Rückmeldung und operative Reichweite",
+      "trace_id": "SEC-014",
+      "has_heading": true,
+      "note_ids": [
+        "fn-086",
+        "fn-087",
+        "fn-088",
+        "fn-089"
+      ]
+    },
+    {
+      "id": "section-18",
+      "title": "Schluss",
+      "trace_id": "SEC-015",
+      "has_heading": false,
+      "note_ids": []
+    }
+  ],
+  "layout": {
+    "sources_visible": true,
+    "source_placement": "subchapter_end",
+    "source_font_size_pt": 7,
+    "source_width": "full_column_width",
+    "source_block_width_fraction": 1.0,
+    "source_alignment": "justified",
+    "source_flow": "continuous_paragraph",
+    "source_composer": "original_plugin",
+    "source_number_position": "inline_brackets",
+    "source_number_format": "decimal-leading-zero",
+    "source_number_gap": "space",
+    "source_after_blank_rows": 6,
+    "source_after_separator": "none",
+    "source_vertical_alignment": "after_text",
+    "subchapter_start": "continuous",
+    "font_family": "Arketa",
+    "font_size_pt": 10,
+    "columns": 2,
+    "column_width_mm": 83.5,
+    "column_gap_mm": 5,
+    "margins_mm": {
+      "top": 8,
+      "right": 8,
+      "bottom": 8,
+      "left": 30
+    },
+    "baseline_rows": 61,
+    "headings_visible": true,
+    "heading_stars": "* * *",
+    "chapter_title_page": true,
+    "paragraph_spacing": 0,
+    "paragraph_indent": "four character advances, except section openings",
+    "page_number": "inside_type_area_bottom",
+    "footer_reserved_baselines": 3,
+    "footer_blank_baselines": 2,
+    "page_number_bottom_mm": 8,
+    "page_number_format": "decimal-leading-zero"
+  },
+  "font_path": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/website/assets/fonts/Arketa.otf",
+  "font_sha256": "d95cb6a99bd19f884d9f241c619ba99da7b19e55fb92676c07de5b264ea5245b",
+  "plugin_path": "/Users/timballaschke/Desktop/Projekt/01_Projekte/web-to-print/public/auto-typeset.js",
+  "plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59"
+}

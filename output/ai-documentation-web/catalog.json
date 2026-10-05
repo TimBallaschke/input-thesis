@@ -1,0 +1,308 @@
+[
+  {
+    "id": "CGPT-01",
+    "title": "Earlier conversation about the thesis topic",
+    "transcript": "ai-documentation/archive/cgpt-01-transcript.txt",
+    "sha256": "e0a1501eec9a5aca44b638795c5e083edf8d2611f128b51b23a6710d3823c5dc",
+    "kind": "communication_archive",
+    "canonical_lines": 1443,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "CGPT-02",
+    "title": "Earlier conversation about source research",
+    "transcript": "ai-documentation/archive/cgpt-02-transcript.txt",
+    "sha256": "b77942e67a14a98e300d2f821eda73332738a7003b72382dc65b45a871c82224",
+    "kind": "communication_archive",
+    "canonical_lines": 332,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "CGPT-03",
+    "title": "AI-assisted research plan",
+    "transcript": "ai-documentation/archive/cgpt-03-transcript.txt",
+    "sha256": "9922393c53dccd8dbeef4f9d690678f033d9d259fdbf64f1dc3d915aee756d40",
+    "kind": "communication_archive",
+    "canonical_lines": 180,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "CGPT-04",
+    "title": "Earlier AI conversation on the current Interaction draft and a Steyerl-informed reading",
+    "transcript": "ai-documentation/archive/cgpt-04-current-draft-and-steyerl-conversation-transcript.txt",
+    "sha256": "3672f7130c7a0317e72aa7c139a6888ab5d64023b221c6dca6efa0ac3ac319d6",
+    "kind": "communication_archive",
+    "canonical_lines": 412,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "FDBK-01",
+    "title": "Externally supplied review feedback",
+    "transcript": "ai-documentation/archive/fdbk-01-knowledge-competencies-review-transcript.txt",
+    "sha256": "b7d522a976a0ed73950660291a4ef150190630a5dfe6976cb464ce12fdcb0cc5",
+    "kind": "communication_archive",
+    "canonical_lines": 139,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "FDBK-02",
+    "title": "Externally supplied review feedback",
+    "transcript": "ai-documentation/archive/fdbk-02-correction-editing-review-transcript.txt",
+    "sha256": "5fd7d39c933687704ff13614c292022f6c9ed99fdd2e772cd282ce058479199a",
+    "kind": "communication_archive",
+    "canonical_lines": 134,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "FDBK-03",
+    "title": "Externally supplied review feedback",
+    "transcript": "ai-documentation/archive/fdbk-03-autocomplete-suggestions-review-transcript.txt",
+    "sha256": "839b811ba166724937641fe5bca4236f9ac92432877a456eaf02fe842836807f",
+    "kind": "communication_archive",
+    "canonical_lines": 145,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "FDBK-04",
+    "title": "Externally supplied review feedback",
+    "transcript": "ai-documentation/archive/fdbk-04-iteration-reformulation-review-transcript.txt",
+    "sha256": "5be1ad66345600b79a31465d6a820197bf969cf77dc22aac4b1f4ba311beb2d5",
+    "kind": "communication_archive",
+    "canonical_lines": 238,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "CDX-01",
+    "title": "Codex production task",
+    "transcript": "ai-documentation/archive/cdx-01-codex-019f9e19-b3e1-77e0-9847-753a93adf3bd-transcript.txt",
+    "sha256": "2c57e5a2aac5a9ab89da854a12c5a59ac6cdb1104705f388a1b03f0eaff16c40",
+    "kind": "communication_archive",
+    "canonical_lines": 11285,
+    "omitted_archive_preface_lines": 7
+  },
+  {
+    "id": "CDX-02",
+    "title": "Codex production task",
+    "transcript": "ai-documentation/archive/cdx-02-codex-01a051ce-6cff-72e2-916a-0d1a8fd2dddd-transcript.txt",
+    "sha256": "6acb07950f2d48e94e7a95fc89ec0f1921a1e5ad74af0bfdaecd58f1c9ded9f3",
+    "kind": "communication_archive",
+    "canonical_lines": 4200,
+    "omitted_archive_preface_lines": 7
+  },
+  {
+    "id": "CDX-03",
+    "title": "Codex production task",
+    "transcript": "ai-documentation/archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-transcript.txt",
+    "sha256": "a8bcd66b2f449aa5a3bcc753562d16c2a4e2a95592eb92cc968292b32f0d8bb9",
+    "kind": "communication_archive",
+    "canonical_lines": 15834,
+    "omitted_archive_preface_lines": 7
+  },
+  {
+    "id": "CDX-04",
+    "title": "Codex documentation import task",
+    "transcript": "ai-documentation/archive/cdx-04-codex-01a10c5f-6044-73c2-afde-17d95bf1e068-transcript.txt",
+    "sha256": "0748a5e667b61ab2d6a69eada4f7f687d5b3a40c2be6d9e1688efdd0248b85d0",
+    "kind": "communication_archive",
+    "canonical_lines": 41,
+    "omitted_archive_preface_lines": 7
+  },
+  {
+    "id": "DRAFT-01",
+    "title": "Interaction chapter supplied for critical review",
+    "transcript": "ai-documentation/archive/draft-01-interaction-review-transcript.txt",
+    "sha256": "0eb93179a0acb848a2789fc1022c544db6e2a2e9e0ba7b1a2e178bb1cfd903ee",
+    "kind": "communication_archive",
+    "canonical_lines": 301,
+    "omitted_archive_preface_lines": 7
+  },
+  {
+    "id": "DRAFT-02",
+    "title": "Interaction chapter supplied for image-material discussion",
+    "transcript": "ai-documentation/archive/draft-02-interaction-images-transcript.txt",
+    "sha256": "fe23cd42a5eb2eae78b8b67c181d359279fe02f581890cead7eae84ece4b6101",
+    "kind": "communication_archive",
+    "canonical_lines": 295,
+    "omitted_archive_preface_lines": 7
+  },
+  {
+    "id": "DRAFT-03",
+    "title": "Operation 1 text supplied for overlap review",
+    "transcript": "ai-documentation/archive/draft-03-operation-1-overlap-transcript.txt",
+    "sha256": "c9b8b77efb7681017689d16672342dfafd7cbd283ba50a061755470b0766184c",
+    "kind": "communication_archive",
+    "canonical_lines": 84,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "DRAFT-04",
+    "title": "Operation 2 text supplied for critical revision",
+    "transcript": "ai-documentation/archive/draft-04-operation-2-critical-review-transcript.txt",
+    "sha256": "27a6d5bb6abbc9758c7a967afbccdacf3c2f71b2af39bfa4894fb89956dea7c4",
+    "kind": "communication_archive",
+    "canonical_lines": 89,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "DRAFT-05",
+    "title": "Operation 2 text supplied for SEO overlap revision",
+    "transcript": "ai-documentation/archive/draft-05-operation-2-seo-overlap-transcript.txt",
+    "sha256": "11cc3e33e6f8200ba7bcb34e4ee56143fd2735f18d5e0338a14d72e297fea28d",
+    "kind": "communication_archive",
+    "canonical_lines": 184,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "DRAFT-06",
+    "title": "Operation 3 text supplied for scope and balance review",
+    "transcript": "ai-documentation/archive/draft-06-operation-3-scope-review-transcript.txt",
+    "sha256": "64c19e2fc035e99d202cf24fec357087147beb9c45963781ce4312ee9ad058b4",
+    "kind": "communication_archive",
+    "canonical_lines": 124,
+    "omitted_archive_preface_lines": 6
+  },
+  {
+    "id": "DRAFT-07",
+    "title": "Physical input section with supplied correction annotations",
+    "transcript": "ai-documentation/archive/draft-07-physical-input-corrections-transcript.txt",
+    "sha256": "ef2f632f8e2b0322eaeff61727f5ab4688c3dab024c8eed1ffc531b21b2566a9",
+    "kind": "communication_archive",
+    "canonical_lines": 96,
+    "omitted_archive_preface_lines": 7
+  },
+  {
+    "id": "CGPT-05",
+    "title": "Masterarbeit kritisch bewerten",
+    "transcript": "ai-documentation/archive/cgpt-05-share-6aaba96b-9988-83eb-9711-615baf285e56-transcript.txt",
+    "sha256": "07ab94f1a711d5f23cad655ee037184988575cdb7df299496716e3611819df81",
+    "kind": "communication_archive",
+    "canonical_lines": 1173,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-06",
+    "title": "Abschnitt formulieren",
+    "transcript": "ai-documentation/archive/cgpt-06-share-6aaba9e5-5234-83eb-85db-a6995f675316-transcript.txt",
+    "sha256": "007b2bfb6d16009165d30e761fd88533ad19cb9d4de2da3920aedcdc101ff949",
+    "kind": "communication_archive",
+    "canonical_lines": 844,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-07",
+    "title": "Masterthesis Weiterformulieren",
+    "transcript": "ai-documentation/archive/cgpt-07-share-6aaba9f0-205c-83ed-bea6-d4447087b0ca-transcript.txt",
+    "sha256": "ec722237d30215fea9a55f1ea70678c1ffbd21079a42f8f3cd091ea9656174ce",
+    "kind": "communication_archive",
+    "canonical_lines": 441,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-08",
+    "title": "Masterarbeit Abschnitt überarbeiten",
+    "transcript": "ai-documentation/archive/cgpt-08-share-6aaba9fb-5bb0-83eb-b899-ad7fa232d9fd-transcript.txt",
+    "sha256": "96f584b97f6e7eb279fa365eb31e93210893f2af54a819e031c24c32d612f48b",
+    "kind": "communication_archive",
+    "canonical_lines": 1370,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-09",
+    "title": "Technische Zuordnung formulieren",
+    "transcript": "ai-documentation/archive/cgpt-09-share-6aabaa07-d554-83ed-83d6-f96e59a14d97-transcript.txt",
+    "sha256": "95e5e87096e66e862d1622a88efe761b131d8ea8b762cfd9d9c617b2b540bdd3",
+    "kind": "communication_archive",
+    "canonical_lines": 934,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-10",
+    "title": "Operation Abschnitt schreiben",
+    "transcript": "ai-documentation/archive/cgpt-10-share-6aabaa12-e75c-83ed-adfc-aafc43483839-transcript.txt",
+    "sha256": "ba550f5fec16264a90112829cdab9138d769c9fa8147d08ec52f8bef0d593ca9",
+    "kind": "communication_archive",
+    "canonical_lines": 2306,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-11",
+    "title": "Masterarbeit Überarbeiten",
+    "transcript": "ai-documentation/archive/cgpt-11-share-6aabaa1e-a198-83eb-8c4b-c0a17958a742-transcript.txt",
+    "sha256": "5ffdebeaa9270f4bbf1e304ab7799cd73560c34fa0b9db29118cfd36ee0c91c3",
+    "kind": "communication_archive",
+    "canonical_lines": 1248,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-12",
+    "title": "Feedback zur Masterarbeit",
+    "transcript": "ai-documentation/archive/cgpt-12-share-6aabaa29-3fec-83eb-964e-4f6a3f3d235c-transcript.txt",
+    "sha256": "fc5c9be35908447702129d019521700cdd5d15926baf8917d7eec857e1033ee2",
+    "kind": "communication_archive",
+    "canonical_lines": 1379,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-13",
+    "title": "Steyerl Kritik an Eingabeprozessen",
+    "transcript": "ai-documentation/archive/cgpt-13-share-6aabaa3b-a970-83eb-9be9-322419c04803-transcript.txt",
+    "sha256": "1f2aa6eabbd1e198861ffe21caf747816de44b0b91a96d413edbccc6b1acd709",
+    "kind": "communication_archive",
+    "canonical_lines": 4607,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-14",
+    "title": "Formulierungen Thesis",
+    "transcript": "ai-documentation/archive/cgpt-14-share-6aabaa4a-8af4-83eb-a267-9b3b38d924d9-transcript.txt",
+    "sha256": "a96d3c1ae3aefa2fbd10e1bb7e3045fdc1b12713269518354afdd4839318fd46",
+    "kind": "communication_archive",
+    "canonical_lines": 490,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-15",
+    "title": "Eingabemöglichkeit Erklären",
+    "transcript": "ai-documentation/archive/cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-transcript.txt",
+    "sha256": "d224657ca190231845091ebf20a92b9d4930f7f1d229945a538081889b81e4ca",
+    "kind": "communication_archive",
+    "canonical_lines": 1159,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-16",
+    "title": "Einleitung formulieren",
+    "transcript": "ai-documentation/archive/cgpt-16-share-6aace863-6a04-83eb-a1a7-75fa37701969-transcript.txt",
+    "sha256": "b8239461719b265ce16f679eb47fbb7c093e093ea09e8280c8a12f4db5e965c9",
+    "kind": "communication_archive",
+    "canonical_lines": 687,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-17",
+    "title": "Abschnitt Überarbeiten",
+    "transcript": "ai-documentation/archive/cgpt-17-share-6ac3ade6-d438-83ed-bf84-1f0a897128e3-transcript.txt",
+    "sha256": "1fcae033548a293c879956582ed3b7a9cd71c8785b48737badebba2a725184f2",
+    "kind": "communication_archive",
+    "canonical_lines": 95,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-18",
+    "title": "Schluss überarbeiten",
+    "transcript": "ai-documentation/archive/cgpt-18-share-6ac3adf1-b5cc-83eb-9248-acf4961d6272-transcript.txt",
+    "sha256": "989639bbffe38382fd569b3ca99c905e587ad896a86bfef52204326a3056cd75",
+    "kind": "communication_archive",
+    "canonical_lines": 130,
+    "omitted_archive_preface_lines": 12
+  },
+  {
+    "id": "CGPT-19",
+    "title": "Masterthesis umformulieren",
+    "transcript": "ai-documentation/archive/cgpt-19-share-6ac3adfb-dfc0-83eb-a116-93a33686fb9c-transcript.txt",
+    "sha256": "6bc0a523818730570b3eae35c1479cedb05560651600a72f9007100a98891d33",
+    "kind": "communication_archive",
+    "canonical_lines": 5020,
+    "omitted_archive_preface_lines": 12
+  }
+]

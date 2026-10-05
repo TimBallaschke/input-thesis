@@ -1,0 +1,13 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><title>AI-Dokumentation · Druckfassung</title><link rel="stylesheet" href="document.css?v=optical-off"></head><body><p id="loading">Druckfassung wird vollständig geladen …</p><main id="pages"></main><script type="module">
+window.printReady=(async()=>{
+ const edition=await(await fetch('edition.json')).json();
+ const root=document.querySelector('#pages');
+ for(let i=0;i<edition.pages.length;i+=8){
+  const batch=await Promise.all(edition.pages.slice(i,i+8).map(async page=>({number:page.number,html:await(await fetch('pages/'+String(page.number).padStart(4,'0')+'.html')).text()})));
+  for(const page of batch){const sheet=document.createElement('div');sheet.className='sheet';sheet.innerHTML=page.html;root.append(sheet)}
+ }
+ await document.fonts.load('6pt Arketa');await document.fonts.ready;
+ document.querySelector('#loading').remove();document.body.dataset.printReady='true';
+ return {pages:edition.pages.length};
+})();
+</script></body></html>

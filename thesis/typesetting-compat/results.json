@@ -1,0 +1,2053 @@
+{
+  "date": "2026-10-05",
+  "direct": {
+    "pageCount": 5,
+    "pages": [
+      {
+        "number": 1,
+        "lines": [
+          {
+            "text": "Dass an einer Stelle Text eingegeben werden kann, bedeutet noch nicht, dass diese Mög-",
+            "style": "left: 0em; width: 100.604%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00463601em; transform: scaleX(0.994);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.188px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0741671px",
+              "left": "0px",
+              "transform": "matrix(0.994, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "lichkeit auch unmittelbar erkennbar ist. Die Oberfläche muss Hinweise darauf geben,",
+            "style": "left: 0em; width: 100.1%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.000662387em; transform: scaleX(0.999);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0105969px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "wo eine Eingabe möglich ist. Eine Umrandung, ein abgesetzter Hintergrund, eine freie",
+            "style": "left: 0em; width: 99.6016%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0.00285191em; transform: scaleX(1.004);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.9px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0456249px",
+              "left": "0px",
+              "transform": "matrix(1.004, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Fläche oder ein sichtbarer Textcursor können eine solche Funktion anzeigen. Norman",
+            "style": "left: 0em; width: 100.705%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00544961em; transform: scaleX(0.993);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.822px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0871832px",
+              "left": "0px",
+              "transform": "matrix(0.993, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "bezeichnet solche wahrnehmbaren Hinweise auf mögliche Handlungen als Signifiers ¹.",
+            "style": "left: 0em; width: 100%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0em; transform: scaleX(1);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Keines dieser Merkmale ist jedoch für sich genommen notwendig. In einer Command",
+            "style": "left: 0em; width: 99.108%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0.00597505em; transform: scaleX(1.009);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "621.803px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0955892px",
+              "left": "0px",
+              "transform": "matrix(1.009, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Line erscheint die aktuelle Eingabestelle beispielsweise nicht zwingend als separat um-",
+            "style": "left: 0em; width: 100.908%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00645241em; transform: scaleX(0.991);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "633.098px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.103226px",
+              "left": "0px",
+              "transform": "matrix(0.991, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "randetes Feld. Ihre Position kann stattdessen durch einen Prompt, einen Cursor und den",
+            "style": "left: 0em; width: 100.604%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00434205em; transform: scaleX(0.994);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.188px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0694644px",
+              "left": "0px",
+              "transform": "matrix(0.994, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "bereits dargestellten Text erkennbar werden ². Ob eine Stelle als Eingabemöglichkeit",
+            "style": "left: 0em; width: 99.9001%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0.000149203em; transform: scaleX(1.001);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.00238696px",
+              "left": "0px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "verstanden werden kann, hängt damit nicht von einem einzelnen formalen Merkmal ab,",
+            "style": "left: 0em; width: 100%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -9.25533e-06em; transform: scaleX(1);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.000148067px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "sondern vom Zusammenspiel verschiedener sichtbarer Hinweise innerhalb der jewei-",
+            "style": "left: 0em; width: 100.604%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00362519em; transform: scaleX(0.994);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.188px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0579959px",
+              "left": "0px",
+              "transform": "matrix(0.994, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ligen Oberfläche.",
+            "style": "left: 0em; width: 100%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0em; transform: scaleX(1);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabestellen unterscheiden sich darin, wie viel Raum sie dem Text sichtbar zur Verfü-",
+            "style": "left: 0em; width: 100%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -4.59429e-05em; transform: scaleX(1);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.000734997px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "gung stellen. Breite und Höhe bestimmen, welcher Ausschnitt einer Eingabe gleichzeitig",
+            "style": "left: 0em; width: 101.215%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.01em; transform: scaleX(0.988);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "635.02px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.15998px",
+              "left": "0px",
+              "transform": "matrix(0.988, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "zu sehen ist. Ein einzeiliges Eingabefeld stellt Text daher anders dar als ein mehrzeiliger",
+            "style": "left: 0em; width: 100.402%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00321474em; transform: scaleX(0.996);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.92px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0514295px",
+              "left": "0px",
+              "transform": "matrix(0.996, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Bereich. HTML unterscheidet entsprechend zwischen einzeiligen und mehrzeiligen",
+            "style": "left: 0em; width: 99.108%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0.00660864em; transform: scaleX(1.009);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "621.803px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.105725px",
+              "left": "0px",
+              "transform": "matrix(1.009, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabeelementen und behandelt deren sichtbare Dimensionierung getrennt von mögli-",
+            "style": "left: 0em; width: 100.1%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00073665em; transform: scaleX(0.999);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.011785px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "chen Begrenzungen der Textmenge ³.",
+            "style": "left: 0em; width: 100%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0em; transform: scaleX(1);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Die sichtbare Größe eines Eingabebereichs entspricht dabei nicht zwangsläufig seiner",
+            "style": "left: 0em; width: 99.3049%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0.00525608em; transform: scaleX(1.007);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "623.039px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.084087px",
+              "left": "0px",
+              "transform": "matrix(1.007, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "technischen Kapazität. Auch ein kleines Feld kann mehr Text aufnehmen, als unmittel-",
+            "style": "left: 0em; width: 100.806%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00561014em; transform: scaleX(0.992);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "632.459px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0897513px",
+              "left": "0px",
+              "transform": "matrix(0.992, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "bar sichtbar ist. Dennoch kann seine Größe eine Erwartung darüber vermitteln, welchen",
+            "style": "left: 0em; width: 100.503%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00336625em; transform: scaleX(0.995);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "630.553px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0538534px",
+              "left": "0px",
+              "transform": "matrix(0.995, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Umfang eine Eingabe haben soll: Ein kurzes einzeiliges Feld legt eine knappe Anga-",
+            "style": "left: 0em; width: 100%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.000440859em; transform: scaleX(1);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00705289px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "be näher als ein großzügiger mehrzeiliger Bereich. Die formale Dimension begrenzt die",
+            "style": "left: 0em; width: 100.2%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: -0.00161071em; transform: scaleX(0.998);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.656px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0257682px",
+              "left": "0px",
+              "transform": "matrix(0.998, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabe somit nicht notwendig, kann aber beeinflussen, welche Länge NutzerInnen",
+            "style": "left: 0em; width: 99.6016%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0.00235092em; transform: scaleX(1.004);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.9px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0376101px",
+              "left": "0px",
+              "transform": "matrix(1.004, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "als vorgesehen wahrnehmen.",
+            "style": "left: 0em; width: 100%; height: 23.9971px; line-height: 23.9971px; word-spacing: 0em; letter-spacing: 0em; transform: scaleX(1);",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "23.9961px",
+              "lineHeight": "23.9971px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          }
+        ],
+        "noteCalls": [],
+        "notes": [
+          {
+            "id": "fn-001",
+            "text": "1. Vgl. Norman 2008. ↩"
+          },
+          {
+            "id": "fn-002",
+            "text": "2. Vgl. Shneiderman 1983, S. 57–59. ↩"
+          },
+          {
+            "id": "fn-003",
+            "text": "3. Vgl. WHATWG 2026, Abschn. 4.10.5 und 4.10.11. ↩"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "lines": [],
+        "noteCalls": [
+          {
+            "id": "call-004",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002fsource:002ehtml:0023fn-004",
+            "text": "⁴"
+          },
+          {
+            "id": "call-005",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002fsource:002ehtml:0023fn-005",
+            "text": "⁵"
+          },
+          {
+            "id": "call-006",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002fsource:002ehtml:0023fn-006",
+            "text": "⁶"
+          }
+        ],
+        "notes": [
+          {
+            "id": "fn-004",
+            "text": "4. Vgl. Akrich 1992, S. 207–209. ↩"
+          },
+          {
+            "id": "fn-005",
+            "text": "5. Vgl. Norman 2008; Hearst 2009, S. 18–19. ↩"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "lines": [],
+        "noteCalls": [
+          {
+            "id": "call-007",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002fsource:002ehtml:0023fn-007",
+            "text": "⁷"
+          },
+          {
+            "id": "call-008",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002fsource:002ehtml:0023fn-008",
+            "text": "⁸"
+          }
+        ],
+        "notes": [
+          {
+            "id": "fn-006",
+            "text": "6. Vgl. Hearst 2009, S. 18–19. ↩"
+          },
+          {
+            "id": "fn-007",
+            "text": "7. Vgl. Akrich 1992, S. 207–209; Subramonyam et al. 2024, PDF-S. 9–12. ↩"
+          },
+          {
+            "id": "fn-008",
+            "text": "8. Vgl. Chen et al. 2024, S. 3639–3643. ↩"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "lines": [],
+        "noteCalls": [],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "lines": [],
+        "noteCalls": [],
+        "notes": []
+      }
+    ],
+    "sourceFrames": [],
+    "composedLineCount": 100,
+    "renderedLineCount": 25,
+    "lineTextPreserved": false,
+    "lineStylePreserved": false,
+    "maxMetricDeltaPx": {
+      "fontSize": null,
+      "width": null,
+      "height": null,
+      "lineHeight": null,
+      "wordSpacing": null,
+      "letterSpacing": null,
+      "left": null
+    },
+    "glyphScalePreserved": false,
+    "viewerErrors": [],
+    "logs": [
+      "COMPAT_PLUGIN_ENTERED http://127.0.0.1:8768/viewer/index.html#src=http://127.0.0.1:8768/source.html&bookMode=false&renderAllPages=true 17",
+      "COMPAT_PLUGIN_READY {\"bridge\":false,\"paragraphs\":17,\"lines\":25}"
+    ]
+  },
+  "prepared": {
+    "pageCount": 5,
+    "pages": [
+      {
+        "number": 1,
+        "lines": [
+          {
+            "text": "Dass an einer Stelle Text eingegeben werden kann, bedeutet noch nicht, dass diese Mög-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.705%; height: 24px; word-spacing: 0px; letter-spacing: -0.0713806px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.993); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.822px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0713806px",
+              "left": "0px",
+              "transform": "matrix(0.993, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "lichkeit auch unmittelbar erkennbar ist. Die Oberfläche muss Hinweise darauf geben,",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.2%; height: 24px; word-spacing: 0px; letter-spacing: -0.0222899px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.998); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.654px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0222899px",
+              "left": "0px",
+              "transform": "matrix(0.998, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "wo eine Eingabe möglich ist. Eine Umrandung, ein abgesetzter Hintergrund, eine freie",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.6016%; height: 24px; word-spacing: 0px; letter-spacing: 0.0409474px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.004); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.9px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0409474px",
+              "left": "0px",
+              "transform": "matrix(1.004, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Fläche oder ein sichtbarer Textcursor können eine solche Funktion anzeigen. Norman",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.908%; height: 24px; word-spacing: 0px; letter-spacing: -0.0935251px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.991); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "633.096px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0935251px",
+              "left": "0px",
+              "transform": "matrix(0.991, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "bezeichnet solche wahrnehmbaren Hinweise auf mögliche Handlungen als Signifiers ¹.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Keines dieser Merkmale ist jedoch für sich genommen notwendig. In einer Command",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.108%; height: 24px; word-spacing: 0px; letter-spacing: 0.0906658px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.009); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "621.803px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0906658px",
+              "left": "0px",
+              "transform": "matrix(1.009, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Line erscheint die aktuelle Eingabestelle beispielsweise nicht zwingend als separat um-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 101.01%; height: 24px; word-spacing: 0px; letter-spacing: -0.114465px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.99); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "633.736px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.114465px",
+              "left": "0px",
+              "transform": "matrix(0.99, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "randetes Feld. Ihre Position kann stattdessen durch einen Prompt, einen Cursor und den",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.604%; height: 24px; word-spacing: 0px; letter-spacing: -0.0741485px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.994); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.189px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0741485px",
+              "left": "0px",
+              "transform": "matrix(0.994, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "bereits dargestellten Text erkennbar werden ². Ob eine Stelle als Eingabemöglichkeit",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: -0.00914829px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00914829px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "verstanden werden kann, hängt damit nicht von einem einzelnen formalen Merkmal ab,",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: -0.00498978px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00498978px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "sondern vom Zusammenspiel verschiedener sichtbarer Hinweise innerhalb der jewei-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.705%; height: 24px; word-spacing: 0px; letter-spacing: -0.0762638px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.993); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.822px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0762638px",
+              "left": "0px",
+              "transform": "matrix(0.993, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ligen Oberfläche.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabestellen unterscheiden sich darin, wie viel Raum sie dem Text sichtbar zur Verfü-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: -0.0052948px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0052948px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "gung stellen. Breite und Höhe bestimmen, welcher Ausschnitt einer Eingabe gleichzeitig",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 101.215%; height: 24px; word-spacing: 0px; letter-spacing: -0.16px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.988); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "635.021px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.16px",
+              "left": "0px",
+              "transform": "matrix(0.988, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "zu sehen ist. Ein einzeiliges Eingabefeld stellt Text daher anders dar als ein mehrzeiliger",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.402%; height: 24px; word-spacing: 0px; letter-spacing: -0.0558362px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.996); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.922px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0558362px",
+              "left": "0px",
+              "transform": "matrix(0.996, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Bereich. HTML unterscheidet entsprechend zwischen einzeiligen und mehrzeiligen",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.2063%; height: 24px; word-spacing: 0px; letter-spacing: 0.0933909px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.008); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "622.42px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0933909px",
+              "left": "0px",
+              "transform": "matrix(1.008, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabeelementen und behandelt deren sichtbare Dimensionierung getrennt von mögli-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.1%; height: 24px; word-spacing: 0px; letter-spacing: -0.0166389px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.999); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0166389px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "chen Begrenzungen der Textmenge ³.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Die sichtbare Größe eines Eingabebereichs entspricht dabei nicht zwangsläufig seiner",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.3049%; height: 24px; word-spacing: 0px; letter-spacing: 0.079447px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.007); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "623.039px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.079447px",
+              "left": "0px",
+              "transform": "matrix(1.007, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "technischen Kapazität. Auch ein kleines Feld kann mehr Text aufnehmen, als unmittel-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.908%; height: 24px; word-spacing: 0px; letter-spacing: -0.101382px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.991); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "633.096px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.101382px",
+              "left": "0px",
+              "transform": "matrix(0.991, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "bar sichtbar ist. Dennoch kann seine Größe eine Erwartung darüber vermitteln, welchen",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.503%; height: 24px; word-spacing: 0px; letter-spacing: -0.0585786px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.995); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "630.555px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0585786px",
+              "left": "0px",
+              "transform": "matrix(0.995, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Umfang eine Eingabe haben soll: Ein kurzes einzeiliges Feld legt eine knappe Anga-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.2%; height: 24px; word-spacing: 0px; letter-spacing: -0.0160424px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.998); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.654px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0160424px",
+              "left": "0px",
+              "transform": "matrix(0.998, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "be näher als ein großzügiger mehrzeiliger Bereich. Die formale Dimension begrenzt die",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.2%; height: 24px; word-spacing: 0px; letter-spacing: -0.0304634px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.998); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.654px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0304634px",
+              "left": "0px",
+              "transform": "matrix(0.998, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabe somit nicht notwendig, kann aber beeinflussen, welche Länge NutzerInnen",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.8004%; height: 24px; word-spacing: 0px; letter-spacing: 0.0310056px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.002); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.146px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0310056px",
+              "left": "0px",
+              "transform": "matrix(1.002, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "als vorgesehen wahrnehmen.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          }
+        ],
+        "noteCalls": [
+          {
+            "id": "call-001",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-001",
+            "text": "¹"
+          },
+          {
+            "id": "call-002",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-002",
+            "text": "²"
+          },
+          {
+            "id": "call-003",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-003",
+            "text": "³"
+          }
+        ],
+        "notes": [
+          {
+            "id": "fn-001",
+            "text": "1. Vgl. Norman 2008. ↩"
+          },
+          {
+            "id": "fn-002",
+            "text": "2. Vgl. Shneiderman 1983, S. 57–59. ↩"
+          },
+          {
+            "id": "fn-003",
+            "text": "3. Vgl. WHATWG 2026, Abschn. 4.10.5 und 4.10.11. ↩"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "lines": [
+          {
+            "text": "Ein Eingabefeld erhält seine sichtbare Bedeutung nicht nur durch seine eigene Form, son-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 101.112%; height: 24px; word-spacing: 0px; letter-spacing: -0.119651px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.989); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "634.377px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.119651px",
+              "left": "0px",
+              "transform": "matrix(0.989, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "dern auch durch seine Position innerhalb der Oberfläche. Abstände, Größenverhält-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.9001%; height: 24px; word-spacing: 0px; letter-spacing: 0.00460554px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.001); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.00460554px",
+              "left": "0px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "nisse und die Beziehung zu weiteren Feldern, Texten und Bedienelementen bestimmen",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.1%; height: 24px; word-spacing: 0px; letter-spacing: -0.00184646px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.999); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00184646px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "mit, wie stark eine Eingabemöglichkeit hervortritt und welche Rolle ihr innerhalb ei-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.9001%; height: 24px; word-spacing: 0px; letter-spacing: 0.00603806px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.001); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.00603806px",
+              "left": "0px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ner Ansicht zukommt.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Dies zeigt sich im Vergleich unterschiedlicher Oberflächen: Auf der Startseite von Google",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.806%; height: 24px; word-spacing: 0px; letter-spacing: -0.103533px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.992); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "632.457px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.103533px",
+              "left": "0px",
+              "transform": "matrix(0.992, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "steht das Suchfeld zentral und weitgehend für sich. Im Registrierungsdialog von Wi-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.9001%; height: 24px; word-spacing: 0px; letter-spacing: 0.00349658px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.001); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.00349658px",
+              "left": "0px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "kipedia erscheinen dagegen mehrere Eingabefelder als Teile eines gemeinsamen Ablaufs.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.705%; height: 24px; word-spacing: 0px; letter-spacing: -0.0768981px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.993); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.822px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0768981px",
+              "left": "0px",
+              "transform": "matrix(0.993, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Bei ChatGPT nimmt das Eingabefeld ebenfalls eine zentrale Position ein, ist jedoch in",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.503%; height: 24px; word-spacing: 0px; letter-spacing: -0.0557749px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.995); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "630.555px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0557749px",
+              "left": "0px",
+              "transform": "matrix(0.995, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "eine andere funktionale Umgebung eingebettet. Im Terminal wiederum ist die aktuelle",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.7009%; height: 24px; word-spacing: 0px; letter-spacing: 0.0351867px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.003); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "625.523px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0351867px",
+              "left": "0px",
+              "transform": "matrix(1.003, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabestelle unmittelbar mit bereits ausgegebenem Text verbunden und nicht als ei-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.402%; height: 24px; word-spacing: 0px; letter-spacing: -0.0391765px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.996); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.922px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0391765px",
+              "left": "0px",
+              "transform": "matrix(0.996, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "genständiges Interfaceelement abgesetzt.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Die Anordnung kann somit bestimmte Handlungen innerhalb einer Oberfläche beson-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.3049%; height: 24px; word-spacing: 0px; letter-spacing: 0.0751034px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.007); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "623.039px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0751034px",
+              "left": "0px",
+              "transform": "matrix(1.007, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ders hervorheben ⁴. Ein großes, zentral platziertes Eingabefeld erhält dabei eine andere",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.503%; height: 24px; word-spacing: 0px; letter-spacing: -0.16px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.995); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "630.555px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.16px",
+              "left": "0px",
+              "transform": "matrix(0.995, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "visuelle Gewichtung als ein kleines Feld, das zwischen weiteren Bedienelementen oder",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: -0.00548563px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00548563px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "innerhalb eines längeren Formulars angeordnet ist. Diese Hervorhebung lässt sich",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.2063%; height: 24px; word-spacing: 0px; letter-spacing: 0.0833501px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.008); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "622.42px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0833501px",
+              "left": "0px",
+              "transform": "matrix(1.008, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "als Teil einer entworfenen Nutzungsvorstellung betrachten. Form, Größe und Position",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.3049%; height: 24px; word-spacing: 0px; letter-spacing: 0.0843192px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.007); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "623.039px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0843192px",
+              "left": "0px",
+              "transform": "matrix(1.007, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "geben somit Hinweise darauf, welche Bedeutung einer Eingabe innerhalb der jewei-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.1%; height: 24px; word-spacing: 0px; letter-spacing: -0.0145572px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.999); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0145572px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ligen Anwendung zugeschrieben wird.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Ein Eingabefeld als bearbeitbar zu erkennen bedeutet noch nicht zu wissen, was dort ein-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 101.01%; height: 24px; word-spacing: 0px; letter-spacing: -0.111563px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.99); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "633.736px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.111563px",
+              "left": "0px",
+              "transform": "matrix(0.99, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "gegeben werden soll. Zusätzliche Hinweise wie Beschriftungen, Platzhalter, Beispiele,",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.806%; height: 24px; word-spacing: 0px; letter-spacing: -0.0962773px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.992); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "632.457px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0962773px",
+              "left": "0px",
+              "transform": "matrix(0.992, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Symbole oder die Texte zugehöriger Buttons können den vorgesehenen Gebrauch nä-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.2063%; height: 24px; word-spacing: 0px; letter-spacing: 0.0860565px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.008); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "622.42px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0860565px",
+              "left": "0px",
+              "transform": "matrix(1.008, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "her bestimmen ⁵. Dabei erfüllen sie unterschiedliche Funktionen: Eine Beschriftung",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.7009%; height: 24px; word-spacing: 0px; letter-spacing: 0.042023px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.003); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "625.523px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.042023px",
+              "left": "0px",
+              "transform": "matrix(1.003, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "kann benennen, welche Information erwartet wird, ein Beispiel eine mögliche Eingabe",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.9001%; height: 24px; word-spacing: 0px; letter-spacing: 0.0195882px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.001); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0195882px",
+              "left": "0px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "vorführen und eine Buttonbeschriftung anzeigen, welche Handlung mit der Eingabe",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: -4.43938e-05em; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.000710214px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ausgelöst werden soll. Die Funktion eines Eingabefelds wird damit nicht allein durch sei-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.705%; height: 24px; word-spacing: 0px; letter-spacing: -0.0809477px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.993); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.822px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0809477px",
+              "left": "0px",
+              "transform": "matrix(0.993, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ne Form vermittelt, sondern auch durch die sprachlichen und visuellen Hinweise in",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.7009%; height: 24px; word-spacing: 0px; letter-spacing: 0.0412496px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.003); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "625.523px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0412496px",
+              "left": "0px",
+              "transform": "matrix(1.003, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "seinem unmittelbaren Umfeld.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Wie solche Hinweise eingesetzt werden, unterscheidet sich je nach Eingabesituation. In",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: -0.0031957px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: -0.91968px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0031957px",
+              "left": "-0.91968px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "einem Formular benennen Feldbeschriftungen meist konkrete Angaben, die inner-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 98.912%; height: 24px; word-spacing: 0px; letter-spacing: 0.118234px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.011); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "620.574px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.118234px",
+              "left": "0px",
+              "transform": "matrix(1.011, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "halb eines übergeordneten Vorgangs verlangt werden. Ein Suchfeld weist die Eingabe",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.2063%; height: 24px; word-spacing: 0px; letter-spacing: 0.0913635px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.008); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "622.42px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0913635px",
+              "left": "0px",
+              "transform": "matrix(1.008, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "dagegen als Suche nach Informationen aus und kann zugleich erkennen lassen, auf",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.5025%; height: 24px; word-spacing: 0px; letter-spacing: 0.0565725px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.005); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.277px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0565725px",
+              "left": "0px",
+              "transform": "matrix(1.005, 0, 0, 1, 0, 0)"
+            }
+          }
+        ],
+        "noteCalls": [
+          {
+            "id": "call-004",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-004",
+            "text": "⁴"
+          },
+          {
+            "id": "call-005",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-005",
+            "text": "⁵"
+          }
+        ],
+        "notes": [
+          {
+            "id": "fn-004",
+            "text": "4. Vgl. Akrich 1992, S. 207–209. ↩"
+          },
+          {
+            "id": "fn-005",
+            "text": "5. Vgl. Norman 2008; Hearst 2009, S. 18–19. ↩"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "lines": [
+          {
+            "text": "welchen Bestand sich diese Suche bezieht ⁶. Bei Promptfeldern können Formulierun-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.5025%; height: 24px; word-spacing: 0px; letter-spacing: 0.16px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.005); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.277px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.16px",
+              "left": "0px",
+              "transform": "matrix(1.005, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "gen und Beispiele einen offeneren Handlungsraum vermitteln, etwa indem sie dazu",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.8004%; height: 24px; word-spacing: 0px; letter-spacing: 0.0250573px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.002); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.146px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0250573px",
+              "left": "0px",
+              "transform": "matrix(1.002, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "auffordern, eine Frage zu stellen, eine Aufgabe zu formulieren oder ein Anliegen zu be-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.1%; height: 24px; word-spacing: 0px; letter-spacing: -0.00283384px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.999); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00283384px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "schreiben. Bei der Command Line können sichtbare Hinweise anzeigen, wo eine Ein-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.604%; height: 24px; word-spacing: 0px; letter-spacing: -0.0734826px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.994); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.189px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0734826px",
+              "left": "0px",
+              "transform": "matrix(0.994, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "gabe erfolgt, erklären aber nicht zwingend, welche Befehle oder syntaktischen Formen",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.9001%; height: 24px; word-spacing: 0px; letter-spacing: 0.0145333px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.001); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0145333px",
+              "left": "0px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "verstanden werden.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Sichtbare Hinweise legen den vorgesehenen Gebrauch eines Eingabefelds jedoch nicht",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.8004%; height: 24px; word-spacing: 0px; letter-spacing: 0.0263352px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.002); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.146px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0263352px",
+              "left": "0px",
+              "transform": "matrix(1.002, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "vollständig fest. Sie können Orientierung geben, garantieren aber weder ein einheit-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.1%; height: 24px; word-spacing: 0px; letter-spacing: -0.0171326px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.999); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0171326px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "liches Verständnis noch, dass alle relevanten Anforderungen unmittelbar erkennbar sind.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.402%; height: 24px; word-spacing: 0px; letter-spacing: -0.055364px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.996); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.922px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.055364px",
+              "left": "0px",
+              "transform": "matrix(0.996, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Fehlen entsprechende Hinweise, müssen Erwartungen, Regeln oder Konventionen",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.2063%; height: 24px; word-spacing: 0px; letter-spacing: 0.079036px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.008); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "622.42px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.079036px",
+              "left": "0px",
+              "transform": "matrix(1.008, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "teilweise aus Vorwissen erschlossen werden. Ebenso lässt sich aus der Darstellung allein",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.503%; height: 24px; word-spacing: 0px; letter-spacing: -0.0615238px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.995); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "630.555px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0615238px",
+              "left": "0px",
+              "transform": "matrix(0.995, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "nicht ableiten, ob eine angekündigte Funktion technisch tatsächlich in der vermittel-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.1%; height: 24px; word-spacing: 0px; letter-spacing: -0.00871677px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.999); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00871677px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "ten Weise erfüllt wird.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Nicht nur der Inhalt einer Aufforderung, sondern auch ihre sprachliche Formulierung",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.2063%; height: 24px; word-spacing: 0px; letter-spacing: 0.0949314px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.008); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "622.42px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0949314px",
+              "left": "0px",
+              "transform": "matrix(1.008, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "beeinflusst, wie eine Anwendung erscheint. Eine sachliche Aufforderung um eine",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.5025%; height: 24px; word-spacing: 0px; letter-spacing: 0.16px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.005); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.277px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.16px",
+              "left": "0px",
+              "transform": "matrix(1.005, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "bestimmte Angabe stellt eine andere Beziehung her als die freundlich formulierte Einla-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.1%; height: 24px; word-spacing: 0px; letter-spacing: -0.00785699px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.999); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "628.027px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00785699px",
+              "left": "0px",
+              "transform": "matrix(0.999, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "dung, eine Frage zu stellen, ein Anliegen zu schildern oder Unterstützung bei einer",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.9001%; height: 24px; word-spacing: 0px; letter-spacing: 0.0183477px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.001); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0183477px",
+              "left": "0px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Aufgabe zu erhalten. Insbesondere dialogisch gestaltete Anwendungen können sich da-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.9001%; height: 24px; word-spacing: 0px; letter-spacing: 0.012283px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: -0.873834px; transform: scaleX(1.001); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.773px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.012283px",
+              "left": "-0.873834px",
+              "transform": "matrix(1.001, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "durch als Werkzeug, Auskunftsstelle oder unterstützendes Gegenüber präsentieren.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Mit dieser Ansprache wird zugleich eine Vorstellung davon vermittelt, wofür die Anwen-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.301%; height: 24px; word-spacing: 0px; letter-spacing: -0.036808px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.997); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.287px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.036808px",
+              "left": "0px",
+              "transform": "matrix(0.997, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "dung geeignet sein soll. Werden bestimmte Aufgaben ausdrücklich angeboten oder",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.3049%; height: 24px; word-spacing: 0px; letter-spacing: 0.0766386px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.007); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "623.039px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0766386px",
+              "left": "0px",
+              "transform": "matrix(1.007, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "durch Beispiele vorgeführt, entsteht ein kommuniziertes Leistungsangebot. Akrichs Kon-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.402%; height: 24px; word-spacing: 0px; letter-spacing: -0.05498px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.996); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.922px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.05498px",
+              "left": "0px",
+              "transform": "matrix(0.996, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "zept entworfener Nutzerrollen lässt sich hier erweitern: Gestaltung entwirft nicht nur",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.301%; height: 24px; word-spacing: 0px; letter-spacing: -0.0432592px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.997); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.287px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0432592px",
+              "left": "0px",
+              "transform": "matrix(0.997, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "eine Vorstellung davon, was Nutzer tun sollen, sondern auch davon, welche Rolle das",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.3049%; height: 24px; word-spacing: 0px; letter-spacing: 0.0876366px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.007); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "623.039px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0876366px",
+              "left": "0px",
+              "transform": "matrix(1.007, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "technische Gegenüber in dieser Interaktion einnimmt ⁷.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Die sprachliche Gestaltung einer Anwendung kann beeinflussen, wie viel Vertrauen Nut-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.402%; height: 24px; word-spacing: 0px; letter-spacing: -0.0544917px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.996); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.922px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0544917px",
+              "left": "0px",
+              "transform": "matrix(0.996, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "zerInnen ihr entgegenbringen. Chen et al. untersuchten hierzu die Darstellungen von",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.402%; height: 24px; word-spacing: 0px; letter-spacing: -0.0382635px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.996); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.922px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0382635px",
+              "left": "0px",
+              "transform": "matrix(0.996, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Bank-Chatbots, die sich unter anderem in ihrem Gesprächsstil unterschieden. In den",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.5025%; height: 24px; word-spacing: 0px; letter-spacing: 0.16px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.005); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.277px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.16px",
+              "left": "0px",
+              "transform": "matrix(1.005, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "untersuchten Bedingungen erhielt ein menschenähnlicher Gesprächsstil höhere Ver-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.8004%; height: 24px; word-spacing: 0px; letter-spacing: 0.0129926px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.002); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "626.146px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0129926px",
+              "left": "0px",
+              "transform": "matrix(1.002, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "trauensbewertungen als ein stärker mechanisch wirkender Stil ⁸.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Damit wird die Ansprache von NutzerInnen nicht nur für die Verständlichkeit einer In-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.6016%; height: 24px; word-spacing: 0px; letter-spacing: 0.0497925px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.004); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.9px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0497925px",
+              "left": "0px",
+              "transform": "matrix(1.004, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "teraktion relevant, sondern auch für die Einschätzung der Anwendung selbst. Eine",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.0099%; height: 24px; word-spacing: 0px; letter-spacing: 0.110161px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.01); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "621.188px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.110161px",
+              "left": "0px",
+              "transform": "matrix(1.01, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "persönlichere oder dialogischere Darstellung kann Vertrauen begünstigen, ohne zugleich",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.806%; height: 24px; word-spacing: 0px; letter-spacing: -0.0868581px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.992); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "632.457px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0868581px",
+              "left": "0px",
+              "transform": "matrix(0.992, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "eine höhere technische Zuverlässigkeit oder bessere inhaltliche Leistung zu belegen.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.301%; height: 24px; word-spacing: 0px; letter-spacing: -0.0363006px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.997); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.287px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0363006px",
+              "left": "0px",
+              "transform": "matrix(0.997, 0, 0, 1, 0, 0)"
+            }
+          }
+        ],
+        "noteCalls": [
+          {
+            "id": "call-006",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-006",
+            "text": "⁶"
+          },
+          {
+            "id": "call-007",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-007",
+            "text": "⁷"
+          },
+          {
+            "id": "call-008",
+            "href": "#viv-id-http:003a:002f:002f127:002e0:002e0:002e1:003a8768:002ffrozen:002ehtml:0023fn-008",
+            "text": "⁸"
+          }
+        ],
+        "notes": [
+          {
+            "id": "fn-006",
+            "text": "6. Vgl. Hearst 2009, S. 18–19. ↩"
+          },
+          {
+            "id": "fn-007",
+            "text": "7. Vgl. Akrich 1992, S. 207–209; Subramonyam et al. 2024, PDF-S. 9–12. ↩"
+          },
+          {
+            "id": "fn-008",
+            "text": "8. Vgl. Chen et al. 2024, S. 3639–3643. ↩"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "lines": [
+          {
+            "text": "Vertrauen kann damit auf einer kommunikativen Wirkung beruhen, für die auf techni-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.3049%; height: 24px; word-spacing: 0px; letter-spacing: 0.0801915px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: -0.86747px; transform: scaleX(1.007); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "623.039px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0801915px",
+              "left": "-0.86747px",
+              "transform": "matrix(1.007, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "scher Ebene keine entsprechende Grundlage nachgewiesen ist. Darstellung und tat-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 99.5025%; height: 24px; word-spacing: 0px; letter-spacing: 0.0486267px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1.005); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "624.277px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "0.0486267px",
+              "left": "0px",
+              "transform": "matrix(1.005, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "sächliche Leistungsfähigkeit sind daher voneinander zu unterscheiden.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Beschriftungen, Beispiele und sprachliche Ansprache vermitteln damit nicht nur, wie ein",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.604%; height: 24px; word-spacing: 0px; letter-spacing: -0.0747749px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.994); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.189px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0747749px",
+              "left": "0px",
+              "transform": "matrix(0.994, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "Eingabefeld verwendet werden soll, sondern auch, welche Möglichkeiten eine Anwen-",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.705%; height: 24px; word-spacing: 0px; letter-spacing: -0.079405px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.993); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "631.822px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.079405px",
+              "left": "0px",
+              "transform": "matrix(0.993, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "dung anbietet und welche Leistungen von ihr erwartet werden können. Entscheidend ist",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.503%; height: 24px; word-spacing: 0px; letter-spacing: -0.055236px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.995); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "630.555px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.055236px",
+              "left": "0px",
+              "transform": "matrix(0.995, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "dabei, welche Bedingungen, Grenzen oder Unsicherheiten sichtbar gemacht werden",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: -0.00903141px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.00903141px",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "und welche im Hintergrund bleiben. Zwischen dem, was eine Oberfläche nahelegt, und",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100.301%; height: 24px; word-spacing: 0px; letter-spacing: -0.0279592px; break-inside: avoid; break-after: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(0.997); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "629.287px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "-0.0279592px",
+              "left": "0px",
+              "transform": "matrix(0.997, 0, 0, 1, 0, 0)"
+            }
+          },
+          {
+            "text": "dem, was technisch tatsächlich möglich ist, kann eine Differenz entstehen.",
+            "style": "line-height: calc(24px - var(--viv-layoutUnitAdj)); width: 100%; height: 24px; word-spacing: 0px; letter-spacing: 0px; break-inside: avoid; position: relative; display: block; overflow: visible; white-space: nowrap; box-sizing: border-box; left: 0px; transform: scaleX(1); transform-origin: left top;",
+            "metrics": {
+              "fontSize": "15.998px",
+              "width": "627.4px",
+              "height": "24px",
+              "lineHeight": "23.998px",
+              "wordSpacing": "0px",
+              "letterSpacing": "normal",
+              "left": "0px",
+              "transform": "matrix(1, 0, 0, 1, 0, 0)"
+            }
+          }
+        ],
+        "noteCalls": [],
+        "notes": []
+      },
+      {
+        "number": 5,
+        "lines": [],
+        "noteCalls": [],
+        "notes": []
+      }
+    ],
+    "sourceFrames": [],
+    "composedLineCount": 100,
+    "renderedLineCount": 100,
+    "lineTextPreserved": true,
+    "lineStylePreserved": false,
+    "maxMetricDeltaPx": {
+      "fontSize": 0.002000000000000668,
+      "width": 0.02400000000000091,
+      "height": 0,
+      "lineHeight": 0.0019999999999988916,
+      "wordSpacing": 0,
+      "letterSpacing": 1.0000000000287557e-07,
+      "left": 1.0000000000287557e-06
+    },
+    "glyphScalePreserved": true,
+    "notesOnCallPage": true,
+    "viewerErrors": [],
+    "logs": []
+  },
+  "pdf": {
+    "pdf": "output/pdf/Input_Plugin_Vivliostyle_Test.pdf",
+    "pages": 5,
+    "body_lines": 100,
+    "body_line_text_preserved": true,
+    "internal_links": 26,
+    "external_links": 6,
+    "all_internal_destinations_resolve": true,
+    "all_notes_on_call_page": true,
+    "note_pages": [
+      {
+        "number": 1,
+        "page": 1
+      },
+      {
+        "number": 2,
+        "page": 1
+      },
+      {
+        "number": 3,
+        "page": 1
+      },
+      {
+        "number": 4,
+        "page": 2
+      },
+      {
+        "number": 5,
+        "page": 2
+      },
+      {
+        "number": 6,
+        "page": 3
+      },
+      {
+        "number": 7,
+        "page": 3
+      },
+      {
+        "number": 8,
+        "page": 3
+      }
+    ],
+    "original_plugin_unchanged": true,
+    "plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+    "pdf_sha256": "2316efbe139b1b2c2f4e238d32c85957621a6330b8031ff8bc3c6c01afdb71bf"
+  }
+}
