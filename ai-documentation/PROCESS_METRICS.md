@@ -2867,3 +2867,31 @@ Earlier events retain their dates, archive traces and qualitative tool records;
 they will only be backfilled where reliable boundaries can be established.
 P-0107 is the first explicit exception recorded after instrumentation: its
 visible elapsed boundary is reliable, but a cross-segment token delta is not.
+
+
+## P-0217 — User inset and User/System display labels, 6 October 2026
+
+CDX-08 retains the current visible-session snapshot and available platform
+accounting. No process-specific token delta is assigned: the extraction script
+reports that token snapshots do not bracket the requested process. No baseline,
+process token use, cost, or uninterrupted labour time is inferred. Later QA and
+handoff enter the next archive synchronization. The historical PDF is retained
+under the current browser-only workflow.
+
+
+## P-0221 — Full bibliography, 6 October 2026
+
+The CDX-08 technical-session archive is refreshed for the bibliography task.
+Available platform usage is retained by the exporter. No reliable token-use
+snapshots bracket this individual batch, so no isolated token delta is claimed.
+The work reused existing source metadata; no new source acquisition, evaluation
+or historical AI-documentation edition rebuild was performed.
+
+
+## P-0233 — AI bibliography model metadata, 6 October 2026
+
+CDX-08 is refreshed for this bibliography/disclosure task. Available platform
+usage is retained by the exporter; no reliable process-specific token boundaries
+or isolated token delta are claimed. Archive model-observation counts are
+metadata occurrences, not duration, token usage, cost or uninterrupted labour.
+No historical AI-documentation PDF or numbered browser edition rebuild.

@@ -1,0 +1,1033 @@
+{
+  "checked": "2026-10-08",
+  "variants": [
+    {
+      "variant": "digital",
+      "pdf": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/output/pdf/Input_Digital_mit_Kapitelseiten.pdf",
+      "pdf_sha256": "88977bc80c77e294c52dc5a70101f88b942974d166a967db6018f26424fa46c0",
+      "pages": 27,
+      "a4_verified": true,
+      "rows": {
+        "body": 1700,
+        "ai": 230,
+        "source": 99,
+        "bibliography": 162
+      },
+      "all_browser_rows_preserved": true,
+      "all_page_numbers_verified": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27"
+      ],
+      "gender_stars": 84,
+      "max_gender_star_baseline_error_pt": 0.0,
+      "internal_links": 178,
+      "external_links": 572,
+      "all_internal_destinations_resolve": true,
+      "all_343_ai_ranges_linked": true,
+      "source_targets": [
+        {
+          "number": 1,
+          "call_page": 4,
+          "source_page": 5
+        },
+        {
+          "number": 2,
+          "call_page": 4,
+          "source_page": 5
+        },
+        {
+          "number": 3,
+          "call_page": 4,
+          "source_page": 5
+        },
+        {
+          "number": 4,
+          "call_page": 4,
+          "source_page": 5
+        },
+        {
+          "number": 5,
+          "call_page": 5,
+          "source_page": 6
+        },
+        {
+          "number": 6,
+          "call_page": 5,
+          "source_page": 6
+        },
+        {
+          "number": 7,
+          "call_page": 5,
+          "source_page": 6
+        },
+        {
+          "number": 8,
+          "call_page": 6,
+          "source_page": 6
+        },
+        {
+          "number": 9,
+          "call_page": 6,
+          "source_page": 7
+        },
+        {
+          "number": 10,
+          "call_page": 6,
+          "source_page": 7
+        },
+        {
+          "number": 11,
+          "call_page": 7,
+          "source_page": 7
+        },
+        {
+          "number": 12,
+          "call_page": 7,
+          "source_page": 7
+        },
+        {
+          "number": 13,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 14,
+          "call_page": 8,
+          "source_page": 8
+        },
+        {
+          "number": 15,
+          "call_page": 8,
+          "source_page": 8
+        },
+        {
+          "number": 16,
+          "call_page": 8,
+          "source_page": 8
+        },
+        {
+          "number": 17,
+          "call_page": 8,
+          "source_page": 8
+        },
+        {
+          "number": 18,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 19,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 20,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 21,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 22,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 23,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 24,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 25,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 26,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 27,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 28,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 29,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 30,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 31,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 32,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 33,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 34,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 35,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 36,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 37,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 38,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 39,
+          "call_page": 12,
+          "source_page": 13
+        },
+        {
+          "number": 40,
+          "call_page": 12,
+          "source_page": 13
+        },
+        {
+          "number": 41,
+          "call_page": 12,
+          "source_page": 13
+        },
+        {
+          "number": 42,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 43,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 44,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 45,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 46,
+          "call_page": 14,
+          "source_page": 14
+        },
+        {
+          "number": 47,
+          "call_page": 14,
+          "source_page": 15
+        },
+        {
+          "number": 48,
+          "call_page": 14,
+          "source_page": 15
+        },
+        {
+          "number": 49,
+          "call_page": 14,
+          "source_page": 15
+        },
+        {
+          "number": 50,
+          "call_page": 14,
+          "source_page": 15
+        },
+        {
+          "number": 51,
+          "call_page": 14,
+          "source_page": 15
+        },
+        {
+          "number": 52,
+          "call_page": 15,
+          "source_page": 15
+        },
+        {
+          "number": 53,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 54,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 55,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 56,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 57,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 58,
+          "call_page": 18,
+          "source_page": 18
+        },
+        {
+          "number": 59,
+          "call_page": 18,
+          "source_page": 21
+        },
+        {
+          "number": 60,
+          "call_page": 18,
+          "source_page": 21
+        },
+        {
+          "number": 61,
+          "call_page": 18,
+          "source_page": 21
+        },
+        {
+          "number": 62,
+          "call_page": 18,
+          "source_page": 21
+        },
+        {
+          "number": 63,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 64,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 65,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 66,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 67,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 68,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 69,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 70,
+          "call_page": 19,
+          "source_page": 21
+        },
+        {
+          "number": 71,
+          "call_page": 20,
+          "source_page": 21
+        },
+        {
+          "number": 72,
+          "call_page": 20,
+          "source_page": 21
+        },
+        {
+          "number": 73,
+          "call_page": 20,
+          "source_page": 21
+        },
+        {
+          "number": 74,
+          "call_page": 20,
+          "source_page": 21
+        },
+        {
+          "number": 75,
+          "call_page": 20,
+          "source_page": 21
+        },
+        {
+          "number": 76,
+          "call_page": 20,
+          "source_page": 21
+        },
+        {
+          "number": 77,
+          "call_page": 20,
+          "source_page": 21
+        },
+        {
+          "number": 78,
+          "call_page": 21,
+          "source_page": 22
+        },
+        {
+          "number": 79,
+          "call_page": 21,
+          "source_page": 22
+        },
+        {
+          "number": 80,
+          "call_page": 21,
+          "source_page": 22
+        },
+        {
+          "number": 81,
+          "call_page": 21,
+          "source_page": 22
+        },
+        {
+          "number": 82,
+          "call_page": 22,
+          "source_page": 22
+        },
+        {
+          "number": 83,
+          "call_page": 22,
+          "source_page": 22
+        },
+        {
+          "number": 84,
+          "call_page": 22,
+          "source_page": 22
+        },
+        {
+          "number": 85,
+          "call_page": 22,
+          "source_page": 22
+        },
+        {
+          "number": 86,
+          "call_page": 22,
+          "source_page": 23
+        },
+        {
+          "number": 87,
+          "call_page": 22,
+          "source_page": 23
+        },
+        {
+          "number": 88,
+          "call_page": 23,
+          "source_page": 23
+        },
+        {
+          "number": 89,
+          "call_page": 23,
+          "source_page": 23
+        }
+      ],
+      "fonts_embedded": {
+        "/AAAAAA+OOArketaTrial-Regular": true,
+        "/BAAAAA+OOArketaTrial-Regular": true
+      },
+      "font_names": [
+        "AAAAAA+OOArketaTrial-Regular",
+        "BAAAAA+OOArketaTrial-Regular"
+      ]
+    },
+    {
+      "variant": "print",
+      "pdf": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/output/pdf/Input_Druck_ohne_Kapitelseiten.pdf",
+      "pdf_sha256": "5d79550c8293c31c3a18bc32de1b25cd47af142ab2a37af6c4dec18b86abc9b6",
+      "pages": 21,
+      "a4_verified": true,
+      "rows": {
+        "body": 1700,
+        "ai": 230,
+        "source": 99,
+        "bibliography": 162
+      },
+      "all_browser_rows_preserved": true,
+      "all_page_numbers_verified": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21"
+      ],
+      "gender_stars": 84,
+      "max_gender_star_baseline_error_pt": 0.0,
+      "internal_links": 178,
+      "external_links": 572,
+      "all_internal_destinations_resolve": true,
+      "all_343_ai_ranges_linked": true,
+      "source_targets": [
+        {
+          "number": 1,
+          "call_page": 2,
+          "source_page": 3
+        },
+        {
+          "number": 2,
+          "call_page": 2,
+          "source_page": 3
+        },
+        {
+          "number": 3,
+          "call_page": 2,
+          "source_page": 3
+        },
+        {
+          "number": 4,
+          "call_page": 2,
+          "source_page": 3
+        },
+        {
+          "number": 5,
+          "call_page": 3,
+          "source_page": 4
+        },
+        {
+          "number": 6,
+          "call_page": 3,
+          "source_page": 4
+        },
+        {
+          "number": 7,
+          "call_page": 3,
+          "source_page": 4
+        },
+        {
+          "number": 8,
+          "call_page": 4,
+          "source_page": 4
+        },
+        {
+          "number": 9,
+          "call_page": 4,
+          "source_page": 5
+        },
+        {
+          "number": 10,
+          "call_page": 4,
+          "source_page": 5
+        },
+        {
+          "number": 11,
+          "call_page": 5,
+          "source_page": 5
+        },
+        {
+          "number": 12,
+          "call_page": 5,
+          "source_page": 5
+        },
+        {
+          "number": 13,
+          "call_page": 5,
+          "source_page": 6
+        },
+        {
+          "number": 14,
+          "call_page": 6,
+          "source_page": 6
+        },
+        {
+          "number": 15,
+          "call_page": 6,
+          "source_page": 6
+        },
+        {
+          "number": 16,
+          "call_page": 6,
+          "source_page": 6
+        },
+        {
+          "number": 17,
+          "call_page": 6,
+          "source_page": 6
+        },
+        {
+          "number": 18,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 19,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 20,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 21,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 22,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 23,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 24,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 25,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 26,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 27,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 28,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 29,
+          "call_page": 7,
+          "source_page": 8
+        },
+        {
+          "number": 30,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 31,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 32,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 33,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 34,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 35,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 36,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 37,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 38,
+          "call_page": 8,
+          "source_page": 9
+        },
+        {
+          "number": 39,
+          "call_page": 9,
+          "source_page": 10
+        },
+        {
+          "number": 40,
+          "call_page": 9,
+          "source_page": 10
+        },
+        {
+          "number": 41,
+          "call_page": 9,
+          "source_page": 10
+        },
+        {
+          "number": 42,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 43,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 44,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 45,
+          "call_page": 10,
+          "source_page": 11
+        },
+        {
+          "number": 46,
+          "call_page": 11,
+          "source_page": 11
+        },
+        {
+          "number": 47,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 48,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 49,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 50,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 51,
+          "call_page": 11,
+          "source_page": 12
+        },
+        {
+          "number": 52,
+          "call_page": 12,
+          "source_page": 12
+        },
+        {
+          "number": 53,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 54,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 55,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 56,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 57,
+          "call_page": 13,
+          "source_page": 14
+        },
+        {
+          "number": 58,
+          "call_page": 14,
+          "source_page": 14
+        },
+        {
+          "number": 59,
+          "call_page": 14,
+          "source_page": 17
+        },
+        {
+          "number": 60,
+          "call_page": 14,
+          "source_page": 17
+        },
+        {
+          "number": 61,
+          "call_page": 14,
+          "source_page": 17
+        },
+        {
+          "number": 62,
+          "call_page": 14,
+          "source_page": 17
+        },
+        {
+          "number": 63,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 64,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 65,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 66,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 67,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 68,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 69,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 70,
+          "call_page": 15,
+          "source_page": 17
+        },
+        {
+          "number": 71,
+          "call_page": 16,
+          "source_page": 17
+        },
+        {
+          "number": 72,
+          "call_page": 16,
+          "source_page": 17
+        },
+        {
+          "number": 73,
+          "call_page": 16,
+          "source_page": 17
+        },
+        {
+          "number": 74,
+          "call_page": 16,
+          "source_page": 17
+        },
+        {
+          "number": 75,
+          "call_page": 16,
+          "source_page": 17
+        },
+        {
+          "number": 76,
+          "call_page": 16,
+          "source_page": 17
+        },
+        {
+          "number": 77,
+          "call_page": 16,
+          "source_page": 17
+        },
+        {
+          "number": 78,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 79,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 80,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 81,
+          "call_page": 17,
+          "source_page": 18
+        },
+        {
+          "number": 82,
+          "call_page": 18,
+          "source_page": 18
+        },
+        {
+          "number": 83,
+          "call_page": 18,
+          "source_page": 18
+        },
+        {
+          "number": 84,
+          "call_page": 18,
+          "source_page": 18
+        },
+        {
+          "number": 85,
+          "call_page": 18,
+          "source_page": 18
+        },
+        {
+          "number": 86,
+          "call_page": 18,
+          "source_page": 19
+        },
+        {
+          "number": 87,
+          "call_page": 18,
+          "source_page": 19
+        },
+        {
+          "number": 88,
+          "call_page": 19,
+          "source_page": 19
+        },
+        {
+          "number": 89,
+          "call_page": 19,
+          "source_page": 19
+        }
+      ],
+      "fonts_embedded": {
+        "/AAAAAA+OOArketaTrial-Regular": true,
+        "/BAAAAA+OOArketaTrial-Regular": true
+      },
+      "font_names": [
+        "AAAAAA+OOArketaTrial-Regular",
+        "BAAAAA+OOArketaTrial-Regular"
+      ]
+    }
+  ],
+  "all_source_destinations_correctly_renumbered": true,
+  "canonical_preview_preserved": true,
+  "original_pages_unchanged": true,
+  "original_plugin_unchanged": true,
+  "visual_qa_complete": true,
+  "visual_review": {
+    "all_pages_rendered": 48,
+    "all_contact_sheets_reviewed": 6,
+    "detailed_pages": {
+      "digital": [
+        14,
+        20,
+        25,
+        27
+      ],
+      "print": [
+        1,
+        20,
+        21
+      ]
+    },
+    "render_dpi": 96,
+    "qa_directory": "output/pdf/qa",
+    "zero_visible_defects": true
+  },
+  "external_ai_links_point_to_local_html_preview": true
+}

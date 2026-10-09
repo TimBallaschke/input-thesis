@@ -1,0 +1,293 @@
+{
+  "checked": "2026-10-08",
+  "paragraph_adjusted": "para-063",
+  "paragraph_pulled_back": "para-065",
+  "base_tracking_em_before": 0.013,
+  "base_tracking_em_after": -0.017,
+  "relative_tracking_variation_indesign": 10,
+  "tracking_range_em": [
+    -0.027,
+    -0.007
+  ],
+  "rows_before": 11,
+  "rows_after": 10,
+  "closing_row": "zugleich um eine Reformulierung.",
+  "smallest_tested_negative_integer_base_for_ten_rows_and_complete_closing_word": true,
+  "selected_trials": [
+    {
+      "units": 0,
+      "base": 0,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -1,
+      "base": -0.001,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -2,
+      "base": -0.002,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -3,
+      "base": -0.003,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -4,
+      "base": -0.004,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -5,
+      "base": -0.005,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -6,
+      "base": -0.006,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -7,
+      "base": -0.007,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -8,
+      "base": -0.008,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -9,
+      "base": -0.009,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -10,
+      "base": -0.01,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -11,
+      "base": -0.011,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -12,
+      "base": -0.012,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -13,
+      "base": -0.013,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -14,
+      "base": -0.014,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -15,
+      "base": -0.015,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -16,
+      "base": -0.016,
+      "rows": 11,
+      "last": "lierung.",
+      "previous": "es sich zugleich um eine Reformu-",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": []
+    },
+    {
+      "units": -17,
+      "base": -0.017,
+      "rows": 10,
+      "last": "zugleich um eine Reformulierung.",
+      "previous": "rem Umfang verändert, handelt es sich",
+      "zone": "31.5578125px",
+      "valid": true,
+      "wholeWords": [
+        "zugleich",
+        "um",
+        "eine",
+        "Reformulierung"
+      ]
+    }
+  ],
+  "target_paragraph_locations": [
+    {
+      "page": 14,
+      "column": 1,
+      "text": "Wie Nutzer*innen eine Eingabe"
+    },
+    {
+      "page": 14,
+      "column": 1,
+      "text": "verändern, hängt davon ab, was sich"
+    },
+    {
+      "page": 14,
+      "column": 1,
+      "text": "aus der Reaktion des Systems ableiten"
+    },
+    {
+      "page": 14,
+      "column": 1,
+      "text": "lässt. Bei Formularen kann eine Feh-"
+    },
+    {
+      "page": 14,
+      "column": 1,
+      "text": "lermeldung vergleichsweise klar zei-"
+    },
+    {
+      "page": 14,
+      "column": 1,
+      "text": "gen, welche Anforderung noch nicht"
+    },
+    {
+      "page": 14,
+      "column": 1,
+      "text": "erfüllt ist[47]."
+    }
+  ],
+  "right_column_opening": [
+    "Bei Suchergebnissen oder gene-",
+    "rierten Antworten ist dagegen oft",
+    "weniger deutlich, wie die Eingabe"
+  ],
+  "all_manuscript_text_and_other_body_breaks_preserved": true,
+  "source_ai_bibliography_composition_exact": true,
+  "pages": 27,
+  "body_rows": 1700,
+  "source_rows": 99,
+  "ai_rows": 230,
+  "bibliography_rows": 162,
+  "all_four_audits_pass": true,
+  "ai_reference_audit": {
+    "checked": "2026-10-08T06:06:31.076Z",
+    "sections": 15,
+    "ranges": 343,
+    "checked_endpoints": 686,
+    "documentation_pages_loaded": 211,
+    "edition_sha256": "a5376ce4cbd2f3deeba4151e83f97cbb0bf533d99b6d0f37f1e2b57a537d8c1a",
+    "all_printed_labels_match": true,
+    "all_visible_endpoints_match": true,
+    "clicked_example": {
+      "label": "Seite 5, Zeilen 917–928",
+      "page": 5,
+      "line": 917
+    },
+    "proof": "output/thesis-web/qa/ai-reference-target-page-05.png"
+  },
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 0.0028547033833348223,
+    "sourceMaxErrorMm": 0.002465425649248232,
+    "annotationGridScope": "third_body_rows_with_two_thirds_leading"
+  },
+  "hyphenation": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 182,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "original_pages_unchanged": true,
+  "original_plugin_unchanged": true,
+  "visually_checked_pages": [
+    14,
+    15
+  ],
+  "proof": "output/thesis-web/qa/erfuellt-left-column-page-14.png",
+  "pdf_exported": false
+}

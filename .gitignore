@@ -1,6 +1,7 @@
 .DS_Store
 .codex_tmp/
 tmp/
+__pycache__/
 
 # Independently versioned website repository.
 /website/

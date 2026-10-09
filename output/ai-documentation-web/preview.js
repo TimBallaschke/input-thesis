@@ -1,8 +1,11 @@
-const catalog=await(await fetch('edition.json')).json();
+// Catalog, row locations and page fragments must come from the current edition.
+const catalog=await(await fetch('edition.json',{cache:'no-store'})).json();
+const revision=new URLSearchParams(location.search).get('edition')||`${catalog.pipelineHash}-${catalog.layoutHash}`;
+const editionFile=name=>`${name}?edition=${encodeURIComponent(revision)}`;
 const index=document.querySelector('#archive-index'),root=document.querySelector('#pages');
 for(const archive of catalog.archives){const a=document.createElement('a');a.href='#'+archive.id;a.textContent=archive.id;index.append(a,' ')}
 const sheets=[];
-for(const page of catalog.pages){const el=document.createElement('div');el.className='sheet';el.dataset.page=page.number;el.id='page-'+page.number;root.append(el);sheets.push(el)}
+for(const page of catalog.pages){const el=document.createElement('div');el.className='sheet';el.dataset.page=page.number;el.dataset.pageSide=page.number%2?'recto':'verso';el.id='page-'+page.number;root.append(el);sheets.push(el)}
 function fitPages(){root.style.zoom=String(Math.min(1,Math.max(.2,(innerWidth-40)/(210*96/25.4))))}
 fitPages();addEventListener('resize',fitPages);
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)loadPage(Number(e.target.dataset.page))}),{rootMargin:'1500px'});
@@ -10,15 +13,15 @@ sheets.forEach(p=>observer.observe(p));
 const loading=new Map();
 async function loadPage(number){
  if(loading.has(number))return loading.get(number);
- const task=(async()=>{const p=sheets[number-1];const response=await fetch('pages/'+String(number).padStart(4,'0')+'.html');if(!response.ok)throw Error('Seite '+number+' nicht erreichbar');p.innerHTML=await response.text();p.dataset.loaded='true';observer.unobserve(p)})();
+ const task=(async()=>{const p=sheets[number-1];const response=await fetch(editionFile('pages/'+String(number).padStart(4,'0')+'.html'),{cache:'no-store'});if(!response.ok)throw Error('Seite '+number+' nicht erreichbar');p.innerHTML=await response.text();p.dataset.loaded='true';observer.unobserve(p)})();
  loading.set(number,task);return task;
 }
 async function targetHash(){const key=decodeURIComponent(location.hash.slice(1));if(!key)return;const target=catalog.targets[key];if(!target)return;await loadPage(target.page);const el=document.getElementById(target.anchor)||sheets[target.page-1];el.scrollIntoView({block:'center'});el.classList.add('target');setTimeout(()=>el.classList.remove('target'),2000)}
 addEventListener('hashchange',targetHash);
 window.aiEdition=catalog;
 window.aiLoadPage=loadPage;
-const trace=await(await fetch('section-provenance.json')).json();
-const locations=await(await fetch('locations.json')).json();
+const trace=await(await fetch(editionFile('section-provenance.json'),{cache:'no-store'})).json();
+const locations=await(await fetch(editionFile('locations.json'),{cache:'no-store'})).json();
 const panel=document.querySelector('#mapping');
 const sectionId=new URLSearchParams(location.search).get('section');
 const selected=trace.sections.find(s=>s.id===sectionId);

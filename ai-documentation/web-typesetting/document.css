@@ -8,12 +8,14 @@ a{color:inherit;text-decoration:none}
 .column{width:83.5mm;flex:none}
 .doc-row{width:83.5mm;height:var(--baseline);display:flex;gap:1ch;align-items:start}
 .line-number{width:6ch;flex:none;text-align:left;font:inherit;white-space:nowrap;color:#b3b3b3}
-.line-text{width:calc(83.5mm - 7ch);flex:none;position:relative}
+.line-text{width:calc(83.5mm - 7ch);flex:none;position:relative;text-align:left}
+.doc-row.user-message .line-text{width:calc(75.15mm - 6.3ch);margin-left:calc(8.35mm - .7ch)}
 .message-header{color:#b3b3b3}
 .doc-row .auto-typeset-line{position:relative;display:block;white-space:nowrap;transform-origin:left top;height:var(--baseline)!important;line-height:var(--baseline)!important}
 .page-number{position:absolute;left:30mm;right:8mm;bottom:8mm;font-size:10pt;height:10pt;text-align:center;line-height:10pt}
 .target{outline:1px solid #999;outline-offset:2px}
 #composer{width:calc(83.5mm - 7ch);position:absolute;left:-10000px;top:0}
 .compose-line{width:100%;font:inherit;line-height:var(--baseline);margin:0}
+.compose-line.user-message{width:90%;margin-left:10%}
 @media print{.sheet{margin:0!important;box-shadow:none!important}body{background:white!important}}
 @page{size:A4;margin:0}

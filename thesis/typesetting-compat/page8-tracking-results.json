@@ -1,0 +1,217 @@
+{
+  "checked": "2026-10-07",
+  "section": "section-06",
+  "paragraphs": [
+    {
+      "id": "para-038",
+      "base_tracking_em": -0.003,
+      "tracking_range_em": [
+        -0.013000000000000001,
+        0.007
+      ],
+      "body_rows_before": 9,
+      "body_rows_after": 8
+    },
+    {
+      "id": "para-041",
+      "base_tracking_em": -0.017,
+      "tracking_range_em": [
+        -0.027000000000000003,
+        -0.007000000000000001
+      ],
+      "body_rows_before": 9,
+      "body_rows_after": 8
+    }
+  ],
+  "saved_body_rows": 2,
+  "source_locations_before": [
+    {
+      "page": 8,
+      "column": 2,
+      "lines": 1
+    },
+    {
+      "page": 9,
+      "column": 1,
+      "lines": 3
+    }
+  ],
+  "source_locations_after": [
+    {
+      "page": 8,
+      "column": 2,
+      "lines": 4
+    }
+  ],
+  "ai_locations": [
+    {
+      "page": 8,
+      "column": 2,
+      "lines": 13
+    }
+  ],
+  "complete_source_block_on_page_8": true,
+  "body_font_pt": 10,
+  "body_leading_pt": 13.500600560523155,
+  "annotation_leading_pt": 10.125450420392367,
+  "all_other_body_line_breaks_preserved": true,
+  "all_manuscript_words_and_source_links_preserved": true,
+  "source_line_breaks_preserved": true,
+  "page6_notes_still_complete_in_left_column": true,
+  "pages": 27,
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 0.003211541306257004,
+    "sourceMaxErrorMm": 0.0027736038554024844,
+    "annotationGridScope": "quarter_body_rows_with_three_quarter_leading"
+  },
+  "footer_geometry": [
+    {
+      "page": 1,
+      "bottomMarginMm": 7.99808724735874,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 2,
+      "bottomMarginMm": 7.998119545245743,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 3,
+      "bottomMarginMm": 7.998119545245743,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 4,
+      "bottomMarginMm": 7.998119545245743,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 5,
+      "bottomMarginMm": 7.998119545245743,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 6,
+      "bottomMarginMm": 7.998119545245743,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 7,
+      "bottomMarginMm": 7.998119545245743,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 8,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 9,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 10,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 11,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 12,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 13,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 14,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 15,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 16,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 17,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 18,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 19,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 20,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 21,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 22,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 23,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 24,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 25,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 26,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    },
+    {
+      "page": 27,
+      "bottomMarginMm": 7.99799035369773,
+      "fontSizePt": 9.999975
+    }
+  ],
+  "hyphenation": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 178,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "pdf_exported": false,
+  "screenshot": "output/thesis-web/qa/page8-tracking.png"
+}

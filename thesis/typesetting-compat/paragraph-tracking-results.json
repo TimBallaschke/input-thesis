@@ -1,0 +1,352 @@
+{
+  "paragraph": "para-021",
+  "section": "section-04",
+  "base_tracking_em": -0.003,
+  "plugin_tracking_range_em": [
+    -0.013000000000000001,
+    0.007
+  ],
+  "body_lines_before": 17,
+  "body_lines_after": 16,
+  "body_font_pt": 10,
+  "body_leading_pt": 13.500600560523155,
+  "annotation_leading_pt": 10.125450420392367,
+  "ai_rows": 12,
+  "source_rows": 4,
+  "notes_page": 6,
+  "notes_column": 1,
+  "all_notes_in_left_column": true,
+  "contribution": "Three local paragraph settings save three body rows at the restored three-quarter annotation leading.",
+  "geometry": {
+    "body": [
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 50.80018373909049,
+        "bottomMm": 55.562700964630224,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "Damit wird die Ansprache von Nut-"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 55.562700964630224,
+        "bottomMm": 60.325218190169956,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "zer*innen nicht nur für die Verständ-"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 60.325218190169956,
+        "bottomMm": 65.08773541570969,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "lichkeit einer Interaktion relevant,"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 65.08773541570969,
+        "bottomMm": 69.85025264124943,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "sondern auch für die Einschätzung"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 69.85025264124943,
+        "bottomMm": 74.61276986678917,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "der Anwendung selbst. Eine persönli-"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 74.61276986678917,
+        "bottomMm": 79.37528709232889,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "chere oder dialogischere Darstellung"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 79.37528709232889,
+        "bottomMm": 84.13780431786863,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "kann Vertrauen begünstigen, ohne zu-"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 84.13780431786863,
+        "bottomMm": 88.90032154340837,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "gleich eine höhere technische Zuver-"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 88.90032154340837,
+        "bottomMm": 93.66283876894809,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "lässigkeit oder bessere inhaltliche"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 93.66283876894809,
+        "bottomMm": 98.42535599448783,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "Leistung zu belegen. Vertrauen kann"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 98.42535599448783,
+        "bottomMm": 103.18787322002756,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "damit auf einer kommunikativen Wirkung"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 103.18787322002756,
+        "bottomMm": 107.9503904455673,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "beruhen, für die auf technischer"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 107.9503904455673,
+        "bottomMm": 112.71290767110703,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "Ebene keine entsprechende Grundlage"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 112.71290767110703,
+        "bottomMm": 117.47542489664676,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "nachgewiesen ist. Darstellung und"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 117.47542489664676,
+        "bottomMm": 122.2379421221865,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "tatsächliche Leistungsfähigkeit sind"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 122.2379421221865,
+        "bottomMm": 127.00045934772623,
+        "fontPt": 9.99855,
+        "leadingPt": 13.499099999999999,
+        "text": "daher voneinander zu unterscheiden."
+      }
+    ],
+    "ai": [
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 209.02158934313275,
+        "bottomMm": 212.59347726228756,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Dieser Abschnitt wurde mit Unterstützung von KI erarbeitet."
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 212.59347726228756,
+        "bottomMm": 216.16536518144235,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Die zugehörige Recherche, Textauswahl, Ausarbeitung und"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 216.16536518144235,
+        "bottomMm": 219.73725310059714,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Überarbeitung sind in der KI-Dokumentation dokumentiert: Seite"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 219.73725310059714,
+        "bottomMm": 223.30914101975196,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "5, Zeilen 942–953; Seiten 7–8, Zeilen 1382–1399; Seiten 38–39,"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 223.30914101975196,
+        "bottomMm": 226.88102893890675,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Zeilen 3572–3816; Seiten 41–42, Zeilen 4313–4416; Seiten 42–45,"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 226.88102893890675,
+        "bottomMm": 230.45291685806154,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Zeilen 4485–5003; Seiten 57–59, Zeilen 7514–7786; Seiten"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 230.45291685806154,
+        "bottomMm": 234.02480477721636,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "70–72, Zeilen 10019–10453; Seiten 79–88, Zeilen 11798–13652;"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 234.02480477721636,
+        "bottomMm": 237.59669269637115,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Seiten 91–93, Zeilen 296–640; Seite 95, Zeilen 999–1115;"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 237.59669269637115,
+        "bottomMm": 241.16858061552594,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Seiten 206–207, Zeilen 17612–17820; Seiten 208–212, Zeilen"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 241.16858061552594,
+        "bottomMm": 244.74046853468076,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "17969–18613; Seiten 212–213, Zeilen 18738–18920; Seite"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 244.74046853468076,
+        "bottomMm": 248.31235645383555,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "214, Zeilen 19074–19126; Seite 217, Zeilen 19741–19799; Seiten"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 248.31235645383555,
+        "bottomMm": 251.88424437299037,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "336–338, Zeilen 386–771; Seiten 356–359, Zeilen 1304–1784."
+      }
+    ],
+    "sources": [
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 255.45613229214516,
+        "bottomMm": 259.0280202113,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "[05] Vgl. Norman 2008; Hearst 2009, S. 18–19. [06] Vgl."
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 259.0280202113,
+        "bottomMm": 262.59990813045476,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Hearst 2009, S. 18–19. [07] Vgl. Akrich 1992, S. 207–209;"
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 262.59990813045476,
+        "bottomMm": 266.17179604960955,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "Subramonyam et al. 2024, PDF-S. 9–12. [08] Vgl. Chen et al."
+      },
+      {
+        "page": 6,
+        "column": 1,
+        "topMm": 266.17179604960955,
+        "bottomMm": 269.74368396876434,
+        "fontPt": 5.9985375,
+        "leadingPt": 10.123949999999999,
+        "text": "2024, S. 3639–3643."
+      }
+    ]
+  },
+  "paragraphs": [
+    {
+      "id": "para-018",
+      "base_tracking_em": -0.003,
+      "tracking_range_em": [
+        -0.013000000000000001,
+        0.007
+      ],
+      "body_lines_before": 15,
+      "body_lines_after": 14
+    },
+    {
+      "id": "para-020",
+      "base_tracking_em": -0.02,
+      "tracking_range_em": [
+        -0.03,
+        -0.01
+      ],
+      "body_lines_before": 12,
+      "body_lines_after": 11
+    },
+    {
+      "id": "para-021",
+      "base_tracking_em": -0.003,
+      "tracking_range_em": [
+        -0.013000000000000001,
+        0.007
+      ],
+      "body_lines_before": 17,
+      "body_lines_after": 16
+    }
+  ],
+  "saved_body_rows": 3,
+  "preserved_other_paragraph_settings": [
+    "para-074"
+  ]
+}

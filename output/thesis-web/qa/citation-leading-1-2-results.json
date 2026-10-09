@@ -1,0 +1,39 @@
+{
+  "checked": "2026-10-07",
+  "font_size_pt": 6,
+  "font_ratio": 1.2,
+  "line_height_pt": 7.2,
+  "line_height_mm": 2.54,
+  "previous_line_height_pt": 10.125450420392367,
+  "scope": "main_thesis_source_and_ai_notices",
+  "pages": 27,
+  "leading": {
+    "expectedBodyMm": 4.762711864406779,
+    "actualBodyMm": 4.7625172255397334,
+    "annotationRatioRange": [
+      0.5329861111111112,
+      0.5329861111111112
+    ],
+    "expectedAnnotationMm": 2.54,
+    "annotationFontRatio": 1.2,
+    "maxAnnotationRatioError": 0.00032349742981419016,
+    "checkedAdjacentAnnotationRows": 295
+  },
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 0.05787781350482691,
+    "aiMaxErrorMm": 0.03617822691777661,
+    "sourceMaxErrorMm": 0.031244832338074957,
+    "annotationGridScope": "independent_1_2_font_leading_with_body_grid_after_annotations"
+  },
+  "all_annotation_text_and_links_preserved": true,
+  "all_annotation_horizontal_breaks_preserved": true,
+  "bibliography_composition_preserved": false,
+  "proof": "output/thesis-web/qa/citation-leading-1-2-page-06.png",
+  "live_styles": {
+    "font_size_px": "7.99805px",
+    "line_height_px": "9.59805px"
+  },
+  "pdf_exported": false
+}

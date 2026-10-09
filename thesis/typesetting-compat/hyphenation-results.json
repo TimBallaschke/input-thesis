@@ -1,0 +1,66 @@
+{
+  "checked": "2026-10-07",
+  "configured_max_consecutive_hyphens": 3,
+  "rendered_verification": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 182,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "hyphen_min_prefix": 2,
+  "hyphen_min_suffix": 2,
+  "regular_ragged_zone": "10% of column width",
+  "wider_paragraph_zones": [
+    {
+      "kind": "manifest",
+      "id": "para-111",
+      "zone": "40px"
+    },
+    {
+      "kind": "sourceManifest",
+      "id": "sources-section-08",
+      "zone": "40px"
+    },
+    {
+      "kind": "aiManifest",
+      "id": "ai-notice-section-16",
+      "zone": "36px"
+    }
+  ],
+  "pages": 27,
+  "row_counts": {
+    "body": 1704,
+    "sources": 99,
+    "ai_notices": 230,
+    "bibliography": 162
+  },
+  "all_manuscript_text_and_links_preserved": true,
+  "overflow": [],
+  "shared_grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 0.0028547033833348223,
+    "sourceMaxErrorMm": 0.002465425649248232,
+    "annotationGridScope": "third_body_rows_with_two_thirds_leading"
+  },
+  "concurrent_annotation_flow": {
+    "keptAnnotationLines": 0,
+    "keptBlocks": 0,
+    "overflowingLines": []
+  },
+  "original_plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "representative_page_visually_checked": 7,
+  "pdf_exported": false,
+  "rendered_check": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 182,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  }
+}

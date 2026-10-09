@@ -1,0 +1,28 @@
+{
+  "checked": "2026-10-07",
+  "orphans": 2,
+  "widows": 1,
+  "single_closing_line_after_column_or_page_break": "allowed",
+  "page7_columns": [
+    {
+      "column": 1,
+      "last_line": "gen dadurch begünstigt, dass ande-",
+      "last_line_id": "body-line-0435",
+      "bottom_mm": 275.14397048950195
+    },
+    {
+      "column": 2,
+      "last_line": "auch, wie sich das Eingabefeld wäh-",
+      "last_line_id": "body-line-0461",
+      "bottom_mm": 275.1356964111328
+    }
+  ],
+  "bottom_difference_mm": 0.008274078369140625,
+  "page8_first_line": "rend seiner Nutzung verändert.",
+  "pages": 28,
+  "body_rows": 1695,
+  "all_previous_composed_line_text_preserved": true,
+  "full_text_link_grid_audits_pass": true,
+  "preview_fragment_navigation_verified": true,
+  "pdf_exported": false
+}

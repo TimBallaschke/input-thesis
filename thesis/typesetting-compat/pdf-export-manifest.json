@@ -1,0 +1,129 @@
+{
+  "exported": "2026-10-08T06:48:29.112Z",
+  "frozen_sha256": "67ca0d02eaa1bc5e3d6f63b8562fe531e7432061a4958d865b7fb00a239c55d3",
+  "css_sha256": "946806212c67227d1006b6a1c6a557db2d947a36ea300985fbd4530f4a230119",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "original_plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "body_rows": 1700,
+  "removed_print_title_pages": [
+    "Einleitung",
+    "Surface",
+    "Interaction",
+    "Operation",
+    "Schluss",
+    "Bibliography"
+  ],
+  "content_geometry_preserved": true,
+  "canonical_preview_preserved": true,
+  "print_page_mapping": [
+    {
+      "digital": 2,
+      "print": 1
+    },
+    {
+      "digital": 4,
+      "print": 2
+    },
+    {
+      "digital": 5,
+      "print": 3
+    },
+    {
+      "digital": 6,
+      "print": 4
+    },
+    {
+      "digital": 7,
+      "print": 5
+    },
+    {
+      "digital": 8,
+      "print": 6
+    },
+    {
+      "digital": 10,
+      "print": 7
+    },
+    {
+      "digital": 11,
+      "print": 8
+    },
+    {
+      "digital": 12,
+      "print": 9
+    },
+    {
+      "digital": 13,
+      "print": 10
+    },
+    {
+      "digital": 14,
+      "print": 11
+    },
+    {
+      "digital": 15,
+      "print": 12
+    },
+    {
+      "digital": 17,
+      "print": 13
+    },
+    {
+      "digital": 18,
+      "print": 14
+    },
+    {
+      "digital": 19,
+      "print": 15
+    },
+    {
+      "digital": 20,
+      "print": 16
+    },
+    {
+      "digital": 21,
+      "print": 17
+    },
+    {
+      "digital": 22,
+      "print": 18
+    },
+    {
+      "digital": 23,
+      "print": 19
+    },
+    {
+      "digital": 25,
+      "print": 20
+    },
+    {
+      "digital": 27,
+      "print": 21
+    }
+  ],
+  "variants": [
+    {
+      "id": "digital",
+      "input": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/tmp/vivliostyle-compat/web/pdf-digital.html",
+      "input_sha256": "67ca0d02eaa1bc5e3d6f63b8562fe531e7432061a4958d865b7fb00a239c55d3",
+      "pdf": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/output/pdf/Input_Digital_mit_Kapitelseiten.pdf",
+      "pdf_sha256": "88977bc80c77e294c52dc5a70101f88b942974d166a967db6018f26424fa46c0",
+      "pages": 27,
+      "inspection": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/tmp/pdfs/thesis-variants/digital-inspection.json",
+      "input_url": "http://127.0.0.1:8768/pdf-digital.html"
+    },
+    {
+      "id": "print",
+      "input": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/tmp/vivliostyle-compat/web/pdf-print.html",
+      "input_sha256": "6c3f9c62d72fe0f1d8057af328555a46c9ecf009c976dd3ac23354221f27f4c7",
+      "pdf": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/output/pdf/Input_Druck_ohne_Kapitelseiten.pdf",
+      "pdf_sha256": "5d79550c8293c31c3a18bc32de1b25cd47af142ab2a37af6c4dec18b86abc9b6",
+      "pages": 21,
+      "inspection": "/Users/timballaschke/Desktop/Projekt/01_Projekte/Master_Thesis/tmp/pdfs/thesis-variants/print-inspection.json",
+      "input_url": "http://127.0.0.1:8768/pdf-print.html"
+    }
+  ],
+  "cli_version": "11.3.3",
+  "viewer_version": "2.45.1",
+  "previous_browser_pages": 27
+}

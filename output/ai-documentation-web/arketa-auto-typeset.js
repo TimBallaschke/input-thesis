@@ -83586,7 +83586,9 @@ function br(e) {
 	}
 }
 function xr(e, t, n) {
-	return e.replace(/[\p{L}\p{M}\u00ad]+/gu, (e) => {
+    e = e.split(/([ \t\n\r\f]+)/u).map(part =>
+      part.includes("\xA0") ? part.replace(/\u00ad/g, "") : part).join("");
+    return e.replace(/[\p{L}\p{M}\u00ad]+/gu, (e) => {
 		let r = Array.from(e).filter((e) => /\p{L}/u.test(e)).length, i = 0, a = "";
 		for (let o of e) {
 			if (o === q) {
@@ -84126,34 +84128,36 @@ function $(e) {
 function Jr(e) {
 	return `${e.toFixed(1).replace(".", ",")} mm`;
 }
-function Yr(e, t, n) {
- let r = document.createElement("canvas").getContext("2d");
- if (!r) throw Error("A 2D canvas context is required for typesetting.");
- r.font = e;
- let opticalStrength = 2;
- let cache = new Map(), reference = r.measureText("H");
- // Align the visible letter edge to H's upright stem, retaining its normal inset.
- let referenceLeft = -reference.actualBoundingBoxLeft;
- let referenceRight = reference.width - reference.actualBoundingBoxRight;
+function Yr(font, fontSize, enabled) {
+ const context = document.createElement("canvas").getContext("2d");
+ const contours = document.createElement("canvas").getContext("2d");
+ if (!context || !contours) throw Error("A 2D canvas context is required for typesetting.");
+ context.font = font;
+ // Small-size Canvas ink bounds are rounded to pixels. Measure larger outlines
+ // and normalize them to the actual source size for subpixel edge correction.
+ const precision = 64;
+ contours.font = font.replace(/\d+(?:\.\d+)?px/, `${fontSize * precision}px`);
+ const reference = contours.measureText("H");
+ const referenceBearings = {
+  left: -reference.actualBoundingBoxLeft / precision,
+  right: (reference.width - reference.actualBoundingBoxRight) / precision,
+ };
+ const cache = new Map();
  return {
-  spaceWidth: r.measureText(" ").width,
-  hyphenWidth: r.measureText("-").width,
+  spaceWidth: context.measureText(" ").width,
+  hyphenWidth: context.measureText("-").width,
   opticalMargin: { measure: (character, side) => {
-   if (!n) return 0;
-   let key = side + ":" + character;
+   if (!enabled) return 0;
+   const key = `${side}:${character}`;
    if (cache.has(key)) return cache.get(key);
-   let metric = r.measureText(character);
-   let left = metric.actualBoundingBoxLeft, right = metric.actualBoundingBoxRight;
-   if (!Number.isFinite(left) || !Number.isFinite(right)) return 0;
-   let ink = Math.max(0, left + right);
-   let bearing = side === "left" ? -left : metric.width - right;
-   let referenceBearing = side === "left" ? referenceLeft : referenceRight;
-   let fraction = side === "left" ? (pr[character] ?? 0) : 0;
-   // Double punctuation and dash corrections on both edges; retain letter alignment.
-   // The base limits are scaled too, so the stronger setting is not clipped.
-   // Negative values retain wide glyphs within the shared optical text edge.
-   let strength = /\p{P}/u.test(character) ? opticalStrength : 1;
-   let amount = strength * Math.max(-t * .15, Math.min(t * .5, bearing - referenceBearing + ink * fraction));
+   const metric = contours.measureText(character);
+   const bearing = side === "left"
+    ? -metric.actualBoundingBoxLeft / precision
+    : (metric.width - metric.actualBoundingBoxRight) / precision;
+   // Retain H's normal inset, correcting every letter and punctuation mark.
+   // Negative corrections keep wide outlines inside the same visible edge.
+   const amount = Number.isFinite(bearing) && Number.isFinite(referenceBearings[side])
+    ? bearing - referenceBearings[side] : 0;
    cache.set(key, amount);
    return amount;
   } }
@@ -84241,7 +84245,7 @@ function ri(e, t) {
 			let n = window.getComputedStyle(r), c = Number.parseFloat(n.fontSize), l = ci(n.lineHeight, c), u = `${n.fontStyle} ${n.fontWeight} ${n.fontSize} ${n.fontFamily}`;
 			await document.fonts.load(`${n.fontSize} ${n.fontFamily}`);
 			let d = si(t.ragged.zone, e, 28), f = si(t.ragged.topVariance, e, 0), p = si(t.ragged.bottomVariance, e, 8), m = await Sr(s, [{
-				width: r.clientWidth,
+				width: r.getBoundingClientRect().width,
 				height: Math.max(c, r.clientHeight),
 				font: u,
 				fontSize: c,
@@ -84251,7 +84255,7 @@ function ri(e, t) {
 			}], {
 				composer: t.mode === "justified" ? "optimal" : "dynamic-ragged",
 				language: t.language,
-				hyphenate: !0,
+				hyphenate: t.hyphenate ?? !0,
 				opticalMarginAlignment: t.opticalMargin,
 				wordSpacing: t.wordSpacing,
 				tracking: t.tracking,
@@ -84336,7 +84340,7 @@ function li(e) {
 	].join("|");
 }
 function ui(e) {
-	return e.replace(/\s+/g, " ").trim();
+	return e.replace(/[ \t\n\r\f]+/g, " ").trim();
 }
 function di() {
 	if (document.getElementById(ei)) return;

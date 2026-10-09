@@ -1,0 +1,21 @@
+{
+  "main": {
+    "centerErrorMm": -0.06614699331848552,
+    "entryCount": 36,
+    "fontSize": "13.3314px",
+    "page": 29,
+    "pages": 31,
+    "ready": true,
+    "textTransform": "uppercase",
+    "title": "Bibliography",
+    "tracking": "8.66449px"
+  },
+  "a6": {
+    "centerErrorMm": -0.004134309179283759,
+    "fontSize": "13.3333px",
+    "sheetCount": 7,
+    "textTransform": "uppercase",
+    "title": "Bibliography",
+    "tracking": "8.66667px"
+  }
+}

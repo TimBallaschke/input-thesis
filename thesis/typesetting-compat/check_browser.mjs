@@ -1,4 +1,7 @@
 import fs from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import {calibrateAnnotationFlow} from './paginated-flow.mjs';
 import path from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
@@ -9,6 +12,8 @@ const require = createRequire('/Users/timballaschke/.cache/codex-runtimes/codex-
 const { chromium } = require('playwright');
 const port = process.env.COMPAT_PORT || '8768';
 const base = `http://127.0.0.1:${port}`;
+execFileSync('python3', [path.join(root, 'thesis/typesetting-compat/refresh_ai_notices.py')],
+  {cwd: root, stdio: 'inherit'});
 const browser = await chromium.launch({headless: true,
   executablePath: '/Users/timballaschke/Library/Caches/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-mac-arm64/chrome-headless-shell'});
 
@@ -22,12 +27,14 @@ try {
   if (!result.fontLoaded || result.manifest.some(p => !p.lines.length)) throw new Error('Plugin did not compose every paragraph.');
   const restoredLinks = await page.locator('.auto-typeset-render .note-call').count();
   const fixture = JSON.parse(await fs.readFile(path.join(work, 'web/fixture.json')));
+  const bodyLeadingMm = 281 / fixture.layout.baseline_rows;
   if (restoredLinks !== (fixture.layout.sources_visible === false ? 0 : fixture.notes.length)) throw new Error(`Lost note links: ${restoredLinks}`);
   await page.screenshot({path: path.join(work, 'plugin-browser.png')});
-  const frozen = await page.evaluate(() => {
+  const cssRevision = createHash('sha256').update(await fs.readFile(path.join(work, 'web/print.css'))).digest('hex').slice(0, 16);
+  const frozen = (await page.evaluate(() => {
     document.querySelectorAll('script, .auto-typeset-source').forEach(el => el.remove());
     return '<!doctype html>\n' + document.documentElement.outerHTML;
-  });
+  })).replace('href="print.css"', `href="print.css?revision=${cssRevision}"`);
   await fs.writeFile(path.join(work, 'web/frozen.html'), frozen);
   await fs.writeFile(path.join(work, 'composition.json'), JSON.stringify(result, null, 2));
   console.log(JSON.stringify({stage: 'plugin', paragraphs: result.manifest.length,
@@ -65,8 +72,9 @@ try {
           const mm = rect => ({x:(rect.x-box.x)*210/box.width, y:(rect.y-box.y)*297/box.height,
             width:rect.width*210/box.width,height:rect.height*297/box.height});
           const lines = [...p.querySelectorAll('.copy .auto-typeset-line')].map(el=>({...mm(el.getBoundingClientRect()),id:el.dataset.lineId,text:el.textContent}));
-          return {bodyLines:lines, noteBoxes:[...p.querySelectorAll('.print-note, .source-copy')].map(el=>mm(el.getBoundingClientRect())),
-            pageNumber:[...p.querySelectorAll('[data-vivliostyle-page-counter]')].map(el=>({...mm(el.getBoundingClientRect()),text:el.textContent})),
+          return {bodyLines:lines, noteBoxes:[...p.querySelectorAll('.print-note, .source-copy, .ai-copy')].map(el=>mm(el.getBoundingClientRect())),
+            pageNumber:[...p.querySelectorAll('[data-vivliostyle-page-counter]')].map(el=>({...mm(el.getBoundingClientRect()),text:el.textContent,
+              fontSizePt:parseFloat(getComputedStyle(el).fontSize)*72/96})),
             headings:[...p.querySelectorAll('h2')].map(el=>({...mm(el.getBoundingClientRect()),text:el.textContent,
               align:getComputedStyle(el).textAlign, transform:getComputedStyle(el).textTransform, tracking:getComputedStyle(el).letterSpacing}))};
         })(),
@@ -112,22 +120,41 @@ try {
     await viewer.waitForFunction(()=>document.querySelector('[data-vivliostyle-viewer-status="complete"]'),null,{timeout:60000});
     inspection = await readInspection();
   }
-  // Mixed 10 pt prose and 7 pt fixed plugin lines can let native multicol
-  // overflow a kept final line. Force a column break before its final pair.
+  // Mixed prose and annotation rows can let native multicol overflow a fixed
+  // line. Move only that overflowing line; a lone closing line is permitted.
   for (let pass = 0; pass < 4; pass++) {
-    const overflow = inspection.pages.flatMap(p=>p.geometry.bodyLines).filter(l=>l.y+l.height>289-3*281/61+0.05);
+    const overflow = inspection.pages.flatMap(p=>p.geometry.bodyLines).filter(l=>l.y+l.height>289-3*bodyLeadingMm+0.05);
     if (!overflow.length) break;
-    const ids = new Set(overflow.map(line=>{
-      const paragraph=result.manifest.find(p=>p.lines.some(l=>l.id===line.id));
-      const index=paragraph.lines.findIndex(l=>l.id===line.id);
-      return paragraph.lines[Math.min(index,Math.max(0,paragraph.lines.length-2))].id;
-    }));
+    const ids = new Set(overflow.map(line=>line.id));
     let adjusted=await fs.readFile(path.join(work,'web/frozen.html'),'utf8');
     for(const id of ids) adjusted=adjusted.replace(new RegExp(`(<span[^>]*data-line-id="${id}"[^>]*style=")`),'$1break-before: column; ');
     await fs.writeFile(path.join(work,'web/frozen.html'),adjusted);
     await viewer.reload({waitUntil:'networkidle'});
     await viewer.waitForFunction(()=>document.querySelector('[data-vivliostyle-viewer-status="complete"]'),null,{timeout:60000});
     inspection=await readInspection();
+  }
+  if (variant === 'frozen' && fixture.layout.annotation_pagination === 'continuous_line_flow') {
+    const flow = await calibrateAnnotationFlow({viewer, work, base, readInspection, bodyLeadingMm});
+    inspection = flow.inspection;
+    inspection.annotationFlow = {adjustments:flow.adjustments, bottomFragments:flow.bottomFragments, starCorrections:flow.starCorrections};
+    inspection.columnStartIndents = flow.columnStartIndents;
+    // Record the intended frame variant, rather than treating the deliberate
+    // removal of an indent as a discrepancy introduced by the print engine.
+    const corrected=await page.evaluate(indents=>indents.map(indent=>{
+      const line=document.querySelector(`[data-line-id="${indent.id}"]`);
+      line.style.left=`${indent.leftPx}px`;line.style.width=`${indent.widthPx}px`;
+      line.dataset.columnStartIndent='suppressed';
+      return {id:indent.id,style:line.getAttribute('style'),metrics:Object.fromEntries(
+        ['fontSize','width','height','lineHeight','wordSpacing','letterSpacing','left','transform']
+          .map(key=>[key,getComputedStyle(line)[key]]))};
+    }),flow.columnStartIndents);
+    for(const correction of corrected){
+      const line=result.manifest.flatMap(p=>p.lines).find(l=>l.id===correction.id);
+      Object.assign(line,{style:correction.style,metrics:correction.metrics,columnStartIndent:'suppressed'});
+    }
+    result.columnStartIndents=flow.columnStartIndents;
+    await fs.writeFile(path.join(work,'composition.json'),JSON.stringify(result,null,2));
+
   }
   if (fixture.layout.headings_visible) {
     const headings = inspection.pages.flatMap(p => p.geometry.headings);
@@ -139,16 +166,16 @@ try {
     }
   }
   if (variant === 'frozen' && fixture.layout.source_vertical_alignment === 'column_bottom') {
-    const sourceOffsets = await viewer.evaluate(() => {
+    const sourceOffsets = await viewer.evaluate(bodyLeadingMm => {
       const pages = [...document.querySelectorAll('[data-vivliostyle-page-container]')];
       pages.forEach(p => p.style.display = 'block');
       return [...document.querySelectorAll('.section-sources')].map(group => {
         const page = group.closest('[data-vivliostyle-page-container]').getBoundingClientRect();
         const last = group.querySelector('.section-source:last-child').getBoundingClientRect();
         const bottom = (last.bottom - page.top) * 297 / page.height;
-        return {section:group.dataset.section, offsetMm:289 - 3 * 281 / 61 - bottom};
+        return {section:group.dataset.section, offsetMm:289 - 3 * bodyLeadingMm - bottom};
       });
-    });
+    }, bodyLeadingMm);
     if (sourceOffsets.some(s => s.offsetMm < -0.05)) throw new Error('Sources exceed the text area.');
     const css = sourceOffsets.map(s => `.section-sources[data-section="${s.section}"]{position:relative;top:${Math.max(0,s.offsetMm)}mm}`).join('\n');
     await fs.writeFile(path.join(work,'web/frozen.html'), frozen.replace('</head>', `<style id="source-bottom-placement">${css}</style></head>`));
@@ -160,9 +187,11 @@ try {
   if (fixture.layout.page_number === 'inside_type_area_bottom') {
     for (const p of inspection.pages) {
       const number = p.geometry.pageNumber[0];
+      if (fixture.layout.page_number_font_size_pt != null && Math.abs(number.fontSizePt - fixture.layout.page_number_font_size_pt) > 0.01)
+        throw new Error(`Page ${p.number}: page-number font size ${number.fontSizePt} pt differs.`);
       const lowerMargin = 297 - number.y - number.height;
       const textBottom = Math.max(0, ...p.geometry.bodyLines.map(l => l.y + l.height), ...p.geometry.noteBoxes.map(l => l.y + l.height));
-      if (Math.abs(lowerMargin - 8) > 0.05 || (textBottom && number.y - textBottom < (fixture.layout.footer_blank_baselines || 1) * 281 / 61)) {
+      if (Math.abs(lowerMargin - 8) > 0.05 || (textBottom && number.y - textBottom < (fixture.layout.footer_blank_baselines || 1) * bodyLeadingMm)) {
         throw new Error(`Page ${p.number}: footer lower margin ${lowerMargin}, gap ${number.y-textBottom}, text bottom ${textBottom}`);
       }
     }

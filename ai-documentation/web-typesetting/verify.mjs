@@ -10,13 +10,17 @@ const {chromium}=require('playwright');
 const edition=JSON.parse(await fs.readFile(out+'/edition.json'));
 const rowsPerColumn=edition.layout.rows_per_column,rowsPerPage=rowsPerColumn*2;
 if(edition.layout.font_size_pt!==6||rowsPerColumn!==99)throw Error('Documentation grid must use 6 pt and 99 rows per column');
-if(edition.layout.optical_margin!=='off'||edition.layout.optical_margin_strength!==0)throw Error('Optical margin must be disabled');
-if(edition.layout.user_text_width_fraction!==1||edition.layout.user_text_left_indent_fraction!==0)throw Error('User messages must use full text width without indentation');
+if(edition.layout.alignment!=='ragged')throw Error('Documentation must use ragged-right composition');
+if(edition.layout.optical_margin!=='font_contours_relative_to_H'||edition.layout.optical_margin_strength!==1)throw Error('Documentation must use the thesis contour-based optical margin');
+if(edition.layout.user_text_width_fraction!==.9||edition.layout.user_text_left_indent_fraction!==.1)throw Error('User messages must have 10% left indentation and 90% text width');
+if(edition.layout.message_role_labels.user!=='User'||edition.layout.message_role_labels.assistant!=='System')throw Error('Message labels must be User/System');
 if(edition.archives.length!==34||edition.archives.some(a=>a.kind!=='communication_archive'))throw Error('Edition must contain only the 34 communication/supplied-text archives');
 const trace=JSON.parse(await fs.readFile(out+'/section-provenance.json'));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const decode=s=>s.replaceAll('&quot;','"').replaceAll('&lt;','<').replaceAll('&gt;','>').replaceAll('&amp;','&');
 let sourceLines=0,printedRows=0,messageBoundaries=0,hardBreaks=0,numberedRows=0,compactHeaders=0;
+const exclusionPolicy=JSON.parse(await fs.readFile(path.join(root,'ai-documentation/web-typesetting/display-exclusions.json'))).messages;
+let excludedMessages=0,excludedSourceLines=0;
 const samples=new Set(),compositions=new Map();
 for(const archive of edition.archives){
  if(hash(await fs.readFile(path.join(root,archive.transcript)))!==archive.sha256)throw Error('Archive checksum differs '+archive.id);
@@ -25,8 +29,17 @@ for(const archive of edition.archives){
   const match=raw.match(/^(\d+) \| ?(.*)$/);if(!match)throw Error('Invalid original archive line '+archive.id);
   return {number:Number(match[1]),text:match[2]};
  });
- const retained=originalLines.filter(l=>l.number>=input.lines[0].number);
- if(JSON.stringify(retained)!==JSON.stringify(input.lines.map(l=>({number:l.number,text:l.text}))))throw Error('Retained communication/supplied text differs from original archive '+archive.id);
+ const omissions=exclusionPolicy.filter(item=>item.archive_id===archive.id);
+ if(JSON.stringify(input.display_exclusions||[])!==JSON.stringify(omissions))throw Error('Display exclusions differ '+archive.id);
+ for(const omission of omissions){
+  if(omission.archive_sha256!==archive.sha256)throw Error('Excluded message archive checksum differs');
+  const ids=originalLines.filter(l=>l.number>=omission.canonical_start_line&&l.number<=omission.canonical_end_line).map(l=>`${archive.id}-L${String(l.number).padStart(6,'0')}`);
+  if(input.lines.some(l=>l.message_id===omission.message_id)||ids.some(id=>edition.targets[id]))throw Error('Excluded message is still visible '+omission.message_id);
+  excludedMessages++;excludedSourceLines+=ids.length;
+ }
+ const retained=originalLines.filter(l=>l.number>archive.omitted_archive_preface_lines
+   &&!omissions.some(item=>l.number>=item.canonical_start_line&&l.number<=item.canonical_end_line));
+ if(JSON.stringify(retained)!==JSON.stringify(input.lines.filter(l=>!l.display_only).map(l=>({number:l.number,text:l.text}))))throw Error('Retained communication/supplied text differs from original archive '+archive.id);
  const sourceComposition=JSON.parse(await fs.readFile(out+'/'+archive.id+'-composition.json'));
  const composed=JSON.parse(await fs.readFile(out+'/'+archive.id+'-display-composition.json'));
  compositions.set(archive.id,composed);
@@ -41,8 +54,10 @@ for(const archive of edition.archives){
  }
  const inputById=new Map(input.lines.map(l=>[l.id,l]));
  const covered=new Set();
- if(sourceComposition.options.mode!=='justified')throw Error('Original plugin is not in justified mode '+archive.id);
- if(sourceComposition.options.opticalMargin!==false)throw Error('Optical margin is still enabled '+archive.id);
+ if(sourceComposition.options.mode!=='ragged')throw Error('Original plugin is not in ragged mode '+archive.id);
+ if(JSON.stringify(sourceComposition.options.ragged)!==JSON.stringify(edition.layout.ragged))throw Error('Ragged settings differ '+archive.id);
+ if(sourceComposition.rows.some(row=>!row.blank&&Math.abs(parseFloat(row.style.match(/word-spacing:\s*([-\d.]+)/)?.[1]??'0'))>1e-6))throw Error('Ragged text has stretched word spacing '+archive.id);
+ if(sourceComposition.options.opticalMargin!==true)throw Error('Contour-based optical margin is not enabled '+archive.id);
  for(const paragraph of sourceComposition.paragraphs){
   const originals=paragraph.refs.map(id=>{
    if(covered.has(id)||!inputById.has(id))throw Error('Duplicate/unknown paragraph reference '+id);
@@ -67,16 +82,18 @@ for(const archive of edition.archives){
   }
   if(cursor!==original.length)throw Error('Incomplete paragraph '+paragraph.id);
   if(header){
+   const source=inputById.get(paragraph.id);
    const parts=original.match(/^MESSAGE (\d+) \| (\S+) \| (USER|ASSISTANT) \| (\w+)$/);
-   if(!parts)throw Error('Unrecognized original message header '+paragraph.id);
-   const label=parts[3][0]+parts[3].slice(1).toLowerCase();
+   if(!source.display_only&&!parts)throw Error('Unrecognized original message header '+paragraph.id);
+   const label=edition.layout.message_role_labels[source.message_role];
+   if(source.display_only&&original!==label)throw Error('Editorial header differs '+paragraph.id);
    const rows=groups.get(paragraph.id)||[];
    if(rows.length!==1||!rows[0].compact_header||rows[0].text!==label)throw Error('Compact header differs '+paragraph.id);
    compactHeaders++;
   }
  }
  for(const line of input.lines){
-  sourceLines++;if(!edition.targets[line.id])throw Error('Missing stable line target '+line.id);
+  if(!line.display_only)sourceLines++;if(!edition.targets[line.id])throw Error('Missing stable line target '+line.id);
   if(line.text.trim()&&!covered.has(line.id))throw Error('Source line omitted from paragraphs '+line.id);
  }
  let written=0;
@@ -107,6 +124,7 @@ for(const section of trace.sections)for(const relation of section.relations)if(!
 const browser=await chromium.launch({headless:true,executablePath:'/Users/timballaschke/Library/Caches/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-mac-arm64/chrome-headless-shell'});
 const exampleId='CGPT-19-L003478';
 const geometry=[];let printPages=0;const screenshotPages=new Set([1,edition.archives.find(a=>a.id==='CDX-01').pages[0],edition.archives.find(a=>a.id==='CGPT-15').pages[0],edition.targets[exampleId].page]);
+samples.add(2);screenshotPages.add(2);
 samples.add(edition.targets[exampleId].page);
 samples.add(edition.targets['CGPT-19-L004932'].page);
 screenshotPages.add(edition.targets['CGPT-19-L004932'].page);
@@ -114,7 +132,7 @@ await fs.mkdir(out+'/qa',{recursive:true});
 try{
  const page=await browser.newPage({viewport:{width:900,height:1200}});
  await page.goto('http://127.0.0.1:8768/ai-documentation/preview.html',{waitUntil:'networkidle'});
- await page.setContent('<!doctype html><html><head><link rel="stylesheet" href="http://127.0.0.1:8768/ai-documentation/document.css"></head><body><div class="sheet"></div></body></html>');
+ await page.setContent('<!doctype html><html><head><link rel="stylesheet" href="http://127.0.0.1:8768/ai-documentation/document.css"><link rel="stylesheet" href="http://127.0.0.1:8768/ai-documentation/duplex.css"></head><body><div class="sheet"></div></body></html>');
  await page.evaluate(async()=>{await document.fonts.load('6pt Arketa');await document.fonts.ready});
  for(const number of [...samples].sort((a,b)=>a-b)){
   const html=await fs.readFile(out+'/pages/'+String(number).padStart(4,'0')+'.html','utf8');
@@ -123,10 +141,10 @@ try{
   // Long machine strings can have source-preserving short fragments; audit prose separately.
   const machine=new Set(composed.paragraphs.filter(p=>/\S{30,}/u.test(p.text)).map(p=>p.id));
   const checkEdges=composed.rows.slice(start,start+rowsPerPage).map(row=>!row.blank&&!row.compact_header&&!row.paragraph_last&&!hard.has(row.paragraph_id)&&!machine.has(row.paragraph_id));
-  await page.locator('.sheet').evaluate((el,{content,flags})=>{
-   el.innerHTML=content;
+  await page.locator('.sheet').evaluate((el,{content,flags,number})=>{
+   el.dataset.pageSide=number%2?'recto':'verso';el.innerHTML=content;
    [...el.querySelectorAll('.doc-row')].forEach((row,i)=>{if(flags[i])row.dataset.checkRightInk='true'});
-  },{content:html,flags:checkEdges});
+  },{content:html,flags:checkEdges,number});
   const measured=await page.evaluate(()=>{
    const sheet=document.querySelector('.sheet').getBoundingClientRect(),f=210/sheet.width;
    const mm=el=>{const b=el.getBoundingClientRect();return {x:(b.x-sheet.x)*f,y:(b.y-sheet.y)*f,width:b.width*f,height:b.height*f,bottom:(b.bottom-sheet.y)*f}};
@@ -148,19 +166,24 @@ try{
     const gap=parseFloat(getComputedStyle(row).columnGap),full=box.width-label.width-gap;
     return {width_ratio:text.width/full,indent_ratio:(text.left-box.left-label.width-gap)/full,right_error_mm:(text.right-box.right)*f};
    });
-   const context=document.createElement('canvas').getContext('2d'),edgeErrors=[];
+   const context=document.createElement('canvas').getContext('2d'),edgeErrors=[],precision=64;
    for(const row of document.querySelectorAll('[data-check-right-ink]')){
     const line=row.querySelector('.auto-typeset-line'),style=getComputedStyle(line),text=line.textContent;
     const last=Array.from(text).at(-1),scale=Number(line.style.transform.match(/[\d.]+/)[0]);
-    context.font=`${style.fontStyle} ${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;
+    context.font=`${style.fontStyle} ${style.fontWeight} ${parseFloat(style.fontSize)*precision}px ${style.fontFamily}`;
     const glyph=context.measureText(last);
+    const reference=context.measureText('H');
     const range=document.createRange();range.setStart(line.firstChild,text.length-last.length);range.setEnd(line.firstChild,text.length);
-    const actual=range.getBoundingClientRect().left+glyph.actualBoundingBoxRight*scale;
-    const bearing=glyph.width-glyph.actualBoundingBoxRight;
+    const actual=range.getBoundingClientRect().left+glyph.actualBoundingBoxRight/precision*scale;
+    const bearing=(reference.width-reference.actualBoundingBoxRight)/precision;
     const expected=row.querySelector('.line-text').getBoundingClientRect().right-bearing*scale;
-    edgeErrors.push({id:row.id,error_px:actual-expected,last});
+    edgeErrors.push({id:row.id,inset_px:expected-actual,last});
    }
-   const rightInk={checked:edgeErrors.length,max_error_px:Math.max(0,...edgeErrors.map(e=>Math.abs(e.error_px))),outliers:edgeErrors.filter(e=>Math.abs(e.error_px)>.5).slice(0,12)};
+   const rightInk={checked:edgeErrors.length,max_overhang_px:Math.max(0,...edgeErrors.map(e=>-e.inset_px)),
+    min_inset_px:edgeErrors.length?Math.min(...edgeErrors.map(e=>e.inset_px)):null,
+    max_inset_px:Math.max(0,...edgeErrors.map(e=>e.inset_px)),
+    ragged_rows:edgeErrors.filter(e=>e.inset_px>1).length,
+    outliers:edgeErrors.filter(e=>e.inset_px<-.15).slice(0,12)};
    return {rightInk,userBlocks,size:[sheet.width*f,sheet.height*f],columns:columns.map(mm),footer:mm(document.querySelector('.page-number')),
     fonts:[...new Set([...document.querySelectorAll('.line-number,.auto-typeset-line')].map(e=>getComputedStyle(e).fontSize))],
     footerFont:getComputedStyle(document.querySelector('.page-number')).fontSize,
@@ -173,10 +196,12 @@ try{
   });
   if(Math.abs(measured.size[1]-297)>.02||measured.fonts.some(v=>Math.abs(parseFloat(v)-6*96/72)>.02))throw Error('Font or page size differs '+number);
   if([...measured.numberColors,...measured.headerColors].some(c=>c!=='rgb(179, 179, 179)')||measured.bodyColors.some(c=>c!=='rgb(0, 0, 0)'))throw Error('Grey number/header or black text/footer differs '+number);
-  if(measured.columns.some((c,i)=>Math.abs(c.x-[30,118.5][i])>.02||Math.abs(c.y-8)>.02||Math.abs(c.width-83.5)>.02))throw Error('Columns differ '+number);
+  const expectedColumnX=number%2?[30,118.5]:[8,96.5];
+  if(measured.columns.some((c,i)=>Math.abs(c.x-expectedColumnX[i])>.02||Math.abs(c.y-8)>.02||Math.abs(c.width-83.5)>.02))throw Error('Mirrored columns differ '+number);
+  if(Math.abs(measured.footer.x+measured.footer.width/2-(number%2?116:94))>.02)throw Error('Footer does not follow mirrored text frame '+number);
   if(Math.abs(parseFloat(measured.footerFont)-10*96/72)>.02||Math.abs(297-measured.footer.bottom-8)>.02||measured.borderWidths.some(b=>parseFloat(b)!==0)||measured.overflow.length)throw Error('Footer/borders/overflow '+number+' '+JSON.stringify(measured.overflow));
-  if(measured.userBlocks.some(b=>Math.abs(b.width_ratio-1)>.001||Math.abs(b.indent_ratio)>.001||Math.abs(b.right_error_mm)>.02))throw Error('User width/indent/right edge differs '+number);
-  if(measured.rightInk.max_error_px>.5)throw Error('Prose edges differ from composition without optical margins '+number+' '+JSON.stringify(measured.rightInk.outliers));
+  if(measured.userBlocks.some(b=>Math.abs(b.width_ratio-.9)>.001||Math.abs(b.indent_ratio-.1)>.001||Math.abs(b.right_error_mm)>.02))throw Error('User width/indent/right edge differs '+number);
+  if(measured.rightInk.max_overhang_px>.15)throw Error('Ragged prose contours overflow the text frame '+number+' '+JSON.stringify(measured.rightInk.outliers));
   geometry.push({page:number,...measured});
   if(screenshotPages.has(number))await page.locator('.sheet').screenshot({path:out+'/qa/page-'+String(number).padStart(4,'0')+'.png'});
  }
@@ -192,17 +217,19 @@ try{
  const numberText=await page.locator('#'+edition.targets[target.target].anchor+' .line-number').innerText();
  if(numberText!==String(edition.targets[target.target].line_number))throw Error('Browser number does not match printed target');
  await page.goto('http://127.0.0.1:8768/ai-documentation/preview.html#'+exampleId,{waitUntil:'networkidle'});
- if(await page.locator('#'+exampleId+' .line-text').innerText()!=='Assistant')throw Error('Requested message header is not compact in browser');
+ if(await page.locator('#'+exampleId+' .line-text').innerText()!=='System')throw Error('Requested message header is not compact in browser');
  await page.goto('http://127.0.0.1:8768/ai-documentation/print.html',{waitUntil:'load'});
  await page.evaluate(()=>window.printReady);
  printPages=await page.locator('.sheet').count();
  if(printPages!==edition.pages.length||await page.locator('.auto-typeset-line').count()!==printedRows)throw Error('Print edition incomplete');
+ const badPrintSides=await page.evaluate(()=>[...document.querySelectorAll('.sheet')].filter((el,i)=>el.dataset.page!==String(i+1)||el.dataset.pageSide!==((i+1)%2?'recto':'verso')).length);
+ if(badPrintSides)throw Error('Print edition page sides differ');
 }finally{await browser.close()}
-const report={document_blocks:edition.archives.length,communication_archives:edition.archives.filter(a=>a.kind==='communication_archive').length,pages:edition.pages.length,canonical_lines:sourceLines,printed_text_rows:printedRows,numbered_physical_rows:numberedRows,all_numbered_rows_match_physical_lines:true,line_numbering_scope:'archive',line_number_leading_zeroes:false,register_uses_current_physical_line_numbers:true,message_boundaries:messageBoundaries,hard_machine_string_breaks:hardBreaks,
- alignment:'justified',composer:edition.layout.composer,optical_margin:edition.layout.optical_margin,optical_margin_strength:edition.layout.optical_margin_strength,optical_margin_strength_scope:edition.layout.optical_margin_strength_scope,paragraphs_join_original_archive_wraps:true,all_original_body_text_preserved:true,all_published_body_composition_matches_plugin:true,compact_message_headers:compactHeaders,message_header_numbering:false,user_text_width_fraction:1,user_text_left_indent_fraction:0,
+const report={document_blocks:edition.archives.length,communication_archives:edition.archives.filter(a=>a.kind==='communication_archive').length,pages:edition.pages.length,canonical_lines:sourceLines,printed_text_rows:printedRows,numbered_physical_rows:numberedRows,all_numbered_rows_match_physical_lines:true,line_numbering_scope:'archive',line_number_leading_zeroes:false,register_uses_current_physical_line_numbers:true,message_boundaries:messageBoundaries,hard_machine_string_breaks:hardBreaks,excluded_messages:excludedMessages,excluded_source_lines:excludedSourceLines,all_display_exclusions_verified:true,
+ alignment:edition.layout.alignment,ragged:edition.layout.ragged,word_spacing_unstretched:true,composer:edition.layout.composer,optical_margin:edition.layout.optical_margin,optical_margin_strength:edition.layout.optical_margin_strength,optical_margin_strength_scope:edition.layout.optical_margin_strength_scope,paragraphs_join_original_archive_wraps:true,all_original_body_text_preserved:excludedMessages===0,all_retained_body_text_preserved:true,all_published_body_composition_matches_plugin:true,compact_message_headers:compactHeaders,message_header_numbering:false,message_role_labels:edition.layout.message_role_labels,user_text_width_fraction:.9,user_text_left_indent_fraction:.1,
  original_header_metadata_preserved_in_archives:true,all_static_page_text_and_plugin_styles_preserved:true,all_archive_checksums_match:true,
- all_relation_targets_resolve:true,browser_jump_checked:true,fully_loaded_print_pages:printPages,sections:trace.sections.length,relation_candidates:relationCount,
- right_visible_prose_edges_checked:geometry.reduce((n,g)=>n+g.rightInk.checked,0),max_right_visible_prose_edge_error_px:Math.max(...geometry.map(g=>g.rightInk.max_error_px)),
+ all_relation_targets_resolve:true,browser_jump_checked:true,fully_loaded_print_pages:printPages,duplex_page_sides_checked:printPages,inside_margin_mm:30,outside_margin_mm:8,sections:trace.sections.length,relation_candidates:relationCount,
+ right_visible_prose_edges_checked:geometry.reduce((n,g)=>n+g.rightInk.checked,0),ragged_prose_rows_checked:geometry.reduce((n,g)=>n+g.rightInk.ragged_rows,0),max_right_visible_prose_overhang_px:Math.max(...geometry.map(g=>g.rightInk.max_overhang_px)),max_right_visible_prose_inset_px:Math.max(...geometry.map(g=>g.rightInk.max_inset_px)),
  geometry_sample_pages:geometry.length,geometry};
 await fs.writeFile(out+'/verification.json',JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({...report,geometry:undefined}));

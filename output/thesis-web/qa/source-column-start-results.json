@@ -1,0 +1,37 @@
+{
+  "checked": "2026-10-07",
+  "policy": "discard_source_leading_margin_at_page_or_column_start",
+  "pages": 28,
+  "openings": [
+    {
+      "id": "sources-section-03",
+      "page": 5,
+      "column": 1,
+      "firstLine": "[01] Vgl. Norman 2008. [02] Vgl. Shneiderman 1983, S. 57–59.",
+      "marginTopPx": 0,
+      "firstBaselineMm": 11.377124483233809,
+      "targetBaselineMm": 11.377124483233809,
+      "errorMm": 0
+    },
+    {
+      "id": "sources-section-08",
+      "page": 11,
+      "column": 1,
+      "firstLine": "[29] Vgl. MacKenzie/Soukoreff 2002, S. 164–165.",
+      "marginTopPx": 0,
+      "firstBaselineMm": 11.377124483233809,
+      "targetBaselineMm": 11.377124483233809,
+      "errorMm": 0
+    }
+  ],
+  "max_baseline_error_mm": 0,
+  "same_column_ai_source_blank_row_retained": true,
+  "all_source_ai_bibliography_line_text_preserved": true,
+  "full_manuscript_text_and_links_checked": true,
+  "print_css_revision": "ddf0e69cb54cb7e2",
+  "browser_verified_pages": [
+    5,
+    11
+  ],
+  "pdf_exported": false
+}

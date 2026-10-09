@@ -1,0 +1,42 @@
+{
+  "checked": "2026-10-08",
+  "scope": "visible_html_preview_and_print_edition",
+  "excluded_messages": [
+    {
+      "archive_id": "CGPT-01",
+      "archive_sha256": "e0a1501eec9a5aca44b638795c5e083edf8d2611f128b51b23a6710d3823c5dc",
+      "message_id": "CGPT-01-imported-L000007",
+      "role": "user",
+      "canonical_start_line": 7,
+      "canonical_end_line": 20,
+      "reason": "Author requested exclusion of the unreferenced opening message from the visible edition.",
+      "requested_on": "2026-10-08"
+    }
+  ],
+  "excluded_canonical_lines": 14,
+  "removed_numbered_physical_rows": 25,
+  "no_curated_thesis_reference_intersects_exclusion": true,
+  "first_visible_message_id": "CGPT-01-H000021",
+  "first_visible_role": "System",
+  "first_visible_line": 1,
+  "all_remaining_cgpt01_rows_and_styles_preserved": true,
+  "original_archive_checksum_unchanged": true,
+  "historical_latex_and_pdf_unchanged": true,
+  "documentation_pages": 383,
+  "retained_canonical_lines": 57425,
+  "compact_message_headers": 2449,
+  "thesis_pages": 27,
+  "printed_reference_ranges": 343,
+  "checked_reference_endpoints": 686,
+  "all_printed_labels_match": true,
+  "all_visible_endpoints_match": true,
+  "body_source_and_bibliography_composition_unchanged": true,
+  "numeric_reference_labels_updated": true,
+  "first_intro_reference": "Seite 1, Zeilen 101–136",
+  "edition_sha256": "a5376ce4cbd2f3deeba4151e83f97cbb0bf533d99b6d0f37f1e2b57a537d8c1a",
+  "locations_sha256": "98908000ed442dbc8b41c45d7aae3723461b7320e03fb50eb688ecf34bcf3f15",
+  "later_repetition_in_CDX_01_M0010": "unchanged_pending_author_answer",
+  "live_preview_reloaded_and_verified": true,
+  "proof_image": "output/ai-documentation-web/qa/opening-user-message-removed.png",
+  "pdf_exported": false
+}

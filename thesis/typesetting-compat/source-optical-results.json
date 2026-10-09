@@ -1,0 +1,23 @@
+{
+  "checked": "2026-10-06",
+  "alignment": "font_contours_relative_to_H",
+  "original_plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "pages": 27,
+  "mode": "ragged",
+  "blocks": 13,
+  "sourceLines": 99,
+  "justifiedLines": 0,
+  "raggedLines": 99,
+  "tolerancePx": 0.15,
+  "maxLeftErrorPx": 0.00041317782995376086,
+  "maxRightErrorPx": null,
+  "maxRightOverrunPx": 0,
+  "rightInsetRangePx": [
+    0.6392966268667467,
+    78.72412265451796
+  ],
+  "finalLinesNatural": true,
+  "maxRightErrorMm": null,
+  "maxRightOverrunMm": 0
+}

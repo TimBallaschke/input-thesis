@@ -1,0 +1,1170 @@
+{
+  "checked": "2026-10-07",
+  "policy": "no_indent_at_actual_column_start",
+  "column_start_paragraphs": 4,
+  "within_column_indents_retained": 108,
+  "max_left_error_px": 4.949562500655702e-05,
+  "max_width_error_px": 0.01599999999996271,
+  "checks": [
+    {
+      "id": "body-line-0016",
+      "paragraph": "para-002",
+      "page": 2,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-0033",
+      "paragraph": "para-003",
+      "page": 2,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 1.6804062504149897e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0048",
+      "paragraph": "para-004",
+      "page": 2,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-0057",
+      "paragraph": "para-005",
+      "page": 2,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.0021265622792725e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0074",
+      "paragraph": "para-006",
+      "page": 2,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0082",
+      "paragraph": "para-007",
+      "page": 2,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0113",
+      "paragraph": "para-009",
+      "page": 4,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-0128",
+      "paragraph": "para-010",
+      "page": 4,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-0142",
+      "paragraph": "para-011",
+      "page": 4,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-0157",
+      "paragraph": "para-012",
+      "page": 4,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 1.6804062504149897e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0168",
+      "paragraph": "para-013",
+      "page": 4,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-0184",
+      "paragraph": "para-014",
+      "page": 4,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-0220",
+      "paragraph": "para-016",
+      "page": 5,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0242",
+      "paragraph": "para-017",
+      "page": 5,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-0257",
+      "paragraph": "para-018",
+      "page": 5,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-0271",
+      "paragraph": "para-019",
+      "page": 5,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.293110937680922e-05,
+      "widthErrorPx": 0.011709015625058328
+    },
+    {
+      "id": "body-line-0285",
+      "paragraph": "para-020",
+      "page": 5,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-0297",
+      "paragraph": "para-021",
+      "page": 6,
+      "column": 1,
+      "atColumnStart": true,
+      "suppressed": true,
+      "leftErrorPx": 0,
+      "widthErrorPx": 0.01599999999996271
+    },
+    {
+      "id": "body-line-0313",
+      "paragraph": "para-022",
+      "page": 6,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0339",
+      "paragraph": "para-024",
+      "page": 6,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.0021265622792725e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0350",
+      "paragraph": "para-025",
+      "page": 6,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-0362",
+      "paragraph": "para-026",
+      "page": 6,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-0375",
+      "paragraph": "para-027",
+      "page": 6,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-0386",
+      "paragraph": "para-028",
+      "page": 7,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.293110937680922e-05,
+      "widthErrorPx": 0.011709015625058328
+    },
+    {
+      "id": "body-line-0404",
+      "paragraph": "para-029",
+      "page": 7,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0415",
+      "paragraph": "para-030",
+      "page": 7,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-0427",
+      "paragraph": "para-031",
+      "page": 7,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.094184374674569e-05,
+      "widthErrorPx": 0.011709015624944641
+    },
+    {
+      "id": "body-line-0451",
+      "paragraph": "para-033",
+      "page": 7,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0463",
+      "paragraph": "para-034",
+      "page": 8,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0475",
+      "paragraph": "para-035",
+      "page": 8,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 1.6804062504149897e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0487",
+      "paragraph": "para-036",
+      "page": 8,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0499",
+      "paragraph": "para-037",
+      "page": 8,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 1.2603234367247751e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0514",
+      "paragraph": "para-038",
+      "page": 8,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-0523",
+      "paragraph": "para-039",
+      "page": 8,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.3851687493656755e-05,
+      "widthErrorPx": 0.011709015625058328
+    },
+    {
+      "id": "body-line-0531",
+      "paragraph": "para-040",
+      "page": 8,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-0543",
+      "paragraph": "para-041",
+      "page": 8,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.2232828129631343e-05,
+      "widthErrorPx": 0.012709015624977837
+    },
+    {
+      "id": "body-line-0562",
+      "paragraph": "para-043",
+      "page": 10,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0583",
+      "paragraph": "para-044",
+      "page": 10,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0603",
+      "paragraph": "para-045",
+      "page": 10,
+      "column": 2,
+      "atColumnStart": true,
+      "suppressed": true,
+      "leftErrorPx": 0,
+      "widthErrorPx": 0
+    },
+    {
+      "id": "body-line-0627",
+      "paragraph": "para-046",
+      "page": 10,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0653",
+      "paragraph": "para-048",
+      "page": 11,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0661",
+      "paragraph": "para-049",
+      "page": 11,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0679",
+      "paragraph": "para-050",
+      "page": 11,
+      "column": 2,
+      "atColumnStart": true,
+      "suppressed": true,
+      "leftErrorPx": 0,
+      "widthErrorPx": 0
+    },
+    {
+      "id": "body-line-0710",
+      "paragraph": "para-051",
+      "page": 11,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-0723",
+      "paragraph": "para-052",
+      "page": 11,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.0021265622792725e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0753",
+      "paragraph": "para-054",
+      "page": 12,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.094184374674569e-05,
+      "widthErrorPx": 0.011709015624944641
+    },
+    {
+      "id": "body-line-0774",
+      "paragraph": "para-055",
+      "page": 12,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-0790",
+      "paragraph": "para-056",
+      "page": 12,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0821",
+      "paragraph": "para-058",
+      "page": 13,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0841",
+      "paragraph": "para-059",
+      "page": 13,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.0021265622792725e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0858",
+      "paragraph": "para-060",
+      "page": 13,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-0877",
+      "paragraph": "para-061",
+      "page": 13,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-0884",
+      "paragraph": "para-062",
+      "page": 13,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-0905",
+      "paragraph": "para-064",
+      "page": 14,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-0910",
+      "paragraph": "para-065",
+      "page": 14,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-0917",
+      "paragraph": "para-066",
+      "page": 14,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.2232828129631343e-05,
+      "widthErrorPx": 0.012709015624977837
+    },
+    {
+      "id": "body-line-0924",
+      "paragraph": "para-067",
+      "page": 14,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-0934",
+      "paragraph": "para-068",
+      "page": 14,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-0939",
+      "paragraph": "para-069",
+      "page": 14,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-0948",
+      "paragraph": "para-070",
+      "page": 14,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-0966",
+      "paragraph": "para-071",
+      "page": 14,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-1007",
+      "paragraph": "para-072",
+      "page": 15,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-1033",
+      "paragraph": "para-074",
+      "page": 17,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1045",
+      "paragraph": "para-075",
+      "page": 17,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1065",
+      "paragraph": "para-076",
+      "page": 17,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-1080",
+      "paragraph": "para-077",
+      "page": 17,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1091",
+      "paragraph": "para-078",
+      "page": 17,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-1119",
+      "paragraph": "para-079",
+      "page": 17,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-1131",
+      "paragraph": "para-080",
+      "page": 17,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-1144",
+      "paragraph": "para-081",
+      "page": 18,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1152",
+      "paragraph": "para-082",
+      "page": 18,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-1174",
+      "paragraph": "para-084",
+      "page": 18,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1186",
+      "paragraph": "para-085",
+      "page": 18,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.894218750133405e-06,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1193",
+      "paragraph": "para-086",
+      "page": 18,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-1196",
+      "paragraph": "para-087",
+      "page": 18,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-1199",
+      "paragraph": "para-088",
+      "page": 18,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-1202",
+      "paragraph": "para-089",
+      "page": 18,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1206",
+      "paragraph": "para-090",
+      "page": 18,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1213",
+      "paragraph": "para-091",
+      "page": 19,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1224",
+      "paragraph": "para-092",
+      "page": 19,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1234",
+      "paragraph": "para-093",
+      "page": 19,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-1244",
+      "paragraph": "para-094",
+      "page": 19,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-1252",
+      "paragraph": "para-095",
+      "page": 19,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-1255",
+      "paragraph": "para-096",
+      "page": 19,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1265",
+      "paragraph": "para-097",
+      "page": 19,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.0021265622792725e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1276",
+      "paragraph": "para-098",
+      "page": 19,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-1288",
+      "paragraph": "para-099",
+      "page": 19,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-1300",
+      "paragraph": "para-100",
+      "page": 19,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1309",
+      "paragraph": "para-101",
+      "page": 19,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.3286249941634196e-06,
+      "widthErrorPx": 0.0007090156249773827
+    },
+    {
+      "id": "body-line-1319",
+      "paragraph": "para-102",
+      "page": 19,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1328",
+      "paragraph": "para-103",
+      "page": 20,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1342",
+      "paragraph": "para-104",
+      "page": 20,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.2232828129631343e-05,
+      "widthErrorPx": 0.012709015624977837
+    },
+    {
+      "id": "body-line-1355",
+      "paragraph": "para-105",
+      "page": 20,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.116111250596077e-05,
+      "widthErrorPx": 0.0007558156249842796
+    },
+    {
+      "id": "body-line-1370",
+      "paragraph": "para-106",
+      "page": 20,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-1384",
+      "paragraph": "para-107",
+      "page": 20,
+      "column": 2,
+      "atColumnStart": true,
+      "suppressed": true,
+      "leftErrorPx": 0,
+      "widthErrorPx": 0
+    },
+    {
+      "id": "body-line-1404",
+      "paragraph": "para-108",
+      "page": 20,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-1416",
+      "paragraph": "para-109",
+      "page": 20,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-1450",
+      "paragraph": "para-111",
+      "page": 21,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1457",
+      "paragraph": "para-112",
+      "page": 21,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-1473",
+      "paragraph": "para-113",
+      "page": 21,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-1486",
+      "paragraph": "para-114",
+      "page": 21,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 8.565900003532079e-06,
+      "widthErrorPx": 0.0054562156249744476
+    },
+    {
+      "id": "body-line-1500",
+      "paragraph": "para-115",
+      "page": 21,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-1515",
+      "paragraph": "para-116",
+      "page": 22,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-1533",
+      "paragraph": "para-117",
+      "page": 22,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    },
+    {
+      "id": "body-line-1569",
+      "paragraph": "para-119",
+      "page": 22,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-1583",
+      "paragraph": "para-120",
+      "page": 22,
+      "column": 2,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-1604",
+      "paragraph": "para-121",
+      "page": 23,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.74392968783377e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1625",
+      "paragraph": "para-122",
+      "page": 23,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-1651",
+      "paragraph": "para-124",
+      "page": 26,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.72976656177093e-05,
+      "widthErrorPx": 0.0019838156250102656
+    },
+    {
+      "id": "body-line-1668",
+      "paragraph": "para-125",
+      "page": 26,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 3.965085937807089e-05,
+      "widthErrorPx": 0.011709015625001484
+    },
+    {
+      "id": "body-line-1681",
+      "paragraph": "para-126",
+      "page": 26,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 4.949562500655702e-05,
+      "widthErrorPx": 0.01024949562497568
+    },
+    {
+      "id": "body-line-1690",
+      "paragraph": "para-127",
+      "page": 26,
+      "column": 1,
+      "atColumnStart": false,
+      "suppressed": false,
+      "leftErrorPx": 2.6433656245217207e-05,
+      "widthErrorPx": 0.01270901562503468
+    }
+  ],
+  "corrected_lines": [
+    {
+      "id": "body-line-0297",
+      "paragraph": "para-021",
+      "page": 6,
+      "column": 1,
+      "leftPx": 0,
+      "widthPx": 315.578
+    },
+    {
+      "id": "body-line-0603",
+      "paragraph": "para-045",
+      "page": 10,
+      "column": 2,
+      "leftPx": 0,
+      "widthPx": 313.375
+    },
+    {
+      "id": "body-line-0679",
+      "paragraph": "para-050",
+      "page": 11,
+      "column": 2,
+      "leftPx": 0,
+      "widthPx": 313.375
+    },
+    {
+      "id": "body-line-1384",
+      "paragraph": "para-107",
+      "page": 20,
+      "column": 2,
+      "leftPx": 0,
+      "widthPx": 310.297
+    }
+  ],
+  "line_text_and_pagination_preserved": true,
+  "representative_pages_visually_checked": [
+    6
+  ],
+  "preview_cache_refresh_verified": true,
+  "pdf_exported": false
+}

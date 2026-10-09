@@ -1,10 +1,10 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><title>AI-Dokumentation · Druckfassung</title><link rel="stylesheet" href="document.css?v=optical-off"></head><body><p id="loading">Druckfassung wird vollständig geladen …</p><main id="pages"></main><script type="module">
+<!doctype html><html lang="de"><head><meta charset="utf-8"><title>AI-Dokumentation · Druckfassung</title><link rel="stylesheet" href="document.css?v=ragged-20261006"><link rel="stylesheet" href="duplex.css?v=20261007"></head><body><p id="loading">Druckfassung wird vollständig geladen …</p><main id="pages"></main><script type="module">
 window.printReady=(async()=>{
- const edition=await(await fetch('edition.json')).json();
+ const edition=await(await fetch('edition.json',{cache:'no-store'})).json();
  const root=document.querySelector('#pages');
  for(let i=0;i<edition.pages.length;i+=8){
-  const batch=await Promise.all(edition.pages.slice(i,i+8).map(async page=>({number:page.number,html:await(await fetch('pages/'+String(page.number).padStart(4,'0')+'.html')).text()})));
-  for(const page of batch){const sheet=document.createElement('div');sheet.className='sheet';sheet.innerHTML=page.html;root.append(sheet)}
+  const batch=await Promise.all(edition.pages.slice(i,i+8).map(async page=>({number:page.number,html:await(await fetch('pages/'+String(page.number).padStart(4,'0')+'.html',{cache:'no-store'})).text()})));
+  for(const page of batch){const sheet=document.createElement('div');sheet.className='sheet';sheet.dataset.page=page.number;sheet.dataset.pageSide=page.number%2?'recto':'verso';sheet.innerHTML=page.html;root.append(sheet)}
  }
  await document.fonts.load('6pt Arketa');await document.fonts.ready;
  document.querySelector('#loading').remove();document.body.dataset.printReady='true';

@@ -10,6 +10,7 @@ const require=createRequire('/Users/timballaschke/.cache/codex-runtimes/codex-pr
 const {chromium}=require('playwright');
 const hash=s=>createHash('sha256').update(s).digest('hex');
 const pipelineHash=hash(await fs.readFile(path.join(out,'compose.js'),'utf8')+await fs.readFile(path.join(out,'document.css'),'utf8')+await fs.readFile(path.join(out,'arketa-auto-typeset.js'),'utf8'));
+const layoutHash=hash(await fs.readFile(path.join(out,'document.css'),'utf8')+await fs.readFile(path.join(out,'duplex.css'),'utf8')+await fs.readFile(path.join(out,'preview.js'),'utf8')+await fs.readFile(path.join(out,'print.html'),'utf8'));
 const archives=JSON.parse(await fs.readFile(path.join(out,'catalog.json'),'utf8'));
 const originalPlugin=path.join(root,'../web-to-print/public/auto-typeset.js');
 const pluginHash=hash(await fs.readFile(originalPlugin));
@@ -82,7 +83,9 @@ for(const archive of archives){
     const rowId=row.canonical_id&&row.first?row.canonical_id:`${archive.id}-R${rowNumber}`;
     const loc={page:number,column:column+1,physical_row:index+1,line_number:rowNumber,anchor:rowId};
     for(const ref of row.refs){
-     if(!locations[ref])locations[ref]={start:loc,end:loc};else locations[ref].end=loc;
+     if(/-L\d{6}$/.test(ref)){
+      if(!locations[ref])locations[ref]={start:loc,end:loc};else locations[ref].end=loc;
+     }
      targets[ref]??=loc;
     }
     if(row.message_id){messages[row.message_id]??={start:loc,end:loc};messages[row.message_id].end=loc;targets[row.message_id]??=loc}
@@ -106,8 +109,9 @@ for(const filename of await fs.readdir(path.join(out,'pages'))){
  if(/^\d{4}\.html$/.test(filename)&&Number(filename.slice(0,4))>pages.length)
   await fs.unlink(path.join(out,'pages',filename));
 }
-const edition={scope:'messages_and_supplied_text_only',layout:{size_mm:[210,297],margins_mm:{left:30,top:8,right:8,bottom:8},columns:2,column_gap_mm:5,font:'Arketa',font_size_pt:6,page_number_font_size_pt:10,line_number_color:'#b3b3b3',message_header_color:'#b3b3b3',alignment:'justified',composer:'original_plugin_with_arketa_optical_adapter',optical_margin:'off',optical_margin_strength:0,optical_margin_strength_scope:'none',paragraph_flow:'joined_archive_lines',baseline_mm:281/102,rows_per_column:rowsPerColumn,number_gutter:'6ch',number_gap:'1ch',blank_between_messages:1,message_header:'sender',user_text_width_fraction:1,user_text_left_indent_fraction:0,line_numbering:{basis:'composed_rows',scope:'archive',count_blank_rows:true,leading_zeroes:false}},pipelineHash,archives,pages,targets};
+const displayExclusions=archives.flatMap(archive=>archive.display_exclusions||[]);
+const edition={scope:displayExclusions.length?'messages_and_supplied_text_with_documented_exclusions':'messages_and_supplied_text_only',display_exclusions:displayExclusions,layout:{size_mm:[210,297],margins_mm:{left:30,top:8,right:8,bottom:8},printing:'duplex',binding:'left',inner_margin_mm:30,outer_margin_mm:8,margins_by_page_side_mm:{recto:{left:30,top:8,right:8,bottom:8},verso:{left:8,top:8,right:30,bottom:8}},columns:2,column_gap_mm:5,font:'Arketa',font_size_pt:6,page_number_font_size_pt:10,line_number_color:'#b3b3b3',message_header_color:'#b3b3b3',alignment:'ragged',ragged:{zone:'28px',topVariance:'0px',bottomVariance:'8px'},composer:'original_plugin_with_arketa_optical_adapter',optical_margin:'font_contours_relative_to_H',optical_margin_strength:1,optical_margin_strength_scope:'all_edge_glyphs',paragraph_flow:'joined_archive_lines',baseline_mm:281/102,rows_per_column:rowsPerColumn,number_gutter:'6ch',number_gap:'1ch',blank_between_messages:1,message_header:'sender',message_role_labels:{user:'User',assistant:'System'},imported_role_annotations:'editorial readings of supplied text',user_text_width_fraction:.9,user_text_left_indent_fraction:.1,line_numbering:{basis:'composed_rows',scope:'archive',count_blank_rows:true,leading_zeroes:false}},pipelineHash,layoutHash,archives,pages,targets};
 await fs.writeFile(path.join(out,'edition.json'),JSON.stringify(edition));
 await fs.writeFile(path.join(out,'locations.json'),JSON.stringify({canonical_lines:locations,messages},null,2));
-await fs.writeFile(path.join(out,'build-report.json'),JSON.stringify({document_blocks:archives.length,communication_archives:archives.filter(a=>a.kind==='communication_archive').length,pages:pages.length,canonical_lines:Object.keys(locations).length,messages:Object.keys(messages).length,pipelineHash,plugin_sha256:pluginHash,original_archives_unchanged:true,all_composed_text_verified:true,compact_message_headers:compactHeaders.size,display_transform:'sender only; message numbers, timestamps and phases retained in archives; user text full width without indentation'},null,2)+'\n');
+await fs.writeFile(path.join(out,'build-report.json'),JSON.stringify({document_blocks:archives.length,communication_archives:archives.filter(a=>a.kind==='communication_archive').length,pages:pages.length,canonical_lines:Object.keys(locations).length,messages:Object.keys(messages).length,pipelineHash,layoutHash,duplex:true,inside_margin_mm:30,outside_margin_mm:8,plugin_sha256:pluginHash,original_archives_unchanged:true,all_composed_text_verified:true,excluded_messages:displayExclusions.length,compact_message_headers:compactHeaders.size,imported_editorial_headers:headerComposition.rows.filter(r=>r.display_only).length,display_transform:'User/System sender labels; user paragraphs indented by 10% of usable text width; original roles, text and metadata retained in archives'},null,2)+'\n');
 console.log('Complete:',pages.length,'pages,',Object.keys(locations).length,'stable line references');

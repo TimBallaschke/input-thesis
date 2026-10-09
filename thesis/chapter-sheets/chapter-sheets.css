@@ -1,0 +1,131 @@
+@font-face {
+  font-family: Arketa;
+  src: url('../../website/assets/fonts/Arketa.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: block;
+}
+
+:root {
+  --sheet-width: 105mm;
+  --sheet-height: 148mm;
+  --binding-margin: 30mm;
+  --outer-margin: 8mm;
+  --baseline: calc(281mm / 61);
+  --heading-tracking: 0.65em;
+  --paper-color: #a4c6e8;
+}
+
+@page {
+  /* DIN A6 portrait, expressed in dimensions for browser compatibility. */
+  size: 105mm 148mm;
+  margin: 0;
+}
+
+* { box-sizing: border-box; }
+html { color: #000; background: #ececea; }
+body { margin: 0; padding: 28px; font: 14px/1.5 system-ui, sans-serif; }
+.preview-header, .preview-note, .sheets { max-width: 880px; margin: 0 auto; }
+.preview-header { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.print-actions { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+.preview-header h1 { margin: 0; font: 500 18px/1.4 system-ui, sans-serif; }
+.preview-header p { margin: 4px 0 0; color: #565656; }
+.preview-header button { padding: 8px 14px; border: 1px solid #aaa; border-radius: 5px; background: #fff; color: #222; font: inherit; cursor: pointer; }
+.preview-header button:focus-visible { outline: 2px solid #22589d; outline-offset: 3px; }
+.preview-note { margin-top: 14px; margin-bottom: 28px; color: #565656; }
+.sheets { display: grid; grid-template-columns: repeat(auto-fit, var(--sheet-width)); justify-content: center; gap: 28px; }
+figure { margin: 0; }
+figcaption { margin-top: 9px; color: #565656; font-size: 12px; }
+
+.sheet {
+  position: relative;
+  width: var(--sheet-width);
+  height: var(--sheet-height);
+  background: var(--paper-color);
+  color: #000;
+  box-shadow: 0 2px 12px #00000014;
+  font-family: Arketa, monospace;
+  font-size: 10pt;
+  font-weight: 400;
+  line-height: var(--baseline);
+  font-synthesis: none;
+}
+
+/* Center each heading within the usable sheet area. */
+.title-block {
+  position: absolute;
+  left: var(--binding-margin);
+  right: var(--outer-margin);
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.sheet-title, .author, .registration-number {
+  margin: 0;
+  font: inherit;
+  line-height: var(--baseline);
+  white-space: nowrap;
+}
+.sheet-title {
+  letter-spacing: var(--heading-tracking);
+  padding-left: var(--heading-tracking);
+  font-variant-ligatures: none;
+  text-transform: uppercase;
+}
+.cover-title {
+  --heading-tracking: 2.6em;
+}
+/* Align the lower line with the single-line chapter headings. */
+.ai-documentation-sheet .title-block {
+  transform: translateY(calc(-100% + var(--baseline) / 2));
+}
+.title-footer {
+  position: absolute;
+  left: var(--binding-margin);
+  right: var(--outer-margin);
+  text-align: center;
+  letter-spacing: 0;
+  bottom: 6mm;
+}
+.author { text-transform: none; }
+.registration-number {
+  letter-spacing: 0;
+}
+.reverse-sheet .title-block, .reverse-sheet .title-footer {
+  left: var(--outer-margin);
+  right: var(--binding-margin);
+}
+/* Screen-only proof: conventional 80 mm two-hole spacing.
+   On a centered A6 leaf the centers are 34 / 114 mm from its top. */
+.hole {
+  position: absolute;
+  left: 9mm;
+  width: 6mm;
+  height: 6mm;
+  border-radius: 50%;
+  background: #ececea;
+  box-shadow: inset 0 1px 2px #00000016;
+}
+.hole-top { top: 31mm; }
+.hole-bottom { top: 111mm; }
+.reverse-sheet .hole { left: auto; right: 9mm; }
+
+@media screen and (max-width: 450px) {
+  body { padding: 16px 8px; }
+  .preview-header { align-items: flex-start; }
+  .sheets { display: flex; flex-direction: column; align-items: center; }
+}
+
+@media print {
+  html, body { width: var(--sheet-width); margin: 0; padding: 0; background: #fff; }
+  .preview-header, .preview-note, figcaption, .hole { display: none; }
+  .sheets { display: block; width: var(--sheet-width); max-width: none; margin: 0; }
+  figure { margin: 0; break-inside: avoid; break-after: page; }
+  figure:last-child { break-after: auto; }
+  .sheet { background: transparent; box-shadow: none; }
+  .title-back-face { display: none; }
+  body.print-title-pair .sheets figure { display: none; }
+  body.print-title-pair .sheets .title-front-face,
+  body.print-title-pair .sheets .title-back-face { display: block; }
+  body.print-title-pair .sheets .title-back-face { break-after: auto; }
+}

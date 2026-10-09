@@ -1,0 +1,288 @@
+{
+  "checked": "2026-10-07",
+  "scope": "final_body_row_of_each_headed_subchapter",
+  "minimum_whole_words": 1,
+  "paragraph_width_minimum_retained": true,
+  "policy": {
+    "extraCharacterAdvances": 3,
+    "indentPrefix": "M M ",
+    "referenceCharacter": "M",
+    "excludeSourceCalls": true,
+    "subchapterMinimumWholeWords": 1
+  },
+  "word_definition": "complete letter word in unsplit source; compounds and gender stars stay within a word",
+  "fragment_with_additional_complete_word_allowed": true,
+  "source_calls_punctuation_and_numbers_count_as_words": false,
+  "subchapters_checked": 13,
+  "printed_endings": [
+    {
+      "section": "section-03",
+      "title": "Formale Erscheinung und Einbettung",
+      "id": "para-014",
+      "page": 4,
+      "column": 2,
+      "text": "geschrieben wird.",
+      "bodyText": "geschrieben wird.",
+      "completeWords": [
+        "wird"
+      ],
+      "wholeWordCount": 1,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-04",
+      "title": "Die Aufforderung zur Eingabe",
+      "id": "para-022",
+      "page": 6,
+      "column": 1,
+      "text": "kann eine Differenz entstehen.",
+      "bodyText": "kann eine Differenz entstehen.",
+      "completeWords": [
+        "kann",
+        "eine",
+        "Differenz",
+        "entstehen"
+      ],
+      "wholeWordCount": 4,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-05",
+      "title": "Sichtbare Anforderungen, Hilfen und Grenzen",
+      "id": "para-031",
+      "page": 7,
+      "column": 2,
+      "text": "sichtbar werden.",
+      "bodyText": "sichtbar werden.",
+      "completeWords": [
+        "sichtbar",
+        "werden"
+      ],
+      "wholeWordCount": 2,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-06",
+      "title": "Veränderliche Oberfläche und sichtbare Zustände",
+      "id": "para-041",
+      "page": 8,
+      "column": 2,
+      "text": "folgende Kapitel Interaction.",
+      "bodyText": "folgende Kapitel Interaction.",
+      "completeWords": [
+        "folgende",
+        "Kapitel",
+        "Interaction"
+      ],
+      "wholeWordCount": 3,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-08",
+      "title": "Eingabe als physischer Prozess",
+      "id": "para-046",
+      "page": 10,
+      "column": 2,
+      "text": "bedingungen nicht erkennen.",
+      "bodyText": "bedingungen nicht erkennen.",
+      "completeWords": [
+        "nicht",
+        "erkennen"
+      ],
+      "wholeWordCount": 2,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-09",
+      "title": "Erforderliche Kenntnisse und Kompetenzen",
+      "id": "para-052",
+      "page": 12,
+      "column": 1,
+      "text": "bend war.",
+      "bodyText": "bend war.",
+      "completeWords": [
+        "war"
+      ],
+      "wholeWordCount": 1,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-10",
+      "title": "Korrigieren und Bearbeiten",
+      "id": "para-056",
+      "page": 13,
+      "column": 1,
+      "text": "ge zurückgenommen werden können.",
+      "bodyText": "ge zurückgenommen werden können.",
+      "completeWords": [
+        "zurückgenommen",
+        "werden",
+        "können"
+      ],
+      "wholeWordCount": 3,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-11",
+      "title": "Autocomplete und Vorschläge",
+      "id": "para-062",
+      "page": 14,
+      "column": 1,
+      "text": "vorschlagen[46].",
+      "bodyText": "vorschlagen.",
+      "completeWords": [
+        "vorschlagen"
+      ],
+      "wholeWordCount": 1,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-12",
+      "title": "Iteration und Reformulierung",
+      "id": "para-072",
+      "page": 15,
+      "column": 2,
+      "text": "gende Kapitel Operation.",
+      "bodyText": "gende Kapitel Operation.",
+      "completeWords": [
+        "Kapitel",
+        "Operation"
+      ],
+      "wholeWordCount": 2,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-14",
+      "title": "Technische Rolle und Kontext der Eingabe",
+      "id": "para-082",
+      "page": 18,
+      "column": 1,
+      "text": "dung begrenzen.",
+      "bodyText": "dung begrenzen.",
+      "completeWords": [
+        "begrenzen"
+      ],
+      "wholeWordCount": 1,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-15",
+      "title": "Verarbeitung und ihre Maßstäbe",
+      "id": "para-109",
+      "page": 21,
+      "column": 1,
+      "text": "als geeignet oder erwünscht gilt.",
+      "bodyText": "als geeignet oder erwünscht gilt.",
+      "completeWords": [
+        "als",
+        "geeignet",
+        "oder",
+        "erwünscht",
+        "gilt"
+      ],
+      "wholeWordCount": 5,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-16",
+      "title": "Übertragung, Speicherung und Weiterverwendung",
+      "id": "para-117",
+      "page": 22,
+      "column": 2,
+      "text": "können.",
+      "bodyText": "können.",
+      "completeWords": [
+        "können"
+      ],
+      "wholeWordCount": 1,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    },
+    {
+      "section": "section-17",
+      "title": "Sichtbare Rückmeldung und operative Reichweite",
+      "id": "para-122",
+      "page": 23,
+      "column": 2,
+      "text": "bar sind.",
+      "bodyText": "bar sind.",
+      "completeWords": [
+        "sind"
+      ],
+      "wholeWordCount": 1,
+      "minimumWholeWords": 1,
+      "constraintEnabled": true,
+      "passes": true
+    }
+  ],
+  "affected_paragraphs": [
+    {
+      "id": "para-062",
+      "rows_before": 11,
+      "rows_after": 11,
+      "ending_before": "schlagen[46].",
+      "ending_after": "vorschlagen[46].",
+      "ragged_zone": "31.5578125px"
+    }
+  ],
+  "all_paragraph_width_checks_pass": true,
+  "paragraph_width_checks": 127,
+  "tracking_bases_ranges_and_ragged_zones_preserved": true,
+  "glyph_scale_range": [
+    0.98,
+    1.02
+  ],
+  "annotation_and_bibliography_lines_preserved": true,
+  "all_manuscript_text_preserved": true,
+  "counts": {
+    "body": 1704,
+    "sources": 99,
+    "ai_notices": 230,
+    "bibliography": 162
+  },
+  "pages": 27,
+  "bibliography_pages": [
+    27
+  ],
+  "bibliography_entries": 36,
+  "word_boundary_cases": 9,
+  "word_boundary_cases_pass": true,
+  "hyphenation": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 182,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "overflow": [],
+  "missing_links": [],
+  "original_plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "original_plugin_unchanged": true,
+  "proof_image": "output/thesis-web/qa/subchapter-whole-word-ending.png",
+  "pdf_exported": false
+}

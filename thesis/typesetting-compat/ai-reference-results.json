@@ -1,0 +1,16 @@
+{
+  "checked": "2026-10-08T06:25:40.052Z",
+  "sections": 15,
+  "ranges": 343,
+  "checked_endpoints": 686,
+  "documentation_pages_loaded": 211,
+  "edition_sha256": "a5376ce4cbd2f3deeba4151e83f97cbb0bf533d99b6d0f37f1e2b57a537d8c1a",
+  "all_printed_labels_match": true,
+  "all_visible_endpoints_match": true,
+  "clicked_example": {
+    "label": "Seite 5, Zeilen 917–928",
+    "page": 5,
+    "line": 917
+  },
+  "proof": "output/thesis-web/qa/ai-reference-target-page-05.png"
+}

@@ -1,0 +1,38 @@
+{
+  "checked": "2026-10-07",
+  "font_size_pt": 6,
+  "font_ratio": 1.6875750700653944,
+  "line_height_pt": 10.125450420392367,
+  "line_height_mm": 3.5720338983050848,
+  "body_leading_ratio": 0.75,
+  "requested_scope_correction": true,
+  "separate_ai_documentation_settings_preserved": true,
+  "previous_line_height_pt": 7.2,
+  "scope": "main_thesis_source_and_ai_notices",
+  "pages": 28,
+  "leading": {
+    "expectedBodyMm": 4.762711864406779,
+    "actualBodyMm": 4.7625172255397334,
+    "annotationRatioRange": [
+      0.75,
+      0.75
+    ],
+    "expectedAnnotationMm": 3.5720338983050848,
+    "annotationFontRatio": 1.6875750700653944,
+    "maxAnnotationRatioError": 0,
+    "checkedAdjacentAnnotationRows": 297
+  },
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 0.003211541306257004,
+    "sourceMaxErrorMm": 0.0027736038554024844,
+    "annotationGridScope": "quarter_body_rows_with_three_quarter_leading"
+  },
+  "all_annotation_text_and_links_preserved": true,
+  "all_annotation_horizontal_breaks_preserved": true,
+  "bibliography_composition_preserved": true,
+  "proof": "output/thesis-web/qa/annotation-leading-restored-page-06.png",
+  "pdf_exported": false
+}

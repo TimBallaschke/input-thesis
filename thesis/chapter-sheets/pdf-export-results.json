@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-08",
+  "pdf": "output/pdf/input-a6-schnittmarken.pdf",
+  "pdfSha256": "57c824ebd5935b9a7ae5489d9ecb5ed27a82e2baa209846b2ce233756345517e",
+  "sourceSha256": {
+    "thesis/chapter-sheets/template.html": "8e7b082b401df16e52f43cf74beae09e2590703233c9404f885e1ee28bb8cc87",
+    "thesis/chapter-sheets/chapter-sheets.css": "5e7a643560312d96b0d93b0d1f9ed3e18c0847406039c80c571c0acb244a141d",
+    "website/assets/fonts/Arketa.otf": "d95cb6a99bd19f884d9f241c619ba99da7b19e55fb92676c07de5b264ea5245b",
+    "thesis/chapter-sheets/export_pdf.py": "ba5b15a5c8755493d199fbeab3fe718663c01ccfacd67b2eee7dea14b630814b"
+  },
+  "pageFaces": 16,
+  "physicalLeaves": 8,
+  "carrierMm": [
+    210,
+    297
+  ],
+  "trimMm": [
+    105,
+    148
+  ],
+  "printScale": "100%",
+  "duplex": "long edge",
+  "cropMarkLengthMm": 5,
+  "cropMarkGapMm": 2,
+  "cropMarkWeightPt": 0.25,
+  "allTextVerified": true,
+  "allMediaAndTrimBoxesVerified": true,
+  "all16PagesRenderedAndVisuallyReviewed": true,
+  "fontEmbedded": true,
+  "pages": [
+    {
+      "page": 1,
+      "text": "I N P U T\nTim Ballaschke",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 2,
+      "text": "Matr.-Nr. 2455025",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 3,
+      "text": "S U R F A C E",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 4,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    },
+    {
+      "page": 5,
+      "text": "I N T E R A C T I O N",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 6,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    },
+    {
+      "page": 7,
+      "text": "O P E R A T I O N",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 8,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    },
+    {
+      "page": 9,
+      "text": "C O N C L U S I O N",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 10,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    },
+    {
+      "page": 11,
+      "text": "B I B L I O G R A P H Y",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 12,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    },
+    {
+      "page": 13,
+      "text": "K I -\nD O K U M E N T A T I O N",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [
+        "AAAAAA+OOArketaTrial-Regular"
+      ],
+      "fontSizesPt": [
+        9.997
+      ]
+    },
+    {
+      "page": 14,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    },
+    {
+      "page": 15,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    },
+    {
+      "page": 16,
+      "text": "",
+      "cropMarks": 8,
+      "cropMarkWidthsPt": [
+        0.25
+      ],
+      "fontNames": [],
+      "fontSizesPt": []
+    }
+  ],
+  "cropMarksRenderedAs": "native_pdf_paths",
+  "allCropMarkWeightsVerified": true
+}

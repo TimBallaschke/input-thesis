@@ -1,0 +1,37 @@
+{
+  "centerErrorMm": -0.0020611661784064,
+  "coverAuthor": "Tim Ballaschke",
+  "fontFamily": "Arketa, monospace",
+  "fontSize": "13.3333px",
+  "frameWidth": 253.25,
+  "heightMm": 147.99303385416667,
+  "lines": [
+    {
+      "text": "KI-",
+      "width": 52
+    },
+    {
+      "text": "Dokumentation",
+      "width": 225.25
+    }
+  ],
+  "pixelRatio": 0.5,
+  "sheetCount": 8,
+  "sheetRect": {
+    "height": 559.34375,
+    "width": 396.84375,
+    "x": 2613.15625,
+    "y": 2005.21875
+  },
+  "starsOnNewLeaf": 0,
+  "title": "KI-Dokumentation",
+  "titleHeight": 34.8125,
+  "tracking": "8.66667px",
+  "uppercase": "uppercase",
+  "widthMm": 104.9982421875,
+  "date": "2026-10-08",
+  "centeringAnchor": "lower line DOKUMENTATION",
+  "lowerLineCenterErrorMm": -0.0020611661784064,
+  "lowerLineToSurfaceDifferenceMm": 5.8911132602664415e-06,
+  "pdfUpdated": true
+}

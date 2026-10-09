@@ -1,0 +1,49 @@
+{
+  "blockCenterErrorMm": -0.004134114583333333,
+  "blockHeightMm": 50.65944010416666,
+  "blockRows": 10.9972516742674,
+  "bottomMarginMm": 48.67093098958333,
+  "headerX": 2584,
+  "inputTracking": "17.3333px",
+  "pixelRatio": 0.5,
+  "rowAdvanceRows": [
+    0.9997501522061274,
+    0.9997501522061274
+  ],
+  "rows": [
+    {
+      "frameWidth": 253.25,
+      "gapText": " ",
+      "height": 17.40625,
+      "nameTracking": "8.66667px",
+      "numberTracking": "normal",
+      "text": "1 Surface",
+      "textWidth": 138.65625,
+      "y": 415.734375
+    },
+    {
+      "frameWidth": 253.25,
+      "gapText": " ",
+      "height": 17.40625,
+      "nameTracking": "8.66667px",
+      "numberTracking": "normal",
+      "text": "2 Interaction",
+      "textWidth": 207.96875,
+      "y": 433.140625
+    },
+    {
+      "frameWidth": 253.25,
+      "gapText": " ",
+      "height": 17.40625,
+      "nameTracking": "8.66667px",
+      "numberTracking": "normal",
+      "text": "3 Operation",
+      "textWidth": 173.3125,
+      "y": 450.546875
+    }
+  ],
+  "sheetCount": 7,
+  "starRows": 2,
+  "topMarginMm": 48.66266276041666,
+  "status": "superseded trial; chapter overview removed at user request"
+}

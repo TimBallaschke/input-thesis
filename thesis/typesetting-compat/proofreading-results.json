@@ -1,0 +1,148 @@
+{
+  "checked": "2026-10-08",
+  "scope": "authorised_proofreading_and_six_manual_paragraph_endings",
+  "text_corrections": {
+    "para-001": {
+      "before": "Einen Begriff suchen, eine Angabe in ein Formular eintragen, einen Befehl ausführen oder eine Aufgabe an ein Sprachmodell formulieren: Unterschiedliche Anliegen beginnen heute mit der Eingabe von Text. Die dafür vorgesehene Stelle erscheint häufig unscheinbar, etwa als begrenzter Bereich auf einer Oberfläche, als Einfügemarke oder mit einer Aufforderung zur Eingabe. Das Schreiben in solche Eingabestellen ist zu einer vertrauten und vielfach selbstverständlichen Handlung im Umgang mit digitalen System geworden.",
+      "after": "Einen Begriff suchen, eine Angabe in ein Formular eintragen, einen Befehl ausführen oder eine Aufgabe an ein Sprachmodell formulieren: Unterschiedliche Anliegen beginnen heute mit der Eingabe von Text. Die dafür vorgesehene Stelle erscheint häufig unscheinbar, etwa als begrenzter Bereich auf einer Oberfläche, als Einfügemarke oder mit einer Aufforderung zur Eingabe. Das Schreiben in solche Eingabestellen ist zu einer vertrauten und vielfach selbstverständlichen Handlung im Umgang mit digitalen Systemen geworden."
+    },
+    "para-071": {
+      "before": "Die Reaktion des Systems ist damit nicht nur das Ergebnis einer vorausgegangenen Eingabe, sondern wirkt zugleich auf die nächste Handlung zurück. Sie macht bestimmte Veränderungen der Eingabe plausibel, während andere weniger naheliegend erscheinen. Ein als erfolgreich wahrgenommenes Ergebnis kann dazu führen, dass eine Formulierung beibehalten oder erneut verwendet wird; ein unzureichendes Ergebnis gibt dagegen Anlass, bestimmte Teile der Eingabe zu verändern. Nutzer*innen leiten aus diesen Reaktionen ab, was sie verändern könnten, ohne die zugrunde liegende Verarbeitung vollständig zu kennen. Die Gestaltung des Systems nimmt damit unmittelbar Einfluss auf ihr Verhalten, indem Rückmeldungen und Ergebnisse mitbestimmen, welche nächsten Schritte sinnvoll oder erfolgversprechend erscheinen. Das formal offene Texteingabefeld bedeutet daher nicht, dass die weitere Formulierung unabhängig vom System erfolgt. Durch seine Reaktionen prägt das System mit, welche Eingaben Nutzer*innen in Betracht ziehen und welche Strategien sie im Verlauf der Interaktion entwickeln. Der Einfluss des Systems kann dabei über die Formulierung der nächsten Eingabe hinausgehen. Auch das angestrebte Ergebnis selbst kann sich im Verlauf der Interaktion verändern. Bei einer Suche kann etwa die Reaktion des Systems Anlass geben, die eigene Fragestellung weiterzuentwickeln und dadurch neue Erkenntnisse zu gewinnen (vgl. Hearst 2009, S. 3, 7–8, 14).“",
+      "after": "Die Reaktion des Systems ist damit nicht nur das Ergebnis einer vorausgegangenen Eingabe, sondern wirkt zugleich auf die nächste Handlung zurück. Sie macht bestimmte Veränderungen der Eingabe plausibel, während andere weniger naheliegend erscheinen. Ein als erfolgreich wahrgenommenes Ergebnis kann dazu führen, dass eine Formulierung beibehalten oder erneut verwendet wird; ein unzureichendes Ergebnis gibt dagegen Anlass, bestimmte Teile der Eingabe zu verändern. Nutzer*innen leiten aus diesen Reaktionen ab, was sie verändern könnten, ohne die zugrunde liegende Verarbeitung vollständig zu kennen. Die Gestaltung des Systems nimmt damit unmittelbar Einfluss auf ihr Verhalten, indem Rückmeldungen und Ergebnisse mitbestimmen, welche nächsten Schritte sinnvoll oder erfolgversprechend erscheinen. Das formal offene Texteingabefeld bedeutet daher nicht, dass die weitere Formulierung unabhängig vom System erfolgt. Durch seine Reaktionen prägt das System mit, welche Eingaben Nutzer*innen in Betracht ziehen und welche Strategien sie im Verlauf der Interaktion entwickeln. Der Einfluss des Systems kann dabei über die Formulierung der nächsten Eingabe hinausgehen. Auch das angestrebte Ergebnis selbst kann sich im Verlauf der Interaktion verändern. Bei einer Suche kann etwa die Reaktion des Systems Anlass geben, die eigene Fragestellung weiterzuentwickeln und dadurch neue Erkenntnisse zu gewinnen (vgl. Hearst 2009, S. 3, 7–8, 14)."
+    },
+    "para-111": {
+      "before": "Mit dem Abschluss einer Anfrage endet die Verarbeitung dieser Daten nicht zwangsläufig. Für die OpenAI-API dokumentiert OpenAI beispielsweise die Speicherung von Prompts, erzeugten Antworten und zugehörigen Metadaten in Protokollen. (vgl. OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026).",
+      "after": "Mit dem Abschluss einer Anfrage endet die Verarbeitung dieser Daten nicht zwangsläufig. Für die OpenAI-API dokumentiert OpenAI beispielsweise die Speicherung von Prompts, erzeugten Antworten und zugehörigen Metadaten in Protokollen (vgl. OpenAI, o. J., Data controls in the OpenAI platform, gesicherte Fassung vom 15. September 2026)."
+    }
+  },
+  "paragraph_endings": [
+    {
+      "id": "para-006",
+      "base_tracking_em": 0.019,
+      "rows_before": 8,
+      "rows_after": 8,
+      "last_row": "gabe mitbestimmen.",
+      "page": 2,
+      "column": 2,
+      "complete_words": [
+        "mitbestimmen"
+      ],
+      "all_spacing_and_grid_checks_pass": true
+    },
+    {
+      "id": "para-063",
+      "base_tracking_em": 0.013,
+      "rows_before": 11,
+      "rows_after": 11,
+      "last_row": "Reformulierung.",
+      "page": 14,
+      "column": 1,
+      "complete_words": [
+        "Reformulierung"
+      ],
+      "all_spacing_and_grid_checks_pass": true
+    },
+    {
+      "id": "para-088",
+      "base_tracking_em": -0.001,
+      "rows_before": 4,
+      "rows_after": 3,
+      "last_row": "te Anforderungen im Vordergrund[62].",
+      "page": 18,
+      "column": 2,
+      "complete_words": [
+        "Anforderungen",
+        "im",
+        "Vordergrund"
+      ],
+      "all_spacing_and_grid_checks_pass": true
+    },
+    {
+      "id": "para-092",
+      "base_tracking_em": -0.005,
+      "rows_before": 10,
+      "rows_after": 9,
+      "last_row": "sondern wurden zuvor festgelegt.",
+      "page": 19,
+      "column": 1,
+      "complete_words": [
+        "sondern",
+        "wurden",
+        "zuvor",
+        "festgelegt"
+      ],
+      "all_spacing_and_grid_checks_pass": true
+    },
+    {
+      "id": "para-110",
+      "base_tracking_em": 0.014,
+      "rows_before": 17,
+      "rows_after": 17,
+      "last_row": "Informationen[78].",
+      "page": 21,
+      "column": 2,
+      "complete_words": [
+        "Informationen"
+      ],
+      "all_spacing_and_grid_checks_pass": true
+    },
+    {
+      "id": "para-111",
+      "base_tracking_em": -0.002,
+      "rows_before": 8,
+      "rows_after": 7,
+      "last_row": "gen Metadaten in Protokollen[79].",
+      "page": 21,
+      "column": 2,
+      "complete_words": [
+        "Metadaten",
+        "in",
+        "Protokollen"
+      ],
+      "all_spacing_and_grid_checks_pass": true
+    }
+  ],
+  "all_other_body_line_breaks_preserved": true,
+  "source_ai_bibliography_line_breaks_preserved": true,
+  "pages": 27,
+  "body_rows": 1701,
+  "source_rows": 99,
+  "ai_rows": 230,
+  "bibliography_rows": 162,
+  "all_89_source_links_preserved": true,
+  "all_343_ai_ranges_checked": {
+    "checked": "2026-10-08T05:53:05.770Z",
+    "sections": 15,
+    "ranges": 343,
+    "checked_endpoints": 686,
+    "documentation_pages_loaded": 211,
+    "edition_sha256": "a5376ce4cbd2f3deeba4151e83f97cbb0bf533d99b6d0f37f1e2b57a537d8c1a",
+    "all_printed_labels_match": true,
+    "all_visible_endpoints_match": true,
+    "clicked_example": {
+      "label": "Seite 5, Zeilen 917–928",
+      "page": 5,
+      "line": 917
+    },
+    "proof": "output/thesis-web/qa/ai-reference-target-page-05.png"
+  },
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 0.0028547033833348223,
+    "sourceMaxErrorMm": 0.002465425649248232,
+    "annotationGridScope": "third_body_rows_with_two_thirds_leading"
+  },
+  "hyphenation": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 181,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "original_pages_unchanged": true,
+  "original_plugin_unchanged": true,
+  "pdf_exported": false
+}

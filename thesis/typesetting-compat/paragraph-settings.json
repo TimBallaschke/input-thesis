@@ -1,0 +1,119 @@
+{
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "paragraphs": [
+    {
+      "paragraph_id": "para-006",
+      "text_sha256": "2d7476eaa18f1971d037f6db90460e404fd53f830257ae475aba1dda795f517b",
+      "base_tracking_em": 0.019,
+      "reason": "Authorised proofreading correction: avoid a closing line consisting only of the remainder of a split word; retain relative ±0.01 em variation and the existing body grid."
+    },
+    {
+      "paragraph_id": "para-018",
+      "text_sha256": "0f6f967af96f11b7d4dfa3258b8ba5d241930f7b85b5f38120af92871343446c",
+      "base_tracking_em": -0.003,
+      "reason": "Keep the section-04 AI notice and sources in the left column on page 6 at the restored three-quarter annotation leading."
+    },
+    {
+      "paragraph_id": "para-020",
+      "text_sha256": "eabd6ebd88e62993ebc0b80a0cc2d842701de81785be53f666624cd124876c25",
+      "base_tracking_em": -0.02,
+      "reason": "Keep the section-04 AI notice and sources in the left column on page 6 at the restored three-quarter annotation leading."
+    },
+    {
+      "paragraph_id": "para-021",
+      "text_sha256": "cbee924ad9820cd1160ff5290b4ef09309b83ce960b870b72f23fe170f9f18b2",
+      "base_tracking_em": -0.003,
+      "reason": "Keep the AI documentation and source references for Die Aufforderung zur Eingabe in the left column on page 6."
+    },
+    {
+      "paragraph_id": "para-038",
+      "text_sha256": "8502fd3a8032c865d1b59500de6e19a016f94b4960697c860b67ee2a00bab781",
+      "base_tracking_em": -0.003,
+      "reason": "Keep the complete section-06 source block on page 8 without changing type size or leading."
+    },
+    {
+      "paragraph_id": "para-041",
+      "text_sha256": "4130dd823a0a0f432d3146234468a60818a642507a4ac8876d9212af2eeb3e8e",
+      "base_tracking_em": -0.017,
+      "reason": "Keep the complete section-06 source block on page 8 without changing type size or leading."
+    },
+    {
+      "paragraph_id": "para-063",
+      "text_sha256": "e0c1afd35554ecf714a14b094c3dbba9e5a1f6a7d5bd895f2263d797cf8d1c02",
+      "base_tracking_em": -0.017,
+      "reason": "Keep paragraph 65's ending erfüllt ist in the left column on page 14 by saving one row in paragraph 63; -17 InDesign units is the first successful negative integer base that gives ten rows and a complete closing word, with relative ±10 variation."
+    },
+    {
+      "paragraph_id": "para-074",
+      "text_sha256": "1c1046f457787408c7e5fa05ea878dc1649cbec308878a7f618af1c2ae980bc7",
+      "base_tracking_em": -0.002,
+      "reason": "Avoid the lone final syllable be. after Einga- at the current 10 pt body size; retain the relative ±0.01 em ragged tracking range."
+    },
+    {
+      "paragraph_id": "para-088",
+      "text_sha256": "640a69bc2e26976891ee96543d2fb639e591323e28a2b110477129e6ef7566ed",
+      "base_tracking_em": -0.001,
+      "reason": "Authorised proofreading correction: avoid a closing line consisting only of the remainder of a split word; retain relative ±0.01 em variation and the existing body grid."
+    },
+    {
+      "paragraph_id": "para-092",
+      "text_sha256": "627e5a8dd1d29aeee6480b6023a906627ba0bdbb64788e92daeaad0e88c59f25",
+      "base_tracking_em": -0.005,
+      "reason": "Authorised proofreading correction: avoid a closing line consisting only of the remainder of a split word; retain relative ±0.01 em variation and the existing body grid."
+    },
+    {
+      "paragraph_id": "para-102",
+      "text_sha256": "7b1594166a5b8ea3f3378cf509b80457eae87ed678877e321da27d6f93c3e340",
+      "base_tracking_em": 0.017,
+      "reason": "Authorised correction of the single-word closing row on page 20: +17 InDesign units brings zu down before unterscheiden, retaining nine rows and relative ±10 variation."
+    },
+    {
+      "paragraph_id": "para-105",
+      "text_sha256": "19375a4109990dece04cb60f53ef6221f5fe572945fe8a9e89910cedbdaf6a84",
+      "base_tracking_em": 0.006,
+      "reason": "Authorised correction of the single-word closing row on page 20: +6 InDesign units brings a word continuation down before werden, retaining sixteen rows and relative ±10 variation."
+    },
+    {
+      "paragraph_id": "para-107",
+      "text_sha256": "f5b28a232a9bbf2e7a6119b032810575bddfcee3fcded30adab6182cad189996",
+      "base_tracking_em": 0.013,
+      "reason": "Authorised correction of the single-word closing row on page 20: +13 InDesign units brings a word continuation down before ausfiel, retaining twenty rows and relative ±10 variation."
+    },
+    {
+      "paragraph_id": "para-109",
+      "text_sha256": "478d8fee1976cf7e8f674e0f959bf326d9695c80759efcbb5ff7faae4cc92804",
+      "base_tracking_em": -0.004,
+      "reason": "Pull the isolated closing word gilt. into the preceding row; -4 InDesign units is the smallest tested negative integer base that reduces the paragraph from 18 to 17 rows, with relative ±10 variation."
+    },
+    {
+      "paragraph_id": "para-110",
+      "text_sha256": "441df090810538432c0b78af035742b9e34239b9cbfb25d301802be0759488d1",
+      "base_tracking_em": 0.014,
+      "reason": "Authorised proofreading correction: avoid a closing line consisting only of the remainder of a split word; retain relative ±0.01 em variation and the existing body grid."
+    },
+    {
+      "paragraph_id": "para-111",
+      "text_sha256": "a1fb7701b0c4693d8eb43f2fbd80977ca51f62b0d50db5fd0a4ad4aa8fd9c5eb",
+      "base_tracking_em": -0.002,
+      "reason": "Authorised proofreading correction: avoid a closing line consisting only of the remainder of a split word; retain relative ±0.01 em variation and the existing body grid."
+    },
+    {
+      "paragraph_id": "para-116",
+      "text_sha256": "743205956bf7340f6a22ca2412d40a6b8298c20c47647902dc416655433851d8",
+      "base_tracking_em": -0.016,
+      "reason": "Avoid the isolated closing syllable den. after wer- in the FTC/BetterHelp paragraph; use the smallest tested base change (-16 InDesign units) with the relative ±10 tracking range."
+    },
+    {
+      "paragraph_id": "para-117",
+      "text_sha256": "b67035225891fd390a2f01fbfa1cf6d80343331bd858e4888455d5507849b0cc",
+      "base_tracking_em": 0.011,
+      "reason": "Authorised correction of the single-word subchapter ending on page 22: +11 InDesign units brings werden down before können, retaining seventeen rows, the complete-word constraint and relative ±10 variation."
+    },
+    {
+      "paragraph_id": "para-127",
+      "text_sha256": "0917d526667baca42c8ed1c6ebc2e5c758f24767a05c619ad7c63e5aebb0c690",
+      "base_tracking_em": 0.036,
+      "reason": "Authorised wider tracking in the final thesis paragraph: +36 InDesign units is the first tested positive integer base that brings a word continuation down before verfügt, retaining six rows and relative ±10 variation."
+    }
+  ]
+}

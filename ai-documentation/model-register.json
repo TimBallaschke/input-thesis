@@ -1,0 +1,2291 @@
+{
+  "schema_version": 1,
+  "scope": "ChatGPT and Codex communication archives included in the historical AI browser edition; later technical chats are separate",
+  "models": {
+    "ChatGPT": [
+      "gpt-5-6-thinking",
+      "gpt-5.6-sol-wm",
+      "gpt-6-astra-wm"
+    ],
+    "OpenAI Codex": [
+      "gpt-5.6-sol",
+      "gpt-6-astra",
+      "gpt-6.1-sol"
+    ]
+  },
+  "unknown_model_archives": [
+    "CGPT-01",
+    "CGPT-02",
+    "CGPT-03",
+    "CGPT-04"
+  ],
+  "limits": [
+    "Provider and local runtime identifiers are preserved verbatim, without inferred commercial model names.",
+    "Model metadata does not independently verify the actual backend or prove manuscript adoption.",
+    "Codex observations count turn_context records; ChatGPT observations count visible assistant messages."
+  ],
+  "archives": [
+    {
+      "archive_id": "CGPT-01",
+      "transcript": "ai-documentation/archive/cgpt-01-transcript.txt",
+      "transcript_sha256": "e0a1501eec9a5aca44b638795c5e083edf8d2611f128b51b23a6710d3823c5dc",
+      "tool": "ChatGPT",
+      "evidence": "supplied text import; no preserved model metadata",
+      "model_observations": {}
+    },
+    {
+      "archive_id": "CGPT-02",
+      "transcript": "ai-documentation/archive/cgpt-02-transcript.txt",
+      "transcript_sha256": "b77942e67a14a98e300d2f821eda73332738a7003b72382dc65b45a871c82224",
+      "tool": "ChatGPT",
+      "evidence": "supplied text import; no preserved model metadata",
+      "model_observations": {}
+    },
+    {
+      "archive_id": "CGPT-03",
+      "transcript": "ai-documentation/archive/cgpt-03-transcript.txt",
+      "transcript_sha256": "9922393c53dccd8dbeef4f9d690678f033d9d259fdbf64f1dc3d915aee756d40",
+      "tool": "ChatGPT",
+      "evidence": "supplied text import; no preserved model metadata",
+      "model_observations": {}
+    },
+    {
+      "archive_id": "CGPT-04",
+      "transcript": "ai-documentation/archive/cgpt-04-current-draft-and-steyerl-conversation-transcript.txt",
+      "transcript_sha256": "3672f7130c7a0317e72aa7c139a6888ab5d64023b221c6dca6efa0ac3ac319d6",
+      "tool": "ChatGPT",
+      "evidence": "supplied text import; no preserved model metadata",
+      "model_observations": {}
+    },
+    {
+      "archive_id": "CDX-01",
+      "transcript": "ai-documentation/archive/cdx-01-codex-019f9e19-b3e1-77e0-9847-753a93adf3bd-transcript.txt",
+      "transcript_sha256": "2c57e5a2aac5a9ab89da854a12c5a59ac6cdb1104705f388a1b03f0eaff16c40",
+      "tool": "OpenAI Codex",
+      "evidence": "local Codex turn_context model fields through exported transcript cutoff",
+      "manifest": "ai-documentation/archive/cdx-01-codex-019f9e19-b3e1-77e0-9847-753a93adf3bd-manifest.json",
+      "manifest_sha256": "3f0c7048b340e04ad3f5661f70dc195d77bf23376116188ebc4cdf711703a373",
+      "exported_through_utc": "2026-08-27T07:22:46.996Z",
+      "model_periods": {
+        "gpt-5.6-sol": {
+          "first_utc": "2026-07-26T11:05:36.702Z",
+          "last_utc": "2026-08-27T07:17:53.418Z"
+        }
+      },
+      "source_metadata": [
+        {
+          "source_filename": "rollout-2026-07-26T13-05-12-019f9e19-b3e1-77e0-9847-753a93adf3bd.jsonl",
+          "model_contexts": [
+            {
+              "timestamp": "2026-07-26T11:05:36.702Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T11:23:30.726Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T11:33:50.872Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T11:37:45.522Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T11:40:20.033Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T11:46:08.464Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T11:55:00.363Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T11:57:27.332Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:02:47.732Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:08:10.915Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:10:49.662Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:12:58.416Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:19:54.790Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:20:50.333Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:24:09.130Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:26:40.692Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:28:31.233Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:30:29.160Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:32:26.034Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:36:35.632Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T12:46:41.956Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T13:16:35.581Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T13:34:20.649Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T13:39:56.741Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T13:46:44.279Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T13:49:47.065Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T13:55:00.861Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T13:56:28.096Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:01:09.365Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:07:54.672Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:10:11.941Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:12:16.506Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:13:50.272Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:15:59.758Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:30:50.953Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T14:42:57.801Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-07-26T15:18:46.606Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-13T08:32:48.572Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-13T14:52:53.714Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-13T15:13:27.984Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-13T15:17:54.770Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-13T15:19:58.993Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-13T15:21:54.411Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-13T15:23:31.162Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:21:43.058Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:31:58.407Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:34:46.570Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:37:00.699Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:39:20.104Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:42:39.118Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:43:55.812Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:45:46.344Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:52:34.182Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T05:58:05.084Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:00:43.479Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:07:05.042Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:09:19.680Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:21:14.058Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:23:05.585Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:27:20.141Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:31:18.190Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:38:11.959Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T06:50:06.762Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T07:14:51.066Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T07:18:00.141Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T07:27:00.074Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:08:16.222Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:14:47.675Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:21:33.156Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:30:29.800Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:36:44.525Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:48:30.169Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:52:49.063Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T08:59:36.992Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T09:01:12.286Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T09:21:05.337Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T09:25:32.547Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T09:34:16.465Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T09:40:55.163Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T09:45:43.141Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T09:58:42.840Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T10:04:56.993Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T10:08:47.039Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T10:17:39.905Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T10:23:13.569Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:01:01.406Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:10:03.838Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:10:50.176Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:19:49.085Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:22:01.011Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:27:27.146Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:34:22.700Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:34:38.667Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:45:27.390Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:51:19.690Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T12:52:22.715Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T13:04:20.000Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T13:06:47.173Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T13:16:13.551Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T13:29:46.924Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T13:32:57.693Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T13:35:54.856Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T13:50:03.080Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T14:02:11.496Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T14:05:45.282Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T14:13:43.973Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T14:18:17.467Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T14:28:44.643Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T14:42:46.623Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T15:04:09.879Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-14T15:08:00.909Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T07:47:16.543Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T07:51:56.122Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:09:34.434Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:17:15.491Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:21:01.261Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:24:23.524Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:37:52.605Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:42:07.559Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:49:05.207Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:53:19.063Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T08:57:55.826Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:03:02.883Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:07:39.522Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:10:16.573Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:21:51.862Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:31:19.297Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:32:24.726Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:50:24.033Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T09:51:23.916Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T10:04:03.412Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T10:09:56.089Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T10:28:36.948Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T10:42:19.204Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T10:46:46.822Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T11:06:35.651Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T11:12:25.366Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T11:17:22.156Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T11:20:03.203Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T11:37:01.775Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T11:40:20.540Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:00:31.636Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:05:42.991Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:25:32.928Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:27:40.762Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:28:43.738Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:33:56.577Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:52:29.290Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T12:59:16.135Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T13:15:09.976Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T13:19:48.257Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T13:48:24.768Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T13:51:40.953Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T14:04:08.944Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T14:08:41.773Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T14:13:31.877Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T14:29:10.516Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T14:30:19.704Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T14:46:59.725Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T14:53:10.273Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T15:22:57.706Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T15:24:56.856Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T15:41:04.318Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T15:42:05.039Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T16:15:16.812Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T18:04:38.506Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T18:15:02.985Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T18:19:05.965Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T18:26:00.884Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T18:39:41.982Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T18:42:03.567Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T18:53:05.945Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T19:05:05.074Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T19:09:46.555Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T19:10:21.773Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T19:23:35.436Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-19T19:29:49.181Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T05:39:02.236Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T06:04:45.999Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T06:39:36.832Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T06:44:41.583Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T06:49:26.387Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T06:52:49.018Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T06:55:01.201Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T07:06:57.131Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T07:10:12.329Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T07:15:06.789Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-27T07:17:53.418Z",
+              "model": "gpt-5.6-sol"
+            }
+          ],
+          "model_metadata_sha256": "3af6422cf8220d33d556ba90924952f85d503e6a02e62aa6fdfd32eeed366f72"
+        }
+      ],
+      "model_observations": {
+        "gpt-5.6-sol": 188
+      }
+    },
+    {
+      "archive_id": "CDX-02",
+      "transcript": "ai-documentation/archive/cdx-02-codex-01a051ce-6cff-72e2-916a-0d1a8fd2dddd-transcript.txt",
+      "transcript_sha256": "6acb07950f2d48e94e7a95fc89ec0f1921a1e5ad74af0bfdaecd58f1c9ded9f3",
+      "tool": "OpenAI Codex",
+      "evidence": "local Codex turn_context model fields through exported transcript cutoff",
+      "manifest": "ai-documentation/archive/cdx-02-codex-01a051ce-6cff-72e2-916a-0d1a8fd2dddd-manifest.json",
+      "manifest_sha256": "8118af66f11d056f880b573f725661f6278c9e6dafdc1930756c9765472de224",
+      "exported_through_utc": "2026-08-30T18:21:38.461Z",
+      "model_periods": {
+        "gpt-5.6-sol": {
+          "first_utc": "2026-08-30T08:35:48.792Z",
+          "last_utc": "2026-08-30T18:11:19.958Z"
+        }
+      },
+      "source_metadata": [
+        {
+          "source_filename": "rollout-2026-08-30T10-34-37-01a051ce-6cff-72e2-916a-0d1a8fd2dddd.jsonl",
+          "model_contexts": [
+            {
+              "timestamp": "2026-08-30T08:35:48.792Z",
+              "model": "gpt-5.6-sol"
+            }
+          ],
+          "model_metadata_sha256": "d4a43b09607db8ed3cf59c582ca83c176621e01f5161db45993a0ffe9089174e"
+        },
+        {
+          "source_filename": "rollout-2026-08-30T10-37-08-01a051ce-6cff-72e2-916a-0d1a8fd2dddd_01a051d0-ba1e-7e71-9a46-1b737bd66259.jsonl",
+          "model_contexts": [
+            {
+              "timestamp": "2026-08-30T08:37:12.126Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T08:39:21.950Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T08:48:15.997Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T09:02:23.803Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T09:05:33.522Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:10:09.713Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:16:50.752Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:18:54.911Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:25:05.065Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:33:19.620Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:34:24.886Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:36:33.793Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:49:41.669Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T10:54:08.069Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:03:06.657Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:10:21.589Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:14:15.716Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:30:16.101Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:35:54.153Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:41:23.198Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:52:38.254Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:55:08.989Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:55:53.724Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T11:57:26.818Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:15:52.801Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:19:16.554Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:22:02.957Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:36:34.194Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:49:36.029Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:53:00.971Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:56:29.941Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T12:59:11.100Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T13:13:09.082Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T13:23:54.238Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T13:25:14.965Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T13:36:32.304Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T13:57:39.708Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:05:55.088Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:20:41.936Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:21:59.370Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:31:36.912Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:35:12.075Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:42:54.764Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:44:47.259Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:47:10.906Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:47:34.329Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:54:09.272Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T14:56:24.756Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:05:01.187Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:07:22.166Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:08:11.483Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:09:28.581Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:11:28.834Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:12:14.980Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:14:02.725Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:20:00.402Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:22:25.253Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:28:46.081Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:30:46.886Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:32:05.717Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:35:48.013Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:41:07.182Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:43:10.230Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:44:53.961Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:48:30.943Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:51:11.960Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:52:20.668Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T15:53:50.351Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:01:37.957Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:06:38.961Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:09:12.121Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:13:43.480Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:15:18.567Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:16:47.095Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:46:30.124Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:48:18.704Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:54:07.633Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T16:56:28.436Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:00:49.073Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:08:01.045Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:21:08.731Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:27:04.678Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:29:46.932Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:30:19.138Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:33:33.213Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:36:09.976Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:43:49.681Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:48:13.440Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:50:42.619Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:53:59.327Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T17:58:26.124Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T18:08:52.272Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-08-30T18:11:19.958Z",
+              "model": "gpt-5.6-sol"
+            }
+          ],
+          "model_metadata_sha256": "bc1c3785ce78c2de2a3d480a501fe524df4bf3087413c8c59ee8b9fb5f744ce5"
+        }
+      ],
+      "model_observations": {
+        "gpt-5.6-sol": 94
+      }
+    },
+    {
+      "archive_id": "CDX-03",
+      "transcript": "ai-documentation/archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-transcript.txt",
+      "transcript_sha256": "a8bcd66b2f449aa5a3bcc753562d16c2a4e2a95592eb92cc968292b32f0d8bb9",
+      "tool": "OpenAI Codex",
+      "evidence": "local Codex turn_context model fields through exported transcript cutoff",
+      "manifest": "ai-documentation/archive/cdx-03-codex-01a066a4-981d-7731-b49a-071d36deca13-manifest.json",
+      "manifest_sha256": "a243db3539136d8f7d134e0137c0237fce68fb8ac3f2c6d054ef6fea7f4d0eb9",
+      "exported_through_utc": "2026-09-18T07:40:23.840Z",
+      "model_periods": {
+        "gpt-5.6-sol": {
+          "first_utc": "2026-09-03T09:41:03.296Z",
+          "last_utc": "2026-09-03T14:28:48.515Z"
+        },
+        "gpt-6-astra": {
+          "first_utc": "2026-09-14T06:19:55.685Z",
+          "last_utc": "2026-09-18T07:37:53.676Z"
+        }
+      },
+      "source_metadata": [
+        {
+          "source_filename": "rollout-2026-09-03T11-40-58-01a066a4-981d-7731-b49a-071d36deca13.jsonl",
+          "model_contexts": [
+            {
+              "timestamp": "2026-09-03T09:41:03.296Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T11:55:31.678Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T12:33:24.452Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T12:35:32.708Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T12:51:25.076Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T12:52:26.344Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T13:02:50.187Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T13:05:22.059Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T13:11:48.125Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T13:24:44.396Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T13:33:09.357Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T13:43:55.688Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T14:03:39.834Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-03T14:28:48.515Z",
+              "model": "gpt-5.6-sol"
+            },
+            {
+              "timestamp": "2026-09-14T06:19:55.685Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T06:21:38.891Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T07:54:58.803Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T07:57:16.331Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:00:47.008Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:07:17.779Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:16:24.003Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:21:16.243Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:26:28.683Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:30:55.506Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:33:21.803Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:33:42.962Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:38:24.989Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T08:46:34.387Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T09:02:01.165Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T09:22:49.042Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T09:25:26.801Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T09:41:15.051Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T09:44:53.440Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T09:52:27.356Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T10:02:42.012Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T10:06:15.833Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T10:38:29.454Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T10:49:55.440Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T10:57:52.369Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T11:00:11.943Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T11:05:32.757Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T11:28:08.611Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T11:33:14.491Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T12:26:49.866Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-14T14:26:07.966Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T05:59:52.673Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T06:13:08.229Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T06:18:45.422Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T06:25:17.266Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T07:25:10.138Z",
+              "model": "gpt-6-astra"
+            }
+          ],
+          "model_metadata_sha256": "06b94ab5fdea9c96a78b6c6d354c21590ac8311f1ea6b23da6b199a01c42eeb8"
+        },
+        {
+          "source_filename": "rollout-2026-09-15T09-25-39-01a066a4-981d-7731-b49a-071d36deca13_01a0a3f5-090f-78e1-bab1-169d1e4bc686.jsonl",
+          "model_contexts": [
+            {
+              "timestamp": "2026-09-15T07:25:44.291Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T07:27:13.563Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T07:37:27.554Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T07:55:02.129Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T07:58:35.407Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T08:03:59.377Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T09:15:56.207Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T09:18:01.491Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T09:28:00.624Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T09:29:58.047Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T09:32:14.158Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T09:37:49.030Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T10:02:14.677Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T10:04:57.056Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T10:12:41.506Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T10:39:49.028Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T10:44:37.668Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T10:58:52.482Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T11:30:55.095Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T11:33:24.875Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T11:35:06.259Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T11:36:14.634Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T11:42:48.084Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T11:50:44.444Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T11:52:47.113Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T12:06:18.563Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T12:08:26.821Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T12:15:48.547Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T12:48:23.054Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T12:51:31.280Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:07:52.548Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:10:27.257Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:11:40.420Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:14:33.084Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:23:55.202Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:36:55.649Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:50:58.383Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:55:02.489Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T13:58:11.484Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T14:09:09.407Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T14:41:05.458Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T14:42:16.241Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T14:51:01.031Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T14:52:48.340Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T14:56:44.694Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T15:02:25.347Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T15:14:56.074Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T15:38:40.867Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T15:40:28.844Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T15:45:20.123Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T15:51:11.278Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-15T16:12:33.737Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T05:52:55.022Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T05:54:13.315Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:09:49.096Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:12:02.419Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:20:46.398Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:21:32.587Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:22:23.898Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:23:13.899Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:29:11.373Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:32:36.748Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:44:01.098Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:52:51.878Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T06:58:47.561Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T07:03:05.361Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T07:07:37.451Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T07:08:51.655Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T07:10:08.066Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T07:33:01.159Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T08:00:57.253Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T08:43:33.857Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T08:45:48.361Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T08:49:01.864Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T09:04:17.137Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:08:29.905Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:10:31.652Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:13:30.559Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:15:23.405Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:18:06.905Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:19:09.282Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:35:28.411Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:37:19.332Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:39:36.141Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:42:55.320Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:45:06.311Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:46:07.610Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:49:15.320Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:50:03.399Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:50:28.609Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:51:29.867Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T11:54:08.721Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T12:06:50.436Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T12:11:57.764Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T12:14:36.422Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T12:17:52.390Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:24:47.799Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:27:00.182Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:31:10.641Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:32:42.651Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:37:26.483Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:39:50.789Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:44:14.405Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:45:43.884Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:47:42.750Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:51:41.579Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:57:09.820Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T13:59:22.670Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T14:05:52.975Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-16T14:08:41.848Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T08:37:51.627Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T08:43:14.955Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T08:45:18.006Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T08:49:11.483Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T08:50:27.157Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T08:52:37.523Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T09:32:54.920Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T09:37:27.224Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T09:41:18.249Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T09:57:02.630Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T10:02:49.906Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T10:05:12.861Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T10:11:09.431Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T10:16:35.371Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T10:22:14.379Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T12:33:44.011Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T12:36:47.523Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T12:50:00.447Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T13:26:25.161Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T13:33:48.719Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T13:40:47.682Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T13:59:52.884Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T14:00:32.754Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T14:12:53.746Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T14:23:35.224Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T14:27:13.139Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T14:31:52.632Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T14:51:18.731Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T14:57:55.663Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-17T15:21:14.678Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-18T06:49:20.849Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-18T06:59:55.056Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-18T07:30:06.423Z",
+              "model": "gpt-6-astra"
+            },
+            {
+              "timestamp": "2026-09-18T07:37:53.676Z",
+              "model": "gpt-6-astra"
+            }
+          ],
+          "model_metadata_sha256": "5fe4873ae2451726feb22d30a04cfee33f526b8b12cc45409f9c5c1dbe353bba"
+        }
+      ],
+      "model_observations": {
+        "gpt-5.6-sol": 14,
+        "gpt-6-astra": 180
+      }
+    },
+    {
+      "archive_id": "CDX-04",
+      "transcript": "ai-documentation/archive/cdx-04-codex-01a10c5f-6044-73c2-afde-17d95bf1e068-transcript.txt",
+      "transcript_sha256": "0748a5e667b61ab2d6a69eada4f7f687d5b3a40c2be6d9e1688efdd0248b85d0",
+      "tool": "OpenAI Codex",
+      "evidence": "local Codex turn_context model fields through exported transcript cutoff",
+      "manifest": "ai-documentation/archive/cdx-04-codex-01a10c5f-6044-73c2-afde-17d95bf1e068-manifest.json",
+      "manifest_sha256": "c62b52953acf640c54b8b73175fc8d225c38326e8b8105f60cd2c46304a1f0f1",
+      "exported_through_utc": "2026-10-05T14:27:56.836Z",
+      "model_periods": {
+        "gpt-6.1-sol": {
+          "first_utc": "2026-10-05T14:03:03.069Z",
+          "last_utc": "2026-10-05T14:03:03.069Z"
+        }
+      },
+      "source_metadata": [
+        {
+          "source_filename": "rollout-2026-10-05T16-02-19-01a10c5f-6044-73c2-afde-17d95bf1e068.jsonl",
+          "model_contexts": [
+            {
+              "timestamp": "2026-10-05T14:03:03.069Z",
+              "model": "gpt-6.1-sol"
+            }
+          ],
+          "model_metadata_sha256": "618c0081be023efe742d7b64535510eab85d2d5c9d2ce6b338bc5ea7598919e3"
+        }
+      ],
+      "model_observations": {
+        "gpt-6.1-sol": 1
+      }
+    },
+    {
+      "archive_id": "CGPT-05",
+      "transcript": "ai-documentation/archive/cgpt-05-share-6aaba96b-9988-83eb-9711-615baf285e56-transcript.txt",
+      "transcript_sha256": "07ab94f1a711d5f23cad655ee037184988575cdb7df299496716e3611819df81",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-05-share-6aaba96b-9988-83eb-9711-615baf285e56-messages.jsonl",
+      "messages_sha256": "96faff86a15163da7eeaa14148386ce39df34d68bcc6fdced84631ca712ab17d",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 2,
+        "gpt-5.6-sol-wm": 1,
+        "gpt-6-astra-wm": 29
+      }
+    },
+    {
+      "archive_id": "CGPT-06",
+      "transcript": "ai-documentation/archive/cgpt-06-share-6aaba9e5-5234-83eb-85db-a6995f675316-transcript.txt",
+      "transcript_sha256": "007b2bfb6d16009165d30e761fd88533ad19cb9d4de2da3920aedcdc101ff949",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-06-share-6aaba9e5-5234-83eb-85db-a6995f675316-messages.jsonl",
+      "messages_sha256": "dfaa042d150ff91413f02def37dca89c90183a541bccea20d3b96fda23aa8aac",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 18
+      }
+    },
+    {
+      "archive_id": "CGPT-07",
+      "transcript": "ai-documentation/archive/cgpt-07-share-6aaba9f0-205c-83ed-bea6-d4447087b0ca-transcript.txt",
+      "transcript_sha256": "ec722237d30215fea9a55f1ea70678c1ffbd21079a42f8f3cd091ea9656174ce",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-07-share-6aaba9f0-205c-83ed-bea6-d4447087b0ca-messages.jsonl",
+      "messages_sha256": "d99d096858e2e01fa5a5522791c9243b86a8db00c0b5131a9ec84bdb334f3973",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 8
+      }
+    },
+    {
+      "archive_id": "CGPT-08",
+      "transcript": "ai-documentation/archive/cgpt-08-share-6aaba9fb-5bb0-83eb-b899-ad7fa232d9fd-transcript.txt",
+      "transcript_sha256": "96f584b97f6e7eb279fa365eb31e93210893f2af54a819e031c24c32d612f48b",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-08-share-6aaba9fb-5bb0-83eb-b899-ad7fa232d9fd-messages.jsonl",
+      "messages_sha256": "b5acc340d0ad11c20dbdd242a4d16574e4fcfdb469ee7a0d911b3471e95f3676",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 16
+      }
+    },
+    {
+      "archive_id": "CGPT-09",
+      "transcript": "ai-documentation/archive/cgpt-09-share-6aabaa07-d554-83ed-83d6-f96e59a14d97-transcript.txt",
+      "transcript_sha256": "95e5e87096e66e862d1622a88efe761b131d8ea8b762cfd9d9c617b2b540bdd3",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-09-share-6aabaa07-d554-83ed-83d6-f96e59a14d97-messages.jsonl",
+      "messages_sha256": "ce548eef1acb416846bd43c98c4727a5a5504112048d073ec21e246b1eeecac6",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 13
+      }
+    },
+    {
+      "archive_id": "CGPT-10",
+      "transcript": "ai-documentation/archive/cgpt-10-share-6aabaa12-e75c-83ed-adfc-aafc43483839-transcript.txt",
+      "transcript_sha256": "ba550f5fec16264a90112829cdab9138d769c9fa8147d08ec52f8bef0d593ca9",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-10-share-6aabaa12-e75c-83ed-adfc-aafc43483839-messages.jsonl",
+      "messages_sha256": "8792327c28356a457d42058957f348b78e88bb6ea81289764dd6fadaec13a810",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 38
+      }
+    },
+    {
+      "archive_id": "CGPT-11",
+      "transcript": "ai-documentation/archive/cgpt-11-share-6aabaa1e-a198-83eb-8c4b-c0a17958a742-transcript.txt",
+      "transcript_sha256": "5ffdebeaa9270f4bbf1e304ab7799cd73560c34fa0b9db29118cfd36ee0c91c3",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-11-share-6aabaa1e-a198-83eb-8c4b-c0a17958a742-messages.jsonl",
+      "messages_sha256": "e3ea3f68b2d5f5a8718f7299cb472cdd1eecaf932dd4ff14296c79c85b8923ba",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 36
+      }
+    },
+    {
+      "archive_id": "CGPT-12",
+      "transcript": "ai-documentation/archive/cgpt-12-share-6aabaa29-3fec-83eb-964e-4f6a3f3d235c-transcript.txt",
+      "transcript_sha256": "fc5c9be35908447702129d019521700cdd5d15926baf8917d7eec857e1033ee2",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-12-share-6aabaa29-3fec-83eb-964e-4f6a3f3d235c-messages.jsonl",
+      "messages_sha256": "9263f26f999637168ae86bed6a65434daefbcd41fb88332991366341fa2c7dec",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 11
+      }
+    },
+    {
+      "archive_id": "CGPT-13",
+      "transcript": "ai-documentation/archive/cgpt-13-share-6aabaa3b-a970-83eb-9be9-322419c04803-transcript.txt",
+      "transcript_sha256": "1f2aa6eabbd1e198861ffe21caf747816de44b0b91a96d413edbccc6b1acd709",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-13-share-6aabaa3b-a970-83eb-9be9-322419c04803-messages.jsonl",
+      "messages_sha256": "7d814c7a8b9227ce3791db2725ee596d197f6be2d7c842827cf0160a49fd0cd8",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 35
+      }
+    },
+    {
+      "archive_id": "CGPT-14",
+      "transcript": "ai-documentation/archive/cgpt-14-share-6aabaa4a-8af4-83eb-a267-9b3b38d924d9-transcript.txt",
+      "transcript_sha256": "a96d3c1ae3aefa2fbd10e1bb7e3045fdc1b12713269518354afdd4839318fd46",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-14-share-6aabaa4a-8af4-83eb-a267-9b3b38d924d9-messages.jsonl",
+      "messages_sha256": "e39a8fc2754e046d8b1c47a24f6643397bb0488c733c5fc867a2370fa165eca6",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 7
+      }
+    },
+    {
+      "archive_id": "CGPT-15",
+      "transcript": "ai-documentation/archive/cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-transcript.txt",
+      "transcript_sha256": "d224657ca190231845091ebf20a92b9d4930f7f1d229945a538081889b81e4ca",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-15-share-6aace854-8a20-83ed-bc8d-10c3c2cb8224-messages.jsonl",
+      "messages_sha256": "823447648c41fd1bf73948819f1a0e78fcb682194958544971867551cc006ea2",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 21
+      }
+    },
+    {
+      "archive_id": "CGPT-16",
+      "transcript": "ai-documentation/archive/cgpt-16-share-6aace863-6a04-83eb-a1a7-75fa37701969-transcript.txt",
+      "transcript_sha256": "b8239461719b265ce16f679eb47fbb7c093e093ea09e8280c8a12f4db5e965c9",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-16-share-6aace863-6a04-83eb-a1a7-75fa37701969-messages.jsonl",
+      "messages_sha256": "c6ca7434d3b1c62af7151cb9312ac460e93a8632e907dbc877a22bdbe8ebde1b",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 17
+      }
+    },
+    {
+      "archive_id": "CGPT-17",
+      "transcript": "ai-documentation/archive/cgpt-17-share-6ac3ade6-d438-83ed-bf84-1f0a897128e3-transcript.txt",
+      "transcript_sha256": "1fcae033548a293c879956582ed3b7a9cd71c8785b48737badebba2a725184f2",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-17-share-6ac3ade6-d438-83ed-bf84-1f0a897128e3-messages.jsonl",
+      "messages_sha256": "c45d9c4bed79317c4e8e7ca8a4c01c15873b6a88557ca152a391249e6e30b664",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 2
+      }
+    },
+    {
+      "archive_id": "CGPT-18",
+      "transcript": "ai-documentation/archive/cgpt-18-share-6ac3adf1-b5cc-83eb-9248-acf4961d6272-transcript.txt",
+      "transcript_sha256": "989639bbffe38382fd569b3ca99c905e587ad896a86bfef52204326a3056cd75",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-18-share-6ac3adf1-b5cc-83eb-9248-acf4961d6272-messages.jsonl",
+      "messages_sha256": "e96c050871c268f703ccf4a5dc5937c34037ee8deb3dc2529d40427cdb882c4f",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 1
+      }
+    },
+    {
+      "archive_id": "CGPT-19",
+      "transcript": "ai-documentation/archive/cgpt-19-share-6ac3adfb-dfc0-83eb-a116-93a33686fb9c-transcript.txt",
+      "transcript_sha256": "6bc0a523818730570b3eae35c1479cedb05560651600a72f9007100a98891d33",
+      "tool": "ChatGPT",
+      "evidence": "visible assistant message model_reported provider metadata",
+      "messages_file": "ai-documentation/archive/cgpt-19-share-6ac3adfb-dfc0-83eb-a116-93a33686fb9c-messages.jsonl",
+      "messages_sha256": "8dca2624c0caff272268cff3dad1151ed2ffcd3862c3fe7197263a981bc24bfe",
+      "assistant_messages_without_model": 0,
+      "model_observations": {
+        "gpt-5-6-thinking": 107
+      }
+    }
+  ]
+}

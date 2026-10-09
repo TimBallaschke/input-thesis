@@ -1,5 +1,6 @@
 import {autoTypeset} from './arketa-auto-typeset.js';
-const options={mode:'justified',language:'de-1996',opticalMargin:false,
+const options={mode:'ragged',language:'de-1996',opticalMargin:true,
+ ragged:{zone:'28px',topVariance:'0px',bottomVariance:'8px'},
  wordSpacing:[.9,1.1],tracking:[-.01,.01],glyphScale:[.98,1.02],maxHyphens:3,
  hyphenMinPrefix:2,hyphenMinSuffix:2};
 const host=document.querySelector('#composer');
@@ -35,7 +36,7 @@ window.docReady=(async()=>{
   for(const entry of batch){
    const {block,p}=entry;
    if(!p){
-    if(!previousBlank){rows.push({blank:true,refs:[block.line.id],message_role:block.line.message_role});previousBlank=true}
+    if(!previousBlank){rows.push({blank:true,refs:[block.line.id],message_role:block.line.message_role,display_only:block.line.display_only});previousBlank=true}
     else rows.at(-1).refs.push(block.line.id);
     continue;
    }
@@ -87,7 +88,8 @@ window.docReady=(async()=>{
     const lead=intersect[0],first=!seen.has(lead.id);
     const row={...part,canonical_id:lead.id,canonical_line:lead.number,message_id:firstLine.message_id,message_role:firstLine.message_role,
      first,message_start:firstLine.message_start&&index===0,source_offset:cursor,source_length:n,
-     paragraph_id:firstLine.id,paragraph_last:index===printed.length-1,refs:intersect.map(s=>s.id)};
+     paragraph_id:firstLine.id,paragraph_last:index===printed.length-1,refs:intersect.map(s=>s.id),
+     display_only:firstLine.display_only,role_provenance:firstLine.role_provenance};
     rows.push(row);intersect.forEach(s=>seen.add(s.id));cursor+=n;
    }
    if(cursor!==entry.text.length)throw Error('Incomplete paragraph '+firstLine.id);

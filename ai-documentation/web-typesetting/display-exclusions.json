@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "messages": [
+    {
+      "archive_id": "CGPT-01",
+      "archive_sha256": "e0a1501eec9a5aca44b638795c5e083edf8d2611f128b51b23a6710d3823c5dc",
+      "message_id": "CGPT-01-imported-L000007",
+      "role": "user",
+      "canonical_start_line": 7,
+      "canonical_end_line": 20,
+      "reason": "Author requested exclusion of the unreferenced opening message from the visible edition.",
+      "requested_on": "2026-10-08"
+    }
+  ]
+}

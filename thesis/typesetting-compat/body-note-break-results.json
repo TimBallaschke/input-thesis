@@ -1,0 +1,140 @@
+{
+  "checked": "2026-10-07",
+  "rule": "body_can_finish_before_separator_and_annotations",
+  "source_star_break_before": "auto",
+  "column_boundary_probe": {
+    "before": {
+      "pages": 2,
+      "lastLines": [
+        {
+          "page": 1,
+          "column": 2,
+          "y": 260.3924217224121,
+          "bottom": 265.15489196777344,
+          "text": "genüber, die für Nutzer*innen nur"
+        },
+        {
+          "page": 1,
+          "column": 2,
+          "y": 265.15489196777344,
+          "bottom": 269.91739654541016,
+          "text": "teilweise erkennbar und beeinflussbar"
+        },
+        {
+          "page": 2,
+          "column": 1,
+          "y": 7.970572471618652,
+          "bottom": 12.733077049255371,
+          "text": "sind."
+        }
+      ],
+      "star": {
+        "page": 2,
+        "column": 1,
+        "y": 18.634928226470947,
+        "bottom": 23.396913528442383,
+        "text": "* * *"
+      },
+      "firstNote": {
+        "page": 2,
+        "column": 1,
+        "y": 28.078393936157227,
+        "bottom": 31.650272369384766,
+        "text": "Dieser Abschnitt wurde mit Unterstützung von KI erarbeitet."
+      }
+    },
+    "after": {
+      "pages": 2,
+      "lastLines": [
+        {
+          "page": 1,
+          "column": 2,
+          "y": 260.3924217224121,
+          "bottom": 265.15489196777344,
+          "text": "genüber, die für Nutzer*innen nur"
+        },
+        {
+          "page": 1,
+          "column": 2,
+          "y": 265.15489196777344,
+          "bottom": 269.91739654541016,
+          "text": "teilweise erkennbar und beeinflussbar"
+        },
+        {
+          "page": 1,
+          "column": 2,
+          "y": 269.91739654541016,
+          "bottom": 274.6799011230469,
+          "text": "sind."
+        }
+      ],
+      "star": {
+        "page": 2,
+        "column": 1,
+        "y": 9.109927654266357,
+        "bottom": 13.871912956237793,
+        "text": "* * *"
+      },
+      "firstNote": {
+        "page": 2,
+        "column": 1,
+        "y": 18.553393363952637,
+        "bottom": 22.125267505645752,
+        "text": "Dieser Abschnitt wurde mit Unterstützung von KI erarbeitet."
+      }
+    }
+  },
+  "current_paragraph": "para-122",
+  "current_last_rows": [
+    {
+      "page": 24,
+      "x": 118.35226299234225,
+      "y": 131.79559707641602,
+      "width": 83.49984632186087,
+      "height": 4.762504577636719,
+      "id": "body-line-1657",
+      "text": "genüber, die für Nutzer*innen nur"
+    },
+    {
+      "page": 24,
+      "x": 118.35473492155876,
+      "y": 136.55810165405273,
+      "width": 83.49943433365813,
+      "height": 4.762504577636719,
+      "id": "body-line-1658",
+      "text": "teilweise erkennbar und beeinflussbar"
+    },
+    {
+      "page": 24,
+      "x": 118.15533263142751,
+      "y": 141.32060623168945,
+      "width": 83.4999836512618,
+      "height": 4.762487411499023,
+      "id": "body-line-1659",
+      "text": "sind."
+    }
+  ],
+  "pages": 29,
+  "body_rows": 1715,
+  "full_text_and_links_preserved": true,
+  "overflow": [],
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 3.383972018539604e-14,
+    "sourceMaxErrorMm": 3.383972018539604e-14,
+    "annotationGridScope": "quarter_body_rows_with_three_quarter_leading"
+  },
+  "hyphenation": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 183,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "original_plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "pdf_exported": false
+}

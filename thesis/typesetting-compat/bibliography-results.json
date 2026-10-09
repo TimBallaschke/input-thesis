@@ -1,0 +1,2046 @@
+{
+  "pages": 27,
+  "title": {
+    "page": 26,
+    "x": 7.937632884479092,
+    "y": 15.081304547542489,
+    "width": 194.00070871722184,
+    "height": 266.7092328892972,
+    "text": "Bibliography",
+    "fontSize": "13.3314px",
+    "align": "center",
+    "transform": "uppercase",
+    "tracking": "8.66449px",
+    "proseLines": 0
+  },
+  "entries": [
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 7.93752870923289,
+      "width": 83.49811008740846,
+      "height": 16.51998162609095,
+      "key": "aggarwalGEOGenerativeEngine2024",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Aggarwal, Pranjal; Murahari, Vishvak; Rajpurohit, Tanmay;",
+          "page": 27,
+          "x": 29.943893219938577,
+          "y": 7.93752870923289,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Kalyan, Ashwin; Narasimhan, Karthik; Deshpande, Ameet (2024).",
+          "page": 27,
+          "x": 29.881880463028583,
+          "y": 10.690858980248048,
+          "width": 83.49549392422632,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "GEO: Generative Engine Optimization. In: Proceedings of the",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 13.444189251263206,
+          "width": 83.49586535480157,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "30th ACM SIGKDD Conference on Knowledge Discovery and Data",
+          "page": 27,
+          "x": 29.790928419560597,
+          "y": 16.197519522278366,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Mining, S. 5–16. Association for Computing Machinery. DOI:",
+          "page": 27,
+          "x": 29.90255138199858,
+          "y": 18.950849793293525,
+          "width": 83.4979808941649,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "10.1145/3637528.3671900.",
+          "page": 27,
+          "x": 29.82813607370659,
+          "y": 21.70418006430868,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/3637528.3671900",
+          "text": "10.1145/3637528.3671900"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 27.210840606338998,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "akrichDeScriptionTechnical1992",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Akrich, Madeleine (1992). The De-Scription of Technical Ob-",
+          "page": 27,
+          "x": 29.943893219938577,
+          "y": 27.210840606338998,
+          "width": 83.49559081915899,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "jects. In: Bijker, Wiebe E.; Law, John (Hg.), Shaping Tech-",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 29.964170877354157,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "nology/Building Society: Studies in Sociotechnical Change, S.",
+          "page": 27,
+          "x": 29.90255138199858,
+          "y": 32.717501148369315,
+          "width": 83.49720573470351,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "205–224. Cambridge, MA: MIT Press.",
+          "page": 27,
+          "x": 29.786794235766596,
+          "y": 35.470831419384474,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": []
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 40.97749196141479,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "arnoldPredictiveTextEncourages2020",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Arnold, Kenneth C.; Chauncey, Krysta; Gajos, Krzysztof Z.",
+          "page": 27,
+          "x": 29.943893219938577,
+          "y": 40.97749196141479,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "(2020). Predictive Text Encourages Predictable Writing.",
+          "page": 27,
+          "x": 29.48913300259863,
+          "y": 43.73082223242995,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "In: Proceedings of the 25th International Conference on Intel-",
+          "page": 27,
+          "x": 29.82400188991259,
+          "y": 46.48415250344511,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ligent User Interfaces, S. 128–138. Association for Com-",
+          "page": 27,
+          "x": 29.852941176470587,
+          "y": 49.23748277446027,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "puting Machinery. DOI: 10.1145/3377325.3377523.",
+          "page": 27,
+          "x": 29.91495393338058,
+          "y": 51.99081304547543,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/3377325.3377523",
+          "text": "10.1145/3377325.3377523"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 57.497473587505745,
+      "width": 83.49811008740846,
+      "height": 16.51998162609095,
+      "key": "aiCollaborationDocumentation2026",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Ballaschke, Tim (2026). Input: KI-Dokumentation. Begleitdokumen-",
+          "page": 27,
+          "x": 29.84467280888259,
+          "y": 57.497473587505745,
+          "width": 83.49549392422632,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "tation mit Seiten- und Zeilennummern. KI-Einsatz: Recherche,",
+          "page": 27,
+          "x": 29.815733522324592,
+          "y": 60.250803858520904,
+          "width": 83.49655976848571,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Textauswahl, Ausarbeitung, Überarbeitung. OpenAI-Werkzeuge und",
+          "page": 27,
+          "x": 29.84467280888259,
+          "y": 63.004134129536055,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Modellkennungen: ChatGPT: gpt-5-6-thinking, gpt-5.6-sol-wm,",
+          "page": 27,
+          "x": 29.90255138199858,
+          "y": 65.75746440055121,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "gpt-6-astra-wm; Codex: gpt-5.6-sol, gpt-6-astra, gpt-6.1-sol.",
+          "page": 27,
+          "x": 29.815733522324592,
+          "y": 68.51079467156637,
+          "width": 83.49720573470351,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Fehlende Modellangaben: CGPT-01, CGPT-02, CGPT-03, CGPT-04.",
+          "page": 27,
+          "x": 29.83227025750059,
+          "y": 71.26412494258153,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "http://127.0.0.1:8768/ai-documentation/preview.html",
+          "text": "Input: KI-Dokumentation"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 76.77078548461185,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "brinPage1998Anatomy",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Brin, Sergey; Page, Lawrence (1998). The Anatomy of a",
+          "page": 27,
+          "x": 29.84053862508859,
+          "y": 76.77078548461185,
+          "width": 83.4941696934798,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Large-Scale Hypertextual Web Search Engine. Computer Net-",
+          "page": 27,
+          "x": 29.819867706118593,
+          "y": 79.52411575562701,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "works and ISDN Systems, 30 (1–7), S. 107–117. DOI:",
+          "page": 27,
+          "x": 29.91908811717458,
+          "y": 82.27744602664217,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "10.1016/S0169-7552(98)00110-X.",
+          "page": 27,
+          "x": 29.82813607370659,
+          "y": 85.03077629765733,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1016/S0169-7552(98)00110-X",
+          "text": "10.1016/S0169-7552(98)00110-X"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 90.53743683968764,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "chenEffectsAnthropomorphicDesign2024",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Chen, Jiahao; Guo, Fu; Ren, Zenggen; Li, Mingming; Ham, Jaap",
+          "page": 27,
+          "x": 29.852941176470587,
+          "y": 90.53743683968764,
+          "width": 83.49588150395701,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "(2024). Effects of Anthropomorphic Design Cues of Chatbots",
+          "page": 27,
+          "x": 29.49326718639263,
+          "y": 93.2907671107028,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "on Users' Perception and Visual Behaviors. International Jour-",
+          "page": 27,
+          "x": 29.819867706118593,
+          "y": 96.04409738171796,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "nal of Human-Computer Interaction, 40 (14), S. 3636–3654.",
+          "page": 27,
+          "x": 29.90255138199858,
+          "y": 98.79742765273312,
+          "width": 83.49607529382234,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "DOI: 10.1080/10447318.2023.2193514.",
+          "page": 27,
+          "x": 29.877746279234586,
+          "y": 101.55075792374828,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1080/10447318.2023.2193514",
+          "text": "10.1080/10447318.2023.2193514"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 107.0574184657786,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "ftc2023BetterHelpComplaint",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Federal Trade Commission (2023). In the Matter of BetterHelp,",
+          "page": 27,
+          "x": 29.83227025750059,
+          "y": 107.0574184657786,
+          "width": 83.49526783605009,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Inc. Complaint. Docket C-4796; File 2023169. https://ww",
+          "page": 27,
+          "x": 29.82400188991259,
+          "y": 109.81074873679376,
+          "width": 83.49526783605009,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "w.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaint",
+          "page": 27,
+          "x": 29.91908811717458,
+          "y": 112.56407900780891,
+          "width": 83.49720573470351,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "final.pdf. Zugriff: 15.09.2026.",
+          "page": 27,
+          "x": 29.81159933853059,
+          "y": 115.31740927882407,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaintfinal.pdf",
+          "text": "https://ww"
+        },
+        {
+          "href": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaintfinal.pdf",
+          "text": "w.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaint"
+        },
+        {
+          "href": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaintfinal.pdf",
+          "text": "final.pdf"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 120.82406982085439,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "feitHowWeType2016",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Feit, Anna Maria; Weir, Daryl; Oulasvirta, Antti (2016). How",
+          "page": 27,
+          "x": 29.83227025750059,
+          "y": 120.82406982085439,
+          "width": 83.49588150395701,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "We Type: Movement Strategies and Performance in Everyday",
+          "page": 27,
+          "x": 29.910819749586583,
+          "y": 123.57740009186955,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Typing. In: Proceedings of the 2016 CHI Conference on Human",
+          "page": 27,
+          "x": 29.84467280888259,
+          "y": 126.33073036288471,
+          "width": 83.49596224973423,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Factors in Computing Systems, S. 4262–4273. Association",
+          "page": 27,
+          "x": 29.83227025750059,
+          "y": 129.08406063389987,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "for Computing Machinery. DOI: 10.1145/2858036.2858233.",
+          "page": 27,
+          "x": 29.81159933853059,
+          "y": 131.83739090491503,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/2858036.2858233",
+          "text": "10.1145/2858036.2858233"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 137.34405144694534,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "galbraithHiddenPlainSight2025",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Galbraith, Craig S.; Kay, Neil (2025). Hidden in Plain",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 137.34405144694534,
+          "width": 83.49397590361446,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Sight: QWERTY, the Search for Optimality and IP Comple-",
+          "page": 27,
+          "x": 29.786794235766596,
+          "y": 140.0973817179605,
+          "width": 83.49586535480157,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "mentarity. Business History, 67 (8), S. 2209–2231. DOI:",
+          "page": 27,
+          "x": 29.91908811717458,
+          "y": 142.85071198897566,
+          "width": 83.49439578165604,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "10.1080/00076791.2025.2458052.",
+          "page": 27,
+          "x": 29.82813607370659,
+          "y": 145.60404225999082,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1080/00076791.2025.2458052",
+          "text": "10.1080/00076791.2025.2458052"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 151.11070280202114,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "gillespie2014RelevanceAlgorithms",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Gillespie, Tarleton (2014). The Relevance of Algorithms. In:",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 151.11070280202114,
+          "width": 83.49596224973423,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Gillespie, Tarleton; Boczkowski, Pablo J.; Foot, Kirsten A.",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 153.8640330730363,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "(Hg.), Media Technologies: Essays on Communication, Materiali-",
+          "page": 27,
+          "x": 29.49326718639263,
+          "y": 156.61736334405145,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ty, and Society, S. 167–194. MIT Press. DOI: 10.7551/mit-",
+          "page": 27,
+          "x": 29.815733522324592,
+          "y": 159.3706936150666,
+          "width": 83.49607529382234,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "press/9042.003.0013.",
+          "page": 27,
+          "x": 29.91495393338058,
+          "y": 162.12402388608177,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.7551/mitpress/9042.003.0013",
+          "text": "10.7551/mit"
+        },
+        {
+          "href": "https://doi.org/10.7551/mitpress/9042.003.0013",
+          "text": "press/9042.003.0013"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 167.6306844281121,
+      "width": 83.49811008740846,
+      "height": 8.259990813045475,
+      "key": "googleSearchWorks2025",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Google (2025). In-Depth Guide to How Google Search Works. htt",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 167.6306844281121,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ps://developers.google.com/search/docs/fundamentals/how-",
+          "page": 27,
+          "x": 29.91495393338058,
+          "y": 170.38401469912725,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "search-works. Zugriff: 15.09.2026.",
+          "page": 27,
+          "x": 29.695842192298606,
+          "y": 173.1373449701424,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+          "text": "htt"
+        },
+        {
+          "href": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+          "text": "ps://developers.google.com/search/docs/fundamentals/how-"
+        },
+        {
+          "href": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+          "text": "search-works"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 178.64400551217273,
+      "width": 83.49811008740846,
+      "height": 8.259990813045475,
+      "key": "googleSearchTestingSnapshot2026",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Google (o. J.; Stand 15.09.2026). Improving Search with Rigor-",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 178.64400551217273,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ous Testing. https://www.google.com/search/howsearchwork",
+          "page": 27,
+          "x": 29.819867706118593,
+          "y": 181.39733578318788,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "s/how-search-works/rigorous-testing/. Zugriff: 15.09.2026.",
+          "page": 27,
+          "x": 29.695842192298606,
+          "y": 184.15066605420304,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+          "text": "https://www.google.com/search/howsearchwork"
+        },
+        {
+          "href": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+          "text": "s/how-search-works/rigorous-testing/"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 189.65732659623336,
+      "width": 83.49811008740846,
+      "height": 8.259990813045475,
+      "key": "googleRefineSearches",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Google Search Help (o. J.; Stand 18.09.2026). Refine Google",
+          "page": 27,
+          "x": 29.865343727852586,
+          "y": 189.65732659623336,
+          "width": 83.49559081915899,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "searches. https://support.google.com/websearch/answer/24",
+          "page": 27,
+          "x": 29.695842192298606,
+          "y": 192.41065686724852,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "66433?hl=en. Zugriff: 18.09.2026.",
+          "page": 27,
+          "x": 29.799196787148595,
+          "y": 195.16398713826368,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://support.google.com/websearch/answer/2466433?hl=en",
+          "text": "https://support.google.com/websearch/answer/24"
+        },
+        {
+          "href": "https://support.google.com/websearch/answer/2466433?hl=en",
+          "text": "66433?hl=en"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 200.670647680294,
+      "width": 83.49811008740846,
+      "height": 8.259990813045475,
+      "key": "hearstSearchUserInterfaces2009",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Hearst, Marti A. (2009). Search User Interfaces. Cambridge:",
+          "page": 27,
+          "x": 29.898417198204584,
+          "y": 200.670647680294,
+          "width": 83.49517094111741,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Cambridge University Press. https://searchuserinterfaces",
+          "page": 27,
+          "x": 29.852941176470587,
+          "y": 203.42397795130915,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": ".com/book/.",
+          "page": 27,
+          "x": 29.41885187810064,
+          "y": 206.1773082223243,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://searchuserinterfaces.com/book/",
+          "text": "https://searchuserinterfaces"
+        },
+        {
+          "href": "https://searchuserinterfaces.com/book/",
+          "text": ".com/book/"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 211.6839687643546,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "ieeeOpenGroupMkdir2024",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "IEEE; The Open Group (2024). mkdir. The Open Group Base Spec-",
+          "page": 27,
+          "x": 29.82400188991259,
+          "y": 211.6839687643546,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ifications Issue 8, IEEE Std 1003.1-2024. https://pubs.o",
+          "page": 27,
+          "x": 29.852941176470587,
+          "y": 214.43729903536976,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "pengroup.org/onlinepubs/9799919799.2024edition/utilities/mkd",
+          "page": 27,
+          "x": 29.91495393338058,
+          "y": 217.19062930638492,
+          "width": 83.49526783605009,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ir.html. Zugriff: 30.08.2026.",
+          "page": 27,
+          "x": 29.852941176470587,
+          "y": 219.94395957740008,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://pubs.opengroup.org/onlinepubs/9799919799.2024edition/utilities/mkdir.html",
+          "text": "https://pubs.o"
+        },
+        {
+          "href": "https://pubs.opengroup.org/onlinepubs/9799919799.2024edition/utilities/mkdir.html",
+          "text": "pengroup.org/onlinepubs/9799919799.2024edition/utilities/mkd"
+        },
+        {
+          "href": "https://pubs.opengroup.org/onlinepubs/9799919799.2024edition/utilities/mkdir.html",
+          "text": "ir.html"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 225.4506201194304,
+      "width": 83.49811008740846,
+      "height": 16.51998162609095,
+      "key": "koeneckeRacialDisparitiesAutomated2020",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Koenecke, Allison; Nam, Andrew; Lake, Emily; Nudell, Joe;",
+          "page": 27,
+          "x": 29.881880463028583,
+          "y": 225.4506201194304,
+          "width": 83.49749641950153,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Quartey, Minnie; Mengesha, Zion; Toups, Connor; Rickford,",
+          "page": 27,
+          "x": 29.86120954405859,
+          "y": 228.20395039044556,
+          "width": 83.49436348334514,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "John R.; Jurafsky, Dan; Goel, Sharad (2020). Racial Dispari-",
+          "page": 27,
+          "x": 29.84053862508859,
+          "y": 230.95728066146071,
+          "width": 83.49588150395701,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ties in Automated Speech Recognition. Proceedings of the",
+          "page": 27,
+          "x": 29.815733522324592,
+          "y": 233.71061093247587,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "National Academy of Sciences, 117 (14), S. 7684–7689. DOI:",
+          "page": 27,
+          "x": 29.90255138199858,
+          "y": 236.46394120349103,
+          "width": 83.4979808941649,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "10.1073/pnas.1915768117.",
+          "page": 27,
+          "x": 29.82813607370659,
+          "y": 239.2172714745062,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1073/pnas.1915768117",
+          "text": "10.1073/pnas.1915768117"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 244.7239320165365,
+      "width": 83.49811008740846,
+      "height": 8.259990813045475,
+      "key": "luguriShiningLightDark2021",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Luguri, Jamie; Strahilevitz, Lior Jacob (2021). Shining a Light",
+          "page": 27,
+          "x": 29.819867706118593,
+          "y": 244.7239320165365,
+          "width": 83.49436348334514,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "on Dark Patterns. Journal of Legal Analysis, 13 (1), S.",
+          "page": 27,
+          "x": 29.815733522324592,
+          "y": 247.47726228755167,
+          "width": 83.49455727321049,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "43–109. DOI: 10.1093/jla/laaa006.",
+          "page": 27,
+          "x": 29.82400188991259,
+          "y": 250.23059255856683,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1093/jla/laaa006",
+          "text": "10.1093/jla/laaa006"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 255.73725310059714,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "mackenzieTextEntryMobile2002",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "MacKenzie, I. Scott; Soukoreff, R. William (2002). Text Entry",
+          "page": 27,
+          "x": 29.90255138199858,
+          "y": 255.73725310059714,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "for Mobile Computing: Models and Methods, Theory and Prac-",
+          "page": 27,
+          "x": 29.81159933853059,
+          "y": 258.49058337161233,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "tice. Human–Computer Interaction, 17 (2–3), S. 147–198. DOI:",
+          "page": 27,
+          "x": 29.81159933853059,
+          "y": 261.2439136426275,
+          "width": 83.49565541578077,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "10.1080/07370024.2002.9667313.",
+          "page": 27,
+          "x": 29.82813607370659,
+          "y": 263.99724391364265,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1080/07370024.2002.9667313",
+          "text": "10.1080/07370024.2002.9667313"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 29.898417198204584,
+      "y": 269.50390445567297,
+      "width": 83.49811008740846,
+      "height": 5.506660542030317,
+      "key": "normanSignifiersNotAffordances2008",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Norman, Donald A. (2008). Signifiers, not affordances. Inter-",
+          "page": 27,
+          "x": 29.90255138199858,
+          "y": 269.50390445567297,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "actions, 15 (6), S. 18–19. DOI: 10.1145/1409040.1409044.",
+          "page": 27,
+          "x": 29.774391684384597,
+          "y": 272.2572347266881,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/1409040.1409044",
+          "text": "10.1145/1409040.1409044"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 7.93752870923289,
+      "width": 83.49811008740846,
+      "height": 8.259990813045475,
+      "key": "openaiDataControlsSnapshot2026",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "OpenAI (o. J.; Stand 15.09.2026). Data Controls in the OpenAI",
+          "page": 27,
+          "x": 118.36168202220647,
+          "y": 7.93752870923289,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Platform. https://developers.openai.com/api/docs/guides",
+          "page": 27,
+          "x": 118.36581620600047,
+          "y": 10.690858980248048,
+          "width": 83.49565541578077,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "/your-data. Zugriff: 15.09.2026.",
+          "page": 27,
+          "x": 118.1053626269785,
+          "y": 13.444189251263206,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://developers.openai.com/api/docs/guides/your-data",
+          "text": "https://developers.openai.com/api/docs/guides"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/your-data",
+          "text": "/your-data"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 18.950849793293525,
+      "width": 83.49811008740846,
+      "height": 5.506660542030317,
+      "key": "openaiTextGenerationSnapshot2026",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "OpenAI (o. J.; Stand 15.09.2026). Text Generation. https://dev",
+          "page": 27,
+          "x": 118.36168202220647,
+          "y": 18.950849793293525,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "elopers.openai.com/api/docs/guides/text. Zugriff: 15.09.2026.",
+          "page": 27,
+          "x": 118.29140089770848,
+          "y": 21.70418006430868,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://developers.openai.com/api/docs/guides/text",
+          "text": "https://dev"
+        },
+        {
+          "href": "https://developers.openai.com/api/docs/guides/text",
+          "text": "elopers.openai.com/api/docs/guides/text"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 27.210840606338998,
+      "width": 83.49811008740846,
+      "height": 16.51998162609095,
+      "key": "oulasvirtaImprovingTwoThumb2013",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Oulasvirta, Antti; Reichel, Anna; Li, Wenbin; Zhang, Yan;",
+          "page": 27,
+          "x": 118.36168202220647,
+          "y": 27.210840606338998,
+          "width": 83.49749641950153,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Bachynskyi, Myroslav; Vertanen, Keith; Kristensson, Per",
+          "page": 27,
+          "x": 118.34514528703048,
+          "y": 29.964170877354157,
+          "width": 83.49526783605009,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Ola (2013). Improving Two-Thumb Text Entry on Touchscreen De-",
+          "page": 27,
+          "x": 118.36168202220647,
+          "y": 32.717501148369315,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "vices. In: Proceedings of the SIGCHI Conference on Human",
+          "page": 27,
+          "x": 118.42369477911646,
+          "y": 35.470831419384474,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Factors in Computing Systems, S. 2765–2774. New York, NY, USA:",
+          "page": 27,
+          "x": 118.33274273564848,
+          "y": 38.22416169039963,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ACM. DOI: 10.1145/2470654.2481383.",
+          "page": 27,
+          "x": 118.44436569808646,
+          "y": 40.97749196141479,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/2470654.2481383",
+          "text": "10.1145/2470654.2481383"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 46.48415250344511,
+      "width": 83.49811008740846,
+      "height": 24.779972439136426,
+      "key": "ouyangEtAl2022Instructions",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Ouyang, Long; Wu, Jeffrey; Jiang, Xu; Almeida, Diogo; Wain-",
+          "page": 27,
+          "x": 118.36168202220647,
+          "y": 46.48415250344511,
+          "width": 83.49559081915899,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "wright, Carroll; Mishkin, Pamela; Zhang, Chong; Agarwal,",
+          "page": 27,
+          "x": 118.41956059532247,
+          "y": 49.23748277446027,
+          "width": 83.49720573470351,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Sandhini; Slama, Katarina; Ray, Alex; Schulman, John; Hilton,",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 51.99081304547543,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Jacob; Kelton, Fraser; Miller, Luke; Simens, Maddie; Askell,",
+          "page": 27,
+          "x": 118.34101110323647,
+          "y": 54.744143316490586,
+          "width": 83.49655976848571,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Amanda; Welinder, Peter; Christiano, Paul F; Leike, Jan; Lowe,",
+          "page": 27,
+          "x": 118.44436569808646,
+          "y": 57.497473587505745,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Ryan (2022). Training Language Models to Follow Instruc-",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 60.250803858520904,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "tions with Human Feedback. In: Advances in Neural Information",
+          "page": 27,
+          "x": 118.31620600047248,
+          "y": 63.004134129536055,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Processing Systems, Bd. 35, S. 27730–27744. Curran Assoc-",
+          "page": 27,
+          "x": 118.36581620600047,
+          "y": 65.75746440055121,
+          "width": 83.49607529382234,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "iates, Inc. DOI: 10.52202/068431-2011.",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 68.51079467156637,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.52202/068431-2011",
+          "text": "10.52202/068431-2011"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 74.01745521359669,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "quinnCostBenefitStudy2016",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Quinn, Philip; Zhai, Shumin (2016). A Cost-Benefit Study of",
+          "page": 27,
+          "x": 118.36168202220647,
+          "y": 74.01745521359669,
+          "width": 83.49559081915899,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Text Entry Suggestion Interaction. In: Proceedings of the",
+          "page": 27,
+          "x": 118.34514528703048,
+          "y": 76.77078548461185,
+          "width": 83.49607529382234,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "2016 CHI Conference on Human Factors in Computing Systems, S.",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 79.52411575562701,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "83–88. New York, NY, USA: ACM. DOI: 10.1145/2858036.2858305.",
+          "page": 27,
+          "x": 118.33274273564848,
+          "y": 82.27744602664217,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/2858036.2858305",
+          "text": "10.1145/2858036.2858305"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 87.78410656867248,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "radfordEtAl2019LanguageModels",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Radford, Alec; Wu, Jeffrey; Child, Rewon; Luan, David; Amodei,",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 87.78410656867248,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Dario; Sutskever, Ilya (2019). Language Models Are Unsu-",
+          "page": 27,
+          "x": 118.37821875738247,
+          "y": 90.53743683968764,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "pervised Multitask Learners. OpenAI. https://cdn.openai.com/b",
+          "page": 27,
+          "x": 118.41542641152847,
+          "y": 93.2907671107028,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "etter-language-models/language_models_are_unsupervised_",
+          "page": 27,
+          "x": 118.29140089770848,
+          "y": 96.04409738171796,
+          "width": 83.49588150395701,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "multitask_learners.pdf. Zugriff: 15.09.2026.",
+          "page": 27,
+          "x": 118.41956059532247,
+          "y": 98.79742765273312,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+          "text": "https://cdn.openai.com/b"
+        },
+        {
+          "href": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+          "text": "etter-language-models/language_models_are_unsupervised_"
+        },
+        {
+          "href": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+          "text": "multitask_learners.pdf"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 104.30408819476344,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "ruanComparingSpeechKeyboard2017",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Ruan, Sherry; Wobbrock, Jacob O.; Liou, Kenny; Ng, Andrew; Lan-",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 104.30408819476344,
+          "width": 83.49436348334514,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "day, James A. (2017). Comparing Speech and Keyboard Text Entry",
+          "page": 27,
+          "x": 118.32034018426648,
+          "y": 107.0574184657786,
+          "width": 83.49646287355304,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "for Short Messages in Two Languages on Touchscreen Phones. Pro-",
+          "page": 27,
+          "x": 118.31207181667848,
+          "y": 109.81074873679376,
+          "width": 83.49720573470351,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ceedings of the ACM on Interactive, Mobile, Wearable and Ubiq-",
+          "page": 27,
+          "x": 118.29553508150248,
+          "y": 112.56407900780891,
+          "width": 83.49394360530357,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "uitous Technologies, 1 (4), S. 1–23. DOI: 10.1145/3161187.",
+          "page": 27,
+          "x": 118.39475549255847,
+          "y": 115.31740927882407,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/3161187",
+          "text": "10.1145/3161187"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 120.82406982085439,
+      "width": 83.49811008740846,
+      "height": 16.51998162609095,
+      "key": "secklerDesigningUsableWeb2014",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Seckler, Mirjam; Heinz, Silvia; Bargas-Avila, Javier A.; Op-",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 120.82406982085439,
+          "width": 83.49588150395701,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "wis, Klaus; Tuch, Alexandre N. (2014). Designing Usable",
+          "page": 27,
+          "x": 118.41956059532247,
+          "y": 123.57740009186955,
+          "width": 83.49526783605009,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Web Forms: Empirical Evaluation of Web Form Improvement Guide-",
+          "page": 27,
+          "x": 118.41129222773446,
+          "y": 126.33073036288471,
+          "width": 83.497657911056,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "lines. In: Proceedings of the SIGCHI Conference on Human",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 129.08406063389987,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Factors in Computing Systems, S. 1275–1284. New York, NY, USA:",
+          "page": 27,
+          "x": 118.33274273564848,
+          "y": 131.83739090491503,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ACM. DOI: 10.1145/2556288.2557265.",
+          "page": 27,
+          "x": 118.44436569808646,
+          "y": 134.59072117593018,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/2556288.2557265",
+          "text": "10.1145/2556288.2557265"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 140.0973817179605,
+      "width": 83.49811008740846,
+      "height": 22.026642168121267,
+      "key": "sharmaUnderstandingSycophancyLanguage2024",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Sharma, Mrinank; Tong, Meg; Korbak, Tomasz; Duvenaud, David;",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 140.0973817179605,
+          "width": 83.49596224973423,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Askell, Amanda; Bowman, Samuel R.; Cheng, Newton; Durmus,",
+          "page": 27,
+          "x": 118.44436569808646,
+          "y": 142.85071198897566,
+          "width": 83.49607529382234,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Esin; Hatfield-Dodds, Zac; Johnston, Scott R.; Kravec, Shauna;",
+          "page": 27,
+          "x": 118.33274273564848,
+          "y": 145.60404225999082,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Maxwell, Timothy; McCandlish, Sam; Ndousse, Kamal; Rausch,",
+          "page": 27,
+          "x": 118.40302386014646,
+          "y": 148.35737253100598,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Oliver; Schiefer, Nicholas; Yan, Da; Zhang, Miranda; Perez,",
+          "page": 27,
+          "x": 118.36168202220647,
+          "y": 151.11070280202114,
+          "width": 83.49559081915899,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Ethan (2024). Towards Understanding Sycophancy in Language",
+          "page": 27,
+          "x": 118.33274273564848,
+          "y": 153.8640330730363,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Models. In: The Twelfth International Conference on Learning",
+          "page": 27,
+          "x": 118.40302386014646,
+          "y": 156.61736334405145,
+          "width": 83.49565541578077,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Representations. https://openreview.net/forum?id=tvhaxkMKAn.",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 159.3706936150666,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://openreview.net/forum?id=tvhaxkMKAn",
+          "text": "https://openreview.net/forum?id=tvhaxkMKAn"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 164.87735415709693,
+      "width": 83.49811008740846,
+      "height": 8.259990813045475,
+      "key": "shneidermanDirectManipulationStep1983",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Shneiderman, Ben (1983). Direct Manipulation: A Step Beyond",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 164.87735415709693,
+          "width": 83.49559081915899,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Programming Languages. Computer, 16 (8), S. 57–69. DOI:",
+          "page": 27,
+          "x": 118.36581620600047,
+          "y": 167.6306844281121,
+          "width": 83.49517094111741,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "10.1109/MC.1983.1654471.",
+          "page": 27,
+          "x": 118.32860855185447,
+          "y": 170.38401469912725,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1109/MC.1983.1654471",
+          "text": "10.1109/MC.1983.1654471"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 175.89067524115757,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "staabEtAl2024PrivacyInference",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Staab, Robin; Vero, Mark; Balunović, Mislav; Vechev, Martin",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 175.89067524115757,
+          "width": 83.49559081915899,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "(2024). Beyond Memorization: Violating Privacy via Infer-",
+          "page": 27,
+          "x": 117.99787384833452,
+          "y": 178.64400551217273,
+          "width": 83.49607529382234,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ence with Large Language Models. In: International Conference",
+          "page": 27,
+          "x": 118.29140089770848,
+          "y": 181.39733578318788,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "on Learning Representations. https://arxiv.org/abs/2310",
+          "page": 27,
+          "x": 118.31620600047248,
+          "y": 184.15066605420304,
+          "width": 83.49588150395701,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": ".07298v2.",
+          "page": 27,
+          "x": 117.91932435624852,
+          "y": 186.9039963252182,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://arxiv.org/abs/2310.07298v2",
+          "text": "https://arxiv.org/abs/2310"
+        },
+        {
+          "href": "https://arxiv.org/abs/2310.07298v2",
+          "text": ".07298v2"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 192.41065686724852,
+      "width": 83.49811008740846,
+      "height": 16.51998162609095,
+      "key": "subramonyamBridgingGulfEnvisioning2024",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Subramonyam, Hari; Pea, Roy; Pondoc, Christopher; Agrawala,",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 192.41065686724852,
+          "width": 83.49517094111741,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Maneesh; Seifert, Colleen (2024). Bridging the Gulf of",
+          "page": 27,
+          "x": 118.40302386014646,
+          "y": 195.16398713826368,
+          "width": 83.49397590361446,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Envisioning: Cognitive Challenges in Prompt Based Inter-",
+          "page": 27,
+          "x": 118.32860855185447,
+          "y": 197.91731740927884,
+          "width": 83.49591380226789,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "actions with LLMs. In: Proceedings of the CHI Conference",
+          "page": 27,
+          "x": 118.27486416253248,
+          "y": 200.670647680294,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "on Human Factors in Computing Systems, S. 1–19. ACM. DOI:",
+          "page": 27,
+          "x": 118.31620600047248,
+          "y": 203.42397795130915,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "10.1145/3613904.3642754.",
+          "page": 27,
+          "x": 118.32860855185447,
+          "y": 206.1773082223243,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/3613904.3642754",
+          "text": "10.1145/3613904.3642754"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 211.6839687643546,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "chromiumOmniboxPrefetchSnapshot2026",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "The Chromium Projects (o. J.; Stand 15.09.2026). Omnibox",
+          "page": 27,
+          "x": 118.34101110323647,
+          "y": 211.6839687643546,
+          "width": 83.4941696934798,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Prefetch and Prerender for Default Search Engines. https",
+          "page": 27,
+          "x": 118.36581620600047,
+          "y": 214.43729903536976,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "://www.chromium.org/developers/design-documents/omnibox-prefe",
+          "page": 27,
+          "x": 117.91932435624852,
+          "y": 217.19062930638492,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "tch-for-default-search-engines/. Zugriff: 15.09.2026.",
+          "page": 27,
+          "x": 118.31620600047248,
+          "y": 219.94395957740008,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://www.chromium.org/developers/design-documents/omnibox-prefetch-for-default-search-engines/",
+          "text": "https"
+        },
+        {
+          "href": "https://www.chromium.org/developers/design-documents/omnibox-prefetch-for-default-search-engines/",
+          "text": "://www.chromium.org/developers/design-documents/omnibox-prefe"
+        },
+        {
+          "href": "https://www.chromium.org/developers/design-documents/omnibox-prefetch-for-default-search-engines/",
+          "text": "tch-for-default-search-engines/"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 225.4506201194304,
+      "width": 83.49811008740846,
+      "height": 16.51998162609095,
+      "key": "vaneschWritingAcrossWorlds2019",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "van Esch, Daan; Sarbar, Elnaz; Lucassen, Tamar; O'Brien, Jere-",
+          "page": 27,
+          "x": 118.42369477911646,
+          "y": 225.4506201194304,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "my; Breiner, Theresa; Prasad, Manasa; Crew, Evan; Nguyen,",
+          "page": 27,
+          "x": 118.41956059532247,
+          "y": 228.20395039044556,
+          "width": 83.49720573470351,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Chieu; Beaufays, Françoise (2019). Writing across the World's",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 230.95728066146071,
+          "width": 83.49471876476494,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Languages: Deep Internationalization for Gboard, the Google",
+          "page": 27,
+          "x": 118.32034018426648,
+          "y": 233.71061093247587,
+          "width": 83.49436348334514,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Keyboard. arXiv:1912.01218. Google. DOI: 10.48550/arX-",
+          "page": 27,
+          "x": 118.38235294117646,
+          "y": 236.46394120349103,
+          "width": 83.4941696934798,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "iv.1912.01218.",
+          "page": 27,
+          "x": 118.35341365461848,
+          "y": 239.2172714745062,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.48550/arXiv.1912.01218",
+          "text": "10.48550/arX"
+        },
+        {
+          "href": "https://doi.org/10.48550/arXiv.1912.01218",
+          "text": "iv.1912.01218"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 244.7239320165365,
+      "width": 83.49811008740846,
+      "height": 11.013321084060633,
+      "key": "vonahnReCAPTCHA2008",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "von Ahn, Luis; Maurer, Benjamin; McMillen, Colin; Abraham,",
+          "page": 27,
+          "x": 118.42369477911646,
+          "y": 244.7239320165365,
+          "width": 83.49707654145996,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "David; Blum, Manuel (2008). reCAPTCHA: Human-based Charac-",
+          "page": 27,
+          "x": 118.37821875738247,
+          "y": 247.47726228755167,
+          "width": 83.49491255463029,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "ter Recognition via Web Security Measures. Science, 321 (5895),",
+          "page": 27,
+          "x": 118.31620600047248,
+          "y": 250.23059255856683,
+          "width": 83.49655976848571,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "S. 1465–1468. DOI: 10.1126/science.1160379.",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 252.98392282958199,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1126/science.1160379",
+          "text": "10.1126/science.1160379"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 258.49058337161233,
+      "width": 83.49811008740846,
+      "height": 5.506660542030317,
+      "key": "whatwgHTMLStandard2026",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "WHATWG (2026). HTML Standard. Stand: 18.08.2026. https://html",
+          "page": 27,
+          "x": 118.41129222773446,
+          "y": 258.49058337161233,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": ".spec.whatwg.org/multipage/. Zugriff: 19.08.2026.",
+          "page": 27,
+          "x": 117.91932435624852,
+          "y": 261.2439136426275,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://html.spec.whatwg.org/multipage/",
+          "text": "https://html"
+        },
+        {
+          "href": "https://html.spec.whatwg.org/multipage/",
+          "text": ".spec.whatwg.org/multipage/"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "x": 118.39888967635247,
+      "y": 266.7505741846578,
+      "width": 83.49811008740846,
+      "height": 13.766651355075792,
+      "key": "zamfirescu-pereiraWhyJohnnyCant2023",
+      "fontSize": "7.99805px",
+      "lineHeight": "10.4103px",
+      "lines": [
+        {
+          "text": "Zamfirescu-Pereira, J.D.; Wong, Richmond Y.; Hartmann, Bjoern;",
+          "page": 27,
+          "x": 118.30793763288447,
+          "y": 266.7505741846578,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Yang, Qian (2023). Why Johnny Can’t Prompt: How Non-AI Ex-",
+          "page": 27,
+          "x": 118.40302386014646,
+          "y": 269.50390445567297,
+          "width": 83.49720573470351,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "perts Try (and Fail) to Design LLM Prompts. In: Proceedings",
+          "page": 27,
+          "x": 118.41542641152847,
+          "y": 272.2572347266881,
+          "width": 83.49596224973423,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "of the 2023 CHI Conference on Human Factors in Computing",
+          "page": 27,
+          "x": 118.32034018426648,
+          "y": 275.0105649977033,
+          "width": 83.49615603959957,
+          "height": 2.7533302710151584
+        },
+        {
+          "text": "Systems, S. 1–21. ACM. DOI: 10.1145/3544548.3581388.",
+          "page": 27,
+          "x": 118.28726671391448,
+          "y": 277.76389526871844,
+          "width": 83.49811008740846,
+          "height": 2.7533302710151584
+        }
+      ],
+      "links": [
+        {
+          "href": "https://doi.org/10.1145/3544548.3581388",
+          "text": "10.1145/3544548.3581388"
+        }
+      ]
+    }
+  ],
+  "footers": [
+    {
+      "page": 27,
+      "x": 112.55315379163714,
+      "y": 284.5040767110703,
+      "width": 9.173753838884952,
+      "height": 4.497932935231971,
+      "text": "27",
+      "fontSize": "13.3333px"
+    }
+  ],
+  "all_entries_preserved": true,
+  "unique_cited_sources": 35
+}

@@ -48,7 +48,7 @@ def main():
                                  'phase':record.get('phase'), 'provider_message_id':record.get('message_id'),
                                  'text':record['text'], '_lines':lines, 'start_line':lines[0]['number'], 'end_line':lines[-1]['number']})
         else:
-            body=[l for l in payload['lines'] if l['number']>=7]
+            body=[l for l in payload['lines'] if not l.get('display_only') and l['number']>=7]
             messages.append({'id':archive['id']+'-attachment','archive_id':archive['id'],'sequence':None,
                              'role':'supplied_material','text':'\n'.join(l['text'] for l in body),'_lines':body,
                              'start_line':body[0]['number'],'end_line':body[-1]['number']})

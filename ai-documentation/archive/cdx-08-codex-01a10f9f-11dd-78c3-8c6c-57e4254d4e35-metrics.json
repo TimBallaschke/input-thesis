@@ -1,0 +1,86 @@
+{
+  "archive_hashes": {
+    "messages_sha256": "a7eafead47c8b2289c54ffae5f3152d0a0ba1777a82d8a08566802aa3016960c",
+    "transcript_sha256": "fdfb06f84fbb7d48b9fb8aa5d6a4f4788d2472e9e1025df63995919835b08432"
+  },
+  "archive_id": "CDX-08",
+  "exported_through_utc": "2026-10-08T07:18:48.969Z",
+  "interpretation_notes": [
+    "Token figures are platform-accounting values, not visible word counts.",
+    "Cached input tokens are included in input tokens, not added to them.",
+    "Reasoning output tokens are a subset of output tokens; only their count is retained.",
+    "Input accounting includes repeated context, system instructions, tool schemas and tool results.",
+    "Top-level exec records may orchestrate multiple semantic tool operations.",
+    "The figures do not by themselves establish monetary cost, energy use or carbon emissions.",
+    "Hidden reasoning content, system instructions and raw tool telemetry remain excluded.",
+    "When an archive spans multiple source segments, the cumulative token snapshot comes from the latest segment and may not include earlier segments."
+  ],
+  "metrics_schema_version": 1,
+  "runtime": {
+    "collaboration_mode": "default",
+    "effort": "xhigh",
+    "model": "gpt-6.1-sol",
+    "multi_agent_mode": null,
+    "timestamp": "2026-10-08T06:57:42.884Z",
+    "timezone": "Europe/Berlin"
+  },
+  "session": {
+    "cli_version": "0.159.2",
+    "elapsed_seconds": 180480.412,
+    "event_count": 3300,
+    "history_mode": "paginated",
+    "model_provider": "openai",
+    "originator": "Codex Desktop",
+    "source": "vscode",
+    "source_segment_count": 1,
+    "started_local": "2026-10-06T07:10:48.557+02:00",
+    "timestamp": "2026-10-06T05:10:48.557Z"
+  },
+  "source_filename": "rollout-2026-10-06T07-10-45-01a10f9f-11dd-78c3-8c6c-57e4254d4e35.jsonl",
+  "thread_id": "01a10f9f-11dd-78c3-8c6c-57e4254d4e35",
+  "token_accounting_snapshot": {
+    "cache_write_input_tokens": 0,
+    "cached_input_tokens": 53137792,
+    "input_tokens": 54772958,
+    "model_context_window": 258400,
+    "non_cached_input_tokens_calculated": 1635166,
+    "non_reasoning_output_tokens_calculated": 137579,
+    "output_tokens": 239019,
+    "reasoning_output_tokens_subset": 101440,
+    "timestamp_utc": "2026-10-08T07:17:35.633Z",
+    "total_tokens": 55011977
+  },
+  "top_level_tool_call_records": {
+    "by_name": {
+      "exec": 311,
+      "js": 72,
+      "request_user_input_async": 3
+    },
+    "total": 386
+  },
+  "visible_communication": {
+    "character_count_by_role": {
+      "assistant": 19035,
+      "user": 4521
+    },
+    "elapsed_seconds": 180284.023,
+    "ended_local": "2026-10-08T09:15:33.482+02:00",
+    "ended_utc": "2026-10-08T07:15:33.482Z",
+    "message_count": 94,
+    "message_count_by_phase": {
+      "commentary": 57,
+      "final_answer": 19,
+      "prompt": 18
+    },
+    "message_count_by_role": {
+      "assistant": 76,
+      "user": 18
+    },
+    "started_local": "2026-10-06T07:10:49.459+02:00",
+    "started_utc": "2026-10-06T05:10:49.459Z",
+    "word_count_by_role": {
+      "assistant": 2353,
+      "user": 671
+    }
+  }
+}

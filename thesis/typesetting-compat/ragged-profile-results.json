@@ -1,0 +1,111 @@
+{
+  "checked": "2026-10-07",
+  "scope": "main_thesis_html_including_annotations_and_bibliography",
+  "options": {
+    "mode": "ragged",
+    "language": "de-1996",
+    "opticalMargin": true,
+    "wordSpacing": [
+      0.9,
+      1.1
+    ],
+    "tracking": [
+      -0.01,
+      0.01
+    ],
+    "glyphScale": [
+      0.98,
+      1.02
+    ],
+    "maxHyphens": 3,
+    "hyphenMinPrefix": 2,
+    "hyphenMinSuffix": 2,
+    "ragged": {
+      "zone": "10%",
+      "topVariance": "1%",
+      "bottomVariance": "1%"
+    }
+  },
+  "targets": {
+    "long_width_percent": [
+      99,
+      100
+    ],
+    "short_width_percent": [
+      90,
+      91
+    ],
+    "phase": "alternating_long_short",
+    "variation": "original_reproducible_irregular_pattern_with_one_percent_variance",
+    "paragraph_endings": "natural"
+  },
+  "percentage_reference": "each_actual_column_width_resolved_to_px_before_plugin_call",
+  "regular_zone_percent": 10,
+  "wider_fallbacks": [
+    {
+      "kind": "manifest",
+      "id": "para-111",
+      "zone": "40px"
+    },
+    {
+      "kind": "sourceManifest",
+      "id": "sources-section-08",
+      "zone": "40px"
+    },
+    {
+      "kind": "aiManifest",
+      "id": "ai-notice-section-16",
+      "zone": "36px"
+    }
+  ],
+  "annotation_pagination": "continuous_line_flow",
+  "pages": 27,
+  "body_rows": 1704,
+  "source_rows": 99,
+  "ai_notice_rows": 230,
+  "bibliography_rows": 162,
+  "all_manuscript_text_and_89_source_links_preserved": true,
+  "all_ai_notice_and_bibliography_text_and_links_preserved": true,
+  "overflow": [],
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 0.0028547033833348223,
+    "sourceMaxErrorMm": 0.002465425649248232,
+    "annotationGridScope": "third_body_rows_with_two_thirds_leading"
+  },
+  "rendered_profile": {
+    "source": "frozen_source_CSS_verified_preserved_in_browser",
+    "pages": 29,
+    "bodyRows": 1715,
+    "glyphScale": [
+      0.98,
+      1.02
+    ],
+    "trackingEm": [
+      -0.010001950282791003,
+      0.010001950282791003
+    ],
+    "wordSpacingPx": [
+      0,
+      0
+    ]
+  },
+  "original_plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "representative_pages_visually_checked": [
+    5,
+    7,
+    26
+  ],
+  "pdf_exported": false,
+  "hyphenation_checked": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 182,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  }
+}

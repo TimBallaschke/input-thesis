@@ -1,0 +1,4 @@
+/* Global printed page numbers determine the binding side, including in the
+   lazy preview. Text composition and column widths are unchanged. */
+.sheet[data-page-side="verso"] .columns,
+.sheet[data-page-side="verso"] .page-number{left:8mm;right:30mm}

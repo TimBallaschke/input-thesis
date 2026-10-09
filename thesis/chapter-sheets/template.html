@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Input · Titel- und Kapitelblätter</title>
+  <link rel="stylesheet" href="chapter-sheets.css?v=20261008-ki">
+</head>
+<body>
+  <header class="preview-header">
+    <div>
+      <h1>Titel- und Kapitelblätter</h1>
+      <p>A6 · 105 × 148 mm · Arketa 10 pt</p>
+    </div>
+    <div class="print-actions">
+      <button type="button" onclick="document.body.classList.remove('print-title-pair'); window.print()">Vorderseiten drucken</button>
+      <button type="button" onclick="document.body.classList.add('print-title-pair'); window.print()">Titel beidseitig drucken</button>
+    </div>
+  </header>
+  <p class="preview-note">Die Farbe zeigt das Papier. Gedruckt wird nur der schwarze Text, ohne Lochmarkierungen. Im Druckdialog A6 und 100 % wählen, Kopf- und Fußzeilen ausschalten. Für den beidseitigen Titel an der langen Kante wenden.</p>
+  <main class="sheets" aria-label="Acht A6-Blätter mit Titelseiten-Rückseite">
+    <figure class="title-front-face">
+      <article class="sheet title-sheet" aria-labelledby="input-title">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-block">
+          <h2 class="sheet-title cover-title" id="input-title">Input</h2>
+        </div>
+        <div class="title-footer">
+          <p class="author">Tim Ballaschke</p>
+        </div>
+      </article>
+      <figcaption>01 · Titel · Vorderseite</figcaption>
+    </figure>
+    <figure class="title-back-face">
+      <article class="sheet reverse-sheet" aria-labelledby="registration-number">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-footer">
+          <p class="registration-number" id="registration-number">Matr.-Nr. 2455025</p>
+        </div>
+      </article>
+      <figcaption>01 · Titel · Rückseite</figcaption>
+    </figure>
+    <figure>
+      <article class="sheet" aria-labelledby="surface-title">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-block">
+          <h2 class="sheet-title" id="surface-title">Surface</h2>
+        </div>
+      </article>
+      <figcaption>02 · Surface</figcaption>
+    </figure>
+    <figure>
+      <article class="sheet" aria-labelledby="interaction-title">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-block">
+          <h2 class="sheet-title" id="interaction-title">Interaction</h2>
+        </div>
+      </article>
+      <figcaption>03 · Interaction</figcaption>
+    </figure>
+    <figure>
+      <article class="sheet" aria-labelledby="operation-title">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-block">
+          <h2 class="sheet-title" id="operation-title">Operation</h2>
+        </div>
+      </article>
+      <figcaption>04 · Operation</figcaption>
+    </figure>
+    <figure>
+      <article class="sheet" aria-labelledby="conclusion-title">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-block">
+          <h2 class="sheet-title" id="conclusion-title">Conclusion</h2>
+        </div>
+      </article>
+      <figcaption>05 · Conclusion</figcaption>
+    </figure>
+    <figure>
+      <article class="sheet" aria-labelledby="bibliography-title">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-block">
+          <h2 class="sheet-title" id="bibliography-title" lang="en">Bibliography</h2>
+        </div>
+      </article>
+      <figcaption>06 · Bibliography</figcaption>
+    </figure>
+    <figure>
+      <article class="sheet ai-documentation-sheet" aria-labelledby="ai-documentation-title">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+        <div class="title-block">
+          <h2 class="sheet-title" id="ai-documentation-title">KI-<br>Dokumentation</h2>
+        </div>
+      </article>
+      <figcaption>07 · KI-Dokumentation</figcaption>
+    </figure>
+    <figure>
+      <article class="sheet closing-sheet" aria-label="Leeres Schlussblatt; Rückseite wird später gestaltet">
+        <span class="hole hole-top" aria-hidden="true"></span>
+        <span class="hole hole-bottom" aria-hidden="true"></span>
+      </article>
+      <figcaption>08 · Schlussblatt · Rückseite folgt später</figcaption>
+    </figure>
+  </main>
+  <script>
+    window.addEventListener('afterprint', () => {
+      document.body.classList.remove('print-title-pair');
+    });
+  </script>
+</body>
+</html>

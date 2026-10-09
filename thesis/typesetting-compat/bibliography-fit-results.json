@@ -1,0 +1,103 @@
+{
+  "checked": "2026-10-07",
+  "scope": "bibliography_only",
+  "base_tracking_em": -0.015,
+  "base_tracking_indesign": -15,
+  "tracking_variation_indesign": 10,
+  "tracking_range_em": [
+    -0.025,
+    -0.004999999999999999
+  ],
+  "paragraph_endings": "natural_zero_tracking_and_unit_scale",
+  "short_fallback_rows": "natural_when_no_bounded_long_short_break_is_available",
+  "font_size_pt": 6,
+  "baseline_rows": 102,
+  "glyph_scale_range": [
+    0.98,
+    1.02
+  ],
+  "ragged_profile": {
+    "zone": "10%",
+    "topVariance": "1%",
+    "bottomVariance": "1%"
+  },
+  "bibliography_pages": [
+    27
+  ],
+  "entries": 36,
+  "bibliography_rows": 162,
+  "all_text_and_links_preserved": true,
+  "initial_line_text_comparison": {
+    "manifest": false,
+    "sourceManifest": true,
+    "aiManifest": true
+  },
+  "concurrent_body_tracking_settings": [
+    {
+      "paragraph_id": "para-021",
+      "text_sha256": "cbee924ad9820cd1160ff5290b4ef09309b83ce960b870b72f23fe170f9f18b2",
+      "base_tracking_em": -0.003,
+      "reason": "Keep the AI documentation and source references for Die Aufforderung zur Eingabe in the left column on page 6."
+    },
+    {
+      "paragraph_id": "para-074",
+      "text_sha256": "1c1046f457787408c7e5fa05ea878dc1649cbec308878a7f618af1c2ae980bc7",
+      "base_tracking_em": -0.002,
+      "reason": "Avoid the lone final syllable be. after Einga- at the current 10 pt body size; retain the relative ±0.01 em ragged tracking range."
+    }
+  ],
+  "concurrent_body_tracking_note": "Paragraph settings changed during this task and were retained; the current complete manuscript, links and grid pass the full audit.",
+  "total_pages": 27,
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 0.05787781350482691,
+    "aiMaxErrorMm": 0.03617822691777661,
+    "sourceMaxErrorMm": 0.031244832338074957,
+    "annotationGridScope": "independent_1_2_font_leading_with_body_grid_after_annotations"
+  },
+  "hyphenation": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 181,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "overflow": [],
+  "candidate_measurements": [
+    {
+      "trackingRangeInDesign": [
+        -25,
+        -5
+      ],
+      "rows": 162,
+      "failed": [],
+      "fallbacks": [
+        {
+          "id": "bib-brinPage1998Anatomy",
+          "zone": "40px"
+        },
+        {
+          "id": "bib-vaneschWritingAcrossWorlds2019",
+          "zone": "36px"
+        }
+      ],
+      "pages": 1,
+      "nonFinalWarnings": [
+        {
+          "text": "works and ISDN Systems, 30 (1–7), S. 107–117. DOI:",
+          "title": "Flatterabstand 15,2 mm – erlaubt sind maximal 10,6 mm mm."
+        }
+      ],
+      "actualTrackingInDesign": [
+        -25,
+        0
+      ]
+    }
+  ],
+  "original_plugin_sha256": "39afa960ba2c1d0cedde9295650845fdf2820cbc0d822543217b7fa62ec832c0",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "visually_checked": true,
+  "pdf_exported": false
+}

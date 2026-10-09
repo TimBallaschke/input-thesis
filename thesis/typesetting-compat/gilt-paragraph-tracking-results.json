@@ -1,0 +1,385 @@
+{
+  "checked": "2026-10-07",
+  "paragraph": "para-109",
+  "source_pages_sha256": "e38973bd9507bbff51c1e7bd81f20d80ecc50a929fd667cda666e606d7a60d59",
+  "base_tracking_em": -0.004,
+  "base_tracking_indesign": -4,
+  "relative_tracking_variation_indesign": 10,
+  "tracking_range_em": [
+    -0.014,
+    0.006
+  ],
+  "smallest_tested_negative_integer_base_reducing_row_count": true,
+  "trials": [
+    {
+      "units": 0,
+      "baseTrackingEm": 0,
+      "trackingRangeEm": [
+        -0.01,
+        0.01
+      ],
+      "raggedZone": "31.5578125px",
+      "rows": 18,
+      "lines": [
+        "Zwischen einer Eingabe und ih-",
+        "rem Ergebnis stehen damit nicht nur",
+        "technische Verfahren, sondern auch",
+        "Maßstäbe, anhand derer etwas aus-",
+        "geführt, akzeptiert, ausgewählt oder",
+        "als erwünscht behandelt wird. Die-",
+        "se Maßstäbe ergeben sich nicht allein",
+        "aus der Eingabe, sondern werden durch",
+        "technische Standards, die Gestaltung",
+        "und Implementierung eines Systems",
+        "sowie durch Entscheidungen seiner Ent-",
+        "wickler*innen und Betreiber*innen",
+        "mitbestimmt. In ihnen können sich da-",
+        "mit unterschiedliche Interessen,",
+        "Zielsetzungen und Vorstellungen dar-",
+        "über niederschlagen, welches Er-",
+        "gebnis als geeignet oder erwünscht",
+        "gilt."
+      ]
+    },
+    {
+      "units": -1,
+      "baseTrackingEm": -0.001,
+      "trackingRangeEm": [
+        -0.011,
+        0.009000000000000001
+      ],
+      "raggedZone": "31.5578125px",
+      "rows": 18,
+      "lines": [
+        "Zwischen einer Eingabe und ih-",
+        "rem Ergebnis stehen damit nicht nur",
+        "technische Verfahren, sondern auch",
+        "Maßstäbe, anhand derer etwas aus-",
+        "geführt, akzeptiert, ausgewählt oder",
+        "als erwünscht behandelt wird. Die-",
+        "se Maßstäbe ergeben sich nicht al-",
+        "lein aus der Eingabe, sondern wer-",
+        "den durch technische Standards, die",
+        "Gestaltung und Implementierung ei-",
+        "nes Systems sowie durch Entscheidun-",
+        "gen seiner Entwickler*innen und Be-",
+        "treiber*innen mitbestimmt. In ihnen",
+        "können sich damit unterschiedliche",
+        "Interessen, Zielsetzungen und Vor-",
+        "stellungen darüber niederschlagen,",
+        "welches Ergebnis als geeignet oder",
+        "erwünscht gilt."
+      ]
+    },
+    {
+      "units": -2,
+      "baseTrackingEm": -0.002,
+      "trackingRangeEm": [
+        -0.012,
+        0.008
+      ],
+      "raggedZone": "31.5578125px",
+      "rows": 18,
+      "lines": [
+        "Zwischen einer Eingabe und ihrem",
+        "Ergebnis stehen damit nicht nur tech-",
+        "nische Verfahren, sondern auch Maßstä-",
+        "be, anhand derer etwas ausgeführt,",
+        "akzeptiert, ausgewählt oder als er-",
+        "wünscht behandelt wird. Diese Maß-",
+        "stäbe ergeben sich nicht allein aus",
+        "der Eingabe, sondern werden durch",
+        "technische Standards, die Gestaltung",
+        "und Implementierung eines Systems",
+        "sowie durch Entscheidungen seiner Ent-",
+        "wickler*innen und Betreiber*innen",
+        "mitbestimmt. In ihnen können sich",
+        "damit unterschiedliche Interessen,",
+        "Zielsetzungen und Vorstellungen dar-",
+        "über niederschlagen, welches Er-",
+        "gebnis als geeignet oder erwünscht",
+        "gilt."
+      ]
+    },
+    {
+      "units": -3,
+      "baseTrackingEm": -0.003,
+      "trackingRangeEm": [
+        -0.013000000000000001,
+        0.007
+      ],
+      "raggedZone": "31.5578125px",
+      "rows": 18,
+      "lines": [
+        "Zwischen einer Eingabe und ih-",
+        "rem Ergebnis stehen damit nicht nur",
+        "technische Verfahren, sondern auch",
+        "Maßstäbe, anhand derer etwas aus-",
+        "geführt, akzeptiert, ausgewählt oder",
+        "als erwünscht behandelt wird. Diese",
+        "Maßstäbe ergeben sich nicht allein aus",
+        "der Eingabe, sondern werden durch",
+        "technische Standards, die Gestaltung",
+        "und Implementierung eines Systems",
+        "sowie durch Entscheidungen seiner Ent-",
+        "wickler*innen und Betreiber*innen",
+        "mitbestimmt. In ihnen können sich",
+        "damit unterschiedliche Interessen,",
+        "Zielsetzungen und Vorstellungen dar-",
+        "über niederschlagen, welches Er-",
+        "gebnis als geeignet oder erwünscht",
+        "gilt."
+      ]
+    },
+    {
+      "units": -4,
+      "baseTrackingEm": -0.004,
+      "trackingRangeEm": [
+        -0.014,
+        0.006
+      ],
+      "raggedZone": "31.5578125px",
+      "rows": 17,
+      "lines": [
+        "Zwischen einer Eingabe und ih-",
+        "rem Ergebnis stehen damit nicht nur",
+        "technische Verfahren, sondern auch",
+        "Maßstäbe, anhand derer etwas aus-",
+        "geführt, akzeptiert, ausgewählt oder",
+        "als erwünscht behandelt wird. Diese",
+        "Maßstäbe ergeben sich nicht allein aus",
+        "der Eingabe, sondern werden durch",
+        "technische Standards, die Gestaltung",
+        "und Implementierung eines Systems",
+        "sowie durch Entscheidungen seiner Ent-",
+        "wickler*innen und Betreiber*innen",
+        "mitbestimmt. In ihnen können sich",
+        "damit unterschiedliche Interessen,",
+        "Zielsetzungen und Vorstellungen dar-",
+        "über niederschlagen, welches Ergebnis",
+        "als geeignet oder erwünscht gilt."
+      ]
+    }
+  ],
+  "rows_before": 18,
+  "rows_after": 17,
+  "closing_rows_before": [
+    "über niederschlagen, welches Er-",
+    "gebnis als geeignet oder erwünscht",
+    "gilt."
+  ],
+  "closing_rows_after": [
+    "Zielsetzungen und Vorstellungen dar-",
+    "über niederschlagen, welches Ergebnis",
+    "als geeignet oder erwünscht gilt."
+  ],
+  "changed_paragraphs": [
+    "para-109"
+  ],
+  "all_other_body_paragraph_breaks_preserved": true,
+  "annotation_and_bibliography_lines_preserved": {
+    "sourceManifest": true,
+    "aiManifest": true,
+    "bibliographyManifest": true
+  },
+  "paragraph_text_preserved": true,
+  "glyph_scale_range": [
+    0.98,
+    1.02
+  ],
+  "body_font_pt": 10,
+  "body_leading_pt": 13.500600560523155,
+  "geometry": [
+    {
+      "page": 20,
+      "column": 2,
+      "x": 127.86993083180364,
+      "y": 255.62061309814453,
+      "width": 74.12898884428229,
+      "height": 4.762504577636719,
+      "id": "body-line-1427",
+      "text": "Zwischen einer Eingabe und ih-"
+    },
+    {
+      "page": 20,
+      "column": 2,
+      "x": 118.4100012359638,
+      "y": 260.38311767578125,
+      "width": 83.5000663758337,
+      "height": 4.762504577636719,
+      "id": "body-line-1428",
+      "text": "rem Ergebnis stehen damit nicht nur"
+    },
+    {
+      "page": 20,
+      "column": 2,
+      "x": 118.35163627874188,
+      "y": 265.14562225341797,
+      "width": 83.49965438790038,
+      "height": 4.762504577636719,
+      "id": "body-line-1429",
+      "text": "technische Verfahren, sondern auch"
+    },
+    {
+      "page": 20,
+      "column": 2,
+      "x": 118.50407181407442,
+      "y": 269.9081268310547,
+      "width": 83.4999290465226,
+      "height": 4.762504577636719,
+      "id": "body-line-1430",
+      "text": "Maßstäbe, anhand derer etwas aus-"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.851978524297493,
+      "y": 7.970572471618652,
+      "width": 83.49984632186087,
+      "height": 4.762504577636719,
+      "id": "body-line-1431",
+      "text": "geführt, akzeptiert, ausgewählt oder"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.79045495268675,
+      "y": 12.733077049255371,
+      "width": 83.49984632186087,
+      "height": 4.762495994567871,
+      "id": "body-line-1432",
+      "text": "als erwünscht behandelt wird. Diese"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 30.00386484171152,
+      "y": 17.495573043823242,
+      "width": 83.49984632186087,
+      "height": 4.762504577636719,
+      "id": "body-line-1433",
+      "text": "Maßstäbe ergeben sich nicht allein aus"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.860218288352506,
+      "y": 22.25807762145996,
+      "width": 83.49957166305904,
+      "height": 4.762500286102295,
+      "id": "body-line-1434",
+      "text": "der Eingabe, sondern werden durch"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.85252784190116,
+      "y": 27.020577907562256,
+      "width": 83.49970899245996,
+      "height": 4.762500286102295,
+      "id": "body-line-1435",
+      "text": "technische Standards, die Gestaltung"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.99040656042167,
+      "y": 31.78307819366455,
+      "width": 83.49970899245996,
+      "height": 4.762495994567871,
+      "id": "body-line-1436",
+      "text": "und Implementierung eines Systems"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.659168045410254,
+      "y": 36.54557418823242,
+      "width": 83.50025831006363,
+      "height": 4.762504577636719,
+      "id": "body-line-1437",
+      "text": "sowie durch Entscheidungen seiner Ent-"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 30.032292027701303,
+      "y": 41.30807876586914,
+      "width": 83.49970899245996,
+      "height": 4.762504577636719,
+      "id": "body-line-1438",
+      "text": "wickler*innen und Betreiber*innen"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 30.03284134530497,
+      "y": 46.07058334350586,
+      "width": 83.4999836512618,
+      "height": 4.762495994567871,
+      "id": "body-line-1439",
+      "text": "mitbestimmt. In ihnen können sich"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.860767605956173,
+      "y": 50.83307933807373,
+      "width": 83.49943433365813,
+      "height": 4.762495994567871,
+      "id": "body-line-1440",
+      "text": "damit unterschiedliche Interessen,"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.841678819228733,
+      "y": 55.5955753326416,
+      "width": 83.49984632186087,
+      "height": 4.762504577636719,
+      "id": "body-line-1441",
+      "text": "Zielsetzungen und Vorstellungen dar-"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.99040656042167,
+      "y": 60.35807991027832,
+      "width": 83.49929700425722,
+      "height": 4.762504577636719,
+      "id": "body-line-1442",
+      "text": "über niederschlagen, welches Ergebnis"
+    },
+    {
+      "page": 21,
+      "column": 1,
+      "x": 29.789493646880334,
+      "y": 65.12058448791504,
+      "width": 83.4999836512618,
+      "height": 4.762504577636719,
+      "id": "body-line-1443",
+      "text": "als geeignet oder erwünscht gilt."
+    }
+  ],
+  "counts": {
+    "manifest": 1708,
+    "sourceManifest": 99,
+    "aiManifest": 230,
+    "bibliographyManifest": 162
+  },
+  "pages": 27,
+  "bibliography_pages": [
+    27
+  ],
+  "bibliography_entries": 36,
+  "checks": {
+    "browser": true,
+    "source_outlines": true,
+    "bibliography": true,
+    "hyphen_limit": 3,
+    "overflow": [],
+    "missing_links": []
+  },
+  "proof_image": "output/thesis-web/qa/gilt-paragraph-whole-ending.png",
+  "pdf_exported": false
+}

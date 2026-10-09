@@ -1,0 +1,57 @@
+AI COLLABORATION TECHNICAL METADATA
+Master's thesis: Input
+Archive ID: CDX-09
+Codex task ID: 01a10f94-09bf-7153-85d0-13cae775fd98
+Metrics schema: 1
+
+SESSION AND RUNTIME
+Session start UTC: 2026-10-06T04:58:45.249Z
+Session start local: 2026-10-06T06:58:45.249+02:00
+Exported through UTC: 2026-10-08T05:32:32.333Z
+Session elapsed: 48:33:47
+Originator: Codex Desktop
+Codex version: 0.159.2
+Model provider: openai
+Model: gpt-6.1-sol
+Reasoning effort: medium
+Timezone: Europe/Berlin
+
+VISIBLE COMMUNICATION
+Start UTC: 2026-10-06T04:58:46.506Z
+End UTC: 2026-10-08T05:31:47.932Z
+Start local: 2026-10-06T06:58:46.506+02:00
+End local: 2026-10-08T07:31:47.932+02:00
+Elapsed span: 48:33:01
+Messages: 136
+User messages: 39
+Assistant messages: 97
+User visible words: 1,055
+Assistant visible words: 2,782
+
+CUMULATIVE TOKEN ACCOUNTING SNAPSHOT
+Snapshot UTC: 2026-10-08T05:32:09.507Z
+Input tokens: 39,817,465
+  Cached input subset: 38,256,384
+  Non-cached input, calculated: 1,561,081
+Output tokens: 185,291
+  Reasoning output subset: 78,235
+  Non-reasoning output, calculated: 107,056
+Total tokens: 40,002,756
+Model context window: 258,400
+
+TOP-LEVEL TOOL CALL RECORDS
+Total: 273
+  exec: 158
+  js: 105
+  request_user_input_async: 5
+  untrusted_input: 5
+
+INTERPRETATION NOTES
+- Token figures are platform-accounting values, not visible word counts.
+- Cached input tokens are included in input tokens, not added to them.
+- Reasoning output tokens are a subset of output tokens; only their count is retained.
+- Input accounting includes repeated context, system instructions, tool schemas and tool results.
+- Top-level exec records may orchestrate multiple semantic tool operations.
+- The figures do not by themselves establish monetary cost, energy use or carbon emissions.
+- Hidden reasoning content, system instructions and raw tool telemetry remain excluded.
+- When an archive spans multiple source segments, the cumulative token snapshot comes from the latest segment and may not include earlier segments.

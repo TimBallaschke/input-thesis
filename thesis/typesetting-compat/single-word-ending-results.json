@@ -1,0 +1,1216 @@
+{
+  "checked": "2026-10-08",
+  "scope": "five_single_word_paragraph_endings_on_screenshot_pages_20_22_25",
+  "preference": "wider_local_tracking_with_same_row_count",
+  "paragraphs": [
+    {
+      "id": "para-102",
+      "page": 20,
+      "column": 1,
+      "base_tracking_em": 0.017,
+      "relative_tracking_variation_indesign": 10,
+      "tracking_range_em": [
+        0.007000000000000001,
+        0.027000000000000003
+      ],
+      "rows_before": 9,
+      "rows_after": 9,
+      "previous_final_row": "unterscheiden[71].",
+      "printed_final_row": "zu unterscheiden[71].",
+      "minimum_closing_whole_words": 0,
+      "smallest_tested_positive_integer_base_for_extra_text_at_same_row_count": true,
+      "trials": [
+        {
+          "units": 0,
+          "base": 0,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 1,
+          "base": 0.001,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 2,
+          "base": 0.002,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 3,
+          "base": 0.003,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 4,
+          "base": 0.004,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 5,
+          "base": 0.005,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 6,
+          "base": 0.006,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 7,
+          "base": 0.007,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 8,
+          "base": 0.008,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 9,
+          "base": 0.009,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 10,
+          "base": 0.01,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 11,
+          "base": 0.011,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 12,
+          "base": 0.012,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 13,
+          "base": 0.013,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 14,
+          "base": 0.014,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 15,
+          "base": 0.015,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 16,
+          "base": 0.016,
+          "rows": 9,
+          "last": "unterscheiden.",
+          "previous": "wort sind deshalb voneinander zu",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "unterscheiden"
+          ]
+        },
+        {
+          "units": 17,
+          "base": 0.017,
+          "rows": 9,
+          "last": "zu unterscheiden.",
+          "previous": "Antwort sind deshalb voneinander",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "zu",
+            "unterscheiden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "para-105",
+      "page": 20,
+      "column": 1,
+      "base_tracking_em": 0.006,
+      "relative_tracking_variation_indesign": 10,
+      "tracking_range_em": [
+        -0.004,
+        0.016
+      ],
+      "rows_before": 16,
+      "rows_after": 16,
+      "previous_final_row": "werden.",
+      "printed_final_row": "vorzugt werden.",
+      "minimum_closing_whole_words": 0,
+      "smallest_tested_positive_integer_base_for_extra_text_at_same_row_count": true,
+      "trials": [
+        {
+          "units": 0,
+          "base": 0,
+          "rows": 16,
+          "last": "werden.",
+          "previous": "welchen Kriterien Antworten bevorzugt",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden"
+          ]
+        },
+        {
+          "units": 1,
+          "base": 0.001,
+          "rows": 16,
+          "last": "werden.",
+          "previous": "welchen Kriterien Antworten bevorzugt",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden"
+          ]
+        },
+        {
+          "units": 2,
+          "base": 0.002,
+          "rows": 16,
+          "last": "werden.",
+          "previous": "welchen Kriterien Antworten bevorzugt",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden"
+          ]
+        },
+        {
+          "units": 3,
+          "base": 0.003,
+          "rows": 16,
+          "last": "werden.",
+          "previous": "welchen Kriterien Antworten bevorzugt",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden"
+          ]
+        },
+        {
+          "units": 4,
+          "base": 0.004,
+          "rows": 16,
+          "last": "werden.",
+          "previous": "welchen Kriterien Antworten bevorzugt",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden"
+          ]
+        },
+        {
+          "units": 5,
+          "base": 0.005,
+          "rows": 16,
+          "last": "werden.",
+          "previous": "welchen Kriterien Antworten bevorzugt",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden"
+          ]
+        },
+        {
+          "units": 6,
+          "base": 0.006,
+          "rows": 16,
+          "last": "vorzugt werden.",
+          "previous": "nach welchen Kriterien Antworten be-",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "para-107",
+      "page": 20,
+      "column": 2,
+      "base_tracking_em": 0.013,
+      "relative_tracking_variation_indesign": 10,
+      "tracking_range_em": [
+        0.002999999999999999,
+        0.023
+      ],
+      "rows_before": 20,
+      "rows_after": 20,
+      "previous_final_row": "ausfiel[76].",
+      "printed_final_row": "terschiedlich ausfiel[76].",
+      "minimum_closing_whole_words": 0,
+      "smallest_tested_positive_integer_base_for_extra_text_at_same_row_count": true,
+      "trials": [
+        {
+          "units": 0,
+          "base": 0,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 1,
+          "base": 0.001,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 2,
+          "base": 0.002,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 3,
+          "base": 0.003,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 4,
+          "base": 0.004,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 5,
+          "base": 0.005,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 6,
+          "base": 0.006,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 7,
+          "base": 0.007,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 8,
+          "base": 0.008,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 9,
+          "base": 0.009,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 10,
+          "base": 0.01,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 11,
+          "base": 0.011,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 12,
+          "base": 0.012,
+          "rows": 20,
+          "last": "ausfiel.",
+          "previous": "gie und Themenbereich unterschiedlich",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        },
+        {
+          "units": 13,
+          "base": 0.013,
+          "rows": 20,
+          "last": "terschiedlich ausfiel.",
+          "previous": "nach Strategie und Themenbereich un-",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "ausfiel"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "para-117",
+      "page": 22,
+      "column": 1,
+      "base_tracking_em": 0.011,
+      "relative_tracking_variation_indesign": 10,
+      "tracking_range_em": [
+        0.0009999999999999992,
+        0.020999999999999998
+      ],
+      "rows_before": 17,
+      "rows_after": 17,
+      "previous_final_row": "können.",
+      "printed_final_row": "werden können.",
+      "minimum_closing_whole_words": 1,
+      "smallest_tested_positive_integer_base_for_extra_text_at_same_row_count": true,
+      "trials": [
+        {
+          "units": 0,
+          "base": 0,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 1,
+          "base": 0.001,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 2,
+          "base": 0.002,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 3,
+          "base": 0.003,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 4,
+          "base": 0.004,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 5,
+          "base": 0.005,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 6,
+          "base": 0.006,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 7,
+          "base": 0.007,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 8,
+          "base": 0.008,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 9,
+          "base": 0.009,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 10,
+          "base": 0.01,
+          "rows": 17,
+          "last": "können.",
+          "previous": "noch technisch erschlossen werden",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "können"
+          ]
+        },
+        {
+          "units": 11,
+          "base": 0.011,
+          "rows": 17,
+          "last": "werden können.",
+          "previous": "und dennoch technisch erschlossen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "werden",
+            "können"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "para-127",
+      "page": 25,
+      "column": 1,
+      "base_tracking_em": 0.036,
+      "relative_tracking_variation_indesign": 10,
+      "tracking_range_em": [
+        0.025999999999999995,
+        0.046
+      ],
+      "rows_before": 6,
+      "rows_after": 6,
+      "previous_final_row": "verfügt.",
+      "printed_final_row": "gungen verfügt.",
+      "minimum_closing_whole_words": 0,
+      "smallest_tested_positive_integer_base_for_extra_text_at_same_row_count": true,
+      "trials": [
+        {
+          "units": 0,
+          "base": 0,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 1,
+          "base": 0.001,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 2,
+          "base": 0.002,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 3,
+          "base": 0.003,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 4,
+          "base": 0.004,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 5,
+          "base": 0.005,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 6,
+          "base": 0.006,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 7,
+          "base": 0.007,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 8,
+          "base": 0.008,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 9,
+          "base": 0.009,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 10,
+          "base": 0.01,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 11,
+          "base": 0.011,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 12,
+          "base": 0.012,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 13,
+          "base": 0.013,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 14,
+          "base": 0.014,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 15,
+          "base": 0.015,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 16,
+          "base": 0.016,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 17,
+          "base": 0.017,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 18,
+          "base": 0.018,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 19,
+          "base": 0.019,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 20,
+          "base": 0.02,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 21,
+          "base": 0.021,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 22,
+          "base": 0.022,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 23,
+          "base": 0.023,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 24,
+          "base": 0.024,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 25,
+          "base": 0.025,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 26,
+          "base": 0.026,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 27,
+          "base": 0.027,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 28,
+          "base": 0.028,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 29,
+          "base": 0.029,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 30,
+          "base": 0.03,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 31,
+          "base": 0.031,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 32,
+          "base": 0.032,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 33,
+          "base": 0.033,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 34,
+          "base": 0.034,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 35,
+          "base": 0.035,
+          "rows": 6,
+          "last": "verfügt.",
+          "previous": "wird und wer über diese Bedingungen",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        },
+        {
+          "units": 36,
+          "base": 0.036,
+          "rows": 6,
+          "last": "gungen verfügt.",
+          "previous": "sam wird und wer über diese Bedin-",
+          "zone": "31.5578125px",
+          "valid": true,
+          "wholeWords": [
+            "verfügt"
+          ]
+        }
+      ]
+    }
+  ],
+  "all_manuscript_text_preserved": true,
+  "all_other_body_line_breaks_preserved": true,
+  "all_paragraph_row_counts_preserved": true,
+  "source_ai_bibliography_composition_exact": true,
+  "pages": 27,
+  "body_rows": 1700,
+  "source_rows": 99,
+  "ai_rows": 230,
+  "bibliography_rows": 162,
+  "all_four_audits_pass": true,
+  "all_89_source_links_preserved": true,
+  "ai_reference_audit": {
+    "checked": "2026-10-08T06:18:38.779Z",
+    "sections": 15,
+    "ranges": 343,
+    "checked_endpoints": 686,
+    "documentation_pages_loaded": 211,
+    "edition_sha256": "a5376ce4cbd2f3deeba4151e83f97cbb0bf533d99b6d0f37f1e2b57a537d8c1a",
+    "all_printed_labels_match": true,
+    "all_visible_endpoints_match": true,
+    "clicked_example": {
+      "label": "Seite 5, Zeilen 917–928",
+      "page": 5,
+      "line": 917
+    },
+    "proof": "output/thesis-web/qa/ai-reference-target-page-05.png"
+  },
+  "grid": {
+    "toleranceMm": 0.15,
+    "bodyStepMm": 4.7625172255397334,
+    "bodyMaxErrorMm": 3.383972018539604e-14,
+    "aiMaxErrorMm": 0.0028547033833348223,
+    "sourceMaxErrorMm": 0.002465425649248232,
+    "annotationGridScope": "third_body_rows_with_two_thirds_leading"
+  },
+  "hyphenation": {
+    "limit": 3,
+    "paragraphs": 163,
+    "maxConsecutiveLineEndingHyphens": 3,
+    "pairs": 182,
+    "violations": [],
+    "includesLiteralCompoundHyphens": true
+  },
+  "original_pages_unchanged": true,
+  "original_plugin_unchanged": true,
+  "visually_checked_pages": [
+    20,
+    22,
+    25
+  ],
+  "proofs": [
+    "output/thesis-web/qa/single-word-endings-page-20.png",
+    "output/thesis-web/qa/single-word-endings-page-22.png",
+    "output/thesis-web/qa/single-word-endings-page-25.png"
+  ],
+  "pdf_exported": false
+}

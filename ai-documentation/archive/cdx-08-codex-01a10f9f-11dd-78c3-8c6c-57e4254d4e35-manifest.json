@@ -1,0 +1,11 @@
+{
+  "archive_id": "CDX-08",
+  "exported_through_utc": "2026-10-08T07:18:48.969Z",
+  "message_count": 94,
+  "messages_sha256": "a7eafead47c8b2289c54ffae5f3152d0a0ba1777a82d8a08566802aa3016960c",
+  "metrics_json_sha256": "22779000e3784af561e8c49c6ab6acca8b1e0cef91db3c290545af2ab3fa0dcf",
+  "metrics_text_sha256": "ea69e1c0654f63f7a892586786820c1d5245647cf99217c4c4e89b86a56ff1fd",
+  "source_filename": "rollout-2026-10-06T07-10-45-01a10f9f-11dd-78c3-8c6c-57e4254d4e35.jsonl",
+  "thread_id": "01a10f9f-11dd-78c3-8c6c-57e4254d4e35",
+  "transcript_sha256": "fdfb06f84fbb7d48b9fb8aa5d6a4f4788d2472e9e1025df63995919835b08432"
+}

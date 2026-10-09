@@ -1,0 +1,56 @@
+AI COLLABORATION TECHNICAL METADATA
+Master's thesis: Input
+Archive ID: CDX-08
+Codex task ID: 01a10f9f-11dd-78c3-8c6c-57e4254d4e35
+Metrics schema: 1
+
+SESSION AND RUNTIME
+Session start UTC: 2026-10-06T05:10:48.557Z
+Session start local: 2026-10-06T07:10:48.557+02:00
+Exported through UTC: 2026-10-08T07:18:48.969Z
+Session elapsed: 50:08:00
+Originator: Codex Desktop
+Codex version: 0.159.2
+Model provider: openai
+Model: gpt-6.1-sol
+Reasoning effort: xhigh
+Timezone: Europe/Berlin
+
+VISIBLE COMMUNICATION
+Start UTC: 2026-10-06T05:10:49.459Z
+End UTC: 2026-10-08T07:15:33.482Z
+Start local: 2026-10-06T07:10:49.459+02:00
+End local: 2026-10-08T09:15:33.482+02:00
+Elapsed span: 50:04:44
+Messages: 94
+User messages: 18
+Assistant messages: 76
+User visible words: 671
+Assistant visible words: 2,353
+
+CUMULATIVE TOKEN ACCOUNTING SNAPSHOT
+Snapshot UTC: 2026-10-08T07:17:35.633Z
+Input tokens: 54,772,958
+  Cached input subset: 53,137,792
+  Non-cached input, calculated: 1,635,166
+Output tokens: 239,019
+  Reasoning output subset: 101,440
+  Non-reasoning output, calculated: 137,579
+Total tokens: 55,011,977
+Model context window: 258,400
+
+TOP-LEVEL TOOL CALL RECORDS
+Total: 386
+  exec: 311
+  js: 72
+  request_user_input_async: 3
+
+INTERPRETATION NOTES
+- Token figures are platform-accounting values, not visible word counts.
+- Cached input tokens are included in input tokens, not added to them.
+- Reasoning output tokens are a subset of output tokens; only their count is retained.
+- Input accounting includes repeated context, system instructions, tool schemas and tool results.
+- Top-level exec records may orchestrate multiple semantic tool operations.
+- The figures do not by themselves establish monetary cost, energy use or carbon emissions.
+- Hidden reasoning content, system instructions and raw tool telemetry remain excluded.
+- When an archive spans multiple source segments, the cumulative token snapshot comes from the latest segment and may not include earlier segments.

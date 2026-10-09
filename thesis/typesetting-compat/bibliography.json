@@ -1,0 +1,849 @@
+{
+  "title": "Bibliography",
+  "cited_keys": [
+    "aggarwalGEOGenerativeEngine2024",
+    "akrichDeScriptionTechnical1992",
+    "arnoldPredictiveTextEncourages2020",
+    "brinPage1998Anatomy",
+    "chenEffectsAnthropomorphicDesign2024",
+    "chromiumOmniboxPrefetchSnapshot2026",
+    "feitHowWeType2016",
+    "ftc2023BetterHelpComplaint",
+    "galbraithHiddenPlainSight2025",
+    "gillespie2014RelevanceAlgorithms",
+    "googleRefineSearches",
+    "googleSearchTestingSnapshot2026",
+    "googleSearchWorks2025",
+    "hearstSearchUserInterfaces2009",
+    "ieeeOpenGroupMkdir2024",
+    "koeneckeRacialDisparitiesAutomated2020",
+    "luguriShiningLightDark2021",
+    "mackenzieTextEntryMobile2002",
+    "normanSignifiersNotAffordances2008",
+    "openaiDataControlsSnapshot2026",
+    "openaiTextGenerationSnapshot2026",
+    "oulasvirtaImprovingTwoThumb2013",
+    "ouyangEtAl2022Instructions",
+    "quinnCostBenefitStudy2016",
+    "radfordEtAl2019LanguageModels",
+    "ruanComparingSpeechKeyboard2017",
+    "secklerDesigningUsableWeb2014",
+    "sharmaUnderstandingSycophancyLanguage2024",
+    "shneidermanDirectManipulationStep1983",
+    "staabEtAl2024PrivacyInference",
+    "subramonyamBridgingGulfEnvisioning2024",
+    "vaneschWritingAcrossWorlds2019",
+    "vonahnReCAPTCHA2008",
+    "whatwgHTMLStandard2026",
+    "zamfirescu-pereiraWhyJohnnyCant2023"
+  ],
+  "entries": [
+    {
+      "key": "aggarwalGEOGenerativeEngine2024",
+      "author": "Aggarwal, Pranjal; Murahari, Vishvak; Rajpurohit, Tanmay; Kalyan, Ashwin; Narasimhan, Karthik; Deshpande, Ameet",
+      "year": "2024",
+      "html": "Aggarwal, Pranjal; Murahari, Vishvak; Rajpurohit, Tanmay; Kalyan, Ashwin; Narasimhan, Karthik; Deshpande, Ameet (2024). GEO: Generative Engine Optimization. In: Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, S. 5–16. Association for Computing Machinery. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/3637528.3671900\">10.1145/3637528.3671900</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "{{GEO}}: {{Generative}} Engine Optimization",
+          "booktitle": "Proceedings of the 30th {{ACM SIGKDD}} Conference on Knowledge Discovery and Data Mining",
+          "author": "Aggarwal, Pranjal and Murahari, Vishvak and Rajpurohit, Tanmay and Kalyan, Ashwin and Narasimhan, Karthik and Deshpande, Ameet",
+          "date": "2024",
+          "series": "Kdd '24",
+          "pages": "5--16",
+          "publisher": "Association for Computing Machinery",
+          "doi": "10.1145/3637528.3671900",
+          "url": "https://doi.org/10.1145/3637528.3671900"
+        }
+      },
+      "id": "bib-aggarwalGEOGenerativeEngine2024",
+      "text": "Aggarwal, Pranjal; Murahari, Vishvak; Rajpurohit, Tanmay; Kalyan, Ashwin; Narasimhan, Karthik; Deshpande, Ameet (2024). GEO: Generative Engine Optimization. In: Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining, S. 5–16. Association for Computing Machinery. DOI: 10.1145/3637528.3671900."
+    },
+    {
+      "key": "akrichDeScriptionTechnical1992",
+      "author": "Akrich, Madeleine",
+      "year": "1992",
+      "html": "Akrich, Madeleine (1992). The De-Scription of Technical Objects. In: Bijker, Wiebe E.; Law, John (Hg.), Shaping Technology/Building Society: Studies in Sociotechnical Change, S. 205–224. Cambridge, MA: MIT Press.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "incollection",
+        "fields": {
+          "title": "The De-Scription of Technical Objects",
+          "booktitle": "Shaping Technology/Building Society: {{Studies}} in Sociotechnical Change",
+          "author": "Akrich, Madeleine",
+          "editor": "Bijker, Wiebe E. and Law, John",
+          "translator": "Bowker, Geoffrey C.",
+          "date": "1992",
+          "pages": "205--224",
+          "publisher": "MIT Press",
+          "location": "Cambridge, MA"
+        }
+      },
+      "id": "bib-akrichDeScriptionTechnical1992",
+      "text": "Akrich, Madeleine (1992). The De-Scription of Technical Objects. In: Bijker, Wiebe E.; Law, John (Hg.), Shaping Technology/Building Society: Studies in Sociotechnical Change, S. 205–224. Cambridge, MA: MIT Press."
+    },
+    {
+      "key": "arnoldPredictiveTextEncourages2020",
+      "author": "Arnold, Kenneth C.; Chauncey, Krysta; Gajos, Krzysztof Z.",
+      "year": "2020",
+      "html": "Arnold, Kenneth C.; Chauncey, Krysta; Gajos, Krzysztof Z. (2020). Predictive Text Encourages Predictable Writing. In: Proceedings of the 25th International Conference on Intelligent User Interfaces, S. 128–138. Association for Computing Machinery. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/3377325.3377523\">10.1145/3377325.3377523</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "Predictive Text Encourages Predictable Writing",
+          "booktitle": "Proceedings of the 25th International Conference on Intelligent User Interfaces",
+          "author": "Arnold, Kenneth C. and Chauncey, Krysta and Gajos, Krzysztof Z.",
+          "date": "2020",
+          "series": "Iui '20",
+          "pages": "128--138",
+          "publisher": "Association for Computing Machinery",
+          "doi": "10.1145/3377325.3377523",
+          "url": "https://www.eecs.harvard.edu/~kgajos/papers/2020/arnold20predictcive.shtml"
+        }
+      },
+      "id": "bib-arnoldPredictiveTextEncourages2020",
+      "text": "Arnold, Kenneth C.; Chauncey, Krysta; Gajos, Krzysztof Z. (2020). Predictive Text Encourages Predictable Writing. In: Proceedings of the 25th International Conference on Intelligent User Interfaces, S. 128–138. Association for Computing Machinery. DOI: 10.1145/3377325.3377523."
+    },
+    {
+      "key": "aiCollaborationDocumentation2026",
+      "author": "Ballaschke, Tim",
+      "year": "2026",
+      "html": "Ballaschke, Tim (2026). <a class=\"bibliography-link\" href=\"ai-documentation/preview.html\">Input: KI-Dokumentation</a>. Begleitdokumentation mit Seiten- und Zeilennummern. KI-Einsatz: Recherche, Textauswahl, Ausarbeitung, Überarbeitung. OpenAI-Werkzeuge und Modellkennungen: ChatGPT: gpt-5-6-thinking, gpt-5.6-sol-wm, gpt-6-astra-wm; Codex: gpt-5.6-sol, gpt-6-astra, gpt-6.1-sol. Fehlende Modellangaben: CGPT-01, CGPT-02, CGPT-03, CGPT-04.",
+      "origin": "editorial description of output/ai-documentation-web/edition.json and ai-documentation/model-register.json",
+      "model_register": "ai-documentation/model-register.json",
+      "id": "bib-aiCollaborationDocumentation2026",
+      "text": "Ballaschke, Tim (2026). Input: KI-Dokumentation. Begleitdokumentation mit Seiten- und Zeilennummern. KI-Einsatz: Recherche, Textauswahl, Ausarbeitung, Überarbeitung. OpenAI-Werkzeuge und Modellkennungen: ChatGPT: gpt-5-6-thinking, gpt-5.6-sol-wm, gpt-6-astra-wm; Codex: gpt-5.6-sol, gpt-6-astra, gpt-6.1-sol. Fehlende Modellangaben: CGPT-01, CGPT-02, CGPT-03, CGPT-04."
+    },
+    {
+      "key": "brinPage1998Anatomy",
+      "author": "Brin, Sergey; Page, Lawrence",
+      "year": "1998",
+      "html": "Brin, Sergey; Page, Lawrence (1998). The Anatomy of a Large-Scale Hypertextual Web Search Engine. Computer Networks and ISDN Systems, 30 (1–7), S. 107–117. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1016/S0169-7552(98)00110-X\">10.1016/S0169-7552(98)00110-X</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "The Anatomy of a Large-Scale Hypertextual {{Web}} Search Engine",
+          "author": "Brin, Sergey and Page, Lawrence",
+          "date": "1998",
+          "journaltitle": "Computer Networks and ISDN Systems",
+          "volume": "30",
+          "number": "1--7",
+          "pages": "107--117",
+          "doi": "10.1016/S0169-7552(98)00110-X",
+          "url": "https://snap.stanford.edu/class/cs224w-readings/Brin98Anatomy.pdf",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-brinPage1998Anatomy",
+      "text": "Brin, Sergey; Page, Lawrence (1998). The Anatomy of a Large-Scale Hypertextual Web Search Engine. Computer Networks and ISDN Systems, 30 (1–7), S. 107–117. DOI: 10.1016/S0169-7552(98)00110-X."
+    },
+    {
+      "key": "chenEffectsAnthropomorphicDesign2024",
+      "author": "Chen, Jiahao; Guo, Fu; Ren, Zenggen; Li, Mingming; Ham, Jaap",
+      "year": "2024",
+      "html": "Chen, Jiahao; Guo, Fu; Ren, Zenggen; Li, Mingming; Ham, Jaap (2024). Effects of Anthropomorphic Design Cues of Chatbots on Users&#x27; Perception and Visual Behaviors. International Journal of Human-Computer Interaction, 40 (14), S. 3636–3654. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1080/10447318.2023.2193514\">10.1080/10447318.2023.2193514</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "Effects of Anthropomorphic Design Cues of Chatbots on Users' Perception and Visual Behaviors",
+          "author": "Chen, Jiahao and Guo, Fu and Ren, Zenggen and Li, Mingming and Ham, Jaap",
+          "date": "2024",
+          "journaltitle": "International Journal of Human-Computer Interaction",
+          "volume": "40",
+          "number": "14",
+          "pages": "3636--3654",
+          "doi": "10.1080/10447318.2023.2193514",
+          "url": "https://doi.org/10.1080/10447318.2023.2193514"
+        }
+      },
+      "id": "bib-chenEffectsAnthropomorphicDesign2024",
+      "text": "Chen, Jiahao; Guo, Fu; Ren, Zenggen; Li, Mingming; Ham, Jaap (2024). Effects of Anthropomorphic Design Cues of Chatbots on Users' Perception and Visual Behaviors. International Journal of Human-Computer Interaction, 40 (14), S. 3636–3654. DOI: 10.1080/10447318.2023.2193514."
+    },
+    {
+      "key": "ftc2023BetterHelpComplaint",
+      "author": "Federal Trade Commission",
+      "year": "2023",
+      "html": "Federal Trade Commission (2023). In the Matter of BetterHelp, Inc. Complaint. Docket C-4796; File 2023169. <a class=\"bibliography-link\" href=\"https://www.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaintfinal.pdf\">h​t​t​p​s​:​/​/​w​w​w​.​f​t​c​.​g​o​v​/​s​y​s​t​e​m​/​f​i​l​e​s​/​f​t​c​_​g​o​v​/​p​d​f​/​2​0​2​3​1​6​9​b​e​t​t​e​r​h​e​l​p​c​o​m​p​l​a​i​n​t​f​i​n​a​l​.​p​d​f</a>. Zugriff: 15.09.2026.",
+      "origin": "thesis/text/source/additional-records.bib",
+      "record": {
+        "type": "report",
+        "fields": {
+          "author": "{Federal Trade Commission}",
+          "title": "In the Matter of BetterHelp, Inc. Complaint",
+          "date": "2023-07-07",
+          "number": "Docket C-4796; File 2023169",
+          "institution": "Federal Trade Commission",
+          "url": "https://www.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaintfinal.pdf",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-ftc2023BetterHelpComplaint",
+      "text": "Federal Trade Commission (2023). In the Matter of BetterHelp, Inc. Complaint. Docket C-4796; File 2023169. https://www.ftc.gov/system/files/ftc_gov/pdf/2023169betterhelpcomplaintfinal.pdf. Zugriff: 15.09.2026."
+    },
+    {
+      "key": "feitHowWeType2016",
+      "author": "Feit, Anna Maria; Weir, Daryl; Oulasvirta, Antti",
+      "year": "2016",
+      "html": "Feit, Anna Maria; Weir, Daryl; Oulasvirta, Antti (2016). How We Type: Movement Strategies and Performance in Everyday Typing. In: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, S. 4262–4273. Association for Computing Machinery. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/2858036.2858233\">10.1145/2858036.2858233</a>.",
+      "origin": "research/import-records/physical-and-speech-text-entry-c041-c042.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "author": "Feit, Anna Maria and Weir, Daryl and Oulasvirta, Antti",
+          "title": "How We Type: Movement Strategies and Performance in Everyday Typing",
+          "booktitle": "Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems",
+          "publisher": "Association for Computing Machinery",
+          "year": "2016",
+          "pages": "4262--4273",
+          "doi": "10.1145/2858036.2858233",
+          "isbn": "978-1-4503-3362-7"
+        }
+      },
+      "id": "bib-feitHowWeType2016",
+      "text": "Feit, Anna Maria; Weir, Daryl; Oulasvirta, Antti (2016). How We Type: Movement Strategies and Performance in Everyday Typing. In: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, S. 4262–4273. Association for Computing Machinery. DOI: 10.1145/2858036.2858233."
+    },
+    {
+      "key": "galbraithHiddenPlainSight2025",
+      "author": "Galbraith, Craig S.; Kay, Neil",
+      "year": "2025",
+      "html": "Galbraith, Craig S.; Kay, Neil (2025). Hidden in Plain Sight: QWERTY, the Search for Optimality and IP Complementarity. Business History, 67 (8), S. 2209–2231. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1080/00076791.2025.2458052\">10.1080/00076791.2025.2458052</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "Hidden in Plain Sight: {{QWERTY}}, the Search for Optimality and {{IP}} Complementarity",
+          "author": "Galbraith, Craig S. and Kay, Neil",
+          "date": "2025",
+          "journaltitle": "Business History",
+          "volume": "67",
+          "number": "8",
+          "pages": "2209--2231",
+          "issn": "0007-6791",
+          "doi": "10.1080/00076791.2025.2458052"
+        }
+      },
+      "id": "bib-galbraithHiddenPlainSight2025",
+      "text": "Galbraith, Craig S.; Kay, Neil (2025). Hidden in Plain Sight: QWERTY, the Search for Optimality and IP Complementarity. Business History, 67 (8), S. 2209–2231. DOI: 10.1080/00076791.2025.2458052."
+    },
+    {
+      "key": "gillespie2014RelevanceAlgorithms",
+      "author": "Gillespie, Tarleton",
+      "year": "2014",
+      "html": "Gillespie, Tarleton (2014). The Relevance of Algorithms. In: Gillespie, Tarleton; Boczkowski, Pablo J.; Foot, Kirsten A. (Hg.), Media Technologies: Essays on Communication, Materiality, and Society, S. 167–194. MIT Press. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.7551/mitpress/9042.003.0013\">10.7551/mitpress/9042.003.0013</a>.",
+      "origin": "thesis/text/source/additional-records.bib",
+      "record": {
+        "type": "incollection",
+        "fields": {
+          "author": "Gillespie, Tarleton",
+          "title": "The Relevance of Algorithms",
+          "booktitle": "Media Technologies: Essays on Communication, Materiality, and Society",
+          "editor": "Gillespie, Tarleton and Boczkowski, Pablo J. and Foot, Kirsten A.",
+          "publisher": "MIT Press",
+          "date": "2014",
+          "pages": "167--194",
+          "doi": "10.7551/mitpress/9042.003.0013",
+          "url": "https://www.microsoft.com/en-us/research/wp-content/uploads/2014/01/Gillespie_2014_The-Relevance-of-Algorithms.pdf",
+          "note": "Cited project copy is a proof; see research/source-notes/gillespie-2014-relevance-algorithms.md."
+        }
+      },
+      "id": "bib-gillespie2014RelevanceAlgorithms",
+      "text": "Gillespie, Tarleton (2014). The Relevance of Algorithms. In: Gillespie, Tarleton; Boczkowski, Pablo J.; Foot, Kirsten A. (Hg.), Media Technologies: Essays on Communication, Materiality, and Society, S. 167–194. MIT Press. DOI: 10.7551/mitpress/9042.003.0013."
+    },
+    {
+      "key": "googleSearchWorks2025",
+      "author": "Google",
+      "year": "2025",
+      "html": "Google (2025). In-Depth Guide to How Google Search Works. <a class=\"bibliography-link\" href=\"https://developers.google.com/search/docs/fundamentals/how-search-works\">h​t​t​p​s​:​/​/​d​e​v​e​l​o​p​e​r​s​.​g​o​o​g​l​e​.​c​o​m​/​s​e​a​r​c​h​/​d​o​c​s​/​f​u​n​d​a​m​e​n​t​a​l​s​/​h​o​w​-​s​e​a​r​c​h​-​w​o​r​k​s</a>. Zugriff: 15.09.2026.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "title": "In-Depth Guide to How {{Google Search}} Works",
+          "author": "{Google}",
+          "date": "2025",
+          "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-googleSearchWorks2025",
+      "text": "Google (2025). In-Depth Guide to How Google Search Works. https://developers.google.com/search/docs/fundamentals/how-search-works. Zugriff: 15.09.2026."
+    },
+    {
+      "key": "googleSearchTestingSnapshot2026",
+      "author": "Google",
+      "year": "o. J.; Stand 15.09.2026",
+      "html": "Google (o. J.; Stand 15.09.2026). Improving Search with Rigorous Testing. <a class=\"bibliography-link\" href=\"https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/\">h​t​t​p​s​:​/​/​w​w​w​.​g​o​o​g​l​e​.​c​o​m​/​s​e​a​r​c​h​/​h​o​w​s​e​a​r​c​h​w​o​r​k​s​/​h​o​w​-​s​e​a​r​c​h​-​w​o​r​k​s​/​r​i​g​o​r​o​u​s​-​t​e​s​t​i​n​g​/</a>. Zugriff: 15.09.2026.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "title": "Improving {{Search}} with Rigorous Testing",
+          "author": "{Google}",
+          "url": "https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-googleSearchTestingSnapshot2026",
+      "text": "Google (o. J.; Stand 15.09.2026). Improving Search with Rigorous Testing. https://www.google.com/search/howsearchworks/how-search-works/rigorous-testing/. Zugriff: 15.09.2026."
+    },
+    {
+      "key": "googleRefineSearches",
+      "author": "Google Search Help",
+      "year": "o. J.; Stand 18.09.2026",
+      "html": "Google Search Help (o. J.; Stand 18.09.2026). Refine Google searches. <a class=\"bibliography-link\" href=\"https://support.google.com/websearch/answer/2466433?hl=en\">h​t​t​p​s​:​/​/​s​u​p​p​o​r​t​.​g​o​o​g​l​e​.​c​o​m​/​w​e​b​s​e​a​r​c​h​/​a​n​s​w​e​r​/​2​4​6​6​4​3​3​?​h​l​=​e​n</a>. Zugriff: 18.09.2026.",
+      "origin": "thesis/text/source/additional-records.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "author": "{Google Search Help}",
+          "title": "Refine Google searches",
+          "url": "https://support.google.com/websearch/answer/2466433?hl=en",
+          "urldate": "2026-09-18",
+          "note": "Title and Operators section checked against the official page on 18 September 2026."
+        }
+      },
+      "id": "bib-googleRefineSearches",
+      "text": "Google Search Help (o. J.; Stand 18.09.2026). Refine Google searches. https://support.google.com/websearch/answer/2466433?hl=en. Zugriff: 18.09.2026."
+    },
+    {
+      "key": "hearstSearchUserInterfaces2009",
+      "author": "Hearst, Marti A.",
+      "year": "2009",
+      "html": "Hearst, Marti A. (2009). Search User Interfaces. Cambridge: Cambridge University Press. <a class=\"bibliography-link\" href=\"https://searchuserinterfaces.com/book/\">h​t​t​p​s​:​/​/​s​e​a​r​c​h​u​s​e​r​i​n​t​e​r​f​a​c​e​s​.​c​o​m​/​b​o​o​k​/</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "book",
+        "fields": {
+          "title": "Search {{User Interfaces}}",
+          "author": "Hearst, Marti A.",
+          "date": "2009",
+          "publisher": "Cambridge University Press",
+          "location": "Cambridge",
+          "url": "https://searchuserinterfaces.com/book/",
+          "isbn": "978-0-521-11379-3"
+        }
+      },
+      "id": "bib-hearstSearchUserInterfaces2009",
+      "text": "Hearst, Marti A. (2009). Search User Interfaces. Cambridge: Cambridge University Press. https://searchuserinterfaces.com/book/."
+    },
+    {
+      "key": "ieeeOpenGroupMkdir2024",
+      "author": "IEEE; The Open Group",
+      "year": "2024",
+      "html": "IEEE; The Open Group (2024). mkdir. The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024. <a class=\"bibliography-link\" href=\"https://pubs.opengroup.org/onlinepubs/9799919799.2024edition/utilities/mkdir.html\">h​t​t​p​s​:​/​/​p​u​b​s​.​o​p​e​n​g​r​o​u​p​.​o​r​g​/​o​n​l​i​n​e​p​u​b​s​/​9​7​9​9​9​1​9​7​9​9​.​2​0​2​4​e​d​i​t​i​o​n​/​u​t​i​l​i​t​i​e​s​/​m​k​d​i​r​.​h​t​m​l</a>. Zugriff: 30.08.2026.",
+      "origin": "references/manual.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "author": "{IEEE} and {The Open Group}",
+          "title": "mkdir",
+          "titleaddon": "The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024",
+          "date": "2024",
+          "url": "https://pubs.opengroup.org/onlinepubs/9799919799.2024edition/utilities/mkdir.html",
+          "urldate": "2026-08-30"
+        }
+      },
+      "id": "bib-ieeeOpenGroupMkdir2024",
+      "text": "IEEE; The Open Group (2024). mkdir. The Open Group Base Specifications Issue 8, IEEE Std 1003.1-2024. https://pubs.opengroup.org/onlinepubs/9799919799.2024edition/utilities/mkdir.html. Zugriff: 30.08.2026."
+    },
+    {
+      "key": "koeneckeRacialDisparitiesAutomated2020",
+      "author": "Koenecke, Allison; Nam, Andrew; Lake, Emily; Nudell, Joe; Quartey, Minnie; Mengesha, Zion; Toups, Connor; Rickford, John R.; Jurafsky, Dan; Goel, Sharad",
+      "year": "2020",
+      "html": "Koenecke, Allison; Nam, Andrew; Lake, Emily; Nudell, Joe; Quartey, Minnie; Mengesha, Zion; Toups, Connor; Rickford, John R.; Jurafsky, Dan; Goel, Sharad (2020). Racial Disparities in Automated Speech Recognition. Proceedings of the National Academy of Sciences, 117 (14), S. 7684–7689. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1073/pnas.1915768117\">10.1073/pnas.1915768117</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "Racial Disparities in Automated Speech Recognition",
+          "author": "Koenecke, Allison and Nam, Andrew and Lake, Emily and Nudell, Joe and Quartey, Minnie and Mengesha, Zion and Toups, Connor and Rickford, John R. and Jurafsky, Dan and Goel, Sharad",
+          "date": "2020",
+          "journaltitle": "Proceedings of the National Academy of Sciences",
+          "volume": "117",
+          "number": "14",
+          "pages": "7684--7689",
+          "issn": "0027-8424",
+          "doi": "10.1073/pnas.1915768117"
+        }
+      },
+      "id": "bib-koeneckeRacialDisparitiesAutomated2020",
+      "text": "Koenecke, Allison; Nam, Andrew; Lake, Emily; Nudell, Joe; Quartey, Minnie; Mengesha, Zion; Toups, Connor; Rickford, John R.; Jurafsky, Dan; Goel, Sharad (2020). Racial Disparities in Automated Speech Recognition. Proceedings of the National Academy of Sciences, 117 (14), S. 7684–7689. DOI: 10.1073/pnas.1915768117."
+    },
+    {
+      "key": "luguriShiningLightDark2021",
+      "author": "Luguri, Jamie; Strahilevitz, Lior Jacob",
+      "year": "2021",
+      "html": "Luguri, Jamie; Strahilevitz, Lior Jacob (2021). Shining a Light on Dark Patterns. Journal of Legal Analysis, 13 (1), S. 43–109. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1093/jla/laaa006\">10.1093/jla/laaa006</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "Shining a Light on Dark Patterns",
+          "author": "Luguri, Jamie and Strahilevitz, Lior Jacob",
+          "date": "2021",
+          "journaltitle": "Journal of Legal Analysis",
+          "volume": "13",
+          "number": "1",
+          "pages": "43--109",
+          "doi": "10.1093/jla/laaa006",
+          "url": "https://doi.org/10.1093/jla/laaa006"
+        }
+      },
+      "id": "bib-luguriShiningLightDark2021",
+      "text": "Luguri, Jamie; Strahilevitz, Lior Jacob (2021). Shining a Light on Dark Patterns. Journal of Legal Analysis, 13 (1), S. 43–109. DOI: 10.1093/jla/laaa006."
+    },
+    {
+      "key": "mackenzieTextEntryMobile2002",
+      "author": "MacKenzie, I. Scott; Soukoreff, R. William",
+      "year": "2002",
+      "html": "MacKenzie, I. Scott; Soukoreff, R. William (2002). Text Entry for Mobile Computing: Models and Methods, Theory and Practice. Human–Computer Interaction, 17 (2–3), S. 147–198. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1080/07370024.2002.9667313\">10.1080/07370024.2002.9667313</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "Text Entry for Mobile Computing: {{Models}} and Methods, Theory and Practice",
+          "author": "MacKenzie, I. Scott and Soukoreff, R. William",
+          "date": "2002",
+          "journaltitle": "Human–Computer Interaction",
+          "volume": "17",
+          "number": "2--3",
+          "pages": "147--198",
+          "publisher": "Lawrence Erlbaum Associates",
+          "doi": "10.1080/07370024.2002.9667313",
+          "url": "https://www.yorku.ca/mack/hci3.html",
+          "urldate": "2026-08-19"
+        }
+      },
+      "id": "bib-mackenzieTextEntryMobile2002",
+      "text": "MacKenzie, I. Scott; Soukoreff, R. William (2002). Text Entry for Mobile Computing: Models and Methods, Theory and Practice. Human–Computer Interaction, 17 (2–3), S. 147–198. DOI: 10.1080/07370024.2002.9667313."
+    },
+    {
+      "key": "normanSignifiersNotAffordances2008",
+      "author": "Norman, Donald A.",
+      "year": "2008",
+      "html": "Norman, Donald A. (2008). Signifiers, not affordances. Interactions, 15 (6), S. 18–19. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/1409040.1409044\">10.1145/1409040.1409044</a>.",
+      "origin": "research/import-records/norman-2008-signifiers.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "author": "Norman, Donald A.",
+          "title": "Signifiers, not affordances",
+          "journaltitle": "Interactions",
+          "date": "2008-11",
+          "volume": "15",
+          "number": "6",
+          "pages": "18--19",
+          "doi": "10.1145/1409040.1409044",
+          "url": "https://jnd.org/signifiers-not-affordances/",
+          "urldate": "2026-09-17",
+          "note": "The Way I See It. Evaluated version: unpaginated author HTML; publication metadata checked via Crossref."
+        }
+      },
+      "id": "bib-normanSignifiersNotAffordances2008",
+      "text": "Norman, Donald A. (2008). Signifiers, not affordances. Interactions, 15 (6), S. 18–19. DOI: 10.1145/1409040.1409044."
+    },
+    {
+      "key": "openaiDataControlsSnapshot2026",
+      "author": "OpenAI",
+      "year": "o. J.; Stand 15.09.2026",
+      "html": "OpenAI (o. J.; Stand 15.09.2026). Data Controls in the OpenAI Platform. <a class=\"bibliography-link\" href=\"https://developers.openai.com/api/docs/guides/your-data\">h​t​t​p​s​:​/​/​d​e​v​e​l​o​p​e​r​s​.​o​p​e​n​a​i​.​c​o​m​/​a​p​i​/​d​o​c​s​/​g​u​i​d​e​s​/​y​o​u​r​-​d​a​t​a</a>. Zugriff: 15.09.2026.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "title": "Data Controls in the {{OpenAI}} Platform",
+          "author": "{OpenAI}",
+          "url": "https://developers.openai.com/api/docs/guides/your-data",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-openaiDataControlsSnapshot2026",
+      "text": "OpenAI (o. J.; Stand 15.09.2026). Data Controls in the OpenAI Platform. https://developers.openai.com/api/docs/guides/your-data. Zugriff: 15.09.2026."
+    },
+    {
+      "key": "openaiTextGenerationSnapshot2026",
+      "author": "OpenAI",
+      "year": "o. J.; Stand 15.09.2026",
+      "html": "OpenAI (o. J.; Stand 15.09.2026). Text Generation. <a class=\"bibliography-link\" href=\"https://developers.openai.com/api/docs/guides/text\">h​t​t​p​s​:​/​/​d​e​v​e​l​o​p​e​r​s​.​o​p​e​n​a​i​.​c​o​m​/​a​p​i​/​d​o​c​s​/​g​u​i​d​e​s​/​t​e​x​t</a>. Zugriff: 15.09.2026.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "title": "Text Generation",
+          "author": "{OpenAI}",
+          "url": "https://developers.openai.com/api/docs/guides/text",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-openaiTextGenerationSnapshot2026",
+      "text": "OpenAI (o. J.; Stand 15.09.2026). Text Generation. https://developers.openai.com/api/docs/guides/text. Zugriff: 15.09.2026."
+    },
+    {
+      "key": "oulasvirtaImprovingTwoThumb2013",
+      "author": "Oulasvirta, Antti; Reichel, Anna; Li, Wenbin; Zhang, Yan; Bachynskyi, Myroslav; Vertanen, Keith; Kristensson, Per Ola",
+      "year": "2013",
+      "html": "Oulasvirta, Antti; Reichel, Anna; Li, Wenbin; Zhang, Yan; Bachynskyi, Myroslav; Vertanen, Keith; Kristensson, Per Ola (2013). Improving Two-Thumb Text Entry on Touchscreen Devices. In: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, S. 2765–2774. New York, NY, USA: ACM. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/2470654.2481383\">10.1145/2470654.2481383</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "Improving Two-Thumb Text Entry on Touchscreen Devices",
+          "booktitle": "Proceedings of the {{SIGCHI}} Conference on Human Factors in Computing Systems",
+          "author": "Oulasvirta, Antti and Reichel, Anna and Li, Wenbin and Zhang, Yan and Bachynskyi, Myroslav and Vertanen, Keith and Kristensson, Per Ola",
+          "date": "2013-04-27",
+          "pages": "2765--2774",
+          "publisher": "ACM",
+          "location": "New York, NY, USA",
+          "doi": "10.1145/2470654.2481383",
+          "url": "https://www.keithv.com/pub/twothumb/OulasvirtaEtAlCHI2013.pdf",
+          "urldate": "2026-08-19",
+          "eventdate": "2013-04-27/2013-05-02",
+          "eventtitle": "{{CHI}} '13: {{CHI}} Conference on Human Factors in Computing Systems",
+          "isbn": "978-1-4503-1899-0",
+          "venue": "Paris, France"
+        }
+      },
+      "id": "bib-oulasvirtaImprovingTwoThumb2013",
+      "text": "Oulasvirta, Antti; Reichel, Anna; Li, Wenbin; Zhang, Yan; Bachynskyi, Myroslav; Vertanen, Keith; Kristensson, Per Ola (2013). Improving Two-Thumb Text Entry on Touchscreen Devices. In: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, S. 2765–2774. New York, NY, USA: ACM. DOI: 10.1145/2470654.2481383."
+    },
+    {
+      "key": "ouyangEtAl2022Instructions",
+      "author": "Ouyang, Long; Wu, Jeffrey; Jiang, Xu; Almeida, Diogo; Wainwright, Carroll; Mishkin, Pamela; Zhang, Chong; Agarwal, Sandhini; Slama, Katarina; Ray, Alex; Schulman, John; Hilton, Jacob; Kelton, Fraser; Miller, Luke; Simens, Maddie; Askell, Amanda; Welinder, Peter; Christiano, Paul F; Leike, Jan; Lowe, Ryan",
+      "year": "2022",
+      "html": "Ouyang, Long; Wu, Jeffrey; Jiang, Xu; Almeida, Diogo; Wainwright, Carroll; Mishkin, Pamela; Zhang, Chong; Agarwal, Sandhini; Slama, Katarina; Ray, Alex; Schulman, John; Hilton, Jacob; Kelton, Fraser; Miller, Luke; Simens, Maddie; Askell, Amanda; Welinder, Peter; Christiano, Paul F; Leike, Jan; Lowe, Ryan (2022). Training Language Models to Follow Instructions with Human Feedback. In: Advances in Neural Information Processing Systems, Bd. 35, S. 27730–27744. Curran Associates, Inc. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.52202/068431-2011\">10.52202/068431-2011</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "Training Language Models to Follow Instructions with Human Feedback",
+          "booktitle": "Advances in Neural Information Processing Systems",
+          "author": "Ouyang, Long and Wu, Jeffrey and Jiang, Xu and Almeida, Diogo and Wainwright, Carroll and Mishkin, Pamela and Zhang, Chong and Agarwal, Sandhini and Slama, Katarina and Ray, Alex and Schulman, John and Hilton, Jacob and Kelton, Fraser and Miller, Luke and Simens, Maddie and Askell, Amanda and Welinder, Peter and Christiano, Paul F and Leike, Jan and Lowe, Ryan",
+          "date": "2022",
+          "volume": "35",
+          "pages": "27730--27744",
+          "publisher": "Curran Associates, Inc.",
+          "doi": "10.52202/068431-2011",
+          "url": "https://proceedings.neurips.cc/paper/2022/hash/b1efde53be364a73914f58805a001731-Abstract-Conference.html",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-ouyangEtAl2022Instructions",
+      "text": "Ouyang, Long; Wu, Jeffrey; Jiang, Xu; Almeida, Diogo; Wainwright, Carroll; Mishkin, Pamela; Zhang, Chong; Agarwal, Sandhini; Slama, Katarina; Ray, Alex; Schulman, John; Hilton, Jacob; Kelton, Fraser; Miller, Luke; Simens, Maddie; Askell, Amanda; Welinder, Peter; Christiano, Paul F; Leike, Jan; Lowe, Ryan (2022). Training Language Models to Follow Instructions with Human Feedback. In: Advances in Neural Information Processing Systems, Bd. 35, S. 27730–27744. Curran Associates, Inc. DOI: 10.52202/068431-2011."
+    },
+    {
+      "key": "quinnCostBenefitStudy2016",
+      "author": "Quinn, Philip; Zhai, Shumin",
+      "year": "2016",
+      "html": "Quinn, Philip; Zhai, Shumin (2016). A Cost-Benefit Study of Text Entry Suggestion Interaction. In: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, S. 83–88. New York, NY, USA: ACM. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/2858036.2858305\">10.1145/2858036.2858305</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "A Cost-Benefit Study of Text Entry Suggestion Interaction",
+          "booktitle": "Proceedings of the 2016 {{CHI}} Conference on Human Factors in Computing Systems",
+          "author": "Quinn, Philip and Zhai, Shumin",
+          "date": "2016-05-07",
+          "pages": "83--88",
+          "publisher": "ACM",
+          "location": "New York, NY, USA",
+          "doi": "10.1145/2858036.2858305",
+          "url": "https://research.google/pubs/a-costbenefit-study-of-text-entry-suggestion-interaction/",
+          "urldate": "2026-08-19",
+          "eventdate": "2016-05-07/2016-05-12",
+          "eventtitle": "{{CHI}} '16: {{CHI}} Conference on Human Factors in Computing Systems",
+          "isbn": "978-1-4503-3362-7",
+          "venue": "San Jose, California, USA"
+        }
+      },
+      "id": "bib-quinnCostBenefitStudy2016",
+      "text": "Quinn, Philip; Zhai, Shumin (2016). A Cost-Benefit Study of Text Entry Suggestion Interaction. In: Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, S. 83–88. New York, NY, USA: ACM. DOI: 10.1145/2858036.2858305."
+    },
+    {
+      "key": "radfordEtAl2019LanguageModels",
+      "author": "Radford, Alec; Wu, Jeffrey; Child, Rewon; Luan, David; Amodei, Dario; Sutskever, Ilya",
+      "year": "2019",
+      "html": "Radford, Alec; Wu, Jeffrey; Child, Rewon; Luan, David; Amodei, Dario; Sutskever, Ilya (2019). Language Models Are Unsupervised Multitask Learners. OpenAI. <a class=\"bibliography-link\" href=\"https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf\">h​t​t​p​s​:​/​/​c​d​n​.​o​p​e​n​a​i​.​c​o​m​/​b​e​t​t​e​r​-​l​a​n​g​u​a​g​e​-​m​o​d​e​l​s​/​l​a​n​g​u​a​g​e​_​m​o​d​e​l​s​_​a​r​e​_​u​n​s​u​p​e​r​v​i​s​e​d​_​m​u​l​t​i​t​a​s​k​_​l​e​a​r​n​e​r​s​.​p​d​f</a>. Zugriff: 15.09.2026.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "report",
+        "fields": {
+          "title": "Language Models Are Unsupervised Multitask Learners",
+          "author": "Radford, Alec and Wu, Jeffrey and Child, Rewon and Luan, David and Amodei, Dario and Sutskever, Ilya",
+          "date": "2019",
+          "institution": "OpenAI",
+          "url": "https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf",
+          "urldate": "2026-09-15"
+        }
+      },
+      "id": "bib-radfordEtAl2019LanguageModels",
+      "text": "Radford, Alec; Wu, Jeffrey; Child, Rewon; Luan, David; Amodei, Dario; Sutskever, Ilya (2019). Language Models Are Unsupervised Multitask Learners. OpenAI. https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf. Zugriff: 15.09.2026."
+    },
+    {
+      "key": "ruanComparingSpeechKeyboard2017",
+      "author": "Ruan, Sherry; Wobbrock, Jacob O.; Liou, Kenny; Ng, Andrew; Landay, James A.",
+      "year": "2017",
+      "html": "Ruan, Sherry; Wobbrock, Jacob O.; Liou, Kenny; Ng, Andrew; Landay, James A. (2017). Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 1 (4), S. 1–23. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/3161187\">10.1145/3161187</a>.",
+      "origin": "research/import-records/physical-and-speech-text-entry-c041-c042.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "author": "Ruan, Sherry and Wobbrock, Jacob O. and Liou, Kenny and Ng, Andrew and Landay, James A.",
+          "title": "Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones",
+          "journal": "Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies",
+          "year": "2017",
+          "volume": "1",
+          "number": "4",
+          "pages": "1--23",
+          "articleno": "159",
+          "doi": "10.1145/3161187",
+          "issn": "2474-9567"
+        }
+      },
+      "id": "bib-ruanComparingSpeechKeyboard2017",
+      "text": "Ruan, Sherry; Wobbrock, Jacob O.; Liou, Kenny; Ng, Andrew; Landay, James A. (2017). Comparing Speech and Keyboard Text Entry for Short Messages in Two Languages on Touchscreen Phones. Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies, 1 (4), S. 1–23. DOI: 10.1145/3161187."
+    },
+    {
+      "key": "secklerDesigningUsableWeb2014",
+      "author": "Seckler, Mirjam; Heinz, Silvia; Bargas-Avila, Javier A.; Opwis, Klaus; Tuch, Alexandre N.",
+      "year": "2014",
+      "html": "Seckler, Mirjam; Heinz, Silvia; Bargas-Avila, Javier A.; Opwis, Klaus; Tuch, Alexandre N. (2014). Designing Usable Web Forms: Empirical Evaluation of Web Form Improvement Guidelines. In: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, S. 1275–1284. New York, NY, USA: ACM. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/2556288.2557265\">10.1145/2556288.2557265</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "Designing Usable Web Forms: {{Empirical}} Evaluation of Web Form Improvement Guidelines",
+          "booktitle": "Proceedings of the {{SIGCHI}} Conference on Human Factors in Computing Systems",
+          "author": "Seckler, Mirjam and Heinz, Silvia and Bargas-Avila, Javier A. and Opwis, Klaus and Tuch, Alexandre N.",
+          "date": "2014-04-26",
+          "pages": "1275--1284",
+          "publisher": "ACM",
+          "location": "New York, NY, USA",
+          "doi": "10.1145/2556288.2557265",
+          "url": "https://research.google/pubs/designing-usable-web-forms-empirical-evaluation-of-web-form-improvement-guidelines/",
+          "urldate": "2026-08-19",
+          "eventdate": "2014-04-26/2014-05-01",
+          "eventtitle": "{{CHI}} '14: {{CHI}} Conference on Human Factors in Computing Systems",
+          "venue": "Toronto, Ontario, Canada"
+        }
+      },
+      "id": "bib-secklerDesigningUsableWeb2014",
+      "text": "Seckler, Mirjam; Heinz, Silvia; Bargas-Avila, Javier A.; Opwis, Klaus; Tuch, Alexandre N. (2014). Designing Usable Web Forms: Empirical Evaluation of Web Form Improvement Guidelines. In: Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, S. 1275–1284. New York, NY, USA: ACM. DOI: 10.1145/2556288.2557265."
+    },
+    {
+      "key": "sharmaUnderstandingSycophancyLanguage2024",
+      "author": "Sharma, Mrinank; Tong, Meg; Korbak, Tomasz; Duvenaud, David; Askell, Amanda; Bowman, Samuel R.; Cheng, Newton; Durmus, Esin; Hatfield-Dodds, Zac; Johnston, Scott R.; Kravec, Shauna; Maxwell, Timothy; McCandlish, Sam; Ndousse, Kamal; Rausch, Oliver; Schiefer, Nicholas; Yan, Da; Zhang, Miranda; Perez, Ethan",
+      "year": "2024",
+      "html": "Sharma, Mrinank; Tong, Meg; Korbak, Tomasz; Duvenaud, David; Askell, Amanda; Bowman, Samuel R.; Cheng, Newton; Durmus, Esin; Hatfield-Dodds, Zac; Johnston, Scott R.; Kravec, Shauna; Maxwell, Timothy; McCandlish, Sam; Ndousse, Kamal; Rausch, Oliver; Schiefer, Nicholas; Yan, Da; Zhang, Miranda; Perez, Ethan (2024). Towards Understanding Sycophancy in Language Models. In: The Twelfth International Conference on Learning Representations. <a class=\"bibliography-link\" href=\"https://openreview.net/forum?id=tvhaxkMKAn\">h​t​t​p​s​:​/​/​o​p​e​n​r​e​v​i​e​w​.​n​e​t​/​f​o​r​u​m​?​i​d​=​t​v​h​a​x​k​M​K​A​n</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "Towards Understanding Sycophancy in Language Models",
+          "booktitle": "The Twelfth International Conference on Learning Representations",
+          "author": "Sharma, Mrinank and Tong, Meg and Korbak, Tomasz and Duvenaud, David and Askell, Amanda and Bowman, Samuel R. and Cheng, Newton and Durmus, Esin and Hatfield-Dodds, Zac and Johnston, Scott R. and Kravec, Shauna and Maxwell, Timothy and McCandlish, Sam and Ndousse, Kamal and Rausch, Oliver and Schiefer, Nicholas and Yan, Da and Zhang, Miranda and Perez, Ethan",
+          "date": "2024",
+          "url": "https://openreview.net/forum?id=tvhaxkMKAn"
+        }
+      },
+      "id": "bib-sharmaUnderstandingSycophancyLanguage2024",
+      "text": "Sharma, Mrinank; Tong, Meg; Korbak, Tomasz; Duvenaud, David; Askell, Amanda; Bowman, Samuel R.; Cheng, Newton; Durmus, Esin; Hatfield-Dodds, Zac; Johnston, Scott R.; Kravec, Shauna; Maxwell, Timothy; McCandlish, Sam; Ndousse, Kamal; Rausch, Oliver; Schiefer, Nicholas; Yan, Da; Zhang, Miranda; Perez, Ethan (2024). Towards Understanding Sycophancy in Language Models. In: The Twelfth International Conference on Learning Representations. https://openreview.net/forum?id=tvhaxkMKAn."
+    },
+    {
+      "key": "shneidermanDirectManipulationStep1983",
+      "author": "Shneiderman, Ben",
+      "year": "1983",
+      "html": "Shneiderman, Ben (1983). Direct Manipulation: A Step Beyond Programming Languages. Computer, 16 (8), S. 57–69. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1109/MC.1983.1654471\">10.1109/MC.1983.1654471</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "Direct {{Manipulation}}: {{A Step Beyond Programming Languages}}",
+          "shorttitle": "Direct {{Manipulation}}",
+          "author": "Shneiderman, Ben",
+          "date": "1983-08",
+          "journaltitle": "Computer",
+          "shortjournal": "Computer",
+          "volume": "16",
+          "number": "8",
+          "pages": "57--69",
+          "issn": "0018-9162",
+          "doi": "10.1109/MC.1983.1654471",
+          "url": "http://ieeexplore.ieee.org/document/1654471/",
+          "urldate": "2026-07-26"
+        }
+      },
+      "id": "bib-shneidermanDirectManipulationStep1983",
+      "text": "Shneiderman, Ben (1983). Direct Manipulation: A Step Beyond Programming Languages. Computer, 16 (8), S. 57–69. DOI: 10.1109/MC.1983.1654471."
+    },
+    {
+      "key": "staabEtAl2024PrivacyInference",
+      "author": "Staab, Robin; Vero, Mark; Balunović, Mislav; Vechev, Martin",
+      "year": "2024",
+      "html": "Staab, Robin; Vero, Mark; Balunović, Mislav; Vechev, Martin (2024). Beyond Memorization: Violating Privacy via Inference with Large Language Models. In: International Conference on Learning Representations. <a class=\"bibliography-link\" href=\"https://arxiv.org/abs/2310.07298v2\">h​t​t​p​s​:​/​/​a​r​x​i​v​.​o​r​g​/​a​b​s​/​2​3​1​0​.​0​7​2​9​8​v​2</a>.",
+      "origin": "thesis/text/source/additional-records.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "author": "Staab, Robin and Vero, Mark and Balunović, Mislav and Vechev, Martin",
+          "title": "Beyond Memorization: Violating Privacy via Inference with Large Language Models",
+          "booktitle": "International Conference on Learning Representations",
+          "date": "2024",
+          "url": "https://arxiv.org/abs/2310.07298v2",
+          "note": "Cited version: arXiv:2310.07298v2, 6 May 2024. Conference record: https://proceedings.iclr.cc/paper_files/paper/2024/hash/9028b8a3ca98f58e373f0c1497a17448-Abstract-Conference.html."
+        }
+      },
+      "id": "bib-staabEtAl2024PrivacyInference",
+      "text": "Staab, Robin; Vero, Mark; Balunović, Mislav; Vechev, Martin (2024). Beyond Memorization: Violating Privacy via Inference with Large Language Models. In: International Conference on Learning Representations. https://arxiv.org/abs/2310.07298v2."
+    },
+    {
+      "key": "subramonyamBridgingGulfEnvisioning2024",
+      "author": "Subramonyam, Hari; Pea, Roy; Pondoc, Christopher; Agrawala, Maneesh; Seifert, Colleen",
+      "year": "2024",
+      "html": "Subramonyam, Hari; Pea, Roy; Pondoc, Christopher; Agrawala, Maneesh; Seifert, Colleen (2024). Bridging the Gulf of Envisioning: Cognitive Challenges in Prompt Based Interactions with LLMs. In: Proceedings of the CHI Conference on Human Factors in Computing Systems, S. 1–19. ACM. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/3613904.3642754\">10.1145/3613904.3642754</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "Bridging the {{Gulf}} of {{Envisioning}}: {{Cognitive Challenges}} in {{Prompt Based Interactions}} with {{LLMs}}",
+          "booktitle": "Proceedings of the {{CHI Conference}} on {{Human Factors}} in {{Computing Systems}}",
+          "author": "Subramonyam, Hari and Pea, Roy and Pondoc, Christopher and Agrawala, Maneesh and Seifert, Colleen",
+          "date": "2024-05-11",
+          "pages": "1--19",
+          "publisher": "ACM",
+          "doi": "10.1145/3613904.3642754",
+          "url": "https://doi.org/10.1145/3613904.3642754",
+          "eventtitle": "{{CHI}} '24"
+        }
+      },
+      "id": "bib-subramonyamBridgingGulfEnvisioning2024",
+      "text": "Subramonyam, Hari; Pea, Roy; Pondoc, Christopher; Agrawala, Maneesh; Seifert, Colleen (2024). Bridging the Gulf of Envisioning: Cognitive Challenges in Prompt Based Interactions with LLMs. In: Proceedings of the CHI Conference on Human Factors in Computing Systems, S. 1–19. ACM. DOI: 10.1145/3613904.3642754."
+    },
+    {
+      "key": "chromiumOmniboxPrefetchSnapshot2026",
+      "author": "The Chromium Projects",
+      "year": "o. J.; Stand 15.09.2026",
+      "html": "The Chromium Projects (o. J.; Stand 15.09.2026). Omnibox Prefetch and Prerender for Default Search Engines. <a class=\"bibliography-link\" href=\"https://www.chromium.org/developers/design-documents/omnibox-prefetch-for-default-search-engines/\">h​t​t​p​s​:​/​/​w​w​w​.​c​h​r​o​m​i​u​m​.​o​r​g​/​d​e​v​e​l​o​p​e​r​s​/​d​e​s​i​g​n​-​d​o​c​u​m​e​n​t​s​/​o​m​n​i​b​o​x​-​p​r​e​f​e​t​c​h​-​f​o​r​-​d​e​f​a​u​l​t​-​s​e​a​r​c​h​-​e​n​g​i​n​e​s​/</a>. Zugriff: 15.09.2026.",
+      "origin": "thesis/text/source/additional-records.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "author": "{The Chromium Projects}",
+          "title": "Omnibox Prefetch and Prerender for Default Search Engines",
+          "url": "https://www.chromium.org/developers/design-documents/omnibox-prefetch-for-default-search-engines/",
+          "urldate": "2026-09-15",
+          "note": "Project snapshot: 15 September 2026. No publication date established."
+        }
+      },
+      "id": "bib-chromiumOmniboxPrefetchSnapshot2026",
+      "text": "The Chromium Projects (o. J.; Stand 15.09.2026). Omnibox Prefetch and Prerender for Default Search Engines. https://www.chromium.org/developers/design-documents/omnibox-prefetch-for-default-search-engines/. Zugriff: 15.09.2026."
+    },
+    {
+      "key": "vaneschWritingAcrossWorlds2019",
+      "author": "van Esch, Daan; Sarbar, Elnaz; Lucassen, Tamar; O'Brien, Jeremy; Breiner, Theresa; Prasad, Manasa; Crew, Evan; Nguyen, Chieu; Beaufays, Françoise",
+      "year": "2019",
+      "html": "van Esch, Daan; Sarbar, Elnaz; Lucassen, Tamar; O&#x27;Brien, Jeremy; Breiner, Theresa; Prasad, Manasa; Crew, Evan; Nguyen, Chieu; Beaufays, Françoise (2019). Writing across the World&#x27;s Languages: Deep Internationalization for Gboard, the Google Keyboard. arXiv:1912.01218. Google. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.48550/arXiv.1912.01218\">10.48550/arXiv.1912.01218</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "report",
+        "fields": {
+          "type": "Technical Report",
+          "title": "Writing across the World's Languages: {{Deep}} Internationalization for Gboard, the Google Keyboard",
+          "author": "family=Esch, given=Daan, prefix=van, useprefix=true and Sarbar, Elnaz and Lucassen, Tamar and O'Brien, Jeremy and Breiner, Theresa and Prasad, Manasa and Crew, Evan and Nguyen, Chieu and Beaufays, Françoise",
+          "date": "2019-12-03",
+          "number": "arXiv:1912.01218",
+          "institution": "Google",
+          "doi": "10.48550/arXiv.1912.01218",
+          "url": "https://arxiv.org/abs/1912.01218",
+          "urldate": "2026-08-19"
+        }
+      },
+      "id": "bib-vaneschWritingAcrossWorlds2019",
+      "text": "van Esch, Daan; Sarbar, Elnaz; Lucassen, Tamar; O'Brien, Jeremy; Breiner, Theresa; Prasad, Manasa; Crew, Evan; Nguyen, Chieu; Beaufays, Françoise (2019). Writing across the World's Languages: Deep Internationalization for Gboard, the Google Keyboard. arXiv:1912.01218. Google. DOI: 10.48550/arXiv.1912.01218."
+    },
+    {
+      "key": "vonahnReCAPTCHA2008",
+      "author": "von Ahn, Luis; Maurer, Benjamin; McMillen, Colin; Abraham, David; Blum, Manuel",
+      "year": "2008",
+      "html": "von Ahn, Luis; Maurer, Benjamin; McMillen, Colin; Abraham, David; Blum, Manuel (2008). reCAPTCHA: Human-based Character Recognition via Web Security Measures. Science, 321 (5895), S. 1465–1468. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1126/science.1160379\">10.1126/science.1160379</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "article",
+        "fields": {
+          "title": "{{reCAPTCHA}}: {{Human-based}} Character Recognition via Web Security Measures",
+          "author": "family=Ahn, given=Luis, prefix=von, useprefix=true and Maurer, Benjamin and McMillen, Colin and Abraham, David and Blum, Manuel",
+          "date": "2008-09-12",
+          "journaltitle": "Science",
+          "volume": "321",
+          "number": "5895",
+          "pages": "1465--1468",
+          "publisher": "American Association for the Advancement of Science",
+          "doi": "10.1126/science.1160379",
+          "url": "https://www.cs.cmu.edu/~biglou/reCAPTCHA_Science.pdf",
+          "urldate": "2026-08-19"
+        }
+      },
+      "id": "bib-vonahnReCAPTCHA2008",
+      "text": "von Ahn, Luis; Maurer, Benjamin; McMillen, Colin; Abraham, David; Blum, Manuel (2008). reCAPTCHA: Human-based Character Recognition via Web Security Measures. Science, 321 (5895), S. 1465–1468. DOI: 10.1126/science.1160379."
+    },
+    {
+      "key": "whatwgHTMLStandard2026",
+      "author": "WHATWG",
+      "year": "2026",
+      "html": "WHATWG (2026). HTML Standard. Stand: 18.08.2026. <a class=\"bibliography-link\" href=\"https://html.spec.whatwg.org/multipage/\">h​t​t​p​s​:​/​/​h​t​m​l​.​s​p​e​c​.​w​h​a​t​w​g​.​o​r​g​/​m​u​l​t​i​p​a​g​e​/</a>. Zugriff: 19.08.2026.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "online",
+        "fields": {
+          "type": "Living Standard",
+          "title": "{{HTML}} Standard",
+          "author": "{WHATWG}",
+          "date": "2026-08-18",
+          "publisher": "WHATWG",
+          "url": "https://html.spec.whatwg.org/multipage/",
+          "urldate": "2026-08-19"
+        }
+      },
+      "id": "bib-whatwgHTMLStandard2026",
+      "text": "WHATWG (2026). HTML Standard. Stand: 18.08.2026. https://html.spec.whatwg.org/multipage/. Zugriff: 19.08.2026."
+    },
+    {
+      "key": "zamfirescu-pereiraWhyJohnnyCant2023",
+      "author": "Zamfirescu-Pereira, J.D.; Wong, Richmond Y.; Hartmann, Bjoern; Yang, Qian",
+      "year": "2023",
+      "html": "Zamfirescu-Pereira, J.D.; Wong, Richmond Y.; Hartmann, Bjoern; Yang, Qian (2023). Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts. In: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, S. 1–21. ACM. DOI: <a class=\"bibliography-link\" href=\"https://doi.org/10.1145/3544548.3581388\">10.1145/3544548.3581388</a>.",
+      "origin": "references/library.bib",
+      "record": {
+        "type": "inproceedings",
+        "fields": {
+          "title": "Why {{Johnny Can}}’t {{Prompt}}: {{How Non-AI Experts Try}} (and {{Fail}}) to {{Design LLM Prompts}}",
+          "booktitle": "Proceedings of the 2023 {{CHI Conference}} on {{Human Factors}} in {{Computing Systems}}",
+          "author": "Zamfirescu-Pereira, J.D. and Wong, Richmond Y. and Hartmann, Bjoern and Yang, Qian",
+          "date": "2023-04-19",
+          "pages": "1--21",
+          "publisher": "ACM",
+          "doi": "10.1145/3544548.3581388",
+          "url": "https://doi.org/10.1145/3544548.3581388",
+          "eventtitle": "{{CHI}} '23"
+        }
+      },
+      "id": "bib-zamfirescu-pereiraWhyJohnnyCant2023",
+      "text": "Zamfirescu-Pereira, J.D.; Wong, Richmond Y.; Hartmann, Bjoern; Yang, Qian (2023). Why Johnny Can’t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts. In: Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, S. 1–21. ACM. DOI: 10.1145/3544548.3581388."
+    }
+  ],
+  "font_size_pt": 6,
+  "baseline_rows": 102,
+  "style": "author-year, complete names, German labels; project style, not a mandated CSL style",
+  "inputs": {
+    "references/library.bib": "e65324a23938f6fcdf33be8445ddb111fd114ba913556a7bceeb02f075714c52",
+    "references/manual.bib": "d6d541423e5a46cfe15067ab7ec815355e36c515d4876c395c69fc63d372d2aa",
+    "research/import-records/physical-and-speech-text-entry-c041-c042.bib": "d8f20cb28bc74cf8d127dda4dc90d3e4190204195e91b48a9722b1fcdfd7d291",
+    "research/import-records/norman-2008-signifiers.bib": "d6422f5318a528158ade5eb6de5873850c74f0da50b8c19370fb1e5838bffc3e",
+    "thesis/text/source/additional-records.bib": "fea1ef1d3b3f7cb572e3f7d06e1ff839c6daacf130761c622283993db9d5ad75",
+    "ai-documentation/model-register.json": "4472ae7102c7e92e941bfa7327874446382cafb26643a77608c29ab4215523f5"
+  }
+}

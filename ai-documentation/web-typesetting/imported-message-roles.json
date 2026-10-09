@@ -1,0 +1,94 @@
+{
+  "scope": "Display annotations for supplied ChatGPT text without machine-readable roles. Boundaries are editorial readings of the preserved text, not original platform metadata. System labels assistant output, not hidden system prompts. No missing messages are reconstructed. Unattributed draft/feedback material remains unclassified.",
+  "archives": {
+    "CGPT-01": {
+      "transcript": "ai-documentation/archive/cgpt-01-transcript.txt",
+      "transcript_sha256": "e0a1501eec9a5aca44b638795c5e083edf8d2611f128b51b23a6710d3823c5dc",
+      "boundaries": [
+        {
+          "start_line": 7,
+          "role": "user",
+          "starts_with": "Ich muss meine Masterarbeit schreiben und schreibe sie zu dem Thema \"I"
+        },
+        {
+          "start_line": 21,
+          "role": "assistant",
+          "starts_with": "8m 8s nachgedacht"
+        },
+        {
+          "start_line": 669,
+          "role": "user",
+          "starts_with": "ok vielleicht sollte ich das themenfeld erweitern. es geht nicht nur u"
+        },
+        {
+          "start_line": 676,
+          "role": "assistant",
+          "starts_with": "5m 2s nachgedacht"
+        },
+        {
+          "start_line": 1070,
+          "role": "user",
+          "starts_with": "ok ich würde jedoch gerne schon auch den historischen Kontext deutlich"
+        },
+        {
+          "start_line": 1075,
+          "role": "assistant",
+          "starts_with": "3m 2s nachgedacht"
+        }
+      ]
+    },
+    "CGPT-02": {
+      "transcript": "ai-documentation/archive/cgpt-02-transcript.txt",
+      "transcript_sha256": "b77942e67a14a98e300d2f821eda73332738a7003b72382dc65b45a871c82224",
+      "boundaries": [
+        {
+          "start_line": 7,
+          "role": "user",
+          "starts_with": "wie finde ich am besten quellen zu meinem Thema der Masterarbeit. Goog"
+        },
+        {
+          "start_line": 9,
+          "role": "assistant",
+          "starts_with": "5m 8s nachgedacht"
+        }
+      ]
+    },
+    "CGPT-03": {
+      "transcript": "ai-documentation/archive/cgpt-03-transcript.txt",
+      "transcript_sha256": "9922393c53dccd8dbeef4f9d690678f033d9d259fdbf64f1dc3d915aee756d40",
+      "boundaries": [
+        {
+          "start_line": 7,
+          "role": "assistant",
+          "starts_with": "Researchplan für die Masterarbeit"
+        }
+      ]
+    },
+    "CGPT-04": {
+      "transcript": "ai-documentation/archive/cgpt-04-current-draft-and-steyerl-conversation-transcript.txt",
+      "transcript_sha256": "3672f7130c7a0317e72aa7c139a6888ab5d64023b221c6dca6efa0ac3ac319d6",
+      "boundaries": [
+        {
+          "start_line": 7,
+          "role": "user",
+          "starts_with": "Interaction"
+        },
+        {
+          "start_line": 129,
+          "role": "assistant",
+          "starts_with": "Wenn man deinen Abschnitt durch Hito Steyerls Denken liest – ohne ihr "
+        },
+        {
+          "start_line": 280,
+          "role": "user",
+          "starts_with": "Und ich bin aber auch immer noch so ein bisschen unschlüssig."
+        },
+        {
+          "start_line": 290,
+          "role": "assistant",
+          "starts_with": "Ich glaube, dein eigentliches Problem ist weniger die Anzahl der"
+        }
+      ]
+    }
+  }
+}

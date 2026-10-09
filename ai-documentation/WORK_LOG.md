@@ -422,3 +422,258 @@ This log records the production process of the Master's thesis *Input*. Archive 
 | W-227 | 2026-10-05 | Tim Ballaschke + AI | Increased AI-documentation page numbers to 10 pt, retaining 8 mm bottom position | P-0209; 522 pages and all text/link positions retained; sampled footer size/position verified, browser cache refreshed; no PDF export | CDX-05; ai-documentation/web-typesetting/document.css; output/ai-documentation-web/verification.json |
 
 | W-228 | 2026-10-05 | Tim Ballaschke + AI | Set AI-documentation line numbers and message headers to 30% grey, retaining black running text/footer | P-0210; all 2,437 header classes and sampled colors checked; 522 pages and link positions retained; browser updated, no PDF export | CDX-05; ai-documentation/web-typesetting/document.css; ai-documentation/web-typesetting/build.mjs; output/ai-documentation-web/verification.json |
+
+| W-229 | 2026-10-06 | Tim Ballaschke + AI | Set thesis source leading to three quarters of the body leading and align source glyph baselines/block heights to the body grid | P-0211; 7 pt / 9.793 pt sources, unchanged 10 pt / 13.058 pt body; 24 pages, 1,700 body/108 source lines and all 89 links retained; all 13 source grids checked within 0.05 mm; page 05 column bottoms now match; no PDF export | CDX-06; thesis/typesetting-compat/layout-results.json; current technical archive outside historical AI browser edition |
+
+| W-230 | 2026-10-06 | Tim Ballaschke + AI | Expand only the following subsection gap to regain the baseline grid | P-0212; six body rows minimum plus 0–0.75 row, never reduced; current combined-layout audit closes verification; parallel source optical-margin change preserved; no PDF export | CDX-06; thesis/typesetting-compat/compose.js; thesis/typesetting-compat/print.css; layout-results.json |
+
+| W-231 | 2026-10-06 | Tim Ballaschke + AI | Align justified thesis sources by actual Arketa glyph contours and fractional column width | P-0213; 13 blocks/96 justified rows checked, max right-edge error 0.022 mm; 24 pages, unchanged 1,700 body lines, 109 source lines and all 89 scholarly links/texts preserved; no PDF export | CDX-07; source_plugin_adapter.py; audit_source_edges.mjs; source-optical-results.json |
+
+| W-233 | 2026-10-06 | Tim Ballaschke + AI | Set body source calls as bracketed 7 pt labels, centered in the body line | P-0215; all 89 canonical call/source pairs retained; actual small-label widths are measured before line breaking; original manuscript and plugin files unchanged; current combined browser QA closes the event; no PDF export | CDX-06; inline_call_adapter.py; compose.js; print.css; layout-results.json |
+
+| W-234 | 2026-10-06 | Tim Ballaschke + AI | Apply the same contour-based Arketa margin alignment to AI documentation and regenerate dependent thesis page/line references | P-0216; 368 pages, 34 archive texts/checksums and all targets checked; 6,515 sampled prose edges, max error 0.008 mm; 744 thesis ranges refreshed with unchanged body/source composition and 89 scholarly links; no PDF export | CDX-07; ai-documentation/web-typesetting; output/ai-documentation-web/verification.json; thesis/typesetting-compat/layout-results.json |
+
+| W-235 | 2026-10-06 | Tim Ballaschke + AI | Remove whitespace before inline bracketed source calls so they attach directly to the preceding word | P-0217; all 89 calls have no leading space or detached line-start call; 7 pt size, centering, links and full prose/grid audit pass on 28 pages; parallel source/AI typography preserved; no PDF export | CDX-06; prepare_test.py; audit_browser.mjs; layout-results.json |
+
+
+| W-235 | 2026-10-06 | Tim Ballaschke + AI | Indent complete User paragraphs by 10% of usable text width and display light-grey User/System headings; annotate clear speaker sections in the first four supplied imports separately | P-0217; 375 pages, all original texts/checksums, 2,450 headings and 57,439 canonical source references verified; 64 page geometries, 755 dependent thesis ranges and 89 scholarly links pass; existing preview refreshed; no PDF export | CDX-08; imported-message-roles.json; output/ai-documentation-web/verification.json; thesis/typesetting-compat/layout-results.json |
+
+| W-236 | 2026-10-06 | Tim Ballaschke + AI | Set AI documentation in Flattersatz and refresh dependent thesis page/line positions | P-0218; 383 pages, all texts/checksums/targets and unstretched word spaces verified; 65 geometry pages, 6,496 prose edges and browser/print navigation pass; 789 thesis ranges updated and current 28-page combined layout checked; no PDF export | CDX-07; ai-documentation/web-typesetting; output/ai-documentation-web/verification.json; thesis/typesetting-compat/layout-results.json |
+
+| W-237 | 2026-10-06 | Tim Ballaschke + AI | Match the visible gap before inline source calls to the gap between closing bracket and period | P-0219; measured Arketa sidebearings set per-call margins reserved during line breaking; all 89 gap comparisons pass within 0.039 mm; font, centering, links and complete prose/grid audit pass; 28 pages, no PDF export | CDX-06; inline_call_adapter.py; compose.js; print.css; audit_browser.mjs; layout-results.json |
+
+| W-239 | 2026-10-06 | Tim Ballaschke + AI | Added a full alphabetic literature/source bibliography after Schluss, with a separate title page and the established two-column Arketa 6 pt design | P-0221; 35 cited works plus AI documentation, 160 complete rows on one page, metadata/key/link/geometry checks and visual review pass; initial complete 30-page audit passed, later parallel case-bracket edition has 31 pages with separate body-grid QA open; no PDF export | CDX-08; bibliography.py, bibliography.json, audit_bibliography.mjs, bibliography-results.json |
+
+| W-240 | 2026-10-06 | Tim Ballaschke + AI | Create a separate A6 template for Input/name, five chapter leaves and a blank closing leaf; check title-page guidance | P-0222; Arketa 10 pt / 0.6 em; all dimensions, centering and text fit checked, seven native print-preview pages; physical print not tested; no PDF export | CDX-09; thesis/chapter-sheets/README.md; layout-results.json; output/chapter-sheets/preview.jpg |
+
+| W-241 | 2026-10-06 | Tim Ballaschke + AI | Add exact three-star rows around all A6 title blocks and track the two-line Input/name block | P-0223; 12 star rows, one blank row on both sides, complete blocks centered within 0.01 mm, all titles/name fit; browser refreshed; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json; output/chapter-sheets/preview.jpg |
+
+| W-242 | 2026-10-06 | Tim Ballaschke + AI | Place the tracked author below and outside the A6 title-star frame | P-0224; title remains centered, one blank row below lower stars, name fits; preview and screenshot refreshed; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json |
+
+| W-243 | 2026-10-06 | Tim Ballaschke + AI | Discuss Master-Thesis label and front/reverse title-page information | P-0225; HFBK terminology rechecked, recommendation distinguished from mandatory requirements; no template edit or PDF export | CDX-09; official 2021 HFBK examination regulations and 2024 registration form |
+
+| W-244 | 2026-10-06 | Tim Ballaschke + AI | Display the A6 title-leaf author as Tim Ballaschke rather than all capitals | P-0226; normal case, tracking and below-star placement checked; preview refreshed; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json |
+
+| W-245 | 2026-10-06 | Tim Ballaschke + AI | Remove the star rows from the separate A6 leaves again | P-0227; zero star rows, centered title, normally capitalized tracked name with one blank row below; preview checked; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json |
+
+| W-246 | 2026-10-06 | Tim Ballaschke + AI | Confirm seven portrait A6 leaves and browser-parsed A6 print-page dimensions | P-0228; 105 × 148 mm in content and @page, zero print margins; preview refreshed; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json |
+
+| W-247 | 2026-10-06 | Tim Ballaschke + AI | Remove name tracking and double INPUT tracking to 1.2 em | P-0229; computed spacing, 10 pt sizes and text fit verified; chapter headings retain 0.6 em; A6 preview refreshed; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json |
+
+| W-238 | 2026-10-06 | Tim Ballaschke + AI | Use native Arketa case-sensitive brackets in body calls and matching source labels, remeasure centering and spacing | P-0220; all 89 pairs pass at 7 pt, max center/gap errors 0.005/0.039 mm; unchanged body/source wrapping; oversized notices continue at grid-safe boundaries; full combined audit passes on 36 pages, preserving parallel AI references and bibliography; no PDF export | CDX-06; print.css; compose.js; inline_call_adapter.py; audit_browser.mjs; layout-results.json |
+
+| W-248 | 2026-10-06 | Tim Ballaschke + AI | Add one star row between INPUT and the name and center the full five-row block | P-0230; both one-row gaps and full-block midpoint verified within 0.002 mm; Input tracking and normal name retained; A6 preview refreshed; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json |
+
+| W-249 | 2026-10-06 | Tim Ballaschke + AI | Set single title tracking to one actual Arketa space | P-0231; 0.65 em / 8.66667 px, measured space difference below 0.00005 px; normal name and centered A6 block retained; no PDF export | CDX-09; thesis/chapter-sheets/layout-results.json |
+
+| W-250 | 2026-10-06 | Tim Ballaschke + AI | Set thesis page numbers, scholarly sources, inline labels and thesis AI notices to 6 pt | P-0232; retained three-quarter body leading, case brackets and expanding gaps; current browser geometry/whole-text verification closes this event; no PDF export | CDX-06; print.css; compose.js; prepare_test.py; audit_browser.mjs; layout-results.json |
+
+| W-251 | 2026-10-06 | Tim Ballaschke + AI | Verify HFBK AI disclosure requirements and expand the bibliography entry with AI use, ChatGPT/Codex and exact archived model identifiers | P-0233; six evidenced identifiers, CGPT-01–04 missing metadata explicit; 36 complete entries on two 6 pt columns/pages; metadata/link/geometry and full current 32-page prose/grid/source audits pass; no PDF export | CDX-08; model-register.json; build_model_register.py; bibliography.json; bibliography-results.json |
+
+| W-252 | 2026-10-06 | Tim Ballaschke + AI | Restore 10 pt page numbers on every thesis page, including title and bibliography | P-0234; all 31 rendered counters checked at 10 pt, lower margin 8 mm and complete layout/text/link audits pass; other text sizes retained; no PDF export | CDX-08; print.css; prepare_test.py; layout-results.json |
+
+| W-253 | 2026-10-06 | Tim Ballaschke + AI | Optically center the star row between INPUT and Tim Ballaschke on the A6 cover | P-0235; 0.18 em correction, shared horizontal axis, visible midpoint within rasterization tolerance and full-block center within 0.005 mm; no PDF export | CDX-09; thesis/chapter-sheets/chapter-sheets.css; layout-results.json; output/chapter-sheets/preview.jpg |
+
+| W-254 | 2026-10-06 | Tim Ballaschke + AI | Rename the main-thesis and A6 bibliography titles to Bibliography | P-0236; canonical generator, current HTML, manifests and retained LaTeX aligned; both browser headings checked; 36 entries preserved and seven A6 leaves retained; no PDF export | CDX-09; bibliography.py; thesis/main.tex; chapter-sheets/template.html; bibliography-heading-results.json |
+
+| W-255 | 2026-10-06 | Tim Ballaschke + AI | Try the A6 cover with doubly tracked INPUT and numbered Surface / Interaction / Operation between star rows | P-0237; 19-row centered block, one blank row between content lines, Arabic numbers without periods, normal name; browser fit/centering and screenshot checked; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; cover-overview-results.json; output/chapter-sheets/preview.jpg |
+
+| W-256 | 2026-10-06 | Tim Ballaschke + AI | Place each A6 cover chapter number before its name on one line, with no blank rows between chapters | P-0238; literal single-space separators, three consecutive rows, fit and vertical centering checked; preview screenshot updated; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; cover-overview-results.json |
+
+| W-257 | 2026-10-06 | Tim Ballaschke + AI | Remove the trial A6 chapter overview and restore title / star row / name | P-0239; single star row, blank rows and centered five-row block checked; INPUT double tracking retained; seven leaves; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; layout-results.json; output/chapter-sheets/preview.jpg |
+
+| W-258 | 2026-10-06 | Tim Ballaschke + AI | Apply a column-relative 10% ragged zone, irregular alternating 98–100% / 90–92% targets, and preserve active tracking/scaling | P-0240; 28 pages, 1,691 body rows, all prose/89 links/15 AI notices/36 bibliography entries and grid checks pass; two 48 px annotation exceptions disclosed; browser refreshed; no PDF export | thesis/typesetting-compat/compose.js; print.css; ragged-profile-results.json; layout-results.json |
+
+| W-259 | 2026-10-06 | Tim Ballaschke + AI | Limit thesis word divisions to two consecutive hyphen-ending lines and verify actual rendered paragraphs | P-0241; all 163 body/bibliography paragraphs comply, 28 pages and 1,689 body rows; narrow paragraphs get disclosed wider zones; all prose/links/grid/source/bibliography checks pass; concurrent annotation flow preserved; no PDF export | thesis/typesetting-compat/compose.js; audit_browser.mjs; hyphenation-results.json; layout-results.json |
+
+| W-260 | 2026-10-06 | Tim Ballaschke + AI | Restore three consecutive word divisions | P-0242; all 163 rendered paragraphs comply, 28 pages / 1,691 body rows; regular 10% body zone, complete text/link/grid/bibliography checks pass; native boundary margin handled in audit; browser updated; no PDF export | compose.js; audit_browser.mjs; hyphenation-results.json |
+
+| W-261 | 2026-10-07 | Tim Ballaschke + AI | Add an A6 title leaf for KI-Dokumentation after Bibliography | P-0243; two-line tracked 10 pt heading, vertical centering and binding-safe fit verified; eight leaves; screenshot saved; no PDF export | CDX-09; chapter-sheets/template.html; ki-documentation-results.json; output/chapter-sheets/ki-documentation.jpg |
+
+| W-262 | 2026-10-07 | Tim Ballaschke + AI | Advise on front/reverse title-page information using official HFBK documents | P-0244; no explicit title-page checklist in the checked regulations/form; recommendation only, no template change or PDF export | CDX-09; PROCESS_LOG.md; official HFBK regulations and registration form |
+
+| W-263 | 2026-10-07 | Tim Ballaschke + AI | Set the A6 cover to Input, one blank row and uppercase Tim Ballaschke; double the previous Input tracking | P-0245; 2.6 em tracking, no stars, untracked uppercase name; fit and vertical centering verified in browser; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; layout-results.json; output/chapter-sheets/title-page.jpg |
+
+| W-264 | 2026-10-07 | Tim Ballaschke + AI | Retain the 10% thesis ragged zone and reduce both variances from 2% to 1% for a more regular long–short rhythm | P-0246; 99–100% / 90–91% targets, 28 pages / 1,688 body rows; full text/link/grid/hyphen/source/bibliography checks pass; pages 4 and 7 visually checked; preview updated; no PDF export | thesis/typesetting-compat/compose.js; ragged-profile-results.json; hyphenation-results.json; layout-results.json |
+
+| W-265 | 2026-10-07 | Tim Ballaschke + AI | Add Master Thesis above the author on its own A6 title-page line; request exact university wording | P-0247; four-row block, fit and vertical centering checked; university line pending; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; layout-results.json; output/chapter-sheets/title-page.jpg |
+
+| W-266 | 2026-10-07 | Tim Ballaschke + AI | Restore a star row with surrounding blank rows on the A6 cover and uppercase Master Thesis | P-0248; six-row block, star-row centering, font and fit checked in browser; proof saved; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; layout-results.json; output/chapter-sheets/title-page.jpg |
+
+| W-267 | 2026-10-07 | Tim Ballaschke + AI | Try INPUT / MASTER THESIS / TIM BALLASCHKE as three consecutive A6 cover lines | P-0249; stars and blank rows removed; three-row spacing, fit and vertical centering verified; proof saved; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; layout-results.json; output/chapter-sheets/title-page.jpg |
+
+| W-268 | 2026-10-07 | Tim Ballaschke + AI | Mirror the AI-documentation text frame and 10 pt footer for duplex printing with left binding | P-0250; 30 mm inside / 8 mm outside, all 383 global page sides and 66 geometries checked; exact page HTML/target/archive mappings preserved; facing-page proof and preview updated; no PDF export | CDX-08; duplex.css; preview.js; print.html; verification.json |
+
+| W-269 | 2026-10-07 | Tim Ballaschke + AI | Center Input like the chapter headings, move uppercase author to the bottom with 8 mm clearance, and remove Master Thesis | P-0251; vertical heading alignment, bottom gap and fit verified in browser; proof saved; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; layout-results.json; output/chapter-sheets/title-page.jpg |
+
+| W-270 | 2026-10-07 | Tim Ballaschke + AI | Add Matr.-Nr. 2455025 to the mirrored A6 title reverse and prepare title-pair printing | P-0252; exact text, font, fit, centering and DOM print order checked; eight leaves/nine faces; dialog page counts unverified; no PDF export or print job | CDX-09; chapter-sheets/template.html; chapter-sheets.css; title-back-results.json; output/chapter-sheets/title-front-back.jpg |
+
+| W-271 | 2026-10-07 | Tim Ballaschke + AI | Set Master Thesis at the top with 8 mm clearance matching the author below | P-0253; equal margins, centering and fit checked in browser; meaning of in Poetry pending; proofs saved; no PDF export | CDX-09; chapter-sheets/template.html; chapter-sheets.css; layout-results.json; output/chapter-sheets/title-page.jpg |
+
+| W-272 | 2026-10-07 | Tim Ballaschke + AI | Start every physical thesis column flush left, including new paragraphs; retain internal paragraph indents | P-0254; 112 position checks pass, four column openings corrected; live preview cache refreshed; page 6 verified; no PDF export | CDX-08; compose.js; paginated-flow.mjs; preview.js; layout-results.json; output/thesis-web/qa/column-start-06.png |
+
+| W-273 | 2026-10-07 | Tim Ballaschke + AI | Fill the last body row before preventing a single paragraph closing line after a break | P-0255; page 7 columns aligned within 0.0083 mm; 28 pages; text/line breaks unchanged; full audits pass; preview fragment navigation fixed and verified; no PDF export | CDX-08; print.css; compose.js; check_browser.mjs; preview.js; layout-results.json; output/thesis-web/qa/filled-column-07.png |
+
+| W-274 | 2026-10-07 | Tim Ballaschke + AI | Record page-base tracking plus small offsets, then reapply the existing ragged-text variation and inspect the resulting breaks | P-0256; +5/1000 em provisional pending unit clarification; ±10/1000 em remains relative to the chosen base; individual-line changes last; current print layout unchanged | CDX-08; typesetting-compat/README.md; PROJECT_BRIEF.md |
+
+| W-275 | 2026-10-07 | Tim Ballaschke + AI | Export the A6 title/chapter leaves as an A4 PDF with crop marks and complete duplex pairs | P-0257; 16 page faces/eight leaves, exact A4/A6 boxes, text/order, embedded font and crop marks verified; all pages rendered/reviewed; explicitly requested PDF export | CDX-09; chapter-sheets/export_pdf.py; pdf-export-results.json; output/pdf/input-a6-schnittmarken.pdf |
+
+| W-276 | 2026-10-07 | Tim Ballaschke + AI | Remove upper Master Thesis and reduce the A6 author bottom clearance to 6 mm | P-0258; browser gap 5.9986 mm, preview and authorized PDF updated; all 16 PDF faces checked and visually reviewed | CDX-09; chapter-sheets/template.html; chapter-sheets.css; pdf-export-results.json; output/pdf/input-a6-schnittmarken.pdf |
+
+| W-277 | 2026-10-07 | Tim Ballaschke + AI | Set mixed-case author and move Matr.-Nr. 2455025 directly below on the title front | P-0259; two-line footer, 6 mm lower clearance; reverse blank; preview and PDF checked | CDX-09; chapter-sheets/template.html; chapter-sheets.css; pdf-export-results.json; output/pdf/input-a6-schnittmarken.pdf |
+
+| W-278 | 2026-10-07 | Tim Ballaschke + AI | Omit the blank row before sources at a new page or column, retaining the regular within-column separator | P-0260; two source openings on pages 5/11 have zero margin and exact first baseline; full audits pass; stylesheet cache revision and live preview verified; no PDF export | CDX-08; print.css; prepare_test.py; check_browser.mjs; audit_browser.mjs; output/thesis-web/qa/source-column-start-05.png |
+
+| W-279 | 2026-10-07 | Tim Ballaschke + AI | Restore registration to reverse aligned with the front author at the bottom | P-0261; zero vertical difference, 6 mm bottom clearance; preview and PDF checked | CDX-09; chapter-sheets/template.html; chapter-sheets.css; title-back-results.json; output/pdf/input-a6-schnittmarken.pdf |
+
+| W-280 | 2026-10-07 | Tim Ballaschke + AI | Avoid a lone final word fragment in the paragraph beginning Dabei lassen sich | P-0262; current paragraph 74 already ends with ständigen technischen Eingabe.; page 17 live-verified; targeted tracking correction criterion recorded; no extra tracking or PDF export | CDX-08; typesetting-compat/README.md; output/thesis-web/qa/paragraph-ending-074.png |
+
+| W-281 | 2026-10-07 | Tim Ballaschke + AI | Allow the last body row to finish before the annotation separator moves to the next page | P-0263; targeted sind. boundary case reproduced and corrected; 29 pages / 1,715 body rows, all text/link/grid/hyphen/source/bibliography checks pass; live paragraph 122 checked; no PDF export | CDX-08; thesis/typesetting-compat/print.css; body-note-break-results.json; output/thesis-web/qa/closing-line-and-notes.png |
+
+| W-282 | 2026-10-07 | Tim Ballaschke + AI | Set printed source and AI notices to 1.2 leading; retain the previous request to avoid the lone final syllable in paragraph 74 | P-0264; 6 pt font / 7.2 pt leading; 27-page shared edition, all audits pass, body grid and 10 pt footers retained; paragraph 74 base −0.002 em now ends Eingabe.; no PDF export | CDX-08; typesetting-compat/print.css; compose.js; paginated-flow.mjs; audit_browser.mjs; paragraph-settings.json; output/thesis-web/qa/citation-leading-1-2-page-06.png |
+
+| W-282 | 2026-10-07 | Tim Ballaschke + AI | Fit all 36 bibliography entries on one content page using a −15 InDesign tracking base with ±10 variation | P-0264; 162 bibliography rows, 6 pt and existing leading/gaps retained; all text/link/grid/hyphen/source/bibliography checks pass; concurrent body tracking retained; preview refreshed; no PDF export | CDX-08; thesis/typesetting-compat/compose.js; bibliography-fit-results.json; output/thesis-web/qa/bibliography-one-page.png |
+
+| W-283 | 2026-10-07 | Tim Ballaschke + AI | Synchronize printed AI documentation page/line notices with their preview targets | P-0265; existing numeric labels already current; added refresh before every composition, edition-bound URLs and no-store loaders; all 343 labels / 686 visible endpoints checked, actual thesis link opens page 5 / row 942; all documentation/layout audits pass, no PDF | CDX-08; refresh_ai_notices.py; ai_notices.py; audit_ai_references.mjs; ai-reference-results.json; output/thesis-web/qa/ai-reference-target-page-05.png |
+
+## W-284 — 2026-10-07 — Body-to-annotation separators only within one column
+
+Implemented Tim’s conditional separator rule in physical pagination: omit
+the stars and leading blank rows across a page/column boundary, retain the
+observed break and keep the separator within a shared column. All 15 ends
+checked (14 retained, Schluss omitted); unchanged text and horizontal breaks.
+Full browser, source and bibliography audits pass; 28 pages, 36 bibliography
+entries on one page. Visual checks: pages 6 and 26; live preview refreshed.
+P-0266; body-note-separator-results.json; no PDF export.
+
+## W-285 — 2026-10-07 — FTC paragraph without a lone “den.”
+
+Applied a −16 InDesign-unit paragraph base with relative ±10 variation.
+This is the first successful negative integer trial; 17 instead of 18 rows
+end with “Daten anschließend verwendet werden.”. Compensated body tracking
+in the source-call gap and retained natural closing-row diagnostics.
+Concurrent paragraph 38/41 corrections retained; this task changes only
+paragraph 116. Full browser/source/bibliography audits pass; current page
+22 visually checked and preview refreshed. P-0267;
+ftc-paragraph-tracking-results.json; no PDF export.
+
+## W-286 — 2026-10-07 — Paragraph 109 without a standalone “gilt.”
+
+Applied −4 InDesign units with relative ±10 variation; 17 instead of 18
+rows end with “als geeignet oder erwünscht gilt.”. This is the first tested
+negative integer base that saves a complete row. All other body breaks,
+annotation/bibliography lines, text and links remain. Current 27-page
+browser/source/bibliography audits pass; page 21 visually checked, preview
+refreshed. P-0268; gilt-paragraph-tracking-results.json; no PDF export.
+
+## W-287 — 2026-10-07 — General minimum width for paragraph endings
+
+Added the normal four-character indent plus three character advances as a
+hard body closing-line constraint. Source labels are excluded; suppressed
+opening indents keep the normal reference. All 127 physical closing rows
+pass independent measurement. Sixteen paragraphs reflow, with unchanged
+tracking bases/ranges and glyph-scale bounds. One paragraph uses the existing
+40 px ragged retry. Full text/link/browser/source/bibliography checks pass;
+current page 11 visually checked and preview refreshed. P-0269;
+paragraph-ending-rule-results.json; no PDF export.
+
+## W-288 — 2026-10-07 — A complete word in each subchapter's last body row
+
+Added the complete-word minimum to the final paragraphs of all 13 headed
+subchapters, retaining the existing general minimum width. Whole-word spans
+in the unbroken manuscript independently verify the printed endings; a lone
+continuation, source label or punctuation cannot satisfy the rule. Paragraph
+62 alone reflows, now ending “vorschlagen[46].” in the same 11 rows. Full
+browser/source/bibliography audits and nine word-boundary cases pass; 27 pages,
+1,704 body rows, all text, links and existing spacing bounds retained. Page 14
+visually checked and live preview refreshed. P-0270;
+subchapter-ending-rule-results.json; no PDF export.
+
+| W-289 | 2026-10-08 | Tim Ballaschke + AI | Center DOKUMENTATION at the single-line chapter height with KI- above | P-0271; browser alignment verified; 16-face crop-mark PDF regenerated and checked | CDX-09; chapter-sheets/template.html; chapter-sheets.css; ki-documentation-results.json; output/pdf/input-a6-schnittmarken.pdf |
+
+
+## W-290 — 2026-10-08 — Remove the first User message from the visible edition
+
+Added an exact, checksum-bound display exclusion for the unreferenced opening
+CGPT-01 User message. Preparation rejects overlaps with curated citations;
+verification confirms the omission and checks all retained text. Original
+archives and historical LaTeX/PDF remain intact. Rebuilt the 383-page HTML
+edition and refreshed all 343 thesis ranges; all 686 visible endpoints and
+full browser/source/bibliography audits pass. Existing body/source/bibliography
+composition is exact. Live previews refreshed and first page visually checked.
+The later quoted repetition is unchanged pending Tim's answer. P-0272;
+opening-message-exclusion-results.json; no PDF export.
+
+## W-291 — 2026-10-08 — Authorised proofreading and six paragraph endings
+
+Corrected “digitalen Systemen”, the stray closing quotation mark in paragraph
+71 and the duplicate period at paragraph 111's source call. Preserved the
+“sachliche Aufforderung” wording and made no substantive introduction change.
+Applied six hash-bound local tracking bases to paragraphs 6, 63, 88, 92, 110
+and 111; each now ends with a complete word. All other body breaks and all
+source/AI/bibliography lines remain. Full browser/source/bibliography and
+AI-reference audits pass: 27 pages, 1,701 body rows, 89 source calls and
+343 AI ranges with 686 visible endpoints. Six affected pages visually checked;
+preview refreshed. Original Pages and plugin unchanged. P-0273;
+proofreading-results.json; no PDF export.
+
+## W-292 — 2026-10-08 — Pull “erfüllt ist” back to the left column
+
+Applied −17 InDesign units with relative ±10 variation to paragraph 63 on
+page 14. Ten instead of eleven rows retain the complete final word
+“Reformulierung”, freeing one row for paragraph 65's unchanged ending.
+“Erfüllt ist” now remains wholly in the left column; the right starts with
+“Bei Suchergebnissen …”. All other body breaks and all source/AI/bibliography
+composition remain. Full browser/source/bibliography/AI-reference audits pass:
+27 pages, 1,700 body rows. Pages 14–15 visually checked and preview refreshed.
+Original Pages and plugin unchanged. P-0274; erfuellt-column-results.json;
+no PDF export.
+
+## W-293 — 2026-10-08 — More text beside five isolated closing words
+
+Tim preferred wider tracking for the final thesis row and identified further
+single-word endings on pages 20 and 22. Applied local positive bases to
+paragraphs 102 (+17), 105 (+6), 107 (+13), 117 (+11) and 127 (+36 InDesign
+units), each with relative ±10 variation. Each closing row now includes
+an additional word or continuation, at the same paragraph row count.
+All other body breaks, manuscript text and source/AI/bibliography composition
+remain. Full browser/source/bibliography/AI-reference audits pass: 27 pages,
+1,700 body rows; pages 20, 22 and 25 visually checked and preview refreshed.
+Original Pages and plugin unchanged. P-0275; single-word-ending-results.json;
+no PDF export.
+
+## W-294 — 2026-10-08 — Native upper position for gender asterisks
+
+Removed the custom x-height-centre shift from all 84 gender asterisks.
+U+002A retains native Arketa position, text baseline, font size and advance.
+Updated the layout policy and independent rendered audit to verify no offset
+and ink above the lowercase centre. All body/source/AI/bibliography composition
+is exact; full audits pass: 27 pages, 1,700 body rows. Pages 2, 20 and 25
+visually checked and preview refreshed. Original Pages and plugin unchanged.
+P-0276; native-gender-star-results.json; no PDF export.
+
+## W-295 — 2026-10-08 — Digital and print thesis PDF editions
+
+Exported the authorised digital edition with chapter/bibliography title pages
+(27 pages) and print edition without those six pages (21 pages, renumbered
+01–21). All content geometry and 2,191 text rows per edition match the frozen
+browser composition. Every page number, embedded Arketa glyph program,
+84 native gender stars and all 178 internal links pass PDF checks. Print
+destinations map correctly; all AI URLs are retained with their local HTML
+targets. All 48 pages rendered; six contact sheets and detailed sample pages
+visually checked. Canonical preview, original Pages and plugin unchanged.
+P-0277; pdf-export-manifest.json; pdf-variant-verification.json;
+output/pdf/Input_Digital_mit_Kapitelseiten.pdf;
+output/pdf/Input_Druck_ohne_Kapitelseiten.pdf. No physical print job.
+
+
+## W-296 — 2026-10-08 — PDF export of AI documentation and chapter leaves
+
+Exported the current 383-page AI print edition and the 16-face A6-on-A4
+chapter-leaf set on Tim's explicit request. Added complete named PDF targets
+for retained archive aliases/empty rows; all 72,664 numbered rows, 62,169
+PDF links and 686 thesis endpoint positions verify. Chapter text, A4/A6 boxes,
+128 native PDF cut marks at 0.25 pt and all rendered faces verify. Existing
+layout and initial message exclusion retained; both output PDFs visually
+checked. P-0278; output/pdf/input-ki-dokumentation.pdf;
+output/pdf/input-a6-schnittmarken.pdf.

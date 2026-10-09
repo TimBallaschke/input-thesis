@@ -6,6 +6,19 @@ This directory documents the use of text-generating AI in the production of the 
 
 The HFBK guidelines require the complete communication with a text-generating AI to be submitted in a separate file when AI output is used in the thesis. Verbatim and paraphrased AI-derived passages must cite that documentation with page and line references, and the documentation must appear in the bibliography.
 
+The April 2025 guideline was rechecked on 6 October 2026. It does not explicitly
+require a model/version list or prescribe the bibliography entry's wording.
+The thesis bibliography additionally identifies ChatGPT and Codex (OpenAI),
+the documented use and the exact model identifiers preserved in the archives.
+`model-register.json` records their provenance: ChatGPT provider metadata and
+Codex runtime model fields up to each archived transcript's export cutoff.
+CGPT-01–04 contain no preserved model metadata; no names are inferred for them.
+The register covers the historical communication archives in the browser edition;
+later technical documentation/layout chats remain separately archived.
+Rebuild with `python3 ai-documentation/scripts/build_model_register.py` when
+that archive scope changes (requires the original local Codex session metadata).
+The saved JSON can be used for typesetting without access to those session files.
+
 Official guideline: <https://hfbk-hamburg.de/media/pages/downloads/e3c1c3b7ec-1770132046/leitfaden_ai.pdf>
 
 ## Documentation layers
@@ -141,3 +154,74 @@ preserves all message text and regenerates current printed line numbers and
 register positions. Browser and fully loaded print HTML are checked; no PDF export.
 The candidate register shows those current printed ranges and hit positions;
 canonical historical line IDs are retained only as underlying identities.
+
+## Thesis source baseline correction, 6 October 2026
+
+CDX-06 preserves the visible communication for the new thesis-layout revision
+chat separately from the historical browser edition. P-0211 / W-229 records
+Tim's choice of source leading at three quarters of body leading and the
+verified baseline/block-height alignment. No thesis prose change or PDF export.
+
+
+## Thesis source contour correction, 6 October 2026
+
+CDX-07 preserves the visible communication for the source optical-margin
+correction separately from the historical browser edition. P-0213 / W-231
+records actual Arketa contour measurement and the paginated edge check.
+The original plugin file and thesis prose remain intact; no PDF export.
+
+
+P-0216 / W-234 extends the same Arketa contour correction to the historical
+browser edition, now 368 pages. The 34 archive texts/checksums and canonical
+identities are unchanged. Dependent thesis AI notices use regenerated printed
+page/line positions. CDX-07 remains a separate technical archive. No PDF export.
+
+
+## AI documentation User inset and display roles, 6 October 2026
+
+P-0217 / W-235 records the requested 10% inset of complete User paragraphs and
+light-grey User/System headings. System labels visible assistant replies only;
+original roles remain intact. The first four supplied imports have 13 separately
+recorded editorial role sections. The verified edition has 375 pages; all texts,
+archive hashes, canonical targets and dependent thesis references pass. CDX-08
+preserves the current technical chat outside the historical browser edition.
+No PDF export.
+
+
+## AI documentation Flattersatz, 6 October 2026
+
+P-0218 / W-236 records the requested ragged-right documentation. The verified
+383-page browser edition retains all original texts, archives and targets;
+User/System labels, the User inset and contour correction remain. The thesis
+uses 789 regenerated printed ranges. CDX-07 preserves this technical chat
+outside the historical edition. No PDF export.
+
+
+## Separate title and chapter leaves, 6 October 2026
+
+CDX-09 preserves the visible format-selection and A6-template conversation.
+P-0222 / W-240 documents the independent seven-leaf template, browser/print
+preview checks and bounded HFBK title-page advice. No thesis prose was drafted
+or changed. This technical archive remains outside the reproduced historical
+AI browser edition; no PDF export.
+
+
+## Duplex AI browser edition, 7 October 2026
+
+P-0250 / W-268 mirrors the 30 mm inside / 8 mm outside margins by global printed
+page parity in preview and print HTML. Page counters remain 10 pt; exact page
+content and all page/line/target mappings are retained. The fully loaded print
+HTML has 383 pages, intended for A4 / 100 percent / duplex on the long edge
+with browser headers/footers disabled. The historical PDF is unchanged.
+
+
+### Opening message omitted from the visible edition — 8 October 2026
+
+On Tim's request, the first User message in CGPT-01 is omitted from the HTML
+preview and print edition. Its 14 original lines have no curated thesis
+reference. The original archive and historical LaTeX/PDF remain intact. The
+following System reply starts at visible line 1; all retained rows and styles
+are preserved. The 383-page edition and all 343 thesis ranges (686 endpoints)
+are verified after refreshing the numeric labels. A later quotation remains
+unchanged pending Tim's answer. See web-typesetting/display-exclusions.json
+and opening-message-exclusion-results.json; no new PDF export.

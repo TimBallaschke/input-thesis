@@ -4,6 +4,534 @@
 
 This document records confirmed requirements for the Master's thesis. Items marked as open must be completed when the corresponding official information becomes available.
 
+Tim clarified that page numbers must remain 10 pt, including title and
+bibliography pages. This supersedes the page-number part of the intervening
+6 pt annotation update; the existing text sizes and page areas are retained.
+
+### Current AI-documentation and chapter-leaf PDF exports — 8 October 2026
+
+Tim requested both exports. The AI PDF contains the current 383-page HTML
+edition with the initial message exclusion, 6 pt body, 10 pt footers and
+duplex margins. Every numbered row, PDF link and all 686 thesis endpoint
+positions pass independent PDF checks. The chapter-leaf PDF contains 16 A4
+faces for eight A6 leaves with title reverse and cut marks; text, boxes and
+all faces verify. Native PDF paths ensure actual 0.25 pt cut marks. Print at
+100% with long-edge duplex. Files: output/pdf/input-ki-dokumentation.pdf and
+output/pdf/input-a6-schnittmarken.pdf. P-0278 / W-296; main thesis unchanged.
+
+### Two verified main-thesis PDF editions — 8 October 2026
+
+Tim requested digital and print exports. The digital edition has 27 pages
+with all six chapter/bibliography title pages; the print edition removes
+those six pages and numbers its 21 content pages from 01 to 21. Separate
+A6 divider sheets remain independent. All content geometry, 1,700 body,
+99 source, 230 AI and 162 bibliography rows are exact in both PDFs.
+All 178 internal links resolve with correctly remapped print destinations;
+all AI range URLs are retained and point to the local HTML documentation.
+Embedded vector Arketa glyphs, 84 native gender stars, A4 geometry and every
+page number pass. All 48 pages rendered; contact sheets and detailed samples
+visually checked. Canonical preview, original Pages and original plugin
+unchanged. P-0277 / W-295; pdf-export-manifest.json and
+pdf-variant-verification.json. Outputs: output/pdf/Input_Digital_mit_Kapitelseiten.pdf
+and output/pdf/Input_Druck_ohne_Kapitelseiten.pdf.
+
+### Native upper position for gender asterisks — 8 October 2026
+
+Tim requested ordinary high-positioned gender asterisks instead of lowercase
+x-height centring. Removed the custom vertical shift; U+002A now uses its
+native Arketa position on the same text baseline, at the same size. All 84
+gender stars pass independent rendered baseline/font checks. All body and
+source/AI/bibliography composition remains exact; 27 pages, 1,700 body rows.
+Full audits pass; pages 2, 20 and 25 visually checked. P-0276 / W-294;
+native-gender-star-results.json; preview refreshed; no PDF export.
+
+### Five single-word endings on pages 20, 22 and 25 — 8 October 2026
+
+Tim requested more text beside isolated closing words, preferring wider
+tracking; word continuations are acceptable. Local positive bases for
+paragraphs 102 (+17), 105 (+6), 107 (+13), 117 (+11) and 127 (+36 InDesign
+units) retain all row counts and relative ±10 variation. The endings are
+now “zu unterscheiden”, “vorzugt werden”, “terschiedlich ausfiel”,
+“werden können” and “gungen verfügt”. All other body breaks and all
+source/AI/bibliography composition remain. Full audits pass: 27 pages,
+1,700 body rows; all three pages visually checked. P-0275 / W-293;
+single-word-ending-results.json; preview refreshed; no PDF export.
+
+### Keep “erfüllt ist” in page 14's left column — 8 October 2026
+
+Tim requested pulling paragraph 65's closing row back from the right column.
+Paragraph 63 now uses −17 InDesign units with relative ±10 variation, saving
+one row (10 instead of 11) while ending with the complete word “Reformulierung”.
+Paragraph 65 remains unchanged and fits wholly in the left column; the right
+column starts with “Bei Suchergebnissen …”. All other horizontal breaks and
+all source/AI/bibliography composition remain. Full audits pass: 27 pages,
+1,700 body rows; pages 14–15 visually checked. P-0274 / W-292;
+erfuellt-column-results.json; preview refreshed; no PDF export.
+
+### Authorised proofreading and six paragraph endings — 8 October 2026
+
+Tim approved the proofreading corrections except the wording “Eine sachliche
+Aufforderung …” and substantive changes to the introduction. Corrected
+“digitalen Systemen” in paragraph 1, the stray closing quotation mark in
+paragraph 71 and the duplicate period at paragraph 111's source call.
+Six local tracking bases remove isolated word continuations at the endings
+of paragraphs 6, 63, 88, 92, 110 and 111. All other body breaks and all
+source/AI/bibliography lines remain. The current preview has 27 pages and
+1,701 body rows. Full browser/source/bibliography/AI-reference audits pass;
+pages 2, 14, 15, 18, 19 and 21 visually checked. Original Pages and plugin
+unchanged. P-0273 / W-291; proofreading-results.json; no PDF export.
+
+### Opening User message omitted from the visible AI documentation — 8 October 2026
+
+Tim requested removing his first User message. The visible HTML/print edition
+omits CGPT-01 canonical lines 7–20 and its heading; no curated thesis citation
+uses those lines. Original archives and historical LaTeX/PDF remain intact.
+The following System reply starts at visible line 1. All retained rows/styles
+remain; documentation has 383 pages. All 343 thesis references and 686 visible
+endpoints pass after numeric-label refresh. Existing body/source/bibliography
+composition stays exact, with 27 thesis pages. A later quoted repetition is
+unchanged pending Tim's answer. P-0272 / W-290; previews refreshed; no PDF export.
+
+### At least one complete word at each subchapter ending — 7 October 2026
+
+Tim additionally requested a complete word in the final body row of each
+subchapter. The local adapter rejects endings consisting only of a word
+fragment; a fragment accompanied by another complete word is allowed.
+Source labels and punctuation do not count. The existing indent-plus-three
+minimum remains. All 13 subchapter endings pass an independent check against
+whole-word spans in the unbroken manuscript. Only paragraph 62 reflows,
+ending with “vorschlagen” instead of “schlagen”; its 11 rows remain.
+The current 27-page edition retains 1,704 body rows, all prior tracking/glyph
+bounds, annotation/bibliography lines and links. Full audits and page 14 visual
+check pass. P-0270 / W-288; preview refreshed; no PDF export.
+
+### Minimum width for every paragraph ending — 7 October 2026
+
+Tim requested a general closing-line minimum: normal paragraph indent
+plus three character advances. With the current four-character indent,
+this is seven loaded Arketa advances (about 60.65 CSS px at 10 pt).
+It applies even where the opening indent is suppressed; small source
+labels are excluded from the body-text width. The local body adapter
+rejects short closing candidates, and all 127 printed paragraph endings
+pass independent DOM measurement. Sixteen paragraphs reflow; the current
+27-page edition has 1,704 body rows. Existing tracking bases,
+variation ranges and glyph-scale bounds remain; paragraph 88 uses the
+existing 40 px ragged retry. Source/AI/bibliography lines, text and links
+remain, and all full audits pass. Example page 11 visually checked.
+P-0269 / W-287; preview refreshed; no PDF export.
+
+### Paragraph 109 without an isolated final word — 7 October 2026
+
+Tim requested pulling “gilt.” into the preceding row. A −4 InDesign-unit
+base with relative ±10 variation gives paragraph 109 17 instead of 18 rows,
+ending “als geeignet oder erwünscht gilt.”. This is the first successful
+negative integer base tested that saves a full row. Only this paragraph's
+horizontal breaks changed; all other body breaks, annotation/bibliography
+lines, text and links remain. The current shared 27-page edition has
+1,708 body rows and passes full browser/source/bibliography checks.
+Current page 21 visually checked; proof: gilt-paragraph-tracking-results.json.
+P-0268 / W-286; preview refreshed; no PDF export.
+
+### FTC paragraph with a complete final word — 7 October 2026
+
+Tim requested a tracking adjustment to remove the isolated “den.” after
+“wer-” in paragraph 116. A −16 InDesign-unit base, with the existing relative
+±10 variation, produces 17 instead of 18 rows and closes with
+“Daten anschließend verwendet werden.”. It is the smallest successful
+negative integer adjustment tested. Source-call spacing accounts for the
+row's tracking; text, font size and glyph-scale limits remain. Concurrent
+paragraph 38/41 settings were retained. Current shared 27-page edition
+has 1,709 body rows; full browser/source/bibliography audits pass.
+Current page 22 visually checked; proof: ftc-paragraph-tracking-results.json.
+P-0267 / W-285; preview refreshed; no PDF export.
+
+### Keep thesis documentation references synchronized — 7 October 2026
+
+Tim reported mismatched page/line notices. Every thesis composition now
+refreshes all 15 notices from the current printed documentation, even when
+using an already captured manuscript. Links include its edition identifier;
+the documentation preview fetches its catalog, positions and pages without
+stale cache entries. Its 383-page edition retains the existing layout.
+All 343 printed labels and 686 visible start/end rows pass a direct browser
+audit, including an actual thesis link to page 5, row 942. The existing
+numeric labels were already current; no concrete mismatch was reproduced.
+All previous line texts/breaks remain. Current shared thesis: 28 pages;
+full layout/documentation/source/bibliography checks pass. P-0265 / W-283;
+preview refreshed, no PDF export.
+
+### Annotation separator only within the same column — 7 October 2026
+
+Tim requested no stars or surrounding blank rows when annotations start in
+a new physical column or page. Pagination now removes that opening separator
+and preserves the observed column break, with zero leading margin. All 15
+section endings pass: 14 retain their separator; Schluss begins directly
+at the top of page 26’s right column. All text and horizontal breaks are
+unchanged, and all 36 bibliography entries still fit on one content page.
+The current shared edition has 28 pages and passes full browser/source/
+bibliography checks. Visual proof: annotation-column-start-no-separator.png.
+P-0266 / W-284; preview refreshed; no PDF export.
+
+### Citation and AI notices at 1.2 leading — 7 October 2026
+
+Tim requested 1.2 line spacing for the printed citation and AI notices. At
+6 pt this is 7.2 pt (2.54 mm). Both annotation classes now share this independent
+small raster; the following body text returns to the retained 59-row body
+grid through the measured final gap. Sources at a new column have no leading
+blank row. The 10 pt page counters remain at 8 mm from the bottom edge.
+All final browser/source/bibliography checks pass in the current shared
+27-page edition, including unchanged annotation words, links and horizontal
+breaks. The current 10 pt body had restored the flagged lone “be.” in
+paragraph 74; a −0.002 em base with relative ±0.01 em variation now closes
+that paragraph with the whole word “Eingabe.”, confirmed on page 17.
+P-0264 / W-282; refreshed HTML preview; no PDF export.
+
+### Fit the complete bibliography on one content page — 7 October 2026
+
+Tim requested tracking adjustments to fit all bibliography entries on one
+page. The bibliography uses a −15/1000 em base with the existing ±10/1000 em
+variation (−25 to −5 InDesign units). Closing rows and necessary short fallback
+rows retain natural tracking. All 36 complete entries fit on page 27 in 162
+rows; 6 pt type, leading, entry spacing and glyph scaling remain. Full text,
+links, source/grid, hyphenation and bibliography checks pass; page visually
+checked. Concurrent paragraph-tracking settings were retained. P-0264 / W-282;
+browser updated, no PDF export.
+
+### Let body endings finish before following annotations — 7 October 2026
+
+Tim identified an isolated “sind.” on the following page despite an available
+body row. The annotation separator had `break-before: avoid`, keeping it with
+the last body line. It now uses `auto`. A controlled boundary case with the
+actual paragraph reproduces the old move and confirms that the closing word
+stays in the final available row while the separator and notes start on the
+next page. The current combined 29-page edition passes full text/link/grid,
+hyphenation, source-outline and bibliography checks; paragraph 122 closes
+on page 24 in the live preview. No tracking or text change. P-0263 / W-281;
+no PDF export.
+
+### Avoid isolated final word fragments — 7 October 2026
+
+Tim wants paragraph-level tracking adjustments for endings such as an isolated
+“be.” after “Einga-”. Recompose the affected paragraph around its adjusted base
+and check the ending. Paragraph 74 (“Dabei lassen sich”) already ends cleanly
+with “ständigen technischen Eingabe.” in the latest edition, confirmed on page
+17 in the live browser. No extra tracking or layout edit was necessary here.
+P-0262 / W-280.
+
+### Sources without a leading blank row at page or column starts — 7 October 2026
+
+Tim requested no extra blank row before sources that begin on a new page.
+Source margins are now discarded at physical page/column boundaries; the
+small AI-to-source separator remains within a column. The current 28-page
+edition has two checked openings on pages 5 and 11, both on the first body
+baseline with zero leading margin. Full text, links, grid, source outlines,
+footer, hyphenation and bibliography checks pass; the live preview agrees.
+Frozen HTML versions its stylesheet URL to refresh cached print styles.
+P-0260 / W-278; no PDF export.
+
+### Tracking-based manual break correction — 7 October 2026
+
+For an awkward page break, Tim wants to try a small increase in the page's
+base tracking, recompose the ragged text around that new base, and inspect
+the page and its continuation. A single-line increase is a final refinement.
+Plus five is provisionally +5/1000 em; the current ±10/1000 em variation stays
+relative to the base (−5 to +15/1000 em in that example). The unit was asked
+for clarification. This is a manual correction workflow; no automatic
+page-optimization feature or extra tracking has been applied to the current
+verified edition. Vertical baseline grid and established typography remain.
+P-0256 / W-274.
+
+### Fill thesis columns before preventing a lone closing line — 7 October 2026
+
+Tim prefers a full type area to keeping two closing paragraph lines together.
+Body widows are now one; paragraph openings retain two-line protection.
+Page 7 has matching column bottoms within 0.0083 mm, with only the
+closing line of the paragraph continuing on page 8. All previous 1,695 body
+lines and breaks are preserved; current pagination is 28 pages. Full text,
+source/AI links, grid, footer, hyphenation, source and bibliography checks pass.
+The preview's internal fragment navigation is verified after cache refresh.
+P-0255 / W-273; no PDF export.
+
+### Flush-left thesis column openings — 7 October 2026
+
+Tim requested no paragraph indent at the beginning of a physical column.
+The final pagination determines which opening lines become flush left;
+normal paragraph indents within a column remain. All 112 positions pass
+in the checked 29-page edition (four suppressed, 108 retained). The reference
+paragraph on page 6 is visually verified. The browser loader now refreshes
+the frozen document on each reload to avoid stale layouts.
+P-0254 / W-272; no PDF export.
+
+### Duplex AI documentation — 7 October 2026
+
+Tim requested double-sided printing with mirrored binding margins. The AI
+browser and fully loaded print editions now use 30 mm inside and 8 mm outside:
+odd pages 30 mm left / 8 mm right, even pages 8 mm left / 30 mm right.
+The 10 pt footer follows the mirrored frame. Global page numbers determine
+parity across all archives and lazy loading. All 383 page HTML hashes and
+page/line/target mappings are unchanged; text remains 6 pt in the prior two
+columns. All text/archive/target checks, 66 geometries, 383 print sides and
+browser navigation pass; pages 2–3 visually reviewed. P-0250 / W-268; no main
+thesis edit, PDF export or physical print. Use duplex on the long edge.
+
+### More regular long–short thesis rhythm — 7 October 2026
+
+Tim retained the 10 percent ragged zone and requested less organic variation
+around the alternating long–short rhythm. Both variances now use 1 percent
+instead of 2 percent: long targets 99–100 percent, short targets 90–91 percent.
+The three-division maximum and existing tracking/scaling remain. Complete
+text/link/grid, source-outline and bibliography audits pass for 28 pages:
+1,688 body, 99 source, 230 AI-notice and 164 bibliography rows. Only the existing
+source/AI overflow exceptions use wider zones. Pages 4 and 7 visually checked;
+preview refreshed. Original plugin and manuscript hashes remain unchanged.
+P-0246 / W-264. No PDF export.
+
+### Restore three consecutive word divisions — 6 October 2026
+
+Tim reverted the maximum to three (`maxHyphens: 3`). All 163 rendered
+body/bibliography paragraphs comply. The 28-page edition has 1,691 body rows,
+all within the regular 10 percent zone; source/AI exceptions retain 40/36 px.
+Complete text/link/grid and bibliography checks pass. Concurrent annotation
+layout is retained. This supersedes the two-division setting below.
+P-0242 / W-260. No PDF export.
+
+### Two consecutive word divisions — 6 October 2026
+
+Tim requested a maximum of two consecutive hyphen-ending lines. The thesis
+embedding uses `maxHyphens: 2` and checks rendered line endings, including existing
+compound hyphens, because the plugin fallback can otherwise exceed its limit.
+All 163 body/bibliography paragraphs comply. Four narrow body paragraphs use
+36–48 px zones to maintain the rule; one source uses 40 px and one AI notice 36 px
+against overflows. The regular zone remains 10 percent; tracking/scaling and
+minimum two-character prefixes/suffixes remain unchanged. The current 28-page
+browser edition has 1,689 body rows and passes complete text/link/grid, source and
+bibliography checks. Concurrent annotation-flow updates are preserved. Page 7
+visually checked; original plugin/Pages hashes unchanged. P-0241 / W-259.
+No PDF export.
+
+### Organic thesis ragged-right profile — 6 October 2026
+
+Tim approved a regular 10 percent column-relative zone, with irregular alternating
+long targets at 98–100 percent and short targets at 90–92 percent. Tracking remains
+−0.01 to +0.01 em and horizontal glyph scaling 98–102 percent. The embedding
+converts percentages to actual column pixels before calling the unchanged plugin;
+body, annotations and bibliography share the profile. One source paragraph and one
+AI notice retain a 48 px feasibility fallback beyond the regular 10 percent zone.
+Reflow preserves complete sources, four-row AI continuations and optically centered
+star separators. The complete 28-page browser edition passes all prose/link/grid,
+source-outline and bibliography checks: 1,691 body, 99 source, 229 AI-notice and
+165 bibliography rows. Representative pages 2, 4 and 11 visually checked. Original
+Pages/plugin hashes remain unchanged. P-0240 / W-258. No PDF export.
+
+### Six-point thesis annotations and page numbers — 6 October 2026
+
+Tim requested 6 pt for scholarly sources, inline bracket labels and page
+numbers. Thesis AI notices also use 6 pt under the annotation scope; the
+bibliography was already 6 pt. The selected 9.793 pt source/notice leading
+remains three quarters of body leading (163.2 percent of the new size).
+Native case brackets, measured centering and optical gaps remain; the footer
+correction keeps page-number boxes 8 mm above the paper bottom. All 89 pairs,
+full prose/source/notice text, links, grid/gaps and source contours pass.
+The current browser edition has 31 pages, 1,696 body rows, 98 source rows and
+454 AI-notice rows. P-0232 / W-250; CDX-06. No PDF export.
+
+### Literature and source bibliography — 6 October 2026
+
+Tim requested a bibliography after the conclusion, preceded by a separate title
+page in the existing centered, tracked uppercase style. The browser edition now
+includes all 35 cited works once plus the accompanying AI documentation, sorted
+alphabetically, in Arketa 6 pt with the AI-documentation leading (281 mm / 102),
+two 83.5 mm columns, 5 mm gap and the established A4 margins. Complete entries
+come from the existing Zotero export and supplemental project records; DOI/URL
+and documentation links remain clickable. Undated snapshots retain “o. J.”
+and their saved date. Citation style remains a project choice, not an asserted
+institutional requirement. The initial bibliography fit one page and followed its title
+page with continuous numbering; its full text, unique key coverage, links and
+geometry pass. P-0221 / W-239; CDX-08. Browser update only, no PDF export.
+
+The follow-up identifies the documented AI use, ChatGPT/Codex (OpenAI), and
+six exact provider/runtime model identifiers from model-register.json.
+CGPT-01–04 have no preserved model metadata and are explicitly marked.
+The April 2025 HFBK AI guideline requires the documentation in the bibliography;
+it does not explicitly require a model list. That list adds transparency and
+does not replace passage-level page/line references. The expanded bibliography
+flows over two pages with the same type, columns, spacing and footer. Historical
+AI archive texts and page/line numbering remain unchanged. All entries, links,
+geometry and the current combined manuscript/grid audit pass. P-0233 / W-251.
+No PDF export.
+
+The bibliography title is now English, “Bibliography”, in both the main HTML
+edition and the separate A6 leaf; the retained LaTeX source uses the same label. P-0236 / W-254.
+
+### Separate A6 title and chapter leaves — 6 October 2026
+
+Tim selected portrait A6, 105 × 148 mm, vertically centered and bound flush
+left on the A4 carrier. This leaves 8.5 mm / about 10.2 percent of the first
+text column visible. The separate thesis/chapter-sheets template contains
+Input with Tim Ballaschke, Surface, Interaction, Operation, Conclusion,
+Bibliography, KI-Dokumentation and a blank final leaf for later reverse design.
+No introduction leaf. Arketa 10 pt matches the main setting. Tim defines single tracking
+as one space between letters, measured as 0.65 em in Arketa. Tim removed
+the trial chapter overview. INPUT now stands alone vertically centered,
+aligned exactly like Surface, Interaction and Operation. It retains 2.6 em
+tracking, corresponding to four Arketa spaces. Tim Ballaschke now uses normal
+capitalization without tracking and stands alone at the bottom of the front.
+Matr.-Nr. 2455025 stands on the reverse at exactly the same height, in the
+mirrored binding-safe frame. Both line boxes end 6 mm above the lower edge;
+browser verifies zero height difference. Arketa 10 pt, no tracking.
+The upper MASTER THESIS line remains removed. No star rows. The crop-mark
+PDF was regenerated and all 16 rendered pages checked.
+The eight leaves have nine visible faces. Separate print choices retain
+eight front pages or select only the two title faces for long-edge duplex.
+Text, font, fit, geometry and DOM print order pass; native dialog page counts
+remain unverified. P-0252 / W-270; paired proof saved; no PDF export or print job.
+His university wording remains pending clarification; no university line
+is added yet.
+The separate chapter leaves retain single tracking and no star rows.
+The main document's star rows remain independent.
+Real-font, dimension and fit checks pass; the initial seven-page print preview
+was checked before the eighth leaf was added. Physical A6 printing and the
+precise hole scheme remain unconfirmed. Formal metadata
+on the title reverse is recommended; no specific HFBK title-page checklist
+was found in the checked public documents. P-0222 / W-240; CDX-09.
+Main preview remains separate; the explicitly requested A6 PDF export is recorded below.
+
+On 7 October Tim added an eighth A6 leaf for KI-Dokumentation after
+Bibliography. The heading is split as KI- / DOKUMENTATION, preserving the
+10 pt font, 0.65 em tracking and binding-safe frame. Since 8 October, the lower DOKUMENTATION line is centered at the same
+height as the single-line chapter headings; KI- stands one baseline above.
+Browser comparison to Surface differs by less than 0.001 mm.
+
+On 7 October Tim explicitly requested a PDF with crop marks. The finished
+output/pdf/input-a6-schnittmarken.pdf has 16 A4 faces for eight A6 leaves,
+including the title reverse and blank other reverses. Crop marks are outside
+the centered 105 × 148 mm trim area; media boxes are exact A4, trim boxes
+exact A6. All text/order, embedded Arketa, font size, marks and geometry
+pass; all 16 rendered pages visually reviewed. Print A4 at 100%, duplex
+on the long edge, then trim to the marks. Reusable export builder and
+hash-based QA record saved. P-0257 / W-275; no physical print or main-thesis edit.
+
+### Native case-sensitive source brackets — 6 October 2026
+
+Tim accepted Arketa's native case-sensitive brackets. Both body calls and
+source labels now use OpenType case at 7 pt. Canvas measurements use an alias
+of the same font with the feature active, retaining the actual glyph widths,
+balanced horizontal gaps and whole-label centering. All 89 pairs pass;
+maximum center error is 0.005 mm and gap difference is 0.039 mm. Body and
+scholarly-source wrapping remain unchanged. Oversized AI/source blocks can
+break between their parts; long AI notices continue only at four-row
+boundaries to preserve the grid. The complete combined browser audit passes
+on 36 pages, including parallel extended AI references and bibliography work.
+P-0220 / W-238; CDX-06. No PDF export or commit.
+
+### Balanced optical gaps around inline source calls — 6 October 2026
+
+Tim requires the visible gap before each inline bracket label to match the
+gap from the closing bracket to the following period. Arketa contour
+measurements determine a per-call margin, which is reserved before line
+breaking. All 89 calls pass the rendered comparison; maximum gap difference
+is 0.039 mm. Their 7 pt size, vertical centering, links and the complete
+manuscript/grid audit pass on 28 pages. P-0219 / W-237; CDX-06.
+Browser update only; no PDF export.
+
+### AI documentation in ragged-right setting — 6 October 2026
+
+Tim requested the AI documentation in Flattersatz. The existing contour adapter
+remains active; the original plugin now uses `mode: 'ragged'` with a 28 CSS-pixel
+zone and unstretched word spaces. User/System labels and the 10% User inset
+are preserved. The 383-page edition retains all 34 archive texts/checksums,
+57,439 canonical references, 2,450 headers and 2,665 register candidates.
+The 65-page geometry sample checks 6,496 ordinary prose edges, including
+3,799 visibly inset rows, with maximum right overhang 0.039 CSS px. Browser
+navigation and the fully loaded 383-page print HTML pass. The thesis's
+13 AI notices now contain 789 printed ranges across 387 notice rows.
+The current combined 28-page thesis passes the full prose, link and grid
+audit; concurrent inline-call and source-Flattersatz changes are preserved.
+P-0218 / W-236; CDX-07. Browser update only; no PDF export.
+
+### Inline source calls without leading space — 6 October 2026
+
+Tim requires the inline source calls to attach directly to the preceding word:
+Text[01]. All 89 calls pass with no leading whitespace or detached line-start
+call. The 7 pt size, glyph centering and reciprocal source links remain; full
+manuscript prose and the shared baseline/gap checks pass. The current combined
+browser edition has 28 pages. P-0217 / W-235; CDX-06. No PDF export.
+
+### Bracketed inline source calls — 6 October 2026
+
+Tim requested body source calls matching the source labels: [01]–[89] in
+Arketa 7 pt, with glyph ink centered vertically within the fixed body row.
+A local body-composer adapter reserves each complete label at its actual
+7 pt width before line breaking. Original plugin and Pages files remain
+unchanged; the canonical IDs and reciprocal links remain. All 89 label pairs,
+font sizes, indivisible calls and links pass. Maximum center error is
+0.004 mm. Current combined edition retains 28 pages (already 28 after the
+parallel AI-notice addition), with 1,702 body lines, 109 source lines and
+13 AI notices. Full body prose and all source/notice text pass. P-0215 /
+W-233; CDX-06. Browser update only; no PDF export.
+
+### AI documentation contour alignment — 6 October 2026
+
+Tim requested the same Arketa contour alignment in the AI documentation.
+It now reuses the thesis-source adapter with `opticalMargin: true`, measuring
+all edge glyphs relative to H at 64 times the 6 pt size and retaining fractional
+text width. The rebuilt edition has 368 pages (previously 369), 70,003 numbered
+physical rows and 57,439 stable canonical archive-line targets. All 34 archive
+checksums, texts, 2,437 compact headers and 2,665 register candidates pass.
+The 64-page geometry/edge sample checks 6,515 justified prose rows with maximum
+right-edge error 0.029 CSS px / 0.008 mm; the fully loaded print HTML also passes.
+The thesis's 13 AI notices now contain 744 current printed ranges; its body
+and scholarly-source composition remain intact on 28 pages. P-0216 / W-234,
+CDX-07. Browser update only; no PDF export.
+
+### AI documentation User inset and System labels — 6 October 2026
+
+Tim requested all User paragraphs indented by 10% of the usable text width,
+with light-grey User/System headings. User headings follow the same inset;
+line numbers retain their gutter and the right edge stays aligned. System is
+the display label for assistant replies; original roles and texts remain intact.
+The first four supplied imports receive 13 separately documented editorial
+speaker headers. Unclassified draft/feedback material remains unclassified.
+The 375-page edition passes all 34 archive hashes, 57,439 canonical line
+references, 2,450 headings and 2,665 candidate targets; 64 page geometries and
+browser/print navigation pass. The thesis notices now use 755 current ranges.
+P-0217 / W-235; CDX-08 outside the historical edition. No PDF export.
+
+### Dynamic gap after thesis sources — 6 October 2026
+
+Tim requires the following-subsection gap to increase only. The fractional
+grid correction now sits in that gap, with six body rows as the minimum
+and an added 0–0.75 row to reach the next baseline. Source leading remains
+three quarters of body leading. All 13 gaps and following headings pass
+the current combined-layout checks, retaining 24 pages, 1,700 body rows and
+89 sources/return links. A parallel source optical-margin change is preserved;
+the current source wrapping has 109 rows. P-0212 / W-230; CDX-06. No PDF export.
+
+### Thesis source contour alignment — 6 October 2026
+
+Tim requested a straighter visible right edge for justified Arketa sources.
+A source-only plugin variant now measures actual glyph contours relative to
+H's normal sidebearing, at 64 times the source size, and retains fractional
+column width. The original plugin file and body composition remain unchanged.
+All 13 source blocks pass the rendered contour audit: 96 justified rows,
+maximum right-edge deviation 0.084 CSS px / 0.022 mm, natural paragraph endings.
+This snapshot has 24 pages, 1,700 unchanged body lines and 109 source lines
+(previously 108); all 89 scholarly source/return links and source text pass.
+The source baseline/gap arrangement is retained. P-0213 / W-231, CDX-07.
+Browser update only; no PDF export.
+
+### Thesis source baseline grid — 6 October 2026
+
+Tim selected source leading at three quarters of the body leading: 9.793 pt
+for 7 pt sources, against unchanged Arketa 10 pt / 13.058 pt body text.
+The first and every fourth source baseline align with the body grid; source
+blocks occupy whole body rows through a final fractional-row adjustment,
+followed by the existing six blank body rows. All 13 source blocks, 1,700 body
+lines, 108 source lines and 89 links pass, with all composed line text retained
+on 24 pages. The left and right last lines on page 05 now align within 0.005 mm.
+Maximum displayed grid deviation is below 0.05 mm, including renderer rounding.
+P-0211 / W-229. Current technical chat: CDX-06, outside the historical AI browser
+edition. No PDF export.
+
 ### AI documentation grey labels - 5 October 2026
 
 Tim requested 30% grey (70% brightness) for line numbers and message headers.
@@ -1041,6 +1569,7 @@ communication.
 - The documentation must be submitted with the thesis.
 - Text adopted verbatim or in paraphrase from an AI tool must be cited with page and line references to the documentation.
 - The AI documentation must be included in the bibliography.
+- The April 2025 HFBK guideline does not explicitly require model/version metadata; the project additionally records the preserved model identifiers and their limits.
 - AI-assisted translations must identify both the primary source and the AI tool and its use.
 - Responsibility for arguments, statements, translations, quotations and references remains with the author.
 
